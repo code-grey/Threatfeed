@@ -1,0 +1,67 @@
+name: Backup Articles CSV
+
+on:
+  schedule:
+    # Runs at 2:00 AM UTC every day
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch articles.csv from service
+        run: |
+          # Fetch articles.csv from the deployed service with timeout and size limits
+          # Max 100MB file size, 60 second timeout
+          curl -f --max-filesize 104857600 --max-time 60 -o news-api/articles.csv "${{ secrets.APP_URL }}/export/csv" || {
+            echo "Failed to fetch articles.csv from service"
+            exit 1
+          }
+          
+          # Verify the file is not empty and has valid CSV headers
+          if [ ! -s news-api/articles.csv ]; then
+            echo "Downloaded file is empty"
+            exit 1
+          fi
+          
+          # Check for expected CSV header format
+          EXPECTED_HEADER="Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category"
+          ACTUAL_HEADER=$(head -1 news-api/articles.csv)
+          if [ "$ACTUAL_HEADER" != "$EXPECTED_HEADER" ]; then
+            echo "Invalid CSV format - unexpected header"
+            echo "Expected: $EXPECTED_HEADER"
+            echo "Got: $ACTUAL_HEADER"
+            exit 1
+          fi
+          
+          # Validate file has at least one data row (header + data)
+          LINE_COUNT=$(wc -l < news-api/articles.csv)
+          if [ "$LINE_COUNT" -lt 2 ]; then
+            echo "CSV file has no data rows"
+            exit 1
+          fi
+          
+          echo "Successfully downloaded articles.csv with $LINE_COUNT lines"
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add news-api/articles.csv
+          
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: backup articles.csv $(date -u +%Y-%m-%d)"
+            git push
+            echo "Successfully committed and pushed articles.csv backup"
+          fi
