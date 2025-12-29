@@ -1,12 +1,15 @@
 package db
 
 import (
+	"os"
+	"path/filepath"
 	"testing"
 	"time"
 
 	"news-api/models"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 // setupTestDB is a helper to initialize a clean in-memory database for testing.
@@ -196,4 +199,136 @@ func TestGetTodayThreatScoreLevels(t *testing.T) {
 			assert.Equal(t, tc.expectedLevel, score.ThreatLevel)
 		})
 	}
+}
+
+func TestGetArticleCount(t *testing.T) {
+	setupTestDB(t)
+	defer teardownTestDB()
+
+	// Initially, the count should be 0
+	count, err := GetArticleCount()
+	require.NoError(t, err)
+	assert.Equal(t, 0, count)
+
+	// Insert some articles
+	articles := []models.NewsArticle{
+		{Title: "t1", URL: "u1", PublishedAt: time.Now(), Rank: 5, Category: "Cybersecurity"},
+		{Title: "t2", URL: "u2", PublishedAt: time.Now(), Rank: 3, Category: "Tech"},
+		{Title: "t3", URL: "u3", PublishedAt: time.Now(), Rank: 1, Category: "General"},
+	}
+
+	for _, article := range articles {
+		err := InsertArticle(article)
+		require.NoError(t, err)
+	}
+
+	// Now the count should be 3
+	count, err = GetArticleCount()
+	require.NoError(t, err)
+	assert.Equal(t, 3, count)
+}
+
+func TestLoadArticlesFromCSV(t *testing.T) {
+	setupTestDB(t)
+	defer teardownTestDB()
+
+	// Create a temporary CSV file
+	tmpDir := t.TempDir()
+	csvPath := filepath.Join(tmpDir, "test_articles.csv")
+
+	csvContent := `Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Test Article 1,Description for article 1,https://img.example.com/1.jpg,https://example.com/1,https://source.example.com,2024-01-15T10:30:00Z,5,Cybersecurity
+Test Article 2,Description for article 2,https://img.example.com/2.jpg,https://example.com/2,https://source.example.com,2024-01-16T11:30:00Z,3,Tech
+Test Article 3,Description for article 3,,https://example.com/3,https://source.example.com,2024-01-17T12:30:00Z,1,General
+`
+	err := os.WriteFile(csvPath, []byte(csvContent), 0644)
+	require.NoError(t, err)
+
+	// Initially, the count should be 0
+	count, err := GetArticleCount()
+	require.NoError(t, err)
+	assert.Equal(t, 0, count)
+
+	// Load articles from CSV
+	err = LoadArticlesFromCSV(csvPath)
+	require.NoError(t, err)
+
+	// Now the count should be 3
+	count, err = GetArticleCount()
+	require.NoError(t, err)
+	assert.Equal(t, 3, count)
+
+	// Verify articles are stored correctly
+	articles, err := GetArticlesFromDB("", "", "", 10, time.Time{}, time.Time{}, "")
+	require.NoError(t, err)
+	assert.Len(t, articles, 3)
+
+	// Verify the first article
+	found := false
+	for _, a := range articles {
+		if a.Title == "Test Article 1" {
+			assert.Equal(t, "Description for article 1", a.Description)
+			assert.Equal(t, "https://img.example.com/1.jpg", a.ImageURL)
+			assert.Equal(t, "https://example.com/1", a.URL)
+			assert.Equal(t, 5, a.Rank)
+			assert.Equal(t, "Cybersecurity", a.Category)
+			found = true
+			break
+		}
+	}
+	assert.True(t, found, "Test Article 1 should be found in the database")
+}
+
+func TestLoadArticlesFromCSV_FileNotFound(t *testing.T) {
+	setupTestDB(t)
+	defer teardownTestDB()
+
+	err := LoadArticlesFromCSV("/nonexistent/path/to/file.csv")
+	assert.Error(t, err)
+	assert.Contains(t, err.Error(), "failed to open CSV file")
+}
+
+func TestLoadArticlesFromCSV_InvalidFormat(t *testing.T) {
+	setupTestDB(t)
+	defer teardownTestDB()
+
+	// Create a temporary CSV file with invalid format
+	tmpDir := t.TempDir()
+	csvPath := filepath.Join(tmpDir, "invalid_articles.csv")
+
+	// Only 3 columns instead of 8
+	csvContent := `Col1,Col2,Col3
+val1,val2,val3
+`
+	err := os.WriteFile(csvPath, []byte(csvContent), 0644)
+	require.NoError(t, err)
+
+	err = LoadArticlesFromCSV(csvPath)
+	assert.Error(t, err)
+	assert.Contains(t, err.Error(), "invalid CSV header")
+}
+
+func TestLoadArticlesFromCSV_DuplicateArticles(t *testing.T) {
+	setupTestDB(t)
+	defer teardownTestDB()
+
+	// Create a temporary CSV file with duplicate URLs
+	tmpDir := t.TempDir()
+	csvPath := filepath.Join(tmpDir, "duplicate_articles.csv")
+
+	csvContent := `Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Test Article 1,Description 1,,https://example.com/1,https://source.example.com,2024-01-15T10:30:00Z,5,Cybersecurity
+Test Article 1 Duplicate,Description 2,,https://example.com/1,https://source.example.com,2024-01-16T11:30:00Z,3,Tech
+`
+	err := os.WriteFile(csvPath, []byte(csvContent), 0644)
+	require.NoError(t, err)
+
+	// Load articles from CSV
+	err = LoadArticlesFromCSV(csvPath)
+	require.NoError(t, err)
+
+	// Only 1 article should be inserted due to unique URL constraint
+	count, err := GetArticleCount()
+	require.NoError(t, err)
+	assert.Equal(t, 1, count)
 }

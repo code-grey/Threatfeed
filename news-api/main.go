@@ -52,6 +52,24 @@ func main() {
 	if err := db.InitDB("./news.db"); err != nil {
 		log.Fatalf("Failed to initialize database: %v", err)
 	}
+
+	// Check if we need to restore from CSV backup
+	count, err := db.GetArticleCount()
+	if err != nil {
+		log.Printf("Warning: Failed to get article count: %v", err)
+	} else if count == 0 {
+		// Database is empty, try to load from CSV backup
+		csvPath := "./articles.csv"
+		if _, err := os.Stat(csvPath); err == nil {
+			log.Println("Database is empty, loading articles from CSV backup...")
+			if err := db.LoadArticlesFromCSV(csvPath); err != nil {
+				log.Printf("Warning: Failed to load articles from CSV: %v", err)
+			}
+		} else {
+			log.Println("No CSV backup file found, starting with empty database.")
+		}
+	}
+
 	// Start the background caching job
 	db.StartCachingJob(RssSources)
 

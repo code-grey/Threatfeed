@@ -2,10 +2,14 @@ package db
 
 import (
 	"database/sql"
+	"encoding/csv"
 	"fmt"
+	"io"
 	"log"
 	"net"
 	"net/http"
+	"os"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -20,6 +24,10 @@ import (
 
 var db *sql.DB
 var detector lingua.LanguageDetector
+
+// dbMutex protects database write operations to prevent race conditions
+// during CSV import and RSS caching jobs.
+var dbMutex sync.Mutex
 
 func InitDB(dataSourceName string) error {
 	var err error
@@ -107,6 +115,9 @@ func calculateRank(article models.NewsArticle) int {
 }
 
 func InsertArticle(article models.NewsArticle) error {
+	dbMutex.Lock()
+	defer dbMutex.Unlock()
+
 	stmt, err := db.Prepare("INSERT OR IGNORE INTO articles(title, description, imageUrl, url, sourceUrl, publishedAt, rank, category) VALUES(?, ?, ?, ?, ?, ?, ?, ?)")
 	if err != nil {
 		log.Printf("Error preparing insert statement for article %s: %v", article.Title, err)
@@ -429,4 +440,90 @@ func GetAllArticlesStream() (*sql.Rows, error) {
 		return nil, err
 	}
 	return rows, nil
+}
+
+// GetArticleCount returns the number of articles in the database.
+func GetArticleCount() (int, error) {
+	if db == nil {
+		return 0, fmt.Errorf("database connection is nil")
+	}
+	var count int
+	err := db.QueryRow("SELECT COUNT(*) FROM articles").Scan(&count)
+	return count, err
+}
+
+// LoadArticlesFromCSV loads articles from a CSV file into the database.
+// This function is used to restore articles after a service restart.
+// It uses a mutex to prevent race conditions with the caching job.
+func LoadArticlesFromCSV(filePath string) error {
+	dbMutex.Lock()
+	defer dbMutex.Unlock()
+
+	file, err := os.Open(filePath)
+	if err != nil {
+		return fmt.Errorf("failed to open CSV file: %v", err)
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+
+	// Read and skip the header row
+	header, err := reader.Read()
+	if err != nil {
+		return fmt.Errorf("failed to read CSV header: %v", err)
+	}
+
+	// Validate header format
+	expectedHeaders := []string{"Title", "Description", "ImageURL", "URL", "SourceURL", "PublishedAt", "Rank", "Category"}
+	if len(header) != len(expectedHeaders) {
+		return fmt.Errorf("invalid CSV header: expected %d columns, got %d", len(expectedHeaders), len(header))
+	}
+
+	// Prepare the insert statement
+	stmt, err := db.Prepare("INSERT OR IGNORE INTO articles(title, description, imageUrl, url, sourceUrl, publishedAt, rank, category) VALUES(?, ?, ?, ?, ?, ?, ?, ?)")
+	if err != nil {
+		return fmt.Errorf("failed to prepare insert statement: %v", err)
+	}
+	defer stmt.Close()
+
+	importedCount := 0
+	for {
+		record, err := reader.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			log.Printf("Error reading CSV record: %v", err)
+			continue
+		}
+
+		if len(record) != 8 {
+			log.Printf("Skipping invalid record with %d columns", len(record))
+			continue
+		}
+
+		// Parse published date
+		publishedAt, err := time.Parse(time.RFC3339, record[5])
+		if err != nil {
+			log.Printf("Error parsing date for article %s: %v", record[0], err)
+			publishedAt = time.Now()
+		}
+
+		// Parse rank
+		rank, err := strconv.Atoi(record[6])
+		if err != nil {
+			log.Printf("Error parsing rank for article %s: %v", record[0], err)
+			rank = 0
+		}
+
+		_, err = stmt.Exec(record[0], record[1], record[2], record[3], record[4], publishedAt, rank, record[7])
+		if err != nil {
+			log.Printf("Error inserting article from CSV: %v", err)
+			continue
+		}
+		importedCount++
+	}
+
+	log.Printf("Loaded %d articles from CSV file: %s", importedCount, filePath)
+	return nil
 }
