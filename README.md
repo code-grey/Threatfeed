@@ -8,6 +8,7 @@ Tired of hopping between different news sites to get your daily dose of cybersec
 *   **Keyword-Based Ranking:** Articles are automatically ranked based on important cybersecurity keywords, so you can see what's most relevant at a glance.
 *   **Filtering and Sorting:** Customize your news feed by source, date, and rank.
 *   **Simple Web Interface:** A clean and easy-to-use web interface to browse the news.
+*   **Automatic Backup:** Nightly backup of articles to GitHub, with automatic restore on service restart.
 *   **Open Source:** This project is open source, and we welcome contributions from the community.
 
 ## Getting Started
@@ -32,6 +33,35 @@ Want to run the project locally? Here's how to get started:
 
 4.  **Open the web interface:**
     The web interface is located in `news-api/test/index.html`. You can open this file directly in your browser.
+
+## Deployment
+
+### Setting Up Automatic Backups
+
+The project includes a GitHub Actions workflow that backs up articles nightly to prevent data loss on ephemeral hosting platforms like Render.
+
+**Setup steps:**
+
+1. **Add the `APP_URL` secret:**
+   - Go to your GitHub repository
+   - Navigate to **Settings** → **Secrets and variables** → **Actions**
+   - Click **New repository secret**
+   - Name: `APP_URL`
+   - Value: Your deployed service URL (e.g., `https://your-app.onrender.com`)
+
+2. **Trigger the first backup:**
+   - Go to **Actions** → **Backup Articles CSV**
+   - Click **Run workflow** → **Run workflow**
+   - This creates the initial `news-api/articles.csv` backup
+
+3. **Automatic restore:**
+   - When the service restarts with an empty database, it automatically loads articles from the backup CSV
+
+**How it works:**
+- The workflow runs daily at 2:00 AM UTC
+- It fetches articles from your running service via `/export/csv`
+- The CSV is committed to the repository
+- On service restart, if the database is empty, articles are restored from the CSV
 
 ## Contributing
 
