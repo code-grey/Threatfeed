@@ -18,8 +18,9 @@ jobs:
 
       - name: Fetch articles.csv from service
         run: |
-          # Fetch articles.csv from the deployed service
-          curl -f -o news-api/articles.csv "${{ secrets.APP_URL }}/export/csv" || {
+          # Fetch articles.csv from the deployed service with timeout and size limits
+          # Max 50MB file size, 60 second timeout
+          curl -f --max-filesize 52428800 --max-time 60 -o news-api/articles.csv "${{ secrets.APP_URL }}/export/csv" || {
             echo "Failed to fetch articles.csv from service"
             exit 1
           }
@@ -30,13 +31,24 @@ jobs:
             exit 1
           fi
           
-          # Check for expected CSV header
-          if ! head -1 news-api/articles.csv | grep -q "Title,Description"; then
-            echo "Invalid CSV format - missing expected headers"
+          # Check for expected CSV header format
+          EXPECTED_HEADER="Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category"
+          ACTUAL_HEADER=$(head -1 news-api/articles.csv)
+          if [ "$ACTUAL_HEADER" != "$EXPECTED_HEADER" ]; then
+            echo "Invalid CSV format - unexpected header"
+            echo "Expected: $EXPECTED_HEADER"
+            echo "Got: $ACTUAL_HEADER"
             exit 1
           fi
           
-          echo "Successfully downloaded articles.csv with $(wc -l < news-api/articles.csv) lines"
+          # Validate file has at least one data row (header + data)
+          LINE_COUNT=$(wc -l < news-api/articles.csv)
+          if [ "$LINE_COUNT" -lt 2 ]; then
+            echo "CSV file has no data rows"
+            exit 1
+          fi
+          
+          echo "Successfully downloaded articles.csv with $LINE_COUNT lines"
 
       - name: Commit and push if changed
         run: |

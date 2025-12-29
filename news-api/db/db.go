@@ -115,9 +115,6 @@ func calculateRank(article models.NewsArticle) int {
 }
 
 func InsertArticle(article models.NewsArticle) error {
-	dbMutex.Lock()
-	defer dbMutex.Unlock()
-
 	stmt, err := db.Prepare("INSERT OR IGNORE INTO articles(title, description, imageUrl, url, sourceUrl, publishedAt, rank, category) VALUES(?, ?, ?, ?, ?, ?, ?, ?)")
 	if err != nil {
 		log.Printf("Error preparing insert statement for article %s: %v", article.Title, err)
@@ -502,18 +499,18 @@ func LoadArticlesFromCSV(filePath string) error {
 			continue
 		}
 
-		// Parse published date
+		// Parse published date - skip record if date is invalid
 		publishedAt, err := time.Parse(time.RFC3339, record[5])
 		if err != nil {
-			log.Printf("Error parsing date for article %s: %v", record[0], err)
-			publishedAt = time.Now()
+			log.Printf("Skipping article %s: invalid date format: %v", record[0], err)
+			continue
 		}
 
-		// Parse rank
+		// Parse rank - skip record if rank is invalid
 		rank, err := strconv.Atoi(record[6])
 		if err != nil {
-			log.Printf("Error parsing rank for article %s: %v", record[0], err)
-			rank = 0
+			log.Printf("Skipping article %s: invalid rank format: %v", record[0], err)
+			continue
 		}
 
 		_, err = stmt.Exec(record[0], record[1], record[2], record[3], record[4], publishedAt, rank, record[7])

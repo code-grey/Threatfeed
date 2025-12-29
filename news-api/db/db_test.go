@@ -332,3 +332,35 @@ Test Article 1 Duplicate,Description 2,,https://example.com/1,https://source.exa
 	require.NoError(t, err)
 	assert.Equal(t, 1, count)
 }
+
+func TestLoadArticlesFromCSV_InvalidDateRank(t *testing.T) {
+	setupTestDB(t)
+	defer teardownTestDB()
+
+	// Create a temporary CSV file with invalid date and rank values
+	tmpDir := t.TempDir()
+	csvPath := filepath.Join(tmpDir, "invalid_date_rank.csv")
+
+	csvContent := `Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Valid Article,Description,,https://example.com/1,https://source.example.com,2024-01-15T10:30:00Z,5,Cybersecurity
+Invalid Date,Description,,https://example.com/2,https://source.example.com,not-a-date,3,Tech
+Invalid Rank,Description,,https://example.com/3,https://source.example.com,2024-01-16T11:30:00Z,not-a-number,General
+`
+	err := os.WriteFile(csvPath, []byte(csvContent), 0644)
+	require.NoError(t, err)
+
+	// Load articles from CSV
+	err = LoadArticlesFromCSV(csvPath)
+	require.NoError(t, err)
+
+	// Only 1 article should be inserted (the valid one)
+	count, err := GetArticleCount()
+	require.NoError(t, err)
+	assert.Equal(t, 1, count)
+
+	// Verify the valid article is stored
+	articles, err := GetArticlesFromDB("", "", "", 10, time.Time{}, time.Time{}, "")
+	require.NoError(t, err)
+	assert.Len(t, articles, 1)
+	assert.Equal(t, "Valid Article", articles[0].Title)
+}
