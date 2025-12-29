@@ -19,8 +19,8 @@ jobs:
       - name: Fetch articles.csv from service
         run: |
           # Fetch articles.csv from the deployed service with timeout and size limits
-          # Max 50MB file size, 60 second timeout
-          curl -f --max-filesize 52428800 --max-time 60 -o news-api/articles.csv "${{ secrets.APP_URL }}/export/csv" || {
+          # Max 100MB file size, 60 second timeout
+          curl -f --max-filesize 104857600 --max-time 60 -o news-api/articles.csv "${{ secrets.APP_URL }}/export/csv" || {
             echo "Failed to fetch articles.csv from service"
             exit 1
           }
