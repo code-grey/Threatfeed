@@ -1,4 +1,881 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+NASA homes in on likely redesign to fix Orion spacecraft's leaky valves,"After leaks on Artemis I and II, Orion&#39;s next flight to the Moon will need new valves.",https://cdn.arstechnica.net/wp-content/uploads/2026/04/55194459003_3bae619a73_o-1152x648-1775781075.jpg,https://arstechnica.com/space/2026/04/nasa-homes-in-on-likely-redesign-to-fix-orion-spacecrafts-leaky-valves/,https://arstechnica.com/feed/,2026-04-10T00:55:51Z,0,Tech
+Hackers have been exploiting an unpatched Adobe Reader vulnerability for months,"
+		
+					  
+						
+
+
+
+
+Adobe Reader vulnerabilities have been exploited for decades by threat actors taking advantage of the universal use of the utility to fool employees into downloading infected PDF documents through phishing lures.
+
+
+
+Now a security researcher says a Reader hole has been quietly exploited by malware for as long as four months, fingerprinting computers to gather information that will allow attackers to steal data and perform further malicious activities.
+
+
+
+In a blog this week, Haifei Li said that EXPMON, the publicly-available exploit monitor he runs that scans samples to detect file-based zero-day exploits, had found an initial exploit that abuses the vulnerability in a Reader API.
+
+
+
+JavaScript code in the malware that automatically executes when the infected PDF is opened reads files on the compromised computer, collecting information including language settings, the Adobe Reader version number, the exact OS version, and the local path of the PDF file. It then sends the data to a remote server.
+
+
+
+This information will be useful to a threat actor planning on launching future attacks, including the installation of remote access tools, Li noted.
+
+
+
+Li said in his April 7 report that he tested the malware on what was at the time the latest version of Adobe Reader (26.00121367), and it still worked.
+
+
+
+In an update the next day, Li added that a variant dating back to last November had been found by another researcher, which suggests the malware had been in use at least since then.
+
+
+
+Adobe was asked for comment on the report, but no reply was received by deadline.
+
+
+
+It’s not the first time Adobe Reader has been targeted. Vulnerabilities relating to it date back at least to 2007, when a hole was found in a browser plug-in. Fake Reader updates are another threat actor favorite. User-after-free memory vulnerabilities are also common; researchers at Zeropath last year described one of them, CVE-2025-54257.
+
+
+
+Traditional tactics
+
+
+
+In addition to applying patches as soon as they are available, infosec leaders need to ensure employees receive regular security awareness training that includes warnings about opening unexpected PDFs, even those seemingly from trusted sources such as co-workers or managers.
+
+
+
+Threat actors traditionally use a variety of tactics to trick an employee into opening an email attachment, including using subject lines like “Urgent,” and “Info on bonus.” The attachment itself may be given a name that conveys importance; in this case, the November variant carried the file name “Invoice504.pdf.”
+
+
+
+According to a report on this new malware filed with malware scanning site VirusTotal, to which anyone can upload suspicious files for scrutiny, the recipient is to open the attachment specifically with Adobe Acrobat Reader. 
+
+
+
+A high risk exploit
+
+
+
+Kellman Meghu, chief technology officer at Canadian incident response firm DeepCove Security, called the exploit “a very high risk.”
+
+
+
+So far it looks as though this particular malware just exfiltrates data, he said. But it implies there is an ability or capability to turn it into a vehicle for remote code execution. “It is a zero click [vulnerability],” Meghu added, “meaning just viewing in a browser or email is likely enough to trigger it.”
+
+
+
+CSOs should meet this threat by disabling Acrobat JavaScript, either by default or until there is a patch, he said. “But to be honest,” he added, “I think JavaScript execution is generally a bad idea in Adobe Reader,” so it should be disabled.
+
+
+
+Johannes Ullrich, dean of research at the SANS Institute, noted Adobe Acrobat and Reader have often been the targets of sophisticated exploits. These frequently take advantage of features like JavaScript, or leverage the ability to include, or nest, various document types inside a PDF. Many malware filters will detect and flag these types of documents as malicious, he said.
+
+
+
+“CSOs should ensure that web proxies and email gateways have filters enabled to not allow PDFs that are not fully standards compliant, and to eliminate PDFs taking advance of known problematic features like JavaScript,” he said. “Any attachment like this should also prominently note that it was received from a source outside the organization.”
+
+
+
+“Sadly,” he added, “PDFs are still very common, and can not be completely eliminated.”
+
+
+
+Adam Marrè, CISO at Arctic Wolf, said that what makes this new vulnerability particularly concerning is that it’s being actively exploited and appears to work even on fully patched systems. That immediately raises the risk profile. “Even without full visibility into the entire attack chain, the fact that initial access can be gained through something as routine as opening a PDF means organizations should treat this as a real and present security event,” he said. “From there, the potential impact can range from limited data exposure to follow‑on activity if attackers are able to deliver additional payloads.”
+
+
+
+This becomes a matter of managing risk in real time, he pointed out. “When a trusted tool suddenly falls outside an organization’s acceptable risk threshold, the priority shifts to reducing exposure and increasing visibility. That may mean reassessing where the software is truly necessary, tightening how untrusted content is handled, and ensuring monitoring is in place to quickly detect any abnormal behavior,” he said.
+
+
+
+“Just as important is what happens after containment,” he added. “Incidents like this are an opportunity to evaluate what controls held up, where gaps surfaced, and how to operationalize those lessons. Threats tied to everyday user behavior aren’t going away, so resilience depends on learning quickly and adapting just as fast.”
+",https://www.csoonline.com/wp-content/uploads/2026/04/4156854-0-14019200-1775775622-shutterstock_editorial_192810437.jpg?quality=50&strip=all,https://www.csoonline.com/article/4156854/hackers-have-been-exploiting-an-unpatched-adobe-reader-vulnerability-for-months.html,https://www.csoonline.com/feed/,2026-04-09T23:00:10Z,32,Cybersecurity
+"Apple is closing three US stores, including the first to unionize","Apple is closing three of its retail stores this summer, including its first location to unionize. The tech company said it plans to permanently close Apple Store in Trumbull, CT, Escondito, CA, and Towson, MD. The Apple Store location in Towson, was the first where unionized workers and Apple reached a contract agreement back in 2024. MacRumors published a statement from Apple confirming the closures. The company credited noting &#34;the departure of several retailers and declining conditions&#34; at the shopping centers where this trio of stores are housed as the reason for ending operations. &#34;Our team members at Trumbull and North County will continue their roles at nearby Apple Retail stores,&#34; the statement reads. &#34;Towson employees will be eligible to apply for open roles at Apple in accordance with the collective bargaining agreement.&#34; We&#39;ve reached out to the company for additional comment. The International Association of Machinists and Aerospace Workers, which leads the union the Towson workers had joined, released a statement about the closure. &#34;Apple’s claim that the collective bargaining agreement prevents relocation is simply false and raises serious concerns that this closure is a cynical attempt to bust the union,&#34; the organization said. &#34;We are exploring all legal options and will work with elected officials and allies to hold Apple accountable.&#34;This article originally appeared on Engadget at https://www.engadget.com/big-tech/apple-is-closing-three-us-stores-including-the-first-to-unionize-225941912.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2Fed1fcc9c-3c08-4666-be03-abc1d53d0b0e&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=2b9de0a0637f55bf58ed3811f2845af5c667e16c,https://www.engadget.com/big-tech/apple-is-closing-three-us-stores-including-the-first-to-unionize-225941912.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T22:59:41Z,7,Tech
+ChatGPT has a new $100 per month Pro subscription,"OpenAI has announced a new version of its ChatGPT Pro subscription that costs $100 per month. The new Pro tier offers &#34;5x more&#34; usage of its Codex coding tool than the $20 per month Plus subscription and &#34;is best for longer, high-effort Codex sessions,&#34; OpenAI says. The company is introducing the new tier as it […]",,https://www.theverge.com/ai-artificial-intelligence/909599/chatgpt-pro-subscription-new,https://www.theverge.com/rss/index.xml,2026-04-09T22:57:15Z,5,Tech
+"RFK Jr. rewrites CDC panel's charter, opening door to anti-vaccine quacks",ACIP&#39;s charter now full of anti-vaccine terms and welcomes fringe groups to CDC.,https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203339270-1152x648.jpg,https://arstechnica.com/health/2026/04/rfk-jr-rewrites-cdc-panels-charter-opening-door-to-anti-vaccine-quacks/,https://arstechnica.com/feed/,2026-04-09T22:32:37Z,0,Tech
+Florida launches investigation into OpenAI,"Florida Attorney General James Uthmeier is launching an investigation into OpenAI over public safety and national security risks, as reported earlier by Reuters. In a statement on Thursday, Uthmeier says there are concerns that OpenAI&#39;s data and technology are &#34;falling into the hands of America&#39;s enemies, such as the Chinese Communist Party.&#34; Uthmeier also says […]",,https://www.theverge.com/policy/909557/openai-florida-investigation,https://www.theverge.com/rss/index.xml,2026-04-09T22:17:06Z,5,Tech
+"Florida AG to probe OpenAI, alleging possible connection to FSU shooting","Florida Attorney General James Uthmeier plans to investigate OpenAI for its alleged harm to minors, potential to threaten national security, and its possible link to a shooting at Florida State University last year.",,https://techcrunch.com/2026/04/09/florida-ag-to-probe-openai-alleging-possible-connection-to-fsu-shooting/,https://techcrunch.com/feed/,2026-04-09T22:13:26Z,5,Tech
+"New ‘LucidRook’ malware used in targeted attacks on NGOs, universities","A new Lua-based malware, called LucidRook, is being used in spear-phishing campaigns targeting non-governmental organizations and universities in Taiwan. [...]",,https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/,https://www.bleepingcomputer.com/feed/,2026-04-09T22:04:31Z,9,Cybersecurity
+"The Metal Gear Solid movie is back on, with Final Destination: Bloodlines directors in charge","A film adaptation of Metal Gear Solid is in the works again, this time from filmmakers Zach Lipovsky and Adam B. Stein, the directors of Final Destination: Bloodlines, according to The Hollywood Reporter. The duo are reviving the project at Columbia Pictures as part of a new first-look deal with Sony, the latest attempt in what&#39;s been multiple decades of work to turn the blockbuster stealth game into a blockbuster film.&#34;Metal Gear Solid was nothing short of a groundbreaking cinematic masterpiece that forever revolutionized video games,&#34; Lipovsky and Stein said in a statement. &#34;We are thrilled and honored to bring Hideo Kojima&#39;s iconic characters and unforgettable world to life.&#34;Lipovsky and Stein&#39;s horror bona fides helped make Bloodlines a critical and commercial hit when it came out in 2025, and the directors have a variety of other IP-focused genre films in the works, including a sequel to Gremlins for Warner Bros. and an animated Venom movie for Sony. It remains to be seen how exactly the duo will translate Metal Gear Solid&#39;s unique quirks to film, though.Metal Gear Solid is heavily indebted to director Hideo Kojima&#39;s own taste in action and spy cinema, while also being in conversation with video games themselves in a way that wouldn&#39;t naturally translate to film. And even if you removed those metatextual rough edges, can it really be Metal Gear Solid without Kojima&#39;s equal parts charming and awkward writing? Attempts to create a film version of the game date back to 2006, when Kojima first shared that an adaptation was in the works. Columbia Pictures announced a new version of the film in 2012, with Avi Arad, former head of Marvel Studios, producing. In 2014, Jordan Vogt-Roberts, the director of Kong: Skull Island, was attached to direct that adaptation. And six years after that, Oscar Isaac was reportedly cast as Solid Snake. Arad and his son Ari Arad are still producing this latest take on the game, but with Lipovsky and Stein in charge, that older version of Metal Gear Solid is likely dead. Still, hope springs eternal that we’ll get to see a man hide in a cardboard box on the big screen someday.This article originally appeared on Engadget at https://www.engadget.com/entertainment/tv-movies/the-metal-gear-solid-movie-is-back-on-with-final-destination-bloodlines-directors-in-charge-214914374.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fmetal-gear-solid-screenshot_1688.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=e24563413afc36e113b5818577221865c8395401,https://www.engadget.com/entertainment/tv-movies/the-metal-gear-solid-movie-is-back-on-with-final-destination-bloodlines-directors-in-charge-214914374.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T21:49:14Z,7,Tech
+The EFF is quitting X,"The digital privacy non-profit Electronic Frontier Foundation will no longer be posting on X as of Thursday, largely due to a sharp decline in views on the platform over the past several years. In a blog post announcing the departure, EFF&#39;s social media and video manager Kenyatta Thomas explained that the non-profit used to get […]",,https://www.theverge.com/tech/909550/eff-electronic-frontier-foundation-leaving-x-twitter,https://www.theverge.com/rss/index.xml,2026-04-09T21:48:00Z,5,Tech
+New VENOM phishing attacks steal senior executives' Microsoft logins,Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called &#34;VENOM&#34; are targeting credentials of C-suite executives across multiple industries. [...],,https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/,https://www.bleepingcomputer.com/feed/,2026-04-09T21:37:04Z,9,Cybersecurity
+ChatGPT finally offers $100/month Pro plan,OpenAI announced on Thursday something that power users have been asking for: a $100/month plan. Previously subscriptions jumped from $20 to $200 per month.,,https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/,https://techcrunch.com/feed/,2026-04-09T21:29:11Z,5,Tech
+EFF is the latest organization to leave X,"The EFF follows the departure of various news organizations and others, who no longer find X a viable source of traffic. ",,https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/,https://techcrunch.com/feed/,2026-04-09T21:26:18Z,0,Tech
+John Deere will pay farmers $99 million over right-to-repair lawsuit,"John Deere has agreed to pay farmers $99 million to resolve a class action lawsuit that accused the agricultural giant of preventing farmers and mechanics from accessing the materials needed to repair equipment, as reported earlier by Reuters. As part of the proposed settlement, John Deere says it will make repair resources available for a […]",,https://www.theverge.com/policy/909524/john-deere-class-action-settlement-farmers,https://www.theverge.com/rss/index.xml,2026-04-09T21:21:22Z,5,Tech
+Why Anthropic sent its Claude AI to an actual psychiatrist,Mythos is &#34;the most psychologically settled model we have trained to date.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1397973635-1152x648.jpg,https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/,https://arstechnica.com/feed/,2026-04-09T21:20:31Z,5,Tech
+What founders can learn from Anjuna’s layoffs and recovery,"In 2021, Anjuna Security was growing fast, hiring aggressively, and chasing a market that seemed limitless. By the end of that year, the venture-backed cybersecurity company had scaled to around 75 employees, building out sales, customer success, and support teams in anticipation of continued hypergrowth. Then 2022 hit.",,https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/,https://techcrunch.com/feed/,2026-04-09T21:17:30Z,0,Tech
+Samsung’s Galaxy Watch 8 is easier to recommend now it starts at $260,"Samsung’s Galaxy Watch 8 is one of the best Android smartwatches you can buy right now, especially if you’re already using a Samsung phone. Right now the 40mm, Bluetooth-enabled version’s on sale for $289.99 ($60 off) at Amazon, Best Buy, and Samsung, which is its second-best price this year and only $50 shy of its […]",,https://www.theverge.com/gadgets/909502/samsung-galaxy-watch-8-classic-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-09T21:10:47Z,0,Tech
+Volkswagen drops all-electric ID.4 in the US in pivot back to gas SUVs,All resources at its U.S. factory are aimed at the upcoming Atlas SUV.,,https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/,https://techcrunch.com/feed/,2026-04-09T21:01:36Z,5,Tech
+"Clinical trial shows gene editing works for β-Thalassaemia, too",Improved gene editing process reactivates the fetal version of a hemoglobin gene.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-185759358-1152x648.jpg,https://arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/,https://arstechnica.com/feed/,2026-04-09T20:28:48Z,0,Tech
+Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT,ChatGPT had reportedly been used to plan the attack that killed two and injured five at Florida State University last April. The family of one victim has said that they plan to sue OpenAI over the incident.,,https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/,https://techcrunch.com/feed/,2026-04-09T20:11:55Z,5,Tech
+NASA’s Artemis II mission to fly around the far side of the Moon,"Humans haven’t set foot on the Moon since NASA’s Apollo 17 mission in 1972. Now, the space agency is racing to get back to the lunar surface under the umbrella of its Artemis program — a nod to the Greek goddess and twin sister of Apollo, whose name was given to NASA’s first program to […]",,https://www.theverge.com/2019/7/19/20700565/nasa-artemis-moon-return-landing,https://www.theverge.com/rss/index.xml,2026-04-09T20:10:56Z,0,Tech
+A maverick hacker got Mac OS X running on a Wii,"You may already know that emulators can run Wii games on a Mac. But one developer has flipped the script. Bryan Keller now has an ancient version of the Mac&#39;s operating system running on Nintendo&#39;s 2006 game console (via Kottke). Why? Because they said it couldn&#39;t be done.The developer first had the idea in 2013 while a sophomore in college. However, they found renewed motivation five years ago when Redditor u/CussdomTidder posted, &#34;There is a zero percent chance of this ever happening.&#34;Developer Bryan Keller took it personally.YouTube / ESPN / NetflixKeller used that as fuel to begin plugging away, &#34;feeling encouraged&#34; by the anonymous contrarian. Thus began the process of porting Mac OS X 10.0 (Cheetah) onto a device designed to play Wii Sports and Super Mario Galaxy.&#34;Last year, when I saw that Windows NT had been ported to the Wii, I felt a renewed sense of motivation,&#34; Keller wrote. &#34;Even if my lack of low-level experience resulted in failure, attempting this project would still be an opportunity to learn something new.&#34;Keller didn&#39;t allow something as trivial as a flight to get in the way of the task at hand.Bryan Keller / GitHubKeller noted that the Wii is a phenomenally hackable console, with other enterprising hackers porting Windows 95 and NT, Linux and NetBSD onto it. Nintendo&#39;s system also runs a PowerPC chip similar to those found in older Macs. &#34;Given this close lineage, I felt confident that the CPU wouldn&#39;t be a blocker,&#34; they wrote. From there, Keller wrote a custom boot loader, patched the kernel and wrote new drivers. They even got the Wii&#39;s USB ports working for mouse and keyboard input.Tthe developer found the process &#34;deeply satisfying,&#34; especially given the initial doubt. (I&#39;m talking to you, disparaging Redditor.) &#34;In the end, I learned (and accomplished) far more than I ever expected,&#34; Keller wrote. &#34;And perhaps more importantly, I was reminded that the projects that seem just out of reach are exactly the ones worth pursuing.&#34;For the technically minded, the developer&#39;s blog goes into extensive detail about the process. And full-on madlads can visit Keller&#39;s GitHub to try it for themselves.This article originally appeared on Engadget at https://www.engadget.com/computing/a-maverick-hacker-got-mac-os-x-running-on-a-wii-200800027.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fwii_7347.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=5aa6ff3b0e2882cd6dd4375d71593a993621780a,https://www.engadget.com/computing/a-maverick-hacker-got-mac-os-x-running-on-a-wii-200800027.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T20:08:00Z,7,Tech
+StubHub to pay $10M to settle FTC allegations over ‘deceptive’ ticket pricing,"The consumer protection agency says the company violated the FTC Act and its Rule on Unfair or Deceptive Fees by &#34;deceptively&#34; advertising ticket prices on its website without clearly disclosing upfront what the total cost would be, including all mandatory fees. ",,https://techcrunch.com/2026/04/09/stubhub-to-pay-10m-to-settle-ftc-allegations-over-deceptive-ticket-pricing/,https://techcrunch.com/feed/,2026-04-09T20:04:12Z,5,Tech
+Instagram comments can now be edited (within 15 minutes),"Meta is giving users the ability to edit Instagram comments they leave on posts, though only within a 15 minute window after they&#39;re posted. The setup is similar to how the social app handles editing messages, an option it first added in 2024, 11 years after direct messaging was introduced to Instagram in 2013.You&#39;re only able to edit comments you left with your own account, and the process of actually doing so is easy. Just tap on the word &#34;Edit&#34; under your comment to pull up a text box where you can tweak, rework or embellish what you&#39;ve written, and then press the blue check mark to save it. Meta says comments can be edited as many times as you want in that 15 minute window, so if you need to make more changes, you have that option.Comments can show up in multiple ways across Instagram — including Stories, as of 2024 — so offering a way to edit them is a welcome addition. The new option is just the latest in a series of changes Meta has introduced to the social app in the last month. Earlier in March, the company announced that it was removing end-to-end encryption from Instagram DMs. At the end of the month, Meta also began testing Instagram Plus, a subscription service that unlocks new features for the app&#39;s Stories feature.This article originally appeared on Engadget at https://www.engadget.com/social-media/instagram-comments-can-now-be-edited-within-15-minutes-195000640.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Finstagram-comment-editing_8169.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=ab3bc54e570e5a646d5c9c3f0fc1827ca7325d2f,https://www.engadget.com/social-media/instagram-comments-can-now-be-edited-within-15-minutes-195000640.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T19:50:00Z,2,Tech
+Healthcare IT solutions provider ChipSoft hit by ransomware attack,Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers. [...],,https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/,https://www.bleepingcomputer.com/feed/,2026-04-09T19:46:44Z,11,Cybersecurity
+"Nutanix claims it has poached 30,000 VMware customers",Western Union exec says there were &#34;challenges&#34; working with Broadcom. ,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1934095718-1152x648.jpg,https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/,https://arstechnica.com/feed/,2026-04-09T19:44:31Z,5,Tech
+"After data breach, $10B valued startup Mercor is having a month","After falling victim to a hacker, Mercor is facing lawsuits and reportedly losing big-name customers.",,https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/,https://techcrunch.com/feed/,2026-04-09T19:33:54Z,3,Tech
+Jazzy stealth-action game Thick as Thieves hits PC on May 20,"Thick as Thieves, the magical heist game from a crew of stealth legends at OtherSide Entertainment, is coming to Steam on May 20. OtherSide and publisher Megabit Entertainment announced the release date in a new gameplay trailer during today&#39;s Triple-i Initiative showcase (which was packed with cool indie games, as always).
+OtherSide was founded by Thief and System Shock 2 veteran Paul Neurath in 2013, and Deus Ex creator Warren Spector joined in 2016. These are two of the developers who shaped the stealth genre as we know it, so Thick as Thieves has a solid foundation. The new trailer showcases the game&#39;s fictional Scottish city of Kilcairn, where magic and technology clash against a backdrop of 1910s music and architecture. At launch, Thick as Thieves will feature two thieves, two maps, 16 contracts, six unique pieces of gear and multiple difficulty settings, which alter the layout of each level.
+
+Thick as Thieves has evolved since its introduction at The Game Awards in December 2024. It was originally pitched as a PvPvE game, but it&#39;s landing as a solo or two-player experience, with no player-on-player brawls. OtherSide announced the pivot on Steam on April 2, 2026:
+&#34;As development progressed and the world of Kilcairn has come to life, we found that we were having more fun with solo and co-op play. So, we’ve taken a decision we feel is right for the game: Thick as Thieves is now focused on two-player co-op and single player. This sharpened focus has allowed us to double down on what makes Thick as Thieves truly special — dynamic stealth gameplay.&#34;
+A handful of playtesters and early fans expressed their disappointment at the removal of PvP. A developer responded to one question with, &#34;PvPvE may come further down the line.&#34;
+There&#39;s also no word on the console versions of the game. Thick as Thieves was announced for PC, PlayStation 5 and Xbox Series X/S, but today&#39;s news suggests it&#39;s coming to Steam first (if not only). Details are a bit up in the air at the moment, but hey, at least it&#39;s on-brand for the developers of a stealth game to be sneaky.This article originally appeared on Engadget at https://www.engadget.com/gaming/pc/jazzy-stealth-action-game-thick-as-thieves-hits-pc-on-may-20-193320746.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fc25f04a0-3449-11f1-b8ff-46fe10b1dfee&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=a16f4e0e153ae81b6582056198222f696f965e46,https://www.engadget.com/gaming/pc/jazzy-stealth-action-game-thick-as-thieves-hits-pc-on-may-20-193320746.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T19:33:20Z,7,Tech
+"Ugandan chimps split into two factions, then killed rivals","Rare event suggests relational dynamics may play a role in collective violence, along with cultural markers.",https://cdn.arstechnica.net/wp-content/uploads/2025/09/chimp1-1152x648-1775736939.jpg,https://arstechnica.com/science/2026/04/ugandan-chimps-split-into-two-factions-then-killed-rivals/,https://arstechnica.com/feed/,2026-04-09T19:21:59Z,0,Tech
+Instagram now lets you edit your own comments,"If you make a mistake in an Instagram comment, you can now finally fix it without having to delete the comment and make it again. On Thursday, Instagram announced that users can now edit their comments within 15 minutes of posting them, which should hopefully give you ample time to clean up any errors. You […]",,https://www.theverge.com/tech/909455/instagram-edit-comments,https://www.theverge.com/rss/index.xml,2026-04-09T19:20:46Z,5,Tech
+Meta AI app climbs to No. 5 on the App Store after Muse Spark launch,The app was ranking No. 57 on the App Store just before Meta AI&#39;s new model launched. Now it&#39;s No. 5 — and rising. ,,https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/,https://techcrunch.com/feed/,2026-04-09T19:10:07Z,6,Tech
+Netflix adds three Jackbox games to its TV app,"Netflix has added a heavy hitter in party activities to its gaming lineup. The streamer announced that Jackbox Party Essentials is joining the Netflix Party Games collection. This move makes three of the popular Jackbox group games available for free to Netflix subscribers: Fibbage 4, Quiplash 3 and Drawful 2. Each one supports up to eight players.  Netflix has been refocusing its interactive strategy to highlight family-friendly and party games. The company has even offered tie-ins to its original content; for instance, playing Overcooked through Netflix will let you use a member of Huntr/x from Kpop Demon Hunters as your in-game avatar. We also saw Netflix&#39;s Game Controller software, which turns any mobile device into a gamepad for its game library, take the crown as a top-downloaded iOS app around the Easter holiday weekend. That performance could indicate that many families were at least thinking of trying out the streamer&#39;s games as part of their festivities.This article originally appeared on Engadget at https://www.engadget.com/gaming/netflix-adds-three-jackbox-games-to-its-tv-app-190220143.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fnetflix_jackbox_7488.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=70be5f6df9315aaa4994ebb54b093912ba4c02dd,https://www.engadget.com/gaming/netflix-adds-three-jackbox-games-to-its-tv-app-190220143.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T19:02:20Z,8,Tech
+Is Anthropic limiting the release of Mythos to protect the internet — or Anthropic?,Are real cybersecurity concerns a cover for a bigger problem at the frontier lab?,,https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/,https://techcrunch.com/feed/,2026-04-09T18:50:05Z,0,Tech
+"CIA employees will get AI 'coworkers'—and eventually run teams of AI agents, deputy says",Deputy Director Michael Ellis said the spy agency recently used AI to generate an intelligence report for the first time.,,https://www.defenseone.com/technology/2026/04/cia-ai-coworkers-agents/412746/,https://www.defenseone.com/rss/all/,2026-04-09T18:45:00Z,1,Defense
+Another Don't Starve game is on the way,"Developer Klei Entertainment has announced a follow-up to Don&#39;t Starve that adds a new sense of depth to the popular survival game. And that&#39;s in a literal sense: Don&#39;t Starve Elsewhere translates the game&#39;s resource gathering and sanity management to a world with three-dimensional terrain at different elevations, a first for the traditionally flat series.Don&#39;t Starve Elsewhere doesn&#39;t quite seem like the Super Mario 64 to Don&#39;t Starve&#39;s Super Mario Bros. but based on the trailer, having actual mountains, cliffs and plateaus does offer plenty of new opportunities to have your world rocked by an unfriendly goat. The game also incorporates new biomes, what looks like plenty of new animals, enemies and bosses and several features that were first introduced as DLC for the first Don&#39;t Starve.Klei released the original Tim Burton-inspired Don&#39;t Starve all the way back in 2013, and has been remarkably consistent in supporting it with paid DLC introducing new characters, mechanics and biomes over the last 13 years. Additions like multiplayer support, from standalone expansion Don&#39;t Starve Together, and dynamic weather patterns, introduced in Don&#39;t Starve: Shipwrecked, appear to be built into the new game from the start. A mobile spin-off created by Tencent, Don’t Starve: Newhome, was announced in 2020 and appears to still be in active development.Klei hasn’t announced a release date for Don’t Starve Elsewhere, but if the game is anything like the developer’s previous games, it will be released in early access on PC before it makes its way to a full release on other platforms.This article originally appeared on Engadget at https://www.engadget.com/gaming/another-dont-starve-game-is-on-the-way-184400774.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fdon%2527t-starve-elsewhere_4106.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=1b84f8375e71538835236ea5755ab47c8ab97348,https://www.engadget.com/gaming/another-dont-starve-game-is-on-the-way-184400774.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T18:44:00Z,7,Tech
+Cloudflare ‘actively adjusting’ quantum priorities in wake of Google warning,"
+		
+					  
+						
+
+
+
+
+Google’s accelerated post-quantum encryption deadline has spurred other leaders in the industry, including Cloudflare, to consider pushing forward their own plans.
+
+
+
+The US National Institute of Standards and Technology (NIST) has set a 2030 deadline for depreciating legacy encryption algorithms ahead of their planned retirement in 2035.
+
+
+
+Late last month Google brought forward its own post-quantum cryptography (PQC) deadline a year to 2029 because advances in quantum computers mean that legacy encryption and digital signature systems are at greater risk sooner than previously anticipated.
+
+
+
+Google is readying its products and services for PQC by adding support to its Chrome browser, Android mobile operating system, and  cloud-based services.
+
+
+
+Algorithmic breakthrough
+
+
+
+Bas Westerbaan, principal research engineer at Cloudflare, and an expert in post quantum encryption, told CSO that Google’s decision to pull forward its PQC migration timeline to 2029 is a “very big deal.”
+
+
+
+“We are starting to see some details of the three breakthroughs that scared Google, but crucial elements are being withheld due to their perceived risk as an aid for adversaries,” says Westerbaan. “Google even went to the effort to publish a state-of-the-art zero-knowledge proof to demonstrate they indeed made an algorithmic breakthrough without spilling the beans.”
+
+
+
+Cloudflare is “actively adjusting” its priorities and “will share outcomes soon,” Westerbaan explains.
+
+
+
+Preparations for the migration to PQC by Cloudflare are already well advanced.
+
+
+
+More than half the traffic on Cloudflare is already secure against the threat of harvest-now/decrypt-later using ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, a PQC standard ratified in 2024) as browsers roll out support.
+
+
+
+To protect browser connections against active attack, Cloudflare is planning to deploy post-quantum certificates in 2027.
+
+
+
+Quantum threat
+
+
+
+The existing public key cryptographic systems that protect Internet and mobile transactions, Rivest-Shamir-Adelman (RSA) and Elliptic Curve Cryptography (ECC), are aging cryptosystems, developed in the 1970s and 1980s, respectively.
+
+
+
+Sufficiently powerful quantum computers pose a threat to legacy cryptographic standards, and specifically to encryption and digital signatures, because they have the capacity to break the mathematical foundations of legacy algorithms.
+
+
+
+For example, newer and faster algorithms have already been developed, such as the JVG algorithm, that require less quantum computational power (qubits) to factor large prime numbers, on which some legacy cryptosystems such as RSA are based.
+
+
+
+Google argues that advances in quantum computing, including hardware development, quantum error correction, and quantum factoring resource estimates, are bringing forward the time legacy cryptographic algorithms will become vulnerable to quantum computing, a phenomenon known as Q-Day.
+
+
+
+“Google’s accelerated 2029 deadline reflects a shift from trying to predict Q-day to managing pre-Q-day risk,” says Mark Pecen, chair of technical committee on quantum technologies at the European Telecommunications Standards Institute (ETSI). “The real concern isn’t when quantum computers arrive; it’s that adversaries are already collecting encrypted data today to decrypt later.”
+
+
+
+Data with long-term sensitivity, legal records, intellectual property, medical research, and critical infrastructure communications are most at risk.
+
+
+
+“By moving earlier than government timelines, Google is effectively forcing the industry to treat post-quantum migration as an immediate operational priority rather than a future compliance exercise,” says Pecen.
+
+
+
+Matt Campagna, chair of the quantum-safe cryptography working group at ETSI, adds:
+
+
+
+“Businesses must develop their own PQC migration strategies and actively engage with vendors and suppliers to ensure alignment.”
+
+
+
+Michael Klieman, global vice president for project management at Entrust, says that doubts about how close the industry is to a cryptographically relevant quantum computing breakthrough are creating uncertainty.
+
+
+
+“Today, there’s no universal way to measure performance across quantum systems, which makes it difficult to separate incremental progress from meaningful milestones toward Q-Day,” according to Klieman.
+
+
+
+“What the industry needs next are clear, standardized benchmarks for scale, error correction, and algorithmic performance — so organizations can understand where we are on the path to quantum risk, not just where vendors say we are,” Klieman adds.
+
+
+
+Catalyst
+
+
+
+Daryl Flack, partner at UK-based managed security service provider Avella Security, argues Google’s accelerated roadmap is likely to act as a catalyst across the industry.
+
+
+
+Google’s accelerated roadmap has the potential to disrupt a cycle of inaction driven by misaligned incentives: vendors waiting for customer demand, and organizations waiting for regulation, according to Flack.
+
+
+
+“Google’s decision to accelerate its post-quantum cryptography (PQC) migration to 2029 is a clear signal that the industry is moving from theoretical timelines to operational urgency,” Flack says. “While existing UK and EU roadmaps provide direction, they do not compel action, and that distinction is now becoming a material cybersecurity risk.”
+
+
+
+Preparations — and in some cases even awareness — about the need to migrate to PQC is lagging amongst many enterprises.
+
+
+
+“Many enterprises lack visibility into where cryptography is used, have not identified their most sensitive long-lived data, and do not yet have crypto-agility built into their systems,” Flack warns. “Without addressing these fundamentals, any accelerated timeline, whether driven by regulators or vendors, will be difficult to meet.”
+
+
+
+Enterprise CISOs should take ownership of PQC readiness.
+
+
+
+“Preparation should start with a structured approach: creating crypto inventories and catalogs, mapping cryptographic dependencies, identifying high-risk systems, and embedding crypto-agility into transformation programmes,” Flack advises. “Just as importantly, organizations must extend this thinking into their supply chains.”
+",https://www.csoonline.com/wp-content/uploads/2026/04/4156822-0-65243400-1775760297-Cloudflare-logo-website.jpg?quality=50&strip=all,https://www.csoonline.com/article/4156822/cloudflare-actively-adjusting-quantum-priorities-in-wake-of-google-warning.html,https://www.csoonline.com/feed/,2026-04-09T18:43:46Z,22,Cybersecurity
+Google Chrome adds infostealer protection against session cookie theft,"Google has rolled out Device Bound Session Credentials (DBSC) protection in Chrome 146 for Windows, designed to block info-stealing malware from harvesting session cookies. [...]",,https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/,https://www.bleepingcomputer.com/feed/,2026-04-09T18:33:29Z,3,Cybersecurity
+Mountain climbing sim Cairn is getting free DLC this summer,"The hit mountain climbing simulation Cairn is getting a series of free DLC drops, under the banner On the Trail. The first will be released this summer and it&#39;s called Deep Water.
+The DLC introduces three new climbing areas and plenty of &#34;fresh challenges.&#34; There&#39;s also a new avatar, as players can now climb as Aava or the game&#39;s original sidekick Marco.
+
+As the name suggests, there&#39;s some new water-based mechanics here. It looks like players will be able to fall into the water without automatically dying, though the developer hasn&#39;t shown how that works exactly. In the original game, a fall into a body of water would be treated just like any other fall.
+This is the first in a series of new DLC releases, but we don&#39;t know what the other updates will entail. We do know that they&#39;ll all be free. The base game is $30, when not on sale, so this is a nice little perk for fans.
+
+For the uninitiated, Cairn is a serious mountain climbing sim that forces players to keep a keen eye on balance and stamina. It&#39;s got a fairly complex control scheme, with a manual mode that mandates independent control of each limb. There&#39;s an emphasis on route planning and gear management. The game is also quite easy on the eyes.
+Today&#39;s DLC announcement came as part of the Triple-i Initiative showcase, which spotlights indie games. The stream also gave us reveals for a new Don&#39;t Starve game and an intriguing title from the devs behind the hit narrative adventure 1000xResist.This article originally appeared on Engadget at https://www.engadget.com/gaming/mountain-climbing-sim-cairn-is-getting-free-dlc-this-summer-182908992.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F02245bf0-343e-11f1-97f4-fba2161d9f32&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=ad118a1fec847fbfd752a87464d8fa9889b69f1c,https://www.engadget.com/gaming/mountain-climbing-sim-cairn-is-getting-free-dlc-this-summer-182908992.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T18:29:08Z,8,Tech
+Google and Intel deepen AI infrastructure partnership,"The two tech giants are looking to co-develop custom chips, at a time where demand for CPUs is high due to a growing global shortage. ",,https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/,https://techcrunch.com/feed/,2026-04-09T18:27:47Z,5,Tech
+Netflix&#8217;s TV games get a big boost with Jackbox collection,"Netflix&#39;s party-focused lineup of TV games just got three excellent new additions: Jackbox&#39;s Drawful 2, Fibbage 4, and Quiplash 3, available as the Jackbox Party Essentials pack on the platform. Subscribers can access Jackbox Party Essentials at no additional cost and use their phones as controllers to play. The Jackbox bundle seems like a natural […]",,https://www.theverge.com/streaming/909415/netflix-games-jackbox-party-essentials,https://www.theverge.com/rss/index.xml,2026-04-09T18:25:22Z,5,Tech
+Framework is teasing a lot of Linux for its April 21st event,"Modular PC maker Framework is hosting a &#34;Next Gen&#34; event on April 21st at 1:30PM ET, and it looks like it might have something to do with Linux. Alongside a newsletter announcing the event, Framework posted a video on Thursday titled &#34;Follow the white penguin.&#34; It features a few clear references to Linux, including the […]",,https://www.theverge.com/tech/909401/framework-next-gen-linux-teaser,https://www.theverge.com/rss/index.xml,2026-04-09T18:24:46Z,0,Tech
+"Astronauts recall the ""sci-fi"" experience of flying in the shadow of the Moon",&#34;I&#39;m actually getting chills right now just thinking about it. My palms are sweating.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/04/55193566011_1666acffaf_4k-1152x648.jpg,https://arstechnica.com/space/2026/04/astronauts-recall-the-sci-fi-experience-of-flying-in-the-shadow-of-the-moon/,https://arstechnica.com/feed/,2026-04-09T18:19:49Z,0,Tech
+Trump-appointed judges refuse to block Trump blacklisting of Anthropic AI tech,Appeals court denies Anthropic&#39;s emergency motion for a stay.,https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg,https://arstechnica.com/tech-policy/2026/04/trump-appointed-judges-refuse-to-block-trump-blacklisting-of-anthropic-ai-tech/,https://arstechnica.com/feed/,2026-04-09T18:07:56Z,6,Tech
+How to make the Startup Battlefield Top 20 — and what every company gets regardless,Every founder who applies to Startup Battlefield wants the same thing: the Disrupt Main Stage. Here’s how to get there and why the opportunity starts well before the main stage.,,https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/,https://techcrunch.com/feed/,2026-04-09T18:01:48Z,9,Tech
+Co-op pirate survival game Windrose hits PC in early access on April 14,"Windrose was a hit in a recent Steam Next Fest event, with more than 850,000 people checking out the demo. More than 1.5 million people have wishlisted the  pirate survival-adventure title on Steam as well. So, it’s safe to say this game has some wind in its sails, and it’ll be arriving very soon. During Thursday’s Triple-i Initiative showcase, developer Windrose Crew revealed that it’s charted a course for an early access release on Steam, the Epic Games Store and Stove on April 14 for $30. In Windrose, you can sail the high seas solo or explore the open world with friends. While the world is procedurally generated, the developers have handcrafted more than 90 points of interest, such as dungeons, temples and shipwrecks. You and your buds can team up to take down rival ships by sharing command of your vessel&#39;s weapons. Once you get close enough, you can board enemy ships for close-quarters combat. A broad range of weapons (including swords and muskets) can help you in battle with adversaries such as sailors, monstrous creatures and bosses. Windrose also features farming, fishing, crafting and trading, as well as a reputation system and base building. You can hire non-player characters for your crew as well. Windrose Crew expects the game to remain in early access for around 1.5 to 2.5 years. It plans to add 50 percent more content, such as new biomes (the early access version has three), enemies, ships and gear. The developers might introduce more gameplay systems as well. The team also said the main story should take players between 50 and 70 hours to complete.This is a grittier alternative to Sea of Thieves and Skull and Bones for those who want to engage in a spot of piracy with some of their friends. If you’d like to sample what Windrose is all about, the demo remains available on all three PC platforms. This article originally appeared on Engadget at https://www.engadget.com/gaming/co-op-pirate-survival-game-windrose-hits-pc-in-early-access-on-april-14-175842163.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fwindrose_6145.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=f7321b9854923bf81df563de68887815bd8585b6,https://www.engadget.com/gaming/co-op-pirate-survival-game-windrose-hits-pc-in-early-access-on-april-14-175842163.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T17:58:42Z,7,Tech
+Google&#8217;s Gemini AI can answer your questions with 3D models and simulations,"Google&#39;s latest upgrade for Gemini will allow the chatbot to generate interactive 3D models and simulations in response to your questions. With the new feature, you may see options to rotate the AI-generated model, manually adjust sliders on it, or input different values to change the simulation in real-time. When trying out the feature for […]",,https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations,https://www.theverge.com/rss/index.xml,2026-04-09T17:57:58Z,5,Tech
+Tesla may be working on a smaller and cheaper electric SUV,"Tesla may be shifting strategy once again. Reuters reported that the company is working on a smaller and less expensive electric SUV. This would be a brand new vehicle rather than a variant of the existing Model 3 or Model Y, according to the publication&#39;s sources. The new EV would allegedly be about 14 feet long, shorter than the 15.7-foot Model Y. Reuters didn&#39;t have details about whether this would be an autonomous vehicle or a traditional one, but one source reportedly said that Tesla is generally looking to offer a driverless option in its vehicle lineup.  The company had previously been working on a budget EV with a target price of $25,000, but Tesla appeared to abandon that effort in 2024 to work on robotaxis. And as recently as the start of 2026, Tesla discontinued two of its EV models in order to refocus the business on robotics. Perhaps the brand felt it needed to have a bigger auto imprint after cutting the Model S and X and relaunched the budget EV project. Or perhaps this is just the latest whim of the company&#39;s leadership and it won&#39;t actually come to pass. We&#39;ll have to wait and see.This article originally appeared on Engadget at https://www.engadget.com/transportation/evs/tesla-may-be-working-on-a-smaller-and-cheaper-electric-suv-175230630.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2F5a55886d-b2f2-429c-9e04-1fbdf67a1db1&resize=1400%2C932&client=19f2b5e49a271b2bde77&signature=17b73299a38dd6b0453cb659f6e9ef49ab964b5a,https://www.engadget.com/transportation/evs/tesla-may-be-working-on-a-smaller-and-cheaper-electric-suv-175230630.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T17:52:30Z,10,Tech
+You can now edit your Instagram comments,"Instagram users can now edit comments, which is a long-awaited fix for anyone who’s ever had to delete and re-post a comment just to fix a typo.",,https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/,https://techcrunch.com/feed/,2026-04-09T17:49:57Z,5,Tech
+The Pentagon claims ‘we control the sky’ over Iran. Experts say the air war isn’t that simple.,"Terms such as air superiority are being misapplied, obscuring the dangers that are downing and damaging U.S. aircraft.",,https://www.defenseone.com/threats/2026/04/pentagon-claims-we-control-sky-over-iran-experts-say-air-war-isnt-simple/412741/,https://www.defenseone.com/rss/all/,2026-04-09T17:46:00Z,0,Defense
+Razer just released some new gaming earbuds with low latency and fast switching between devices,"Razer just released the Hammerhead V3 HyperSpeed gaming earbuds, another entry in the recently-crowded field of gaming earbuds. These have been designed for low latency, which is a necessity when playing video games.
+To that end, the earbuds integrate with Razer&#39;s proprietary HyperSpeed 2.4GHz streaming platform, which allows for &#34;gaming-grade lag-free&#34; audio. This works with plenty of devices, including smartphones, tablets, PCs, the Steam Deck, the PS5 and more. The earbuds can also connect via Bluetooth for devices that don&#39;t support Wi-Fi-based streaming audio.
+
+The charging case includes a dongle that plugs into devices via USB-C, which doubles as a wireless transmitter. Razer promises that users can quickly switch between Wi-Fi and Bluetooth audio, which would be useful when going from a PC to, say, a smartphone to listen to music.
+These earbuds include improved ANC, when compared to the previous generation. The battery here lasts for 40 hours, with the earbuds getting 10 hours per charge and the case offering four charges. 
+Razer
+The case can charge via USB-C, which means it charges as the transmitter is being used to stream audio. However, the dongle can also work on its own without the charging case. The earbuds also support THX spatial audio on PCs.
+Razer&#39;s Hammerhead V3 HyperSpeed gaming earbuds are available right now and cost $130. The almost identically-named Hammerhead V3 X HyperSpeed earbuds run $100 and connect via Bluetooth 5.3 instead of Bluetooth 6.0, with a slightly reduced battery life.This article originally appeared on Engadget at https://www.engadget.com/audio/headphones/razer-just-released-some-new-gaming-earbuds-with-low-latency-and-fast-switching-between-devices-172907717.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F19a8f410-3435-11f1-9b7d-1b32f0cae402&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=da8bf55e7e0968e03bd5ba0229cad1276ba71359,https://www.engadget.com/audio/headphones/razer-just-released-some-new-gaming-earbuds-with-low-latency-and-fast-switching-between-devices-172907717.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T17:29:07Z,7,Tech
+"EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets","Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit (SDK) called EngageLab SDK that could have put millions of cryptocurrency wallet users at risk.
+&#34;This flaw allows apps on the same device to bypass Android security sandbox and gain unauthorized access to private data,&#34; the Microsoft Defender",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigi73Eo-lmEoLh8BcTJmWW5GrmLrm49pUkkl8zyxIg1YTEncbgCaY-wXarkWZuipJhJEubcJx-VEiHOv_NrMtPw1BoEU3Ni8gXNcKcbWX4TqBU8pikOAkRdCl-r_XvLz4oXmQ2IpY25bWzLFkXh_hezhx0jgUYiuRvrYVxhW-6x5J7m84HH_VeRtRzTGbW/s1600/vul-app.jpg,https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html,https://feeds.feedburner.com/TheHackersNews,2026-04-09T17:26:00Z,7,Cybersecurity
+Sierra’s Bret Taylor says the era of clicking buttons is over,Co-founder of Sierra predicts that AI agents will make software interfaces obsolete. ,,https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/,https://techcrunch.com/feed/,2026-04-09T17:20:50Z,6,Tech
+Castlevania headlines a big list of exciting indie game reveals,"A big indie showcase has just wrapped up, and now I have a lot more games to look forward to. The third iteration of the Triple-I Initiative, an annual showcase for upcoming releases put on by a group of studios, aired on Thursday. It featured some familiar franchises, like an indie-developed Castlevania and a new […]",,https://www.theverge.com/games/908898/triple-i-initiative-indie-game-showcase-2026-recap-trailers,https://www.theverge.com/rss/index.xml,2026-04-09T17:13:38Z,6,Tech
+Volkswagen ends ID.4 production in Tennessee to build Atlas SUV,Yet another automaker cancels an EV for gasoline SUVs here in America.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/Original-16041-LIPMAN99479-1152x648.jpg,https://arstechnica.com/cars/2026/04/volkswagen-ends-id-4-production-in-tennessee-to-build-atlas-suv/,https://arstechnica.com/feed/,2026-04-09T17:04:18Z,0,Tech
+"Indie game Neverway will launch this October, just in time for spooky season","Indie game studio Coldblood announced today that its debut project Neverway has been given a release window of October 2026. Billed as &#34;nightmarish life-sim RPG,&#34; this is going right to the top of my spooky season game queue. It has a cozy-sounding premise, with protagonist Fiona starting a new life on an island, but things take a surreal turn when she becomes the immortal herald for a dead god. She&#39;ll be building relationships and making friends one minute and coping with psychological horrors the next.  This game has been on our radar since it was introduced at last year&#39;s Triple-I Initiative event. The new trailer once more shows off the work of both pixel artist Pedro Medeiros, who also worked on Celeste and Towerfall, and composer Disasterpeace, whose past game credits include Fez and Hyper Light Drifter. The prologue is available to play for free starting today on Steam, and Neverway will launch both on that PC platform as well as on the Nintendo Switch.This article originally appeared on Engadget at https://www.engadget.com/gaming/indie-game-neverway-will-launch-this-october-just-in-time-for-spooky-season-170000669.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fneverway_9_0822.png&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=3ecad9c9fbdbdcf20b91f34143aff68cd8c59461,https://www.engadget.com/gaming/indie-game-neverway-will-launch-this-october-just-in-time-for-spooky-season-170000669.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T17:00:00Z,7,Tech
+1000xResist devs reveal their wild-looking second game about convincing an AI it's not human,"Developer Sunset Visitor just revealed its follow-up to the fantastic 1000xResist. It&#39;s called Prove You&#39;re Human and looks to wade in similar sci-fi waters as the team&#39;s first title.
+Just like 10000xResist, the new game is a narrative adventure set in the far future. Prove You&#39;re Human tasks players with convincing an AI product that its not alive, but there&#39;s a rub. The protagonist is a digital clone of a person, so they aren&#39;t human either. This will no-doubt lead to all manner of ethical conundrums.
+&#34;An AI dares to dream she is human,&#34; a tagline reads. &#34;You&#39;ve been hired to put her in her place.&#34;
+
+The gameplay looks to involve scanning the environment, talking to corporate employees and keeping up with the digital clone&#39;s corporeal body. There&#39;s also an emphasis on making and solving CAPTCHAs, which makes sense when trying to prove humanity or a lack thereof.
+The graphics certainly look unique, as the dev team has weaved real-world footage of Vancouver and the surrounding areas into the virtual landscape. &#34;Vancouver is a well-known film town,&#34; Remy Siu, Founder of Sunset Visitor said in a press release. &#34;We’re accessing that infrastructure, along with our long-time collaborators, to bring a sense of tactility to human forms in the game.&#34;
+We don&#39;t know when this is coming out, as the above trailer is just an announcement for the game. However, it&#39;s already available to wishlist on Steam.
+
+This is actually a pretty big deal. 1000xResist was a bona-fide sensation and was nominated for a Hugo Award. It also managed to win a Peabody Award, which honors excellence in storytelling.This article originally appeared on Engadget at https://www.engadget.com/gaming/1000xresist-devs-reveal-their-wild-looking-second-game-about-convincing-an-ai-its-not-human-170018986.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F3ae35230-2f88-11f1-bdbf-383906b94467&resize=1400%2C900&client=19f2b5e49a271b2bde77&signature=d7c51f1c396b9e4b69c11c3728f69aad3a3a9555,https://www.engadget.com/gaming/1000xresist-devs-reveal-their-wild-looking-second-game-about-convincing-an-ai-its-not-human-170018986.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T16:46:04Z,7,Tech
+Amazon's satellite internet service is scheduled for mid-2026 availability,"Amazon Leo (formerly Project Kuiper) will launch mid-2026, according to Andy Jassy. On Wednesday, the Amazon CEO dropped the news in his annual letter to shareholders. The company says Leo will support download speeds up to 1 Gbps. By comparison, Starlink’s download speeds typically range between 45 and 280 Mbps.Jassy didn&#39;t specify whether the mid-2026 launch date will include consumer availability. (An Amazon spokesperson told Engadget that the company doesn’t have more detail to add right now.) We do know that &#34;select enterprise customers&#34; began testing the high-speed satellite service late last year. Delta and JetBlue have already signed on to use Leo for in-flight Wi-Fi. Other businesses striking deals include AT&amp;T, Vodafone, DirecTV Latin America and NASA.Whenever it does arrive for consumers, Amazon Leo could offer several perks compared to Starlink. It will allegedly offer six to eight times faster uplink performance and double the download speeds than competitors (read: Starlink). Amazon says it will also cost less and offer native AWS integration for enterprise data storage, analytics and AI.Despite those perks, it may be a while before Leo can deliver Musk-free satellite internet on a large scale. The service is currently behind schedule, with only 241 satellites operating in its constellation. (Starlink has over 10,000.) In January, Amazon asked the FCC for an extension on a July 2026 deadline requiring it to have 1,600 satellites in orbit. The company said at the time that it expected only around 700 to be operating by that deadline.This article originally appeared on Engadget at https://www.engadget.com/big-tech/amazons-satellite-internet-service-is-scheduled-for-mid-2026-availability-164046305.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fleo_9395.jpg&resize=1400%2C786&client=19f2b5e49a271b2bde77&signature=3a27accec9a573a826edb6b03b84f7e8d71d474e,https://www.engadget.com/big-tech/amazons-satellite-internet-service-is-scheduled-for-mid-2026-availability-164046305.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T16:40:46Z,7,Tech
+The team behind 1000xResist is making a game about convincing an AI that it isn’t human,"When the team at indie studio Sunset Visitor were wrapping up their critically acclaimed first game, 1000xResist, it wasn&#39;t long before they started thinking about what they&#39;d tackle next. According to creative director Remy Siu, the studio&#39;s goal is to always find ways to reflect the world around them. So when they were looking at […]",,https://www.theverge.com/entertainment/909180/prove-youre-human-announcement-sunset-visitor-1000xresist,https://www.theverge.com/rss/index.xml,2026-04-09T16:38:12Z,6,Tech
+Police corporal created AI porn from driver's license pics,"Officer created over 3,000 &#34;deepfake&#34; images.",https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2233168552-1152x648-1775751732.jpg,https://arstechnica.com/tech-policy/2026/04/state-police-corporal-created-porn-deepfakes-from-drivers-license-photos/,https://arstechnica.com/feed/,2026-04-09T16:37:52Z,5,Tech
+UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns,"A previously undocumented threat cluster dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deploy a new Lua-based malware called LucidRook.
+&#34;LucidRook is a sophisticated stager that embeds a Lua interpreter and Rust-compiled libraries within a dynamic-link library (DLL) to download and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4smwzOHJUhoy2YQYZQpTIp9u5xk7vywCOtewG6WfLl1S3h1EO25k8GY6WSHovGYwTn4vo9uMFcoNX6XDa0-BC0mXJrTdSHtWGJDP1GIXqGvRnlqnqyPwzxxPFyjLx9yxEn1oeWs4r8fqq5xlS__yUA3nwf0DpZBiUh86FUx71PRBGbAP0gaNFAILqYgbT/s1600/phish.jpg,https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html,https://feeds.feedburner.com/TheHackersNews,2026-04-09T16:23:00Z,9,Cybersecurity
+"Smart Slider updates hijacked to push malicious WordPress, Joomla versions","Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]",,https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/,https://www.bleepingcomputer.com/feed/,2026-04-09T16:15:26Z,0,Cybersecurity
+Mastodon is about to launch its take on Bluesky&#8217;s starter packs,"Mastodon is preparing to roll out &#34;Collections&#34; in the next few weeks, a feature that allows you to find and create lists of accounts worth following, according to an announcement on Thursday. Collections, which take inspiration from Bluesky Starter Packs, will come with the ability to add up to 25 accounts to a single list. […]",,https://www.theverge.com/tech/909308/mastodon-collections-bluesky-starter-packs,https://www.theverge.com/rss/index.xml,2026-04-09T16:10:42Z,0,Tech
+Slay the Princess’ developer is the latest to expand into indie game publishing,"Black Tabby Games, the two-person studio behind the hit indie games Slay the Princess and Scarlet Hollow, is getting into indie publishing. The publishing arm, which was revealed on Thursday, is called Black Tabby Publishing and has already signed deals for two games: Prove You&#39;re Human, the next title from 1000xResist developer Sunset Visitor, and […]",,https://www.theverge.com/games/908072/black-tabby-games-publishing-slay-the-princess,https://www.theverge.com/rss/index.xml,2026-04-09T16:05:01Z,0,Tech
+The MacBook Neo is the best thing to happen to Windows in years,"If there&#39;s one thing I know about Microsoft after covering the company for more than 20 years, it&#39;s that it will always respond to a competitive threat. Apple&#39;s MacBook Air convinced Microsoft and Intel to launch thin and light laptops with the Ultrabook initiative, the iPad pushed Microsoft to create its own tablet hardware, and […]",,https://www.theverge.com/tech/909140/microsoft-windows-11-fixes-macbook-neo-response-notepad,https://www.theverge.com/rss/index.xml,2026-04-09T16:00:00Z,7,Tech
+Avec’s Tinder-styled email app allows you to swipe through your inbox,Users can use the in-built voice transcription tool to reply to emails,,https://techcrunch.com/2026/04/09/avecs-tinder-styled-email-app-allows-you-to-swipe-through-your-inbox/,https://techcrunch.com/feed/,2026-04-09T15:58:22Z,6,Tech
+Rhythm Heaven Groove comes to Switch on July 2,"A large chunk of Nintendo’s 2026 plans remain a mystery (that is, unless you take the insiders and leakers at their word), but we have been waiting on release dates for a couple of previously announced first-party titles, including Rhythm Heaven Groove, which officially arrives July 2.
+Seemingly announced first on the Nintendo Today! app before making its way to the company’s various social channels, the first new entry in the Rhythm Heaven series in more than a decade is technically launching on the original Switch, but should also be fully playable on Switch 2. Currently the game’s Switch 2 compatibility status is listed as “Untested” on its official store page, but it’s hard to imagine there being any issues there.
+🍅🍅🫑🥦🥦🥦🎵Did you catch all that? #RhythmHeavenGroove comes to #NintendoSwitch on July 2! pic.twitter.com/WrWiyC7Yqn— Nintendo of America (@NintendoAmerica) April 9, 2026
+ 
+
+
+If you’ve never played a Rhythm Heaven game before, the series is a bit like a (slightly) less wacky WarioWare, but all the minigames are based around rhythm and beat-matching. The challenges are rarely especially complex in terms of what&#39;s required of you, leaving you free to enjoy the always excellent original pop and electronic music.
+Rhythm Heaven is one of Nintendo’s less prolific series’, with the upcoming Groove being only the fifth entry in two decades. The series debuted on the Game Boy Advance in 2006 in Japan as Rhythm Tengoku, with Rhythm Heaven arriving on the DS two years later in the US. That was followed by Rhythm Heaven Fever on the Wii, and the most recent entry was 2015’s Rhythm Heaven Megamix for the 3DS, which was something of a best-of collection.
+Rhythm Heaven Groove is notable not only for being the first Rhythm Heaven game of the Switch generation, but also likely one of the console’s last games, as Nintendo prepares to shift its full focus to the Switch 2. Before then we’re also getting the typically charming Yoshi and the Mysterious Book (Switch 2-only) on May 21 and Tomodachi Life: Living the Dream, which launches on both platforms next week, April 16. 
+Rhythm Heaven Groove is available to pre-order now for $40.This article originally appeared on Engadget at https://www.engadget.com/gaming/nintendo/rhythm-heaven-groove-comes-to-switch-on-july-2-155715068.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F18346100-342b-11f1-bf6f-131684888c0d&resize=1400%2C774&client=19f2b5e49a271b2bde77&signature=63e80708ebbcc16a24a541c90daa98a244397456,https://www.engadget.com/gaming/nintendo/rhythm-heaven-groove-comes-to-switch-on-july-2-155715068.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T15:57:15Z,7,Tech
+X brings back Voice Notes to X Chat,X Chat brings back Voice Notes to DMs and group chats after removing the option during the upgrade. ,,https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/,https://techcrunch.com/feed/,2026-04-09T15:46:28Z,0,Tech
+First man convicted under Take It Down Act kept making AI nudes after arrest,Ohio man used more than 100 AI tools to make fake nudes of women and minors.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2203118091-1024x648.jpg,https://arstechnica.com/tech-policy/2026/04/first-man-convicted-under-take-it-down-act-kept-making-ai-nudes-after-arrest/,https://arstechnica.com/feed/,2026-04-09T15:43:40Z,5,Tech
+"Roku will stream Savannah Bananas games, along with the entire Banana Ball Championship League","The Banana Ball World Tour is coming to Roku. The platform has signed a deal to stream free content from the Banana Ball Championship League. This, of course, includes Savannah Bananas games.
+If that last paragraph didn&#39;t make a lick of sense to you, here&#39;s a primer. The Savannah Bananas are a wacky baseball team, playing something called Banana Ball. The team has been called the Harlem Globetrotters of baseball, and that&#39;s a fairly apt name. Players dress in funny costumes, step into ridiculously tall stilts, perform dance routines and do all kinds of things that could frustrate traditional baseball fans but tend to delight those looking for a unique night out.
+
+To that end, Savannah Bananas games have become massive events. They&#39;ve been traveling around the country the past few years doing exhibition matches, but the team&#39;s success led to the creation of the Banana Ball Championship League and the Banana Ball World Tour. There are now six teams involved and Roku will be streaming games from later this month until September.
+First up, the Savannah Bananas face the Party Animals on April 26 at Yankee Stadium, which streams live at 3PM ET on the Roku Sports Channel. The Party Animals are Savannah&#39;s main rivals, making them the Washington Generals of Banana Ball.
+
+Roku has published a calendar of streamed matches, but it doesn&#39;t include the actual championship game. This inaugural Banana Bowl is scheduled for October 10. Engadget has reached out to the platform to see what their plans are for the final game of the season. Many games are also available to stream on ESPN via Disney+.
+The company also says it&#39;s working on some kind of &#34;interactive platform&#34; for Banana Ball fans. The matches have a lot of audience participation, so this could be some kind of riff on that. Roku promises to share more details at a later time.This article originally appeared on Engadget at https://www.engadget.com/entertainment/roku-will-stream-savannah-bananas-games-along-with-the-entire-banana-ball-championship-league-153329667.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Ff754cc40-3425-11f1-bf8f-436c9224bcdd&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=286f0b721db2b101a7ffc803d98e0593095cd04a,https://www.engadget.com/entertainment/roku-will-stream-savannah-bananas-games-along-with-the-entire-banana-ball-championship-league-153329667.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T15:33:29Z,7,Tech
+"A thin, light entry-level gaming laptop is $300 off at Best Buy","It’s tough to find decent gaming laptops under $1,000. However, Best Buy has what I consider to be a good entry-level model for 1080p gaming in Lenovo’s 15.6-inch LOQ laptop, which is selling for $649.99 (usually $959.99) through today, April 9th. Even with its Nvidia’s RTX 4050 (its lowest-tier GPU of the series), the laptop […]",,https://www.theverge.com/gadgets/909148/lenovo-gaming-laptop-nvidia-rtx-4050-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-09T15:31:28Z,0,Tech
+"Hacker stole £700,000 from U.K. energy company by redirecting payment",The U.K. energy company said a redirected payment meant for a contractor instead landed in a hacker&#39;s bank account.,,https://techcrunch.com/2026/04/09/hacker-stole-700000-from-u-k-energy-company-by-redirecting-payment/,https://techcrunch.com/feed/,2026-04-09T15:31:10Z,5,Tech
+CDC study shows COVID shot benefits; Trump official blocks release,Study found shots cut urgent care and hospitalization by about 50% in healthy adults.,https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2259222585-1152x648.jpg,https://arstechnica.com/health/2026/04/cdc-study-shows-covid-shot-benefits-trump-official-blocks-release/,https://arstechnica.com/feed/,2026-04-09T15:26:31Z,0,Tech
+"Tesla is un-canceling its plan to build a smaller, cheaper EV: report","It looks like a smaller, cheaper Tesla is back on the menu. Today, Reuters is reporting that the electric automaker is calling around to suppliers about building an all-new - that is, not based on the Model 3 or the Model Y - electric SUV that would be more affordable than its current lineup. The […]",,https://www.theverge.com/transportation/909196/tesla-cheap-affordable-ev-musk-model-2,https://www.theverge.com/rss/index.xml,2026-04-09T15:00:30Z,0,Tech
+Fubo&#8217;s mobile app is pushing more sports highlights,"Fubo is rolling out a big mobile app update today that adds a bunch of new features, including short-form videos with news about your favorite teams and leagues. You&#39;ll also find a carousel of live video as soon as you open the app, allowing you to preview games before you tap into them. The live […]",,https://www.theverge.com/streaming/909118/fubo-mobile-app-update-sports-streaming,https://www.theverge.com/rss/index.xml,2026-04-09T15:00:00Z,3,Tech
+"Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",Andy Jassy&#39;s annual shareholder letter reads something like a diss track to a wide range of competitors as he defends spending $200 billion in capex.,,https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/,https://techcrunch.com/feed/,2026-04-09T14:27:57Z,5,Tech
+"First, Tesla canceled the Model 2—now it's working on a new small EV","After the pivot to humanoid robots and AI, does Tesla want to be a car company again?",https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1311107789-1152x648.jpg,https://arstechnica.com/cars/2026/04/first-tesla-canceled-the-model-2-now-its-working-on-a-new-small-ev/,https://arstechnica.com/feed/,2026-04-09T14:10:40Z,5,Tech
+Google introduces AI-generated avatars to YouTube Shorts,"A new feature that lets you create an AI avatar with your likeness is now live on YouTube. First announced in a blog post earlier this year, avatars are designed to be used in Shorts (provided you still allow them to show up), allowing you to insert yourself into video content in a way that YouTube deems to be safe and secure.
+YouTube’s approach to combatting the AI sloppification of the internet and the proliferation of deepfakes appears to be adding more and more AI features to its platform, framing this latest addition as a tool that gives creators more control of their digital identities. Any video generated using an avatar will feature YouTube’s AI disclosure and include visible watermarks and labels like SynthID and C2PA.
+YouTube has published a pretty in-depth explainer on how to create and use an avatar in either the YouTube or YouTube Create app, but here’s a brief summary of how to do it using the former. Once you’ve opened AI Playground, you’ll be taking a &#34;live selfie&#34; that also records your voice. You can then preview your photorealistic virtual self and either proceed with it or redo the process if you’re unhappy with anything. Creating an avatar in the YouTube Create app is broadly similar, but you have to navigate to the My Avatar homepage first.
+YouTube recommends that you hold your phone at eye level and keep yourself centered as much as possible. Lighting is also important, as is ensuring your whole face is visible, you’re in a quiet area, and there’s nobody else in the background. You also have to be the account owner to create an avatar, and over the age of 18.
+Once you have an avatar you like, you simply type in a prompt and wait for the AI to generate a video, which according to 9to5Google can be up to eight seconds long. Alternatively, YouTube will also let you add an avatar to existing &#34;eligible&#34; Shorts by tapping &#34;Remix&#34; and then &#34;Reimagine&#34; with your avatar selected.
+Avatars can be deleted or retaken whenever you like, as can any video with your avatar in it. You can also limit who’s able to remix your videos, but deleting a video with your avatar in it won’t also delete the original video, or that avatar from your account. YouTube will automatically delete any avatar that hasn’t been used to create new video content for three years.
+The new avatar feature will roll out gradually, and is the latest in a long line of AI-centric tools and updates YouTube has added to the platform in the last year, including automatic upscaling for low-res videos, automatic editing for creators and an AI-generated carousel for search results.This article originally appeared on Engadget at https://www.engadget.com/social-media/google-introduces-ai-generated-avatars-to-youtube-shorts-140222368.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F5d8eff90-341b-11f1-bdb7-63d9a9cb609e&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=a33f61c85a40571083da3e2a95600727a9f5895a,https://www.engadget.com/social-media/google-introduces-ai-generated-avatars-to-youtube-shorts-140222368.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T14:02:23Z,12,Tech
+"When attackers already have the keys, MFA is just another door to open",Stolen credentials turn authentication systems into the attack surface. Token shows how wearable biometric authentication verifies the user—not the session—blocking phishing relays and MFA bypass. [...],,https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/,https://www.bleepingcomputer.com/feed/,2026-04-09T14:02:12Z,6,Cybersecurity
+A jury is about to decide the fate of Ticketmaster,Consumer complaints about Ticketmaster are so voluminous at state attorneys general offices that Pennsylvania&#39;s comes with an explicit plea for residents lodging a grievance about the company to be patient for a response. That kind of pressure has driven more than 30 states to push forward with claims that Live Nation-Ticketmaster illegally monopolized parts of […],,https://www.theverge.com/policy/909192/live-nation-ticketmaster-antitrust-closing-arguments,https://www.theverge.com/rss/index.xml,2026-04-09T14:01:43Z,5,Tech
+The AI industry’s race for profits is now existential,"Today on Decoder, let’s talk about the looming AI monetization cliff, and whether some of the biggest companies in the space can become real, profitable businesses before they careen right off it. My guest today is Hayden Field, who’s our senior AI reporter here at The Verge. She’s been keeping close tabs on both Anthropic […]",,https://www.theverge.com/podcast/909042/ai-monetization-cliff-anthropic-openai-profitable-ai-existential-moment,https://www.theverge.com/rss/index.xml,2026-04-09T14:00:00Z,5,Tech
+Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket,"Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m. PT. After that, prices for TechCrunch Disrupt 2026 go up again. Miss this, and you’ll be paying more for the same access to one of the most anticipated tech epicenters of the year. Register now to lock in these savings.",,https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/,https://techcrunch.com/feed/,2026-04-09T14:00:00Z,5,Tech
+"Trump's emergency orders pushing coal power are ""illegal"" as well as dumb",A World War II-era policy is stopping old coal plants from closing.,https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-1558526744.jpg,https://arstechnica.com/science/2026/04/trumps-emergency-orders-pushing-coal-power-are-illegal-as-well-as-dumb/,https://arstechnica.com/feed/,2026-04-09T13:54:30Z,0,Tech
+Spotify now lets everyone turn off all videos in its app,"The controls can be used to choose an audio-first experience on the app or a video-enhanced one, Spotify says.",,https://techcrunch.com/2026/04/09/spotify-now-lets-everyone-turn-off-all-videos-in-its-app/,https://techcrunch.com/feed/,2026-04-09T13:49:56Z,1,Tech
+Apple Intelligence AI Guardrails Bypassed in New Attack,"RSAC researchers hacked Apple Intelligence using the Neural Exect method and Unicode manipulation.
+The post Apple Intelligence AI Guardrails Bypassed in New Attack appeared first on SecurityWeek.
+",,https://www.securityweek.com/apple-intelligence-ai-guardrails-bypassed-in-new-attack/,https://www.securityweek.com/feed/,2026-04-09T13:43:07Z,4,Cybersecurity
+Can we Trust AI? No – But Eventually We Must,"From hallucinations and bias to model collapse and adversarial abuse, today’s AI is built on probability rather than truth, yet enterprises are deploying it at speed without fully understanding the risks.
+The post Can we Trust AI? No – But Eventually We Must appeared first on SecurityWeek.
+",,https://www.securityweek.com/can-we-trust-ai-no-but-eventually-we-must/,https://www.securityweek.com/feed/,2026-04-09T13:30:00Z,2,Cybersecurity
+Instagram expands its movie inspired content restrictions for teens internationally,Instagram first debuted its movie rating inspired content settings in limited countries in 2025.,,https://techcrunch.com/2026/04/09/instagram-expands-its-movie-inspired-content-restriction-for-teens-internationally/,https://techcrunch.com/feed/,2026-04-09T13:26:29Z,0,Tech
+Spotify now lets you turn off all video,"Sometimes, you just want your dang music streaming app to play music. Spotify, which has increasingly incorporated video features through the years, is finally giving us the option to turn that mess off. Behold: universal video toggles.Spotify&#39;s video settings control several areas. First, the old Canvas toggle (videos on the Now Playing screen) is still there. But now you&#39;ll find two additional switches alongside it. One lets you control whether the app plays music videos. The other, &#34;all other videos,&#34; covers video podcasts, vertically scrolling videos and artist clips.You&#39;ll find the controls under Settings &gt; Content and display. Once you choose your preferences, they&#39;ll apply universally across all platforms. And if you&#39;re a family account manager, you can toggle video settings for all members on your plan.Spotify has increasingly leaned on video in recent years. The Canvas video loops arrived back in 2018. Then came video podcasts in 2020, as the format was enjoying a pandemic-era boom. The platform added music videos in 2024 (though they didn&#39;t arrive in the US until late last year). Then there are artist clips, the 30-second vertical videos where creators can send intimate (promotional) messages to their fans.The company claims that over 70 percent of its users say more video content would enhance their experience. So, don&#39;t be surprised if more video features arrive in the future. Fortunately, Spotify recognized that certain (perhaps older?) users don&#39;t want or need a TikTok-ified music app.This article originally appeared on Engadget at https://www.engadget.com/entertainment/music/spotify-now-lets-you-turn-off-all-video-130000034.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fftr_header_5319.png&resize=1400%2C797&client=19f2b5e49a271b2bde77&signature=00d2beb315187f9dff01568fcc152670b0cb00a7,https://www.engadget.com/entertainment/music/spotify-now-lets-you-turn-off-all-video-130000034.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T13:00:00Z,7,Tech
+The Exit 8 movie is even better if you play the game first,"There&#39;s an intriguing new video game adaptation to watch in theaters - and no, it&#39;s not that one. Exit 8, based on the game of the same name, hits the big screen on April 10th, and it&#39;s part of a burgeoning trend of horror movies directly inspired by indie games and liminal scares on YouTube. […]",,https://www.theverge.com/entertainment/908944/exit-8-movie-versus-game,https://www.theverge.com/rss/index.xml,2026-04-09T13:00:00Z,0,Tech
+Waymo is offering to help cities fix their potholes,"In recent months, some cities have sought a new recruit in their forever war against potholes: Waymo. Municipal officials in multiple cities where Waymo operates have reached out to the robotaxi operator for help in locating potholes on their streets, assuming that Waymo kept such data. Fortunately for them, Waymo does, and it has recently […]",,https://www.theverge.com/transportation/908886/waymo-potholes-cities-data-waze-robotaxi,https://www.theverge.com/rss/index.xml,2026-04-09T13:00:00Z,5,Tech
+Waymo robotaxis are tracking potholes and sharing that data with Waze users,Two Alphabet-owned businesses are teaming up to find potholes and share that information with cities.,,https://techcrunch.com/2026/04/09/waymo-robotaxis-are-tracking-potholes-and-sharing-that-data-with-waze-users/,https://techcrunch.com/feed/,2026-04-09T13:00:00Z,0,Tech
+Radify’s sci-fi plasma reactors could break China’s dominance of rare earth elements,Radify Metals is developing a new way to process a variety of metals that promises to be pollution free.,,https://techcrunch.com/2026/04/09/radifys-sci-fi-plasma-reactors-could-break-chinas-dominance-of-rare-earth-elements/,https://techcrunch.com/feed/,2026-04-09T13:00:00Z,0,Tech
+"Collide Capital raises $95M fund to back fintech, future-of-work startups","Collide Capital, founded by Brian Hollins and Aaron Samuels, announced Thursday the close of a $95 million Fund II. ",,https://techcrunch.com/2026/04/09/collide-capital-raises-95m-fund-to-back-fintech-future-of-work-startups/,https://techcrunch.com/feed/,2026-04-09T13:00:00Z,8,Tech
+This founder helped build SpaceX’s most powerful rocket engine. Now he’s building a ‘fighter jet for orbit’,The company&#39;s novel rocket engine could be a game changer for the U.S. military.,,https://techcrunch.com/2026/04/09/portal-raises-50-million-to-build-a-new-kind-of-high-power-rocket-engine/,https://techcrunch.com/feed/,2026-04-09T13:00:00Z,0,Tech
+"ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories","Thursday. Another week, another batch of things that probably should&#39;ve been caught sooner but weren&#39;t.
+This one&#39;s got some range — old vulnerabilities getting new life, a few &#34;why was that even possible&#34; moments, attackers leaning on platforms and tools you&#39;d normally trust without thinking twice. Quiet escalations more than loud zero-days, but the kind that matter more in",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6d4nK1zoWjzSmbdUmGPSycMwGmzcYM2XRrFH_ueobgO_8j7hwRdv8Ct856gg_k29HqAOw1-HGCtPpxyGDcuQIKY53ATLKb8bQCsJR5b_Jf8VqX1igItYBIe4iQazqSRe5fmFrFXS1fCcKdz6enbI6zYngIztjJ_UI262_ynNGJrd1EB_OUV1ZKYVl04-h/s1600/threatsdays-main.jpg,https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html,https://feeds.feedburner.com/TheHackersNews,2026-04-09T12:57:00Z,11,Cybersecurity
+Amazon’s Starlink competitor Leo gets a new date,"Amazon CEO Andy Jassy says the company&#39;s space-internet service Leo (formerly known as Project Kuiper) will &#34;launch in mid-2026.&#34; I&#39;m going to assume that means proper commercial availability since the company already announced the start of an &#34;enterprise preview&#34; at the end of 2025, when the service was supposed to originally launch. Unlike SpaceX&#39;s Starlink […]",,https://www.theverge.com/tech/909122/amazons-starlink-competitor-leo-gets-a-new-date,https://www.theverge.com/rss/index.xml,2026-04-09T12:53:01Z,6,Tech
+Weak at the seams,"
+		
+					  
+						
+
+
+
+
+Before I ever held a security title, I was a software engineer implementing vertically integrated automation systems for industrial manufacturing, warehouse-scale conveyor networks, robotic material handling, physical infrastructure controlled by software on increasingly connected networks. I learned early that tightly coupled systems produce tightly coupled failures. When a single software fault could halt a distribution center, you designed for graceful degradation. You assumed components would break and built the system to absorb it.
+
+
+
+That instinct followed me into cybersecurity and eventually into CISO roles across healthcare, financial services and global manufacturing. These industries operate under different regulatory regimes, face different threat profiles and define risk in different terms. But in every one of them, I encountered the same structural problem: Cyber risk wasn’t governed as a unified discipline. It was adopted piecemeal by systems that already existed, product markets, regulators, auditors, insurers and boards, each building frameworks on its own timeline, in its own language, toward its own definition of “secure.” The pattern rhymes with early actuarial science, where separate branches of insurance each modeled risk in isolation before discovering that correlated losses were the real threat.
+
+
+
+Within any individual silo, the logic was sound. But the seams between them were never reconciled. Where one system’s blind spot becomes another’s unpriced exposure, there was no shared language to name it. And as digital transformation has accelerated the interconnection between industries, supply chains and critical infrastructure, those seams have widened into the actual modern risk surface.
+
+
+
+We are spending more and falling further behind
+
+
+
+In every security program I’ve led, the budget could have ballooned year over year. My approach was always the opposite: Aggressively reduce tool proliferation and capability overlap, simplify the architecture and tie every dollar to a measurable business outcome. Timing and intent. But even with that discipline, the distance between what we spent and what we were exposed to widened, because technological change was rendering our tools and assumptions obsolete faster than we could replace them. The industry-level numbers confirm this isn’t anecdotal. Gartner projected global security spending would exceed $212 billion in 2025. The economic impact of cybercrime, by most estimates, has surpassed $10 trillion annually. Those curves are diverging, not converging.
+
+
+
+I first felt this acutely in healthcare. As CISO at a global benefits administrator processing sensitive health data for millions of members, I operated under HIPAA, state-level privacy mandates and contractual obligations from plan sponsors. We could satisfy every audit and still know the real risk lived in the handoffs, the interfaces between our claims platform and external provider networks, data flowing between systems governed by different standards. The auditors checked their boxes. The seams went unmeasured.
+
+
+
+Later, leading global security engineering at a major asset management firm, I saw the same gap in financial services. Different controls, different regulators, identical blind spot. The fragmentation was even more visible internationally. Regional regulatory bodies, data sovereignty requirements that varied by jurisdiction, vendor ecosystems that differed across geographies. Every regulator had its own definition of adequate security. None described the interconnected reality we were defending. Researchers at the Federal Reserve have documented how the financial system’s exposure to correlated cyber events is growing in ways that traditional risk models weren’t built to capture. I lived that gap daily.
+
+
+
+What connected these experiences was a pattern in the insurance market that troubled me more than any single threat. I watched premiums soften even as breach frequency and severity climbed. Insurers were underwriting individual, uncorrelated incidents while the actual risk was becoming systemic. Digital transformation had stitched these industries together: Healthcare platforms connected to financial clearinghouses connected to manufacturing supply chains all connected to hyperscalers, but the actuarial models still treated each policyholder as an island. When a single vendor failure can cascade across thousands of organizations simultaneously, that pricing model stops making sense. A black swan is lurking in our digital pond.
+
+
+
+The normal choices are the dangerous ones
+
+
+
+Consider the stack a typical large enterprise was running in 2024: One vendor for ERP and supply chain, another for perimeter enforcement, another for networking and another for endpoint protection. Standard choices, responsibly made. Within a 12-month window, each of those categories experienced significant disruptions, from zero-day exploits to update failures that disrupted global operations. Any single event was survivable. The accumulation was something else entirely.
+
+
+
+I lived this as a Global CISO. My team planned for sequential crises with recovery time between them. What we got was overlapping disruptions across interdependent systems. One week, we were triaging an emergency patch on our perimeter while a second advisory was escalating on a different platform. The assumption that these events would arrive one at a time, that we’d have breathing room, turned out to be a planning fiction. When you are sustaining the operation itself, crises expose the seams in real time.
+
+
+
+A firewall vulnerability isn’t just a network issue when the ERP behind it processes every financial transaction. An endpoint agent failure isn’t just a security tool outage when it takes down the operating systems running your logistics. These platforms don’t fail in isolation because they don’t operate in isolation. Increasingly, neither do the industries that depend on them. A disruption to a cloud provider ripples through healthcare systems processing claims, financial institutions settling trades and manufacturers coordinating supply chains on the same platform.
+
+
+
+The July 2024 CrowdStrike incident made this impossible to dismiss. A routine content update, no attacker, no exploit, bricked millions of Windows systems worldwide. Airlines grounded flights. Hospitals diverted patients. Financial services went dark. The protective tool itself became the failure vector. That should have ended the debate about whether cybersecurity is a technical problem contained within organizational boundaries or a systemic risk that spans them.
+
+
+
+My background in industrial automation made this grimly familiar. In material handling, we knew the integration layer was the highest-risk surface. We designed systems assuming any component could fail and built degradation paths so the operation didn’t stop. Enterprise cybersecurity had somehow convinced itself that assembling best-of-breed tools was the same as building a resilient system. It isn’t. And as digital transformation pushes more critical infrastructure, from energy grids and water systems to transportation networks and medical devices, onto the same interconnected platforms, the consequences of that confusion multiply.
+
+
+
+Resilience is a design problem, not a compliance problem
+
+
+
+Across healthcare, financial services and manufacturing, I watched the same pattern. The compliance apparatus measured whether controls existed. It rarely measured whether the organization, or the broader infrastructure it depended on, could survive its failure. In healthcare, we demonstrate compliance while knowing our resilience to a coordinated supply-chain attack is largely untested. In financial services, we pass examinations while the insurers underwriting our risk price off the same compliance signals the examiners accept — and neither captures the systemic interdependencies between our platforms and our counterparties. In manufacturing, we secure the IT network while operational technology controlling physical processes is increasingly exposed through the same digital transformation the business is accelerating. We are weak at the seams.
+
+
+
+The question that followed me from role to role was simple: If a critical platform failed tomorrow, not breached, just failed, could the business keep operating? Could the critical services it provides keep functioning? The paper processes and theoretical exercises always existed, but never in a way that could forecast the cascading impacts.
+
+
+
+The internet itself offers a better model. It was engineered to survive the loss of any individual node. Routes break and traffic finds another path. Organizations need that same architectural quality, and so does the interconnected infrastructure that sits on top of them. The goal can’t be preventing every compromise. It has to ensure that no single failure cascades into systemic disruption that takes critical services offline across industries. This sets the priority. You can’t audit your way to that. You have to build it.
+
+
+
+The external pressures are converging on this conclusion. Insurance is becoming harder to buy at meaningful coverage levels and carriers are grappling with correlated risk they can’t yet price. Regulators are pushing accountability to the C-suite. Boards want evidence of survivability, not maturity scores. And the scope of what “cybersecurity” is expected to protect keeps expanding, from AI and enterprise data to operational technology to the critical infrastructure communities depend on.
+
+
+
+The industry built an economy around demonstrating that organizations are secure. It is optimized for audits, certifications and framework alignment. What it never solved for was proving that an organization, and the infrastructure around it, can absorb serious disruption and keep running. That is the seam that matters most.
+
+
+
+Digital transformation didn’t just increase each organization’s attack surface. It wove those surfaces together into an emergent network of interdependency that spans sectors and borders. The question every security and risk leader should be asking themselves is no longer whether their controls are sufficient. It’s whether they are, along with their programs or offerings, aligned to a sustainable future, or holding together an increasingly heavy past.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+
+
+
+
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/04/4156510-0-01183900-1775737805-kerry-layton-Cxlyo85maYY-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4156510/weak-at-the-seams-2.html,https://www.csoonline.com/feed/,2026-04-09T12:28:57Z,30,Cybersecurity
+Google API Keys in Android Apps Expose Gemini Endpoints to Unauthorized Access,"Dozens of such keys can be extracted from apps’ decompiled code to gain access to all Gemini endpoints.
+The post Google API Keys in Android Apps Expose Gemini Endpoints to Unauthorized Access appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-api-keys-in-android-apps-expose-gemini-endpoints-to-unauthorized-access/,https://www.securityweek.com/feed/,2026-04-09T12:26:50Z,1,Cybersecurity
+Webinar: From noise to signal - What threat actors are targeting next,"Threat actors often signal their intentions before launching attacks, from dark web chatter to access-broker listings and credential requests. Join our upcoming webinar with Flare Systems to learn how to turn those early warning signs into proactive defensive action before an intrusion begins. [...]",,https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/,https://www.bleepingcomputer.com/feed/,2026-04-09T12:20:28Z,11,Cybersecurity
+Mobile World Congress 2026: AI-powered Network Security,Cisco is the sole supplier of network services to Mobile World Congress. The Security and Network Operations Center used Splunk to bring them together.,,https://blogs.cisco.com/security/mwc-2026-soc/,https://blogs.cisco.com/security/feed,2026-04-09T12:05:00Z,1,Cybersecurity
+Powering MWC Barcelona – Building a Unified SOC and NOC with Splunk in Record Time,Cisco is the sole supplier of network services to Mobile World Congress. The Security and Network Operations Center used Splunk to bring them together.,,https://blogs.cisco.com/security/powering-mwc-barcelona-building-a-unified-soc-and-noc-with-splunk-in-record-time/,https://blogs.cisco.com/security/feed,2026-04-09T12:00:49Z,1,Cybersecurity
+Inside the Mobile World Congress 2026 SOC: Detecting Shadow Traffic with Firepower 6100,"Cisco is the sole supplier of network services to Mobile World Congress. The Security and Network Operations Center used Cisco Secure Firewall 6100, Secure Access, Cisco XDR and Splunk to bring them together.",,https://blogs.cisco.com/security/mwc-2026-firepower6100/,https://blogs.cisco.com/security/feed,2026-04-09T12:00:00Z,1,Cybersecurity
+"JBL Live 780NC and 680NC review: Great leaps, greater missteps","JBL introduced two new headphones to its Live series lineup and both are fighting to live up to expectations. Don’t get me wrong, the JBL Live 780NC and 680NC are both a solid set of cans, but in a sea of noise-cancelling headphones, one of them definitely has more appeal. The biggest differences between these two headphones are the over-ear and on-ear cups, and surprisingly, their audio quality. Let’s get into what does and doesn’t make them so special.
+
+ 
+
+ 
+Design and comfort
+Outside of varying colors and cup sizes, the JBL Live 780NC and 680NC look practically identical. They have these hockey puck-looking ear cups that are divided from the leatherette pads. The design looks like someone’s idea of headphones from 10 years ago. It’s not necessarily a bad thing, but it feels a bit clunky. Despite that, the metal hinge and leatherette band are more pleasantly minimalist. The cups also fold up neatly in a heart shape so you can slot them easily in the included bag.
+There’s a dedicated volume rocker on the left ear cup while the right holds room for a USB Type-C port, the active noise cancelling (ANC) button and a combo power/Bluetooth switch (yes, it’s a switch, not a button). Meanwhile, you get all of the touch controls available on the right cup of each set of headphones.
+Both headphones felt a little uncomfortable to wear at first, but it usually takes time for me to get used to new cans. After spending several hours each with them, they eventually grew on me. They’re both a bit snug, but neither one left me aching at the end of the day. I felt more relief when taking off the 680NC because of the added pressure of on-ear cups, but I’m also not used to the on-ear design.
+Seamless customizable features
+
+ 
+ 
+  The ANC button and USB-C port on the Live 680NC
+ 
+ 
+  Rami Tabari for Engadget
+ 
+
+Despite the near $100 price gap, you get the same set of features for the JBL Live 780NC and 680NC, all wrapped up in the JBL Headphones app. It’s easy to set up and you don’t even need to make an account. 
+The first thing you might want to do is hop over to the settings and add the “disable ANC” function to the rotation. Out of the box, you can either switch between ANC or Ambient mode on the headphones, which is super frustrating — I shouldn’t need an app to enable a basic action. Most headphones these days allow you to cycle between ANC, Ambient mode and off (neither). 
+At the very least, the app offers a thorough suite of features. You can adjust the strength of the ANC and Ambient modes. Enabling Adaptive ANC allows automatic noise cancellation changes  based on the surrounding noise level, while Personal Sound Amplification makes everything around you sound louder than normal. The latter was incredibly helpful in writing this very headphone review, ironically, as I had to keep an ear out for my child potentially committing a crime (kidding… mostly).
+The JBL Live 780NC and 680NC are packed with the features I’d expect from a pair of premium headphones. They offer 360-degree spatial sound, an adaptive EQ, Auracast, automatic pausing and simultaneous Bluetooth connections with automatic switching. 
+You can also customize all of the controls, from the ANC Button to the Touch Panel, which includes two call shortcuts and four general shortcuts, one of which is already dedicated to native voice assistants like Bixby and Siri. You do need to put a little more pressure than you might expect in order for the touch controls to activate, though. This is a bit of a learning curve, so it would’ve been nice if it was more sensitive.
+Sound quality
+
+ 
+ 
+  The Live 780NC (left) and Live 680NC (right)
+ 
+ 
+  Rami Tabari for Engadget
+ 
+
+The JBL Live 780NC and 680NC both feature 40mm neodymium drivers, but they offer completely different soundstages. With the 680NC, I noticed the bass hit a lot harder during the DanDaDan soundtrack, but vocals and string instruments weren’t as crisp or bright as they were with the 780NC. I had a similar experience while schmoozing my way through everyday objects in Date Everything!, where vocals seemed more distant with the 680NC. However, when playing Helldivers 2, 680NC captured the bassy intensity of an explosive-intergalactic space war. 
+Continuing to run through tracks like JVKE’s “her” and “Radio” by Bershy, I noticed a common theme amongst the headphones. The 680NC’s soundstage was narrow and bassy, while the 780NC was wide and hollow. Both reproduced one half of a great couple, but unfortunately, they’re currently separated and seeking lives of their own. No, but seriously, the audio quality on both of them is still decent individually. I can distinguish each instrument from each other, so they aren’t getting muddied in the mix. But I don’t think the 780NC is worth the extra $90 on sound quality alone, since you’re trading one issue for another.
+ANC
+The ANC system is slightly different in the JBL Live 780NC and 680NC. The former features six microphones that detect and monitor ambient noise while the latter is outfitted with four microphones. 
+What difference does that actually make, though? Well… not much, at least not practically. If you stuck them in a lab and crunched the numbers, there might be, but in my testing using the JBL Live 780NC and 680NC as everyday headphones, there’s virtually no difference outside of the passive noise isolation you get from over-ear design.
+My dog is quite the yapper, so I happened to test the ANC against her with both headphones, and they managed to block out most of her bark, but not all (she is quite loud). Unless you’re actively listening to something, it won’t kill all the sound around you — when everything was quiet, I still heard my fan running in the background. As a passenger, the car’s road noise and the other cars around me faded mostly into the background, but they were still present (when not actively listening to music).
+Ambient modes for both headphones kept me alert while walking outside, and while checking to make sure nothing chaotic was happening in my home. I could clearly hear the ruckus my child and dog were causing in the next room, and I got even more of it when I turned up the Sound Amplification.
+As I mentioned above, the most annoying thing about the ANC and Ambient mode systems is that you cannot disable both of them at the same time (out of the box); you need the app in order to make the “off” option available via the ANC button.
+Calls and voice quality
+
+ 
+ 
+  The volume rocker on the JBL Live 780NC
+ 
+ 
+  Rami Tabari for Engadget
+ 
+
+JBL wasn’t lying about calls: Both the JBL Live 780NC and 680NC were great at cancelling out the noise from my surroundings, whether it was busy traffic or me blasting music on my desk. The microphone picked up little things here and there, but it blocked out most background distractions. The problem, however, is the overall microphone quality.
+Microphones on both sets were pretty rough. My voice sounded like it was underwater or in another room entirely. And while the microphones were able to cancel out the noise in the background, I noticed that it made me a little more muddied, like it was also cancelling out some of my voice as well. This is likely due to the signal processing to block background noise. My friend said, “You sound like you’re fighting an ocean.” If you’re looking for a great caller, these ain’t it.
+Battery life
+With a full battery, I didn’t have to charge the JBL Live 780NC or 680NC for the week I tested them. That’s with a combination of ANC on and off, as well as using them to chat with friends. JBL rates both headphones with the same battery life: 80 hours with ANC off (33 hours of talk time) and 50 hours with ANC on (28 hours of talk time). Those numbers lined up with my testing considering how long they lasted. Charging the headphones from empty does take two hours, though.
+The competition
+If you want a solid pair of over-ear ANC headphones in this price range, I’d recommend the Sony WH-CH720N. The ANC struggles a bit, but the headphones are much cheaper than the 780NC and offer great sound quality. It’s the best option if you want to save some money.
+However, if you’re looking for alternative on-ear ANC headphones, you’ll be hard pressed to find premium competitors to the JBL 680NC. On-ear headphones tend to land in the mid-range or budget class. The JBL 680NC aren’t the best pair of headphones out there, but they’re good for what they are in those categories.
+Wrap-up 
+
+ 
+ 
+  Both of the new Live models fold for easy storage
+ 
+ 
+  Rami Tabari for Engadget
+ 
+
+To bass or not to bass? That’s one of the few questions you’ll need to ask yourself when choosing between the JBL Live 780NC and 680NC. Of course, on-ear and over-ear designs appeal to different consumers, but the fact is that the former sounds hollow and the latter is more bass-heavy. Both headphones are comfortable and offer great ANC and features.
+Overall, however, the JBL Live 780NC falls in the middle of the overcrowded market for noise-cancelling wireless headphones, while the 680NC stands just tall enough to make you want to take a closer look. On a sale, I’d say you could grab either of these cans and be satisfied, but at their full price, I’d be wary. If you twist my arm, I could make an argument for the 680NC because there aren’t enough on-ear noise-cancelling headphones available these days.This article originally appeared on Engadget at https://www.engadget.com/audio/headphones/jbl-live-780nc-and-680nc-review-great-leaps-greater-missteps-120000508.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fjbl-live-lead_4769.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=864d8893a7b228bea3a5e174e167e2a46e965515,https://www.engadget.com/audio/headphones/jbl-live-780nc-and-680nc-review-great-leaps-greater-missteps-120000508.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T12:00:00Z,8,Tech
+AI-powered Network Security at the Mobile World Congress 2026 SNOC,Cisco is the sole supplier of network services to Mobile World Congress. The Security and Network Operations Center used Splunk to bring them together.,,https://blogs.cisco.com/security/mwc-2026-ai-network-security/,https://blogs.cisco.com/security/feed,2026-04-09T12:00:00Z,1,Cybersecurity
+Ex-Tesla engineer’s startup taps Pronto to help automate a copper mine,Pronto&#39;s autonomous haulage trucks are about to start operating at Mariana Minerals&#39;s Utah copper mine -- the first such deal since Pronto got acquired by Travis Kalanick&#39;s Atoms Inc.,,https://techcrunch.com/2026/04/09/mariana-minerals-taps-pronto-to-help-automate-a-copper-mine/,https://techcrunch.com/feed/,2026-04-09T12:00:00Z,3,Tech
+"Palo Alto Networks, SonicWall Patch High-Severity Vulnerabilities","The bugs could allow attackers to modify protected resources and escalate their privileges to administrator.
+The post Palo Alto Networks, SonicWall Patch High-Severity Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/palo-alto-networks-sonicwall-patch-high-severity-vulnerabilities/,https://www.securityweek.com/feed/,2026-04-09T11:58:52Z,5,Cybersecurity
+OpenAI 'pauses' its Stargate UK data center plan,"OpenAI is putting the brakes on Stargate UK, according to Bloomberg. That’s the company’s AI infrastructure project with NVIDIA that’s meant to help the UK build out its sovereign computing capabilities. The company announced Stargate UK back in September, but it launched a strategic partnership with the UK government months before that. Stargate UK would enable the government to run top AI models locally from data centers inside the region, “particularly for specialist use cases where jurisdiction matters.” But now OpenAI is pausing the project due to high cost of energy and regulatory issues.In a statement provided to the publication, the company said that it still sees a “huge potential for the UK‘s AI future.” It added that “AI compute is foundational to that goal” and that it continues “to explore Stargate UK and will move forward when the right conditions such as regulation and the cost of energy enable long-term infrastructure investment.”Upon announcing Stargate UK, OpenAI said that it would offer the same deal to other countries that want to expand their sovereign AI capabilities. It’s unclear if those plans are affected, as well, but it’s worth noting that the initiative, OpenAI for Countries, is also working with Australia, Greece, the UAE, Slovakia, Kazakhstan and other regions. This article originally appeared on Engadget at https://www.engadget.com/ai/openai-pauses-its-stargate-uk-data-center-plan-115626978.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fmedia-mbst-pub-ue1.s3.amazonaws.com%2Fcreatr-uploaded-images%2F2026-03%2F24ba9ab0-2969-11f1-bff7-db7bc6b30353&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=c701834477fc5a8a3f0b26e4b1001431c10ac1cc,https://www.engadget.com/ai/openai-pauses-its-stargate-uk-data-center-plan-115626978.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T11:56:26Z,7,Tech
+New ClickFix variant bypasses Apple safeguards with one‑click script execution,"
+		
+					  
+						
+
+
+
+
+ClickFix malware campaigns are evolving again, with threat actors removing one of their most obvious and user‑dependent steps: convincing victims to paste malicious commands into Terminal. Instead, the latest variant uses a single browser click to trigger script execution, streamlining the infection chain and reducing user hesitation.
+
+
+
+Researchers at Jamf Threat Labs have identified a new macOS campaign that launches Apple’s native Script Editor directly from the browser, preloaded with malicious code. The technique abuses the applescript:// URL scheme to open Script Editor automatically, sidestepping Terminal entirely and delivering Atomic Stealer payloads with far less friction.
+
+
+
+“Script Editor has a well-documented history as a malware delivery mechanism, so its presence here isn’tsurprising,” the researchers said in a blog post. “What is notable is its role in this ClickFix campaign and the fact that it was invoked via a URL scheme.”
+
+
+
+The payload isn’t new. It’s Atomic Stealer, a credential-harvesting strain commonly deployed in macOS-focused campaigns.
+
+
+
+Apple drops protection, attackers go around it
+
+
+
+Conventionally, ClickFix chains relied on social engineering to get users to paste obfuscated commands into Terminal. Apple’s recent protections introduced scanning and prompts around pasted commands, adding restrictions to disrupt that flow.
+
+
+
+This campaign routes around it.
+
+
+
+Victims are directed to an Apple-themed page posing as a system fix or cleanup guide. Instead of copying anything, they click a button that invokes an applescript:// URL. That action opens Script Editor with a pre-populated script, ready to execute.
+
+
+
+By not directing the user to interact with the Terminal, the attacker has removed a decision point that Apple enforced with macOS Tahoe 26.4. “Apple took direct aim at this in macOS 26.4, introducing a security feature that scans commands pasted into Terminal before they’re executed,” the researchers added. “It’s a meaningful friction point, but as this campaign illustrates, when one door closes, attackers find another.”
+
+
+
+Script Editor is a native macOS utility and doesn’t carry the same immediate suspicion as Terminal for non-experienced users. However, there is still some non-targeted resistance to this technique.
+
+
+
+The researchers pointed out that the behavior of the Script Editor may vary depending on the macOS version. “On recent versions of macOS Tahoe, an additional warning prompt is presented, requiring the user to allow the script to be saved to disk before execution,” they said.
+
+
+
+Lightweight staging for Atomic Stealer
+
+
+
+Once executed, the AppleScript resolves to an obfuscated shell command. That command decodes a hidden URL, retrieves a remote payload using ‘curl’, and executes it via ‘zsh’. From here, standard info-stealing takes over with a ‘Mach-O’ binary written to a temporary location, its attributes adjusted, permissions set, and execution triggered.This binary is a new variant of the Atomic Stealer.
+
+
+
+The researchers noted that the staging approach keeps the initial script minimal and less detectable, while the actual malicious logic arrives separately. It is modular, quick to update, and harder to catch at the first stage.
+
+
+
+Atomic Stealer’s objectives are consistent with earlier macOS infostealer campaigns, which focused on harvesting browser credentials, saved passwords, crypto wallet data, and developer artifacts. Previous reporting has shown that such stealers rarely operate in isolation, as exfiltrated data is almost always funneled into credential reuse attacks and account takeovers.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4156500-0-54359200-1775735503-shutterstock_editorial_1799864374.jpg?quality=50&strip=all,https://www.csoonline.com/article/4156500/new-clickfix-variant-bypasses-apple-safeguards-with-one%e2%80%91click-script-execution.html,https://www.csoonline.com/feed/,2026-04-09T11:51:29Z,16,Cybersecurity
+The Hidden Security Risks of Shadow AI in Enterprises,"As AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While these tools may boost productivity, automate tasks, or fill gaps in existing workflows, they also operate outside the visibility of security teams, bypassing controls and creating new blind spots in what is known as shadow AI. While similar to the phenomenon of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6OQHlRJgIjpCieiOfi48Mexu0Puimw_dz6w0h1spC2ZjcqifD2YPod5wd1AtUhr-e7CtAAoZ0bnRGnCH-BZRz4pDlB5Db2hJ4vFqsq5jc42UI4VTGXkxD8gNX1Ods9PpQZL4lk84RNL6EDSeI4YFCdjBgKSqKGimsqcsjekAAmr8CGYr3a2wPkchNYA/s1600/keeper.jpg,https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-04-09T11:31:00Z,2,Cybersecurity
+Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025,"Threat actors have been exploiting a previously unknown zero-day vulnerability in Adobe Reader using maliciously crafted PDF documents since at least December 2025.
+The finding, detailed by EXPMON&#39;s Haifei Li, has been described as a highly-sophisticated PDF exploit. The artifact (&#34;Invoice540.pdf&#34;) first appeared on the VirusTotal platform on November 28, 2025. A second ",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwKu6NdwE0kgawNywNJK7cGCEdRfzOKwsH9AeIT7zJ49RPq_KJAG3SyjH44SS8Zsd-gAUFDFKnfdpaFH8sAZT9wevB2fS0QVk-gCp8xg7j1XcwGJzv05xpoMN4O-oiEd1v3U3kuqW8cTGk0QlHPPS5GgifHq5DBgrE9R_6GxqxYb1erEN_qvAnUG6VFkx0/s1600/adobe.jpg,https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html,https://feeds.feedburner.com/TheHackersNews,2026-04-09T11:15:00Z,14,Cybersecurity
+"The Hidden ROI of Visibility: Better Decisions, Better Behavior, Better Security","Beyond monitoring and compliance, visibility acts as a powerful deterrent, shaping user behavior, improving collaboration, and enabling more accurate, data-driven security decisions.
+The post The Hidden ROI of Visibility: Better Decisions, Better Behavior, Better Security appeared first on SecurityWeek.
+",,https://www.securityweek.com/the-hidden-roi-of-visibility-better-decisions-better-behavior-better-security/,https://www.securityweek.com/feed/,2026-04-09T11:00:00Z,3,Cybersecurity
+I tested three Windows laptops in the MacBook Neo’s price range — there’s no contest,"When the MacBook Neo arrived last month, I knew Windows laptop makers were in trouble. For $599, the Neo offers fantastic build quality and solid performance in a sleek and ultra-portable package. Windows laptops in this price range tend to be ugly, cheap-feeling, and a little slow. Despite years of rumors, the MacBook Neo still […]",,https://www.theverge.com/tech/908328/macbook-neo-windows-laptop-competitors-asus-lenovo-acer-review-comparison,https://www.theverge.com/rss/index.xml,2026-04-09T11:00:00Z,0,Tech
+Google makes it easy to deepfake yourself,"YouTube Shorts is rolling out a new AI-powered feature giving creators an easy way to realistically clone themselves on camera. The launch, hinted at earlier this year, reflects the platform&#39;s fraught relationship with AI-generated content, adding more generative features while struggling to contain AI slop, deepfake scams, and impersonations. YouTube says the new tool will […]",,https://www.theverge.com/ai-artificial-intelligence/909104/youtube-shorts-make-ai-avatar,https://www.theverge.com/rss/index.xml,2026-04-09T10:53:49Z,5,Tech
+Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region,"An apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middle East and North Africa (MENA), according to findings from Access Now, Lookout, and SMEX.
+Two of the targets included prominent Egyptian journalists and government critics, Mostafa",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlfEPPxKdPdQANFPwRrggWpWL4wPe22B_Hdr5FpqDGHKTwN95xiQVwqqN896q_CkYvn-wrbDTXMl6wZ_aMD0YwEyRAI_9lzSZj_cg9-RhoNXMh-j16cA0n4CIT5y29FkOWFrQoV8oCv5OtZhMlhAKwqcgirImTOXoVzsJY76y6l-EWn86dAJfYNBy1ejW4/s1600/phone-hacking.jpg,https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html,https://feeds.feedburner.com/TheHackersNews,2026-04-09T10:40:00Z,3,Cybersecurity
+Spotify now lets you turn off all its videos,"Spotify is adding new toggles to stop any and all video from playing inside the app, for both music and podcasts. The controls are rolling out worldwide, work across all platforms and devices, and can be used by managers of Family Plans to limit video content for every member on the subscription. The new controls […]",,https://www.theverge.com/entertainment/909099/spotify-video-controls-music-podcasts-canvas,https://www.theverge.com/rss/index.xml,2026-04-09T10:33:09Z,1,Tech
+"Eurail says December data breach impacts 300,000 individuals","Eurail B.V., a European travel operator that provides digital passes covering 33 national railways, says attackers stole the personal information of over 300,000 individuals in a December 2025 data breach. [...]",,https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/,https://www.bleepingcomputer.com/feed/,2026-04-09T10:31:54Z,7,Cybersecurity
+"Google bakes NotebookLM, its research tool, into Gemini","Google has fully integrated NotebookLM, its AI-powered research tool, into the Gemini app. The company launched a standalone NotebookLM app last year, but as it said in its announcement, “keeping track of everything can be a challenge.” It added NotebookLM as a source in the Gemini app last year, but now you can create notebooks right inside the chatbot. You can now find the option to create a new notebook in Gemini’s side panel and then select “Add sources” that the tool can use, such as PDFs, documents, website URLs, YouTube videos and even copy-pasted text. NotebookLM will use information from those sources to create a searchable repository of information for you, and you can ask Gemini to create things like reviewers, infographics and video and audio overviews that turn your uploaded information into an easy-to-understand format. Take note, however, that Google warns users within the NotebookLM interface that it can be inaccurate, and that it’s best if you double-check information it puts out. The company is rolling out NotebookLM’s full integration into Gemini this week for Google AI Ultra, Pro and Plus subscribers on the web. It will be available on mobile, in more locations and to free users over the coming weeks. This article originally appeared on Engadget at https://www.engadget.com/ai/google-bakes-notebooklm-its-research-tool-into-gemini-101850634.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgoogle-gemini-notebooks_3238.jpg&resize=1400%2C789&client=19f2b5e49a271b2bde77&signature=1eee71fa322c45a7af25724683793997ed6a29b5,https://www.engadget.com/ai/google-bakes-notebooklm-its-research-tool-into-gemini-101850634.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-09T10:18:50Z,8,Tech
+‘Hybrid constellations’ are making it hard for militaries to hide,Vantor plans to combine high- and low-resolution space imagery in its satellite fleet.,,https://www.defenseone.com/technology/2026/04/hybrid-constellations-are-making-it-hard-militaries-hide/412728/,https://www.defenseone.com/rss/all/,2026-04-09T10:00:00Z,0,Defense
+Politicians Are Spending More Money on Security as They Increasingly Become Targets,"Political candidates are purchasing more home alarms, bulletproof vests, and other protections amid rising fears of political violence.",,https://www.wired.com/story/political-campaign-security-spending/,https://www.wired.com/feed/category/security/latest/rss,2026-04-09T10:00:00Z,1,Cybersecurity
+Google Warns of New Campaign Targeting BPOs to Steal Corporate Data,"Tracked as UNC6783, the threat actor is likely linked to Mr. Raccoon, the hacker behind the alleged theft of Adobe data from a BPO.
+The post Google Warns of New Campaign Targeting BPOs to Steal Corporate Data appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-warns-of-new-campaign-targeting-bpos-to-steal-corporate-data/,https://www.securityweek.com/feed/,2026-04-09T09:44:56Z,5,Cybersecurity
+Hackers exploiting Acrobat Reader zero-day flaw since December,Attackers have been exploiting a zero-day vulnerability in Adobe Reader using maliciously crafted PDF documents since at least December. [...],,https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/,https://www.bleepingcomputer.com/feed/,2026-04-09T09:22:35Z,14,Cybersecurity
+Patch windows collapse as time-to-exploit accelerates,"
+		
+					  
+						
+
+
+
+
+The gap between vulnerability disclosure and exploitation is drastically decreasing, putting security teams’ patching practices on notice.
+
+
+
+According to Rapid7’s latest Cyber Threat Landscape Report, confirmed exploitation of newly disclosed high- and critical-severity vulnerabilities (CVSS 7-10) increased 105% year to 146 in 2025, up from 71 in 2024.
+
+
+
+Moreover, the median time from vulnerability publication to CISA Known Exploited Vulnerabilities (KEV) inclusion dropped from 8.5 days to 5.0 days, with mean time-to-exploit dropping from 61.0 days to 28.5 days. Zero-day exploits have also been hitting enterprises faster and harder, according to a recent report from Google Threat Intelligence Group.
+
+
+
+The result is a threat ecosystem that sees twice as many high-impact flaws exploited in half the time — a troubling development for cyber defense.
+
+
+
+Cybercrime industrial complex
+
+
+
+Industrialization of the cybercrime ecosystem and increased abuse of AI tools to find and exploit vulnerabilities are key drivers of the increased pace of vulnerability exploitation, according to Rapid7 and other industry observers quizzed by CSO.
+
+
+
+“Initial access brokers now sell directly to ransomware groups, creating a clear incentive to weaponize new vulnerabilities, harvest credentials, and monetize access,” says Stephen Fewer, senior principal researcher at Rapid7, the firm behind the popular Metasploit penetration-testing tool. “This has accelerated both the pace and sophistication of their operations.”
+
+
+
+For attackers, familiarity with the target and the technologies involved can greatly reduce the challenge of developing exploits — a factor that is driving repeated exploitation of many enterprise software targets.
+
+
+
+AI adoption is another important factor in the increased pace of vulnerability discovery and exploitation because it facilitates the process of uncovering software bugs.
+
+
+
+“It [AI] enables threat actors to close skill gaps and significantly increases operational throughput,” Fewer says. “In practice, AI provides a tactical advantage in analyzing newly disclosed vulnerabilities and generating exploit code at speed.”
+
+
+
+N-day exploitation
+
+
+
+Rapid7 Labs validated its findings about a more febrile threat environment by producing both n-day and zero-day exploits using AI-assisted research, substantially reducing development time.
+
+
+
+In practice, n-day bugs — or the development of exploits against patched software — are a bigger problem than headline-grabbing zero-day vulnerabilities, adds Leeann Nicolo, incident response lead at Coalition, a technology firm that specializes in cyber insurance and cybersecurity tools.
+
+
+
+“Our incident response team hasn’t seen a lot of zero-day vulnerabilities exploited lately. Instead, threat actors are hitting known issues that already have patches,” Nicolo says.
+
+
+
+Other industry experts confirmed that Rapid7’s findings reflect what they too are seeing on the ground.
+
+
+
+“The patch window has effectively collapsed,” says Chris Wysopal, co-founder and chief security evangelist at application security firm Veracode. “That is not a gradual trend; it’s a structural break.”
+
+
+
+One driver for the increased pace of exploitation is that every patch now acts like a roadmap for attackers, Wysopal says.
+
+
+
+“Once a fix ships, attackers can differentiate the patch, isolate the vulnerable code path, and use automation and AI to generate working exploit paths far faster than enterprises can test and deploy the fix,” says Wysopal. “In other words, disclosure increasingly starts the race, and defenders are already behind when the starting gun fires.”
+
+
+
+In addition, AppSec debt widens the exposure window even when a patch exists.
+
+
+
+“Enterprises are still carrying too much legacy code, too many internet-facing dependencies, and too many fragile change processes to remediate at machine speed,” Wysopal says. “If the organization needs days or weeks to inventory exposure, assess blast radius, test, get approvals, and deploy, then it is operating on a calendar while attackers are operating on a clock.”
+
+
+
+Another big issue is the industrialization of vulnerability exploitation.
+
+
+
+AI compresses exploit development and lowers the skill barrier, while the cybercrime market removes friction by creating a well-oiled production line that incorporates researchers, brokers, access sellers, botnet operators, and ransomware affiliates.
+
+
+
+“[This] assembly-line model means more vulnerabilities move from disclosure to usable attack paths almost immediately,” according to Wysopal.
+
+
+
+Secure-by-design imperative
+
+
+
+The real response to these challenges ought to be in reducing the amount of exploitable software reaching production in the first place rather than encouraging CISOs to “patch faster.”
+
+
+
+Secure-by-design engineering, aggressive pre-release testing by top-tier bug hunters, architectural mitigations that shrink whole bug classes, and the ability to rebuild or isolate exposed systems quickly are all necessary but perhaps insufficient.
+
+
+
+The old assumption that defenders get a grace period after disclosure is no longer credible, according to Wysopal.
+
+
+
+“We are watching the collapse of the traditional patch window in real-time,” Wysopal emphasizes. “Secure by design is the only sustainable response, because once disclosure happens, the attacker’s clock is already ticking.”
+",,https://www.csoonline.com/article/4156005/patch-windows-collapse-as-time-to-exploit-accelerates.html,https://www.csoonline.com/feed/,2026-04-09T09:01:00Z,28,Cybersecurity
+Weak at the seams,"
+		
+					  
+						
+
+
+
+
+Before I ever held a security title, I was a software engineer implementing vertically integrated automation systems for industrial manufacturing, warehouse-scale conveyor networks, robotic material handling, physical infrastructure controlled by software on increasingly connected networks. I learned early that tightly coupled systems produce tightly coupled failures. When a single software fault could halt a distribution center, you designed for graceful degradation. You assumed components would break and built the system to absorb it.
+
+
+
+That instinct followed me into cybersecurity and eventually into CISO roles across healthcare, financial services and global manufacturing. These industries operate under different regulatory regimes, face different threat profiles and define risk in different terms. But in every one of them, I encountered the same structural problem: Cyber risk wasn’t governed as a unified discipline. It was adopted piecemeal by systems that already existed, product markets, regulators, auditors, insurers and boards, each building frameworks on its own timeline, in its own language, toward its own definition of “secure.” The pattern rhymes with early actuarial science, where separate branches of insurance each modeled risk in isolation before discovering that correlated losses were the real threat.
+
+
+
+Within any individual silo, the logic was sound. But the seams between them were never reconciled. Where one system’s blind spot becomes another’s unpriced exposure, there was no shared language to name it. And as digital transformation has accelerated the interconnection between industries, supply chains and critical infrastructure, those seams have widened into the actual modern risk surface.
+
+
+
+We are spending more and falling further behind
+
+
+
+In every security program I’ve led, the budget could have ballooned year over year. My approach was always the opposite: Aggressively reduce tool proliferation and capability overlap, simplify the architecture and tie every dollar to a measurable business outcome. Timing and intent. But even with that discipline, the distance between what we spent and what we were exposed to widened, because technological change was rendering our tools and assumptions obsolete faster than we could replace them. The industry-level numbers confirm this isn’t anecdotal. Gartner projected global security spending would exceed $212 billion in 2025. The economic impact of cybercrime, by most estimates, has surpassed $10 trillion annually. Those curves are diverging, not converging.
+
+
+
+I first felt this acutely in healthcare. As CISO at a global benefits administrator processing sensitive health data for millions of members, I operated under HIPAA, state-level privacy mandates and contractual obligations from plan sponsors. We could satisfy every audit and still know the real risk lived in the handoffs, the interfaces between our claims platform and external provider networks, data flowing between systems governed by different standards. The auditors checked their boxes. The seams went unmeasured.
+
+
+
+Later, leading global security engineering at a major asset management firm, I saw the same gap in financial services. Different controls, different regulators, identical blind spot. The fragmentation was even more visible internationally. Regional regulatory bodies, data sovereignty requirements that varied by jurisdiction, vendor ecosystems that differed across geographies. Every regulator had its own definition of adequate security. None described the interconnected reality we were defending. Researchers at the Federal Reserve have documented how the financial system’s exposure to correlated cyber events is growing in ways that traditional risk models weren’t built to capture. I lived that gap daily.
+
+
+
+What connected these experiences was a pattern in the insurance market that troubled me more than any single threat. I watched premiums soften even as breach frequency and severity climbed. Insurers were underwriting individual, uncorrelated incidents while the actual risk was becoming systemic. Digital transformation had stitched these industries together: Healthcare platforms connected to financial clearinghouses connected to manufacturing supply chains all connected to hyperscalers, but the actuarial models still treated each policyholder as an island. When a single vendor failure can cascade across thousands of organizations simultaneously, that pricing model stops making sense. A black swan is lurking in our digital pond.
+
+
+
+The normal choices are the dangerous ones
+
+
+
+Consider the stack a typical large enterprise was running in 2024: One vendor for ERP and supply chain, another for perimeter enforcement, another for networking and another for endpoint protection. Standard choices, responsibly made. Within a twelve-month window, each of those categories experienced significant disruptions, from zero-day exploits to update failures that disrupted global operations. Any single event was survivable. The accumulation was something else entirely.
+
+
+
+I lived this as a Global CISO. My team planned for sequential crises with recovery time between them. What we got was overlapping disruptions across interdependent systems. One week, we were triaging an emergency patch on our perimeter while a second advisory was escalating on a different platform. The assumption that these events would arrive one at a time, that we’d have breathing room, turned out to be a planning fiction. When you are sustaining the operation itself, crises expose the seams in real time.
+
+
+
+A firewall vulnerability isn’t just a network issue when the ERP behind it processes every financial transaction. An endpoint agent failure isn’t just a security tool outage when it takes down the operating systems running your logistics. These platforms don’t fail in isolation because they don’t operate in isolation. Increasingly, neither do the industries that depend on them. A disruption to a cloud provider ripples through healthcare systems processing claims, financial institutions settling trades and manufacturers coordinating supply chains on the same platform.
+
+
+
+The July 2024 CrowdStrike incident made this impossible to dismiss. A routine content update, no attacker, no exploit, bricked millions of Windows systems worldwide. Airlines grounded flights. Hospitals diverted patients. Financial services went dark. The protective tool itself became the failure vector. That should have ended the debate about whether cybersecurity is a technical problem contained within organizational boundaries or a systemic risk that spans them.
+
+
+
+My background in industrial automation made this grimly familiar. In material handling, we knew the integration layer was the highest-risk surface. We designed systems assuming any component could fail and built degradation paths so the operation didn’t stop. Enterprise cybersecurity had somehow convinced itself that assembling best-of-breed tools was the same as building a resilient system. It isn’t. And as digital transformation pushes more critical infrastructure, from energy grids and water systems to transportation networks and medical devices, onto the same interconnected platforms, the consequences of that confusion multiply.
+
+
+
+Resilience is a design problem, not a compliance problem
+
+
+
+Across healthcare, financial services and manufacturing, I watched the same pattern. The compliance apparatus measured whether controls existed. It rarely measured whether the organization, or the broader infrastructure it depended on, could survive its failure. In healthcare, we demonstrate compliance while knowing our resilience to a coordinated supply-chain attack is largely untested. In financial services, we pass examinations while the insurers underwriting our risk price off the same compliance signals the examiners accept — and neither captures the systemic interdependencies between our platforms and our counterparties. In manufacturing, we secure the IT network while operational technology controlling physical processes is increasingly exposed through the same digital transformation the business is accelerating. We are weak at the seams.
+
+
+
+The question that followed me from role to role was simple: If a critical platform failed tomorrow, not breached, just failed, could the business keep operating? Could the critical services it provides keep functioning? The paper processes and theoretical exercises always existed, but never in a way that could forecast the cascading impacts.
+
+
+
+The internet itself offers a better model. It was engineered to survive the loss of any individual node. Routes break and traffic finds another path. Organizations need that same architectural quality, and so does the interconnected infrastructure that sits on top of them. The goal can’t be preventing every compromise. It has to ensure that no single failure cascades into systemic disruption that takes critical services offline across industries. This sets the priority. You can’t audit your way to that. You have to build it.
+
+
+
+The external pressures are converging on this conclusion. Insurance is becoming harder to buy at meaningful coverage levels and carriers are grappling with correlated risk they can’t yet price. Regulators are pushing accountability to the C-suite. Boards want evidence of survivability, not maturity scores. And the scope of what “cybersecurity” is expected to protect keeps expanding, from AI and enterprise data to operational technology to the critical infrastructure communities depend on.
+
+
+
+The industry built an economy around demonstrating that organizations are secure. It is optimized for audits, certifications and framework alignment. What it never solved for was proving that an organization, and the infrastructure around it, can absorb serious disruption and keep running. That is the seam that matters most.
+
+
+
+Digital transformation didn’t just increase each organization’s attack surface. It wove those surfaces together into an emergent network of interdependency that spans sectors and borders. The question every security and risk leader should be asking themselves is no longer whether their controls are sufficient. It’s whether they are, along with their programs or offerings, aligned to a sustainable future, or holding together an increasingly heavy past.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",,https://www.csoonline.com/article/4155921/weak-at-the-seams.html,https://www.csoonline.com/feed/,2026-04-09T09:00:00Z,30,Cybersecurity
+Adobe Reader Zero-Day Exploited for Months: Researcher,"Reputable researcher Haifei Li has come across what appears to be a PDF designed to exploit an unpatched vulnerability.
+The post Adobe Reader Zero-Day Exploited for Months: Researcher appeared first on SecurityWeek.
+",,https://www.securityweek.com/adobe-reader-zero-day-exploited-for-months-researcher/,https://www.securityweek.com/feed/,2026-04-09T08:44:51Z,13,Cybersecurity
+Amflow’s latest e-bikes raise the bar again,"Amflow, the e-bike brand spun out of DJI, is back with two impressive electric mountain bike ranges built around its incredibly dense Avinox motors. The e-MTBs aim to break the traditional trade-off between power, range, and weight. The flagship Amflow PX (weighing around 20kg / 44lbs) and the Amflow PR (weighing around 22kg / 49lbs) […]",,https://www.theverge.com/transportation/909060/amflows-latest-e-bikes-raise-the-bar-again,https://www.theverge.com/rss/index.xml,2026-04-09T08:30:02Z,5,Tech
+"300,000 People Impacted by Eurail Data Breach","In December 2025, hackers stole names and passport numbers from the European travel company’s network.
+The post 300,000 People Impacted by Eurail Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/300000-people-impacted-by-eurail-data-breach/,https://www.securityweek.com/feed/,2026-04-09T08:28:05Z,5,Cybersecurity
+Hackers steal $3.6 million from crypto ATM giant Bitcoin Depot,"Bitcoin Depot, which operates one of the largest Bitcoin ATM networks, says attackers stole $3.665 million worth of Bitcoin from its crypto wallets after breaching its systems last month. [...]",,https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/,https://www.bleepingcomputer.com/feed/,2026-04-09T07:44:55Z,6,Cybersecurity
+Microsoft suspends dev accounts for high-profile open source projects,"Microsoft has suspended developer accounts used to maintain multiple high-profile open-source projects without proper notification and no way to quickly reinstate them, effectively blocking them from publishing new software builds and security patches for Windows users. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/,https://www.bleepingcomputer.com/feed/,2026-04-09T06:46:26Z,2,Cybersecurity
+$3.6 Million Stolen in Bitcoin Depot Hack,"A hacker transferred more than 50 bitcoin from the Bitcoin ATM operator’s wallets after stealing credentials. 
+The post $3.6 Million Stolen in Bitcoin Depot Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/3-6-million-stolen-in-bitcoin-depot-hack/,https://www.securityweek.com/feed/,2026-04-09T06:41:40Z,1,Cybersecurity
 The Moon is already on Google Maps—did Artemis II really tell us anything new?,"&#34;I think the biggest value here is the PR. I mean, it&#39;s getting the public excited.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/04/55192132107_b06cdcdd64_5k-1152x648.jpg,https://arstechnica.com/space/2026/04/the-moon-is-already-on-google-maps-did-artemis-ii-really-tell-us-anything-new/,https://arstechnica.com/feed/,2026-04-09T03:44:24Z,0,Tech
 Shaky Ceasefire Unlikely to Stop Cyberattacks From Iran-Linked Hackers for Long,"Hackers vowed to revive its efforts against America when the time was right — demonstrating how digital warfare has become ingrained in military conflict. 
 The post Shaky Ceasefire Unlikely to Stop Cyberattacks From Iran-Linked Hackers for Long appeared first on SecurityWeek.
@@ -549,12 +1426,14 @@ The post RCE Bug Lurked in Apache ActiveMQ Classic for 13 Years appeared first o
 ",,https://www.securityweek.com/rce-bug-lurked-in-apache-activemq-classic-for-13-years/,https://www.securityweek.com/feed/,2026-04-08T14:30:27Z,7,Cybersecurity
 No Man’s Sky now has Pokémon-style creature battles,"The free No Man’s Sky updates are still flowing. With the latest one, dubbed Xeno Arena, Hello Games has added a completely original feature. Players have long been able to adopt wild animals as companions. But now these can be deployed in simulated, turn-based battles against rival teams. As you win more battles, you’ll increase your reputation and perhaps be invited to take on more difficult opponents. Among other things, the creatures can launch powerful attacks, use healing abilities, dodge incoming salvos, power up their own abilities and turn enemies into more vulnerable forms. They can earn experience that allows them to grow stronger and genetically mutate into new forms. An evolution, if you will. You can also modify the progeny of your squad, with their personalities and physical characteristics affecting how they fare in battle. There are eight affinities (some might call them &#34;types&#34;) that the creatures belong to, including ones concerning fire, ice and radiation. A fire-based beast might fare well against an ice-based one, but struggle to be effective against radiation. So you’ll need to choose your creatures for each battle strategically. Gotta catch em’ all first, though!This all seems really neat and such a novel concept. It would be quite a shocker if there were a brand-new game out today that also features turn-based creature battles. The No Man’s Sky battles take place on Holo-Arena tables that are found in a range of structures throughout the universe. The creatures look quite small on these tables, almost pocket-sized. Wait a second, pocket monsters? Now, there’s an idea…This article originally appeared on Engadget at https://www.engadget.com/gaming/no-mans-sky-now-has-pokemon-style-creature-battles-142020310.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fno_mans_sky_2485.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=9c700e588e5f56a1c5e1c05c05ab635e852f87b5,https://www.engadget.com/gaming/no-mans-sky-now-has-pokemon-style-creature-battles-142020310.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-08T14:20:20Z,8,Tech
 "With Orion still flying, NASA is nearing key decisions about Artemis III",&#34;One of the questions is what the initial orbit will be for Artemis III.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2023/05/lunar-lander-1152x648.jpg,https://arstechnica.com/space/2026/04/with-orion-still-flying-nasa-is-nearing-key-decisions-about-artemis-iii/,https://arstechnica.com/feed/,2026-04-08T14:15:10Z,0,Tech
+Serbia Hedges Its Bets With Chinese High-Speed Missiles,"For Belgrade, the logic behind the acquisition of Chinese CM-400AKG missiles is multifaceted.",https://images.thediplomat.com/v1/td-list-l-2/2026/04/thediplomat_2026-04-08-231554.jpg,https://thediplomat.com/2026/04/serbia-hedges-its-bets-with-chinese-high-speed-missiles/,https://thediplomat.com/category/asia-defense/feed/,2026-04-08T14:14:00Z,0,Defense
 "As YouTube grows on TV, it eyes more interactive video across formats","YouTube&#39;s hiring across roles, partnerships, and a Bengaluru hub shows how it is building out its TV strategy.",,https://techcrunch.com/2026/04/08/as-youtube-grows-on-tv-it-eyes-more-interactive-video-across-formats/,https://techcrunch.com/feed/,2026-04-08T14:03:04Z,0,Tech
 "Is a $30,000 GPU Good at Password Cracking?","A $30,000 AI GPU doesn&#39;t outperform consumer GPUs at password cracking. Specops explains why attackers don&#39;t need exotic hardware to break weak passwords. [...]",,https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/,https://www.bleepingcomputer.com/feed/,2026-04-08T14:00:10Z,3,Cybersecurity
 Final 3 days to save up to $500 on your TechCrunch Disrupt 2026 pass,"Save up to $500 on your TechCrunch Disrupt 2026 pass until April 10, 11:59 p.m. PT. Secure your spot at the center of the tech ecosystem. Register today.",,https://techcrunch.com/2026/04/08/final-3-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/,https://techcrunch.com/feed/,2026-04-08T14:00:00Z,0,Tech
 "Hegseth declares ‘decisive military victory’ in Iran, says U.S. is ‘hanging around’ to enforce ceasefire","The Joint Chiefs chairman tallied more than 13,000 strikes on Iran since war began.",,https://www.defenseone.com/threats/2026/04/hegseth-declares-decisive-military-victory-iran-says-us-hanging-around-enforce-ceasefire/412702/,https://www.defenseone.com/rss/all/,2026-04-08T13:55:07Z,0,Defense
 APT28 Deploys PRISMEX Malware in Campaign Targeting Ukraine and NATO Allies,"The Russian threat actor known as APT28 (aka Forest Blizzard and Pawn Storm) has been linked to a fresh spear-phishing campaign targeting Ukraine and its allies to deploy a previously undocumented malware suite codenamed PRISMEX.
 &#34;PRISMEX combines advanced steganography, component object model (COM) hijacking, and legitimate cloud service abuse for command-and-control,&#34; Trend Micro",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBiilqDko4PDmo2Iu-E-25PRzUJ2LygbHdv1RsdA31AkJBL9QB3AzdxV_4j-jo2Xf9wXwlienf17HO_uJyiue3JOWNfTFdln4gXJcounilzPxOsIXpN5g6imDW3ta0jt4Ck3UYinAmWwHZqfxYhjuaFnOIowTmZbNedv3AmS7Qlze1-tD2gkJBuUxTzSml/s1600/nato.jpg,https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html,https://feeds.feedburner.com/TheHackersNews,2026-04-08T13:50:00Z,9,Cybersecurity
+The vibes are off at OpenAI,"OpenAI is in a relatively precarious position. The company is and has been a funding behemoth - just over a week ago, it closed $122 billion in funding at a post-money valuation of $852 billion. It&#39;s potentially planning for an IPO later this year. ChatGPT&#39;s longtime lead in consumer-facing AI led it to name-brand status […]",,https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai,https://www.theverge.com/rss/index.xml,2026-04-08T13:47:38Z,8,Tech
 "Anthropic limits access to Mythos, its new cybersecurity AI model",A select group of customers is testing the Claude Mythos Preview.,https://cdn.arstechnica.net/wp-content/uploads/2025/03/anthropoc_search-1152x648.jpg,https://arstechnica.com/ai/2026/04/anthropic-limits-access-to-mythos-its-new-cybersecurity-ai-model/,https://arstechnica.com/feed/,2026-04-08T13:34:17Z,6,Tech
 FBI: Cybercrime Losses Neared $21 Billion in 2025,"The FBI received over 1 million complaints of malicious activity in 2025, with investment, BEC, and tech support scams causing the highest losses.
 The post FBI: Cybercrime Losses Neared $21 Billion in 2025 appeared first on SecurityWeek.
@@ -564,6 +1443,7 @@ GoPro to lay off over 20 percent of staff by the end of 2026,"GoPro will cut 23 
 GoPro’s last reported round of layoffs took place in the second half of 2024. The company posted a year-end revenue decline in its 2025 financial results, including a loss of $9 million in its fourth quarter.
 Despite the layoffs, GoPro is seemingly optimistic about 2026, banking on its AI-centric GP3 processor to spearhead a &#34;new era of performance and innovation&#34; for the company. The first GP3-powered GoPro cameras will launch in the coming months.
 GoPro launched its first action camera in the early 2000s and enjoyed huge success with extreme sports enthusiasts. But it no longer has the market to itself, facing stiff competition from the likes of DJI, Insta360 and smartphone cameras in general.This article originally appeared on Engadget at https://www.engadget.com/cameras/gopro-to-lay-off-over-20-percent-of-staff-by-the-end-of-2026-131918779.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Faa808830-334b-11f1-9b7f-442608dc730a&resize=1400%2C786&client=19f2b5e49a271b2bde77&signature=0003af01ecdbc5e43957f23b0f381919f93a5aa8,https://www.engadget.com/cameras/gopro-to-lay-off-over-20-percent-of-staff-by-the-end-of-2026-131918779.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-08T13:19:18Z,12,Tech
+Tractive’s new dog and cat trackers provide more health insights for your pets,"After acquiring its competitor Whistle from Mars Petcare nearly a year ago, Tractive is introducing two new pet trackers today. The Cat 6 Mini features a sleeker design than Tractive&#39;s current smart cat tracker and monitors additional vital signs. The Dog 6 XL, specifically designed for larger breeds, is now lighter and more durable with […]",,https://www.theverge.com/tech/907947/tractive-dog-6-xl-cat-mini-pet-trackers-health-monitoring-location,https://www.theverge.com/rss/index.xml,2026-04-08T13:00:00Z,0,Tech
 Forza Horizon 6 gives would-be racers another gorgeous open world to explore,"I&#39;ve played a couple of hours of Forza Horizon 6, and so far I&#39;ve enjoyed it in much the same way as its predecessor: by exploring and taking in the sumptuous world Playground Games has crafted. The preview build I played on my Xbox Series X was limited in terms of available activities — it was basically the game&#39;s prologue — but I was able to explore almost all of the open world. The on-rails intro takes you through some of the Japanese countryside and past landmarks like Tokyo Tower and Shibuya Crossing on the way to a race through the streets of the country&#39;s largest city. Once that was out of the way and a springtime version of the map opened up, I set a marker for the mountains in the north. I wanted to check out an area I&#39;d seen in a screenshot, a pass where you can drive through snowdrifts that are dozens of feet tall. Playground Games/Xbox Game StudiosMy goal was simple: to bury my car into these snowdrifts, just to find out if it was possible. Sadly, the piles of snow were steadfast barriers. What a shame. The journey to the mountains took me through rainstorms and falling cherry blossom leaves, small towns and forests. The environments, vehicles and weather effects all look pretty and polished, as you&#39;d expect from this series at this point. (For what it&#39;s worth, I normally opt for performance mode in modern console games, prioritizing higher framerates over visual fidelity. This Forza Horizon 6 preview was locked to the 30fps quality mode.)In the prologue, there are activities to complete ahead of the Horizon Qualifier, a &#34;wristband&#34; event that gates story progress, and I checked a few of those out on my way up north. Trying to go as fast as you can through speed traps, drag meets, time trials and drift zones are enjoyable enough, but it&#39;s the races that are the bread and butter of this series. I entered a challenging cross-country race in a GMC Jimmy with a tall suspension. Not my smartest move. Still, I managed to pull out the victory after drifting my way across rice fields and beaches. I would have had an easier time if I&#39;d chosen my car more carefully – there&#39;ll be hundreds available in the full game. Playground Games has built on the very welcome slate of accessibility features from Forza Horizon 5 as well. Having options like autosteering should help ensure a broader range of folks can play the latest game. Other than only having access to a limited number of activities, the only aspects of the open world that were blocked off were The Estate (i.e. your home base) and Legend Island, which sounds like an endgame region. I didn&#39;t tinker with my vehicles in the garage either. I did, however, stumble across an aftermarket sale, where I was able to buy a tuned-up car at a discount. That&#39;s one of several neat additions in Forza Horizon 6. Playground Games/Xbox Game StudiosThough I&#39;m not much of a car guy, I dug my time with the last two Forza Horizon games. I&#39;m looking forward to playing through this one. More than anything, though, Forza Horizon 6 is nudging me toward taking the step of actually booking my second trip to Japan, which I&#39;ve been thinking about taking later this year. As pretty as the game is shaping up to be, it can&#39;t beat the real deal.If I do take that trip this summer, I won’t get to see the aforementioned giant snowbanks in person. That area of the map is based on a real place, the Tateyama Kurobe Alpine Route, where the snow walls can reach 65 feet in height. I wouldn&#39;t want to travel between snowbanks like that in real life anyway, so driving through the pass in the game was a worry-free way to have that experience. Thanks for that, Playground.Forza Horizon 6 is coming to Xbox Series X/S, Xbox on PC, Steam and Xbox Cloud on May 19. It&#39;ll be available on Game Pass Ultimate and PC Game Pass. The game is set to hit PS5 at a later date.This article originally appeared on Engadget at https://www.engadget.com/gaming/xbox/forza-horizon-6-gives-would-be-racers-another-gorgeous-open-world-to-explore-130000365.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fforza_2_2140.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=fa7771a1d0bc2fdbf378ca18228f00e8ea5fd1b2,https://www.engadget.com/gaming/xbox/forza-horizon-6-gives-would-be-racers-another-gorgeous-open-world-to-explore-130000365.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-08T13:00:00Z,11,Tech
 Atlassian launches visual AI tools and third-party agents in Confluence,"Confluence users can now create visual assets within the software in addition to new third-party agents working with Lovable, Replit, and Gamma. ",,https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/,https://techcrunch.com/feed/,2026-04-08T13:00:00Z,6,Tech
 Massachusetts Hospital Diverts Ambulances as Cyberattack Causes Disruption,"Signature Healthcare was forced to cancel some services, and pharmacies are unable to fill prescriptions due to the hacker attack.
