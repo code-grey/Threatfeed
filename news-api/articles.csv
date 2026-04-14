@@ -1,4 +1,596 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+An Amazon warehouse worker died on the job at Oregon facility,"Though Amazon has faced issues with warehouse safety, the company said that the death was not work related.",,https://techcrunch.com/2026/04/13/an-amazon-warehouse-worker-died-on-the-job-at-oregon-facility/,https://techcrunch.com/feed/,2026-04-14T00:26:18Z,5,Tech
+OpenAI has bought AI personal finance startup Hiro,The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.,,https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/,https://techcrunch.com/feed/,2026-04-14T00:23:33Z,11,Tech
+Daniel Moreno-Gama is facing federal charges for attacking Sam Altman&#8217;s home and OpenAI’s HQ,"Daniel Moreno-Gama is now facing federal charges after allegedly traveling from Texas to California with the intent to kill OpenAI CEO Sam Altman. On April 10th, he was arrested after throwing a Molotov cocktail at OpenAI CEO Sam Altman&#39;s home and attempting to break into OpenAI&#39;s headquarters. According to prosecutors, at the HQ, &#34;Moreno-Gama attempted […]",,https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack,https://www.theverge.com/rss/index.xml,2026-04-14T00:02:38Z,5,Tech
+Anthropic’s Mythos signals a structural cybersecurity shift,"
+		
+					  
+						
+
+
+
+
+Over the past week, reaction to Anthropic’s Glasswing disclosure has split along familiar lines. At one end: alarm over an AI system capable of autonomously identifying and exploiting vulnerabilities. At the other: dismissive hot takes, arguing there is nothing new here.
+
+
+
+A more grounded view comes from a new briefing by the Cloud Security Alliance (CSA), led by Gadi Evron, CEO of Knostic and CISO-in-Residence for AI at the alliance; Rob T. Lee, chief AI officer and chief of research at SANS Institute; and Rich Mogull, chief analyst at CSA.
+
+
+
+The paper draws on a deep bench of contributors, including former CISA Director Jen Easterly, Bruce Schneier, former National Cyber Director Chris Inglis, and former Google CISO Phil Venables, along with dozens of CISOs and CEOs.
+
+
+
+Evron told CSO that assembling that level of input among so many leaders so quickly reflects the nature of cybersecurity itself: “The cybersecurity industry is also a community, and knowing each other, all folks need to have is a good cause, and dispelling noise and spreading good information matters to us.”
+
+
+
+The group’s conclusion is direct: Glasswing is not an outlier. It is an early example of a capability that will scale, and CISOs should start getting ready for this era.
+
+
+
+“In the near term, security organizations will likely be overwhelmed by the need to apply patches and respond to AI-discovered vulnerabilities, exploits, and autonomous attacks,” the paper states. “The storm of vulnerability disclosures from Project Glasswing is the first of many large waves.”
+
+
+
+The shift is speed
+
+
+
+AI-driven vulnerability discovery is not new. What has changed is speed. Tasks that once took weeks or months — finding a flaw, building an exploit, chaining it into an attack — can now happen in hours.
+
+
+
+According to the paper, “Anthropic’s Claude Mythos (Preview) represents a step change in that trajectory, autonomously finding thousands of critical vulnerabilities across every major operating system and browser, generating working exploits without human guidance, and empowering autonomous attack orchestration, all at a speed and scale that outpaces any prior capability.”
+
+
+
+This acceleration deepens a familiar asymmetry: Defenders must be right consistently, whereas attackers only need to succeed once.
+
+
+
+Moreover, “The window between discovery and weaponization has collapsed to hours. Attackers gain disproportionate benefit, and current patch cycles, response processes, and risk metrics were not built for this environment,” the paper states.
+
+
+
+“Building a ‘Mythos-ready’ security program is not about reacting to one model or announcement. It is about permanently closing the gap between how fast vulnerabilities are found and how fast your organization can respond.”
+
+
+
+Claude Mythos Preview is a step up
+
+
+
+A separate analysis from the UK’s AI Security Institute (AISI) evaluated Mythos Preview itself.
+
+
+
+The evaluations involved both capture-the-flag (CTF) challenges and more complex ranges designed to simulate multi-step attack scenarios, where the model outperformed other AI systems.
+
+
+
+Mythos Preview came out on top in a 32-step corporate network attack simulation spanning initial reconnaissance through to full network takeover, which the Institute estimates requires humans 20 hours to complete.
+
+
+
+AISI’s tests also showed that Mythos Preview is capable of autonomously attacking small, weakly defended enterprise systems once access is obtained. “Our testing shows that Mythos Preview can exploit systems with weak security posture, and more models with these capabilities will likely be developed,” AISI concluded.
+
+
+
+What CISOs should do now
+
+
+
+AISI’s recommendation to organizations is that they should strengthen fundamentals, including regular application of security updates, robust access controls, security configuration, and comprehensive logging.
+
+
+
+It advises, “Future frontier models will be more capable still, so investment now in cyber defence is vital. AI cyber capabilities are dual use; while they pose security challenges, they can also help deliver game-changing improvements in defence.”
+
+
+
+The CSA paper highlights three predictions for CISOs.
+
+
+
+Operationally: Expect a surge of patches from the approximate 40 vendors in the early access program, potentially mirroring recent periods where multiple supply chain incidents required response within a two-week window.
+
+
+
+Risk management: Business risk is shifting, requiring close engagement with stakeholders on risk planning and tolerance. The CISO’s ability to manage risk is becoming more constrained, with potential downstream effects on reporting and projections.
+
+
+
+Strategically: Conduct longer-term gap analysis and selectively overhaul key functions, including governance processes that enable faster technology onboarding and the deployment of AI-driven security controls.
+
+
+
+The report also elevates Mythos to a board-level issue, allowing CISOs to frame current capabilities and make the case for further investment.
+
+
+
+The bottom line, as the CSA paper concludes, is that “AI-based attacks represent a structural shift in how offense and defense work, and it will not change. The cost and capability floor to exploit discovery is dropping, the time between disclosure and weaponization is compressing toward zero, and capabilities that previously required nation-state resources are now becoming broadly accessible.”
+
+
+
+See also: “Cybersecurity in the age of instant software”
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158117-0-51472400-1776122022-51581-light-bulb-503881.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158117/anthropics-mythos-signals-a-structural-cybersecurity-shift.html,https://www.csoonline.com/feed/,2026-04-13T23:13:29Z,13,Cybersecurity
+The Mercedes EQS returns with massive range and charging gains,"A year ago, Mercedes-Benz did the prudent thing and paused its EQ lineup of electric vehicles in the US. With customer demand drying up for luxury EVs, and federal incentives getting axed by vengeful Republicans, Mercedes put its first-generation EVs on ice. But then, in January, Mercedes quietly reintroduced the EQS brand in the US, […]",,https://www.theverge.com/transportation/911196/mercedes-benz-eqs-ev-range-battery-charging-2027,https://www.theverge.com/rss/index.xml,2026-04-13T22:01:00Z,5,Tech
+Retro Rewind re-creates the glorious drudgery of working a '90s video store,What the nostalgic throwback lacks in complexity it makes up for in repetitive charm.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/20260413104210_1-1152x648.jpg,https://arstechnica.com/gaming/2026/04/retro-rewind-re-creates-the-glorious-drudgery-of-working-a-90s-video-store/,https://arstechnica.com/feed/,2026-04-13T21:58:41Z,0,Tech
+European Gym giant Basic-Fit data breach affects 1 million members,Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers. [...],,https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/,https://www.bleepingcomputer.com/feed/,2026-04-13T21:50:01Z,4,Cybersecurity
+"Airport measles case reported in Idaho, state with lowest vaccination rate","In the 2024-2025 school year, only 78.5% of kindergartners had measles vaccination.",https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1726660639-1152x648.jpg,https://arstechnica.com/health/2026/04/airport-measles-case-reported-in-idaho-state-with-lowest-vaccination-rate/,https://arstechnica.com/feed/,2026-04-13T21:32:48Z,5,Tech
+Justin Bieber&#8217;s YouTube Coachella set had nothing to do with who owns his music,"This past Saturday at the Coachella music festival, Justin Bieber played the first of two headlining sets in a deal reportedly worth $10 million. It was his most significant solo performance in years. But Bieber spent some of his time on stage the way many of us do on Saturday nights: on YouTube. For some […]",,https://www.theverge.com/entertainment/911340/justin-bieber-youtube-coachella,https://www.theverge.com/rss/index.xml,2026-04-13T21:19:10Z,0,Tech
+Google shoehorned Rust into Pixel 10 modem to make legacy code safer,"Cellular modems are complex black boxes of legacy code, but Google is making them safer with Rust.",https://cdn.arstechnica.net/wp-content/uploads/2025/08/Google-Pixel-10-13-1152x648.jpg,https://arstechnica.com/gadgets/2026/04/google-shoehorned-rust-into-pixel-10-modem-to-make-legacy-code-safer/,https://arstechnica.com/feed/,2026-04-13T21:12:51Z,0,Tech
+Uber and Nuro begin testing premium robotaxi service in San Francisco,Uber employees can now hail a Lucid robotaxi as part of the testing. ,,https://techcrunch.com/2026/04/13/uber-nuro-san-francisco-testing-premium-robotaxi-service/,https://techcrunch.com/feed/,2026-04-13T21:11:58Z,5,Tech
+Microsoft is officially killing its Outlook Lite app next month,The app had already been scheduled for retirement.,,https://techcrunch.com/2026/04/13/microsoft-is-officially-killing-its-outlook-lite-app-next-month/,https://techcrunch.com/feed/,2026-04-13T20:59:12Z,1,Tech
+NZXT agrees to $3.45 million settlement over controversial rental PC program,"NZXT will forgive up to $5,000 in debt for customers of the Flex program. ",https://cdn.arstechnica.net/wp-content/uploads/2024/08/NZXT-1-1152x648.jpg,https://arstechnica.com/gadgets/2026/04/nzxt-agrees-to-3-45-million-settlement-over-controversial-rental-pc-program/,https://arstechnica.com/feed/,2026-04-13T20:55:35Z,0,Tech
+RAMageddon has come for Microsoft&#8217;s Surface Pro and Surface Laptop,"Microsoft just raised the prices across its line of Surface devices amid the global RAM shortage. Now, the 13-inch Surface Pro 11 and the 13.8-inch Surface Laptop 7 cost $500 more than their original starting price, going from $999 to $1,499, as reported earlier by Windows Central. Last year, Microsoft stopped selling the $999 versions […]",,https://www.theverge.com/tech/911322/microsoft-surface-price-increase-ram,https://www.theverge.com/rss/index.xml,2026-04-13T20:45:41Z,5,Tech
+Thousands of rare concert recordings are landing on the Internet Archive — listen now,"Chicago-based music superfan Aadam Jacobs has been recording the concerts he goes to since the 1980s, amassing an archive of over 10,000 tapes.",,https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/,https://techcrunch.com/feed/,2026-04-13T20:20:47Z,0,Tech
+Stolen Rockstar Games analytics data leaked by extortion gang,"Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site. [...]",,https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/,https://www.bleepingcomputer.com/feed/,2026-04-13T20:08:10Z,5,Cybersecurity
+NZXT to pay $3.45 million settlement over Flex PC rentals,NZXT and its business partner Fragile have agreed to pay $3.45 million to settle a class-action lawsuit that accused the companies of attempting to &#34;scam&#34; consumers through their Flex PC rental service. The preliminary settlement was filed in a California District Court on April 7th to close a civil RICO case against the Flex program […],,https://www.theverge.com/tech/911297/nzxt-flex-pc-rental-settlement,https://www.theverge.com/rss/index.xml,2026-04-13T20:00:58Z,5,Tech
+How the Army is preparing to bring its first tiltrotor aircraft online,The service wants its MV-75 to bring capabilities other services have had for years—while avoiding the V-22’s fraught reputation.,,https://www.defenseone.com/defense-systems/2026/04/how-army-preparing-bring-its-first-tiltrotor-aircraft-online/412808/,https://www.defenseone.com/rss/all/,2026-04-13T20:00:38Z,0,Defense
+Your tech support company runs scams. Stop—or disguise with more fraud?,Fake it till you make it.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2170707494-1152x648-1776109033.jpg,https://arstechnica.com/tech-policy/2026/04/your-tech-support-company-runs-scams-stop-or-disguise-with-more-fraud/,https://arstechnica.com/feed/,2026-04-13T19:58:33Z,0,Tech
+Critical flaw in wolfSSL library enables forged certificate use,A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECDSA) signatures. [...],,https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/,https://www.bleepingcomputer.com/feed/,2026-04-13T19:56:03Z,9,Cybersecurity
+AI influencers are ‘everywhere’ at Coachella,"Coachella kicked off on Friday, and as usual, it&#39;s the place to be for online influencers looking to show off their memorable experiences at the festival. A quick scroll through my social media feeds has already shown me many uncannily attractive figures in glitzy outfits, posing for perfectly staged photographs with celebrities. Only some of […]",,https://www.theverge.com/ai-artificial-intelligence/911267/ai-influencers-coachella,https://www.theverge.com/rss/index.xml,2026-04-13T19:53:46Z,5,Tech
+Xbox CEO called Game Pass 'too expensive for players' in a leaked memo,"Xbox&#39;s new chief exec, Asha Sharma, has only been in charge for a few months but things already seem like they might be changing for the better. Or at the very least, they might be getting cheaper. The Verge reported that the new Xbox CEO wrote a memo to employees addressing the current pricing of the Game Pass subscription service. &#34;Game Pass is central to gaming value on Xbox. It’s also clear that the current model isn’t the final one,&#34; Sharma allegedly said. &#34;Short term, Game Pass has become too expensive for players, so we need a better value equation. Long term, we will evolve Game Pass into a more flexible system which will take time to test and learn around.&#34;After Microsoft upped the price for Game Pass twice within 15 months, many of us certainly felt that the service had gotten too costly to keep. Xbox is still offering a wide range of titles on Game Pass; the April update is adding indies like Hades 2 and new Double Fine project Kiln alongside AAA hits like the remake of Call of Duty: Modern Warfare. The Verge&#39;s sources suggested that the addition of the CoD franchise might have been a factor in some of the Game Pass price increases, since Microsoft would lose out on revenue by making the latest entries in the series available under the subscription. It&#39;s too early to say whether this memo from Sharma means Xbox is on the brink of a resurgence. And there are changes the company could make, like adding ever more complicated tiers, that would further hamper interest and uptake of Game Pass. But acknowledging the problem, even internally, is refreshing to see after so many baffling moves from Xbox in recent years.This article originally appeared on Engadget at https://www.engadget.com/gaming/xbox/xbox-ceo-called-game-pass-too-expensive-for-players-in-a-leaked-memo-194749597.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fmedia-mbst-pub-ue1.s3.amazonaws.com%2Fcreatr-uploaded-images%2F2025-10%2F870afce0-ab6b-11f0-9a7b-93cb73ac178c&resize=1400%2C801&client=19f2b5e49a271b2bde77&signature=73c37477d2fc42da1bbe8c96b7bf79023e9d09fd,https://www.engadget.com/gaming/xbox/xbox-ceo-called-game-pass-too-expensive-for-players-in-a-leaked-memo-194749597.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T19:47:49Z,8,Tech
+HASC Chair: Trillion dollar defense budgets are the ‘new normal.’ Reconciliation is less certain.,Many of the administration’s military space priorities bank on abnormal budget maneuvers.,,https://www.defenseone.com/policy/2026/04/hasc-chair-trillion-dollar-defense-budgets-are-new-normal-reconciliation-less-certain/412806/,https://www.defenseone.com/rss/all/,2026-04-13T19:20:05Z,0,Defense
+IBM pays $17M fine to end DOJ suit over DEI programs,IBM entered into a $17 million settlement agreement on Friday with the U.S. DOJ over allegations that it engaged in “illegal DEI practices.” ,,https://techcrunch.com/2026/04/13/ibm-pays-17m-fine-to-end-doj-suit-over-dei-programs/,https://techcrunch.com/feed/,2026-04-13T19:11:27Z,0,Tech
+Microsoft is working on yet another OpenClaw-like agent,"The company has also previously introduced agents that are able to complete tasks, Cowork and Copilot Tasks. ",,https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/,https://techcrunch.com/feed/,2026-04-13T19:05:19Z,0,Tech
+FBI takedown of W3LL phishing service leads to developer arrest,"The FBI Atlanta Field Office and Indonesian authorities have dismantled the &#34;W3LL&#34; global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the first coordinated enforcement action between the United States and Indonesia targeting a phishing kit developer. [...]",,https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/,https://www.bleepingcomputer.com/feed/,2026-04-13T18:55:50Z,3,Cybersecurity
+Stanford report highlights growing disconnect between AI insiders and everyone else,"Stanford’s latest AI Index shows a widening gap between experts and the public, with rising anxiety over jobs, healthcare, and the economy.",,https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/,https://techcrunch.com/feed/,2026-04-13T18:55:37Z,5,Tech
+Games Workshop brings seven classic Warhammer games to Steam for the first time,"Fans of miniature plastic soldiers, rejoice. Games Workshop has brought a host of older Warhammer and Warhammer 40K video games to Steam for the first time, alongside a dozen games that haven&#39;t been available on Valve&#39;s storefront for a few years. The new to Steam releases consist of three games from the Warhammer fantasy range — Shadow of the Horned Rat, Mark of Chaos – Gold Edition and Dark Omen — and four from its sci-fi 40K universe — Chaos Gate, Fire Warrior, Final Liberation and Rites of War.  If you&#39;re a Warhammer fan of a certain age, some of these may be formative experiences for you. I know they are for me. I can&#39;t count how many hours I spent playing Chaos Gate when I first discovered 40K at the age of 10. Yes, it was an XCOM clone, but by that point I didn&#39;t know about the MicroProse original, and Space Marines were cool. Years later and as a Tau collector at the time, I also loved Fire Warrior, even if it wasn&#39;t the most polished or deep first-person shooter. I haven&#39;t played the other five games included in today&#39;s announcement, but I&#39;ve heard Warhammer: Shadow of the Horned Rat and Warhammer 40K: Rites of War are pretty good if you&#39;re into the setting or, in the latter case, a fan of the Eldar.  To celebrate the re-release of these old gems, Games Workshop is running a Classics sale on Steam, with discounts on all 19 re-releases. Plus, you can get discounts on some more recent releases, including the excellent Dawn of War – Definitive Edition and Dawn of War 2 – Anniversary Edition. If you&#39;re new to the Warhammer 40K universe, and would rather avoid a plastic addiction, one of those would be my first port of call, along with the excellent Space Marine 2.This article originally appeared on Engadget at https://www.engadget.com/gaming/pc/games-workshop-brings-seven-classic-warhammer-games-to-steam-for-the-first-time-185432304.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fchaos-gate_8060&resize=1400%2C960&client=19f2b5e49a271b2bde77&signature=361e5f0ab69d81f6f3a358c349bdef661d9ba4fc,https://www.engadget.com/gaming/pc/games-workshop-brings-seven-classic-warhammer-games-to-steam-for-the-first-time-185432304.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T18:54:32Z,7,Tech
+Meta warned by dozens of organizations that facial recognition on its smart glasses would empower predators,"Dozens of civil rights organizations have written a letter to Meta CEO Mark Zuckerberg to warn of the dangers in bringing facial recognition technology to the company&#39;s smart glasses. More than 70 groups have banded together to form a coalition to urge Zuckerberg to abandon plans to incorporate the tech, on the grounds that it would empower stalkers, sexual predators and other bad actors.
+This coalition includes organizations like the ACLU, the Electronic Privacy Information Center, Fight for the Future, Access Now and many others. The letter isn&#39;t asking for safeguards. These groups want the feature to be completely eliminated, stating the idea behind facial recognition of this type is so dangerous that it “cannot be resolved through product design changes, opt-out mechanisms or incremental safeguards.&#34; This tracks, as there would be no real way for bystanders to know or consent to being identified.
+&#34;People should be able to move through their daily lives without fear that stalkers, scammers, abusers, federal agents and activists across the political spectrum are silently and invisibly verifying their identities and potentially matching their names to a wealth of readily available data about their habits, hobbies, relationships, health and behaviors,&#34; the letter states.
+The organizations have urged Meta to disclose any known instances of its wearables being used for stalking, harassment or domestic violence. They also want the company to disclose past or ongoing discussions with federal law enforcement agencies, including ICE, about the use of Meta smart glasses and other wearables, according to a report by Wired.
+There is certainly some cause for worry here. Meta issued a memo last year that suggested it would roll out this technology &#34;during a dynamic political environment where many civil society groups that we would expect to attack us would have their resources focused on other concerns.&#34; That&#39;s corporate speak for &#34;we&#39;ll do it when nobody is watching.&#34; The coalition has called this &#34;vile behavior&#34; that looks to take advantage of &#34;rising authoritarianism.&#34;
+NEW: Meta plans to add facial recognition to its smart glasses as soon as this year, according to a new report from The New York Times. The feature, internally known as “Name Tag,” would allow smart glasses wearers to identify people and get information about them through Meta’s… pic.twitter.com/et7PO9JGW5— Insider Paper (@TheInsiderPaper) February 13, 2026
+ 
+
+
+The technology in question is called Name Tag, for obvious reasons. It uses AI to pull up information about people in a field of view to smart glasses displays. That&#39;s about as dystopian as it gets.
+The company has reportedly been working on two versions of the toolset. There&#39;s one that would only identify people that are currently connected to a Meta platform and another that would identify anyone with a public account on a service like Instagram. It doesn&#39;t look like there&#39;s any way, as of yet, to use this tech to identify strangers on the street who don&#39;t have a Meta account of any kind. In other words, the company should expect a wave of cancellations if this rolls out.
+Name Tag is currently scheduled for release at some point this year, but it&#39;s not set in stone just yet. Public outcry has gotten Meta to back off from facial recognition in the past. The company ended Facebook&#39;s photo-tagging system in 2021 after pushback from civil liberties groups and years of costly litigation. Meta paid out billions of dollars to settle biometric privacy lawsuits in Illinois and Texas and another $5 billion to the FTC for a separate privacy case partially tied to facial recognition software.This article originally appeared on Engadget at https://www.engadget.com/big-tech/meta-warned-by-dozens-of-organizations-that-facial-recognition-on-its-smart-glasses-would-empower-predators-185000998.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fc8608f10-3762-11f1-b5af-7950f8643d45&resize=1400%2C928&client=19f2b5e49a271b2bde77&signature=0f6cbfccf6d8b41388d002bcfca6e46e6f6113d1,https://www.engadget.com/big-tech/meta-warned-by-dozens-of-organizations-that-facial-recognition-on-its-smart-glasses-would-empower-predators-185000998.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T18:50:00Z,8,Tech
+The Apple Watch Series 11 has returned to best-ever price,"If you’re still holding onto an older Apple Watch, now might be a good time to upgrade. Right now, the 42mm Apple Watch Series 11 with GPS is on sale for around $299 ($100 off) at Amazon, Best Buy, and Target, which is its best price to date. If you prefer a larger size, the […]",,https://www.theverge.com/gadgets/911191/apple-watch-series-11-smartwatch-amazon-april-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-13T18:48:17Z,1,Tech
+FBI announces takedown of phishing operation that targeted thousands of victims,"Cybercriminals allegedly used the W3LL phishing kit to target more than 17,000 victims worldwide, stealing their passwords and multi-factor authentication codes. ",,https://techcrunch.com/2026/04/13/fbi-announces-takedown-of-phishing-operation-that-targeted-thousands-of-victims/,https://techcrunch.com/feed/,2026-04-13T18:41:50Z,0,Tech
+Sunrise on the Reaping teaser brings us a Second Quarter Quell,"&#34;You have no idea what&#39;s in store for you. Twice the number of tributes, twice the glory.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/04/hunger1-1152x636.jpg,https://arstechnica.com/culture/2026/04/sunrise-on-the-reaping-teaser-brings-us-a-second-quarter-quell/,https://arstechnica.com/feed/,2026-04-13T18:15:59Z,0,Tech
+"IBM folds to Trump anti-DEI push, admits no misconduct but pays $17M penalty",IBM is first firm to pay penalty under Trump&#39;s &#34;Civil Rights Fraud Initiative.&#34; ,https://cdn.arstechnica.net/wp-content/uploads/2026/04/ibm-logo-1152x648-1776101828.jpg,https://arstechnica.com/tech-policy/2026/04/ibm-folds-to-trump-anti-dei-push-admits-no-misconduct-but-pays-17m-penalty/,https://arstechnica.com/feed/,2026-04-13T17:53:46Z,0,Tech
+Retro handheld maker Anbernic's latest device has a swiveling display,"There are plenty of retro gaming handhelds on the market, but Anbernic is introducing one that offers a unique spin on the square shape. The retro gaming handheld maker revealed the RG Rotate on its YouTube channel, showing off a 1:1 display that swivels out much like the T-Mobile Sidekick of yore.
+
+Anbernic often drip feeds details of its upcoming products over time, but so far, we know that the RG Rotate will run on Android, feature an aluminum alloy frame and come in Polar Black and Aurora Silver. Anbernic&#39;s video detailed that the handheld will have a &#34;proprietary ultra-thin alloy hinge&#34; that went through &#34;high-durability testing.&#34; While the handheld maker has experience with other hinges as seen with its RG DS and RG 34XXSP, the RG Rotate&#39;s hinge mechanism could prove to be a new engineering challenge. 
+As for the rest of the build, Anbernic is adding swappable L2 and R2 buttons that allow users to adjust the height of the shoulder buttons. From the video, the RG Rotate might only be built with a single USB-C port, which has irked a few fans hoping for an audio jack. Anbernic hasn&#39;t announced pricing for the RG Rotate yet, but it&#39;ll likely be much cheaper than more premium options from Ayn or Retroid.This article originally appeared on Engadget at https://www.engadget.com/gaming/retro-handheld-maker-anbernics-latest-device-has-a-swiveling-display-174705958.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fb9e94ef0-375c-11f1-bfef-62eb4f055d94&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=c17891ef4b8e878f49e5cdfd6782be140c2a2935,https://www.engadget.com/gaming/retro-handheld-maker-anbernics-latest-device-has-a-swiveling-display-174705958.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T17:47:05Z,7,Tech
+"Xbox Game Pass &#8216;has become too expensive,’ says Microsoft’s new gaming chief in leaked memo","Microsoft&#39;s new Xbox chief, Asha Sharma, has signaled that Xbox Game Pass pricing is about to change. In an internal memo to Xbox employees, obtained by The Verge, Sharma admits that &#34;Game Pass has become too expensive for players&#34; and that Microsoft needs &#34;a better value equation.&#34; &#34;Game Pass is central to gaming value on […]",,https://www.theverge.com/tech/911182/microsoft-xbox-game-pass-too-expensive-leaked-memo,https://www.theverge.com/rss/index.xml,2026-04-13T17:39:51Z,5,Tech
+OpenAI rotates macOS certs after Axios attack hit code-signing workflow,OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...],,https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/,https://www.bleepingcomputer.com/feed/,2026-04-13T17:39:10Z,3,Cybersecurity
+New Booking.com data breach forces reservation PIN resets,Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...],,https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/,https://www.bleepingcomputer.com/feed/,2026-04-13T17:30:10Z,4,Cybersecurity
+Managing context in long-run agentic applications,"Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We present a range of complementary techniques that balance the conflicting requirements…",https://slack.engineering/wp-content/uploads/sites/7/2026/03/pydantic_ai_agentic_loop.png?w=842,https://slack.engineering/managing-context-in-long-run-agentic-applications/,https://slack.engineering/feed,2026-04-13T17:17:16Z,6,Tech
+"JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025","Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT.
+A modified version of BX RAT, JanelaRAT is known to steal financial and cryptocurrency data associated with specific financial entities, as well as track mouse inputs, log keystrokes, take screenshots, and collect system metadata.
+&#34;One of the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP1knUStbLpgNZ-k52a4ctZyxeERGEeqqVfX75PVTgtdu6XpoIlhHiFAwa4nTwg0089TuczQY5YZOgHOQk-TpVZNxs0piNVCPHsgBPSreTcKQ8gwISSDK7JI4oipfjfrnehwPCqWcyBnxobYaKM7TTu5SN23pUJ5K9fCbORLy2g_ZsSzkmxkp8VVdghfP/s1600/1000066319.jpg,https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html,https://feeds.feedburner.com/TheHackersNews,2026-04-13T17:15:00Z,7,Cybersecurity
+You can make a multicolor MacBook Neo out of Apple&#8217;s spare parts,"If you&#39;re having trouble deciding on a color for a new MacBook Neo, you might not have to choose just one. The folks over at MacWorld found that Apple doesn&#39;t appear to limit the colors of spare parts you can buy for your Neo, potentially allowing you to deck out your indigo laptop with pink-tinted […]",,https://www.theverge.com/tech/911172/macbook-neo-apple-spare-parts-multicolor,https://www.theverge.com/rss/index.xml,2026-04-13T17:08:31Z,1,Tech
+Booking.com confirms hackers accessed customers’ data,"The travel giant notified customers that their personal data, including names, emails, physical addresses, phone numbers may have been accessed in a security incident. ",,https://techcrunch.com/2026/04/13/booking-com-confirms-hackers-accessed-customers-data/,https://techcrunch.com/feed/,2026-04-13T17:02:31Z,5,Tech
+How to de-Gemini your Google apps,"Over the past couple of years, Google has found ways to stuff Gemini in nearly every app and service it offers. Whether it&#39;s Gmail with its AI inbox or Chrome with its chat sidebar, Gemini is now inescapable inside of Workspace. I don&#39;t know about you, but I don&#39;t need an AI to tell me how to write a =SUM equation in Sheets or an outline for a first draft. Most of the time, I find Gemini is a distraction. If you feel the same way, this how-to is for you.    How to remove Gemini from your personal Workspace account From the &#34;General&#34; tab of Gmail&#39;s settings menu, look for the Smart features checkbox. Igor Bonifacic for EngadgetTo turn Gemini off, you will need to disable two separate sets of options. The first set covers a set of features, including smart compose, that are shared across Gmail, Chat and Meet — so if you turn them off in one app, they won&#39;t be available in any of the three. All of this is most easily done through Gmail&#39;s web client.  In Gmail, tap the cog icon.Select See all settings.Under the General tab, scroll down to find Smart features.Disable Turn on smart features in Gmail, Chat, and Meet.  In Japan, Switzerland, the United Kingdom or European Economic Area, smart features are turned off by default.  Next, turn your attention to Workspace. In Gmail, tap the cog icon.Select See all settings.Under the General tab, scroll down and click Manage Workspace smart feature settings.Toggle off smart features in Google Workspace and Smart features in other Google products.A word of warning: completely disabling smart features in Google Workspace turns off not only Gemini integration but also access to basic capabilities like spelling and grammar corrections. You&#39;ll also lose features that have been Google staples for years. In Gmail, for example, the app will stop sorting incoming emails by priority, a notification at the top of the screen informing you that smart features are required for inbox categorization. Whatever Google&#39;s motivation for this state of affairs, it&#39;s a design decision that actively discourages users from disabling Gemini integration. Disabling Gemini in Google Workspace will also turn off other features. Igor Bonifacic for EngadgetIf you want to rid yourself of Gemini but would still like to use some of the other features the company offers through Gmail and its other apps, I recommend leaving the first set of smart features on while disabling the Workspace-specific ones. You can also opt to turn off some of the features included in the first group, while leaving others on. Below is a list of those features, with a brief overview of the less self-explanatory ones.    GrammarSpellingAutocorrectSmart Compose — as you write an email, Gmail will generate predictive writing suggestions  Smart Compose personalization — as you write, Gmail will tailor Smart Compose suggestions to your writing style Nudges — Gmail will generate notifications prompting you to respond or follow up on unanswered emails   Smart Reply — Gmail will generate suggestions on how to respond to an emailPackage tracking — Google will display shipping updates inside of GmailDesktop notifications — Yes, for some reason you need the power of AI to get notifications on your PC Unfortunately, Google doesn&#39;t offer this same level of granular control when it comes to smart features inside of Workspace. For instance, if you turn off Gemini in Docs, Calendar won&#39;t automatically display events from Gmail. Again, Google really wants to dissuade you from disabling Gemini. How to remove Gemini from your professional Workspace accountIf your workplace uses Google Workspace, all of the above options should be present in Gmail&#39;s settings menu, and you can follow the same steps to turn off most of the smart features Google offers. Unfortunately, the second part of the process does nothing. You will still see Gemini in Docs, Sheets and elsewhere, even with smart features in Workspace turned off. Only your admin can completely turn off Gemini for you.This article originally appeared on Engadget at https://www.engadget.com/ai/how-to-de-gemini-your-google-apps-170000462.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgemini-1_2480.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=190efba53901a6757d7bb7e9e940a01dee0858d5,https://www.engadget.com/ai/how-to-de-gemini-your-google-apps-170000462.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T17:00:00Z,8,Tech
+"Majority of Australian kids are still on banned social media platforms, study finds","Many countries are pursuing social media bans for anyone under 16, but a recent poll is putting the effectiveness of such laws into question. The Molly Rose Foundation, a charity organization that focuses on preventing online harm, recently published a study that polled 1,050 Australian children between ages 12 and 15 in March. The study&#39;s results showed that 61 percent of those between 12 and 15 who previously had access to affected social media platforms still have one or more active accounts.
+Australia made a first-in-the-world decision to ban social media for those under 16 years old, beginning on December 10. While it&#39;s only been a few months since the ban went into effect, the foundation&#39;s poll concluded that the ban doesn&#39;t have a &#34;clear positive or negative impact on children’s wellbeing.&#34; The study also noted that 70 percent of children trying to get on restricted platforms said that it was easy to get around the ban.
+&#34;These results raise major questions about the effectiveness of Australia’s social media ban and show it would be a high stakes gamble for the UK to follow suit now,&#34; Andy Burrows, the CEO of the Molly Rose Foundation, said in a statement.
+The Australian government has also published its own findings in March that examined how social media platforms are complying with the ban. According to the government&#39;s report, Snap, TikTok, Facebook, Instagram and YouTube are currently being investigated for potential non-compliance. The report added that Australia&#39;s eSafety agency is finalizing these investigations and will make a decision about enforcement by the middle of 2026. According to the eSafety report, the agency&#39;s enforcement powers include issuing infringement notices, seeking court-ordered injunctions and &#34;civil penalties up to A$49.5 million,&#34; or around $35 million USD.This article originally appeared on Engadget at https://www.engadget.com/social-media/majority-of-australian-kids-are-still-on-banned-social-media-platforms-study-finds-162922768.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F0028d270-3751-11f1-aea6-9632d37e0be7&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=b21f0e91bb944b75c85799a25c9fdb0b34eb078b,https://www.engadget.com/social-media/majority-of-australian-kids-are-still-on-banned-social-media-platforms-study-finds-162922768.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T16:29:22Z,7,Tech
+OpenAI executive sends internal memo: ‘The market is as competitive as I have ever seen it’,"OpenAI&#39;s chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about the company&#39;s strategic direction, emphasizing the need to lock in users and grow its enterprise business. The memo, which was viewed by The Verge, repeatedly underlines the importance of building a moat around its AI products, to combat how easy […]",,https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic,https://www.theverge.com/rss/index.xml,2026-04-13T16:21:08Z,5,Tech
+Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators,"More than 70 organizations, including the ACLU, EPIC, and Fight for the Future, say the AI smart glasses feature would endanger abuse victims, immigrants, and LGBTQ+ people.",,https://www.wired.com/story/meta-ray-ban-oakley-smart-glasses-no-face-recognition-civil-society/,https://www.wired.com/feed/category/security/latest/rss,2026-04-13T16:01:30Z,0,Cybersecurity
+4 ways the war in Iran has weakened the US in the great power game,Trump further strains U.S. alliances while enabling China and Russia to advance regional influence.,,https://www.defenseone.com/ideas/2026/04/war-iran-weakened-us-great-power/412809/,https://www.defenseone.com/rss/all/,2026-04-13T16:00:00Z,0,Defense
+Slate raises $650 million to make its budget electric truck,"Slate Auto, the EV startup backed by Jeff Bezos, raised $650 million to fund its effort to build an affordable electric pickup truck expected to start in the mid-$20,000s. The company plans on delivering its first EV later this year. The Series C round was led by TWG Global, headed by Guggenheim Partners founder and […]",,https://www.theverge.com/transportation/911085/slate-truck-ev-fundraise-twg-global-bezos,https://www.theverge.com/rss/index.xml,2026-04-13T15:45:46Z,8,Tech
+Microsoft is testing OpenClaw-like AI bots for 365 Copilot,"Microsoft is looking into ways it can integrate OpenClaw-style features into 365 Copilot, according to a report from The Information. The test reportedly comes as part of efforts to make its 365 Copilot AI assistant &#34;run autonomously around the clock&#34; while completing tasks on behalf of users. Omar Shahine, Microsoft&#39;s corporate vice president, confirmed to […]",,https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses,https://www.theverge.com/rss/index.xml,2026-04-13T15:41:09Z,5,Tech
+Google’s Pixel 10A is a good midrange phone that’s $50 off,"If it’s time for you to upgrade your phone, it’s worth considering the Pixel 10A, Google’s latest midrange phone that has some (but not all) of the new software features of the pricier $599 Pixel 10. Every color of the 128GB 10A — including the alluring “berry” tone — is down to $449 ($50 off) […]",,https://www.theverge.com/gadgets/910966/google-pixel-10a-sony-wf-1000xm6-earbuds-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-13T15:41:03Z,1,Tech
+"Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw","Adobe has released an emergency security update for Acrobat Reader to fix a vulnerability, tracked as CVE-2026-34621, that has been exploited in zero-day attacks since at least December. [...]",,https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/,https://www.bleepingcomputer.com/feed/,2026-04-13T15:37:05Z,15,Cybersecurity
+Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge,"&#34;The company is ready and getting more ready for every day,&#34; Rauch said about an IPO at HumanX conference. ",,https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/,https://techcrunch.com/feed/,2026-04-13T15:22:29Z,5,Tech
+"Pragmata is just OK, but it could’ve been great","Over the last few years, Capcom has done an exceptional job of solidifying its lineup of big, long-running franchises. The likes of Monster Hunter, Resident Evil, and Street Fighter have all been on strong and consistent runs, an impressive thing given the current strain of uncertainty that runs through the games industry. And now the […]",,https://www.theverge.com/games/910385/pragmata-review-ps5-xbox-switch-2-pc,https://www.theverge.com/rss/index.xml,2026-04-13T15:00:00Z,5,Tech
+Hack at Anodot leaves over a dozen breached companies facing extortion,"The data breach at Anodot, which affects customers like Rockstar Games, is the latest hack aimed at stealing data from a large number of corporate giants.",,https://techcrunch.com/2026/04/13/hack-at-anodot-leaves-over-a-dozen-breached-companies-facing-extortion/,https://techcrunch.com/feed/,2026-04-13T14:46:36Z,5,Tech
+FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts,"The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit called W3LL to steal thousands of victims&#39; account credentials and attempt more than $20 million in fraud.
+In tandem, authorities detained the alleged developer, who has&amp;",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb77IQHAfOvWFPWb_cgV_YJGdRtNJJJWBcjYH6M6cCawBv2tQdybani7Qet_LGwH1tTBHJ2P3Lr6gWdY0sz3547YLzkSLWX3T2l84-A7ndRK3T55QblpJ-j2ovE9Lq0CoNb6ckWziwD2UjKP_awFJXbGr3yuZ1IMPndUyCo_WfoJ9nnyTPFf-K4HVy5A8g/s1600/well-fbi.jpg,https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html,https://feeds.feedburner.com/TheHackersNews,2026-04-13T14:46:00Z,3,Cybersecurity
+Slate Auto raises $650 million as production gets closer and closer,"The Slate Truck will start in the &#34;mid-$20,000s&#34; when it goes on sale in late 2026.",https://cdn.arstechnica.net/wp-content/uploads/2025/04/Blank-Slate-Profile-1152x648.jpg,https://arstechnica.com/cars/2026/04/slate-auto-raises-650-million-as-production-gets-closer-and-closer/,https://arstechnica.com/feed/,2026-04-13T14:35:29Z,5,Tech
+Two suspects have been arrested for allegedly shooting at Sam Altman's house,"OpenAI CEO Sam Altman&#39;s house may have been the target of a second attack after San Francisco Police Department arrested two suspects for a reported shooting in the Russian Hill neighborhood. The SFPD said in a press release that police officers responded to a &#34;suspicious occurrence of possible shots fired&#34; at around 5:56 AM ET / 2:56 AM PT on Sunday, April 12.
+SFPD&#39;s Special Investigation Division took over the case and have since detained both 25-year-old Amanda Tom and 23-year-old Muhamad Tarik Hussein, seizing three firearms in the process with the help of a warrant. The two suspects were charged with negligent discharge.
+According to the initial police report, as reported by The San Francisco Standard, two people inside a Honda sedan stopped in front of Altman&#39;s property that spans from Chestnut Street to Lombard Street. The police report also noted that the passenger appeared to fire a round at the Lombard Street side of Altman&#39;s property. The property&#39;s security personnel reported hearing a gunshot and there was surveillance footage that recorded the incident, according to the report.
+This could be the second instance of violence targeting Altman and his residence in a matter of days. On Friday, a 20-year-old man allegedly hurled a Molotov cocktail at Altman&#39;s home, which caused a fire on one of the property&#39;s exterior gates, according to SFPD. The San Francisco Standard reported that there were no injuries in either incident.This article originally appeared on Engadget at https://www.engadget.com/ai/two-suspects-have-been-arrested-for-allegedly-shooting-at-sam-altmans-house-142655308.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2F8ab37696-18b1-4d73-92a2-1f03686ce0e8&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=df1e7eab94efe32f3f7a89bf37964fe2b38d0858,https://www.engadget.com/ai/two-suspects-have-been-arrested-for-allegedly-shooting-at-sam-altmans-house-142655308.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T14:26:55Z,7,Tech
+Booking.com Says Hackers Accessed User Information,"The online travel platform has not said how many customers’ booking information was exposed, but said the issue has been contained. 
+The post Booking.com Says Hackers Accessed User Information appeared first on SecurityWeek.
+",,https://www.securityweek.com/booking-com-says-hackers-accessed-user-information/,https://www.securityweek.com/feed/,2026-04-13T14:25:07Z,1,Cybersecurity
+"The silent “Storm”: New infostealer hijacks sessions, decrypts server-side","New &#34;Storm&#34; infostealer skips local decryption, sending browser data to attacker servers. Varonis shows how server-side decryption enables session hijacking, bypassing passwords and MFA. [...]",,https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/,https://www.bleepingcomputer.com/feed/,2026-04-13T14:05:15Z,4,Cybersecurity
+BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings,"Claims that “Microsoft is running one of the largest corporate espionage operations in modern history” face scrutiny as researchers analyze LinkedIn’s browser extension probing
+The post BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings appeared first on SecurityWeek.
+",,https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/,https://www.securityweek.com/feed/,2026-04-13T14:00:00Z,1,Cybersecurity
+Can Puck reinvent the news business for the influencer age?,"Today, I’m talking with Sarah Personette, CEO of Puck, which is a fancy new media company that’s been around for just about five years now. Puck hires big stars and gives them newsletters that are all mostly part of a subscription bundle. These newsletters are often must-reads in their categories — everyone in Hollywood reads […]",,https://www.theverge.com/podcast/910443/can-puck-reinvent-the-news-business-for-the-influencer-age,https://www.theverge.com/rss/index.xml,2026-04-13T14:00:00Z,0,Tech
+SwitchBot’s button-pressing robot is now available with a rechargeable battery,"SwitchBot is introducing a new version of the tiny button-pressing robot that helped launch the company a decade ago. The functionality of the new SwitchBot Bot is exactly the same as the original that the company will continue to sell, but comes with a rechargeable battery instead of a disposable one. The SwitchBot Bot Rechargeable […]",,https://www.theverge.com/tech/909765/switchbot-bot-rechargeable-smart-home-usb-c,https://www.theverge.com/rss/index.xml,2026-04-13T14:00:00Z,5,Tech
+Meta spins up AI version of Mark Zuckerberg to engage with employees,The Meta chief is personally involved in training and testing his animated AI.,https://cdn.arstechnica.net/wp-content/uploads/2021/11/GettyImages-1182969866-1152x648.jpg,https://arstechnica.com/ai/2026/04/meta-spins-up-ai-version-of-mark-zuckerberg-to-engage-with-employees/,https://arstechnica.com/feed/,2026-04-13T13:52:46Z,5,Tech
+Mark Zuckerberg is reportedly building an AI clone to replace him in meetings,"Meta CEO Mark Zuckerberg could soon have an AI clone of himself to interact with and provide feedback to employees, according to a report from the Financial Times. Sources tell the outlet that Meta is training the AI avatar on Zuckerberg&#39;s image and voice, along with his mannerisms, tone, and public statements, &#34;so that employees […]",,https://www.theverge.com/tech/910990/meta-ceo-mark-zuckerberg-ai-clone,https://www.theverge.com/rss/index.xml,2026-04-13T13:40:03Z,5,Tech
+Slate Auto raises $650M to fund its affordable EV truck plans,"Slate Auto&#39;s latest funding round was led by existing investor TWG Global, a firm run by LA Dodgers owner Mark Walter. ",,https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/,https://techcrunch.com/feed/,2026-04-13T13:26:33Z,8,Tech
+Meta is reportedly building an AI clone of Mark Zuckerberg,"Picture this: You&#39;re a senior Meta employee looking for feedback from the CEO. But, instead of hearing from the real Mark Zuckerberg, you get a response from a Zuckerberg AI character. As absurd as that sounds, it could eventually be a reality. 
+Meta is reportedly working on such an AI character, training it on Zuckerberg&#39;s mannerisms, tone and publicly available statements, according to the Financial Times. The character is also learning about the CEO&#39;s thoughts on recent company strategy, with the idea that it could offer advice to Meta employees. 
+The company has reportedly, for some time, been working on creating photorealistic, 3D animated AI characters that can manage interactions. However, it now appears to be focusing on this Zuckerberg AI character, which would interact with employees when the CEO can&#39;t or doesn&#39;t want to.
+This additional AI tool follows last month&#39;s news that Zuckerberg is creating an AI agent to help him do his job, first reported by the Wall Street Journal. It would reportedly do things like finding answers for him, but there aren&#39;t many details of the still developing AI agent. This article originally appeared on Engadget at https://www.engadget.com/ai/meta-is-reportedly-building-an-ai-clone-of-mark-zuckerberg-130242840.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-04%2F9c08a5e0-1a00-11f0-b7e7-8a036a634762&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=8897773fbf1e86d2ad819be6f1b5244db1b68a82,https://www.engadget.com/ai/meta-is-reportedly-building-an-ai-clone-of-mark-zuckerberg-130242840.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T13:02:42Z,7,Tech
+"⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More","Monday is back, and the weekend’s backlog of chaos is officially hitting the fan. We are tracking a critical zero-day that has been quietly living in your PDFs for months, plus some aggressive state-sponsored meddling in infrastructure that is finally coming to light. It is one of those mornings where the gap between a quiet shift and a full-blown incident response is basically",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZNd-YcwKXoD_PmPblT00GaI9GQJvtJTHZk-5RBS1QEtLRupE9KKh-ogAP61b-cLzJm90PHDoRVnhiUzxlqcn-3gB2EtBG2TYxt8erP8UmLj3t1L_9Ykh3vfbCXFBXAoeylbbTeK7jxJIDmqCqThPziWi0XOzbyMZ-UEWGl_PhP4xePoRbsm_RqpUKmQNW/s1600/recaps-main.jpg,https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html,https://feeds.feedburner.com/TheHackersNews,2026-04-13T13:01:00Z,8,Cybersecurity
+The Strait of Hormuz blockade is causing a slow-moving food crisis,"Farmers are very busy in the spring, under pressure to get crops into the ground just as the Northern Hemisphere begins to thaw. But this year has been different for many, thanks in large part to the escalating war in Iran and the closure of the Strait of Hormuz. The Strait of Hormuz is a […]",,https://www.theverge.com/science/910326/iran-strait-hormuz-fertilizer-feedstock-food-crisis,https://www.theverge.com/rss/index.xml,2026-04-13T13:00:00Z,5,Tech
+Critical flaw in Marimo Python notebook exploited within 10 hours of disclosure,"
+		
+					  
+						
+
+
+
+
+A critical pre-authentication remote code execution vulnerability in Marimo, an open-source Python notebook platform owned by AI cloud company CoreWeave, was exploited in the wild less than 10 hours after its public disclosure, according to the Sysdig Threat Research Team.
+
+
+
+The vulnerability, tracked as CVE-2026-39987 with a severity score of 9.3 out of 10, affects all Marimo versions before 0.23.0.
+
+
+
+It requires no login, no stolen credentials, and no complex exploit. An attacker only needs to send a single connection request to a specific endpoint on an exposed Marimo server to gain complete control of the system, the Sysdig team wrote in a blog post.
+
+
+
+The flaw allows an unauthenticated attacker to obtain a full interactive shell and execute arbitrary system commands on any exposed Marimo instance through a single connection, with no credentials required, the post said.
+
+
+
+“Marimo has a Pre-Auth RCE vulnerability,” the Marimo team wrote in its GitHub security advisory. “The terminal WebSocket endpoint /terminal/ws lacks authentication validation, allowing an unauthenticated attacker to obtain a full PTY shell and execute arbitrary system commands.”
+
+
+
+Marimo is a Python-based reactive notebook with roughly 20,000 stars on GitHub and was acquired by CoreWeave in October 2025.
+
+
+
+How the flaw works
+
+
+
+Marimo’s server includes a built-in terminal feature that lets users run commands directly from the browser. That terminal was accessible over the network without any authentication check, while other parts of the same server correctly required users to log in before connecting, the post said.
+
+
+
+“The terminal endpoint skips this check entirely, accepting connections from any unauthenticated user and granting a full interactive shell running with the privileges of the Marimo process,” the post added.
+
+
+
+In practical terms, anyone who could reach the server over the internet could walk straight into a live command shell, often with administrator-level access, without ever entering a password, the team at Sysdig said.
+
+
+
+Credentials stolen in under three minutes
+
+
+
+To track real-world exploitation, deployed honeypot servers running vulnerable Marimo instances across multiple cloud providers and observed the first exploitation attempt within 9 hours and 41 minutes of disclosure. No ready-made exploit tool existed at the time. The attacker had built one using only the advisory description, Sysdig researchers wrote.
+
+
+
+The attacker worked in stages across four sessions. A brief first session confirmed the vulnerability was exploitable. A second session involved manually browsing the server’s file system. By the third session, the attacker had located and read an environment file containing AWS access keys and other application credentials. The entire operation took under three minutes, the post said.
+
+
+
+“This is a complete credential theft operation executed in under 3 minutes,” the Sysdig team wrote.
+
+
+
+The attacker then returned over an hour later to re-check the same files. The behavior was consistent with a human operator working through a list of targets rather than an automated scanner, the post said.
+
+
+
+Part of a widening pattern
+
+
+
+The pace of exploitation aligns with a trend seen across AI and open-source tooling. A critical flaw in Langflow was weaponized within 20 hours of disclosure earlier this year, also tracked by Sysdig. The Marimo case cut that window roughly in half, with no public exploit code in circulation at the time.
+
+
+
+“Niche or less popular software is not safer software,” the Sysdig post said. Any internet-facing application with a published critical advisory is a target within hours of disclosure, regardless of its install base, it added.
+
+
+
+The Marimo case had no CVE number assigned at the time of the first attack, meaning organizations dependent on CVE-based scanning would not have flagged the advisory at all, Sysdig noted.
+
+
+
+The flaw also fits a pattern of critical RCE vulnerabilities in AI-adjacent developer tools — including MLflow, n8n, and Langflow — in which code-execution features built for convenience become dangerous when exposed to the internet without consistent authentication controls.
+
+
+
+What organizations should do
+
+
+
+Marimo released a patched version, 0.23.0, which closes the authentication gap in the terminal endpoint. Organizations running any earlier version should update immediately, Sysdig said.
+
+
+
+Teams that cannot update right away should block external access to Marimo servers using firewall rules or place them behind an authenticated proxy, the post said. Any instance that has been publicly reachable should be treated as potentially compromised.
+
+
+
+“Credentials stored on those servers, including cloud access keys and API tokens, should be rotated as a precaution,” Sysdig advised.
+
+
+
+CoreWeave did not immediately respond to a request for comment.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4157810-0-16043300-1776083697-shutterstock_2354016553.jpg?quality=50&strip=all,https://www.csoonline.com/article/4157810/critical-flaw-in-marimo-python-notebook-exploited-within-10-hours-of-disclosure.html,https://www.csoonline.com/feed/,2026-04-13T12:34:45Z,17,Cybersecurity
+OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack,"The AI giant is taking action after determining that a macOS code signing certificate may have been compromised.
+The post OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/,https://www.securityweek.com/feed/,2026-04-13T12:34:06Z,1,Cybersecurity
+Roblox introduces mandatory age-gated account tiers,"Roblox is preparing to roll out its biggest change since starting age verification late last year. While that program was initially focused on chat access, today’s news is about age-segregating the games on the massive platform.
+Starting in mid-May, users will be pushed into one of three worlds: Roblox Kids, Roblox Select or Roblox. The exact age ranges of these groups will vary by territory, but in the US they are 5-8 for Kids, 9-15 for Select and 16+ for the regular account. These three account types then align with the platform’s current content maturity labels, which divide games into Minimal, Mild, Moderate and Restricted.
+Kids accounts will be the most restricted, with chat off by default and only Minimal and Mild experiences available.
+Ages 9-15 get to chat with kids in their age group and “trusted friends” that have passed the parent test, and will be able to access Moderate content as well as games for babies.
+At 16, teens will automatically be moved to a full-fat Roblox account with all of its features, but not all of the games. Content marked as Restricted will only unlock once they turn 18.
+Roblox
+Roblox says over half of its users are now age checked, whether through ID verification or face scans. With the new account types rolled out globally — which the company says should be done by June — it’ll start forcing users who haven’t completed an age check into a Kids-like experience, with no access to chat or games rated higher than Mild. 
+Once age verification is completed, Roblox still faces the task of ensuring that its vast collection of user-created content is actually age-appropriate. Its solution to this is, of course, ID verification, AI and upcharges.
+Developers will have to verify their identity and pony up $5 a month for Roblox Plus to show “a long-term commitment to the platform.” The wisdom is that, with these hurdles cleared, a developer will surely apply the correct maturity label to their games. On the off-chance that an experience is mislabeled, Roblox’s AI moderation will keep tabs on game instances to make sure what&#39;s happening on-screen and in-chat matches the maturity label. On the surface, this does leave a gap where a toddler could end up playing an incorrectly labeled mature game before the AI catches it. Don’t fret, though, as Roblox says users over 16 “play new games first,” which surely isn’t an overgeneralization and will ensure that no child ever plays a mature game.
+Roblox also previewed a pair of new parental control features coming in June. First, parents will be able to block any game and manage direct chat access until a child turns 16. Previously, kids over 13 could unblock experiences by themselves. Second, parents will be able to approve games outside of their child’s age bracket on a case-by-case basis. Roblox gave an example of a younger child wanting to play a game with their older sibling for this feature’s utility.
+Of course, the big blocky elephant in the room is the efficacy of automated age verification. Reporting from Wired in January suggested even enterprising toddlers might be able to get past the platform’s age checks, which somewhat undermines everything Roblox is trying to achieve. Speaking to press ahead of today’s announcement, Roblox Chief Safety Officer Matt Kaufman said, “If we get it wrong … we offer users multiple ways to correct that.” He added that the platform is “constantly measuring users’ behavior and comparing that against what their age-check data says. If we see those things divert, then we will just ask people to run through the age process again.”This article originally appeared on Engadget at https://www.engadget.com/gaming/roblox-introduces-mandatory-age-gated-account-tiers-121535702.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F37a43980-36eb-11f1-b7db-a0905b03e2f8&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=07cf5339a35d9098980b44266db63d7f2747240d,https://www.engadget.com/gaming/roblox-introduces-mandatory-age-gated-account-tiers-121535702.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-13T12:15:35Z,8,Tech
+Roblox has games again,"Roblox is making a subtle but notable change. After swapping the word &#34;game&#34; for &#34;experience&#34; all over its website and mobile apps in 2021 while the Epic Games v. Apple trial was taking place, Roblox is getting more comfortable with using the term &#34;games&#34; once again. &#34;Over time, we&#39;ve learned that &#39;experiences&#39; isn&#39;t an intuitive […]",,https://www.theverge.com/games/910699/roblox-games-experiences-switch-friends-connections,https://www.theverge.com/rss/index.xml,2026-04-13T12:15:00Z,6,Tech
+Roblox will need age verification to make sure you’re at least 9 years old,"Roblox is about to make a big change to how you can access games on its platform: If you want to play any game that&#39;s intended for users nine or older, you will have to complete an age verification process. The shift is happening as part of a rollout of new Roblox Kids and Roblox […]",,https://www.theverge.com/games/910218/roblox-age-verification-check-games-kids-select-accounts,https://www.theverge.com/rss/index.xml,2026-04-13T12:15:00Z,1,Tech
+Roblox introduces ‘Kids’ and ‘Select’ accounts for age-appropriate access to games and chat,"Users aged five to nine will be assigned to a &#34;Roblox Kids&#34; account, and users aged nine to 15 to will be put in a &#34;Roblox Select&#34; account.",,https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/,https://techcrunch.com/feed/,2026-04-13T12:15:00Z,1,Tech
+DHS intelligence revamp would keep it answerable to nation's top spy,A proposed FY27 overhaul would keep DHS’s Office of Intelligence and Analysis answerable to the Office of the Director of National Intelligence.,,https://www.defenseone.com/policy/2026/04/dhs-intelligence-odni-oversight/412811/,https://www.defenseone.com/rss/all/,2026-04-13T12:00:00Z,0,Defense
+Squash and Stretch,"Have you ever heard of Disney’s 12 Basic Principles of Animation? In this tutorial, we’ll explore how we can use the very first principle to create SVG micro-interactions that feel way more natural and believable. It’s one of those small things that has a big impact.",,https://www.joshwcomeau.com/animation/squash-and-stretch/,https://joshwcomeau.com/rss.xml,2026-04-13T12:00:00Z,0,Tech
+Preparing for Post-Quantum Cryptography: The Secure Firewall Roadmap,"Cisco Secure Firewall’s post-quantum cryptography roadmap: what’s available today, what’s coming, and how to start planning.",,https://blogs.cisco.com/security/preparing-for-post-quantum-cryptography-the-secure-firewall-roadmap/,https://blogs.cisco.com/security/feed,2026-04-13T12:00:00Z,0,Cybersecurity
+Seven IBM WebSphere Liberty flaws can be chained into full takeover,"
+		
+					  
+						
+
+
+
+
+Security researchers are warning of a set of flaws affecting IBM WebSphere Liberty, a lightweight, modular Java application server, that can be chained into a full server compromise.
+
+
+
+The flaws, a total of seven, that led to the ultimate compromise of the server were initiated by a newly discovered pre-authentication issue in the platform’s SAML Web SSO component that enables low-privilege access.
+
+
+
+From there, the chain manipulates authentication, access control, and cryptographic protection to achieve full control. “The 7 flaws we reported to IBM create multiple pathways for attackers to move from network-level exposure or limited access to full server compromise,” Oligo Security researchers said in a blog post.
+
+
+
+The chain is basically a privilege-escalation path to a critical compromise, protections against which are now available as patches and configuration guidelines.
+
+
+
+Pre-auth RCE sets the tone
+
+
+
+The root flaw, also the most recently disclosed, is tracked as CVE-2026-1561, targeting the SAML Web SSO functionality and requires no authentication to exploit. In affected deployments, attackers can reach exposed SAML endpoints and supply crafted serialized payloads, ultimately achieving remote code execution (RCE).
+
+
+
+Specifically, the application attempts to validate a serialized cookie by appending a secret value, but fails to store the result of the “String.concat()” operation. In Java, this method is non-mutating, meaning the original string remains unchanged, making the integrity check useless.As a result, attackers can tamper with the SSO cookie and supply arbitrary serialized Java objects without triggering validation failures. Because the vulnerable endpoint processes this data before authentication, it opens up the pre-auth RCE vector.
+
+
+
+SSO endpoints are often internet-facing by design, researchers noted, turning the flaw into a remote entry point and making chaining with additional weaknesses possible.
+
+
+
+AdminCenter flaws allow further escalation
+
+
+
+Beyond initial access, the research outlined critical issues within WebSphere Liberty’s administrative controls. The AdminCenter component, designed to enforce role-based access, contains multiple flaws that allow low-privileged users to access sensitive files and secrets.One issue, tracked under CVE-2025-14915, enables “reader”-level users to retrieve critical server files such as authentication keys, which can then be used to forge tokens and impersonate higher privileged users. Another problem (CVE-2025-14917) lies in hardcoded passwords protecting token-signing LTPA keys, alongside encryption utilities that ship with static keys (CVE-2025-14923) across all modes.
+
+
+
+The rest of the chain includes an archive extraction flaw (CVE-2025-14914) that can be abused to write files outside intended directories, alongside insecure handling (CVE unassigned) of configuration data where sensitive entries, like credentials “in server.xml,” can be retrieved or reused once access is gained.
+
+
+
+The researchers detailed the full chain, noting that a low-privileged “reader” user can extract or recover admin credentials from exposed configuration data, or alternatively forge an admin token using decrypted LTPA keys, gaining full administrative access. From there, the archive extraction flaw allows arbitrary file writes via Zip Slip-style attack, ultimately leading to remote code execution.IBM did not immediately respond to CSO’s request for comments on the disclosed attack chain.
+
+
+
+Other than applying necessary patches, Oligo urged organizations to rotate any secrets ever generated using “SecurityUtility,” as default XOR and AES modes make them effectively reversible, and to move to custom encryption keys going forward. It also recommended using auditing and limiting reader-role assignments, since those users can potentially escalate to full administrative access.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4157807-0-59839200-1776080765-shutterstock_2496584763.jpg?quality=50&strip=all,https://www.csoonline.com/article/4157807/seven-ibm-websphere-liberty-flaws-can-be-chained-into-full-takeover.html,https://www.csoonline.com/feed/,2026-04-13T11:45:52Z,15,Cybersecurity
+Your MTTD Looks Great. Your Post-Alert Gap Doesn't,Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo Alto Networks&#39; Wendi Whitmorewarned that similar capabilities are weeks or months from proliferation. CrowdStrike&#39;s 2026 Global Threat Report puts average eCrime breakout time at 29 minutes. Mandiant&#39;s M-Trends 2026,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6yIgStY_TVvAIztG3gjTOWA2HNY1juzcSFQVACCzI1G1EU97z9wTsAO9HJECkmv0RcAYSxu4xSALf9jELTrtC9ruDKbMS5DPq2U2TYXLtvxZ1F4sRaQ2KIe-FfGpB8kZEhs1LEuOvaEnvGO-50RM227cjDVRFdBaXeC8r5WPOQHG3n2SB8ui3USopqHM/s1600/pro.jpg,https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html,https://feeds.feedburner.com/TheHackersNews,2026-04-13T11:41:00Z,16,Cybersecurity
+International Operation Targets Multimillion-Dollar Crypto Theft Schemes,"Law enforcement in the US, UK and Canada identified more than $45 million in cryptocurrency and froze $12 million.
+The post International Operation Targets Multimillion-Dollar Crypto Theft Schemes appeared first on SecurityWeek.
+",,https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/,https://www.securityweek.com/feed/,2026-04-13T11:34:35Z,1,Cybersecurity
+To teach in the time of ChatGPT is to know pain,LLM use is the most demoralizing problem I’ve faced as a college instructor.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2228543358-1152x648.jpg,https://arstechnica.com/science/2026/04/to-teach-in-the-time-of-chatgpt-is-to-know-pain/,https://arstechnica.com/feed/,2026-04-13T11:00:32Z,5,Tech
+Did Neuralink make the wrong bet?,"Elon Musk promised Neuralink would bring superhuman abilities and minds merged with AI. Then he fueled a runaway hype train for his brain implant technology, which ended up with a grisly record for implants in monkeys and some success with human subjects. But for all of the hype, he&#39;s still further away than Mars from […]",,https://www.theverge.com/tech/910834/neuralink-bcis-bet,https://www.theverge.com/rss/index.xml,2026-04-13T11:00:00Z,5,Tech
+CPUID Hacked to Serve Trojanized CPU-Z and HWMonitor Downloads,"Download links were replaced by a Russian-speaking threat actor to distribute a recently emerged malware named STX RAT.
+The post CPUID Hacked to Serve Trojanized CPU-Z and HWMonitor Downloads appeared first on SecurityWeek.
+",,https://www.securityweek.com/cpuid-hacked-to-serve-trojanized-cpu-z-and-hwmonitor-downloads/,https://www.securityweek.com/feed/,2026-04-13T10:52:57Z,7,Cybersecurity
+The Dumbest Hack of the Year Exposed a Very Real Problem,"Last April, a hacker hijacked crosswalk announcements to mimic Mark Zuckerberg and Elon Musk. Records obtained by WIRED reveal how unprepared local authorities were.",,https://www.wired.com/story/crosswalk-city-hack-cybersecurity-lessons/,https://www.wired.com/feed/category/security/latest/rss,2026-04-13T10:30:00Z,0,Cybersecurity
+Microsoft&#8217;s new Xbox Gamepad Cursor adds a virtual mouse to handhelds,"Microsoft has started testing its own virtual mouse cursor inside its Xbox mode for Windows-based handhelds. The new Gamepad Cursor option provides a quick way to turn the left stick of a handheld like the Xbox Ally X into a virtual mouse. While Asus has its own cursor as part of Armory Crate, Microsoft&#39;s Gamepad […]",,https://www.theverge.com/news/910901/microsoft-xbox-gamepad-cursor-windows-handhelds,https://www.theverge.com/rss/index.xml,2026-04-13T10:29:17Z,0,Tech
+Fake Claude Website Distributes PlugX RAT,"The malware mimics the legitimate Anthropic installation, relies on DLL sideloading, and cleans up after itself.
+The post Fake Claude Website Distributes PlugX RAT appeared first on SecurityWeek.
+",,https://www.securityweek.com/fake-claude-website-distributes-plugx-rat/,https://www.securityweek.com/feed/,2026-04-13T09:52:50Z,4,Cybersecurity
+Sam Altman reportedly targeted in second attack,"Sam Altman was seemingly targeted by a second attack on Sunday morning, with two suspects arrested following a shooting at his Russian Hill residence, The San Francisco Standard reports. The suspects were arrested and charged with negligent discharge, according to a police report on the incident, citing surveillance footage that appears to show a vehicle […]",,https://www.theverge.com/ai-artificial-intelligence/910890/openai-sam-altman-second-home-attack-shooting,https://www.theverge.com/rss/index.xml,2026-04-13T09:25:57Z,1,Tech
+North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware,"The North Korean hacking group tracked as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook and added them as friends on the social media platform, turning the trust-building exercise into a delivery channel for a remote access trojan called RokRAT.
+&#34;The threat actor used two Facebook",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm-HTAVB66ntSv8R4Bgh9szlrPPh6ah0eJGTDheDntj2w9bW9XzWcgs2CAGsN_C8DS7T4M7V8q18_DtgMZu3mJONEewq_oWlpefdtwp6BgudRjw2Z68jXoP8tHCdxSyvZ-xvVuPlh-xpxEeIRHk1v2mq5KqZxS1z316ncG5j2Q9HQe_bJhIJE4XWONvyYL/s1600/telegram.jpg,https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html,https://feeds.feedburner.com/TheHackersNews,2026-04-13T09:15:00Z,6,Cybersecurity
+CISOs tackle the AI visibility gap,"
+		
+					  
+						
+
+
+
+
+Dale Hoak found himself asking a question that has become familiar to CISOs through the decades: What am I missing?
+
+
+
+More specifically, Hoak, CISO at software firm RegScale, was wondering what he might be missing around his company’s AI deployments.
+
+
+
+“The business was moving so fast in using AI, so initially we had some visibility gaps,” he says.
+
+
+
+Hoak believed his monitoring capabilities weren’t strong enough to identify all the risks and threats associated with the company’s newest AI uses. So he repositioned existing tools and invested in new ones, including products that use intelligence to monitor enterprise AI use, to gain the visibility he needed — a process that took about six months.
+
+
+
+“Over time I figured out what to look for using logging and SIEM and AI tools, and I feel like we now have the gaps covered,” he notes.
+
+
+
+Still, he remains apprehensive.
+
+
+
+“I’m always a little wary,” he admits, about what his security operations might not see.
+
+
+
+CISOs are right to be concerned. AI is expanding the organization’s attack surface while introducing new types of risk such as those stemming from prompt injection and data poisoning attacks. Security leaders know that. But, as Hoak points out, CISOs are also contending with AI-related security blind spots as their organizations race to implement and scale the technology.
+
+
+
+According to the AI Security Exposure Survey 2026 Report from security software maker Pentera, 67% of CISOs report limited visibility into where and how AI is operating across their environments.
+
+
+
+Additionally, 48% of CISOs cited limited visibility into AI usage as a top challenge in securing AI systems, making it their second biggest challenge in this space. (Lack of internal expertise, cited by 50%, came in No. 1.)
+
+
+
+Myriad blind spots
+
+
+
+Nitin Raina, global CISO of consultancy Thoughtworks, highlights multiple scenarios that create such visibility gaps. One is shadow AI.
+
+
+
+“Initially about 12 to 18 months back, we saw people using [unsanctioned versions of] ChatGPT or Gemini or buying their own niche AI tool. That has slowed down, but it’s still one of the risks,” Raina says.
+
+
+
+Another is the introduction of AI capabilities by software makers whose products are already in use at the company. “The vendors we use are adding AI capabilities and sometimes we don’t have entire visibility into that,” he says, despite his security team’s work to learn how those vendors are handling data and AI-related vulnerabilities.
+
+
+
+The models supplied by providers also create blind spots, Raina adds, as CISOs typically can do some level of review but cannot perform deep dives into the models to determine whether there are issues that could skew outcomes to unacceptable levels or send data to places where it shouldn’t go.
+
+
+
+Yet another, Raina says, is agentic AI, whose risks include hallucinations or prompt injections as well as failures that due to their speed and autonomous actions can be difficult to detect with conventional security tools.
+
+
+
+Many compare the security situation around AI to the early days of cloud, when CISOs similarly experienced shadow deployments, unknown risks, and visibility challenges.
+
+
+
+The challenges today are more significant, says Nick Kakolowski, senior research director at IANS Research. Executives are scared of falling behind in the race to use AI for competitive advantage, so they’re willing to take more risks, he says. That has led to rapid-fire AI implementations and deployments outside of normal procurement channels. As a result, “blind spots are kind of everywhere.”
+
+
+
+CISOs also often lack full visibility into fourth-party AI systems and the risks that use entails.
+
+
+
+Ditto for the accuracy of the outcomes that employees are getting with some AI engines. “No one understands fully how to assess the outcomes of AI and the quality of the content being created by AI,” Kakolowski says. “We’re not going to be able to evaluate the quality and trustworthiness of the outputs of AI, and we don’t know how to equip our people to do so effectively.”
+
+
+
+Likewise for AI-generated code, which is increasingly being created outside of development teams thanks to the ease of using AI for such purposes. “They’re using vibe coding, and CISOs may not know where that AI-generated code is being integrated,” Kakolowski says.
+
+
+
+CISOs also may not know if AI agents grant access privileges to other agents as they execute workflows, creating yet another blind spot.
+
+
+
+And security execs may be in the dark about the ethical implications of their organization’s AI capabilities. “CISOs often get pulled into things that are on the ethical side of risk, and this issue of ethical AI is starting to emerge as one of them,” Kakolowski adds.
+
+
+
+Another area where CISOs may not have a clear view: where their organizations draw the line on blind spots introduced by their AI strategies. “Guessing at the organization’s risk tolerance is a high-level blind spot,” Kakolowski says, noting that CISOs wanting to close visibility gaps need to start by defining “what the organization considers reasonable versus unreasonable. That helps CISOs figure out the next step.”
+
+
+
+Gaining visibility
+
+
+
+CISOs say they’re aware of the consequences of having blind spots, with data leaks and problematic AI outputs being common ones.
+
+
+
+They’re now working to gain the needed visibility to prevent such issues, says Aaron Momin, CISO and chief risk officer for Synechron, a digital consulting and technology services firm.
+
+
+
+“The business has a mandate to adopt AI, but the trouble with this is that the business has been moving at lightspeed and CISOs are just catching up,” Momin adds.
+
+
+
+Like other security chiefs, Momin is leaning on a well-formed security strategy, security and AI frameworks, and a clear understanding of the company’s risk appetite and risk tolerance to do that work. He’s also leaning on people, process, and technology to secure his organization’s AI deployments and improve visibility.
+
+
+
+Still, he acknowledges blind spots could remain, explaining that traditional security tools, such as URL filtering and data loss prevention (DLP) solutions, provide a layer of control but don’t deliver the comprehensive view of AI use that CISOs need.
+
+
+
+“They’re not necessarily sufficient. They could get to maybe 80% or 90% of what you need, but to get higher visibility, you have to add additional tools,” Momin says.
+
+
+
+That, though, presents another challenge for CISOs.
+
+
+
+“Those tools have to be matured, have to be extended, have to be broader to get full visibility,” Momin says. “Now some vendors are upgrading the capabilities [offered in their security tools,] and new tools are coming on the market. And they’re starting to give you full visibility.”
+
+
+
+Thoughtworks’ Raina has a similar take to improving visibility, endorsing a multiprong approach to ensure his security team has a full picture of the organization’s AI deployments, their vulnerabilities, and their risks. That approach combines administrative, governance, and technology controls — a combination that has a long history of success in security.
+
+
+
+But experts say that tried-and-true combination is not enough to gain full visibility when it comes to AI.
+
+
+
+According to Pentera’s survey, no CISOs reported full visibility and no shadow AI. One-third said they had good visibility with shadow AI likely, while 66% said they had limited visibility with shadow AI a known issue, and 1% said they had no visibility.
+
+
+
+Full visibility may not be possible — at least not at present, says Jared Oluoch, professor and director of Eastern Michigan University’s School of Information Security and Applied Computing. Today’s tools and security strategies limit blind spots but do not eliminate them completely. “They can minimize the negative effects,” he adds.
+
+
+
+That’s the goal, says Tal Hornstein, CISO of Cast &amp; Crew, a provider of production software, payroll, and services for the entertainment industry.
+
+
+
+Like others, Hornstein relies on longstanding security principles, citing the confidentiality, integrity, and availability (CIA) triad as the foundation for his approach to ensure that AI works within established guardrails and that he can observe its behavior.
+
+
+
+Hornstein is also looking to emerging technologies to deliver better observability and enforcement. But he acknowledges that security tech doesn’t enable full visibility at this time. “They are not fully mature yet,” he says.
+
+
+
+That has to be enough for now, he adds, saying CISOs can’t let visibility challenges slow down AI adoption.
+
+
+
+“AI is the most amazing technology, and whoever doesn’t use it will be left behind,” Hornstein says. “So, it’s important for me as a CISO and as a business leader to not put up barriers and block AI but to build up guardrails that allow the organization to move at the velocity it wants and the amount it wants while providing risk mitigation.”
+",https://www.csoonline.com/wp-content/uploads/2026/04/4157486-0-57963200-1776071220-pexels-aksbykas-5106936.jpg?quality=50&strip=all,https://www.csoonline.com/article/4157486/cisos-tackle-the-ai-visibility-gap.html,https://www.csoonline.com/feed/,2026-04-13T09:01:00Z,9,Cybersecurity
+Gmail Brings End-to-End Encryption to Android and iOS for Enterprise Users,"The feature allows enterprise users to compose and read end-to-end encrypted messages natively on their mobile devices.
+The post Gmail Brings End-to-End Encryption to Android and iOS for Enterprise Users appeared first on SecurityWeek.
+",,https://www.securityweek.com/gmail-brings-end-to-end-encryption-to-android-and-ios-for-enterprise-users/,https://www.securityweek.com/feed/,2026-04-13T08:31:33Z,2,Cybersecurity
+Huawei beats Apple and Samsung with new wide foldable,"Apple and Samsung have both been strongly linked with plans for foldable phones in a boxy, wide aspect ratio, but it looks like another company will get there first. Huawei has just revealed the design of the Pura X Max, a new foldable it&#39;s launching in China next week, and its passport-esque form factor is […]",,https://www.theverge.com/tech/910867/huawei-pura-x-max-foldable-phone-wide-china,https://www.theverge.com/rss/index.xml,2026-04-13T08:13:41Z,1,Tech
+The largest orbital compute cluster is open for business,Kepler Communications is flying 40 GPUs in Earth orbit. And its latest customer is Sophia Space.,,https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/,https://techcrunch.com/feed/,2026-04-13T07:01:00Z,0,Tech
+OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident,"OpenAI revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or internal system was compromised.
+&#34;Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,&#34; OpenAI said in a post last week. &#34;We found",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE5gb0KURzHAgdXMKzxbNFW1AJ8G2ezWXrHrLReEmbX6BKaG3-tIjiDVcjk-4nIZ3Kg2_564qiWXVVGcERIi4vaUvjqG-BuENXb7i6P3M2rdOHz-S9DOcKIHZ-pa1odUyUdTI-lLify_9CRXYcZu3hyY2LXeTMp1wMRr7mnu7yQdIIjGrFXCAecG4-XVpS/s1600/openai.jpg,https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html,https://feeds.feedburner.com/TheHackersNews,2026-04-13T06:50:00Z,1,Cybersecurity
 Trump officials may be encouraging banks to test Anthropic’s Mythos model,The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.,,https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/,https://techcrunch.com/feed/,2026-04-12T21:14:38Z,5,Tech
 Apple reportedly testing out four different styles for its smart glasses that will rival Meta Ray-Bans,"Apple may be late to the smart glasses market, but it could be covering all its bases with up to four potential styles for its upcoming product. According to Bloomberg&#39;s Mark Gurman, Apple could launch some or all of the four styles it&#39;s currently testing for its smart glasses.
 Gurman reported Apple is testing out a large rectangular frame that&#39;s comparable to Ray-Ban Wayfarers, a slimmer rectangular design like the glasses that Apple CEO Tim Cook wears, a larger oval or circular frame and a smaller oval or circle option. Apple is also working on a range of colors, including black, ocean blue and light brown, according to Bloomberg.
@@ -46,6 +638,7 @@ Sam Altman responds to ‘incendiary’ New Yorker article after attack on his h
 The first European country to get Tesla’s Full Self-Driving Supervised will be the Netherlands,"Tesla&#39;s Full Self-Driving (Supervised) is ready to make its European debut, and it&#39;s starting with the Netherlands. According to Tesla Europe, the automaker&#39;s driver assistance system was approved in the Netherlands and will start rolling out shortly. RDW, the country&#39;s regulatory authority on vehicles, confirmed the news with a post on its website about Tesla receiving a type approval for its Full Self-Driving (Supervised) system.
 According to the RDW, Tesla&#39;s Full Self-Driving (Supervised) &#34;has been extensively examined and tested for more than one and a half years on our test track and on public roads,&#34; and concluded that it was a &#34;positive contribution&#34; to road safety. However, RDW pointed out that a Tesla with FSD Supervised was not &#34;self-driving,&#34; adding that the &#34;driver remains responsible and must always remain in control.&#34;
 With Dutch approvals, Tesla notched its first regulatory green light for FSD use in Europe. The RDW also added that Tesla&#39;s FSD Supervised could get &#34;possible later admittance in all member states of the European Union&#34; thanks to its approvals. Tesla has been working on bringing its automated driving features to other regions, including Europe and China, as detailed in a roadmap posted in 2024. In the meantime, the automaker&#39;s software has been mired in several safety investigations from the National Highway Traffic Safety Administration. The latest development comes from a probe that targets collisions when using FSD, including the supervised version, in reduced road visibility conditions.This article originally appeared on Engadget at https://www.engadget.com/transportation/the-first-european-country-to-get-teslas-full-self-driving-supervised-will-be-the-netherlands-170157644.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fd65415a0-35ba-11f1-8fff-ea1e71234d03&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=540e66d1cfb96423916309e50bdeb6e1ddf1ab08,https://www.engadget.com/transportation/the-first-european-country-to-get-teslas-full-self-driving-supervised-will-be-the-netherlands-170157644.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-11T17:01:57Z,8,Tech
+US push to counter hackers draws industry deeper into offensive cyber debate,The White House is expanding the market for offensive cyber capabilities—and drawing more of the private sector into that ecosystem—even as policy boundaries around their use remain unclear.,,https://www.defenseone.com/business/2026/04/us-push-counter-hackers-draws-industry-deeper-offensive-cyber-debate/412791/,https://www.defenseone.com/rss/all/,2026-04-11T16:22:00Z,0,Defense
 IBM settles its DEI lawsuit with the DOJ for $17 million,"IBM has agreed to settle the US Department of Justice&#39;s accusations that the company violated civil rights laws with its DEI practices. According to a press release from the DOJ, IBM will pay more than $17 million to resolve allegations of taking &#34;race, color, national origin, or sex&#34; into account when making employment decisions. This settlement is the latest development in a longstanding effort from the Trump administration to end DEI programs, which was kick-started from an executive order in early 2025.
 IBM denied any wrongdoing and said the settlement wasn&#39;t an admission of liability, while the US government said this conclusion wasn&#39;t a concession that its claims weren&#39;t well founded, according to the settlement agreement. According to the DOJ, IBM had violated the Civil Rights Act of 1964 with practices that included altering &#34;interview criteria based on race or sex,&#34; developing &#34;race and sex demographic goals for business units,&#34; using &#34;a diversity modifier that tied bonus compensation to achieving demographic targets&#34; and more.
 An IBM spokesperson told Engadget in an email that the company &#34;is pleased to have resolved this matter,&#34; adding that &#34;our workforce strategy is driven by a single principle: having the right people with the right skills that our clients depend on.”
@@ -202,6 +795,7 @@ Anthropic temporarily banned OpenClaw’s creator from accessing Claude,This ban
 How to watch the Artemis II astronauts return to Earth,"The Orion capsule, carrying Artemis II commander Reid Wiseman, pilot Victor Glover, mission specialist Christina Koch, and Canadian astronaut Jeremy Hansen, is expected to land back to Earth after a nine-day mission that set a record for the farthest distance humans have ever traveled from our planet. After making a high-speed re-entry through the atmosphere, […]",,https://www.theverge.com/news/910397/how-to-watch-the-artemis-ii-astronauts-return-to-earth,https://www.theverge.com/rss/index.xml,2026-04-10T20:08:08Z,0,Tech
 "New paper argues history, not mantle plume, powers Yellowstone",A now-vanished plate under North America may open the crust below Yellowstone.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1187698526-1152x648.jpg,https://arstechnica.com/science/2026/04/new-paper-argues-history-not-mantle-plume-powers-yellowstone/,https://arstechnica.com/feed/,2026-04-10T20:06:39Z,0,Tech
 Estonia is the rare EU country opposing child social media bans,"As child social media bans spread across Europe and beyond, Estonia isn&#39;t having it. On Friday, the country&#39;s education minister said the bans won&#39;t &#34;actually solve problems,&#34; while warning that the kids will find a way regardless.Although companies like Meta would love for you to believe it’s a fairy tale, social media addiction is associated with tangible negative repercussions for children. Studies show that its harms range from depression and anxiety to sleep deprivation and obesity. (The latter is from all the targeted junk food advertising.) On the other hand, teens can find community and support from social media.A growing list of countries looked at the negative data and concluded that the answer was to ban social media altogether for children. Although the age cutoff varies, legislation has been floated or enacted in Australia, Greece, France, Austria, Spain, Indonesia, Malaysia, the UK and Denmark — just to name a few.Estonia&#39;s education minister believes these countries are coming at the very real problem from the wrong angle. &#34;The way to approach this, to me, is not to make kids responsible for that harm and start self-regulating,&#34; Kristina Kallas said at a Politico forum in Barcelona. She added that &#34;kids will find very quickly the ways to go around and to still use social media.&#34;Instead, she said the responsibility lies with governments and corporations. &#34;Europe pretends to be weak when it comes to big American and international corporations,&#34; she added. But she called that a &#34;pretense,&#34; challenging the EU to &#34;actually take this power and start regulating the big American corporations.&#34;To be fair, the EU regulates the tech industry more effectively than anywhere else in the world. But the point on childhood social bans stands.Another argument against the bans is that it’s a short path from the well-meaning to a more sinister erosion of basic freedoms. In February, France suggested that the next logical step after passing an under-15 social media ban would be to go after VPNs. After all, once you pass the ban, you need to enforce it — and that can mean snuffing out the tools children could use to work around it.This article originally appeared on Engadget at https://www.engadget.com/social-media/estonia-is-the-rare-eu-country-opposing-child-social-media-bans-194620916.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2F54678acd-ac57-4599-a5f6-cbda2abc8483&resize=1400%2C950&client=19f2b5e49a271b2bde77&signature=951ac5b235f7dab89056aa65c5a1de105c684afc,https://www.engadget.com/social-media/estonia-is-the-rare-eu-country-opposing-child-social-media-bans-194620916.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-10T19:46:20Z,7,Tech
+Homeland Security intel office restructuring would keep oversight under ODNI,"An overhaul proposed in the  FY27 budget would leave DHS’s Office of Intelligence and Analysis answerable to the Office of the Director of National Intelligence, despite questions about its oversight.",,https://www.defenseone.com/policy/2026/04/dhs-intelligence-office-restructuring-would-still-keep-it-under-odni-oversight/412792/,https://www.defenseone.com/rss/all/,2026-04-10T19:34:00Z,0,Defense
 Garmin may be working on a Whoop competitor,"Whoop, the makers of a screen-free fitness tracker of the same name, could soon have some competition. Fitbit teased its take on a Whoop-style band with the help of Steph Curry at the end of March, and based on a trademark filing spotted by Gadgets &amp; Wearables, Garmin appears to be working on its own band that tracks similar health metrics.This new Garmin wearable, called &#34;CIRQA&#34; in the trademark filing submitted in February, is designed to measure &#34;the body&#39;s physical parameters and other physiological data, bio-signals, and bodily behavior.&#34; That could broadly describe the smartwatches and fitness trackers Garmin already sells. But the CIRQA apparently goes further, by also measuring &#34;recovery from physical and emotional stress, human alertness level, and performance,&#34; a set of more granular, wellness-focused features that could bring the unreleased wearable into the same ballpark as a Whoop.Garmin accidentally leaked that it was working on a new wearable via a hastily removed store page in January, Android Authority reports. While some phantom web pages and a trademark do not guarantee Garmin is working on a new device, or that the band will be screen-free in the same way the Whoop is. If the company is preparing a competitor, though, the timing makes sense.  Where other devices try to split the difference between tracking biometrics and offering real-time information or other smartwatch features, Whoop is decidedly data-first. Its wearables monitor as much information as possible through a nondescript band, and then analyze and display what it learned via a smartphone app. The approach is attractive to anyone tired of dealing with screens, and the growing number of people obsessed with optimizing their health. In fact, Whoop just raised $575 million on the back of its current success. It would make sense that Garmin and Google (via its Fitbit brand) would want a piece of the company&#39;s audience, too.Whoop-style bands are also a perfect fit for future uses of AI in health and fitness tracking. Google is interested in having users turn to Fitbit&#39;s AI-powered health coach for everything from workout tracking to nutrition advice. If health data processing is going to happen in the cloud, and you&#39;re going to have to pull out your smartphone to view that data anyway, it makes sense to sell a tracker without a screen.This article originally appeared on Engadget at https://www.engadget.com/wearables/garmin-may-be-working-on-a-whoop-competitor-191802041.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-05%2F564e4da0-2cf4-11f0-ae72-5d3c30e3d43b&resize=1400%2C878&client=19f2b5e49a271b2bde77&signature=6864ad8edc92113277d4360109081b617786c9eb,https://www.engadget.com/wearables/garmin-may-be-working-on-a-whoop-competitor-191802041.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-10T19:18:02Z,10,Tech
 Battery recycler Ascend Elements files for bankruptcy,Ascend Elements said that it will be filing for Chapter 11 bankruptcy in the wake of a canceled government grant and a challenging market for lithium-ion batteries.,,https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/,https://techcrunch.com/feed/,2026-04-10T19:16:52Z,5,Tech
 F1 moves a step closer to fixing its 2026 hybrid problem,"Algorithms, not drivers, are deciding how hard to accelerate, and that&#39;s no good.",https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2268546147-1152x648.jpg,https://arstechnica.com/cars/2026/04/f1-moves-a-step-closer-to-fixing-its-2026-hybrid-problem/,https://arstechnica.com/feed/,2026-04-10T19:07:46Z,0,Tech
