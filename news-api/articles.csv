@@ -1,4 +1,1299 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Unheeded lessons from the US warship nearly sunk by an Iranian mine,A strangely amnesiac effect seems to surround the threat of underwater weapons that wait.,,https://www.defenseone.com/ideas/2026/04/lessons-navy-warship-iran-mine/412852/,https://www.defenseone.com/rss/all/,2026-04-15T03:48:16Z,0,Defense
+Curity looks to reinvent IAM with runtime authorization for AI agents,"
+		
+					  
+						
+
+
+
+
+In 2026, enterprise developers are building and deploying the first generation of powerful, increasingly autonomous AI agents at incredible speed. Now comes the hard part: working out how to secure them.
+
+
+
+Vendors in the space are facing multiple challenges. To begin with, traditional identity and access management (IAM) tools were never designed to secure anything as complex as agentic AI. In addition, the number of agents, both those sanctioned by the enterprise and the undocumented ‘shadow’ agents created by a new generation of powerful tools that barely existed a year ago, is increasing at unprecedented speed. And now it has started to dawn on organizations that this risks leaving yawning governance and security gaps whose weaknesses could one day return to haunt their creators.
+
+
+
+While a growing list of companies, including large cloud platforms such as Okta, Ping Identity, and Microsoft’s Entra ID, is vying to fill the vacuum, a smaller competitor, Sweden’s Curity, argues that agents can’t be secured using traditional IAM. Instead, it is offering a different approach to the problem: This week, it announced Access Intelligence, an extension to its existing API identity and access management (IAM) platform, Identity Server.
+
+
+
+The problem it addresses is that traditional IAM tools assume that applications are being accessed by human users or machine identities, governed by a one-time authentication process. But agents, which assume long chains of actions conducted at incredible speed, don’t work like this. Instead, access becomes ephemeral, complex, and non-deterministic, which is to say, hugely unpredictable. Lock them down too much and they stop working; let them run free, and weak security follows in their wake.
+
+
+
+Runtime enforcement
+
+
+
+Curity’s approach is to treat agents as a special type of application. Like applications, agents call APIs, MCP servers, and each other, and are credentialed using OAuth tokens. Through a feature called Token Intelligence, Curity extends the role of OAuth tokens to not simply permit access, but to carry information on the agent’s purpose and intent. In Curity’s scheme, an agent can only access resources based on that purpose.
+
+
+
+Instead of using static, pre-granted permissions, agent access is granted at runtime, on-the-fly. Each requested action generates a separate token that describes the access it needs. When an agent starts a new task, it needs a new token specifying a new set of permissions. If necessary, human authorization can be required when an agent is trying to perform a high-risk action such as transferring funds.
+
+
+
+“Curity has always been application-centric,” said Cofounder and CTO Jacob Ideskog. “Our focus has always been on how we broker access.”
+
+
+
+Multiple approaches to agent security
+
+
+
+Today, agent security falls into one of several camps, which include increasingly inadequate inline approaches such as API gateways and web application firewalls (WAFs), and out-of-band analysis systems that infer intent by analyzing agent behavior against a baseline.
+
+
+
+Curity’s Access Intelligence, by contrast, is a self-hosted microservice that acts as a glorified IAM layer through which every agent request must pass. “Because we let an agent do something now doesn’t mean we should be allowing it to do this a minute later,” Ideskog explained.
+
+
+
+Access Intelligence also uses Identity Server’s centralized token validation to ensure that developers can fire up agents or APIs without registering them. If they lack this validation, agents are isolated from real-world actions.
+
+
+
+Nothing does the whole job
+
+
+
+The appearance of systems such as Access Intelligence is good news for enterprises. It indicates that vendors are starting to address the problem of agent security, often by extending existing API security platforms. But that still leaves open the question of which approach to take.
+
+
+
+Ideskog believes it would be a mistake to see the different approaches as mutually exclusive. Curity’s Access Intelligence can be used in combination with other layers of agent security, he emphasized. In short, no one solution can do the whole job.
+
+
+
+“Up to this point, the IAM industry has focused on the identity part. But the real question is the access. Enterprises are asking their privilege access management (PAM) vendors how they’re going to deal with this [agent security] and I don’t think the PAM vendors have good answers yet,” he said.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158847-0-22544900-1776223688-digital-access-machine-identity-non-human-management.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158847/curity-looks-to-reinvent-iam-with-runtime-authorization-for-ai-agents.html,https://www.csoonline.com/feed/,2026-04-15T03:27:58Z,2,Cybersecurity
+"US must adjust to Iran’s use of commercial satellite photos, Space Command says",CENTCOM’s declaration of “space superiority” hasn’t prevented Tehran from putting space to use.,,https://www.defenseone.com/threats/2026/04/us-must-adjust-irans-use-commercial-satellite-photos-space-command-says/412851/,https://www.defenseone.com/rss/all/,2026-04-15T02:45:50Z,0,Defense
+Anthropic’s rise is giving some OpenAI investors second thoughts,One investor who has backed both companies told the FT that justifying OpenAI&#39;s recent round required assuming an IPO valuation of $1.2 trillion or more — making Anthropic&#39;s current $380 billion valuation look like the relative bargain. ,,https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/,https://techcrunch.com/feed/,2026-04-15T02:31:04Z,5,Tech
+Godzilla goes to New York in 'Minus Zero' teaser trailer,"Japanese entertainment company Toho has released a teaser video for Godzilla Minus Zero, the upcoming sequel to the award-winning film Godzilla Minus One. The teaser shows the famous monster next to the Statue of Liberty as it rampages across New York. Godzilla Minus Zero is set in 1949, two years after the events of the first film, and will be a direct sequel. You’ll see familiar faces from Minus One in the short trailer, as well, namely Koichi Shikishima and Noriko Oishi, two of the first movie’s main characters.The kaiju flick was filmed specifically for IMAX with high-definition digital cameras. Even its audio was optimized for the massive screen’s immersive cinema experience. Minus One won an Oscar for Best Visual Effects, so expectations are high for this sequel. The good news is that this movie is also helmed by Takashi Yamazaki, who wrote, directed and oversaw the visual effects for Minus One. Godzilla Minus Zero is heading to cinemas in Japan on November 3 and in the United States on November 6 this year. This article originally appeared on Engadget at https://www.engadget.com/entertainment/godzilla-goes-to-new-york-in-minus-zero-teaser-trailer-015029346.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgodzilla-minus-zero_9946.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=227dc80af0781cb3dd84f0451bf9603bdf4d10f6,https://www.engadget.com/entertainment/godzilla-goes-to-new-york-in-minus-zero-teaser-trailer-015029346.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-15T01:50:29Z,7,Tech
+April Patch Tuesday roundup: Zero day vulnerabilities and critical bugs,"
+		
+					  
+						
+
+
+
+
+A critical hole in Windows Internet Key Exchange for secure communications, an actively exploited zero day in Microsoft SharePoint and a critical SQL injection vulnerability in a SAP product are the focus of the April Patch Tuesday releases requiring immediate attention from IT security teams.
+
+
+
+“April’s threat landscape is defined by immediate, real-world exploitation rather than just theoretical vulnerabilities,” said Nick Carroll, ShadowScout team lead at Nightwing. “Security teams must prioritize active zero days in daily use applications like Chrome, Acrobat, and SharePoint, using behavioral threat intelligence over basic CVSS scores to stay ahead of adversaries.”
+
+
+
+Carroll believes the most critical of the 167 issues Microsoft identifies this month is CVE-2026-32201 in SharePoint Server, which can allow an attacker to spoof SharePoint due to improper input validation. As a result, the attacker could view sensitive organization information and make changes to disclosed information. It’s being actively exploited.
+
+
+
+Satnam Narang, senior staff research engineer at Tenable, said this hole “might sound like déjà vu, and that’s because the last SharePoint Server spoofing vulnerability exploited as a zero day was CVE-2025-49706 from July 2025, part of the ToolShell exploit chain used by ransomware and cyberespionage groups. While we lack insight into the in the wild exploitation associated with this latest flaw, and whether it is related to the ToolShell exploit chain, it underscores how valuable SharePoint Server is as a target for attackers.”
+
+
+
+Kevin Breen, senior director of threat research at Immersive, noted that SharePoint services, especially those used as internal document stores, can be “a treasure trove for threat actors looking to steal data, especially data that may be leveraged to force ransom payments, [then] using double extortion techniques by threatening to release the stolen data if payment is not made.” 
+
+
+
+A secondary concern, he added, is that threat actors with access to SharePoint services could deploy weaponized documents or replace legitimate documents with infected versions that would allow them to extend their reach to other hosts or victims, moving laterally across the organization.
+
+
+
+Priority vulnerabilities
+
+
+
+The highest rated vulnerability, at 9.8 on the CVSS scale, is in Windows Internet Key Exchange (IKE) Service Extensions (CVE-2026-33824). It could allow a threat actor to run remote code on a system unless it is patched immediately. The attack complexity is low, and no user privileges are required. All an attacker has to do is send specially crafted packets to a Windows machine with IKE version 2 enabled. 
+
+
+
+Affected are Windows Server 2025; Windows Server 2022, 23H2 edition with the server core installation; Windows Server 2019 and 2016 with server core installation; and certain desktop versions of Windows 10 and 11 for x64, 32-bit and ARM systems. 
+
+
+
+Windows admins who can’t immediately install the security update can take one two actions, depending on their environment:
+
+
+
+
+block inbound traffic on UDP ports 500 and 4500 for systems that do not use IKE;
+
+
+
+for systems that require IKE, configure firewall rules to allow inbound traffic on UDP ports 500 and 4500 only from known peer addresses.
+
+
+
+
+Microsoft noted that these actions reduce the attack surface, but don’t replace installing the security update.
+
+
+
+Breen said that while Microsoft has marked this flaw as ‘exploitation less likely,’ that doesn’t mean that it may not be exploitable. There have been historic exploits and proofs of concept (PoCs) that have impacted IKE, he said, so motivated threat actors may be able to weaponize this one as well. 
+
+
+
+Jack Bicer, director of vulnerability research at Action1, said that from a strategic perspective, IT leadership should prioritize remediation efforts around the IKE issue and CVE-2026-33826, an Active Directory Remote Code Execution Vulnerability, due to their combination of exploitability and enterprise wide impact.
+
+
+
+He said the Active Directory hole “represents a direct threat to identity infrastructure. By exploiting improper input validation in RPC handling, an authenticated attacker can execute arbitrary code within the domain. The low complexity of exploitation combined with the central role of Active Directory significantly amplifies risk. Once leveraged, this vulnerability can accelerate privilege escalation and enable full domain takeover, undermining enterprise trust boundaries.”
+
+
+
+Bicer also said immediate attention should also be given to the Windows TCP IP Remote Code Execution Vulnerability, CVE 2026 33827, because of its reach across core networking functions, even with higher exploitation complexity.
+
+
+
+“It is rare that you see a truly remote TCP/IP vulnerability these days,” commented Tyler Reguly, associate director for security R&amp;D at Fortra, “and that’s exactly what CVE-2026-33827 is: unauthorized, network-based code execution against IPv6. The attack complexity is listed as high because the vulnerability is based on a race condition as well as ‘additional actions’, as Microsoft calls it, but it is still impressive to see these vulnerabilities identified in 2026.”
+
+
+
+Another hole high on Breen’s list to patch is CVE-2026-33825, a Microsoft Defender elevation of privilege vulnerability. This is listed by Microsoft as Publicly Disclosed with a Proof Of Concept. 
+
+
+
+An elevation of privilege vulnerability is commonly seen after an attacker has already gained initial access to a host machine, he said, perhaps via social engineering attacks. Exploiting a privilege hole allows the attacker to gain SYSTEM level permissions, he said, which is enough to disable security tools and logging before deploying additional malware and moving laterally. 
+
+
+
+Breen pointed out that while Microsoft does not link this vulnerability to the recently publicly disclosed unpatched zero-day BlueHammer exploit that also impacts Microsoft Defender, “either way, ensuring that Defender is properly configured to receive timely updates is important, and should be a priority check this cycle given the existence of at least one, and possibly two public proofs of concept.”
+
+
+
+Teams must be adequately resourced to cope
+
+
+
+Reguly said CISOs this month might be worried about the sheer number of items that admins have to review. “There are a lot of CVEs and a lot of one-offs that we don’t normally see,” he said. “While Windows update and automatic updates for some applications will take care of a lot of the heavy lifting here, there’s still testing that is required before deploying updates this large. Additionally, with the likes of .NET, SharePoint, and SQL Server, there’s always the potential for difficult patches and/or version incompatibility that may crop up during testing.
+
+
+
+“Patience is going to be a keyword this month, followed very quickly by resourcing. Massive patch drops like this, and the conversation around next-gen LLMs, mean that we need to be aware of the pressure on our teams and the amount of work they are expected to complete. If you still see your security teams as a cost centre, it is time to start rethinking that and looking at the value they bring to protecting your data and your systems. Large patch drops mean that you really need to review your teams to ensure they are adequately resourced.”
+
+
+
+Patch volume may be tied to Mythos
+
+
+
+AJ Grotto, former senior White House Director for Cyber Policy and currently research scholar at the Center for International Security and Cooperation at Stanford University, noted that the 167 Microsoft vulnerabilities identified this month more than doubled the March total and nearly tripled the February total. 
+
+
+
+“These numbers fluctuate,” he admitted, “but the increase is notable, especially in light of news that Anthtropic’s Mythos LLM excels at finding vulnerabilities. Microsoft is among the companies invited by Anthropic to participate in its preview initiative aimed at giving companies like Microsoft a head start patching their systems before the LLM is unleashed for general use.”
+
+
+
+He wondered, “how much of the increase is due to Mythos? And how concerned should we be that April’s uptick in vulnerabilities in Microsoft’s already vuln-riddled products is only the tip of iceberg?”
+
+
+
+Further, Chris Goettl, VP of product management at Ivanti, suggested that there is a connection between the just-patched Acrobat Reader zero day, other newly-found vulnerabilities, and Mythos.
+
+
+
+“Most of the discussions around Mythos have focused on where it will be used and the ramifications,” he told CSO. “Finding exploitable flaws in code can be a powerful tool for good when used by the vendor writing the code before it is released. However, it will also be used by researchers and threat actors to find flaws in code that is already released, and that is where my speculation is directed.
+
+
+
+“Consider the knock-on effects of a massive model like Mythos and what it will mean in the near term and longer term for the software that companies consume. In the near term, you will have the big players using a solution like this to release more secure code. As researchers and threat actors adopt more robust AI models to identify exploitable flaws, this will result in more coordinated disclosures (good), zero-day exploits (bad) and n-day exploits (bad). All of this will result in more frequent, and more importantly, urgent software updates.”   
+
+
+
+Critical SAP vulnerability
+
+
+
+Separately, SAP issued a patch for a critical SQL Injection vulnerability in SAP Business Planning and Consolidation and SAP Business Warehouse. The vulnerable ABAP program allows a low privileged user to upload a file with arbitrary SQL statements that will then be executed. SAP Security Note #3719353, tagged with a CVSS score of 9.9, patches the vulnerability by deactivating all executable code within the affected program. 
+
+
+
+According to Onapsis, as a temporary workaround, SAP recommends revoking the S_GUI authorization object with Activity 60 (Upload) from user accounts. Since this workaround can lead to side effects in other applications for the affected users, and because of the criticality of the vulnerability, Onapsis strongly recommended applying the patch immediately. 
+
+
+
+SAP Security Note #3731908, with a CVSS score of 7.1, patches a missing authorization check vulnerability in SAP ERP and SAP S/4 HANA (Private Cloud and on premises). According to Onapsis, the vulnerability allows an authenticated attacker to execute a particular ABAP program to overwrite any existing eight‑character executable program without authorization. SAP says a successful exploitation impacts availability, with a limited impact on integrity confined to the affected report, while confidentiality remains unaffected.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158706-0-78225700-1776216485-patch_tuesday.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158706/april-patch-tuesday-roundup-zero-day-vulnerabilities-and-critical-bugs.html,https://www.csoonline.com/feed/,2026-04-15T01:27:54Z,27,Cybersecurity
+Godzilla Minus Zero stomps through New York in first teaser trailer,"*insert Godzilla screeching sound* Here&#39;s the very first look at the next big kaiju feature. Godzilla Minus Zero will continue the story of 2023&#39;s Godzilla Minus One, which returned the franchise to the more grounded tone established in the original film, and while the new teaser trailer doesn&#39;t show a whole lot, it suggests some […]",,https://www.theverge.com/entertainment/912025/godzilla-minus-zero-teaser-trailer,https://www.theverge.com/rss/index.xml,2026-04-14T23:05:09Z,5,Tech
+Microsoft&#8217;s finally giving up on its massive Surface Hub touchscreen displays,"Microsoft is reportedly ending production of its Surface Hub 3 collaborative office display and canceling plans for a Surface Hub 4, according to Windows Central. The extra-large digital whiteboard that included its own built-in PC was originally announced in 2015 ahead of the launch of Windows 10 and came in two sizes, 50 inches and […]",,https://www.theverge.com/tech/912114/microsoft-surface-hub-displays-discontinued,https://www.theverge.com/rss/index.xml,2026-04-14T22:56:52Z,0,Tech
+Sony is nerfing its Bravia TVs' program guide,"Sony is removing some features from its TV guide and program guide displays for channels received by an over the air TV antenna on select models of Bravia televisions from 2023-2025. Cord Cutters News reported on the changes, which will take effect in late May.Channel logos and thumbnail images in program descriptions are going away from the built-in TV Guide for antenna TV channels. Only programs from recently watched channels will be shown in the guide, and depending on the channel, program information may not be displayed. Change is also coming for set top box users, with the dedicated Set Top Box TV menu being removed and replaced by a Control menu. This setup will also not show program thumbnail images any longer. This is an admittedly narrow use case in the age of both streaming and cable TV, but Sony didn&#39;t provide any reason for making the change. And for those people who are impacted, this could be an unpleasant surprise next month that makes the TV guide and program guide much less helpful.This article originally appeared on Engadget at https://www.engadget.com/home/home-theater/sony-is-nerfing-its-bravia-tvs-program-guide-225640797.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2F3c96bf60-16e9-4685-b9f9-23050a38378d&resize=1400%2C953&client=19f2b5e49a271b2bde77&signature=0e5e4b93def85f0d549acac52406500bb3b55513,https://www.engadget.com/home/home-theater/sony-is-nerfing-its-bravia-tvs-program-guide-225640797.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T22:56:40Z,8,Tech
+Ukraine’s military robot surge aims to offset drone risks to humans,Ukraine is replacing more soldiers with robots in the battlefield kill zone.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/DevDroid-military-robot.jpg,https://arstechnica.com/ai/2026/04/ukraines-military-robot-surge-aims-to-offset-drone-risks-to-humans/,https://arstechnica.com/feed/,2026-04-14T22:42:22Z,5,Tech
+FCC just handed Netgear a de facto router monopoly in the US,"The Federal Communications Commission has announced that Netgear has been given conditional approval that effectively exempts it from a previous ban on foreign-made networking routers. The conditional approval gives the company a de facto — though potentially temporary — monopoly on the selling and servicing of new consumer routers in the US.&#34;We&#39;re pleased to share that Netgear is the first retail consumer router company to receive conditional approval from the Federal Communications Commission (FCC) as a trusted consumer router company,&#34; Netgear CEO CJ Prober said in a statement. &#34;As a US founded and headquartered company, Netgear is aligned with the vision for a more secure digital future for our customers. For the last thirty years, we have been, and continue to be, committed to leading the consumer router category for the United States and setting the bar for quality, performance, innovation and security.&#34;Both Netgear&#39;s lines of Nighthawk and Orbi mesh routers are covered by the approval until October 1, 2027, which appears to mean that the company can continue to offer software updates to both lines and presumably release and sell new models in the future.The FCC dramatically expanded the Covered List, a collection of communications equipment seen as posing a risk to national security, to cover all foreign-made routers in March 2026. The decision prevents companies who make routers outside of the US from introducing new foreign-made models, and pushing certain software updates to existing models after March 1, 2027. Confusingly, though, it doesn&#39;t require anyone to replace their existing router or prevent those companies from selling routers they&#39;ve already made. Receiving conditional approval is the definitive way companies can get off the list, but part of the FCC&#39;s requirements for approval is the company offering a plan to bring some or all of its manufacturing to the US — a theoretically costly decision.Engadget has contacted Netgear for information about the US manufacturing plan it included in its application for conditional approval. We&#39;ll update this article if we hear back.The vast majority of router companies, even ones that are headquartered in the US like Netgear, build their routers in Asia. It&#39;s not clear what makes Netgear&#39;s currently foreign-made routers safer than, say, an Amazon Eero 7 or a Google Nest WiFi Pro. Until other companies are given conditional approval, though, Netgear is in a unique position.This article originally appeared on Engadget at https://www.engadget.com/cybersecurity/fcc-just-handed-netgear-a-de-facto-router-monopoly-in-the-us-223712324.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fmedia-mbst-pub-ue1.s3.amazonaws.com%2Fcreatr-uploaded-images%2F2025-07%2F6efa7f90-6c96-11f0-adfe-136ef8e40c2b&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=cb54ccd654095fb881d8d6c08b9fea00467695ac,https://www.engadget.com/cybersecurity/fcc-just-handed-netgear-a-de-facto-router-monopoly-in-the-us-223712324.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T22:37:12Z,14,Tech
+Microsoft adds Windows protections for malicious Remote Desktop files,"Microsoft has introduced new Windows protections to defend against phishing attacks that abuse Remote Desktop connection (.rdp) files, adding warnings and disabling risky shared resources by default. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/,https://www.bleepingcomputer.com/feed/,2026-04-14T22:23:33Z,12,Cybersecurity
+"Orbán’s loss won’t stop Russian influence campaigns, but it shows they’re beatable","The Hungarian strongman’s electoral defeat exposes the growth, and limits, of Russian hybrid-warfare tactics.",,https://www.defenseone.com/threats/2026/04/orbans-loss-wont-stop-russian-influence-campaigns-it-shows-theyre-beatable/412849/,https://www.defenseone.com/rss/all/,2026-04-14T22:20:31Z,0,Defense
+"Put nuclear reactors in space within a few years, White House tells Pentagon",The push follows other Trump-administration efforts to expand nuclear power.,,https://www.defenseone.com/technology/2026/04/put-nuclear-reactors-space-within-few-years-white-house-tells-pentagon/412847/,https://www.defenseone.com/rss/all/,2026-04-14T22:12:22Z,0,Defense
+"Sony killing features for antenna, set-top box users of Bravia smart TVs in May",Some 2023 and 2024 models are also affected. ,https://cdn.arstechnica.net/wp-content/uploads/2026/04/125732_original_local_1200x1050_v3_converted-1152x648.jpg,https://arstechnica.com/gadgets/2026/04/sony-killing-features-for-antenna-set-top-box-users-of-bravia-smart-tvs-in-may/,https://arstechnica.com/feed/,2026-04-14T22:00:31Z,0,Tech
+Crypto-exchange Kraken extorted by hackers after insider breach,The Kraken cryptocurrency exchange announced that a cybercrime group is trying to extort the company by threatening to release videos showing internal systems that host client data. [...],,https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/,https://www.bleepingcomputer.com/feed/,2026-04-14T21:58:31Z,7,Cybersecurity
+Google's new Windows app is yet another way to access Gemini,"Google has introduced a new app for Windows desktops and, unsurprisingly, it puts AI front at center. If you aren&#39;t a big fan of Google&#39;s Gemini chatbot, then skip on past this download. For those of you who are heavy Gemini users, though, this could mean a simpler and more integrated experience on Windows machines. Once installed, you can pull up the app&#39;s search bar with the Alt + Space shortcut. Queries typed into this open-ended search box can hunt down information from the web like typical Google search, where AI Mode will be enabled for an extra layer of artificial intelligence for follow-up questions or a deeper dive down a rabbit hole. But the app isn&#39;t limited to web search. It can delve into your computer&#39;s files, other installed apps or Google Drive files to retrieve information. Screen sharing is also built into the app, which enables using Google Lens to conduct AI-powered searches on content displayed on your monitor. The app is rolling out globally today in English. Interestingly, this hasn&#39;t been gated to the most recent Windows 11, but it does require a machine running at least Windows 10.This article originally appeared on Engadget at https://www.engadget.com/apps/googles-new-windows-app-is-yet-another-way-to-access-gemini-214000564.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgoogle_windows_app_0566.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=3bf80c5970c7f50e65765e5e7d73082cc2b81d77,https://www.engadget.com/apps/googles-new-windows-app-is-yet-another-way-to-access-gemini-214000564.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T21:40:00Z,12,Tech
+NAACP sues xAI over data center pollution,"The NAACP is suing xAI and a subsidiary called MZX Tech for allegedly operating unpermitted methane gas turbines to power its Colossus 2 data center in South Memphis. The association is asking the federal district court of the Northern District of Mississippi to declare that the company has violated the Clean Air Act, force it to stop using its unpermitted turbines and assess financial penalties against xAI for violating federal law, among other requests.The lawsuit claims that xAI — the Elon Musk-founded AI startup now owned by SpaceX — is operating 27 gas turbines without an air permit to power Colossus 2, one of a growing number of data centers xAI has set up to train Grok, its AI assistant. Gas turbines expel pollution, hazardous chemicals and fine particulate matter that are linked to things like heart problems, respiratory diseases and even certain cancers, issues that are particularly concerning given Colossus 2&#39;s close proximity to people&#39;s homes. Operating these turbines without an air permit also violates the Clean Air Act, which requires sources of pollution to be permitted before being operated or constructed.The NAACP is represented in the lawsuit by the Southern Environmental Law Center and Earthjustice. Before filing today&#39;s lawsuit, the NAACP sent xAI a 60-day notice of intent to sue in compliance with the Clean Air Act. xAI&#39;s failure to respond to the notice is why the lawsuit is moving forward today.&#34;xAI&#39;s continued operation of these turbines without a permit and without adequate pollution controls is not only illegal, it&#39;s an insult to families living nearby who for months have expressed serious concerns about how air pollution from the company&#39;s personal power plant could impact their health and well-being,&#34; Ben Grillot, a Senior Attorney for the Southern Environmental Law Center, said. &#34;xAI must be held accountable for its reckless, unlawful actions — and that&#39;s exactly what this lawsuit aims to do.&#34;Besides the high cost of sourcing the components that train and run AI models, AI companies often have to generate power to run the data centers where all those components are being installed. Oracle is reportedly turning to gas generators like xAI. Google, Meta and Amazon, meanwhile, have all invested in or signed deals with nuclear energy providers to power their data center efforts. Building new energy sources for data centers is one of several price-lowering methods proposed by the Ratepayer Protection Pledge, an agreement several tech companies signed to try and prevent data centers from raising the cost of the average person&#39;s energy bill.Quickly building out new energy sources might help ease costs, but it doesn&#39;t account for the negative environmental impacts of having a new power plant in your neighborhood, something the Trump administration doesn&#39;t appear all too interested in addressing. In his latest AI framework proposal, President Donald Trump largely ignored the environmental impact of AI in favor of calling for the permitting process for things like on-site energy generators to be streamlined.This article originally appeared on Engadget at https://www.engadget.com/ai/naacp-sues-xai-over-data-center-pollution-213511352.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2Fe7a446a0-45a4-48d0-97f1-6c9f96f309ec&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=cb91c3ad23d8f8e47cb5cca49e8f2971a2b61a26,https://www.engadget.com/ai/naacp-sues-xai-over-data-center-pollution-213511352.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T21:35:11Z,10,Tech
+"AI datacenter startup Fluidstack in talks for $1B round at $18B valuation months after hitting $7.5B, says report",Fundraising is reportedly flowing for Fluidstack after it secured a $50 billion deal to build data centers for Anthropic.,,https://techcrunch.com/2026/04/14/ai-datacenter-startup-fluidstack-in-talks-for-1b-round-at-18b-valuation-months-after-hitting-7-5b-says-report/,https://techcrunch.com/feed/,2026-04-14T21:33:38Z,8,Tech
+The FCC just saved Netgear from its router ban for no obvious reason,"The United States&#39; foreign router ban didn&#39;t make a whole lot of sense, and today may not change that. The FCC has just granted Netgear a conditional approval to import its future consumer routers, cable modems, and cable gateways into the US through October 1st, 2027 - even though the company builds those devices in […]",,https://www.theverge.com/tech/911888/netgear-router-ban-conditional-approval,https://www.theverge.com/rss/index.xml,2026-04-14T20:57:07Z,1,Tech
+Over 100 Chrome extensions in Web Store target users accounts and data,"More than 100 malicious extensions in the official Chrome Web Store are attempting to steal Google OAuth2 Bearer tokens, deploy backdoors, and carry out ad fraud. [...]",,https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/,https://www.bleepingcomputer.com/feed/,2026-04-14T20:33:00Z,1,Cybersecurity
+Americans ask AI for health care. Hospitals think the answer is more chatbots.,Do you trust AI chatbots for health advice? What about one in your patient portal?,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2245570667-1152x648.jpg,https://arstechnica.com/health/2026/04/americans-ask-ai-for-health-care-hospitals-think-the-answer-is-more-chatbots/,https://arstechnica.com/feed/,2026-04-14T20:30:20Z,5,Tech
+4 questions to ask before outsourcing MDR,"
+		
+					  
+						
+
+
+
+
+Security teams are stretched thin. Alerts never stop, attackers move faster, and expectations for uptime and resilience keep rising. For many IT and security leaders, Managed Detection and Response (MDR) has become less of a “nice to have” and more of a practical way to stay ahead.
+
+
+
+But outsourcing MDR is not just about handing alerts to someone else. The real question is whether MDR helps you build cyber resilience, the ability to detect threats quickly, contain impact, and keep the business running.
+
+
+
+Here are four questions to ask when deciding whether MDR belongs in your security strategy.
+
+
+
+1. Do you have the coverage to detect threats 24/7?
+
+
+
+Most attacks do not happen conveniently during business hours. They start late at night, on weekends, or during holidays when teams are understaffed or offline. If alerts sit unreviewed for hours, attackers gain time to escalate privileges, move laterally, and cause damage.
+
+
+
+MDR closes this gap by providing continuous monitoring across endpoints, identities, and cloud environments. Instead of relying on best‑effort internal coverage, MDR ensures threats are reviewed and acted on around the clock.
+
+
+
+This is a foundational part of cyber resilience. Faster detection means less dwell time, fewer affected systems, and easier recovery. Without 24/7 coverage, resilience becomes reactive rather than intentional.
+
+
+
+2. Can your team separate real threats from noise?
+
+
+
+Alert fatigue is one of the biggest barriers to effective security. Tools generate volumes of signals, but not all alerts represent real risk. When everything looks critical, teams either burn out or miss the alerts that matter most.
+
+
+
+MDR helps by applying human expertise and threat intelligence to validate alerts, investigate behavior, and confirm whether activity is truly malicious. Instead of chasing every signal, your team receives clear guidance on what needs action and why.
+
+
+
+Adlumin MDR™ supports this by correlating identity, endpoint, and network activity, then prioritizing threats based on real attacker behavior. The result is fewer distractions and faster, more confident response.
+
+
+
+From a resilience perspective, this matters because a delayed or incorrect response often causes more disruption than the attack itself.
+
+
+
+3. When an attack happens, can you contain it quickly?
+
+
+
+Detection alone does not equal resilience. The difference between a security incident and a business‑level disruption often comes down to how quickly you can contain the threat.
+
+
+
+Effective MDR does more than raise alerts. It helps security teams take action, isolating compromised systems, stopping malicious processes, and preventing spread before attackers reach critical assets.
+
+
+
+For organizations without a full in-house SOC, MDR provides response capabilities that would otherwise require significant staffing investment. For MSPs, it enables consistent containment across many client environments without scaling headcount linearly.
+
+
+
+When MDR is integrated with endpoint and identity controls, response becomes faster and more coordinated. This is a key step in minimizing attack impact and maintaining business continuity.
+
+
+
+4. Does MDR fit into a broader cyber resilience strategy?
+
+
+
+MDR is most effective when it is part of a before‑during‑after approach to cyber resilience.
+
+
+
+
+Before an attack, reduce exposure with patching, configuration management, and least‑privilege access. Tools like N-central RMM™ help automate these fundamentals.
+
+
+
+During an attack, MDR detects and contains malicious activity in real time, reducing blast radius.
+
+
+
+After an attack, fast recovery determines whether operations resume quickly or stall. Cove Data Protection™ supports resilience with cloud‑first, immutable backups and rapid restore options.
+
+
+
+
+MDR plays a critical role in the “during” phase, but its value increases when it is connected to prevention and recovery. Resilience is not about any single control. It is about how well your controls work together under pressure.
+
+
+
+Outsourcing MDR is about resilience, not just resources
+
+
+
+The decision to outsource MDR is rarely about replacing your security team. It is about extending capabilities, improving response speed, and reducing the operational risk that comes from limited coverage and alert overload.
+
+
+
+If your team struggles with 24/7 monitoring, alert validation, or rapid containment, MDR can be a practical way to strengthen resilience without adding complexity or headcount.
+
+
+
+Cyber resilience depends on how quickly you can detect, respond, and recover. MDR helps close those gaps so attacks stay contained and the business keeps moving.
+
+
+
+Check out the new 2026 State of the SOC Report and get insights based on real-world alerts from the Adlumin MDR SOC.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158673-0-30118300-1776198055-shutterstock_2094512128.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158673/4-questions-to-ask-before-outsourcing-mdr.html,https://www.csoonline.com/feed/,2026-04-14T20:20:45Z,15,Cybersecurity
+5 trends defining the future of AI-powered cybersecurity,"
+		
+					  
+						
+
+
+
+
+The new N-able and Futurum Report reveals how AI is reshaping cyber resilience as it accelerates both business innovation and adversarial tradecraft. Attackers are scaling their operations with unprecedented speed, leveraging automation to bypass traditional defenses. For IT security leaders and MSP owners, the days of relying on static, perimeter-based security are over.
+
+
+
+To stay ahead, we must look beyond simply keeping attackers out. The future belongs to those who prioritize continuous cyber resilience—the ability to withstand, adapt to, and recover from threats in real-time.
+
+
+
+Here is where the industry is heading and how AI-powered platforms are redefining defense strategies for the next 3–5 years.
+
+
+
+1. AI is both the weapon and the shield
+
+
+
+We are entering an era of AI-versus-AI warfare. Threat actors are already using generative AI to craft sophisticated phishing campaigns, automate vulnerability scanning, and execute attacks at machine speed.
+
+
+
+However, AI is also our most powerful ally. Modern defense isn’t about human analysts staring at screens; it’s about leveraging AI for rapid detection, automated triage, and predictive insights. By processing vast amounts of telemetry data, AI can identify subtle anomalies that human teams might miss, allowing for preemptive neutralization of threats before they cause damage.
+
+
+
+See how AI is altering the landscape in the new N-able and Futurum report, Cybersecurity in the Age of AI: Moving from Fragile to Resilient. Get key insights on building a modern framework for business resilience.
+
+
+
+2. From perimeter security to continuous cyber resilience
+
+
+
+The “castle and moat” approach is obsolete. In a world of hybrid work and distributed cloud environments, the perimeter has dissolved. The new standard is continuous cyber resilience.
+
+
+
+This shift moves the goalposts from “prevention” to “continuity.” It focuses on always-on monitoring, continuous validation of security postures, and real-time response capabilities. The objective is to ensure that even when a breach attempts to occur, the business keeps running. This requires a mindset shift: resilience is not a product you buy, but a state of operation you maintain.
+
+
+
+3. Platform-based security is the new norm
+
+
+
+Managing dozens of disparate point solutions is a logistical nightmare that introduces security gaps. The industry is rapidly consolidating toward integrated platforms that offer a unified view of the threat landscape.
+
+
+
+For MSPs and enterprise IT leaders, platform-based security offers streamlined operations and better data correlation. By unifying endpoint management, threat detection, and backup solutions, organizations can reduce complexity and improve their mean time to response (MTTR).
+
+
+
+4. Human-centric security operations
+
+
+
+Despite the rise of AI, the human element remains critical—but the role is changing. We are moving toward human-centric security operations where AI handles the low-value, repetitive work, freeing up analysts to focus on high-impact strategic decisions.
+
+
+
+Automation is the key to alleviating burnout. By automating alert triage and routine remediation tasks, we can improve the analyst experience and ensure that human expertise is applied where it matters most: complex threat hunting and strategic resilience planning.
+
+
+
+Explore the benefits of integrating AI into your cybersecurity strategy and learn how it revolutionizes your security operations across crucial threat detection and response stages.
+
+
+
+5. Regulation, reporting, and resilience mandates
+
+
+
+Regulatory pressure is mounting. Governments, insurers, and customers are no longer satisfied with improved security promises; they demand demonstrable resilience.
+
+
+
+Expect to see stricter mandates around incident reporting timelines and resilience metrics. Organizations will need to prove not just that they are secure, but that they can recover quickly and effectively from disruptions. This transparency will become a competitive differentiator in the market.
+
+
+
+Compliance is not just about checking boxes. Our solutions, like Adlumin MDR, offer enhanced compliance support with one-touch reporting.
+
+
+
+Preparing your organization for the future
+
+
+
+The next few years will separate the reactive from the resilient. To future-proof your defense, consider these actionable steps:
+
+
+
+
+Assess platform readiness: Evaluate whether your current toolset supports integration and automation or if it creates silos.
+
+
+
+Invest in automation: Look for opportunities to automate routine tasks and free up your team for strategic work.
+
+
+
+Build resilience metrics: Move beyond simple uptime stats. Measure your ability to recover and adapt to new threats.
+
+
+
+Align teams: Ensure that IT and security teams are working in lockstep, supported by a unified platform vision.
+
+
+
+
+The N-able vision for AI-powered resilience
+
+
+
+At N-able, we are committed to fueling your IT success by staying ahead of the curve. We see a future where our platform evolves continuously, leveraging AI not just to detect threats, but to anticipate them.
+
+
+
+Our vision is to provide partners and customers with an ecosystem that supports continuous threat hunting, intelligent automation, and seamless recovery. As the threat landscape evolves, so do we—ensuring you have the foundation needed to secure your clients effectively.
+
+
+
+The right partner makes all the difference. To learn more, visit us here.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158679-0-68828500-1776197860-shutterstock_2545849245.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158679/5-trends-defining-the-future-of-ai-powered-cybersecurity.html,https://www.csoonline.com/feed/,2026-04-14T20:17:29Z,24,Cybersecurity
+What to expect from Google I/O 2026,"We&#39;re sliding into developer conference season and one of the biggest events on the upcoming calendar is Google I/O. This year&#39;s edition is taking place on May 19 and 20. As usual, the in-person element will happen in Mountain View, California, though many of the keynotes and sessions will be livestreamed. Google will surely make its biggest announcements during the opening keynote, which will start at 1PM ET on May 19. A developer keynote will take place later the same day.As ever, the rumor mill will pick up speed in the leadup to Google I/O. We do have some ideas about what Google will discuss at the event. So let&#39;s take a look at what to expect at Google I/O 2026 (we&#39;ll update this story as we hear more credible rumors).What&#39;s officially on deckGoogle I/O logoGoogleWhen it confirmed the dates for this year&#39;s I/O, Google revealed a little bit about what it has in store for us. As you might imagine, AI will be a major focus of the event. Google plans to share its &#34;AI breakthroughs and updates in products across the company, from Gemini to Android, Chrome, Cloud and more,&#34; it wrote in a blog post in February. There will be news on Gemini model updates as well as agentic coding. Google will have some product demos too.The company has released its initial schedule of keynotes and sessions, but it doesn&#39;t provide us with a lot of specifics as yet. It has lined up discussions on what&#39;s new in the likes of Google Play, Firebase (a mobile and web app development platform), the Gemma open model family and the open-source app development framework Flutter. Interestingly, there isn&#39;t a dedicated session for Android XR on the schedule just yet.What to expectLeaked image of Google&#39;s Aluminium OS9to5GoogleThere haven&#39;t been many credible leaks ahead of Google I/O as yet, but we can make some educated guesses about what to expect from the event. It&#39;s all but certain that we&#39;ll get more details about Android 17 at I/O. Developers need time to tweak their apps ahead of the next major version of the operating system rolling out to everyone if they want to take advantage of new features as soon as possible, and they invariably get a heads up about those at I/O every year. (That said, Google has been moving away from a big annual release approach in favor of juicier Pixel Drops/Android updates, so we may not see some of the new features it unveils at I/O for some time.)As for other operating systems, Google is planning to meld ChromeOS and Android into a unified platform. This seems to be the project that&#39;s being referred to as Aluminium OS, which we got a first glimpse of earlier this year thanks to some leaks. I/O seems like the perfect venue for Google to start showing that off to the public.On the AI front, a reveal of Gemini 4 could be on the docket, along with details of the latest Veo text-to-video model. Maybe we’ll hear more about Project Astra, Google’s pitch for a universal AI assistant.If Google has some consumer hardware to show off at this year&#39;s event, I suspect it&#39;ll be an Android XR device or devices, rather than a Pixel phone or watch. There is a chance that we&#39;ll get a tease of the Google Pixel 11 lineup. But don&#39;t be surprised if we don&#39;t see that or the Pixel Watch 5 until Google&#39;s dedicated hardware event, which has taken place in August or October in recent years (Google will want to stay well away from Apple&#39;s iPhone event, which will likely take place in September as usual). Here’s hoping for a big surprise or twoGoogleSure, Android updates are all well and good. If Google insists on cramming Gemini and other AI tools into all of its tools and services, we’ll at least listen to what they have to say about all that.But I have my fingers crossed for some cool surprises. Give us something new from Google X (Alphabet’s moonshot factory, not the thing that was once Twitter), an idea that could be a net benefit for humanity and boost the company’s bottom line at the same time. These events are always more fun when there’s something for us to get genuinely excited about, even if it’s something relatively niche but out there, like the Google Beam 3D video conferencing tech. This article originally appeared on Engadget at https://www.engadget.com/ai/what-to-expect-from-google-io-2026-200252914.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2Fbec194ee-530b-4a6c-9d55-92cf9886544f&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=0346083773b39e8962c7e7d8527a23cddb3394a4,https://www.engadget.com/ai/what-to-expect-from-google-io-2026-200252914.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T20:02:52Z,20,Tech
+"In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model—and Strategy","OpenAI says its safeguards “suﬃciently reduce cyber risk&#34; for now, while GPT-5.4-Cyber is a new cybersecurity-focused model.",,https://www.wired.com/story/in-the-wake-of-anthropics-mythos-openai-has-a-new-cybersecurity-model-and-strategy/,https://www.wired.com/feed/category/security/latest/rss,2026-04-14T20:00:17Z,3,Cybersecurity
+"Two-year-old Surface PCs get $300 price hikes as sub-$1,000 models go away",&#34;Paying more for the same stuff&#34; is the story of consumer technology in 2026.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/IMG_1971-1152x648.jpeg,https://arstechnica.com/gadgets/2026/04/two-year-old-surface-pcs-get-300-price-hikes-as-sub-1000-models-go-away/,https://arstechnica.com/feed/,2026-04-14T19:58:52Z,0,Tech
+"Amazon to merge with Globalstar, become iPhone's primary satellite provider",Amazon announces $11.6B merger with Globalstar and satellite deal with Apple.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/amazon-leo-phone-1152x648-1776193826.jpg,https://arstechnica.com/tech-policy/2026/04/amazon-to-merge-with-globalstar-become-iphones-primary-satellite-provider/,https://arstechnica.com/feed/,2026-04-14T19:50:16Z,1,Tech
+League of Legends' new WASD control scheme will be enabled for ranked later this month,"Riot Games released a pile of updates for its long-running MOBA League of Legends. One of the more noteworthy changes coming to the game is the official launch of WASD controls. This alternate option, allowing players to traverse the rift by keyboard rather than by mouse, is rolling out to ranked matches in patch 26.9. Riot first announced that it was pursuing support for WASD controls last August. The studio said it wanted to ensure that the alternate control scheme wasn&#39;t more powerful than point-and-click movement; Riot said it was targeting a low win-loss rate difference between the options before releasing it to League players. &#34;There&#39;s still a small delta in the win-rates between the control schemes, with Point and Click having a minor advantage,&#34; according to today&#39;s devlog dedicated to this new feature. &#34;We expect that difference will decrease over time as players gain more mastery with WASD, but we will continue to monitor this stat in the future.&#34; That blog post goes into more detail about how the team tested and gauged community responses to WASD, which is pretty neat stuff if you&#39;re a game dev nerd. League will be receiving a few new accessibility improvements, such as custom inputs for moving the mouse cursor and some new flexibility for keybinds, along with the new control scheme. Although Riot was clear to say that it&#39;s not adding official support for controllers or gamepads, players will be able to use WASD controls with a joystick.This article originally appeared on Engadget at https://www.engadget.com/gaming/league-of-legends-new-wasd-control-scheme-will-be-enabled-for-ranked-later-this-month-193858052.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fleague_of_legends_shyvana_8627.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=07ae7a9c01fce3e535a0eb6ed9d32a37ec3ea496,https://www.engadget.com/gaming/league-of-legends-new-wasd-control-scheme-will-be-enabled-for-ranked-later-this-month-193858052.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T19:38:58Z,8,Tech
+Dozens of 4K Blu-rays are included in Amazon’s three for $33 sale,"Amazon has switched on its semi-regular three for $33 sale for a large batch of 4K Blu-ray movies. As usual, there are too many to list individually, though it’s a comprehensive mix of old and new flicks that should keep physical media fans scrolling for a minute. The steps to get in on the deal […]",,https://www.theverge.com/gadgets/911806/4k-bluray-movie-three-for-33-amazon-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-14T19:37:16Z,0,Tech
+UK gov's Mythos AI tests help separate cybersecurity threat from hype,New model is the first AI system to complete a difficult multi-step infiltration challenge.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2270583709-1024x648.jpg,https://arstechnica.com/ai/2026/04/uk-govs-mythos-ai-tests-help-separate-cybersecurity-threat-from-hype/,https://arstechnica.com/feed/,2026-04-14T19:11:25Z,5,Tech
+"Threat of Russia’s space nuclear weapon ‘forced us to prepare,’ Space Command head says","The weapon was the focus of SPACECOM’s wargame, which included dozens of companies.",,https://www.defenseone.com/threats/2026/04/threat-russias-space-nuclear-weapon-forced-us-prepare-space-command-head-says/412836/,https://www.defenseone.com/rss/all/,2026-04-14T18:58:45Z,0,Defense
+Telegram Is Still Hosting a Sanctioned $21 Billion Crypto Scammer Black Market,The UK designated Xinbi Guarantee as an enabler of crypto scammers and human trafficking weeks ago. Telegram is still hosting it in plain sight.,,https://www.wired.com/story/telegram-is-still-hosting-a-sanctioned-21-billion-crypto-scammer-black-market/,https://www.wired.com/feed/category/security/latest/rss,2026-04-14T18:56:08Z,0,Cybersecurity
+Someone planted backdoors in dozens of WordPress plugins used in thousands of websites,Dozens of WordPress plugins were allegedly hijacked to push malware after they were sold to a new corporate owner.,,https://techcrunch.com/2026/04/14/someone-planted-backdoors-in-dozens-of-wordpress-plugins-used-in-thousands-of-websites/,https://techcrunch.com/feed/,2026-04-14T18:31:34Z,0,Tech
+Prime Video is bundling Apple TV Plus and Peacock for a limited time,"Amazon is offering Prime Video subscribers a way to get Apple TV Plus and Peacock Premium Plus at a discount. With a new bundle, subscribers can access all content from both services directly through Prime Video. The bundle includes both streaming services for $19.99 per month, as opposed to the total $29.98 per month it […]",,https://www.theverge.com/streaming/911793/amazon-prime-video-apple-tv-plus-peacock-bundle,https://www.theverge.com/rss/index.xml,2026-04-14T18:31:12Z,1,Tech
+Privacy advocates want Google to stop handing consumer data over to ICE,"The Electronic Frontier Foundation (EFF) is asking the attorneys general of California and New York to investigate Google for deceptive trade practices, saying the tech giant fails to notify users before handing over their data to law enforcement agencies like ICE. &#34;For nearly a decade, Google has promised billions of users that it will notify […]",,https://www.theverge.com/news/911789/eff-google-giving-data-ice-california-new-york,https://www.theverge.com/rss/index.xml,2026-04-14T18:20:00Z,5,Tech
+Microsoft raises prices on Surface PCs due to skyrocketing RAM costs,"The RAMpocalypse continues. Microsoft just revealed significant price increases across the entire Surface line of products, according to reporting by Windows Central. The updated pricing has already hit the official Microsoft Store, with other retailers expected to follow suit in the near future.
+These are fairly significant upticks. For instance, the base model 15-inch Surface Laptop 7 now starts at $1,600. It cost $1,300 when the laptop was first released back in 2024. It did receive a price increase last year to $1,500, so today&#39;s increase tacks on another $100.
+The cost balloons even further when upgrading components, as a top-end Laptop 7 with a Snapdragon X Elite, 64GB of RAM and 1TB of SSD storage now costs a whopping $3650. As a comparison, a 16-inch MacBook Pro with an M5 Pro, 64GB of RAM and a 1TB SSD comes in at $3,300, and the M5 Pro blasts the Snapdragon X Elite out of the water.
+Microsoft
+This trend continues with the Surface Pro line of hybrid computers. The 12-inch Surface Pro starts at $1,050, after launching at just $800. The flagship 13-inch Surface Pro cost $1,000 in 2024 and now starts at $1,500. That&#39;s a $500 increase in just two years, though the base hard drive did get a bit bigger.
+These price increases are, of course, being blamed on generative AI&#39;s penchant for eating up RAM and related components. &#34;Due to recent increases in memory and component costs, Surface is updating pricing on Microsoft.com for its current‑generation hardware portfolio,&#34; Microsoft wrote in a statement.
+Industry reports have also indicated that the company is currently readying refreshes across the Surface line. It&#39;s highly likely these new prices will stay in place if component prices don&#39;t decrease.
+Motorola slapped sudden price increases on the Moto G series right after its new model went live https://t.co/00DzRHXK0f by @chaosromero— 9to5Google (@9to5Google) April 8, 2026
+ 
+
+
+These aren&#39;t the first devices that have shot up in price due to AI. Motorola recently instituted increases that even impacted its budget-friendly phones. Samsung has also pushed up the cost for its Galaxy Z Fold 7.
+The PS5 is now much more expensive when compared to the 2020 launch price, though Sony didn&#39;t explicitly blame these increases on RAM, but rather &#34;continued pressures in the global economic landscape.&#34; There are also rumors that the continued RAM shortage has made it difficult for Valve to manufacture the Steam Deck and likely pushed back the release of the Steam Machine to 2027. 
+VDURA hikes its enterprise SSD pricing, now costs 22.6x more than hard drives — the price of a 30TB SSD has climbed 472% https://t.co/iDOZYMtQbB— Tom&#39;s Hardware (@tomshardware) April 10, 2026
+ 
+
+
+SSDs have also shot up in price, with old-school HDDs not far behind. It&#39;s getting thorny out there. This article originally appeared on Engadget at https://www.engadget.com/ai/microsoft-raises-prices-on-surface-pcs-due-to-skyrocketing-ram-costs-181648588.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F9745d720-3828-11f1-afff-1b607260a53d&resize=1400%2C835&client=19f2b5e49a271b2bde77&signature=e0bce9e40a98557ac81e29bdaddc8366f1d14056,https://www.engadget.com/ai/microsoft-raises-prices-on-surface-pcs-due-to-skyrocketing-ram-costs-181648588.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T18:16:48Z,12,Tech
+Microsoft Patches Exploited SharePoint Zero-Day and 160 Other Vulnerabilities,"Experts say this is the second-largest Microsoft Patch Tuesday ever based on CVE count.
+The post Microsoft Patches Exploited SharePoint Zero-Day and 160 Other Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/,https://www.securityweek.com/feed/,2026-04-14T18:14:37Z,10,Cybersecurity
+Microsoft releases Windows 10 KB5082200 extended security update,"Microsoft has released the Windows 10 KB5082200 extended security update to fix the April 2026 Patch Tuesday vulnerabilities, including 2 zero-days. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/,https://www.bleepingcomputer.com/feed/,2026-04-14T18:09:39Z,7,Cybersecurity
+Anthropic co-founder confirms the company briefed the Trump administration on Mythos,"The AI giant&#39;s co-founder confirms that Anthropic briefed the Trump administration on its latest model, Mythos, which it claims has powerful cybersecurity capabilities.",,https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/,https://techcrunch.com/feed/,2026-04-14T18:09:12Z,5,Tech
+McGraw-Hill confirms data breach following extortion threat,Education company McGraw-Hill has confirmed in a statement to BleepingComputer that hackers exploited a Salesforce misconfiguration and accessed its internal data. [...],,https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/,https://www.bleepingcomputer.com/feed/,2026-04-14T18:07:07Z,10,Cybersecurity
+The attacks on Sam Altman are a warning for the AI world,"Before allegedly throwing a Molotov cocktail at OpenAI CEO Sam Altman&#39;s home, the 20-year-old accused attacker wrote about his fear that the AI race would cause humans to go extinct, The San Francisco Chronicle found. Two days later, Altman&#39;s home appeared to be targeted a second time, according to The San Francisco Standard. Only a […]",,https://www.theverge.com/ai-artificial-intelligence/911778/ai-violence-sam-altman-home,https://www.theverge.com/rss/index.xml,2026-04-14T18:04:42Z,6,Tech
+London gets closer to its first robotaxi service as Waymo begins testing,Waymo&#39;s commercial service will eventually follow testing if the UK government approves. ,,https://techcrunch.com/2026/04/14/london-gets-closer-to-its-first-robotaxi-service-as-waymo-begins-testing/,https://techcrunch.com/feed/,2026-04-14T18:00:09Z,1,Tech
+Elon Musk grilled by senator over X Money plans,"Elon Musk is facing questions about his upcoming payments platform, X Money, and whether it will allow users to safely perform transactions. In a letter to Musk on Tuesday, Sen. Elizabeth Warren (D-MA) writes that X Money could pose a risk to &#34;consumers, our national security, and the stability of the financial system,&#34; citing Musk&#39;s […]",,https://www.theverge.com/policy/911702/elon-musk-x-money-senator-warren,https://www.theverge.com/rss/index.xml,2026-04-14T18:00:00Z,0,Tech
+Windows 11 cumulative updates KB5083769 & KB5082052 released,"Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",,https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/,https://www.bleepingcomputer.com/feed/,2026-04-14T17:46:31Z,1,Cybersecurity
+"Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days","Today is Microsoft&#39;s April 2026 Patch Tuesday with security updates for 167 flaws, including 2 zero-day vulnerabilities. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/,https://www.bleepingcomputer.com/feed/,2026-04-14T17:41:13Z,7,Cybersecurity
+You can grab LG’s B5 OLED TV for over 50 percent off right now,"​​If you’re looking to get OLED picture quality without spending a couple thousand dollars, LG’s 48-inch B5 OLED TV is on sale for $599.99 ($700 off) at Best Buy, which is one of the best prices we’ve seen on the budget-friendly TV. You can also buy the 55-inch model from Amazon, Best Buy, and LG […]",,https://www.theverge.com/gadgets/911719/lg-b5-oled-tv-48-55-inch-best-buy-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-14T17:38:23Z,0,Tech
+Leaked images reveal a dual-lens pro version of DJI’s next Osmo Pocket camera,"Reliable leaker Igor Bogdanov shared an image on X yesterday of an unseen person holding two versions of a handheld stabilized camera, including one that&#39;s rumored to be a pro version of the DJI Osmo Pocket 4. The company is expected to announce the latest version of its baby steadicam on April 16th following months […]",,https://www.theverge.com/tech/911674/dji-osmo-pocket-4-pro-leak-rumor-dual-camera,https://www.theverge.com/rss/index.xml,2026-04-14T17:26:22Z,0,Tech
+YouTube livestreams will now hold back ads during peak engagement to protect the vibe,"Until now, the only way to avoid seeing ads was by paying for a YouTube Premium subscription. ",,https://techcrunch.com/2026/04/14/youtube-livestreams-will-now-hold-back-ads-during-peak-engagement-to-protect-the-vibe/,https://techcrunch.com/feed/,2026-04-14T17:18:20Z,0,Tech
+Max Hodak’s Science Corp. is preparing to place its first sensor in a human brain,Human trials on the hybrid sensor are expected to begin in the years ahead.,,https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/,https://techcrunch.com/feed/,2026-04-14T17:13:03Z,5,Tech
+Google&#8217;s Spotlight-like desktop search bar for Windows is available for everyone,"Last year, Google announced that it was testing a Google desktop app for Windows that resembles macOS&#39;s Spotlight feature, and now the app is available globally in English. You can download the app from Google&#39;s website, and it works with PCs with Windows 10 or newer. By pressing the Alt + Space shortcut, you can […]",,https://www.theverge.com/tech/911741/google-windows-app-launch,https://www.theverge.com/rss/index.xml,2026-04-14T17:12:03Z,6,Tech
+"Google introduces ""Skills"" in Chrome to make Gemini prompts instantly reusable",You can save custom prompts you find useful or grab a premade Skill from Google&#39;s library.,https://cdn.arstechnica.net/wp-content/uploads/2026/02/google-automate-windups-1152x648.jpg,https://arstechnica.com/google/2026/04/google-introduces-skills-in-chrome-to-make-gemini-prompts-instantly-reusable/,https://arstechnica.com/feed/,2026-04-14T17:00:37Z,0,Tech
+Chrome Skills let you save your favorite Gemini prompts for easy access,"Gemini in Chrome is about to get a small but handy upgrade. Starting today, Google is rolling out a feature it calls Skills to Chrome on desktop. Skills allow you to save your favorite Gemini in Chrome prompts for quick access, thereby making it easier and faster to repeat certain tasks. For instance, Google suggests you could use one saved prompt to get Gemini to calculate how much protein there could be in a new recipe you found online. Another Skill can make it easier to do a side-by-side spec comparison of a few different products you&#39;re looking at across multiple tabs.       You can save prompts you want to use again directly from Gemini in Chrome&#39;s chat history. To use a saved prompt, type forward slash or click the plus button and select the Skill you want to use. To help people get started, Google is providing a set of ready-to-go prompts you can use to save time on common workflows or as a jumping off point for your own Skills. Skills you save are available on any version of Chrome for desktop where you&#39;re signed into your account, though for the time being, Google is only rolling out the feature to people who have their browser language set to US English. Gemini in Chrome, like its other AI tools, has become a major area of focus for Google in recent months.  At the start of the year, the company rolled out an update that saw the addition of a dedicated Gemini sidebar to Chrome and access to Nano Banana image generation directly from said sidebar. More recently, Google began rolling out Gemini in Chrome to users in Canada, India and New Zealand. As the high-stakes AI race countinues to heat up, expect more features in that vein, though we may still get more traditional enhancements — like vertical tabs — from time to time. This article originally appeared on Engadget at https://www.engadget.com/ai/chrome-skills-let-you-save-your-favorite-gemini-prompts-for-easy-access-170000683.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fchrome_skills_asset_5_library_3028.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=a7cf2b355dabd9501229c606ef87d08ad335b91e,https://www.engadget.com/ai/chrome-skills-let-you-save-your-favorite-gemini-prompts-for-easy-access-170000683.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T17:00:00Z,8,Tech
+Chrome now lets you turn AI prompts into repeatable &#8216;Skills&#8217;,"Google is launching a new Chrome workflow feature that allows you to reuse your favorite Gemini commands across multiple webpages. Any AI prompts can now be saved as &#34;Skills&#34; in the Chrome desktop browser, letting you instantly run them across any tabs you select. &#34;Until now, repeating an AI task - like asking for ingredient […]",,https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch,https://www.theverge.com/rss/index.xml,2026-04-14T17:00:00Z,5,Tech
+Google adds AI Skills to Chrome to help you save favorite workflows,"Google is adding “Skills” to Chrome, letting users save and reuse AI prompts across websites. The feature builds on Gemini’s browser integration.",,https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/,https://techcrunch.com/feed/,2026-04-14T17:00:00Z,5,Tech
+Physicists think they've resolved the proton size puzzle,&#34;We believe this is the final nail in the coffin of the proton radius puzzle.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/04/protonTOP-1152x648.jpg,https://arstechnica.com/science/2026/04/physicists-think-theyve-resolved-the-proton-size-puzzle/,https://arstechnica.com/feed/,2026-04-14T16:52:34Z,5,Tech
+Sony Inzone's latest monitor boasts a blazing 720Hz panel for competitive gamers,"Super fast gaming displays have grown in popularity recently following the release of several new models back at CES. Now Sony is hopping on that bandwagon with its latest display featuring a tandem OLED panel from LG that offers the choice of either 540Hz or 720Hz refresh rates. That said, priced at $1,100, the new 24.5-inch Sony Inzone M10S II is only for the most dedicated and deep-pocketed gamers. In normal use, the monitor offers a 540Hz refresh rate at QHD (2,560 x 1,440). However, in competitive situations where that still might not be enough, the display can go even faster by reducing its resolution to 720p while boosting its refresh rate all the way up to 720Hz. On top of that, to help make visuals clearer, Sony added a new Motion Blur Reduction algorithm with Black Frame Insertion that boosts brightness while still delivering a response rate of just 0.02ms. Unfortunately, at $1,100, this thing is out of reach for most gamers. SonyElsewhere, a new Super Anti-Glare film helps reduce reflections. The company also used feedback from pro gamers to create a stand with a smaller footprint and a wider range of tilt adjustability (from -5 to 35 degrees). For those worried about the panel&#39;s long-term performance, the Inzone M10S II comes with a three-year warranty and OLED protection features like a custom heat sink.The new Inzone H6 Air are based on Sony&#39;s MDR-MV1 studio monitor headphones while costing half the price. SonyAside from its new monitor, Sony is also releasing a pair of open-back wired headphones in the Inzone H6 Air. Priced at $200, they are based on the company&#39;s well-known studio monitor headphones — the MDR-MV1 — but with some additional tweaks for gaming. Not only is it really light at just 199 grams (not including its detachable cable and boom mic), it also features a dedicated RPG/Adventure profile designed to improve clarity and environmental details. The one caveat is that to access this mode, you need to use Sony&#39;s USB-C Audio box, which offers additional features like virtual 7.1 surround sound and support for 360-degree spatial audio. Atomic Purple, I mean Glass Purple, is always a good look. SonyFinally, while they aren&#39;t brand new, Sony is releasing a translucent Glass Purple version of its Inzone wireless gaming earbuds that conjures up nostalgic memories of Nintendo’s Atomic Purple N64, along with Fnatic Editions of its Mouse-A, Mat-F and Mat-D peripherals.All of Sony&#39;s new gadgets are available today, aside from the Inzone M10S II monitor, which is due out sometime later this year. This article originally appeared on Engadget at https://www.engadget.com/gaming/pc/sony-inzones-latest-monitor-boasts-a-blazing-720hz-panel-for-competitive-gamers-165008263.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fpz_00_16-9_layered-mid_9262.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=3da0dc0821f9c552eb12565116bcf8e4d48c13bd,https://www.engadget.com/gaming/pc/sony-inzones-latest-monitor-boasts-a-blazing-720hz-panel-for-competitive-gamers-165008263.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T16:50:08Z,7,Tech
+Adobe Patches 55 Vulnerabilities Across 11 Products,"Critical ColdFusion vulnerabilities are the most at risk of being exploited in attacks, according to the software giant.
+The post Adobe Patches 55 Vulnerabilities Across 11 Products appeared first on SecurityWeek.
+",,https://www.securityweek.com/adobe-patches-55-vulnerabilities-across-11-products/,https://www.securityweek.com/feed/,2026-04-14T16:48:03Z,9,Cybersecurity
+How the rewards app Freecash scammed its way to the top of the app stores,Freecash was removed from Apple&#39;s App Store after TechCrunch reached out for comment.,,https://techcrunch.com/2026/04/14/how-the-rewards-app-freecash-scammed-its-way-to-the-top-of-the-app-stores/,https://techcrunch.com/feed/,2026-04-14T16:43:09Z,1,Tech
+Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto,A malicious Ledger Live app for macOS available from Apple&#39;s App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...],,https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/,https://www.bleepingcomputer.com/feed/,2026-04-14T16:37:01Z,0,Cybersecurity
+EU regulators largely denied access to Anthropic Mythos,"
+		
+					  
+						
+
+
+
+
+European regulators have largely been frozen out of early access to Anthropic’s new Mythos model, Politico reports. The AI technology, aimed at cybersecurity use cases, is said to be able to identify and exploit technical vulnerabilities at a level that surpasses most humans — signaling a structural shift for CISOs and the cybersecurity industry.
+
+
+
+For security reasons, Anthropic has chosen to initially limit access to a few selected players as part of Project Glasswing. These include primarily US technology giants such as Apple, Microsoft, and Amazon, who have been given the opportunity to analyze the model and address potential security flaws.
+
+
+
+At the same time, European authorities have been largely left out. In the UK, the country’s AI Security Institute has been allowed to test the model and has already acted on its results. Within the EU, only Germany is currently reported to have initiated a dialogue with Anthropic, but without yet gaining access to the technology.
+
+
+
+As a result, the EU’s influence over the model is limited, not least because it is not yet widely available. Several experts interviewed by Politico believe that this development is problematic, as private companies in practice decide how and when such powerful technology is shared, rather than independent authorities.
+
+
+
+Germany’s chief cybersecurity official Claudia Plattner underscored to Politico the “pressing” question of whether a tool like Mythos “of such extraordinary power” will be available on the open market.
+
+
+
+“That question, in turn, has profound implications for national and European security and sovereignty,” Plattner said.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158560-0-93909700-1776184038-shutterstock_2338803257.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158560/european-authorities-without-access-to-anthropics-ai-for-hacking.html,https://www.csoonline.com/feed/,2026-04-14T16:27:03Z,5,Cybersecurity
+"The world’s oldest art, now in 6K IMAX","The earliest paintings were made over 32,000 years ago - the very first forms of art and culture. They weren&#39;t discovered until 1994, when cave explorers in France stumbled into the Chauvet Cave. More than a decade later, filmmaker Werner Herzog was allowed rare access to the highly guarded prehistoric site to shoot what would […]",,https://www.theverge.com/entertainment/911678/werner-herzog-cave-forgotten-dreams-imax,https://www.theverge.com/rss/index.xml,2026-04-14T16:15:00Z,5,Tech
+"Rockets and spaceships are cool, but the humanity of Artemis II resonated most","&#34;It’s a special thing to be human, and it’s a special thing to be on planet Earth.&#34;
+",https://cdn.arstechnica.net/wp-content/uploads/2026/04/55193772547_1008756b4d_5k-1152x648-1776180946.jpg,https://arstechnica.com/space/2026/04/rockets-and-spaceships-are-cool-but-the-humanity-of-artemis-ii-resonated-most/,https://arstechnica.com/feed/,2026-04-14T16:10:17Z,0,Tech
+Financial risk management platform Pillar raises $20M seed in round led by a16z,"Pillar&#39;s investors include a16z, Uber CEO Dara Khosrowshahi, Crucible Capital and Gallery Ventures. ",,https://techcrunch.com/2026/04/14/financial-risk-management-platform-pillar-raises-20m-seed-in-round-led-by-a16z/,https://techcrunch.com/feed/,2026-04-14T16:05:00Z,5,Tech
+Sony’s latest gaming headset offers great open-back audio,"Sony&#39;s PC-focused InZone brand is covering a lot of ground, now adding open-back headsets to its growing catalog of gaming accessories. The $199.99 H6 Air borrows the comfortable, easy-to-adjust design of the flagship $350 H9 II wireless headset, makes it wired, and pokes a bunch of holes in the ear cups, resulting in an open-back […]",,https://www.theverge.com/tech/908132/sony-inzone-h6-air-open-back-gaming-headset-hands-on,https://www.theverge.com/rss/index.xml,2026-04-14T16:00:00Z,5,Tech
+Sony’s new 1440p OLED gaming monitor seems a lot better than its first,"The original InZone M10S OLED gaming monitor stood out for a mix of reasons when I reviewed it for Polygon back in late 2024 - some good (impressively small stand, high 480Hz refresh rate) and some bad (high price, low on features versus the competition). The company is launching its follow-up model, the InZone M10S […]",,https://www.theverge.com/news/907924/sony-inzone-m10s-ii-oled-tandem-gaming-monitor-specs-price-features,https://www.theverge.com/rss/index.xml,2026-04-14T16:00:00Z,1,Tech
+New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released,"Two high-severity security vulnerabilities have been disclosed in Composer, a package manager for PHP, that, if successfully exploited, could result in arbitrary command execution.
+The vulnerabilities have been described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below -
+
+CVE-2026-40176 (CVSS",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP-RqcuX8QuBEwVkchLNSjyIAqQEuFwy0prqQ1gGqxpBFESQLuCzgGB7-cjYhJrbLhbTk_j8G4NedN06plhhqLd_Rpd01mTh8XcOHjvQ_UuJqfjTROZeh40WlSN_7gzRL4yVKX-Aj0ui2gOxo9l70b3Dy5R6srKjne-gQXIhL7fNAHYZ7rDm6-yWl4-_JD/s1600/php-code.jpg,https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T15:57:00Z,5,Cybersecurity
+Microsoft rolls out fast-track to reinstate Windows hardware dev accounts,"Microsoft has rolled out a fast-track process to help developers regain access to accounts recently suspended from its Windows Hardware Program, following widespread complaints that they were locked out without warning. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fast-track-to-reinstate-windows-hardware-dev-accounts/,https://www.bleepingcomputer.com/feed/,2026-04-14T15:53:50Z,5,Cybersecurity
+Websites that hijack your back button must stop by June 15 or face Google's wrath,Google says it could penalize back button hijacking by demoting websites in search ranking. ,https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-green-terminal-1152x648.jpg,https://arstechnica.com/gadgets/2026/04/websites-that-hijack-your-back-button-must-stop-by-june-15-or-face-googles-wrath/,https://arstechnica.com/feed/,2026-04-14T15:48:41Z,0,Tech
+Circle K partners with IONNA to upgrade its EV charging experience,The OEM-backed charging network offers 400 kW NACS and CCS DC fast chargers.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/IONNA-86-edited-scaled-1-1152x648-1776179324.jpg,https://arstechnica.com/cars/2026/04/circle-k-partners-with-ionna-to-upgrade-its-ev-charging-experience/,https://arstechnica.com/feed/,2026-04-14T15:37:00Z,0,Tech
+"In just a couple weeks, StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together","The first StrictlyVC of the year will be coming to San Francisco before you know it.
+
+There are still a few tickets available to join us and our stacked speaker lineup April 30, so register today!",,https://techcrunch.com/2026/04/14/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/,https://techcrunch.com/feed/,2026-04-14T15:30:49Z,5,Tech
+DaVinci Resolve adds new photo editing tools to take on Lightroom and Photoshop,"Blackmagic Design announced an update to its powerful multipurpose post-production software today adding new tools and improved workflows for editing photos. In addition to helping position DaVinci Resolve 21 as an alternative to Adobe&#39;s Lightroom and Photoshop, the latest version also introduces new features to lure users away from Adobe Premiere including AI tools that […]",,https://www.theverge.com/tech/911635/blackmagic-design-davinci-resolve-21-photo-page-raw-support,https://www.theverge.com/rss/index.xml,2026-04-14T15:28:36Z,7,Tech
+The FCC Has a Fast Lane for Complaints About Trump’s Media Critics,Internal emails obtained by WIRED reveal how a conservative legal group with a direct line into FCC chairman Brendan Carr’s office built the case against Jimmy Kimmel and his employees.,,https://www.wired.com/story/the-fcc-has-a-fast-lane-for-complaints-about-trumps-media-critics/,https://www.wired.com/feed/category/security/latest/rss,2026-04-14T15:12:28Z,0,Cybersecurity
+Bose’s noise-crushing QC Ultra Earbuds are nearly 20 percent off right now,"When it comes to the best noise-canceling earbuds, the competition has gotten fierce. Apple, Sony, Samsung, and Google all offer excellent options, though, unsurprisingly, Bose still retains the noise-canceling crown with the latest QuietComfort Ultra Earbuds. Luckily, you can now grab the second-gen earbuds at Amazon and Best Buy for $249 ($50 off), which matches […]",,https://www.theverge.com/gadgets/911188/bose-quietcomfort-ultra-earbuds-2nd-gen-turtle-beach-stealth-pivot-deal-sale,https://www.theverge.com/rss/index.xml,2026-04-14T15:04:49Z,6,Tech
+Japan Moves to Institutionalize Drone Warfare as Manpower Shortfalls Deepen,"Two new GSDF offices signal a shift toward unmanned, AI-enabled operations amid demographic decline.",https://images.thediplomat.com/v1/td-list-l-2/2026/04/thediplomat_2026-04-14-234826.jpg,https://thediplomat.com/2026/04/japan-moves-to-institutionalize-drone-warfare-as-manpower-shortfalls-deepen/,https://thediplomat.com/category/asia-defense/feed/,2026-04-14T15:02:00Z,0,Defense
+"Samsung's new Micro RGB TVs start at $1,600 for a 55-inch model","Samsung just released its lineup of Micro RGB TVs for 2026, and it includes models that start at 55 inches and go up to 85 inches. These 4K sets feature the company&#39;s Micro RGB display technology, which uses thousands of little red, green and blue LEDs to minimize color bleed and enable &#34;expanded color with pinpoint accuracy.&#34;
+The display is assisted by a new AI processor that has been specifically designed to calibrate the picture to bring out all of that gorgeous color. The company says this results in &#34;stunningly sharp images with incredible detail.&#34; The processor also assists with motion smoothing, in addition to handling all of those smart TV apps.
+These displays support HDR10+ Advanced, which is an updated standard co-developed by Samsung. This ensures genre-based optimization and enhanced brightness, among other features.
+Samsung
+The TVs are split into two lines. The R95H is the beefier of the two, with access to Samsung&#39;s anti-glare technology and a 165Hz refresh rate. The R85H tops out at 144Hz. All models include Dolby Atmos sound and the ability to pair up to five Samsung sound devices via its Q-Symphony technology.
+They can also all access Samsung&#39;s Art Store, which is a platform that originally launched alongside the company&#39;s The Frame display. This lets subscribers choose from thousands of art pieces which will then be displayed on the screen when it&#39;s not being used to watch TV or play video games.
+The R95H line starts at $3,200 for a 65-inch model, going all the way up to $6,500 for an 85-inch display. Samsung promises a 100-inch version is coming later this year. The R85H line is cheaper, starting at $1,600 for the 55-inch release and shooting up to $4,000 for the 85-inch model. The TVs are available right now, directly from Samsung and from retailers like Best Buy.
+
+The company recently did manufacture an absolutely massive 130-inch Micro RGB display, which it brought to CES 2026. However, this was just a concept design. This article originally appeared on Engadget at https://www.engadget.com/home/home-theater/samsungs-new-micro-rgb-tvs-start-at-1600-for-a-55-inch-model-150023242.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F4c6be700-374f-11f1-b5cf-232f023e8452&resize=1400%2C919&client=19f2b5e49a271b2bde77&signature=18c4ff7f2e1801cde494cb68a256553054b70ded,https://www.engadget.com/home/home-theater/samsungs-new-micro-rgb-tvs-start-at-1600-for-a-55-inch-model-150023242.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T15:00:23Z,8,Tech
+Google brings its Gemini Personal Intelligence feature to India,The feature lets users connect Google accounts like Gmail and Photos to get personalized answers ,,https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/,https://techcrunch.com/feed/,2026-04-14T14:48:34Z,5,Tech
+Adobe fixes PDF zero-day security bug that hackers have exploited for months,"It&#39;s not clear how many people were compromised by this hacking campaign, but a security researcher said the hackers were targeting victims since at least November 2025.",,https://techcrunch.com/2026/04/14/adobe-fixes-pdf-zero-day-security-bug-that-hackers-have-exploited-for-months/,https://techcrunch.com/feed/,2026-04-14T14:35:16Z,5,Tech
+Tesla adds ‘streaks’ and other stats to track how often drivers use Full Self-Driving software,Tesla has also made it easy to subscribe to the advanced driver assistance system.,,https://techcrunch.com/2026/04/14/tesla-adds-streaks-and-other-stats-to-track-how-often-drivers-use-full-self-driving-software/,https://techcrunch.com/feed/,2026-04-14T14:33:50Z,1,Tech
+Google Search tackles sites that try to stop you from leaving when you hit the back button,"Websites that act like a super-chatty colleague who just won&#39;t shut up and let you go when a conversation should be over are among the most annoying things on the internet. Google is now doing something about that scourge.Picture the scene: you look up something on Google Search and — instead of relying on potentially hallucinating AI Overviews — you click through to an actual website for your information. But, when you try to leave the site by hitting the back button, your browser doesn’t immediately take you back to the previous webpage. Instead, the website first displays an &#34;oh, while you&#39;re here...&#34; page that suggests other content in which you may be interested in checking out or just a bunch of ads. This shady move that some traffic-hungry websites have adopted is called &#34;back button hijacking.&#34; No one in their right mind likes it, and nor does Google.Under a new policy that 9to5Google spotted, Google will treat back button hijacking as an &#34;explicit violation of the &#39;malicious practices&#39; of spam policies&#34; alongside the likes of malware. As such, it may punish websites that engage in such practices by treating them as spam and downranking them in search results.&#34;Back button hijacking interferes with the browser&#39;s functionality, breaks the expected user journey and results in user frustration,&#34; Chris Nelson, from the Google Search Quality team, wrote in the announcement. &#34;People report feeling manipulated and eventually less willing to visit unfamiliar sites. As we&#39;ve stated before, inserting deceptive or manipulative pages into a user&#39;s browser history has always been against our Google Search Essentials.&#34;Google says it has seen an increase in back button hijacking and it’s great that the company is taking steps to combat it. Developers and website operators have until June 15 to make sure they aren&#39;t interfering &#34;with a user&#39;s ability to navigate their browser history&#34; by engaging in the practice. Google will start enforcing this policy then. This article originally appeared on Engadget at https://www.engadget.com/general/google-search-tackles-sites-that-try-to-stop-you-from-leaving-when-you-hit-the-back-button-143302862.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-04%2Fb23f8d9f-ca27-4497-a88e-abfbca3c4c2f&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=bc5fa1a23752f49142fa8b165154191bbfe40984,https://www.engadget.com/general/google-search-tackles-sites-that-try-to-stop-you-from-leaving-when-you-hit-the-back-button-143302862.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T14:33:02Z,10,Tech
+AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud,"Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into Google&#39;s Discover feed and trick users into enabling persistent browser notifications that lead to scareware and financial scams.
+The campaign, which has been",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiON8Ew8R1EO7t3yoLoTFdM2hQsDW9AtBPPBcNuPup6ZmpGta3VyYlkhiqqRlW5CDWpnU_3IJ-EAbnV6nrfzJ4V3mdWIng75afS2TPvZOs-_MLc0a5lxiLwR5H-EWmi1C0ctYCBZSBNbF9CCGcdm7BrNaWunTp8QvBkmqJwq0Yvde9bQxbhooyIYaXRiebP/s1600/ad-fraud.jpg,https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T14:30:00Z,5,Cybersecurity
+Instacart acquires Instaleap to expand its enterprise platform internationally,The acquisition will allow the company to expand its business into international markets without needing to launch a delivery network in those regions. ,,https://techcrunch.com/2026/04/14/instacart-acquires-instaleap-to-expand-its-enterprise-platform-internationally/,https://techcrunch.com/feed/,2026-04-14T14:29:23Z,3,Tech
+How vibe coding app Anything is rebuilding after getting booted from the App Store twice,Anything is planning to launch a desktop companion app to aid mobile app development after its App Store removal. ,,https://techcrunch.com/2026/04/14/how-vibe-coding-app-anything-is-rebuilding-after-getting-booted-from-the-app-store-twice/,https://techcrunch.com/feed/,2026-04-14T14:22:44Z,6,Tech
+"Lucid sells more robotaxis to Uber, appoints a new CEO","Lucid is making some changes. The luxury EV company said Tuesday that it was expanding its robotaxi deal with Uber - and nabbing some additional investment cash in the process. And it&#39;s naming a new CEO who hails not from the world of electric vehicles, but from a company that manufactures a different kind of […]",,https://www.theverge.com/transportation/911628/lucid-uber-robotaxi-nuro-ceo-saudi-arabia,https://www.theverge.com/rss/index.xml,2026-04-14T14:17:13Z,6,Tech
+OpenAI buys its second startup in a month,"OpenAI has acquired Hiro Finance, a startup that offers AI-powered financial planning tools. As first reported by TechCrunch, fiscal terms of the deal, which was announced on Monday, were not disclosed by OpenAI. However, all signs point this to being an acquhire, with Hiro founder Ethan Bloch writing on LinkedIn that the company&#39;s product would stop working on April 20. Users have until May 13 to migrate their data off of Hiro&#39;s servers before everything is deleted.  It&#39;s unclear if OpenAI plans to offer a dedicated financial planning tool in the mold of Hiro. At the start of the year, the company released Prism, a Claude Code-like app for scientific research that built on its acquisition of the startup behind Crixet. At the very least, it sounds like some of the expertise Hiro has built will make its way to OpenAI&#39;s chatbot. &#34;For decades, personalized financial guidance has been too expensive, too generic, or too hard to access. ChatGPT is finally changing that,&#34; Bloch wrote on LinkedIn. The deal is the second acquisition in only two weeks to be announced by OpenAI. At the start of the month, the company bought Technology Business Programming Network (TBPN), a media company known for its daily tech podcast. For a company that has by all indications a long and tough road ahead to profitability, it sure does seem OpenAI is spending a lot of time and money on startups that might not end being central to its core business, which in recent months has seen it target the coding market to edge out Anthropic.   This article originally appeared on Engadget at https://www.engadget.com/ai/openai-buys-its-second-startup-in-a-month-140550769.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fchatgpt-icon-ios.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=0011326e54bfe40de1e7847356b02c222c8ed19d,https://www.engadget.com/ai/openai-buys-its-second-startup-in-a-month-140550769.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T14:05:50Z,13,Tech
+5 Ways Zero Trust Maximizes Identity Security,"Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks lateral movement. [...]",,https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/,https://www.bleepingcomputer.com/feed/,2026-04-14T14:02:12Z,4,Cybersecurity
+Amazon to buy Globalstar for $11.57B in bid to flesh out its satellite biz,"Amazon on Tuesday agreed to buy satellite company Globalstar, known for powering Apple&#39;s &#34;Emergency SOS&#34; feature, for $11.57 billion in cash.",,https://techcrunch.com/2026/04/14/amazon-to-buy-globalstar-for-11-57b-in-bid-to-flesh-out-its-satellite-biz/,https://techcrunch.com/feed/,2026-04-14T13:55:42Z,1,Tech
+Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security,"Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level.
+&#34;The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjblrgfLU8m4awyQDEqyzwguow-RuCp4UH1k5DBkrUrP87A7tsEQPPaLD_D9M4VXF5mSNrmp1eurx_QW-nVjM1nNnkyEIFyFiry3nxE0Wq3xrT0L06S6B11rEHcWzB7q78RRQySSxwLAVIncgqO5qhtY6b0A_LzYF8wtvH94G_TLQEn8UIivqrJNkH88Nf7/s1600/android-rust.jpg,https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T13:55:00Z,2,Cybersecurity
+Has Google’s AI watermarking system been reverse-engineered?,"A software developer claims to have reverse-engineered Google DeepMind&#39;s SynthID system, showing how AI watermarks can be stripped from generated images or manually inserted into other works. A claim that, according to Google, isn&#39;t true. The developer, going by the username Aloshdenny, has open-sourced their work on GitHub and documented his process, claiming all it […]",,https://www.theverge.com/ai-artificial-intelligence/911579/google-synthid-ai-watermarking-system-reverse-engineered,https://www.theverge.com/rss/index.xml,2026-04-14T13:53:53Z,6,Tech
+Anbernic’s new handheld is a pocket-friendly Android device with a swiveling screen,"Anbernic, one of the most prolific makers of handheld consoles and emulators, isn&#39;t afraid to experiment with creative designs. After debuting a wireless controller with a heart rate monitor earlier this year, the company has announced a new gaming device with a square design, basic controls, and a swiveling touchscreen. What&#39;s not so creative is […]",,https://www.theverge.com/tech/911600/anbernic-rg-rotate-square-handheld-gaming-console-emulator,https://www.theverge.com/rss/index.xml,2026-04-14T13:43:15Z,5,Tech
+Ben McKenzie vs. crypto,"A few years ago, during the absolute peak of the cryptocurrency craze, a somewhat surprising skeptic emerged. Most people know Ben McKenzie from his acting work on Southland or Gotham, or would recognize him instantly as Ryan Atwood from The O.C. While seemingly everyone else was buying Bitcoin, McKenzie decided to figure out what Bitcoin […]",,https://www.theverge.com/podcast/911605/ben-mckenzie-crypto-cgm-wearables-vergecast,https://www.theverge.com/rss/index.xml,2026-04-14T13:34:32Z,0,Tech
+Samsung is hiking the prices of its Galaxy phones and tablets,"Samsung is raising prices across Galaxy Z Flip 7, Galaxy S25 FE, and Galaxy S25 Edge phones, as spotted earlier by Phone Arena. Though the base model of each phone is staying at the same price, devices with higher storage are now up to $80 more expensive: Last week, Samsung also increased the price of […]",,https://www.theverge.com/tech/911623/samsung-galaxy-phones-tablets-price-hike-ram,https://www.theverge.com/rss/index.xml,2026-04-14T13:34:06Z,5,Tech
+Apple and Amazon are teaming up to challenge Starlink’s smartphone ambitions,"Amazon has made a deal to buy Globalstar&#39;s low-Earth orbit satellite network for $11.57 billion, snapping up its spectrum licenses, operations, and assets to combine with its upcoming Leo internet satellite constellation. Apple owned 20 percent of Globalstar, and as a part of the deal, Amazon will continue to support satellite services like Emergency SOS […]",,https://www.theverge.com/tech/911617/amazon-globalstar-apple-iphone-watch-satellite-internet,https://www.theverge.com/rss/index.xml,2026-04-14T13:29:48Z,1,Tech
+Amazon buys the satellite internet company behind Apple’s SOS system,"Amazon has today announced it is merging with satellite internet provider Globalstar Inc. to bolster Leo, its Starlink rival. Globalstar isn’t a household name but you do know its work, as it provides Apple’s emergency satellite connectivity for compatible iPhones and Watches. In a statement, Amazon says the deal will grow Leo’s space-based footprint and enable direct-to-device service for its burgeoning satellite network.
+An interesting wrinkle is Apple owns 20 percent of Globalstar, which it bought for $1.5 billion in 2024, but that didn’t get a mention. Instead, the release says Amazon and Apple have agreed Leo will “power satellite services for supported iPhone and Apple Watch models.” And that this support will continue as Leo’s network evolves, as well as collaborating “with Apple on future satellite services using Amazon Leo’s expanded satellite network.”
+The release adds Leo’s direct-to-device service won’t start until 2028, and the deal itself isn’t expected to close until 2027. That is, of course, unless Amazon doesn’t placate the FCC into extending its deadline to get more satellites into orbit before July 2026. At present, the company needs to have 1,600 satellites in orbit by that deadline, but only expects to have around 700 actually up in the heavens and working by then.This article originally appeared on Engadget at https://www.engadget.com/general/amazon-buys-the-satellite-internet-company-behind-apples-sos-system-130150744.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F12ace4e0-34bd-11f1-a8f3-cdfbf2e0b4b7&resize=1400%2C786&client=19f2b5e49a271b2bde77&signature=625a2a46a1469e66d162f6fa079f1873db84b95b,https://www.engadget.com/general/amazon-buys-the-satellite-internet-company-behind-apples-sos-system-130150744.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T13:01:50Z,2,Tech
+GoPro's Mission 1 offers 8K 60p video and interchangeable lenses,"GoPro has seen its action camera market share diminish due to strong competition from rivals like Insta360 and DJI of late. Now, the company is fighting back with a new line of flagship cameras called Mission 1, designed to greatly improve the video quality offered by its current Hero 13 camera. The company also introduced a new Wireless Mic system similar to DJI&#39;s Mic Mini, along with a point-and-shoot grip and other accessories. 
+&#34;The combination of our new 50 megapixel one-inch sensor and ultra-efficient GP3 processor sets a new performance bar for compact cinema cameras, enabling resolutions, frame rates, low-light performance, runtimes and thermal capabilities never seen before in cameras this small,&#34; GoPro&#39;s senior VP Pablo Lema said in a statement.
+Sample Photo from GoPro Mission 1 Pro action cameraGoPro
+The new line includes three models: the Mission 1, Mission 1 Pro and Mission 1 Pro ILS. All have a one-inch 50-megapixel sensor, new GP3 processor and up to 8K video, but the Mission 1 Pro supports higher frame rates. The Mission 1 Pro ILS (interchangeable lens system) comes with a lens mount so you can use high-quality Micro Four Thirds lenses from the likes of Panasonic and OM System. 
+The Mission 1 has an updated lens design with a 159 degree native field of view, the widest in its category. It also features a new OLED rear display that&#39;s 14 percent larger than previous flagship GoPro cameras, along with bigger raised buttons for easier use with gloves and a removable lens hood to reduce glare and lens flare. 
+GoPro
+The 50MP 1-inch sensor has large 1.6μm pixels at full resolution or 3.2μm fused pixels when it&#39;s in operating at 4K in quad-bayer mode. That allows for higher dynamic range up to 14 stops and improved low-light performance with &#34;exceptional detail in the darkest of shadows while protecting highlight details,&#34; GoPro claims. That low-light performance is likely to be better in quad-bayer 4K mode than full resolution 8K, however. 
+Meanwhile, the new GP3 Processor offers a power-efficient 5nm design that allows &#34;best-in-class resolutions, frame rates and image quality,&#34; the company says. Those resolutions include 8K at up to 60 fps for the Mission 1 Pro/Pro ILS models, 4K at up to 240 fps and 1080p at up to 960(!) fps. GoPro also offers 10-bit HLG/HDR and a 10-bit GP-Log2 mode to maximize dynamic range. 
+The Pro models support 4:3 open gate capture so you can easily reframe shots or export video for different platforms. The Mission 1, meanwhile, captures up to 8K 30 fps, 4K 120 fps and 1080p 480 fps video, along with 4K 120 fps open gate video. You can capture 50MP RAW stills at up to 60 fps burst speeds on all Mission 1 models. 
+GoPro
+The lineup promises excellent battery life thanks to the new Enduro 2 battery, with three-plus hours of 4K 30p recording on a charge. You can use the Hero 13 batteries as well albeit with shorter recording times. The company is also promising faster charging speeds. Thermal performance is solid despite the small size, with 8K 60p capture possible for 37 minutes straight with no airflow, or 74 minutes with airflow (when riding a bike for instance).
+Like its DJI and Insta360 rivals, the Mission 1 cameras offer multiple intelligent capture modes, including subject tracking, Dive (underwater stabilization) and Low-Light, along with Slow-Mo, Lapse, Sport POV, Vlog and Open Gate. GoPro action cams generally have excellent stabilization, so it&#39;ll be interesting to see if the Mission 1 series continues that trend, especially in low-light conditions. 
+GoPro isn&#39;t skimping on audio either, as the Mission 1 models offer a four-mic system with 32-bit float along with stereo recording and wind noise reduction. You can connect wirelessly to compatible devices via Bluetooth 5.3 or wired mics over USB-C audio.
+GoPro
+The Mission 1 Pro ILS appears to be the first action camera with an interchangeable lens mount that&#39;s compatible with any Micro Four Thirds lenses and adapters. GoPro&#39;s HyperSmooth electronic video stabilization will work with any prime (non-fisheye) lens. It&#39;s &#34;the world’s smallest, most rugged and versatile high-speed cinema camera at a fraction of the cost and size of comparable cameras,&#34; GoPro said. Most lenses will likely make the camera too heavy and awkward to attach to a helmet or body, but you could certainly mount it to a motorbike, car or other vehicle.  
+Along with the Mission 1 cameras, GoPro is introducing some new accessories. Key among those is the new Wireless Mic System designed for easy pairing with the Mission 1 cameras, along with DSLRs and smartphones. With a charging case and magnetic clips, it looks a lot like DJI&#39;s Mic Mini system and offers 24-bit/48kHz audio with Dynamic Noise Reduction, 150 meters of wireless range, 6.5 hours of run time, adjustable gain and a safety track mode. 
+GoPro
+
+Other accessories include a Media Mod kit with a built-in multi-pattern mic and expanded I/O capability including 3.5mm mic and headphone ports, a micro HDMI port and a line-in port for timecode sync. GoPro is also offering a new Point-and-Shoot grip, M-Series ND Filters, a protective housing, a dual Enduro 2 battery charger, Volta battery grip and Light Mod 2 LED light. It&#39;s compatible with a GoPro subscription and Quick App, along with GoPro Labs that lets you unlock higher data rates (up to 300Mbps) and over 1,000 complex settings.
+The new models will be available individually or in kits, including the Mission 1 Pro Creator Edition bundled with the Media Mod, Wireless Mic System and Volta battery grip. The Mission 1 Pro Ultimate Creator Edition includes those while adding GoPro&#39;s Fluid Pro AI gimbal and Light Mod 2. Pricing and availability will be announced at a later date. This article originally appeared on Engadget at https://www.engadget.com/cameras/gopros-mission-1-offers-8k-60p-video-and-interchangeable-lenses-130018643.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2F2436d870-37d2-11f1-af7d-78584154368f&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=dc1d72844852899e2da7f9664015e9eeb1671872,https://www.engadget.com/cameras/gopros-mission-1-offers-8k-60p-video-and-interchangeable-lenses-130018643.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T13:00:18Z,8,Tech
+GoPro goes bigger and pro-er with support for Micro Four Thirds lenses,"GoPro is announcing its Mission 1 cameras, a new line of video-centric action cams with 50-megapixel, 1-inch-type sensors and the company&#39;s new GP3 in-house processor. Pricing is still TBD, but there will be three models launched in two waves: a base-model Mission 1 and the Mission 1 Pro will be available May 28th, and a […]",,https://www.theverge.com/gadgets/911324/gopro-mission1-pro-action-video-camera-price-specs,https://www.theverge.com/rss/index.xml,2026-04-14T13:00:00Z,5,Tech
+Ecovacs’ new robovac spots and pretreats dried stains using powerful jets,"Ecovacs announced a new addition to its Deebot line of autonomous cleaners with a new feature that could make the robovac better at cleaning floors in a single pass. The Deebot X12 OmniCyclone uses cameras and AI to identify dried stains on floors, such as muddy paw prints or spilled soda. Before cleaning the stain […]",,https://www.theverge.com/tech/910298/ecovacs-deebot-x12-omnicyclone-robot-vacuum-mop-pretreat-ai,https://www.theverge.com/rss/index.xml,2026-04-14T13:00:00Z,5,Tech
+Alienware’s new gaming monitor offers a 240Hz QD-OLED panel for just $350,"Alienware has announced a new budget-friendlier QD-OLED monitor, the AW2726DM. As some of the numbers in the convoluted product name hint, it&#39;s a 27-inch QHD panel, with 2560 x 1440 resolution, HDR support, and a high refresh rate of 240Hz. But what really makes it special is its comparatively low price of $349.99. High-refresh OLED […]",,https://www.theverge.com/games/909344/alienware-aw2726dm-qdoled-240hz-gaming-monitor-affordable-price-specs,https://www.theverge.com/rss/index.xml,2026-04-14T13:00:00Z,0,Tech
+The heist of iOS 26,"The most consequential YouTube video of Jon Prosser&#39;s career opens on Prosser himself, in a black hoodie and transparent glasses. The backdrop is familiar to viewers of his tech news channel, Front Page Tech, with warm, hanging lights and a bright white &#34;fpt&#34; logo behind him. Prosser stares meaningfully into the camera, and kicks the […]",,https://www.theverge.com/tech/908476/jon-prosser-apple-liquid-glass,https://www.theverge.com/rss/index.xml,2026-04-14T13:00:00Z,0,Tech
+Alienware 27 (AW2726DM) QD-OLED monitor review: A budget PC gamer's new best friend,"The price of nearly every type of gaming gadget has skyrocketed recently. RAMageddon has caused the cost of memory to double or triple in the last six months, with companies like HP saying that RAM now accounts for more than a third of a new PC’s bill of materials. Meanwhile, the Xbox Series S/X and the PS5 have gotten price hikes, and a similar bump for the Switch 2 is starting to look “inevitable.” Even mobile devices are not immune, with Samsung jacking up the cost of the Galaxy Z Fold 7 nine months after release. But with the $350 27-inch QD-OLED (AW2726DM), Alienware hasn’t just created a gaming display that’s an excellent value, it’s made a beacon of hope for anyone looking to upgrade their setup without emptying their bank account. 
+
+ 
+Design
+Unlike some of Alienware’s more expensive displays, the AW2726DM’s design couldn’t be simpler. It sits on a square 8.75-inch base that supports tilt, pivot and height adjustments. Though it does require a little assembly, everything you need comes in the box. Alienware’s monitor arm attaches via a captured thumb tab, while the monitor relies on four screws and a VESA mount that can be connected using the bundled Philips wrench. (Though if you have a proper screwdriver, that would be even better.) Setup only took me a few minutes and after arranging it properly on my desk, the monitor felt quite solid. The only potential drawback is that if you have limited desk space or you’re the kind of gamer that likes jamming your keyboard as close to your monitor as possible, Alienware’s stand might get in the way. 
+
+ 
+ 
+  The back of the monitor has an easy-to-use joystick for controlling its on-screen settings menu. 
+ 
+ 
+  Sam Rutherford
+ 
+
+At around 4mm thick, the AW2726DM’s panel is exceedingly sleek, though naturally that expands a bit on the lower portion of the monitor where its ports are located. This brings us to one of the biggest differences between Alienware’s budget display and more premium options: limited connectivity. All you get here is two HDMI 2.1 jacks, one DisplayPort 1.4 slot and a 3.5mm plug for audio out. There’s no support for data transfer, power sharing or anything else. Heck, there isn’t even any RGB lighting, which feels weird on a product from Alienware. But given its price, I’m not upset. In fact, it’s actually kind of refreshing. Finally, there’s a handy control stick on the back of the display for navigating its on-screen menu. 
+Visuals
+
+ 
+ 
+  As long as it&#39;s not too sunny or bright, the AW2726DM delivers excellent visuals for the money. 
+ 
+ 
+  Sam Rutherford for Engadget
+ 
+
+The AW2726DM features a QD-OLED panel supplied by Samsung that comes with a QHD resolution (2,560 x 1,440) and up to a 240Hz refresh rate. Alienware supports VRR via AMD FreeSync Premium and VESA AdaptiveSync, though sadly there’s no native option for NVIDIA G-Sync. That means if you have a GPU from Team Green and want to take full advantage of the monitor’s potential, you’ll want to rely on that DisplayPort for optimal compatibility. 
+Regardless, for a $350 gaming display, the AW2726DM checks all the most important boxes and it looks fantastic. Alienware’s budget monitor showcases the strengths of OLED panels versus LCD, even when compared to Sony’s Inzone M9, which was a much more expensive monitor when it debuted back in 2022. Alienware offers richer colors (it covers 99 percent of DCI-P3), and thanks to its deep inky blacks, contrast is significantly better as well. 
+
+ 
+ 
+  Here&#39;s a direct comparison between the AW2726DM and the Sony Inzone M9, the latter of which cost $900 when it came out in 2022. 
+ 
+ 
+  Sam Rutherford for Engadget
+ 
+
+The one big drawback is that, with a typical brightness of 200 nits, the AW2726DM is dimmer than more expensive rivals. That means the monitor doesn’t have fancy certifications for stuff like VESA True Black and instead relies heavily on general HDR10. Furthermore, Alienware chose a glossy (and quite reflective) finish that makes colors look even more saturated while improving perceived brightness. The one thing you need to watch out for is glare, especially if your PC or console lives in a room that gets a lot of sunlight. But if you’re like a lot of gamers that prefer to frag at night or in the dark, this may not be an issue. 
+Outside of gaming, there’s another shortcoming of the AW2726DM. Between its QHD resolution and the arrangement of Samsung’s QD-OLED subpixels, folks with good eyesight may notice a little fringing, especially when compared to higher-res 4K displays. This means some Word docs and web pages may not look quite as sharp as you’d like, but that’s a small price to pay for some of the best visuals you can get on a gaming monitor in this price range. 
+Warranty and care
+
+ 
+ 
+  The stand for the AW2726DM supports tilt, height adjustment and even pivoting all the way into portrait mode. 
+ 
+ 
+  Sam Rutherford for Engadget
+ 
+
+One of the major concerns about OLED displays when they first hit the market was the potential for burn-in, resulting in permanent damage to the panel from things like static UI elements staying on the screen too long. Thankfully, the AW2726DM comes with a three-year warranty that includes a clause covering burn-in, along with a free panel replacement in case there’s even a single bright pixel. Furthermore, Alienware uses a graphite film heatsink and an AI algorithm to prevent any sort of ghosting from appearing in the first place. 
+Wrap-up 
+
+ 
+ 
+  Alienware also conveniently includes both HDMI and DisplayPort cables in the box, along with the required screws for mounting the panel to the stand. 
+ 
+ 
+  Sam Rutherford for Engadget
+ 
+
+The AW2726DM might not have all the fancy features you get on more expensive monitors, but it’s an excellent example of a no frills gadget done right. You get just enough ports, a straightforward design and a beautiful QD-OLED panel with a solid resolution and refresh rate — all for just $350. It would certainly be nice if it was a little brighter or if text looked a touch sharper, but those shortcomings are pretty easy to live with. For anyone looking to upgrade what might be arguably the second most important part of your gaming setup (your screen is your window into new worlds after all), this display is budget gold. This article originally appeared on Engadget at https://www.engadget.com/gaming/pc/alienware-27-aw2726dm-qd-oled-monitor-review-a-budget-pc-gamers-new-best-friend-130000287.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Falienware-2077_3305.jpg&resize=1400%2C840&client=19f2b5e49a271b2bde77&signature=3307d1cd64b88434f78f2f1dd13a6604587b0cc7,https://www.engadget.com/gaming/pc/alienware-27-aw2726dm-qd-oled-monitor-review-a-budget-pc-gamers-new-best-friend-130000287.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T13:00:00Z,8,Tech
+‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats,"CISOs face a shrinking window to prepare as AI models like Mythos collapse the gap between vulnerability discovery and exploitation, driving a new era of high-velocity cyberattacks.
+The post ‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats appeared first on SecurityWeek.
+",,https://www.securityweek.com/mythos-ready-security-csa-urges-cisos-to-prepare-for-accelerated-ai-threats/,https://www.securityweek.com/feed/,2026-04-14T12:53:55Z,13,Cybersecurity
+Europe’s Largest Gym Chain Says Data Breach Impacts 1 Million Members,"Basic-Fit has reported that hackers have stolen names, dates of birth, and even bank account details. 
+The post Europe’s Largest Gym Chain Says Data Breach Impacts 1 Million Members appeared first on SecurityWeek.
+",,https://www.securityweek.com/europes-largest-gym-chain-says-data-breach-impacts-1-million-members/,https://www.securityweek.com/feed/,2026-04-14T12:43:30Z,5,Cybersecurity
+Bloodborne is being turned into an R-rated animated film,"It&#39;s not a PC port or a remake, but Sony is returning to the Gothic world of Bloodborne. There aren&#39;t many details yet - Sony says that &#34;plot details are still being kept under wraps&#34; - but the game is being adapted into &#34;an R-rated animated feature,&#34; with YouTuber Seán &#34;Jacksepticeye&#34; McLoughlin (a known Bloodborne […]",,https://www.theverge.com/entertainment/911576/bloodborne-feature-film,https://www.theverge.com/rss/index.xml,2026-04-14T12:35:40Z,5,Tech
+"Lucid Motors names new CEO, lands more money from Uber and Saudis","The search for a new CEO, which lasted over a year following the sudden resignation of Peter Rawlinson, is finally over. ",,https://techcrunch.com/2026/04/14/lucid-motors-names-new-ceo-lands-more-money-from-uber-and-saudis/,https://techcrunch.com/feed/,2026-04-14T12:22:22Z,0,Tech
+China-linked cloud credential heist runs on typos and SMTP,"
+		
+					  
+						
+
+
+
+
+China-aligned hackers have deployed a Linux-based ELF backdoor to steal cloud credentials at scale from workloads across AWS, GCP, Azure, and Alibaba Cloud environments.
+
+
+
+According to Breakglass Intelligence findings, the backdoor uses a “zero-detection” technique, employing SMTP port 25 as a covert command-and-control (C2) channel to harvest cloud provider credentials and metadata.
+
+
+
+“A selective C2 handshake validation mechanism renders the server invisible to conventional scanning tools like Shodan and Censys,” Breakglass researchers said in a blog post. Stolen credentials are sent to three Alibaba-themed typosquatted domains hosted on Alibaba Cloud infrastructure in Singapore.
+
+
+
+The campaign, attributed to the known APT41 (Winnti) group, targets sensitive cloud credentials, including IAM role credentials, service account tokens, managed identity tokens, and RAM role credentials.
+
+
+
+Metadata made into the new password
+
+
+
+Once executed, the malware queries the instance metadata service, commonly exposed at 169.254.169.254, to retrieve access tokens and configuration data belonging to the host environment.
+
+
+
+Queries vary depending on the environment. For AWS, they are made for IAM role credentials, for service account tokens in GCP, managed identity tokens from IMDS endpoints on Azure, and for RAM role credentials from ECS metadata in Alibaba Cloud.
+
+
+
+The researchers also pointed out a lateral movement beacon in the form of a UDP broadcast. “The implant periodically sends UDP broadcast packets to ‘255.255.255.255:6006’ within the local network segment,” they said. “These broadcasts contain an encoded beacon that other compromised hosts can receive, enabling peer-to-peer coordination and lateral tasking distribution without additional C2 traffic.”
+
+
+
+Researchers trace the Winnti activities back to 2020, making it a 6-year-old campaign, with the first documented variant “PWNLNX” using basic reverse shell and XOR encoding. Things have changed a lot since then.
+
+
+
+Typosquatting for cloud-native espionage
+
+
+
+The campaign relies heavily on deception, the researchers pointed out, using C2 domains closely resembling legitimate Alibaba Cloud services. The typosquatting approach allows malicious traffic to blend into routine cloud operations, specifically in environments where outbound filtering is absent.
+
+
+
+The implant used is an obfuscated ELF binary, with an executable designed for gaining and maintaining access within Linux cloud instances. The researchers said that the binary was not detected at all on ViruTotal at the time of analysis, supporting their “zero-detection” claims.
+
+
+
+The malware also does not respond to unintentional probes, with the C2 infrastructure remaining silent unless a correct (malicious) handshake is established. This throws off automated scanning and sandboxing.
+
+
+
+Additionally, communication over SMTP (port 25) adds a layer of stealth. While conventional C2 traffic sticks to HTTP/S, SMTP is used here to blend into legacy or misconfigured environments where Port 25 traffic is expected. “Many cloud security tools do not deeply inspect SMTP traffic for C2 patterns,“ the researchers noted. “Egress filtering on port 25 is inconsistent across cloud providers.”
+
+
+
+Indicators and detection
+
+
+
+Despite the use of stealth, the researchers were able to connect the dots with the help of independent research by @Xlab_qax, who attributed the campaign and its lineage to APT41 with high confidence. Indicators shared by the researchers include files and network signatures (domain and ports). They also included a list of MITRE ATT&amp;CK tactics for a broader understanding of the years-long campaign. Breakglass disclosure pointed to a behavior-driven detection approach across layers. 
+
+
+
+On the network side, defenders should look for unusual outbound SMTP traffic, connections to Alibaba Cloud-lookalike domains, and periodic UDP broadcasts to 255.255.255.255:6006. On the host, they should watch for obfuscated or unknown ELF binaries and unexpected process access to instance metadata endpoints.And finally, in the cloud, monitoring metadata service queries and anomalous use of role-based credentials, particularly where activity deviates from the instance’s normal behavior, can help, the researchers said.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158396-0-10389800-1776168774-shutterstock_2427719361.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158396/china-linked-cloud-credential-heist-runs-on-typos-and-smtp.html,https://www.csoonline.com/feed/,2026-04-14T12:12:40Z,5,Cybersecurity
+You can attend Pokémon EDM shows in Los Angeles and London,"If you love Pokémon and electronic dance music, the Pokémon Company made the perfect event for you. As part of Pokémon’s 30th anniversary festivities, the company is holding EDM concert experiences called “Pokémon Night Out” in Los Angeles and London. American DJ Marshmello, known for wearing a marshmallow-like mask on stage, will be headlining the events, with Australian DJ Alison Wonderland as a supporting act. The experiences will feature custom sets and Pokémon-inspired visual storytelling. The events will be open to fans 16-years-old and up. It will be held at the Intuit Dome in Los Angeles on October 24, 2026, and at the O2 arena in London on November 10. You can get tickets for both concerts starting on April 18 at 10AM Pacific time for the Los Angeles concert and at 10AM British time for the London experience. In addition to holding EDM concerts, Nintendo and the Pokémon Company re-released the Game Boy Advance remakes of Pokémon Red and Blue on Nintendo Switch Online for the franchise’s 30th anniversary. They also released a Game Boy-shaped portable Pokémon jukebox, little music players that can be loaded witha  different melody or sound effect from the original games&#39; soundtracks.This article originally appeared on Engadget at https://www.engadget.com/gaming/nintendo/you-can-attend-pokemon-edm-shows-in-los-angeles-and-london-120405128.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fpokemon-night-out_1902.jpg&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=228b81f82b024ddf9a288d967f9dc3292d591f24,https://www.engadget.com/gaming/nintendo/you-can-attend-pokemon-edm-shows-in-los-angeles-and-london-120405128.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T12:04:05Z,2,Tech
+SAP Patches Critical ABAP Vulnerability,"The company has released 19 new security notes addressing flaws in over a dozen enterprise products.
+The post SAP Patches Critical ABAP Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/sap-patches-critical-abap-vulnerability/,https://www.securityweek.com/feed/,2026-04-14T11:21:12Z,5,Cybersecurity
+The Morning After: Meta is reportedly working on an AI model of Mark Zuckerberg,"If you were looking for the worst AI project announced so far this week, try Meta. According to a Financial Times report, the company is developing its own Mark Zuckerberg AI, training it on Zuckerberg’s mannerisms, tone and publicly available statements. AKA, the good stuff. (Will it smoke meats?)
+The company has reportedly been working for some time on creating photorealistic, 3D-animated AI characters that can manage interactions. However, it now appears to be focusing on this Zuckerberg AI character, which would interact with employees in his stead. Yeesh. Remember when the Meta boss introduced legs to the metaverse? Hopefully, a backbone is in the works soon.
+— Mat Smith
+The other big stories this morning
+
+How to de-Gemini your Google apps
+YouTube Premium’s US pricing is going up
+Games Workshop brings 7 classic Warhammer games to Steam
+
+Meta warned that facial recognition on smart glasses would empower predators
+Multiple organizations, including the ACLU, are wary of the tech.
+TMA
+Dozens of civil rights organizations have written a letter to Meta CEO Mark Zuckerberg warning of the dangers posed by adding facial recognition technology to the company’s smart glasses. More than 70 groups have urged Zuckerberg to abandon plans to incorporate the tech on the grounds that it would empower stalkers, sexual predators and other bad actors. They also want the company to disclose past or ongoing discussions with federal law enforcement agencies, including ICE, about the use of Meta smart glasses and other wearables, according to a report by Wired.
+Adding to the grossness of all this, according to The New York Times, Meta issued an internal memo last year suggesting it could roll out this technology “during a dynamic political environment where many civil society groups that we would expect to attack us would have their resources focused on other concerns.” In short, attempting to add the feature when pushback would be limited or unfocused. The coalition called this “vile behavior” that looks to take advantage of “rising authoritarianism.”
+Continue reading.
+
+Xbox CEO called Game Pass ‘too expensive for players’ in a leaked memo
+Microsoft is eyeing changes to its gaming sub.
+TMA
+
+Xbox’s new chief exec, Asha Sharma, reportedly wrote in a memo to employees that the current pricing of the Game Pass subscription service might be too high. According to the note, seen by The Verge: “Short term, Game Pass has become too expensive for players, so we need a better value equation.”
+Microsoft raised the price of Game Pass twice in 15 months, and many Xbox exclusives have made their way to rival PlayStation. Game Pass continues to add games: the April update adds indies like Hades 2 and Double Fine-project Kiln alongside Call of Duty: Modern Warfare. The Verge reports the addition of the CoD franchise might have contributed to Game Pass price increases, as in the past, buying the game at retail value was less favorable than a one-month subscription.
+Continue reading.
+
+Apple may be testing up to four styles of smart glasses
+And another one.
+
+It’s a real connected-story edition of TMA today. Bloomberg reports Apple could reveal its smart glasses by the end of this year, and it’s already testing four eyewear styles. Apple is reportedly mulling over a large rectangular frame comparable to Ray-Ban Wayfarers, a slimmer rectangular design, like the one Apple CEO Tim Cook wears, as well as an oval or circular frame in large and small iterations. Apple is also working on a selection of colors.Apple’s upcoming smart glasses will compete directly with the second-gen Ray-Ban Meta model. While similar, Apple might be differentiating its design with “vertically oriented oval lenses with surrounding lights,” according to the report. Apple’s upcoming product will capture photos and videos but is meant to play better with iPhones, so users can take advantage of Apple’s ecosystem for editing, sharing and more.
+Continue reading.This article originally appeared on Engadget at https://www.engadget.com/general/the-morning-after-engadget-newsletter-111528055.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-10%2F8efaaeb0-b506-11f0-a7fe-d44b4a3949f3&resize=1400%2C933&client=19f2b5e49a271b2bde77&signature=1bf4cf8ed7d24724c16bbc5403b5afa0a5793164,https://www.engadget.com/general/the-morning-after-engadget-newsletter-111528055.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T11:15:28Z,11,Tech
+Sony is developing a Bloodborne animated film adaptation,"An R-rated animated film adaptation of Bloodborne is currently being developed by Sony, according to Variety. Sony Pictures Entertainment Motion Picture Group held a presentation at CinemaCon, where the division’s president said that the adaptation will be “very true” to the violent and graphic nature of the game. Bloodborne was created by Japanese studio FromSoftware and was published by Sony back in 2015. The critically acclaimed title is an RPG in the style of Dark Souls, featuring heavy blood splatters during combat and other body horror elements. Its director, Hidetaka Miyazaki, said his biggest inspiration for the game was HP Lovecraft’s works. Bloomberg had reported in February that Bluepoint Games, the now-defunct Sony studio behind many PlayStation remakes, wanted to work on a new version of the classic Gothic horror RPG for modern consoles. However, FromSoftware blocked the project. Miyazaki reportedly wanted to work on the remake himself. Despite being too busy to do it, he said during an interview that he &#34;doesn&#39;t want anyone else to touch it.&#34;The Bloodborne film adaptation will be co-produced by PlayStation Productions, Lyrical Animation and Seán McLoughlin, a gaming YouTube known by his pseudonym jacksepticeye. It seems to be early stages at this point, and Variety doesn’t have a target release date for it yet.This article originally appeared on Engadget at https://www.engadget.com/gaming/sony-is-developing-a-bloodborne-animated-film-adaptation-110421866.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fbloodborne_5296.jpg&resize=1400%2C823&client=19f2b5e49a271b2bde77&signature=6e903b1fe3bc18a69059372453d2afbec97b816f,https://www.engadget.com/gaming/sony-is-developing-a-bloodborne-animated-film-adaptation-110421866.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T11:04:21Z,8,Tech
+Triad Nexus Evades Sanctions to Fuel Cybercrime,"The sprawling cybercrime operation abuses major providers to prevent takedowns and distance itself from sanctions.
+The post Triad Nexus Evades Sanctions to Fuel Cybercrime appeared first on SecurityWeek.
+",,https://www.securityweek.com/triad-nexus-evades-sanctions-to-fuel-cybercrime/,https://www.securityweek.com/feed/,2026-04-14T10:53:32Z,1,Cybersecurity
+Google Adds Rust DNS Parser to Pixel Phones for Better Security,"The parser is meant to mitigate the entire class of memory safety bugs in the low-level environment.
+The post Google Adds Rust DNS Parser to Pixel Phones for Better Security appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-adds-rust-dns-parser-to-pixel-phones-for-better-security/,https://www.securityweek.com/feed/,2026-04-14T10:21:33Z,1,Cybersecurity
+"Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads","A nascent Android remote access trojan called Mirax has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, Messenger, and Threads through advertisements on Meta.
+&#34;Mirax integrates advanced Remote Access Trojan (RAT) capabilities, allowing threat actors to fully interact with compromised devices in real",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSTMJQqqJsKQgPpv94bO9xAc_tQCEJXJrZGAEmCuyUghslqHdHDYmuVYqIVLGqMLi_ZuY_zEBoDdGDQRVAX0KyGq9QcuIzQ5LVbNLBnwUwW2R7IBg0gopxAI9ml44zJsKXEoc1ig8zRbVDBNK3B4LZRE0WljzIfwnSMHx8Mv1kWYTK5qnxOB1YYl_WNWMa/s1600/android-malware.jpg,https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T10:20:00Z,3,Cybersecurity
+Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report),"OX Security recently analyzed 216 million security findings across 250 organizations over a 90-day period. The primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critical risk grew by nearly 400%.
+The surge in AI-assisted development is creating a &#34;velocity gap&#34; where the density of high-impact vulnerabilities is scaling faster than",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4H3KkiSOm6TbNn7e0Ceu3-etqqeLci47PtX9T-0WGgdGScHfd2tfFamA6oyOi62wWwKF7KwF_wcqNACSvRVJvH__1YKoP_fP7T5LFdDqX8jxFph0NSaVJjFEVhb0bjNvn5IWayqMwKyRNbp9mmW7f2JLs7I3pTF8yLuhCOHsbnpNVLrEVq6Uq63j8508/s1600/derailed.jpg,https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T10:00:00Z,7,Cybersecurity
+"A sleek, wearable airbag for cyclists is nearly here","What you&#39;re looking at is a new airbag system integrated directly into a &#34;race-ready&#34; skinsuit, not bolted on like other solutions. It was developed for road cyclists by Van Rysel, with the help of airbag technology specialist In&amp;motion. It&#39;s currently being tested on pro riders ahead of a general consumer release sometime &#34;within the next […]",,https://www.theverge.com/gadgets/911540/a-sleek-wearable-airbag-for-cyclists-is-nearly-here,https://www.theverge.com/rss/index.xml,2026-04-14T09:58:51Z,5,Tech
+Nightclub Giant RCI Hospitality Reports Data Breach,"The company said in an SEC filing that an IDOR vulnerability affecting RCI Internet Services exposed contractor data.
+The post Nightclub Giant RCI Hospitality Reports Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/nightclub-giant-rci-hospitality-reports-data-breach/,https://www.securityweek.com/feed/,2026-04-14T09:35:06Z,8,Cybersecurity
+How AI is transforming threat detection,"
+		
+					  
+						
+
+
+
+
+Artificial intelligence is rapidly reshaping how security teams detect and hunt cyber threats by helping analyze vast volumes of security data, uncovering subtle signs of malicious activity, and identifying potential attacks faster than traditional tools or human analysts alone.
+
+
+
+Analyst firm Gartner expects that by 2028, 50% of threat detection, investigation, and response (TDIR) platforms — including technologies such as EDR, XDR, SIEM, and SOAR — will incorporate agentic AI capabilities, up from less than 10% in 2024. The firm says AI could help organizations strengthen threat detection, incident response, and containment while also helping security teams bridge persistent skills shortages and reduce reliance on scarce cybersecurity talent.
+
+
+
+A matter of scale
+
+
+
+Much of AI’s impact in threat detection is tied to its ability to process telemetry at a scale that human teams would find challenging, if not impossible, to manage, according to security experts.
+
+
+
+Modern IT environments can generate billions of logs and events each day across endpoints, networks, cloud services, and identity systems. Machine learning models can correlate those signals in near real-time, and identify behavioral anomalies — such as unusual login patterns, suspicious lateral movement, or data exfiltration attempts — that might otherwise remain buried in the noise.
+
+
+
+Many enterprise security teams expect such capabilities to significantly bolster their detection capabilities. In a 2025 survey that Anvilogic conducted in collaboration with the SANS Institute, 45% of respondents said their organizations have already integrated AI into their threat detection workflows; 88% believed AI would play a major role in detection engineering within the next three years.
+
+
+
+Organizations are already using AI to automate many of the routine tasks traditionally handled by Tier 1 and Tier 2 analysts, says Martin Sordilla, senior technology and security architect at Accenture. Much of this work involves reviewing logs, triaging alerts, identifying indicators of compromise, correlating events, and reaching out to system owners during investigations. AI can significantly accelerate these processes — automating tasks such as alert triage, documentation, evidence collection, and chain-of-custody tracking, he adds.
+
+
+
+Organizations are already seeing efficiency gains of roughly 40-50% for lower-tier SOC tasks, freeing human analysts to focus on more advanced investigations and response activities, Sordilla says.
+
+
+
+Reducing alert fatigue
+
+
+
+In alert triage, AI agents are reducing alert fatigue by clustering alert patterns and enabling risk-based prioritization, adds Dipto Chakravarty, chief product and technology officer at Black Duck.
+
+
+
+For example, natural language processing agents can summarize threat alerts at scale and correlate them with threat intel feeds such as CVE.org and the CISA KEV Catalog, he says.
+
+
+
+“The general incident response workflow is one of the beneficiaries of AI agents where we are seeing the value of automated playbooks for common incidents,” he notes.
+
+
+
+AI agents are also playing a role in enriching threat intelligence at scale by ingesting and correlating threat intel from myriad sources and consequently enriching these alerts with value-added context such as CVE data.
+
+
+
+“AI agents today can effectively accelerate derivation of insights from organized and normalized datasets,” by allowing analysts to ask questions in natural language, says Nicole Bucala, CEO at Databee. They eliminate the need for the specialized queries, analytical dashboards, or manual analysis typically required for the task.
+
+
+
+Instead of flooding analysts with thousands of low-confidence warnings, AI-enabled detection platforms can score and correlate alerts, group related activity into higher-fidelity incidents, and filter out routine or benign behavior. The result, vendors and analysts say, is a reduction in alert fatigue and a shift in analyst workflows away from manual triage toward deeper investigation and response.
+
+
+
+“AI is helping SOCs escape ‘activity theater’ by turning raw noise into faster, higher-confidence decisions backed by evidence,” says Craig Jones, chief security officer at Ontinue.
+
+
+
+SOC burnout is a real concern, Jones notes. The biggest drivers of this in the industry are alert volume, fragmentation, and ambiguity, and those pressures exist for any team operating at scale. Analysts, he says, often end up spending too much of their day working high-alert loads that are low signal and then having to context-switch across multiple tools just to assemble the basics of an investigation.
+
+
+
+Containing threats sooner
+
+
+
+The real win with AI isn’t processing more alerts or closing more tickets; it’s about containing real threats sooner, with fewer mistakes, Jones says.
+
+
+
+“When AI is used to correlate weak signals into coherent incidents, enrich investigations automatically, and recommend safe next actions inside clear guardrails, you stop measuring effort and start proving outcomes,” he explains.
+
+
+
+Security experts expect AI to change the skills needed in security teams. Rather than eliminating jobs, it will help security teams automate routine tasks and shift roles toward engineering and system design, Accenture’s Sordilla says. The traditional SOC analyst role — focused heavily on manual log review — is likely to evolve into security engineering roles focused on building resilient systems, automation pipelines, and AI-assisted defenses.
+
+
+
+Early data shows organizations that have deployed AI for detection engineering are seeing some measurable gains. In a Google study of 3,466 senior leaders, nearly seven in ten (67%) early adopters of agentic AI reported seeing it having a positive impact on their security posture. Of this group, 85% reported described AI as having improved their ability to identify threats. Early adopters of AI, Google noted, are seeing quantifiable benefits not just in terms of efficiency, but also in terms of efficacy.
+
+
+
+At the same time, experts caution that AI-driven detection is not a silver bullet. Adversaries are increasingly experimenting with AI themselves — using it to generate more convincing phishing campaigns, automate reconnaissance, or modify malware to evade signature-based defenses. That dynamic is pushing defenders to treat AI not simply as another security tool, but as part of a broader evolution in security operations where human expertise, threat intelligence, and machine learning must work together.
+
+
+
+“Cyberattacks have been industrialized at machine speed,” says Ram Varadarajan, CEO at Acalvio “We need to respond in kind.”
+
+
+
+That means implementing defensive AI that can handle high-volume technical tasks such as triaging phishing emails, analyzing massive network logs for behavioral anomalies, deploying AI-aware cyber deception, and autonomously quarantining compromised endpoints to prevent lateral movement, he says.
+
+
+
+“When it’s a machine-speed AI attacker, no human will ever be able to keep up, and these complex AI attacks are going to be launched at scale,” he notes.
+
+
+
+Implementing AI correctly
+
+
+
+The key to getting the most value out of AI in threat detection is to ensure humans are involved. Any threat finding or resulting remediation action based on those insights, especially those involving nontrivial consequence for business operations, should remain under human oversight, at minimum, says Databee’s Bucala. 
+
+
+
+“Human in the loop is the mantra,” she says. “There’s a lot of business risk that can be incurred through full automation unless the margin of error in machine made decisions is close to zero.”
+
+
+
+While AI shows promise in threat detection, it still needs refinement. The best practice for organizations is to establish a process that includes human validation, and humans who have the right attention to detail and context to spot check AI summary results and decisions, Bucala notes.
+
+
+
+AI, adds Accenture’s Sordilla, is not a substitute for basic security hygiene. If an organization already has weak security practices, AI may simply accelerate existing problems. So, companies should first ensure they have strong governance, clear security standards, and mature processes — such as those outlined in frameworks from NIST and International Organization for Standardization — before layering AI into their security programs.
+
+
+
+“AI is force multiplier,” Sordilla says. “If your company is heading in the wrong direction, you are going down the drain faster,” by deploying AI incorrectly, he cautions.
+",https://www.csoonline.com/wp-content/uploads/2026/04/4154239-0-49152300-1776157549-shutterstock_2079730666.jpg?quality=50&strip=all,https://www.csoonline.com/article/4154239/how-ai-is-transforming-threat-detection.html,https://www.csoonline.com/feed/,2026-04-14T09:01:00Z,26,Cybersecurity
+The AI inflection point: What security leaders must do now,"
+		
+					  
+						
+
+
+
+
+AI is no longer a speculative topic for security leaders. It has moved from experimentation to implementation, and increasingly, to measurable production impact.
+
+
+
+Over the past year, my conversations with CISOs have shifted. The question is no longer whether AI belongs in cybersecurity; it’s about deploying it responsibly, strategically and at scale.
+
+
+
+For security leaders, this is not simply a technology decision. It is an operating model decision.
+
+
+
+Organizations that treat AI as another layer added to existing workflows may see incremental efficiency gains. Those that treat it as an inflection point in how security operations conduct investigative work can fundamentally reshape their defensive posture.
+
+
+
+From these CISO conversations, several realities are emerging that security leaders should confront directly.
+
+
+
+The threat has accelerated beyond human scale
+
+
+
+Recent threat intelligence underscores the urgency. CrowdStrike’s 2026 Global Threat Report found an 89% year-over-year increase in AI-enabled adversary activity. More concerning than volume is velocity. The average eCrime breakout time — the interval between initial compromise and lateral movement — dropped to 29 minutes, with the fastest observed breakout occurring in 27 seconds.
+
+
+
+In one documented intrusion, an attacker gained access, moved laterally and began data exfiltration within four minutes.
+
+
+
+These timelines compress the window for detection and response to a degree that challenges human-only workflows. Manual triage and sequential investigation processes struggle to keep pace with machine-speed attacks.
+
+
+
+This is a material shift in tempo, and it requires a corresponding shift in defensive capability.
+
+
+
+The questions have matured
+
+
+
+The AI discussion in security has evolved in phases.
+
+
+
+First came skepticism from security leaders, asking whether AI actually works in security operations. Given years of overpromised technology, the caution was warranted.
+
+
+
+Experimentation followed, with questions centering on what types of work AI should handle and where it introduces risk.
+
+
+
+Now, the dominant questions are more operational:
+
+
+
+
+How do we deploy AI into production SOC workflows?
+
+
+
+How do we implement it quickly without disrupting already strained teams?
+
+
+
+What should our analysts focus on once AI absorbs repetitive tasks?
+
+
+
+
+These go beyond theoretical considerations and reflect a recognition that AI has crossed from possibility to implementation.
+
+
+
+The cyber AI parity window
+
+
+
+Historically, offensive cyber capabilities have benefited from asymmetry. Nation-state actors often developed and deployed advanced capabilities years before defenders became aware of them. By the time tools were exposed or leaked, adversaries had already compounded their advantage.
+
+
+
+AI represents a break from that pattern.
+
+
+
+The same foundational AI advancements powering offensive capabilities are also enabling a new generation of defensive tools. Unlike prior technological shifts, AI was not restricted to classified environments for years before becoming commercially available. It emerged publicly and broadly.
+
+
+
+For the first time, defenders and adversaries gained access to a transformative technology at roughly the same moment.
+
+
+
+This creates what I call the Cyber AI Parity Window — a limited period during which defenders are not structurally behind in technological capability.
+
+
+
+Parity, however, is not the same as advantage. Advantage accrues to those who operationalize AI most effectively and most quickly.
+
+
+
+This window will not remain open indefinitely.
+
+
+
+Architecture determines scalability
+
+
+
+Early enthusiasm around large language models led some to assume that a single, powerful AI system could manage security investigations end to end. Production deployments revealed the limits of that approach.
+
+
+
+Security investigations are rarely linear. They involve contextual interpretation, cross-tool correlation, iterative reasoning and validation. Single-agent systems often struggle to sustain accuracy under these conditions.
+
+
+
+More effective deployments rely on coordinated, multi-agent architectures. Specialized agents handle enrichment, reasoning, validation and response orchestration, dynamically adapting to alert type and environment.
+
+
+
+While this architecture is more complex, it has proven more reliable at scale.
+
+
+
+For CISOs, architectural transparency should be a priority. Understanding how systems reason, manage ambiguity and maintain accuracy under load is essential. In security operations, reliability is a requirement, not a feature.
+
+
+
+Context is the control plane
+
+
+
+Another consistent lesson from early deployments is that AI performance is inseparable from contextual depth.
+
+
+
+Generic AI models cannot accurately investigate security events without understanding the environment they are protecting. Network architecture, identity models, detection logic, asset criticality and business workflows all shape investigative conclusions.
+
+
+
+As organizations assign greater responsibility to autonomous systems, contextual misalignment can introduce risk rather than reduce it.
+
+
+
+Successful implementations treat context as infrastructure. AI systems are deeply integrated with telemetry sources and workflows. Data pipelines are structured deliberately. Environmental fidelity is treated as foundational.
+
+
+
+AI only amplifies the importance of understanding your environment.
+
+
+
+From execution to management
+
+
+
+Public discourse often frames AI in terms of job displacement. Within security organizations, the more relevant discussion is about redefining roles.
+
+
+
+Security teams face persistent growth in alerts and talent shortages. Analysts spend significant time on repetitive investigations that require diligence but not necessarily strategic judgment.
+
+
+
+AI creates an opportunity to shift human contribution from execution to management.
+
+
+
+Rather than manually triaging alerts, analysts can define investigative logic. Instead of performing routine enrichment tasks, they can determine escalation thresholds. Instead of executing playbooks, they can design and refine them.
+
+
+
+This mirrors transitions seen in other industries as automation matured: human value moves upstream, toward oversight, design and improvement.
+
+
+
+In organizations that implement this shift thoughtfully, teams report not only reduced backlog but also improved engagement. Analysts work on more complex problems and develop more strategic capabilities.
+
+
+
+The central question, therefore, is whether AI elevates the way expertise is applied, not whether it reduces headcount.
+
+
+
+The window requires action
+
+
+
+Defenders possess structural advantages that attackers do not. Large technology providers process trillions of security signals daily. Empirical research, including IBM’s Cost of a Data Breach Report, shows that organizations extensively using AI and automation experience lower breach costs and faster containment times.
+
+
+
+But structural advantage compounds only with execution.
+
+
+
+Every month that security operations remain dependent on manual triage is a month in which AI-enabled adversaries continue to optimize their workflows. The acceleration in breakout times does not pause for budget cycles or extended vendor evaluations.
+
+
+
+The Cyber AI Parity Window represents a rare strategic opportunity. For once, defenders are not reacting to a capability that adversaries monopolized for years.
+
+
+
+The question is whether organizations will capitalize on that parity before it narrows.
+
+
+
+Production metrics over vision
+
+
+
+Security leaders today evaluate AI platforms with appropriate rigor. Claims of transformative capability are insufficient.
+
+
+
+Several standard operational metrics matter:
+
+
+
+
+Investigations completed autonomously
+
+
+
+Average investigation time
+
+
+
+False positive and false negative rates
+
+
+
+Percentage of cases requiring human override
+
+
+
+Time to deployment and value realization
+
+
+
+
+AI must demonstrate measurable performance in production environments. Trust is built through documented outcomes, not conceptual promise.
+
+
+
+Leadership in the AI production era
+
+
+
+AI in cybersecurity represents a structural shift in how investigative work is conducted and how human expertise is applied.
+
+
+
+CISOs now face a consequential choice: layer AI incrementally onto existing workflows or integrate it as a foundational component of security operations.
+
+
+
+Organizations that succeed will demand measurable production outcomes, invest in contextual integration, evaluate architectural robustness, redesign workflows to elevate human expertise and act before the Cyber AI Parity Window closes.
+
+
+
+The industry has moved beyond experimentation. AI is operating in production. Adversaries are leveraging it at machine speed.
+
+
+
+The inflection point has arrived. What follows depends on execution.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/04/4158008-0-03256300-1776157502-daniele-levis-pelusi-O6RXTPyoe0A-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4158008/the-ai-inflection-point-what-security-leaders-must-do-now.html,https://www.csoonline.com/feed/,2026-04-14T09:00:00Z,18,Cybersecurity
+Inertia moves to commercialize one of the world’s most elaborate science experiments,"Inertia has signed three agreements with the Lawrence Livermore National Lab, paving the way for the company to bring its pioneering fusion reactor to market.",,https://techcrunch.com/2026/04/14/inertia-moves-to-commercialize-one-of-the-worlds-most-elaborate-science-experiments/,https://techcrunch.com/feed/,2026-04-14T09:00:00Z,0,Tech
+"Organizations Warned of Exploited Windows, Adobe Acrobat Vulnerabilities","The security defects allow attackers to escalate privileges and execute arbitrary code remotely.
+The post Organizations Warned of Exploited Windows, Adobe Acrobat Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/organizations-warned-of-exploited-windows-adobe-acrobat-vulnerabilities/,https://www.securityweek.com/feed/,2026-04-14T08:57:18Z,7,Cybersecurity
+Indian Navy Needs More Stringent Planning,"The plan was to equip the navy with about 200 warships by 2027, but financial limitations dictate a more modest flotilla of just 170 vessels.",https://images.thediplomat.com/v1/td-list-l-2/2026/04/thediplomat_2026-04-14-175653.jpg,https://thediplomat.com/2026/04/indian-navy-needs-more-stringent-planning/,https://thediplomat.com/category/asia-defense/feed/,2026-04-14T08:50:00Z,0,Defense
+"108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users","Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page visited.
+According to Socket, the extensions are published",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEOmjr311c0yBDI593joFXQLaRdpm6DY67lbFv83YcYlRHaJkpocwXjDZDsV9F9DM-SavZwCOZ-fg10ncUJyW3ODlfBjqG6aK_ytdBfvXFGLswxeJ69oiZXfhGKdCgVO0Angg_qlYB6oAZYo-JQRKn4toBGWcS7OTDwPV0rkus7eNw-9BllIGJa2nkeKXn/s1600/chrome-telegram.jpg,https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T08:35:00Z,3,Cybersecurity
+The new Trump Phone design is here,"Trump Mobile has overhauled its website, introducing a new logo, new design language, and a new version of the T1 Phone. The redesigned phone is the same one that two company executives showed me over a video call two months ago, seemingly now confirmed to be the final design - but there&#39;s still no word […]",,https://www.theverge.com/tech/911503/trump-mobile-t1-phone-redesign-new-website,https://www.theverge.com/rss/index.xml,2026-04-14T08:25:07Z,0,Tech
+ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers,"A critical security vulnerability impacting ShowDoc, a document management and collaboration service popular in China, has come under active exploitation in the wild.
+The vulnerability in question is CVE-2025-0520 (aka CNVD-2020-26585), which carries a CVSS score of 9.4 out of 10.0.
+It relates to a case of unrestricted file upload that stems from improper validation of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjthzbWdOOZKL2JKvluG78cobCs7bGxvHsfzSMHt4XgX1OO9h-r7W_dlYCCDrCoKo2dAXhh264NTGUrFKBpM8pv0WcePn5gUp1atSJ4-iC4_wr0jmo7nDZ46JYCs8P_5DLs5RcHi81-L7Wiw35cLHNWqCPe50LJ1a3tqfxwfB3S3ufQjYQfUrfRDwMo1BYE/s1600/showdoc.jpg,https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T05:50:00Z,8,Cybersecurity
+"CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software","The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added half a dozen security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+The list of vulnerabilities is as follows -
+
+CVE-2026-21643 (CVSS score: 9.1) -  An SQL injection vulnerability in  Fortinet FortiClient EMS that could allow an unauthenticated attacker to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkkewWzrjyqzejet7cyCWdTUMfgjGZgkDpis6rUlh7qnyPpmcN1k_vVdKvziAZq2cOkFQDrJNM8E6WE8Cl7oPNdq94MOXJLa0nkbEmAFCB_MnjLQzTy-WjHGa6yuLhm7dPzuW3YEQeFIfOT1Tr25NgALeTL6vFDhzmJrCRMLL0GBpOhkwQm_Zirk_9aNjr/s1600/warning.jpg,https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html,https://feeds.feedburner.com/TheHackersNews,2026-04-14T05:39:00Z,11,Cybersecurity
+Blackmagic's DaVinci Resolve 21 takes on Adobe Lightroom with a new Photo page,"Many creators have already switched from Adobe Premiere to DaVinci Resolve, and now the developer, Blackmagic Design, is going after Lightroom and Photoshop. The Australian company just unveiled DaVinci Resolve 21 in beta at the NAB 2026 broadcast convention with a brand new page called Photo designed to let you do things like crop and color-correct still images. At the same time, the new version introduces video AI tools that can age a subject or reshape their facial features. 
+DaVinci Resolve has always let you edit photos as clips on a video timeline, but now it&#39;s greatly simplified with the Photo page. You can import and manage photographs, including RAW files, directly into the new page. Then, you adjust them using the node-based Color page that offers similar and arguably even more powerful tools than Adobe&#39;s Lightroom.
+Just as with video, the Color page includes primary color correction, curves, qualifiers and power windows (along with noise reduction, sharpening and more). However, where Resolve&#39;s node-based workflow really shines for photo editing. You can add nodes in series or parallel to build complex grades, then save them to apply to other images or an entire photo album. You can also reframe and crop images at their original source resolution and aspect ratio, without affecting the original image quality. 
+Steve Dent for Engadget
+The LightBox view lets you see an entire album with grades applied. &#34;Select any image and grade it live while seeing the results update across the whole collection in real time. Filter by graded, ungraded, star rating, flag and clip color,&#34; Blackmagic Design explains in a press release. Albums, meanwhile, let you build collections like you do in Lightroom. Those also appear as timelines in the Color, Cut and Edit pages for easy access. 
+For pro photographers, the Color page includes camera controls that let you tether a Sony or Canon camera to Resolve for live image capture, while adjusting settings like ISO, exposure and white balance. You can save capture presets to &#34;lock in a consistent look before customers shoot,&#34; according to Blackmagic. 
+Other Resolve tools also work with the Photo page, like the AI Magic Mask that lets you make one click selections of an object or person. It&#39;s also possible to do advanced VFX on still photos using Resolve&#39;s Fusion page, or add OpenFX or FusionFX filters directly on the Photo page. Finally, you can collaborate with others using Blackmagic Cloud, thought that does require a paid subscription. 
+I briefly tested the color tool and, as someone who&#39;s admittedly familiar with DaVinci Resolve, I found it easy to grasp. It&#39;s simple to import and organize images (easier than Lightroom in my opinion) and is as powerful as Lightroom&#39;s Develop page for most adjustments, though I really missed the latter&#39;s &#34;Clarity&#34; tool. The node based workflow is powerful, and Resolve makes it easier to apply adjustments to multiple images. When you&#39;re ready to export, that&#39;s done through a special photo-only version of the &#34;Export&#34; page and is relatively intuitive as well. Whether or not I&#39;ll cancel my Photoshop/Lightroom subscription remains to be seen, however. 
+Blackmagic Design
+On top of the Photo page, Blackmagic Design introduced a number of new tools for video and VFX as well. Among the most interesting ones are a series of AI tools for facial adjustments. The AI Face Age Transformer tools lets you analyze a face, enter the subject&#39;s age and adjust the age offset slider to add things like wrinkles and facial fullness. You can also change the way a subject looks through the AI Face Reshaper tool that lets you adjust the eyes, nose, mouth, eyebrows and overall face shape. Plus, you get an AI Blemish Removal feature that reduces the appearance of superficial skin imperfections like acne, discoloration and large pores, while retaining the skin&#39;s natural texture. 
+Another tool that will no doubt get used a lot is AI UltraSharpen that can upscale video &#34;to make previously unusable footage sharp in higher resolutions,&#34; according to the company. It can also be used to improve slight focus errors. Meanwhile, the AI Motion Deblur fixes slightly blurred images, making it particularly useful for slow motion and freeze frame shots. 
+Other key new upgrades, to name just a few, include the ability to edit Fusion effects from within the Cut and Edit pages, the addition of the Krokodove library of compositing tools and new immersive VR tools for delivery to platforms like Meta Quest and YouTube VR. Most of the new features are available in Blackmagic Design&#39;s free version of DaVinci Resolve, though a couple of tools (AI Magic Mask and Film Look Creator) are only available with the paid, $295 DaVinci Resolve Studio version. A complete list of new features is here and you can download the free and paid versions here. 
+
+This article originally appeared on Engadget at https://www.engadget.com/apps/blackmagics-davinci-resolve-21-takes-on-adobe-lightroom-with-a-new-photo-page-053034084.html?src=rss",https://o.aolcdn.com/images/dims?image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-04%2Fc247c7b0-37ad-11f1-bab6-d2f5887ab972&resize=1400%2C787&client=19f2b5e49a271b2bde77&signature=0deea654a71e0e5616b948042c5df04383c8363a,https://www.engadget.com/apps/blackmagics-davinci-resolve-21-takes-on-adobe-lightroom-with-a-new-photo-page-053034084.html?src=rss,http://www.engadget.com/rss-full.xml,2026-04-14T05:30:34Z,11,Tech
 An Amazon warehouse worker died on the job at Oregon facility,"Though Amazon has faced issues with warehouse safety, the company said that the death was not work related.",,https://techcrunch.com/2026/04/13/an-amazon-warehouse-worker-died-on-the-job-at-oregon-facility/,https://techcrunch.com/feed/,2026-04-14T00:26:18Z,5,Tech
 OpenAI has bought AI personal finance startup Hiro,The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.,,https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/,https://techcrunch.com/feed/,2026-04-14T00:23:33Z,11,Tech
 Daniel Moreno-Gama is facing federal charges for attacking Sam Altman&#8217;s home and OpenAI’s HQ,"Daniel Moreno-Gama is now facing federal charges after allegedly traveling from Texas to California with the intent to kill OpenAI CEO Sam Altman. On April 10th, he was arrested after throwing a Molotov cocktail at OpenAI CEO Sam Altman&#39;s home and attempting to break into OpenAI&#39;s headquarters. According to prosecutors, at the HQ, &#34;Moreno-Gama attempted […]",,https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack,https://www.theverge.com/rss/index.xml,2026-04-14T00:02:38Z,5,Tech
