@@ -1,6 +1,701 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield,"The window is almost shut. On August 19, eight startups will take the stage at Stripe Tour Sydney in front of investors, global press, and the Australian tech community. One startup walks away with automatic entry into TechCrunch Disrupt in San Francisco — no application, no further competition, a guaranteed spot on the world’s most […]",,https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/,https://techcrunch.com/feed/,2026-07-17T23:08:00Z,4,Tech
+"Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs","From AI workflows to battery life and security, here&#39;s what it&#39;s really like to live with Vertu&#39;s luxury foldable every day.",,https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/,https://techcrunch.com/feed/,2026-07-17T22:55:09Z,5,Tech
+"Databricks hits $188B valuation, extending its run as AI’s favorite second act",Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.,,https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/,https://techcrunch.com/feed/,2026-07-17T22:12:56Z,5,Tech
+Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak,"Food producer Taylor Farms released a statement on the Cyclospora outbreak Friday, confirming that it&#39;s &#34;voluntarily removing all iceberg lettuce sourced from central Mexico from the US market.&#34; Reuters reports that, according to a source, Taylor Farms told customers like Yum Brands owner Taco Bell and the food distributor Sysco on Thursday to pull shredded […]",,https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce,https://www.theverge.com/rss/index.xml,2026-07-17T22:09:47Z,0,Tech
+"The Zoom hack that says, ‘Don’t record me’","If every meeting, watercooler conversation, and date gets transcribed and summarized, who&#39;s actually reading any of it?",,https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/,https://techcrunch.com/feed/,2026-07-17T21:20:47Z,0,Tech
+New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code,"An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.
+
+Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system.
+
+Adam Kues at Assetnote, Searchlight Cyber&#39;s attack surface management arm, found the flaw and reported",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s1600/wordpress-core.jpg,https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T21:20:10Z,6,Cybersecurity
+Abbott Laboratories probes two cyber incidents amid extortion claims,"Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]",,https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/,https://www.bleepingcomputer.com/feed/,2026-07-17T20:45:52Z,9,Cybersecurity
+OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests,"Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.
+
+OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta&#39;s Red Team, which reported the denial-of-service bug and named it, published the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s1600/openssl.jpg,https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T20:20:53Z,4,Cybersecurity
+Agility Robotics plants its flag in Tesla’s backyard,"Agility is opening a new training center for its Digit robots in Fremont, California. ",,https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/,https://techcrunch.com/feed/,2026-07-17T20:19:49Z,8,Tech
+Shark&#8217;s versatile ChillPill cooling system is back to its best price,"Portable fans are one of the easiest ways to stay cool during the summer, and you don’t have to spend much to find a decent one. If you’re looking for something more versatile, though, Shark’s ChillPill Personal Fan and Cooling System combines a rechargeable fan with a dry-touch evaporative mister in a design that can […]",,https://www.theverge.com/gadgets/967512/shark-chillpill-personal-fan-and-cooling-system-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-17T20:15:54Z,0,Tech
+AI-driven memory crunch jolts India’s smartphone market,"India&#39;s smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",,https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/,https://techcrunch.com/feed/,2026-07-17T20:09:27Z,5,Tech
+"Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",The FireSat program can spot wildfires that other satellites miss.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/Operational-FireSat-satellites-1152x648.png,https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/,https://arstechnica.com/feed/,2026-07-17T19:50:18Z,0,Tech
+Apple and Google ordered to purge ‘nudify’ apps from App Stores,"In letters sent to Apple and Google, San Francisco City Attorney David Chiu said that both companies have long been aware that they are hosting apps in violation of state law. ",,https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/,https://techcrunch.com/feed/,2026-07-17T19:49:53Z,6,Tech
+TikTok is testing an AI likeness detection tool,"TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with &#34;some&#34; US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool […]",,https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool,https://www.theverge.com/rss/index.xml,2026-07-17T19:34:30Z,5,Tech
+Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation,"The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices.",,https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/,https://techcrunch.com/feed/,2026-07-17T19:22:00Z,11,Tech
+The Pentagon's Space Development Agency hasn't moved as fast as anyone would like,&#34;Missiles are being launched at the joint force every single day in [Operation] Epic Fury.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/tranche1_york_launch3-1152x648.jpg,https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/,https://arstechnica.com/feed/,2026-07-17T19:19:42Z,0,Tech
+Pebble founder Eric Migicovsky says his 30-day warranty is all about trust,"Pebble founder Eric Migicovsky says buyers of its new e-paper smartwatches should know what they&#39;re signing up for and trust Pebble to make things right if they run into issues, despite the short warranty. &#34;I think the most important thing is trust,&#34; Migicovsky told me in an interview this week. &#34;Do people trust the product […]",,https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview,https://www.theverge.com/rss/index.xml,2026-07-17T19:14:42Z,0,Tech
+Zoox issues software recall because its robotaxis may be confused by smoke,The NHTSA recently called for autonomous vehicle companies to improve how cars respond in emergency situations.,https://www.engadget.com/img/gallery/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke/l-intro-1784315369.jpg,https://www.engadget.com/2217803/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke/,http://www.engadget.com/rss-full.xml,2026-07-17T19:10:22Z,1,Tech
+Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT,"Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.
+
+The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an &#34;unprecedented&#34; four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA07xA1INXGKM7Z2LQ6zk2IFE_Hb_aDQNHmSfPtJkZY5Gzo2U2_cyflorBsU76hbXK8SwKXR5AmkK5dAAd9uw0wRh6gYaC-5ZPjT6kEdvE7rO-5G0TxXm8a-eytoygZOMuSG-aOnYkC_zTVbnxSq7zxaIFYyLcegbQ59WVztRO-y3MHmce7XuDz2SdVsKA/s1600/vite-npm.jpg,https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T18:54:51Z,5,Cybersecurity
+The Odyssey in IMAX is worth a long journey of your own,The Odyssey in IMAX is worth a long journey of your own.,https://www.engadget.com/img/gallery/the-odyssey-in-imax-is-worth-a-long-journey-of-your-own/l-intro-1784314353.jpg,https://www.engadget.com/2217775/the-odyssey-in-imax-is-worth-a-long-journey-of-your-own/,http://www.engadget.com/rss-full.xml,2026-07-17T18:54:20Z,0,Tech
+"Hegseth wants a ""High-T"" military; doctors call it a clinical minefield",&#34;We&#39;re turning the clock back on rational healthcare.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2283762622-1152x648.jpg,https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/,https://arstechnica.com/feed/,2026-07-17T18:53:11Z,0,Tech
+Taco Bell iceburg lettuce identified as source of cyclosporiasis in 5 states,"Don&#39;t eat Taco Bell lettuce in Indiana, Kentucky, Michigan, Ohio, or West Virginia.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2286083551-1-1024x648.jpg,https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/,https://arstechnica.com/feed/,2026-07-17T18:45:23Z,0,Tech
+Apple Music and Apple One prices rise for the first time in years,Apple is blaming an Apple Music price hike on &#34;rising licensing costs.&#34;,https://www.engadget.com/img/gallery/apple-music-and-apple-one-prices-rise-for-the-first-time-in-years/l-intro-1784313217.jpg,https://www.engadget.com/2217745/apple-music-and-apple-one-new-price-increase/,http://www.engadget.com/rss-full.xml,2026-07-17T18:35:07Z,1,Tech
+Is the Apple TV 4K still worth buying after the price hike?,Apple&#39;s streaming box is now much more expensive than comparable alternatives. Should you opt for a Fire TV or Roku instead?,https://www.engadget.com/img/gallery/is-the-apple-tv-4k-still-worth-buying-after-the-price-hike/l-intro-1783691703.jpg,https://www.engadget.com/2212812/is-apple-tv-4k-worth-after-price-hike/,http://www.engadget.com/rss-full.xml,2026-07-17T18:30:00Z,1,Tech
+Apple Music is getting a price hike,"Apple Music is more expensive now. In the US, an individual plan now costs $11.99 per month, a $1 bump up from the previous $10.99 price. A family plan now costs $19.99 per month, up from $16.99, and a student plan costs $6.99 per month, up from $5.99. Apple, in a statement to Music Business […]",,https://www.theverge.com/tech/967379/apple-music-price-increase,https://www.theverge.com/rss/index.xml,2026-07-17T18:14:26Z,1,Tech
+"Here are the Samsung Galaxy Z Flip 8 and Z Fold 8 camera and battery specs, apparently","Camera upgrades in the Z Flip 8, Fold 8 and Fold 8 Ultra appear to be slim.",https://www.engadget.com/img/gallery/here-are-the-samsung-galaxy-z-flip-8-and-z-fold-8-camera-and-battery-specs-apparently/l-intro-1784311802.jpg,https://www.engadget.com/2217717/here-are-the-samsung-galaxy-z-flip-8-and-z-fold-8-camera-and-battery-specs/,http://www.engadget.com/rss-full.xml,2026-07-17T18:11:13Z,1,Tech
+I replaced my space heater and ceiling fan with one Dyson appliance,"Designed for year-round comfort, the Dyson Hot+Cool HF1 combines quiet operation and simple controls with Dyson&#39;s signature bladeless design.",,https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/,https://techcrunch.com/feed/,2026-07-17T18:00:17Z,1,Tech
+HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload,A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...],,https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/,https://www.bleepingcomputer.com/feed/,2026-07-17T17:56:21Z,6,Cybersecurity
+How Apple’s big lawsuit could disrupt OpenAI’s IPO plans,"Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s response so far has been carefully hedged, and the timing couldn’t be worse with the company reportedly eyeing an IPO […]",,https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/,https://techcrunch.com/feed/,2026-07-17T17:45:46Z,7,Tech
+Apple’s plot to crush OpenAI,"Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The […]",,https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast,https://www.theverge.com/rss/index.xml,2026-07-17T17:41:32Z,6,Tech
+The Trump administration’s global campaign against ‘radical left terrorism’ is built on a national security memo,"NSPM-7 marks a major conceptual shift in U.S. counterterrorism policy, departing from approaches that primarily targeted foreign threats.",,https://www.defenseone.com/ideas/2026/07/trump-terrorism-national-security-memo/414853/,https://www.defenseone.com/rss/all/,2026-07-17T17:37:07Z,0,Defense
+OnlyFans performers become unlikely allies of CISOs in securing websites,"
+		
+					  
+						
+
+
+
+
+CISOs at government organizations and universities have an unexpected ally coming to their aid: OnlyFans models.
+
+
+
+For some time, hackers have exploited weaknesses in the websites of universities or government departments to host scams or malware, using content stolen from the OnlyFans website as bait to attract victims.
+
+
+
+Now, according to security researchers at Upguard, the fightback has begun: creators of adult content on OnlyFans are leveraging Google search results and the protection offered by copyright law to break up the traffic distribution systems created by bad actors.
+
+
+
+These distribution systems work in three stages: entry points using adult or other content to attract and capture web traffic, a routing system sends it to destination sites, and those sites monetize the traffic through scams and malware. It has proved to be a lucrative business for the scammers.
+
+
+
+Google recognizes the approach and calls such actors SEO parasites as they benefit from the reputations of other organizations — in particular government or academic sites, which Google views as having high authority.
+
+
+
+Since the creators of OnlyFans content are also the copyright holders, they are able to issue Digital Millennium Copyright Act (DMCA) take-down notices for the stolen content posted by the bad actors to other sites. Upguard was able to track this through Google’s DMCA Transparency Report, and through the Lumen Database, another tracker of takedown notices, to which it was granted research access.
+
+
+
+“This allows us to identify likely compromised sites: government and university domains advertising unlicensed adult content,” Upguard said.
+
+
+
+The OnlyFans creators’ action has two benefits for the operators of the affected websites: The adult content associated with their domain disappears from Google search results, no longer affecting their reputation — and if they receive takedown notices for such content they can check their webservers for the vulnerabilities that enabled the bad actors to post it there in the first place.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4198478-0-60373300-1784309712-OnlyFan.jpeg?quality=50&strip=all,https://www.csoonline.com/article/4198478/onlyfans-performers-become-unlikely-allies-of-cisos-in-securing-websites.html,https://www.csoonline.com/feed/,2026-07-17T17:34:57Z,8,Cybersecurity
+New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens,"A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator&#39;s own dashboard claims 3,811 unique AWS keys.
+
+A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late.
+
+The intel feed behind that counter",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s1600/botnet-malware.jpg,https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T17:12:23Z,0,Cybersecurity
+Troubling new details emerge on diabetes ouster controversy,American Diabetes Association blocked publication of op-ed articles so the authors posted them as a preprint.,https://cdn.arstechnica.net/wp-content/uploads/2026/06/diabetes1-1152x648-1780778332.jpg,https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/,https://arstechnica.com/feed/,2026-07-17T17:08:05Z,5,Tech
+A bug in AWS has caused some customers' bills to spike from a few cents to billions of dollars,"&#34;The displayed billing estimates do not reflect actual usage and charges,&#34; Amazon said.",https://www.engadget.com/img/gallery/a-bug-in-aws-has-caused-some-customers-bills-to-spike-from-a-few-cents-to-billions-of-dollars/l-intro-1784307994.jpg,https://www.engadget.com/2217648/a-bug-in-aws-has-caused-some-customer-bills-to-spike-from-a-few-cents-to-billions-of-dollars/,http://www.engadget.com/rss-full.xml,2026-07-17T17:07:47Z,5,Tech
+Bethesda details what's next for Fallout and its other franchises amid Xbox cuts,"Obsidian is working on a new Fallout game, while Fallout 3 and New Vegas remasters are on the way.",https://www.engadget.com/img/gallery/bethesda-details-whats-next-for-fallout-and-its-other-franchises-amid-xbox-cuts/l-intro-1784307403.jpg,https://www.engadget.com/2217631/bethesda-details-whats-next-for-fallout-and-its-other-franchises-amid-xbox-cuts/,http://www.engadget.com/rss-full.xml,2026-07-17T16:58:08Z,5,Tech
+Asus’ top-end 4K QD-OLED gaming monitor is $400 off,"The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond what’s possible on an LCD screen. Amazon, Best Buy, and B&amp;H Photo have this model on sale for $899.99 (usually $1,299.99). […]",,https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-17T16:47:13Z,0,Tech
+The cost of saying yes has changed,"The cost of writing code dropped; the cost of owning it didn&#39;t. A framework for deciding which changes are actually cheap in the AI era.
+The post The cost of saying yes has changed appeared first on The GitHub Blog.
+",,https://github.blog/engineering/the-cost-of-saying-yes-has-changed/,https://githubengineering.com/atom.xml,2026-07-17T16:46:47Z,0,General
+Will Russia's answer to the Falcon 9 rocket ever take flight?,Grasshopper-like tests could begin in 2028.,https://cdn.arstechnica.net/wp-content/uploads/2020/10/EjqIBa_XkAAANsK-1152x648-1784306489.jpg,https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/,https://arstechnica.com/feed/,2026-07-17T16:42:19Z,0,Tech
+GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft,"Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.
+
+Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s1600/digicert-hack.jpg,https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T16:39:16Z,8,Cybersecurity
+Fubo hikes prices by $15 after restoring some NBCU channels lost in November,Fubo subscribers still don&#39;t have Versant channels. ,https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2022925606-1152x648-1751910061.jpg,https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/,https://arstechnica.com/feed/,2026-07-17T16:24:21Z,0,Tech
+FBI arrests man accused of using Steam games to drain victims’ crypto wallets,"Prosecutors accused 21-year-old student Zyaire Wilkins of publishing on Steam several fake video games that contained malware, infecting thousands of victims, and stealing crypto from some of them.",,https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/,https://techcrunch.com/feed/,2026-07-17T16:18:09Z,5,Tech
+Parents want safer phones for kids. These companies are answering the call.,"As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",,https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/,https://techcrunch.com/feed/,2026-07-17T16:12:46Z,0,Tech
+Apple and Google ordered by San Francisco attorney to take action against 'nudify' apps,Google and Apple were sent cease-and-desist letters regarding 13 apps on their respective stores.,https://www.engadget.com/img/gallery/apple-and-google-ordered-by-san-francisco-attorney-to-take-action-against-nudify-apps/l-intro-1784304553.jpg,https://www.engadget.com/2217578/apple-and-google-ordered-by-san-francisco-attorney-to-take-action-against-nudify-apps/,http://www.engadget.com/rss-full.xml,2026-07-17T16:10:18Z,6,Tech
+"Apple, Google must stop profiting off AI nudify apps, San Francisco AG says",Official estimates Google and Apple likely made millions in nudify app fees.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2216100332-1024x648.jpg,https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/,https://arstechnica.com/feed/,2026-07-17T16:10:05Z,6,Tech
+Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked,"Leaker Evan Blass shared images of Samsung&#39;s redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images show a shorter, wider foldable matching earlier leaks of the Z Fold 8. They also reveal some of its specs, including a Qualcomm […]",,https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak,https://www.theverge.com/rss/index.xml,2026-07-17T15:52:50Z,0,Tech
+"Ars is looking for a senior technology reporter, and you might be it!","Desktops, laptops, phones, CPUs, GPUs, NAS—if you know this stuff, come work for us!",https://cdn.arstechnica.net/wp-content/uploads/2022/06/ars-writer-pen-1152x648.jpg,https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/,https://arstechnica.com/feed/,2026-07-17T15:52:28Z,0,Tech
+Is America ready for this quirky Jeep-looking EV that can park itself?,"Are we living through a small car renaissance? There&#39;s the Slate Truck, Amble&#39;s dune buggy, and the Fiat Topolino, as well as a whole galaxy of kei cars and trucks from Japan that have their own built-in fan base. While microcar sales in the US are still as tiny as the vehicles themselves, there are […]",,https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price,https://www.theverge.com/rss/index.xml,2026-07-17T15:48:39Z,5,Tech
+"Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware","Federal authorities have arrested a Florida man suspected of stealing at least $220,000 in crypto through malware-infected Steam games, as reported earlier by local news outlet Local10. In the complaint, officials accuse 21-year-old Zyaire Wilkins and co-conspirators of launching eight malware-embedded games from around May 2024 to February 2026, allowing them to infect about 8,000 […]",,https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest,https://www.theverge.com/rss/index.xml,2026-07-17T15:34:35Z,5,Tech
+Amazon fixing bug that billed some AWS customers billions of dollars,Some Amazon customers logged on Friday to a surprise bill estimate claiming that they owed the tech and cloud giant billions in fees.,,https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/,https://techcrunch.com/feed/,2026-07-17T15:29:21Z,8,Tech
+Patreon stops asking AI bots not to scrape — and starts blocking them,Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.,,https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/,https://techcrunch.com/feed/,2026-07-17T15:21:17Z,8,Tech
+"Samsung's Freestyle+ projector is now available for $1,200",Samsung&#39;s Freestyle+ projector is a tiny unit which can play movies on the most uneven of surfaces.,https://www.engadget.com/img/gallery/samsungs-freestyle-projector-is-now-available-for-1200/l-intro-1784288521.jpg,https://www.engadget.com/2217299/samsung-freestyle-plus-projector/,http://www.engadget.com/rss-full.xml,2026-07-17T15:00:00Z,5,Tech
+Caviar is selling a ridiculous Lionel Messi-themed Galaxy Z Fold 8 Ultra a week before its official unveiling,"And if you want one, you better save up, because it costs a cool $13,130.",https://www.engadget.com/img/gallery/caviar-is-selling-a-ridiculous-lionel-messi-themed-galaxy-z-fold-8-ultra-a-week-before-its-official-unveiling/l-intro-1784300169.jpg,https://www.engadget.com/2217484/caviar-lionel-messi-samsung-galaxy-z-fold-8-ultra/,http://www.engadget.com/rss-full.xml,2026-07-17T14:58:39Z,0,Tech
+Ernst & Young discloses data breach after support system hack,Ernst &amp; Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...],,https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/,https://www.bleepingcomputer.com/feed/,2026-07-17T14:55:28Z,4,Cybersecurity
+Remarkable’s new Paper Pure is good. That’s why I wrote this review on it.,"Remarkable&#39;s Paper Pure replaces Remarkable 2, and it is quite good.",,https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/,https://techcrunch.com/feed/,2026-07-17T14:47:27Z,1,Tech
+"Google must open Android to rival AI agents, EU orders","
+		
+					  
+						
+
+
+
+
+The European Union is stepping up its actions against US tech giants under the Digital Markets Act, which is intended to ensure fair competition between digital platforms. On Thursday, the European Commission issued two rulings to limit Google’s dominance.
+
+
+
+The Commission ordered Google to open up the Android operating system to AI assistants other than its own Gemini, ensuring that they had the same access to applications and operating system services. A second ruling ordered Google to share search data that only it is big enough to collect with other search engines.
+
+
+
+Google has hit back at the measures, warning that they could create security issues for users. “Today’s decisions risk undermining vital privacy and security guardrails for millions of Europeans. We have repeatedly offered solutions to safeguard users while satisfying the DMA’s goals, but these rulings discount extensive evidence of user harm,” said Kent Walker, Google’s President of Global Affairs, in a company blog post.
+
+
+
+The EU move doesn’t just cause problems for Google but for CISOs as well, warned Roman Stanek, CEO of Good Data AI. “Enterprise security has always leaned on a simple assumption, that apps are boxes, and the OS decides what crosses the box. But once multiple agents get equal system-level reach, access to screen context, cross-app actions, background execution, that assumption breaks.
+
+
+
+“CISOs need to stop treating ‘AI assistant’ as a single, well-understood permission and start treating it as a category risk, one they have to govern like they govern app stores and MDM policies today. That requires device policies that name which agents can hold system-level permissions, not just which apps are installed. It means DLP and conditional access rules that account for an agent reading and acting on data, not just an app requesting it.,” he said.
+
+
+
+This article first appeared on Computerworld.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4198425-0-00196300-1784299138-shutterstock_2548864541.jpg?quality=50&strip=all,https://www.csoonline.com/article/4198425/google-must-open-android-to-rival-ai-agents-eu-orders-2.html,https://www.csoonline.com/feed/,2026-07-17T14:38:41Z,9,Cybersecurity
+"No product? No problem. This Disrupt 2026 session shows how to get pre-seed funding with conviction, storytelling","It’s not just you: AI startups are taking in a huge amount of seed funding, and in the process making things harder for anyone looking for funding even at a pre-seed stage. We’ve covered the trend in detail, and at this year’s TechCrunch Disrupt event, we want to help pre-seed founders now being held to seed-stage […]",,https://techcrunch.com/2026/07/17/no-product-no-problem-this-disrupt-2026-session-shows-how-to-get-pre-seed-funding-with-conviction-storytelling/,https://techcrunch.com/feed/,2026-07-17T14:30:00Z,11,Tech
+"In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint","Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach.
+The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek.
+",,https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/,https://www.securityweek.com/feed/,2026-07-17T14:27:54Z,14,Cybersecurity
+Zoox issues software recall after a robotaxi got confused by heavy smoke,The recall comes as the top automotive safety regulator in the U.S. has warned AV companies about their vehicles interfering with first responders. ,,https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/,https://techcrunch.com/feed/,2026-07-17T14:12:02Z,1,Tech
+Over half a million power tool batteries have been recalled due to a USB-C charging fire risk,"Greenworks Tools has issued a recall for around 554,780 Kobalt-branded power tools designed for yard work because of a battery issue &#34;posing a risk of serious injury from fire hazard.&#34; There have been 34 reports of the tool&#39;s batteries &#34;producing smoke, sparking or catching fire while the batteries are inserted in the tool and charging […]",,https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall,https://www.theverge.com/rss/index.xml,2026-07-17T14:05:29Z,0,Tech
+Bethesda teases Fallout 5 soon after Xbox’s mass layoffs,"Xbox is currently in a &#34;reset&#34; period that includes laying off around 3,200 employees over the next year, involving deep cuts at beloved studios like id Software and Obsidian Entertainment. Now, in an attempt to show that things are still running fine, the company has announced a slate of upcoming projects at Bethesda Game Studios […]",,https://www.theverge.com/entertainment/966724/fallout-5-bethesda,https://www.theverge.com/rss/index.xml,2026-07-17T14:00:37Z,6,Tech
+"Inside the Search for ""Clean"" Residential Proxies for Carding","Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek &#34;clean&#34; residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]",,https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/,https://www.bleepingcomputer.com/feed/,2026-07-17T14:00:10Z,0,Cybersecurity
+The manosphere&#8217;s testosterone fever is coming for the troops,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. I was in the middle of writing a different Optimizer column this week when I learned that Pete Hegseth is […]",,https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops,https://www.theverge.com/rss/index.xml,2026-07-17T14:00:00Z,1,Tech
+Engadget Podcast: Is Siri AI actually useful in iOS 27 and macOS Golden Gate?,"Also, we try to make sense of OpenAI&#39;s rumored AI smart speaker.",https://www.engadget.com/img/gallery/engadget-podcast-is-siri-ai-actually-useful-in-ios-27-and-macos-golden-gate/l-intro-1784296351.jpg,https://www.engadget.com/2217377/engadget-podcast-is-siri-ai-actually-useful-in-ios-27-and-macos-golden-gate/,http://www.engadget.com/rss-full.xml,2026-07-17T14:00:00Z,6,Tech
+Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images,"North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges.
+
+&#34;Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizZ8fzXjkeMlk_f1TKWczz8e4GHbNGTRPmaXHDPi86v4Ep0BqvGpKpOtpP_mtnHihu7kbII2nMxqQnQbjAhQkv6lkemsoIlzzS925QJKqkU5tgFHTxtSuRBllSUeZ3gpkJa51TAcggrQanY873B173p_hA-ow4sgftGDp4UgD3Torp7KswNuBp93-YOre5/s1600/northkorean-hacker.jpg,https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T13:48:56Z,6,Cybersecurity
+What India’s Operation­alization of Integrated Battle Groups Means for Pakistan,"Since the inception of the IBGs, they have been framed as formations to launch offensive operations against Pakistan under the nuclear overhang. Now they are finally a reality.",https://images.thediplomat.com/v1/td-list-l-2/2022/03/thediplomat_2022-03-18-120623.jpg,https://thediplomat.com/2026/07/what-indias-operationalization-of-integrated-battle-groups-means-for-pakistan/,https://thediplomat.com/category/asia-defense/feed/,2026-07-17T13:48:00Z,0,Defense
+God of War show recasts Kratos after Ryan Hurst sustains an injury on set,The Prime Video series will reshoot episodes with a new lead actor. ,https://www.engadget.com/img/gallery/god-of-war-show-recasts-kratos-after-ryan-hurst-sustains-an-injury-on-set/l-intro-1784295465.jpg,https://www.engadget.com/2217362/god-of-war-prime-video-show-recasts-kratos-ryan-hurst-injury-on-set/,http://www.engadget.com/rss-full.xml,2026-07-17T13:40:33Z,5,Tech
+Most smart appliances collect data: Here's how to find out what yours tracks,"There&#39;s truth to the idea that our devices are spying on us. Smart fridges, washing machines and dishwashers are no exception.",https://www.engadget.com/img/gallery/most-smart-appliances-collect-data-heres-how-to-find-out-what-yours-tracks/l-intro-1783532434.jpg,https://www.engadget.com/2210745/smart-appliances-data-transmission-weekly/,http://www.engadget.com/rss-full.xml,2026-07-17T13:30:00Z,1,Tech
+Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM,"Last year, Microsoft&#39;s 13-inch Surface Laptop quickly became one of my favorite thin-and-light Windows notebooks. At $900, it was easy to recommend to anyone wanting MacBook Air-like build quality and battery life on Windows - I even convinced my sister to buy one on sale. But that was last year. This year, thanks to RAMageddon, […]",,https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review,https://www.theverge.com/rss/index.xml,2026-07-17T13:30:00Z,5,Tech
+EU defangs a key pillar of its climate policy to allow more pollution,Europe&#39;s latest updates to its climate policy aren&#39;t great news for the planet.,https://www.engadget.com/img/gallery/eu-defangs-a-key-pillar-of-its-climate-policy-to-allow-more-pollution/l-intro-1784293090.jpg,https://www.engadget.com/2217325/eu-defangs-key-pillar-of-its-climate-policy-to-allow-more-pollution/,http://www.engadget.com/rss-full.xml,2026-07-17T13:01:30Z,1,Tech
+Trump is selling high-speed access to his market-moving Truth Social posts,"Trump Media, the company behind Truth Social, is selling Wall Street faster access to the &#34;most market-moving&#34; posts on the US President&#39;s social media platform. On Thursday, Trump Media announced plans to launch &#34;Truth API,&#34; a licensed real time data feed for businesses that provides &#34;the fastest access to Truth Social&#39;s most influential accounts.&#34; It […]",,https://www.theverge.com/policy/967020/trump-truth-social-api-wall-street-traders,https://www.theverge.com/rss/index.xml,2026-07-17T12:49:57Z,0,Tech
+"Xreal XBX a01+ review: Astoundingly bright, lightweight AR glasses for $299",Xreal&#39;s XBX a01+ is the best pair of budget AR glasses we&#39;ve seen yet.,https://www.engadget.com/img/gallery/xreal-xbx-a01-review-astoundingly-bright-and-light-ar-glasses-for-299/l-intro-1784234210.jpg,https://www.engadget.com/2217308/xreal-xbx-a01-review/,http://www.engadget.com/rss-full.xml,2026-07-17T12:30:01Z,6,Tech
+New CISO appointments 2026,"
+		
+					  
+						
+
+
+
+
+The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security officer (CISO) for the first time to support a deeper commitment to information security.
+
+
+
+Follow this column to keep up with new appointments to senior-level security roles and perhaps gain a little insight into hiring trends. If you have an announcement of your own that you would like us to include here, contact Peter Sayer, executive editor of news, at peter_sayer@foundryco.com.
+
+
+
+New CISO appointments in July 2026
+
+
+
+Datavault AI appoints Barry Childe CISO
+
+
+
+Barry Childe, a co-founder of quantum encryption company Arqit, has joined Datavault AI as CISO. Childe previously served as a distinguished engineer at HSBC, and held other senior technology roles at Barclays Capital and VMware.
+
+
+
+Jason Cradit joins EverLine as CISO and CTO
+
+
+
+Critical infrastructure technical services provider EverLine has hired Jason Cradit as CISO and CTO. Cradit has previously held leadership roles in consulting, software, and infrastructure operations, and founded software vendor Pivvot. 
+
+
+
+New CISO appointments in June 2026
+
+
+
+Infoblox names Henrik Smith CISO
+
+
+
+Former Amazon executive Henrik Smith has joined security platform vendor Infoblox as CISO. Smith most recently served as head of security for devices and systems at Amazon, and prior to that was vice-president of security at Salesforce.Former Amazon executive Henrik Smith has joined security platform vendor Infoblox as CISO. Smith most recently served as head of security for devices and systems at Amazon, and prior to that was vice-president of security at Salesforce.
+
+
+
+GitLab hires Chaim Mazal as CISO
+
+
+
+Chaim Mazal, previously chief AI and security officer at Gigamon, has joined GitLab as CISO. He’s been a GitLab customer for over eight years, and moved into the CISO role after serving on the company’s advisory board.
+
+
+
+Paras Malhotra joins Starburst as CISO
+
+
+
+Enterprise intelligence platform Starburst has hired Paras Malhotra as CISO. He previously served as senior director of information security at Datadog and, prior to that, held a variety of security roles at AWSAmazon Web Services.
+
+
+
+Socure hires Mark Carter as CISO
+
+
+
+Mark Carter has joined identity infrastructure provider Socure as CISO. He has previously worked as CISO at Navan, Tesla, and Vimeo.
+
+
+
+SolarWinds appoints Justin Henkel as CISO
+
+
+
+IT management software vendor SolarWinds has named Justin Henkel its new CISO. Henkel was previously deputy CISO at OneTrust, and before that spent 25 years as an intelligence officer in the US Air Force.
+
+
+
+New CISO appointments in May 2026
+
+
+
+Backstory names Victor Chang CISO
+
+
+
+Backstory, formerly People.ai, has appointed Victor Chang as CISO. Chang has previously served as CISO at Amdocs, among other senior security roles.
+
+
+
+Adam Dimopoulos is Entrust’s new CISO
+
+
+
+Entrust has appointed former Synchrony VP of Information Security Adam Dimopoulos as its new CISO. Dimopoulos has also previously worked in advisory roles at Microsoft and Gartner.
+
+
+
+New CISO appointments in March 2026
+
+
+
+Kathy Wang joins micro1 as CISO
+
+
+
+Frontier AI model training company micro1 has hired Kathy Wang as CISO. She was most recently CISO at hospitality software developer Otelier, and has previously held top cybersecurity roles at Discord and GitLab.
+
+
+
+Green Impact Exchange names John Visneski CISO
+
+
+
+John Visneski has joined stock exchange operator Green Impact Exchange as CISO. He was previously CISO at MGM Studios, and following that company’s acquisition by Amazon became head fo security for mergers and acquisitions. His cybersecurity career began with the US Air Force, where he served as cyber advisor to the Secretary and Chief of Staff of teh Air Force.
+
+
+
+New CISO appointments in January 2026
+
+
+
+Julien Mousqueton joins Cohesity as field CISO for Europe
+
+
+
+Data security firm Cohesity has hired Julien Mousqueton as field CISO for Europe. His previous role was as CTO at IT service provider Computacenter. He is a reservist advisor for OFAC, the French national police force’s anti-cybercrime division, and created the real-time ransomware activity-tracking platform ransomware.live.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/07/4186743-0-76064400-1784291136-shutterstock_2460694851.jpg?quality=50&strip=all,https://www.csoonline.com/article/4186743/new-ciso-appointments-2026.html,https://www.csoonline.com/feed/,2026-07-17T12:25:20Z,13,Cybersecurity
+"Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive","(Video) Artificial intelligence is transforming cybersecurity, but are governance, compliance, and security practices evolving fast enough to keep up?
+The post Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive appeared first on SecurityWeek.
+",,https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/,https://www.securityweek.com/feed/,2026-07-17T12:11:22Z,3,Cybersecurity
+Why the first GPU financiers are turning to inference chips in a $400 million deal,A $400 million chip-backed loan points to the next wave of AI infrastructure deals.,,https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/,https://techcrunch.com/feed/,2026-07-17T12:00:00Z,5,Tech
+"E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants","The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing.
+
+Google has to ship it in the next major release, Android 18, and by 1 August 2027 at",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUt3BtyXt68oBeDmMvhp3Sg9c8WNu5xCMYsjqNGGg1A84ykQQ3qpk3Kfsq-msZGxHxtu-gZjML5fDvgV7CoakS6D-_-h2oWAd4m8b4dIS9p1C_003gGvCmg1SDwE7HYc64tdglQW5JWq6XYfssJibuxnxwtd7pu7fbvvkzDIPqdBOQwguwPKAXC2zVOU/s1600/google-android.jpg,https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T11:44:41Z,0,Cybersecurity
+Beacon Security Raises $13 Million for Security Data Platform,"The startup helps organizations detect, hunt, and protect their assets across environments at machine speed.
+The post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.
+",,https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/,https://www.securityweek.com/feed/,2026-07-17T11:43:36Z,2,Cybersecurity
+"National Academies: Climate attribution is maturing, but still has limits",New report says our ability to tie weather damages to climate change is improving.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1167319798-1152x648.jpg,https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/,https://arstechnica.com/feed/,2026-07-17T11:30:10Z,0,Tech
+"The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?","Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how capability is delivered, rewarding programs that can move from concept to operational deployment at commercial speed.
+
+Now the focus shifts to the trusted",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaAyl6VLjAoHLEWzLPM62KM5v2ZmVOpPaZ8aA6Vxg2Ujn9iFLG02jpev-qcB_S3eTwxQAHb7Sf3BJQAc8xs_o3-7UcgQy5N1-4EqnuBXZ31GKauhespgW1G0Fgg7CzaLWk-cOJx8Bm6lQFPZROumwK-URHjQvJsyYhxjiEHHeia-vCh3rqeNYo3p2L-fI/s1600/military.jpg,https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T11:30:00Z,0,Cybersecurity
+Tesla's selling a $225 balance bike for toddlers,"Tesla&#39;s Autopilot may fail to recognize children at times, but the company certainly recognizes their potential as future buyers.",https://www.engadget.com/img/gallery/teslas-new-balance-bike-gets-kids-into-the-brand-at-a-young-age/l-intro-1784287132.jpg,https://www.engadget.com/2217296/tesla-balance-bike/,http://www.engadget.com/rss-full.xml,2026-07-17T11:22:07Z,5,Tech
+FCC took pricey gifts from Paramount as the company needed approval for deals,"FCC chair has been gifted at least $63,000 worth of tickets by CBS or its parent company.",https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-2250240969-1024x648.jpg,https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/,https://arstechnica.com/feed/,2026-07-17T11:15:55Z,6,Tech
+Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday,"Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI.
+The post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first on SecurityWeek.
+",,https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/,https://www.securityweek.com/feed/,2026-07-17T11:08:04Z,1,Cybersecurity
+New Windows LegacyHive zero-day gives hackers admin privileges,A security researcher using the &#34;Nightmare Eclipse&#34; handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...],,https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/,https://www.bleepingcomputer.com/feed/,2026-07-17T11:05:30Z,12,Cybersecurity
+2026 Lucid Gravity Touring review: A strong act 2,"Quick, comfortable, roomy, and agile for a large electric SUV.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/5F3A7900-1152x648.jpg,https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/,https://arstechnica.com/feed/,2026-07-17T11:00:30Z,1,Tech
+Rocket Report: India's Vikram-1 nears debut flight; AST to become rocket company?,&#34;We have done everything that could be done to test Vikram-1 on ground.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/HNXUiZqWEAEnWu_-1152x648.jpg,https://arstechnica.com/space/2026/07/rocket-report-indias-vikram-1-nears-debut-flight-ast-to-become-rocket-company/,https://arstechnica.com/feed/,2026-07-17T11:00:04Z,0,Tech
+The war on ‘woke science’ comes for space research,"The Trump administration is waging a culture war on science, and the latest salvo is in the form of a dry, bureaucratic proposal from the Office of Management and Budget (OMB) that could threaten the future of US science as we know it. The proposal would give political appointees unprecedented control over grant funding, the […]",,https://www.theverge.com/science/966711/omb-grant-science-space-nasa-planetary-society,https://www.theverge.com/rss/index.xml,2026-07-17T11:00:00Z,4,Tech
+"Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man","Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov.
+
+His wife, Maria Yurova, told REN TV that border officers pulled him out of the departure hall at Yerevan&#39;s Zvartnots airport, held up a phone with a photo of him off his VKontakte page, and walked him into a side",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuThPnDJrVLJe0_WqKVz_AE9vh2H5NFoGoYlcbqF99J6sjNeWxhrrAEZKsctTKWp4TaEQKQcsdejihH7wBzgS0eaiwJ9bp04rAo2H2d2C-aydo2wrPvhAQgRsP351HM-l0P3JBoHQkwwQPqKOSIaYLKQ4Dpb_F54BjqErS5AUa5Q9RAZttEZmK0Yvqwk/s1600/REvil-hacker.jpg,https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T10:53:31Z,3,Cybersecurity
+Signal is testing the ability to add an Android phone or tablet as a secondary device,Signal&#39;s latest beta comes with a feature that will make it easier to use the app on multiple devices.,https://www.engadget.com/img/gallery/signal-is-testing-the-ability-to-add-an-android-phone-or-tablet-as-a-secondary-device/l-intro-1784284695.jpg,https://www.engadget.com/2217286/signal-android-phone-tablet-secondary-device/,http://www.engadget.com/rss-full.xml,2026-07-17T10:39:48Z,1,Tech
+God Of War TV series is recasting Kratos,"Amazon&#39;s upcoming God Of War show has hit a major snag - it&#39;s now on the hunt for a new Kratos, after an on-set injury put its current lead actor out of commission. Sons of Anarchy star Ryan Hurst was originally cast for the role in January, with Deadline reporting that four episodes of the […]",,https://www.theverge.com/entertainment/966995/god-of-war-amazon-prime-video-kratos-ryan-hurst-recast,https://www.theverge.com/rss/index.xml,2026-07-17T10:14:04Z,0,Tech
+San Francisco Demands Apple and Google Delete AI ‘Nudify’ Apps From App Stores,The City Attorney’s Office sent the tech giants cease-and-desist letters this week telling them to stop profiting from 13 “face-swap” apps that are overwhelmingly used to target women and girls.,,https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/,https://www.wired.com/feed/category/security/latest/rss,2026-07-17T10:00:00Z,0,Cybersecurity
+Windows Server 2022 reach end of mainstream support in 90 days,"Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",,https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/,https://www.bleepingcomputer.com/feed/,2026-07-17T09:10:15Z,1,Cybersecurity
+Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei,"The company disconnected its systems on July 13 and is starting to gradually restore operations.
+The post Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei appeared first on SecurityWeek.
+",,https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/,https://www.securityweek.com/feed/,2026-07-17T09:06:27Z,4,Cybersecurity
+The SaaS blind spot: Why security teams can’t get inside their own apps,"
+		
+					  
+						
+
+
+
+
+Most organizations I work with have invested heavily in cloud security. They have endpoint detection tools, SIEM platforms, cloud security posture management, and skilled security teams running on a 24/7 shift. And yet, when I ask them a simple question — who has admin access in your Salesforce tenant right now? — The room goes quiet. Nobody knows. Not because they are negligent. Because they genuinely cannot see it.
+
+
+
+That is the SaaS blind spot.
+
+
+Figure 1: The Blind Spot and what SSPM covers.Ashish Mishra
+
+
+
+SaaS: Numbers speak volumes
+
+
+
+I ask this question in almost every engagement: how many SaaS applications does your organization run? The answers I get range from 30 to maybe 50. The real number, once someone counts, is usually north of three hundred. AppOmni’s 2024 research put it even higher — 49% of Microsoft 365 organizations believed they had fewer than ten apps connected to their tenant when the actual average was over a thousand.
+
+
+
+Here is the part that concerns me more than the count. Of all those applications, security teams have clear sight into maybe one in 10. The rest — where your customer records live, where your source code sits, where your financial reports get shared — nobody is watching. Not because the team is careless. Because the tools they have were never built to look there.
+
+
+
+The following incidents will discuss these realities.
+
+
+
+Salesforce in 2023
+
+
+
+In April 2023, KrebsOnSecurity broke the story — Salesforce Community sites were quietly leaking sensitive data belonging to government agencies, banks, and healthcare providers. No sophisticated attack technique. Just the right API endpoint and a misconfigured guest user profile. The exposed records included Social Security numbers, account details, and home addresses. Salesforce was clear in its response: this was not a platform vulnerability. Administrators had misconfigured guest access policies, and nobody had checked.
+
+
+
+Guest user profiles in Salesforce Communities can be granted access to data records. When administrators set those permissions too broadly — often without realizing it — unauthenticated external users can query that data straight through the API. Over 150,000 companies were potentially sitting in that window before anyone raised the alarm.
+
+
+
+The pattern is always the same. Configuration made under time pressure, default set slightly too permissive, nobody looks at it again. SaaS applications accumulate these quiet exposures over months and years.
+
+
+
+GitHub in 2022
+
+
+
+In April 2022, GitHub disclosed that an attacker had used stolen OAuth tokens — issued to Heroku and Travis CI — to access and download private repository contents from dozens of organizations, including npm. GitHub’s own systems were never touched. The tokens came from third-party applications that users had authorized to connect to their accounts, and those applications had been quietly compromised.
+
+
+
+The entry point was not GitHub. It was not even the organizations that lost their data. It was the CI/CD tools those organizations had connected to GitHub months or years earlier — tools that had been granted broad read and write permissions that were never revisited.
+
+
+
+That is the OAuth problem in plain terms. The moment you authorize a third-party application; its security posture becomes your problem too. Most organizations have dozens of these connections sitting open across their SaaS platforms — and no one reviewing them.
+
+
+ width=&#34;1024&#34; height=&#34;496&#34; sizes=&#34;auto, (max-width: 1024px) 100vw, 1024px&#34;&gt;Figure 2: The 2022 GitHub breach chain.Ashish Mishra
+
+
+
+Microsoft in 2023
+
+
+
+The Microsoft case from 2023 is the one I bring up when people assume this only happens to careless organizations. Wiz Research found that Microsoft’s own AI team had exposed 38TB of internal data — private keys, passwords, and more than 30,000 internal Teams messages — through a single misconfigured Azure access token. The token was supposed to share one training dataset on GitHub. Instead, it opened an entire storage account to anyone who found the link.
+
+
+
+What gets me about this one is the timeline. That token had been sitting there since October 2021. Nearly two years, inside Microsoft, before anyone caught it. If a team with that level of resources and expertise can leave a door open for two years, the idea that “we’d notice” is not much of a security strategy. And it’s worth noting — this wasn’t a database leak. It was Teams messages. The same collaboration tools your employees use every day are just as exposed as the platforms holding structured records.
+
+
+
+Why traditional security tools miss this
+
+
+
+Cloud Security Posture Management tools — CSPM — are designed to monitor infrastructure configuration: virtual machines, storage buckets, network rules, and IAM policies at the infrastructure level. They do an acceptable job at that layer. What they do not do is look inside SaaS applications. CISA’s Secure Cloud Business Applications (SCuBA) guidance specifically calls out the gap between infrastructure security tools and SaaS-layer visibility as one of the most under addressed areas in enterprise cloud security.
+
+
+
+This is the gap SSPM was built to close. Instead of watching infrastructure, it watches the configuration of the SaaS applications themselves — permissions, sharing settings, who has access to what. And the distinction is not just academic. Infrastructure misconfigurations tend to expose systems. SaaS misconfigurations tend to expose data — directly, quietly, and often without any detectable attack activity at all.
+
+
+Figure 3: The six core visibility capabilities of SSPM.Ashish Mishra
+
+
+
+What security teams should do now
+
+
+
+You do not need to deploy a full SSPM platform tomorrow to start closing the gap. There are practical steps that move the needle immediately.
+
+
+
+
+Audit connected OAuth applications across your primary SaaS platforms. Revoke any integration that cannot be justified by a current business need.
+
+
+
+Common source of public data exposure: Review guest and external sharing permissions in Salesforce Communities and Microsoft SharePoint.
+
+
+
+Check whether legacy authentication protocols are disabled in Microsoft 365. Legacy auth bypasses MFA and becomes a potential entry point in enterprise environments.
+
+
+
+Establish a quarterly access review for high-privilege accounts in SaaS applications. Most organizations run annual reviews at best — that is not frequent enough for platforms that change configuration daily.
+
+
+
+A map of which SaaS applications hold sensitive data, and which have no security team ownership at all. That list will be longer than you expect.
+
+
+
+
+The core issue is not that organizations are careless. It is that they have built security programs around the perimeter and the infrastructure, and SaaS applications grew up inside that perimeter without ever being brought into scope. The data is there. The access is there. The misconfiguration is often there too. What has been missing is the visibility to see it.
+
+
+
+SSPM closes that gap. But even before a formal tool is in place, simply asking the question — what can the applications we already run see and share? — is a meaningful first step. In my experience, the answer surprises almost every organization that takes the time to look.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",https://www.csoonline.com/wp-content/uploads/2026/07/4197923-0-81643600-1784278972-waldemar-brandt-5m1AJTzf9d4-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4197923/the-saas-blind-spot-why-security-teams-cant-get-inside-their-own-apps.html,https://www.csoonline.com/feed/,2026-07-17T09:00:00Z,11,Cybersecurity
+ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files,"ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders.
+
+It gets in because someone pasted a command into a Run box and pressed Enter. Microsoft laid out two of the delivery chains on Thursday. Its Defender Experts team, the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5a79jcbSLlpVrk_Tkl4E0wiB47Zu2a7V3UrYOddEgvO0bNMVU1VzwmLIK-Ac8I71znO7vmH7QSDdF9cg4-VeEzLo_7InYxfc5yaXG8Ziv-nVAK1qRCkTx73CVKtLOESbkL2yUF9srs53F9hLAkXt9hsiSTjntbS3ThRVi3ApZniyKapqVAgz9PEuW9o/s1600/clicks.png,https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T08:56:39Z,0,Cybersecurity
+Verizon Fios boosts its fastest plan to 5Gbps,Verizon Fios just introduced a new 5Gbps home plan that&#39;s more than twice as fast as its previous flagship 2Gbps plan.,https://www.engadget.com/img/gallery/verizon-fios-boosts-its-fastest-plan-to-5gbps/l-intro-1784278020.jpg,https://www.engadget.com/2217268/verizon-fios-boosts-its-fastest-plan-to-5gbps/,http://www.engadget.com/rss-full.xml,2026-07-17T08:50:25Z,3,Tech
+New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage,"Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence gathering.
+
+Russian cybersecurity company Kaspersky, which uncovered the activity in February 2026, said it was aimed at government and diplomatic entities in",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzr3TN2Kp4PBOBbzsR0RkNNu6_pMaYw05DjwQIegOdSeuDW5SAivGHOy3Qznjx5KJUTuiPRqAJsTDpM1O94X_FuG2sXAjD84rgPHwGxp2tFuP53Dm8pd-9bInejjZY7wx1jLBWu_EikCQ4HACf6J5Ycc3-kiTVE6-83MtCDCsL71o-7sFema5tOIV4IcJm/s1600/GoSerpent-malware.jpg,https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T08:46:45Z,8,Cybersecurity
+Fake TTF files deliver stealthy malware in global phishing campaign,"
+		
+					  
+						
+
+
+
+
+Threat actors are now abusing an ordinary font file to deliver low-detection malware capable of stealing credentials and establishing persistence on compromised Windows systems.
+
+
+
+According to a new research from Fortinet’s FortiGuard Labs, a global phishing campaign is actively using heavily obfuscated JavaScript and a Lua-based loader posing as a TrueType Font (TTF) file to evade security and drop RATs and infostealers.
+
+
+
+A TTF file is a standard font file used by operating systems and applications to display text.
+
+
+
+The campaign has been deploying malware families such as Agent Tesla, Remcos, XWorm, and a Snake Keylogger variant known as Best Private LOGGER, since at least late March 2026. “In these attacks, the threat actor impersonates several well-known companies, using the guise of business cooperation to launch phishing attacks,” FortiGuard researchers said in a blog post.
+
+
+
+Talking about how a new attack technique seems to still rely on conventional phishing tricks, Shane Barney, CISO at Keeper Security, said, “The most sophisticated technical evasion in the world still starts the same way: someone opens an email from what looks like a trusted company and acts on it.”
+
+
+
+“The obfuscation layers, the Lua loader disguised as a font file, the fileless execution chain – all of it exists to survive detection after that human decision has already been made, and organizations would do well to keep that in their sightline,” he added.
+
+
+
+Business and payment-themed phishing lures used
+
+
+
+According to the researchers, victims receive phishing emails impersonating well-known companies and using business collaboration or payment-related themes to trick recipients into opening compressed archives. These archives contain the obfuscated JScript that establishes persistence before dropping either a legitimate Autolt executable or a LuaJIT interpreter, along with a malicious script packaged within a .ttf extension.
+
+
+
+The fake font file functions as a Lua-based loader that runs multiple de-obfuscation steps before decrypting and executing shellcode directly in memory.
+
+
+
+“Security controls cannot treat a file extension as proof of file type or intent,” said Jason Soroko, senior fellow at Sectigo. “Each component (of the campaign) may appear less suspicious when reviewed alone, while the combined sequence leads to in-memory execution of RATs and infostealers.”
+
+
+
+Some of the new variants, the researchers pointed out, are getting more sophisticated by introducing segmented shellcode encryption, Vectored Exception Handler (VEH)- based runtime decryption, AMSI and ETW bypasses, API unhooking, and other anti-analysis techniques designed to evade endpoint defenses.
+
+
+
+The final malware payload is delivered using Donut shellcode, allowing execution without writing the payload to disk.
+
+
+
+Protection requires targeted mitigations and routine security hygiene
+
+
+
+Fortinet’s findings confirm the attackers’ endgame to be stealing credentials and maintaining long-term access. The malware families observed, including Agent Tesla, Remcos, XWorm, and Best Private LOGGER, are all focused on credential theft, surveillance, or remote access.
+
+
+
+Barney said organizations should resist focusing exclusively on the loader’s technical sophistication and instead strengthen the systems attackers eventually want to compromise.
+
+
+
+In his opinion, identity and access controls are what it comes down to, as signature-based detection often fails against the loader sophistication of this grade. “Limiting what any given set of credentials can reach, enforcing least privilege, requiring re-authentication for sensitive systems, and monitoring for anomalous session behavior will not stop every phishing email from landing, but they significantly constrain what an attacker can accomplish after one succeeds,” he explained.
+
+
+
+Soroko, on the other hand, recommends focusing controls on the technical indicators. He urged organizations to restrict Windows Script Host, Autolt, and LauJIT wherever they are not operationally required, monitor for behaviors such as process injection, remote memory allocation, and shellcode execution, and use Fortinet’s published indicators for threat hunting.
+
+
+
+The indicators of compromise (IOCs) Fortinet shared include the command-and-control (C2) addresses, file hashes, and filenames.
+
+
+
+Soroko warned against relying solely on hashes or C2 infrastructure because the loader has changed over time. “The stronger approach is to detect the stable behavior across versions, then test controls against the complete chain,” he said.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4198165-0-01848300-1784277918-shutterstock_1302585142.jpg?quality=50&strip=all,https://www.csoonline.com/article/4198165/fake-ttf-files-deliver-stealthy-malware-in-global-phishing-campaign.html,https://www.csoonline.com/feed/,2026-07-17T08:45:04Z,14,Cybersecurity
+Risk Ledger Raises $32 Million in Series B Funding,"The British firm has built a collaborative platform to help organizations address supply chain security risks.
+The post Risk Ledger Raises $32 Million in Series B Funding appeared first on SecurityWeek.
+",,https://www.securityweek.com/risk-ledger-raises-32-million-in-series-b-funding/,https://www.securityweek.com/feed/,2026-07-17T08:31:00Z,2,Cybersecurity
+US charges two over laundering $43 million from investment fraud,U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...],,https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/,https://www.bleepingcomputer.com/feed/,2026-07-17T08:13:37Z,0,Cybersecurity
+Coca-Cola's dairy company fairlife hit with a ransomware attack,Coca-Cola halts the US operations of its dairy company fairlife due to a ransomware attack.,https://www.engadget.com/img/gallery/coca-colas-dairy-company-fairlife-hit-with-a-ransomware-attack/l-intro-1784272590.jpg,https://www.engadget.com/2217258/coca-cola-dairy-company-fairlife-ransomware-attack/,http://www.engadget.com/rss-full.xml,2026-07-17T07:25:00Z,5,Tech
+Fresh SharePoint Vulnerability Exploited Soon After Disclosure,"The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server.
+The post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared first on SecurityWeek.
+",,https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/,https://www.securityweek.com/feed/,2026-07-17T07:15:59Z,10,Cybersecurity
+CISA urges immediate action on actively exploited Fortinet flaws,CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...],,https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/,https://www.bleepingcomputer.com/feed/,2026-07-17T07:03:33Z,7,Cybersecurity
+Senior executives are killing your shadow AI strategy,"
+		
+					  
+						
+
+
+
+
+Shadow IT has long been a major problem for CISOs, but the biggest problem may be coming from the executive suite’s hunger for unsanctioned AI.
+
+
+
+Nearly two-thirds of senior decision-makers admit to using unapproved AI tools, compared to just 31% of lower-level employees, according to a survey by Microsoft solutions partner TrustedTech.
+
+
+
+The use of shadow AI is prevalent among senior executives even though three in four employees acknowledge security or data privacy risks related to the practice.
+
+
+
+“Most shadow AI users are not ignorant of the risk,” TrustedTech says in a white paper. “They are deliberately choosing to use these tools anyway. This is not a training issue. It is a culture, incentives, and alternatives issue.”
+
+
+
+In many cases, the problem is driven by a lack of approved tools, the report adds.
+
+
+
+“People use shadow AI because what their employer hands them is worse than mainstream AI tools, or because nothing has been approved in the first place,” the report says. “That doesn’t change until the sanctioned tools are genuinely worth using.”
+
+
+
+A question of authority
+
+
+
+The use of shadow AI by CEOs and other C-suite executives can create major problems for CISOs, CIOs, and other IT executives because they may not have the authority to put the kibosh on it.
+
+
+
+It also presents a challenge for IT leaders to provide the AI tools that employees and executives want to use.
+
+
+
+When executives use shadow AI, CISOs are in a difficult position, because governance only works when it’s modeled from the top, says Andy Nolan, VP of technology at TrustedTech.
+
+
+
+“If senior leaders bypass approved AI tools or policies, it sends an implied message that speed matters more than security and compliance,” he adds. “Employees notice that behavior, and it becomes much harder to ask the rest of the organization to follow standards that leadership isn’t following themselves, first.”
+
+
+
+Another major problem is that executives often work with highly sensitive information, including financial data, strategic plans, intellectual property, and customer information, he notes.
+
+
+
+But CISOs and CIOs also can’t solve the problem by becoming the AI police in every situation, Nolan says, because their role is to help the business innovate safely.
+
+
+
+“That requires executive alignment, clear governance, and providing secure AI tools that people actually want to use,” he adds. “When leadership embraces those solutions, the rest of the organization is almost sure to follow.”
+
+
+
+All risk, no reward
+
+
+
+The use of shadow AI by senior executives puts CISOs and CIOs in an impossible position, agrees Amit Maloo, CISO at AI procurement provider Ivalua. CISOs and CIOs are held accountable for the risk exposure but have no visibility into the problem, he says.
+
+
+
+“When senior leaders use ungoverned AI tools for business decisions, those decisions still have consequences, such as financial commitments, contract reviews, and data sharing,” he adds. “But there is no audit trail, no permissions model, or no way to reconstruct what happened or why.”
+
+
+
+Part of the problem is that approved AI options often don’t meet the needs of users, Maloo says.
+
+
+
+“AI policies alone aren’t enough; organizations need to pair governance with usability,” he adds. “If approved AI tools don’t meet the pace of business, employees at every level, including leadership, will find their own solutions. Successful organizations will be those that make the secure path the easiest path.”
+
+
+
+IT leaders can’t solve the problem with more governance, he notes. “Policies and restrictions slow shadow AI down, but they don’t stop it, especially when the people using it are senior enough to absorb the disciplinary risk,” Maloo adds. “What CIOs can do is focus on providing tools that grant users full access to the necessary systems and data, eliminating the need to choose between a capable but ungoverned tool and a safe but limited one.”
+
+
+
+Speed over security
+
+
+
+The TrustedTech data echoes a June report from employee monitoring software vendor Teramind, which found that more than two-thirds of C-level executives prioritize speed over security when using AI tools, notes Nik Kale, a principal engineer and product architect at Cisco, and member of the Coalition for Secure AI.
+
+
+
+In addition, the Teramind report found that two-thirds of enterprise AI activity runs through personal accounts on platforms for which the company already owns licenses, he notes.
+
+
+
+“People are paying for the governed version and using the ungoverned version of the same product, so the problem isn’t the tools,” he says. “The approved path is slower, buried in procurement, or disconnected from where the work actually happens, and speed wins every time under a deadline.”
+
+
+
+The problem then isn’t with the AI tools, but with the friction involved, he says. “People aren’t going around the front door because the room is locked,” Kale adds. “They’re going around it because the front door is slower.”
+
+
+
+In many cases, the use of shadow AI exposes a couple of shortcomings in enterprise processes, adds Matthew Scavetta, chief technology innovation officer at IT solutions provider Future Tech Enterprise.
+
+
+
+Many organizations don’t do a good job of making employees aware of the AI tools available to them, he says, and many organizations don’t offer training on the sanctioned applications, which drives users to pick products they are familiar with.
+
+
+
+“If you don’t solve problems for people quickly or make people aware of which tools they can use safely, they will find a workaround,” he adds. “AI tools are no different than anything else.”
+
+
+
+Shadow AI use by executives puts IT leaders in an incredibly difficult position, he says.
+
+
+
+“CIOs, in particular, are under more and more pressure each year to keep up with what’s possible as tech influencers keep preaching about the potential of these tools,” Scavetta says. “CEOs and board members are constantly getting swept up in the hype; meanwhile, there are more and more case studies coming out showing how little ROI some organizations have realized. It’s a never-ending game of balancing possible with practical.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4198007-0-31973100-1784271748-ai-regulations-shutterstock_2690619329.jpg?quality=50&strip=all,https://www.csoonline.com/article/4198007/senior-executives-are-killing-your-shadow-ai-strategy.html,https://www.csoonline.com/feed/,2026-07-17T07:00:00Z,5,Cybersecurity
+CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 19, 2026.
+
+The vulnerability in question is CVE-2026-58644 (CVSS score: 9.8), a critical deserialization",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg,https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html,https://feeds.feedburner.com/TheHackersNews,2026-07-17T06:42:23Z,14,Cybersecurity
+The Intensifying Geopolitics of Southeast Asia’s Military Modernization,"At a time of growing regional turbulence, nations across the region are seeking to equip themselves with more and better armaments.",https://images.thediplomat.com/v1/td-list-l-2/2015/10/thediplomat_2015-10-06_08-55-20.jpg,https://thediplomat.com/2026/07/the-intensifying-geopolitics-of-southeast-asias-military-modernization/,https://thediplomat.com/category/asia-defense/feed/,2026-07-17T06:25:00Z,0,Defense
+Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack,"The company says the incident has not affected product quality and safety, nor Fairlife’s Canada production.
+The post Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack appeared first on SecurityWeek.
+",,https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/,https://www.securityweek.com/feed/,2026-07-17T06:23:08Z,12,Cybersecurity
+Declassified China intelligence fails to back up Trump's false claims about 'stolen election',"The information adds detail about Chinese intelligence collection of U.S. voter data, but doesn&#39;t change the intelligence community&#39;s rejection of the president&#39;s 2020 claims.",,https://www.defenseone.com/threats/2026/07/trump-stretches-declassified-china-intelligence-broader-2020-election-claims/414852/,https://www.defenseone.com/rss/all/,2026-07-17T03:00:00Z,0,Defense
 "‘Makes no sense’: Firing of Ukraine’s defense minister sparks protests, outcry among allies",Analysts and former officials said Mikhailo Federov had the clearest thinking on winning the war.,,https://www.defenseone.com/policy/2026/07/ukraine-defense-minister-firing-protests/414836/,https://www.defenseone.com/rss/all/,2026-07-17T01:04:26Z,0,Defense
 SpaceX scrubs Starship launch after some of its engines didn't start,&#34;Now offloading propellant. Next launch attempt hopefully in a few days.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/starshipf13abort-1152x648.jpg,https://arstechnica.com/space/2026/07/spacex-scrubs-starship-launch-after-some-of-its-engines-didnt-start/,https://arstechnica.com/feed/,2026-07-17T00:02:54Z,0,Tech
+Learning a few things about running SQLite,,,https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/,https://jvns.ca/atom.xml,2026-07-17T00:00:00Z,0,Tech
 San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco,"In the wake of a massive hours-long gridlock event, San Francisco Mayor Daniel Lurie has told state regulators its time to put more requirements on robotaxi operators like Waymo. ",,https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/,https://techcrunch.com/feed/,2026-07-16T23:25:22Z,0,Tech
 A White House teleprompter operator reportedly won big betting on presidential speeches,"The staff member allegedly made over $100,000 on Kalshi.",https://www.engadget.com/img/gallery/even-the-white-houses-teleprompter-operator-reportedly-did-insider-trading/l-intro-1784243032.jpg,https://www.engadget.com/2217170/a-white-house-teleprompter-operator-reportedly-won-big-betting-on-presidential-speeches/,http://www.engadget.com/rss-full.xml,2026-07-16T23:10:32Z,0,Tech
 SpaceX suddenly aborts second Starship V3 launch after ignition,The company didn&#39;t immediately say what went wrong. SpaceX&#39;s stock plunged more than 4% in after-hours trading before paring losses.,,https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/,https://techcrunch.com/feed/,2026-07-16T23:01:27Z,0,Tech
