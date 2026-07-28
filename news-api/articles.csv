@@ -1,4 +1,1084 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing,Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.,,https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/,https://techcrunch.com/feed/,2026-07-28T04:30:00Z,3,Tech
+Hackers are compromising hotel Wi-Fi gateways to hijack Microsoft 365 accounts,"
+		
+					  
+						
+
+
+
+
+Traveling enterprise employees beware: Think twice before you log onto that oh-so-convenient public Wi-Fi.
+
+
+
+Since at least June, threat actors have been compromising “captive” Wi-Fi gateways and other portal appliances at hotels, conference centers, and similar shared venues to hijack users’ Microsoft 365 accounts, according to the ReliaQuest Threat Research team.
+
+
+
+Once a threat actor controls a gateway, they can silently redirect a user’s traffic to their own infrastructure and steal their Microsoft 365 credentials without ever touching the user’s device, compromising endpoints, or sending phishing links or malicious attachments.
+
+
+
+“The most dangerous element is that it operates at the network gateway, which sits beneath most of the trust assumptions users and devices make,” ReliaQuest told CSO Online. “It’s not necessarily an enterprise breach level event on its own, but it’s a very real risk to individual accounts.”
+
+
+
+Exploiting a ‘fundamental trust’
+
+
+
+Domain Name System (DNS) poisoning, in which false data is injected to redirect regular web traffic to fraudulent domains, has previously been observed on small office routers, but attackers are now expanding the technique to higher-level targets, the ReliaQuest researchers explained in a blog post.
+
+
+
+Attackers likely gain access to the gateways through weak or reused admin credentials in combination with exposed interfaces like Secure Shell (SSH), Simple Network Management Protocol (SNMP), and other web consoles, they pointed out.
+
+
+
+Admin access to the gateway is all that malicious actors need, because devices are designed to inherently trust DNS, which translates domain names like login.microsoftonline[.]com into IP addresses to route them. Therefore, a single gateway compromise gives the attacker the ability to redirect traffic for every guest logging into the network, providing IP addresses it controls in response to DNS requests, rather than the legitimate ones, without touching a single endpoint.
+
+
+
+“Captive portal appliances sit at the network perimeter for every guest on that network,” the researchers wrote. “Detection is inherently difficult because the attack happens gateway-side, outside the endpoint’s visibility.”
+
+
+
+In the campaign tracked by ReliaQuest, four attacker-registered domains, m365-owa[.]com, owa-ms365[.]com, ms365-device[.]com, and ms365-live[.]com, were used for Microsoft-impersonation lures.
+
+
+
+The compromised Wi-Fi gateways were discovered across multiple US cities as well as in India and Saudi Arabia, and impacted users were from companies in professional and financial services, legal, retail, health care, and energy, indicating that the method isn’t sector-specific.
+
+
+
+“We’ve seen enough SharePoint exfiltration cases to know that a single popped account can cascade into meaningful data loss,” ReliaQuest noted. Meanwhile, for the network operators, there’s a “reputational dimension”; user compromise is a “serious trust and brand problem, regardless of how sophisticated’ the underlying attack is.”
+
+
+
+Safe services, DNSSEC not enough
+
+
+
+Locking network configurations to a ‘safe’ DNS provider such as Google (8.8.8.8), Cloudflare (1.1.1.1), or the cloud-based OpenDNS isn’t a sufficient tactic, because it doesn’t change the path that queries actually travel over, ReliaQuest contended.
+
+
+
+By default, devices send DNS queries as unencrypted protocol traffic, and those packets still have to traverse the hotel’s network to reach Google, Cloudflare, or OpenDNS, the company explained. Since the gateway sits directly in that path, it can inspect, block, or redirect the query before it ever reaches the chosen resolver.
+
+
+
+“Specifying a trusted DNS server changes the intended destination, not who controls the road to get there,” ReliaQuest noted.
+
+
+
+Further, Domain Name System Security Extensions (DNSSECs), which use digital signatures and public-key cryptography, only “partially” address the problem. DNSSEC provides authentication and integrity for signed domains, which means a validating resolver can detect and reject forged or tampered responses.
+
+
+
+“What it does not do is provide confidentiality or availability,” the company said. “It does not encrypt DNS traffic or stop an attacker from intercepting, blocking, or redirecting requests.”
+
+
+
+So while DNSSEC can defeat certain response-forgery attacks against signed zones, an on-path gateway can still see queries, drop them, or force fallback behavior. However, this protection layer only helps when domains are actually signed, and then only when the client or resolver performs validation, which “many stub resolvers do not,” according to ReliaQuest.
+
+
+
+Full-tunnel VPNs required
+
+
+
+To combat the problem, enterprises should require all corporate devices to use a full-tunnel VPN for network connection. Controls should prevent internet access until a tunnel is active, ReliaQuest advised.
+
+
+
+This will route all of a device’s traffic, including DNS, through an encrypted connection to a trusted VPN server before it travels anywhere else, the company explained, thus preventing local networks like hotel gateways from seeing or modifying DNS and internet traffic.
+
+
+
+“In effect, it takes the untrusted network out of the trust equation,” ReliaQuest noted.
+
+
+
+However, full-tunnel configuration is not the default for VPNs, because it comes with “real trade-offs,” the researchers noted: It adds cost, latency, and bandwidth demands, since every packet has to travel through company infrastructure. Thus, forcing all traffic through the corporate backbone is “not always practical” for distributed or bandwidth-heavy workforces.
+
+
+
+Enterprises should also enforce conditional access in Entra ID to block device-code authentication flow, which has few legitimate use cases for most users in most environments, ReliaQuest noted.
+
+
+
+Additional precautions
+
+
+
+The company also advised:
+
+
+
+
+Restricting Proxy Auto-Configuration (PAC) file retrieval to approved internal hosts;
+
+
+
+Disabling automatic Web Proxy Auto-Discovery (WPAD) via Group Policy to (this is often enabled by default in Windows);
+
+
+
+Deploying encrypted DNS such as DoH or DoT in strict mode as a “complement or alternative” to full-tunnel VPN. This is particularly important for organizations where always-on VPN is not feasible.
+
+
+
+Training employees to verify the URL and certificate of any page requesting credentials before entering them, particularly on public Wi-Fi networks.
+
+
+
+
+Prevention is more important than detection here, ReliaQuest pointed out: while in tools like Microsoft Defender for Endpoint, ‘DnsConnectionInspected’ events showing queries to attacker-controlled domains are a primary endpoint-level signal, “by the time those events fire, the redirect has typically already occurred. In other words, endpoint telemetry confirms what happened more than it prevents it.”
+
+
+
+This is exactly why methods like encrypted transport, Conditional Access, and WPAD and PAC hardening matter more than detection alone, the researchers emphasized.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202067-0-48475400-1785205715-router-hero-100912034-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202067/hackers-are-compromising-hotel-wi-fi-gateways-to-hijack-microsoft-365-accounts.html,https://www.csoonline.com/feed/,2026-07-28T02:28:22Z,18,Cybersecurity
+"For Some, So-Called ‘Skynet Day’ Came too Close to Sci-Fi After a Rogue Agent Hacked Into a Startup","Decades after it appeared in “The Terminator,” Skynet looks more like a forecast of the cyber incident in which a rogue AI system hacked into another AI company on its own.
+The post For Some, So-Called ‘Skynet Day’ Came too Close to Sci-Fi After a Rogue Agent Hacked Into a Startup appeared first on SecurityWeek.
+",,https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/,https://www.securityweek.com/feed/,2026-07-28T02:28:03Z,1,Cybersecurity
+Microsoft unveils multi-model agentic cyber stack for security operations,"
+		
+					  
+						
+
+
+
+
+Microsoft announced a new AI-powered service that enables enterprise security teams to continuously evaluate and update their organization’s security posture through a series of AI agents that can find vulnerabilities, simulate attacks, detect and triage potential threats, and develop remediations.
+
+
+
+Dubbed Project Perception, the new service will enter public preview on Aug. 3, and takes a multi-model approach, where the underlying harness decides which AI model is best suited to solve a particular task. This aims to strike a balance between quality and cost, as not all operations require the latest frontier model to complete successfully.
+
+
+
+The company also unveiled its own AI model dubbed MAI-Cyber-1-Flash that was trained specifically to find vulnerabilities in complex codebases. When used within MDASH, Microsoft’s multi-model harness for vulnerability research, a combination of MAI-Cyber-1-Flash and GPT 5.4 achieved a considerably higher score on the CyberGym benchmark than Anthropic’s Mythos 5 and OpenAI GPT 5.6-Sol and it did so for nearly half the cost.
+
+
+
+MDASH, previously announced in May, was built by a new Microsoft internal team called FORGE (Frontier Offensive Research &amp; Generative Exploration) that’s led by Georgia Tech professor Taesoo Kim and consists of many of his current and former PhD students. Several of the Microsoft Security FORGE members were previous members of Team Atlanta, which won the DARPA AI Cyber Challenge (AIxCC), a two-year competition for developing autonomous AI systems capable of securing critical open-source software.
+
+
+
+A team of specialized agents
+
+
+
+Project Perception combines Microsoft’s extensive threat intelligence, security telemetry, and knowledge about customer environments to create a complex security graph. This knowledge is then leveraged by a series of specialized agents — red team, blue team, and green team — that execute specialized playbooks to achieve the desired tasks.
+
+
+
+During its launch event, Microsoft demonstrated a case where a new threat intelligence report comes in about a new threat actor, complete with some indicators of compromise and TTPs. A human security analyst then tasks Perception to investigate whether their organization is protected against this threat group and the system automatically distributes tasks to the needed agents with the corresponding playbooks.
+
+
+
+The agents will extract information from the report then perform reconnaissance to map the attacker’s TTPs to the organization’s exposed surface to determine which assets this threat group might target. A penetration testing agent will then be launched to identify potential exploitable vulnerabilities in those assets which will produce a report.
+
+
+
+Because the report could contain tens of vulnerabilities of various severities, the agent will then reason to pinpoint the top ones that should be a priority for fixing and even more, the ones that are most likely to be targeted by this threat actor based on its modus operandi.
+
+
+
+The information will then be automatically passed to another agent whose role is to generate custom detection rules that will run against collected logs and analytics to detect potential exploitation attempts for those vulnerabilities. A posture remediation agent (green) will also be launched to propose a remediation plan that can include deploying a blocking rule on the web application firewall, to suggesting code fixes and automatic patch submission to the internal repository hosting the code for the vulnerable application.
+
+
+
+“We’ve gone from this taking hours and hours of manual work for multiple specialized folks across the security organization — appsec hunters, remediation engineers, you name it — to having a fix for all of this in minutes,” said David Weston, CVP at Microsoft Security and engineering leader for Perception. “Not only have we discovered the issues and prioritized them, but we have detection, posture fixing, and even a code fix.”
+
+
+
+The Perception team even created an MCP implementation to enable security analysts who already work in command-line agentic harnesses such as GitHub Copilot or Claude Code to chat with the service directly and initiate playbooks without having to use the web-based interface in the browser.
+
+
+
+The harness matters more than the model
+
+
+
+What both Project Perception with its multi-model approach and Microsoft’s new MAI-Cyber-1-Flash model proves is that in practice, and especially for cybersecurity, organizations don’t need the latest and greatest frontier model to get great results. In fact, relying only on frontier models might cost too much to make economic sense for most tasks.
+
+
+
+That’s because to push the boundaries of machine intelligence, models need to grow bigger and bigger and in general this translates to higher inference costs. Anthropic’s Mythos 5 has 10 trillion parameters and Fable 5 is estimated at around 6 trillion. It’s not known how many parameters OpenAI’s latest GPT 5.6-Sol model has, but Microsoft said that its MAI-Cyber-1-Flash model is around 10 times smaller than GPT 5.4, which is two generations behind 5.6.
+
+
+
+Even so, MAI-Cyber-1-Flash is able to handle 90% of the typical cybersecurity tasks in the MDASH harness with GPT 5.4 taking care of the rest that might require heavier reasoning. This combination was able to achieve a 96% completion score on CyberGym, 12 points above Mythos, for around half the cost and this shows that a well-designed and purpose-built harness matters more than the model itself.
+
+
+
+A recent study by researchers from the University of Toronto proved the same by creating a self-replicating AI-powered worm that relied on a free open-weight model small enough to run on enterprise-grade GPUs. To achieve this, the researchers built a special harness to guide the model and a database-based memory system to remember important information across different workflows.
+
+
+
+Microsoft took the same approach with Project Perception for cost considerations and because not everyone in the world might have access to the latest frontier models. The US government has already issued an export control directive once to Anthropic to restrict the access of non-US nationals to Mythos 5 and Fable 5.
+
+
+
+“At Microsoft, we have a security team, and they actually evaluate all the models that you can find out there, and we look at which ones are going to get us the best results,” Hayete Gallot, executive vice president for security at Microsoft, said. “The reason we do that is, number one, is we want the best quality. Number two is we want to make sure that this is affordable. Security is a 24/7 operation, so you need to make sure that this is scaling. And last but not least, the reason why we’re multi-model is that not every model is available everywhere. So we need that diversity of model to make sure that every customer can defend itself. We cannot be in a world of haves and have-nots.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202080-0-95490000-1785205515-shutterstock_370707185.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202080/microsoft-unveils-multi-model-agentic-cyber-stack-for-security-operations.html,https://www.csoonline.com/feed/,2026-07-28T02:25:00Z,16,Cybersecurity
+Samsung’s entry into AI-powered glasses forces CISOs to again consider corporate risk,"
+		
+					  
+						
+
+
+
+
+Now that Samsung has jumped into the crowded AI-powered glasses arena alongside Apple, Google, Meta, and others, CISOs and IT leaders are again having to think through whether it makes sense to establish enterprise restrictions on such devices, given the likely data leakage and privacy and compliance issues.
+
+
+
+And even if those tech leaders decide that such policies might make sense, the logistical hurdles to universally enforcing them outside the office are all but insurmountable.
+
+
+
+For example, it is up to individual wearers to choose their device’s settings, making it difficult for IT policies around data acquisition and usage to be enforced. Worse, AI devices have a history of ignoring guardrails. That means that a setting that limits how data is used may not necessarily be obeyed. 
+
+
+
+One possible mitigating factor is that smart glasses typically have a light on the frame that activates when the device is recording, but there are also many easy ways for workers to defeat or cover up those lights to conceal their activities. 
+
+
+
+Enforcement is virtually impossible
+
+
+
+However, said independent technology analyst Carmi Levy, “although some organizations have tried to physically ban smart glasses from their in-person and virtual workplaces, the sad reality for corporate technological gatekeepers is there is no way to completely keep any device out of the workplace.”
+
+
+
+There is nothing stopping employees from wearing eyewear of any type, smart or not, he noted, “and attempting to do so might put employers on the wrong side of a disability lawsuit launched by a worker who needs prescription smart glasses to accommodate vision issues.”
+
+
+
+As well, Jitesh Ubrani, an IDC director focusing on worldwide device trackers, pointed out that the biggest challenge in creating rules around usage of smart glasses is that the data leakage problem with devices is both not new and certainly not limited to glasses. 
+
+
+
+“The instinct to ban AI smart glasses outright is understandable, but it misses that the underlying risk isn’t new. A smartphone has been able to record a whiteboard, a screen, or a conversation for close to two decades,” he said. “What’s changed is the friction. Glasses make covert capture nearly effortless and far harder to notice because there’s no phone being visibly raised or pointed. That’s a real escalation in ease of misuse, but it’s a difference of degree rather than a fundamentally new capability.”
+
+
+
+In fact, Ubrani argued, “where this gets hard for CISOs is enforcement. A ban on paper is easy to write. Enforcing it inside a corporate office is already difficult, since most current-generation devices, including Meta’s Ray-Bans, are visually indistinguishable from ordinary eyewear.”
+
+
+
+And, he added, “enforcing it in a hybrid or work-from-home setting is close to impossible. IT has no practical way to confirm what someone is wearing on a home Zoom call, and even in-office detection options, like scanning for Bluetooth or BLE advertising signals tied to known manufacturer IDs, only catch devices that haven’t been reconfigured or that happen to be broadcasting at the time.”
+
+
+
+Additional risk
+
+
+
+Connected glasses have a history going back decades, but enterprises didn’t take them seriously until this year.
+
+
+
+But Anshel Sag, principal analyst at Moor Insights &amp; Strategy, characterized the problem as more psychological than technological. 
+
+
+
+“People want to ban it because they don’t know how to handle it. But that just creates more problems than it solves. It’s a very kneejerk fear reaction,” Sag said. “We live in an era where cameras are everywhere.”
+
+
+
+Meghan Hollis, a senior principal analyst for Gartner, agreed that the focus on smart glasses is misplaced, given that even headphones can today capture audio for translation and transcription. The change is not in the data capture, Hollis said, but the fact that it is adding video.
+
+
+
+This creates additional risk, with the new capability brought into the corporate environment causing “a potential exposure for corporate intellectual property,” Hollis said.
+
+
+
+One other often-overlooked issue is data sovereignty. Even if the glasses manufacturer agrees to store data only in specific countries, it could easily change that policy or simply switch third-party vendors. 
+
+
+
+“There could be export control issues, possibly violating regulatory controls in transmitting information,” Hollis noted. 
+
+
+
+However, Hollis said, threatening to punish workers if they are caught using unauthorized devices “is your last line of defense,” and that the best initial approach should not be enforcement, but education.
+
+
+
+“You need to be educating your end-users, with constant reinforcement, telling them, ‘If you do this, here’s how you can harm the company and our clients/customers.’ Combine that with, ‘And if you do this, we will take action against you.’”
+
+
+
+Tiered policies required
+
+
+
+Hollis noted that the risk goes beyond an employee initially recording something they shouldn’t. Consider, for example, a technical meeting where an employee asks the rest of the attendees for permission to record the discussion. They agree and he starts to record. 
+
+
+
+At the end of the meeting, he leaves to return to his office, fully intending to turn off the recording function when he gets there. But on the way, he has a brief hallway meeting with an SVP who tells him, without warning, “FYI, but the board just decided to greenlight our hostile takeover of Smith Corp. We’ll explore the specifics at a 10 a.m. tomorrow. Have your team there.” The executive then walks off.
+
+
+
+With the recording still running, that ultra-sensitive data has just been transmitted to the cloud. 
+
+
+
+IDC’s Ubrani pointed out that situations like this make smart glasses governance more challenging. “Enterprise IT and security leaders need to stop framing this as ‘ban versus allow,’ and instead build a tiered policy based on where the actual risk sits,” he said. “Boardrooms, R&amp;D labs, and any space where trade secrets or regulated data are visible or discussed out loud deserve strict no-wearables rules, enforced the same way phone bans already are in those rooms.”
+
+
+
+Open floor plans and general office space probably don’t need that level of restriction, he said, but meeting policies should require disclosure when a device capable of recording is present, similar to the way in which some companies already handle personal recording devices in sensitive briefings.
+
+
+
+“Companies that try to write one blanket rule for every environment are going to find it’s either unenforceable or so restrictive it interferes with accessibility, since some employees rely on these devices as assistive technology,” he said.
+
+
+
+However, Brian Jackson, a principal research director at Info-Tech Research Group, argued that enterprise CISOs and IT Directors need to take a far more strict position.
+
+
+
+“Organizations should update their acceptable use policies for personal technology ASAP,” he said. “Look back about 15 years ago at how smartphones moved from consumer life into the workplace, and we may be at the beginning of a redefinition of BYOD here. But it needs to start with an extremely restrictive policy against the use of AI wearables and similar devices.”
+
+
+
+He added, “organizations need to hold the line against making personal recordings in the workplace and maintain not only their compliance standards, but their workplace culture. This restriction cannot go as far as an outright ban; look at how Walt Disney World got caught up in a lawsuit after telling an employee she could not use Meta glasses. Still, this exception can be made narrow, and it should be made clear that other employees must be alerted when they are being recorded.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201977-0-79121100-1785202970-shutterstock_2156438243.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201977/samsungs-entry-into-ai-powered-glasses-forces-cisos-to-again-consider-corporate-risk.html,https://www.csoonline.com/feed/,2026-07-28T01:42:36Z,18,Cybersecurity
+Air Force will resume B-52 radar testing with second bomber following deadly crash,"“We need to look at our schedule and adjust as necessary,” a top official said.",,https://www.defenseone.com/defense-systems/2026/07/air-force-will-resume-b-52-radar-testing-second-bomber-following-deadly-crash/415040/,https://www.defenseone.com/rss/all/,2026-07-28T00:29:13Z,0,Defense
+"Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China&#39;s growing AI capabilities. ,,https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/,https://techcrunch.com/feed/,2026-07-28T00:13:33Z,5,Tech
+Hackers target US firms in FastJson RCE zero-day attacks,"Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",,https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/,https://www.bleepingcomputer.com/feed/,2026-07-27T23:49:44Z,14,Cybersecurity
+Arista patches VeloCloud Orchestrator zero-day exploited in attacks,Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...],,https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-07-27T22:49:44Z,15,Cybersecurity
+X Money is launching in the US starting today,"X Money, a core part of Elon Musk&#39;s mission to turn X into an &#34;everything app,&#34; is rolling out starting today, 9to5Mac reports. The payment platform offers a digital wallet and peer-to-peer payments similar to Venmo, along with a metal Visa card users can emblazon with their X username. Other perks include Apple Wallet support […]",,https://www.theverge.com/tech/971649/x-money-launch-elon-musk,https://www.theverge.com/rss/index.xml,2026-07-27T22:10:18Z,1,Tech
+Microsoft unveils AI security tools it says outperform competing platforms,"Microsoft says tools cost less than competing ones and outperform them, too.",https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg,https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/,https://arstechnica.com/feed/,2026-07-27T21:56:14Z,5,Tech
+Starlink gets exemption from FCC ban on routers made outside the US,Starlink has a Texas factory but also makes routers in Vietnam.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/starlink-router-1152x648-1785186848.jpg,https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/,https://arstechnica.com/feed/,2026-07-27T21:40:27Z,0,Tech
+Razer’s analog Huntsman V3 Pro is over 20 percent off,"Gaming keyboards have evolved over the years to add RGB LEDs, extra knobs, and buttons with screens, but one feature has remained fairly consistent: the mechanical switch. That’s slowly changing, with brands introducing adjustable optical switches that are more customizable and have a faster response time. Razer’s Huntsman V3 Pro TKL is a compact, wired […]",,https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-27T21:29:22Z,5,Tech
+Satya Nadella says companies that trust one AI for everything may not survive,"Businesses that rely wholly on the major AI labs ultimately won&#39;t survive, Microsoft CEO Satya Nadella predicts.",,https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/,https://techcrunch.com/feed/,2026-07-27T21:17:11Z,5,Tech
+New Dysphoria DDoS botnet spreads to 200k devices worldwide,"A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",,https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/,https://www.bleepingcomputer.com/feed/,2026-07-27T21:08:15Z,3,Cybersecurity
+New Certighost PoC exploit lets attackers hijack Windows domains,"A proof-of-concept exploit for &#34;Certighost,&#34; a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",,https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/,https://www.bleepingcomputer.com/feed/,2026-07-27T21:00:25Z,9,Cybersecurity
+Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies,"Kennedy has focused on nutrition but has neglected food safety, critics say. ",https://cdn.arstechnica.net/wp-content/uploads/2015/02/salad.jpg,https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/,https://arstechnica.com/feed/,2026-07-27T20:42:13Z,0,Tech
+Thea Energy lands $20M federal grant to build its magnets for fusion reactors,Fusion power startup Thea Energy snagged a $20 million award from ARPA-E to scale production of its high-temperature superconducting magnets.,,https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/,https://techcrunch.com/feed/,2026-07-27T20:40:12Z,3,Tech
+"As rivals chase acquisitions, Peacock bets on bundles through a new deal with YouTube","The deal means content will be integrated into the YouTube experience, allowing viewers to discover and watch Peacock content without leaving the platform. ",,https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/,https://techcrunch.com/feed/,2026-07-27T20:40:00Z,3,Tech
+"DHS Official Resigns, Citing ‘War on Immigrants’",The outgoing executive director of the Office of Homeland Security Statistics is one of very few federal officials to speak out against the Trump administration’s immigration crackdown.,,https://www.wired.com/story/dhs-official-resigns-citing-war-on-immigrants/,https://www.wired.com/feed/category/security/latest/rss,2026-07-27T20:34:04Z,1,Cybersecurity
+"iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27",These are likely the last updates of note before Apple&#39;s bigger fall updates.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/macOS-26-6-update-1152x648-1785182231.jpg,https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/,https://arstechnica.com/feed/,2026-07-27T20:32:45Z,2,Tech
+A missing underscore sent innocent man to prison for 18 months,"When the first step goes wrong, bad results follow.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2170708705-1152x648.jpg,https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/,https://arstechnica.com/feed/,2026-07-27T20:22:03Z,0,Tech
+PSA: Your Claude shared chats and Artifacts may have ended up on Google,"An untold number of Claude chats and Artifacts — the interactive mini apps and documents users can build inside Claude — were found publicly searchable on Google over the weekend, after Reddit users discovered that typing search operators like “site:claude.ai/share” into Google surfaced a long list of shared conversations. Some reportedly contained health records, private […]",,https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/,https://techcrunch.com/feed/,2026-07-27T20:19:42Z,6,Tech
+Google won’t give up odd war against AI web scraping despite court loss,"Google&#39;s and Reddit&#39;s use of DMCA to fight web scraper is bizarre, expert says.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2264310791-1152x648.jpg,https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/,https://arstechnica.com/feed/,2026-07-27T20:12:42Z,5,Tech
+Private Claude Chats Exposed in Google and Bing Search Results,The screwup shows how tricky it can be to stop web crawlers from making ostensibly private conversations with AI chatbots entirely too public.,,https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/,https://www.wired.com/feed/category/security/latest/rss,2026-07-27T20:08:00Z,0,Cybersecurity
+Xbox’s huge outage even blocked games on disc,"An extended Xbox outage that began Sunday evening hasn&#39;t just caused issues for people trying to play digital games - it blocked people from playing their disc-based games, too. Xbox&#39;s status page initially reported the outage on Sunday at about 11PM ET, and it has also prevented people from logging in, launching apps, or finding […]",,https://www.theverge.com/games/971545/xbox-outage-disc-physical-games,https://www.theverge.com/rss/index.xml,2026-07-27T19:53:50Z,1,Tech
+Nanoleaf&#8217;s colorful pegboard and shelf kit is half off,"Nanoleaf’s Blocks Combo XL Smarter Kit is a fun back-to-school buy that can add pops of customizable light and storage to your wall. It combines colorful smart lighting panels with a low-profile shelf and pegboard, and right now you can buy the kit for half off at $99.99 from Nanoleaf, which marks a new low […]",,https://www.theverge.com/gadgets/971535/nanoleaf-blocks-combo-xl-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-27T19:24:55Z,0,Tech
+"5th Circuit blocks Texas law requiring websites to filter ""harmful"" speech","Age verification is okay, but filtering is preempted by Section 230, judges find.",https://cdn.arstechnica.net/wp-content/uploads/2024/07/texas-flag-1152x648-1785178684.jpg,https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech/,https://arstechnica.com/feed/,2026-07-27T19:18:02Z,0,Tech
+"Verizon seeks AI profits with mini data centers, $1B dark fiber deal with Google",Telecom expects AI revenue from dark fiber deals and retrofitted data centers.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/Verizon-Times-Square-Store-1152x648.jpg,https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/,https://arstechnica.com/feed/,2026-07-27T18:48:41Z,5,Tech
+"Despite recent successes, rapid reuse of Starship remains a tough nut to crack",NASA has not made substantial investments in thermal protection research for decades.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/heat-shield-streaks-1152x648.png,https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/,https://arstechnica.com/feed/,2026-07-27T18:34:40Z,5,Tech
+"Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform. ,,https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/,https://techcrunch.com/feed/,2026-07-27T18:32:11Z,5,Tech
+Apple sued after alleged App Store crypto scam cost users $1.8M,"Apple is facing a lawsuit from three users who say they collectively lost more than $1.8 million after downloading a fraudulent crypto wallet from the App Store, challenging the company’s longstanding claims that its app review process keeps users safe from scams.",,https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m/,https://techcrunch.com/feed/,2026-07-27T18:28:15Z,7,Tech
+NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework,"NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.
+
+The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare, CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij-O7sLARD9c2QGCheTeoamew1jlKiNe2KRKqw4_8f6VTxZo0MHNIQdizHhyphenhyphen-Bchq9tTzlYBJrJcJDhhhzNB17wPMHDT00pAikN61fAgOh7AdibxKPt5fQ_1KwMvkUXx1J7IzZBbtONSSIAOjRV74KSkmlsKYB7hFWy17AaQu02BqwngqCzlubslSbKvg/s1600/nvidia.jpg,https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T18:10:05Z,1,Cybersecurity
+Amazon’s new satellite network for mobile phones could turn up the heat on SpaceX,Amazon is expanding its plans for providing satellite connectivity to mobile phones. ,,https://techcrunch.com/2026/07/27/amazons-new-satellite-network-for-mobile-phones-could-turn-up-the-heat-on-spacex/,https://techcrunch.com/feed/,2026-07-27T18:08:29Z,0,Tech
+Antares raises $470M to build nuclear reactors for the U.S. military,Antares has raised $470 million to build small modular reactors — 100 kW to 1 MW — for U.S. Air Force bases.,,https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/,https://techcrunch.com/feed/,2026-07-27T17:49:28Z,5,Tech
+Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin,Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...],,https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/,https://www.bleepingcomputer.com/feed/,2026-07-27T17:29:07Z,0,Cybersecurity
+OpenAI’s Hugging Face breach has reignited the debate over alignment and control,"OpenAI&#39;s Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",,https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/,https://techcrunch.com/feed/,2026-07-27T17:28:42Z,5,Tech
+Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption,"Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to disrupt.
+
+CNCERT, China&#39;s national computer emergency response team, and XLab, the threat-intelligence lab of Chinese",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIg3DnKkxpBnQZhAB8v4Wb9FDnDuh3ifKpBMF3kFhNr7_lYOk3S4CgvBoOxFD65FlCjRpoaoBNyH8zo8NtOhjTtTWriXHawlL9mndT3fd_7zlhUBU4mhjU4AvvYNzgV-PGsd52Ng0wnaDRAJMkRQtW4kUuMKlcrP0B71xxywX6cTICeHmMAjswmKhQJKo/s1600/blockchain-botnet.jpg,https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T17:16:28Z,3,Cybersecurity
+"ChatGPT stops cloning famous writers’ voices but may capture a ""similar feeling""",New behavior capturing a writer&#39;s &#34;broad qualities&#34; could have legal implications.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2264560291-1152x648.jpg,https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/,https://arstechnica.com/feed/,2026-07-27T16:58:46Z,0,Tech
+Why China is giving away its best AI models,"Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI&#39;s Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between […]",,https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies,https://www.theverge.com/rss/index.xml,2026-07-27T16:51:50Z,5,Tech
+Threads users can now chat with Meta AI in their DMs,"Meta on Monday said it is rolling out its Meta AI chatbot within Threads&#39; DMs, giving users a way to chat with the AI assistant. ",,https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/,https://techcrunch.com/feed/,2026-07-27T16:45:24Z,5,Tech
+YouTube Premium will include Peacock starting next year,"YouTube&#39;s ad-free Premium subscription is getting another perk: access to Peacock. In an announcement on Monday, NBCUniversal says the multi-year agreement will allow Premium subscribers to stream Peacock&#39;s ad-supported shows, movies, and live sports directly through the YouTube app. YouTube will bundle Peacock in its standard subscription, which increased to $15.99 / month in April, […]",,https://www.theverge.com/streaming/971452/youtube-premium-peacock-streaming-deal,https://www.theverge.com/rss/index.xml,2026-07-27T16:18:52Z,1,Tech
+"Activist charged with felony after giving border agent ""duress code"" that wiped his phone",The government says destroying his own data during an airport interrogation was illegal.,https://cdn.arstechnica.net/wp-content/uploads/2025/08/Google-Pixel-10-18-1152x648.jpg,https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/,https://arstechnica.com/feed/,2026-07-27T15:58:34Z,5,Tech
+"Google’s AI search is rapidly becoming the default, new data shows","Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",,https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/,https://techcrunch.com/feed/,2026-07-27T15:57:12Z,6,Tech
+Amazon&#8217;s trying to launch a global satellite cellphone network in 2028,"Amazon filed an FCC application on Saturday to launch a new Leo satellite constellation that will provide direct-to-device satellite service for &#34;voice, messaging, data, and emergency services.&#34; If approved, Amazon will begin deploying the new constellation of 5,105 satellites in 2028. It says it plans to partner with mobile network operators to offer direct-to-device satellite […]",,https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network,https://www.theverge.com/rss/index.xml,2026-07-27T15:40:38Z,1,Tech
+Coca-Cola confirms data theft in Fairlife ransomware attack,"The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",,https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/,https://www.bleepingcomputer.com/feed/,2026-07-27T15:39:51Z,12,Cybersecurity
+Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026,"At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",,https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-07-27T15:30:00Z,10,Tech
+This $9 key physically locks your most addictive apps,This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone. ,,https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps/,https://techcrunch.com/feed/,2026-07-27T15:25:37Z,1,Tech
+Ernst & Young data breach claimed by ShinyHunters extortion gang,"The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst &amp; Young data breach, saying it obtained credentials for some of the company&#39;s systems via a supply-chain attack. [...]",,https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/,https://www.bleepingcomputer.com/feed/,2026-07-27T15:12:27Z,7,Cybersecurity
+"Framework Laptop 13 Pro review: Much better battery, much worse price",Framework&#39;s latest modular laptop trades one set of problems for another.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/IMG_8936-1-1152x648-1785150222.jpeg,https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/,https://arstechnica.com/feed/,2026-07-27T15:02:45Z,1,Tech
+Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research,"After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase. ",,https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/,https://techcrunch.com/feed/,2026-07-27T15:01:50Z,5,Tech
+Assuming Failure: The Mindset Shift That Actually Improves Your Defensive Outcomes,"Learn why assuming security controls will fail creates stronger cyber resilience through layered defenses, MITRE ATT&amp;CK, and faster threat response.",,https://blogs.cisco.com/security/assuming-failure-the-mindset-shift-that-actually-improves-your-defensive-outcomes/,https://blogs.cisco.com/security/feed,2026-07-27T15:00:33Z,4,Cybersecurity
+Tariffs didn’t bring manufacturing jobs back to the US,"Today, I’m talking with Evan Smith, who is cofounder and CEO of Altana, a company that develops software tools to manage big, messy supply chain networks around the world. We last had Evan on in early 2025 to talk about how Trump’s first few waves of tariffs were starting to affect global trade and what […]",,https://www.theverge.com/podcast/971306/tariffs-liberation-day-ai-trade-shipping-jobs-canada,https://www.theverge.com/rss/index.xml,2026-07-27T15:00:00Z,6,Tech
+"This is my new favorite laptop, but thanks to RAMageddon it already went up in price by $800","Framework laptops always come with compromises in exchange for their unique DIY premise. Even though you pay extra for one compared to sleeker options from competitors, it&#39;s easier to excuse minor flaws for modular ports, easy repairs, and an impressive range of upgradeable parts. So what happens when Framework goes &#34;Pro&#34;? We get a one-of-a-kind […]",,https://www.theverge.com/tech/971160/framework-laptop-13-pro-intel-review,https://www.theverge.com/rss/index.xml,2026-07-27T15:00:00Z,6,Tech
+Samsung’s 27-inch QD-OLED gaming monitor is priced right at $299.99,"The cost of QD-OLED gaming monitors is going down, even as many other PC components are still soaring above their normal prices. If your budget is locked at $300, Samsung’s 27-inch 1440p model costs exactly that much thanks to a recent $50 discount at Amazon. Finding a good QD-OLED monitor under $500 these days is […]",,https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-27T14:56:38Z,0,Tech
+Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw,"Public exploit details released on July 27 show how an unauthenticated request can reach PHP&#39;s eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.
+
+SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6sn1o691sSAfGgdjo_965YlKkz8ky30drnmHXJz3Y5wO6grXeyoDFvZGYeU-TS4IbxJUtrpqOy_Z2ropf7JAd-KpV6yYgQFo8YUREleUm2A39nchCOv8ydf5ZvOjpSHmDP_W1uJm_HvWK936xBi4xu_3VrHkiDB0MwX6qTdwjXHREYmSBIA0IzyqbVA/s1600/vBulletin.jpg,https://thehackernews.com/2026/07/public-exploit-released-for-patched.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T14:40:00Z,7,Cybersecurity
+SDCC 2026’s best trailers are heavy on cyberpunk and sci-fi,"San Diego Comic-Con took place over the weekend, and as per usual it was full of tidbits of news across film, TV, and gaming. Marvel revealed the next Ghost Rider (Ryan Gosling) and Black Panther (David Jonsson), while we also got release dates for God of War: Laufey (February 16th) and the fourth and final […]",,https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie,https://www.theverge.com/rss/index.xml,2026-07-27T14:38:43Z,5,Tech
+Chinese RAM company CXMT makes a $484 billion stock market debut,"The China-based memory firm ChangXin Memory Technologies (CXMT) had a massive first day on the Shanghai stock exchange after its shares surged 466 percent, as reported earlier by The Wall Street Journal and CNBC. The stock market frenzy boosted CXMT&#39;s valuation to $484 billion, making it the most valuable Chinese company listed on the exchange. […]",,https://www.theverge.com/tech/971358/cxmt-china-ram-stock-market-debut,https://www.theverge.com/rss/index.xml,2026-07-27T14:27:16Z,5,Tech
+"New GitHub, PyPI Policies Boost Supply Chain Security","Dependabot gets a three-day cooldown window before opening pull requests, and PyPI rejects file uploads to releases older than 14 days.
+The post New GitHub, PyPI Policies Boost Supply Chain Security appeared first on SecurityWeek.
+",,https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/,https://www.securityweek.com/feed/,2026-07-27T14:26:00Z,1,Cybersecurity
+"⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More","Monday starts with the usual promise that everything is under control. Then the logs wake up.
+
+This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped.
+
+That is the mood. Here is the full recap.
+
+⚡ Threat of the Week
+
+OpenAI Says Its AI Agent Went Rogue",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZShQJv7u2hWKu_7xOJWw1-8rjxg7jwXoaFDJqqKPTzPa2-u608uDu_uxZ4fn2DmullQ7Kkx6YUIbjK0cKuZNxaQuirr5icArrmvx70FFuvnWkrxulAHi-_chuqNvTCWtBGyS7qkCnGh28qubTDmQC_YCmj8Q77Y_bp7McFTJlAv9oT5KqPRUGxlVoXli8/s1600/recap-thn.jpg,https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T14:10:54Z,9,Cybersecurity
+How emotionally powerful stories fuel vaccine skepticism,"Sometimes, compelling stories beat medical evidence.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/vaccinator-1000x648.jpg,https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/,https://arstechnica.com/feed/,2026-07-27T14:01:56Z,0,Tech
+Shadow AI agents are multiplying. Here's how to find and secure them.,"Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",,https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/,https://www.bleepingcomputer.com/feed/,2026-07-27T14:01:11Z,2,Cybersecurity
+PTC Windchill Vulnerability Exploited in Ransomware Campaign,"The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication.
+The post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared first on SecurityWeek.
+",,https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/,https://www.securityweek.com/feed/,2026-07-27T13:19:30Z,13,Cybersecurity
+n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process,"n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n&#39;s February fix for CVE-2026-27577 for another bypass.
+
+The affected ranges are &lt;2.31.5 and &gt;=2.32.0,&lt;2.32.1. n8n fixed the flaw in versions 2.31.5 and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeKRvflcncQ0UoJ9jitnqLM9fezomqM-liKMmU5fccI5_lOaWwgmRYtpHiYQinkYD1fRUCH-wksW6bq8rWMMbKj3cdvaQ-GhA_CcUvcxCnZuzdkadQkIjZUUkVXawqqUZyYkvKO4Rg7IAmCNTBB6Ivu6yKYhBEegL68JmRFb9HimU1CKg2QyQByo8a0MQ/s1600/sandbox-flaw-n8n.jpg,https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T13:05:15Z,2,Cybersecurity
+MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection,"The malware-as-a-service operation launches legitimate browsers on an invisible desktop, giving attackers persistent and covert remote access to compromised Windows systems.
+The post MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection appeared first on SecurityWeek.
+",,https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/,https://www.securityweek.com/feed/,2026-07-27T13:00:00Z,7,Cybersecurity
+Enigma raises $70M to make controlling a robot as easy as adjusting the volume,"The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo&#39;s Conviction Partners.",,https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/,https://techcrunch.com/feed/,2026-07-27T13:00:00Z,5,Tech
+Snapchat now lets you share what you’re listening to in real time,"Starting with Spotify, Snapchat users will be able to link their accounts, choose who can see their listening activity, and see what their friends are listening to in real time.",,https://techcrunch.com/2026/07/27/snapchat-now-lets-you-share-what-youre-listening-to-in-real-time/,https://techcrunch.com/feed/,2026-07-27T13:00:00Z,0,Tech
+Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update,"Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs &#34;secure document&#34; lures to deliver legitimate remote monitoring and management (RMM) tools.
+
+&#34;The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be updated before the shared document could be opened,&#34; ZeroBEC said in",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ69OB4Ww_Yj5rfCn7WOwEue0i4sxEuvzaqGj1v71E-W52Q6DDfFRKpesydsd2bD9_QQVghes677fGD0S-PJpJQOz10JYs_NV6wv5peadJtT-dbxFzl7eMqaavlrBl0OfePVtGIm9WvI-rEAAUcDqdFdYcBF6ByDv4iPSCzLZgbuzg0Nb-ASL0uzTb90Ag/s1600/teams-malware.jpg,https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T12:37:49Z,5,Cybersecurity
+Nvidia and Tech Giants Launch AI Security Alliance,"The Nvidia-led coalition aims to give defenders more open tools for testing, auditing and protecting AI models and agents.
+The post Nvidia and Tech Giants Launch AI Security Alliance appeared first on SecurityWeek.
+",,https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance/,https://www.securityweek.com/feed/,2026-07-27T12:25:43Z,1,Cybersecurity
+"Nvidia, Microsoft launch open AI security alliance – without OpenAI, Google, or Anthropic","Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety […]",,https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity,https://www.theverge.com/rss/index.xml,2026-07-27T12:06:22Z,5,Tech
+"With smart glasses, Meta holds all the cards but fails to play them well ","Across New York City, London, and Washington, DC, ads for Meta&#39;s smart glasses have been plastered over with satirical posters from activist groups. One guerrilla ad calls these &#34;the biggest advancement in pervert technology since the trenchcoat.&#34; Another transposes the words &#34;mass surveillance predator glasses&#34; over influencer Kylie Jenner&#39;s face, calling her out for partnering […]",,https://www.theverge.com/tech/970948/meta-smart-glasses-privacy-wearables,https://www.theverge.com/rss/index.xml,2026-07-27T12:00:00Z,5,Tech
+Certighost haunts Microsoft Active Directory Certificate Services,"
+		
+					  
+						
+
+
+
+
+A vulnerability in Microsoft’s Active Directory Certificate Services (AD CS) could allow a low-privilege domain user to impersonate a Domain Controller, security researchers have warned.
+
+
+
+Dubbed Certighost, the flaw stems from an enrollment fallback mechanism known as a “chase,” which the Certification Authority (CA) uses during directory-object resolution.
+
+
+
+This mechanism could be used to trick the CA into picking up an attacker-controlled identity instead of a legitimate Domain Controller.
+
+
+
+“By supplying request attributes such as cdc, an attacker could cause the CA to ask an attacker-controlled host for identity data belonging to a Domain Controller,” researchers @h0j3n, and @aniqfakhrul, said in a GitHub post. “The CA then uses that data while issuing a certificate.”
+
+
+
+Microsoft fixed the issue in its July 2026 security updates.
+
+
+
+Exploiting trust within the certificate issuance process
+
+
+
+Unlike other previously reported AD CS attack techniques that abused misconfigured certificate templates or weak enrollment permissions, Certighost targets the certificate issuance workflow itself.
+
+
+
+The researchers explained that when certificate requests include cdc (Client DC) and rmd (Remote Domain) attributes, the CA may perform a secondary directory lookup, known as a chase, to resolve identity information.
+
+
+
+In vulnerable deployments, the CA trusts the requester-specified cdc value without verifying if the referenced server was an authentic Domain Controller.
+
+
+
+“That made it possible for an attacker to run LDAP and LSA services on a host they controlled, direct the CA to that host, and return directory data for a chosen target principal,” the researchers explained.
+
+
+
+According to the researchers, values such as the controller’s objectSid and dNSHostName could then be incorporated into the issued certificate, influencing the strong SID mapping and DNS identity fields used during authentication.
+
+
+
+Because the certificate itself appeared legitimate, the researchers noted that the attack shifted from cryptography to a directory lookup that attackers could manipulate.
+
+
+
+Researchers demonstrate the flawed and the fixed workflows
+
+
+
+In a proof of concept (PoC) exploit, the researchers used a standard enterprise lab environment featuring an Enterprise CA, Windows Server Active Directory, the default Machine certificate template, and a low-privilege Domain user account.
+
+
+
+The exploit automated every stage of the attack, including machine account creation, certificate enrollment, and Domain Controller impersonation.
+
+
+
+The researchers said they looked into Microsoft’s July 2026 patch to understand the fix.
+
+
+
+By diffing the patched binaries against the vulnerable version, they identified an additional verification step that validates the target server before the CA responds to a chase request.
+
+
+
+“When the validation gate is active, the CA checks that the hostname supplied in cdc resolves to a legitimate Domain Controller computer object in the real directory before it continues the chase,” the researchers confirmed. “A validation failure takes the request down an error path rather than the chase continuation.”
+
+
+
+Although Microsoft has patched the vulnerability, organizations that depend on AD CS were asked to continuously audit certificate enrollment behavior, review exposed certificate templates, and ensure domain controllers and certificate authorities receive security updates promptly.
+
+
+
+The researchers also provided a hotfix for organizations that cannot yet apply the fix. “If the July update cannot be installed immediately, the vulnerable code path can be switched off completely with a policy flag,” they said, adding the policy that can disable the chase fallback as it is optional.
+
+
+
+However, they warned the hotfix was only validated in controlled lab environments and should only be applied in production after testing it on a staging CA.
+
+
+
+Microsoft did not immediately respond to CSO’s request for a comment.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201771-0-50617600-1785152654-shutterstock_680078968.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201771/certighost-haunts-microsoft-active-directory-certificate-services.html,https://www.csoonline.com/feed/,2026-07-27T11:43:58Z,12,Cybersecurity
+Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack,"The Anubis cybercrime group has taken credit for the attack and is threatening to leak data.
+The post Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack appeared first on SecurityWeek.
+",,https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/,https://www.securityweek.com/feed/,2026-07-27T11:29:03Z,19,Cybersecurity
+OpenAI not part of the new Open Secure AI Alliance,"
+		
+					  
+						
+
+
+
+
+OpenAI is noticeably absent from the list of initial supporters of a new industry initiative to promote the creation of strong, safe, defensive AI cybersecurity tools built on open-source platforms.
+
+
+
+The Open Secure AI Alliance is an initiative of Nvidia with the backing of over 30 major AI makers and users, including Cisco, Databricks, Dell Technologies, HPE, IBM, Microsoft, OpenClaw, Palantir, Salesforce, SAP, ServiceNow, Siemens, Snowflake, and Thinking Machines.
+
+
+
+One of the drivers for the group’s creation, Nvidia said, was the recent incident in which OpenAI allowed two of its most powerful closed-source AI models to hack Hugging Face, but Hugging Face was unable to use similar commercial models to analyze the attack to defend itself.
+
+
+
+“The requests were blocked by the providers’ safety guardrails, which cannot distinguish an incident responder from an attacker,” Hugging Face wrote in its preliminary incident response report. “The attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried.”
+
+
+
+Hugging Face didn’t know it at the time, but OpenAI had indeed removed safety restrictions from GPT-5.6 Sol and another more capable pre-release model in order to test their offensive cybersecurity abilities in what it thought was a contained environment.
+
+
+
+With commercial AI models proving unsuitable for the defense, Hugging Face turned to open models. “We ran the forensic analysis instead on GLM 5.2, an open-weight model, on our own infrastructure,” it said. “The practical lesson for defenders: Have a capable model you can run on your own infrastructure vetted and ready before an incident, both to avoid guardrail lockout and to keep attacker data and credentials from leaving your environment.”
+
+
+
+It’s that lesson that Nvidia and the other supporters of the Open Secure AI Alliance are hoping to apply, working to remediate and disclose vulnerabilities using open technologies.
+
+
+
+“For cybersecurity, open models and open harnesses are essential because they democratize defensive capabilities, increase transparency for defenders, enable cyber defense while protecting data, and complement frontier closed models with customizable, localized controls,” Nvidia wrote in a blog post about the new group.
+
+
+
+OpenAI did not immediately respond to questions about whether it would join the Open Secure AI Alliance.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201761-0-84340600-1785150547-shutterstock_2280555503.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201761/openai-not-part-of-the-new-open-secure-ai-alliance.html,https://www.csoonline.com/feed/,2026-07-27T11:08:51Z,6,Cybersecurity
+Beelzebub Raises $3.4 Million for Hacker-Trapping Platform,"The company plans to expand its research team, open new offices in Rome and San Francisco, and acquire new clients.
+The post Beelzebub Raises $3.4 Million for Hacker-Trapping Platform appeared first on SecurityWeek.
+",,https://www.securityweek.com/beelzebub-raises-3-4-million-for-hacker-trapping-platform/,https://www.securityweek.com/feed/,2026-07-27T11:06:24Z,1,Cybersecurity
+What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out,"The new Mobile Security Exposure Center creates SBOMs for enterprise mobile apps to uncover vulnerable components, dependencies and hidden risks.
+The post What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out appeared first on SecurityWeek.
+",,https://www.securityweek.com/whats-hiding-in-your-mobile-apps-lookout-msec-aims-to-find-out/,https://www.securityweek.com/feed/,2026-07-27T11:00:00Z,2,Cybersecurity
+Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware,"The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.
+
+According to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBorVFXLroQ9D9Ao8QPsDAQpmoMeD2ciyHIBw3YYRHLBLAeDIjFZ6V9lzrrtmNq3KrIRqHhJUfKAx2sXIsMYCjyFzRV9awIVSLOuujkMY8hOeUkaNlFgM421aS8pVQaiLmjwKcNNLy5TcU389YEAPfCnB8uVeFtUY9BCJ0lz4IjQoD2UZp9pVDP7IzLurf/s1600/malware-hacker.jpg,https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T10:51:45Z,9,Cybersecurity
+Artist sues AI meme generator for selling deeply personal comic as ad template,"Meme generator may have screwed up by using templates in outputs, expert says.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/comictest-1152x648-1784918491.jpg,https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/,https://arstechnica.com/feed/,2026-07-27T10:50:37Z,5,Tech
+Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials,"A threat actor has been using the compromised appliances to target the Microsoft 365 accounts of traveling corporate employees.
+The post Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials appeared first on SecurityWeek.
+",,https://www.securityweek.com/hacked-public-wi-fi-gateways-used-to-harvest-corporate-credentials/,https://www.securityweek.com/feed/,2026-07-27T10:50:19Z,4,Cybersecurity
+India Successfully Tests Kusha Long-range Surface-to-Air Missile,This is an important milestone in India’s evolving multi-layered long-range air defense architecture envisaged under Mission Sudarshan Chakra.,https://images.thediplomat.com/v1/td-list-l-2/2026/07/thediplomat_2026-07-27-194330.jpg,https://thediplomat.com/2026/07/india-successfully-tests-kusha-long-range-surface-to-air-missile/,https://thediplomat.com/category/asia-defense/feed/,2026-07-27T10:30:00Z,0,Defense
+"Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits","Binary-based vulnerability scanning, penetration testing, and exploit generation are blocked in Opus 5.
+The post Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits appeared first on SecurityWeek.
+",,https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/,https://www.securityweek.com/feed/,2026-07-27T10:02:41Z,7,Cybersecurity
+The containment paradox: Why your ransomware playbook has the wrong people in charge,"
+		
+					  
+						
+
+
+
+
+I have sat in on a version of the same incident post-mortem in three sectors over the past two years. The script does not vary much. At 4:47 a.m. on a Saturday, an on-duty SOC analyst sees a ransomware payload spreading across three servers in the data center. The playbook says isolate. They hit the switch. Sixteen minutes later the CFO is on the phone: Those three servers were the production payment gateway. The malware would likely have reached a dozen more endpoints. The isolation took down revenue for fourteen hours. The Monday morning question from the board is not how the attacker got in. It is who, in the organization, was authorized to make a decision of this commercial magnitude at 4:47 in the morning.
+
+
+
+This is the question most incident response programs avoid putting in writing. The plan is documented. The SOC has it open on the second monitor. What is missing is the answer to a single question: Tho decides that a business-critical system goes offline and who carries the operational and financial consequences of that decision? In most playbooks I have reviewed, that authority is not assigned. It sits implicitly with whichever SOC analyst is on shift — typically someone who neither owns the affected business process nor can fully see the downstream consequences of the action they are about to take.
+
+
+
+This piece is about the gap between technical incident response and operational accountability. It introduces the containment paradox, the no-touch register as a governance instrument, a RACI structure for containment decisions and the answer to the most common objection — that a veto right will simply slow you down while attackers move.
+
+
+
+Why “isolate first” stopped being the safe default
+
+
+
+The classical incident response doctrine comes out of enterprise IT. It carries a reflex that used to be safely correct: When in doubt, isolate. A suspicious endpoint comes off the network. A compromised server is taken down. A flagged account is disabled. Fast action reduces dwell time, and reduced dwell time reduces damage. That logic is the spine of every SOAR default configuration and most IR runbooks.
+
+
+
+The doctrine breaks once isolation itself becomes the loss event. A disconnected workstation costs a knowledge worker a productive hour. A disconnected payment gateway, ERP backbone, identity provider, manufacturing line or trading platform costs revenue, contract penalties, regulatory exposure and trust — sometimes within minutes. The containment measure becomes the damage. It is no longer mitigation; it is escalation by another route. Verizon’s 2026 Data Breach Investigations Report, drawing on more than 31,000 incidents across 145 countries, finds ransomware now present in 48 percent of all breaches — but also that 69 percent of victims chose not to pay and the median ransom dropped to $139,875. Read against incident-response practice, those numbers say two things: The trigger event is more common than ever, and the decisions that follow it carry more commercial weight than ever.
+
+
+
+Colonial Pipeline in May 2021 is the case study every CISO already knows but few have internalized correctly. The DarkSide ransomware was on the corporate billing system, not on the pipeline control network. Colonial shut down the pipeline anyway, because they could not guarantee the ransomware would stay on the IT side. The outage lasted six days, hit 17 states plus the District of Columbia and triggered the largest fuel supply crisis on the US East Coast in decades. The intrusion compromised a network. The response disabled a region. JBS followed the same pattern weeks later. A major US consumer goods manufacturer pursued a vendor lawsuit in 2023 arguing that the contractor had extended recovery time and was liable for the resulting downtime. Recovery duration is now an attributable damage figure in litigation. That shift was unthinkable a few years ago.
+
+
+
+The accountability and authority asymmetry
+
+
+
+In most enterprises, the executive responsible for the availability of a business service — the head of payments, the head of trading, the plant manager, the head of clinical systems — does not have the authority to prevent that service from being taken offline during an incident. The SOC has the authority. The business owner has the accountability. These are different people, often in different reporting lines, and the asymmetry only becomes visible when something is actually shut down. NIST’s SP 800-61 Revision 3, finalized in April 2025 by Amy Nelson, Shanée Rekhi, Murugiah Souppaya and Karen Scarfone, restructures the entire incident response model around the NIST Cybersecurity Framework 2.0 — moving the framing explicitly from “tactical execution” to “strategic alignment with broader risk management.” That shift is exactly the gap I am describing. The new doctrine treats incident response not as a SOC function but as an organizational risk-management activity in which the business owner is a named participant.
+
+
+
+This is not a problem that goes away with better SOC training. It is a governance problem. The asymmetry exists because the IR playbook was written by the security function, for the security function and never went through the legal and operational review that would have surfaced it. A SOC analyst at 4 a.m. on Saturday is not the right person to decide whether the company should lose fourteen hours of payments to prevent four hours of attacker dwell time. That decision belongs to a named operational owner — and if that owner cannot be reached in time, the playbook should specify a pre-agreed safe-state action, not let the analyst improvise.
+
+
+
+The no-touch register: A second reading of your crown jewels list
+
+
+
+Most security programs already maintain a crown jewels register — the inventory of systems whose loss would be existential. In its standard reading, the register drives investment, patch cadence, backup frequency and monitoring depth. That reading is right but incomplete. The same list has a second function that is at least as important: It is the inventory of systems your SOC must not touch without confirmation from a named business owner.
+
+
+
+I call this second function the no-touch register. It is not a separate database. It is the same crown jewels list with one additional column: For each asset, which containment actions are pre-authorized for the SOC to execute, and which actions require operational confirmation. The split looks something like this:
+
+
+
+Asset classSOC pre-authorized actionsVeto-protected actionsPayment gatewayDetect, analyze, preserve evidence, monitor, restrict outbound traffic.Isolate from network, take service offline, force credential reset of operational accounts.Identity provider (IdP)Detect, enrich logs, alert on session anomalies, raise additional MFA.Disable federated trust, mass-revoke active sessions, force tenant-wide logout.Manufacturing control systemDetect, passively monitor, escalate.Any action that could interrupt continuous process or trigger safety response.Clinical EHR backendDetect, restrict admin access, enhance logging.Take system offline, block clinician access, suspend data feeds to bedside devices.Standard endpoint (laptop, dev workstation)Full containment — isolate, image, re-provision.None. 
+
+
+
+The point of the table is not the rows. It is the discipline of filling it out. In every engagement where I have run this exercise, the meeting itself produces the value: Business owners hear, often for the first time, that the IR playbook authorizes the SOC to take their service offline; the SOC hears, often for the first time, what the downstream cost of that action actually is. Most of the no-touch register is consensus once the conversation has happened. The artifact then makes that consensus enforceable.
+
+
+
+RACI for containment decisions
+
+
+
+Once a no-touch register exists, the RACI for veto-protected actions becomes straightforward. The model below aligns with the four-role logic that the Institute for Security and Technology’s Ransomware Task Force — a coalition of more than 60 organizations across government, industry and law enforcement — has repeatedly recommended in its progress reports: Containment authority belongs to the operational owner, not the security function alone.
+
+
+
+RoleRACIReasonBusiness asset ownerAccountableHolds both the availability mandate and the downstream commercial, safety or regulatory consequences of taking the service offline. Delegates operational confirmation to a named on-call lead but retains strategic responsibility.Security Operations CenterResponsibleExecutes the containment measure once confirmation arrives or the defined escalation window elapses and the pre-agreed safe-state fallback applies.CISO / Head of SecurityConsultedSets the methodological guardrails but is not the single-incident decision maker. Escalates to Accountable for enterprise-wide coordination on systemic incidents.Executive leadership / boardInformedReceives a structured notification, not a real-time consultation. The Informed status is what makes post-incident reconstruction defensible in audit, regulatory review and litigation. 
+
+
+
+In most enterprises this RACI line has never been filled in. The cost of that omission is invisible in normal operations and becomes existential during incident reconstruction — when an internal lessons-learned, a regulator, or a plaintiff asks who decided to take the system offline, on what basis and with what authority.
+
+
+
+The objection: Does this slow you down while attackers move?
+
+
+
+Every workshop on this topic produces the same pushback. If the SOC has to wait for a business owner’s confirmation, dwell time goes up, damage probability goes up and the veto right has effectively disarmed the response. Stated generally, this objection is correct. Stated about the no-touch register, it rests on three misunderstandings.
+
+
+
+The veto applies to a narrow asset class. The register covers the crown jewels — typically a small number per business unit, not the entire estate. Containing a compromised laptop is not veto-protected. Containing the identity provider that laptop authenticates against is. The veto-protected set is the intersection of assets whose loss is existential and actions that produce exactly that loss.
+
+
+
+The veto is time-bounded. A serviceable playbook defines the escalation chain with hard windows and a deliberate fallback action if the chain runs out. The structure looks like this:
+
+
+
+StepEscalation roleMax waitAction if no response1On-call service owner (primary contact for the asset)5 minutesEscalate to business asset owner.2Business asset owner10 minutesEscalate to executive on call.3Executive on call (head of service line or COO delegate)15 minutesApply pre-agreed safe-state fallback — not unilateral isolation. 
+
+
+
+The pre-agreed safe-state fallback is the design point most playbooks skip. It is not the original containment action executed unilaterally after the window closes. It is a separate, deliberately-designed action that brings the asset to a manageable state without forcing the SOC to improvise under pressure — degraded mode, read-only access, traffic restriction or whatever the business owner has pre-authorized in writing for exactly this case.
+
+
+
+The veto applies to actions, not detections. The SOC retains full authority to detect, enrich, preserve evidence, intensify monitoring and isolate every system not on the no-touch list. What is veto-protected is the small class of actions that would induce an unplanned outage of a continuous business service. Modern SOAR platforms handle this branching natively. CISA’s Federal Government Cybersecurity Incident and Vulnerability Response Playbooks, published under Executive Order 14028 and intended explicitly for private-sector adaptation, model exactly this kind of branched decision tree. The reason most enterprise implementations do not is not technical. The IR governance never asked them to.
+
+
+
+Three steps to implement, and one meeting that produces most of the value
+
+
+
+Implementing a no-touch register requires no new software, no additional headcount and no separate budget line. It requires four hours in a room with the right people and a willingness to write down decisions that were previously implicit.
+
+
+
+
+Build the register. Sit down with the business asset owners and identify the systems whose unplanned outage would be more damaging than the worst plausible cyber incident on those same systems. The list is shorter than most CISOs expect. The conversation is the actual outcome; the table is the artifact.
+
+
+
+Embed the security stop in the playbook that the SOC actually runs — not the playbook in the audit folder. Before any containment action against a register asset, insert a checkpoint: Confirmation by a named business role, defined escalation chain, defined maximum window, defined safe-state fallback if the window expires.
+
+
+
+Fill in the RACI. For containment of register assets: Business owner Accountable, SOC Responsible, CISO Consulted, executive leadership Informed. In most organizations this column has never been completed. Completing it is the precondition for being able to answer, after the incident, who decided what on which basis.
+
+
+
+
+The 4:47 a.m. test
+
+
+
+If I run only one diagnostic on a current IR program, this is the one. I ask: At 4:47 a.m. on a Saturday, with a credible ransomware payload spreading on three crown-jewel systems, is the SOC analyst authorized to take those systems offline on their own judgment? If yes, the governance has not yet caught up to the cost of that decision. If no, can the analyst reach a named accountable owner within a defined window, and is there a pre-agreed safe-state fallback if that window expires? If both answers are yes, the no-touch register exists in practice, even if it has not been named. If either answer is no, the gap is governance, not technology.
+
+
+
+The containment paradox is not solved by faster automation or by adding humans to the loop after the fact. It is solved by writing down, in advance and in plain language, who is authorized to take which business service offline — and what the response is when that person cannot be reached. The artifact is one page. The conversation that produces it is several hours. The cost of not having it is measured in the language of board reports, regulatory filings and discovery requests.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",https://www.csoonline.com/wp-content/uploads/2026/07/4200141-0-78654700-1785146610-jukan-tateisi-bJhT_8nbUA0-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4200141/the-containment-paradox-why-your-ransomware-playbook-has-the-wrong-people-in-charge.html,https://www.csoonline.com/feed/,2026-07-27T10:00:00Z,25,Cybersecurity
+"Europe got its own TBPN-style live show, and everyone’s angling for a guest spot","On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), the popular media publication LadBible, and angel investors from OpenAI and DeepMind. With this fresh capital, the network is announcing its largest expansion yet.",,https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/,https://techcrunch.com/feed/,2026-07-27T10:00:00Z,5,Tech
+DentaQuest Data Breach Potentially Impacts Over 23 Million People,"In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network.
+The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek.
+",,https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/,https://www.securityweek.com/feed/,2026-07-27T09:34:12Z,5,Cybersecurity
+When the hackers get hacked: The Klue breach and the new reality of third-party cyber risk,"
+		
+					  
+						
+
+
+
+
+In cybersecurity, defenders sometimes naively assume that threat actors operate from secure, resilient infrastructures insulated from the very chaos they inflict on others. The 2026 compromise of Klue challenges that assumption. What began as a software-as-a-service supply chain breach evolved into an exceptional case in which a second criminal group claimed to have compromised the first extortion crew and pilfered data that had already been stolen. The result was not simply another ransomware story. It exposed fundamental weaknesses in SaaS integrations, identity-based trust, third-party risk management and executive decision-making.
+
+
+
+Scene of the crime
+
+
+
+Founded in 2015, Klue, a Vancouver, British Columbia-based software-as-a-service (SaaS) company, provides an AI-powered competitive intelligence platform that serves more than 500 customers and employs more than 200 people across North America and Europe. The company has raised approximately $81 million in venture funding. The platform helps organizations monitor competitors, analyze market signals and distribute insights across sales, marketing, product and executive teams. By aggregating public sources, internal knowledge, and third-party data, Klue turns fragmented information into actionable intelligence that supports faster strategic decisions, stronger competitive positioning, and more effective product planning. Klue’s “Battlecards app” integrates with Salesforce, HubSpot, SharePoint, Zoom, Gong, Chorus, Clari, Google Drive and Slack, syncing account records, deal data, contact information and call transcripts.
+
+
+
+Cause of the breach
+
+
+
+Klue occupies a privileged position within customer environments since it integrates with platforms such as Salesforce and other collaboration ecosystems. Those integrations rely heavily on OAuth tokens that permit trusted, authenticated access without repeatedly requesting credential inputs. Attackers from the Icarus criminal group discovered an unused but still-active service account credential originally created for a pilot project. That unused, forgotten credential provided an entry point into Klue’s integration infrastructure. Rather than stealing passwords, the attackers harvested OAuth tokens. This distinction matters. Modern identity-based attacks increasingly focus on session tokens and application trust relationships instead of credential theft. Once valid OAuth tokens were obtained, the attackers effectively inherited the permissions granted to Klue within customer environments. They executed extensive Salesforce API queries over a period of hours, extracting customer relationship management data including contact information, quotes, pricing information, sales communications and account records. 
+
+
+
+Continuance of the breach
+
+
+
+The most unusual aspect of the incident emerged after the initial compromise. Icarus allegedly informed Klue that another criminal group had obtained sample data after compromising Icarus’ servers. That second group reportedly attempted to directly extort affected organizations independently while advising victims not to trust Icarus. Whether every claim can ultimately be verified is less important than the strategic lesson it illustrates. Stolen data can itself become a target inside criminal ecosystems.
+
+
+
+This development fundamentally alters the traditional ransomware decision model. Organizations have long debated whether paying a ransom increases the likelihood that stolen information will remain private. But the Klue breach illustrates an even more troubling possibility. Even if an organization believed the original attackers would honor an agreement to delete stolen information, the criminals may no longer control the data. If threat actors maintain poor operational security, expose infrastructure or suffer compromises themselves, victims may face repeated extortion campaigns despite paying the initial demand.
+
+
+
+CISO perspective
+
+
+
+From a CISO perspective, this incident reinforces an uncomfortable reality: identity has become the new perimeter. Security investments focused exclusively on endpoint protection or network segmentation provide little protection when a trusted SaaS application already possesses legitimate access to enterprise data. The breach also demonstrates how seemingly insignificant technical oversight becomes enterprise risk. The root cause was not an advanced zero-day exploit. Instead, an inactive credential remained enabled years after its intended purpose had ended. Security professionals routinely discuss attack surface reduction, yet dormant service accounts, forgotten API keys and obsolete integrations continue to exist inside many organizations.
+
+
+
+Governance failures frequently create greater exposure than sophisticated malware.
+
+
+
+Klue reportedly detected suspicious activity quickly, revoked credentials, removed malicious code and engaged incident response specialists and law enforcement. These actions reflect mature incident response processes. Nevertheless, the downstream impact extended well beyond Klue because customers had delegated trusted access to the platform. The compromise therefore became a supply-chain event in which one vendor’s security weakness propagated risk across numerous downstream organizations.
+
+
+
+Executive perspectives
+
+
+
+For executive leadership, the incident raises broader governance questions. Vendor risk assessments often emphasize compliance certifications, questionnaires and contractual commitments. Far less attention is devoted to lifecycle management of privileged service accounts, continuous credential governance or monitoring of delegated application permissions. Executives should ask whether critical SaaS providers regularly eliminate
+
+
+
+dormant credentials, rotate secrets and continuously validate privileged integrations rather than relying solely on annual audits.
+
+
+
+Executives therefore should recognize that ransom payments cannot reliably purchase exclusivity or certainty. Cyber extortion increasingly resembles a fragmented marketplace in which multiple actors may possess copies of the same information. Risk decisions should be evaluated with that possibility explicitly acknowledged.
+
+
+
+Several practical lessons emerge:
+
+
+
+
+Organizations should inventory every SaaS integration possessing privileged API access and regularly validate business justification.
+
+
+
+Privileged service accounts require formal ownership, expiration policies and automated deprovisioning.
+
+
+
+OAuth tokens deserve the same governance attention historically applied to passwords and certificates.
+
+
+
+Organizations should continuously monitor abnormal API behavior capable of revealing high-volume data extraction. In the Klue breach, Icarus attackers were allegedly executing approximately 1,000 queries within a fifteen-minute timeframe against one environment.
+
+
+
+Third-party risk programs should evaluate operational security practices surrounding identity governance rather than treating compliance certifications as sufficient evidence of resilience.
+
+
+
+
+Board of Director perspective
+
+
+
+Boards also should broaden the metrics they receive from security leadership. Instead of measuring only phishing click rates or vulnerability counts, executives should understand how many privileged SaaS integrations exist, how many dormant service accounts remain active, how frequently application permissions are reviewed, and how rapidly suspicious API activity can be detected and contained. These indicators more directly reflect organizational exposure in cloud-centric environments.
+
+
+
+The Klue incident represents more than just another breach. It demonstrates that modern enterprises inherit both the strengths and weaknesses of every trusted integration within their digital ecosystem. It also reveals that cybercriminal organizations are neither unified nor necessarily competent custodians of stolen information. When attackers become victims themselves, organizations discover that extortion risk does not end with the initial compromise.
+
+
+
+Afterthoughts
+
+
+
+
+As identified on the Ransomware Live website, Icarus is a relatively new ransom group whose criminal activity was first identified in May 2026. To date, they have victimized twelve entities across three countries: the United States, Canada and Indonesia. We may not know the entirety of the blast radius caused by the Klue breach, but it is significant, with allegedly 195 victims.
+
+
+
+For this article, I accessed Klue’s impressive Trust Center. Klue boasts badges for SOC 2, GDPR and CCPA compliance. Additionally, Klue identifies nearly 50 security controls spread across infrastructure security, organizational security, product security and internal security procedures. The Klue Trust Center also provides a notice dated May 6, 2026, announcing that they completed their SOC 2 Type 2 audit for the period of March 16, 2025, to March 15, 2026. It should be noted that SOC 2 Type 2 compliance should be audited and renewed on an annual basis. According to Klue’s update, they are not SOC 2 Type 2 compliant.
+
+
+
+In reviewing Klue’s Leadership website page, there is no one identified on the team with a CISO title. I also conducted a LinkedIn and internet search and I could not find a Klue employee with a CISO or similar title responsible for enterprise cybersecurity.
+
+
+
+
+For CISOs, executives and boards, the lesson is straightforward. Trust relationships require continuous governance, identity is now a primary attack surface and organizations must assume that once data leaves their control, no criminal promise can restore certainty. In an era where even hackers can be hacked, resilience — not misplaced trust — remains the only sustainable defense.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",https://www.csoonline.com/wp-content/uploads/2026/07/4200130-0-51024400-1785143004-shutterstock_2242349417.jpg?quality=50&strip=all,https://www.csoonline.com/article/4200130/when-the-hackers-get-hacked-the-klue-breach-and-the-new-reality-of-third-party-cyber-risk.html,https://www.csoonline.com/feed/,2026-07-27T09:00:00Z,34,Cybersecurity
+TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments,"Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.
+
+The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikuWOQRYm6WQ1zHmOlYkI7jlVOUUKGBIlo68iWyUVuaZ5n3i7ODu8DYpntAk2aGZQ_7LsYpXpp5v0PcQMLxP8LQOajtKl-WaDBb7_wDpo8P3-iCcAwr74JY4rXNeHJJv9h6EB447wPEnrZE08YfDO_WI9N4B_C1lPvxILfvv00Z_J8yHntLSfNYbPVCDjS/s1600/telegram-c2.jpg,https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T08:48:47Z,11,Cybersecurity
+GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption,"GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request.
+
+&#34;The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that fits your project,&#34; the Microsoft-owned subsidiary said.
+
+According to GitHub, the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFpE4BZgV3wILI8fonm9742zR85yLmBdM2ExXv-uTUS1StV04ZlNVVIwV6FjjhYLZUAFk-DAIInwp3mlXa2W2xekDA_EqSl1UiHrKCgocsjhVAKlvCD48QnlVdUdCIQia7T4ilS65ZFptdi_wox0Q9brVTdpoqDNTvpCjg0D6BslyCAPRzY7QMyUoYNkv-/s1600/gitbot.jpg,https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T08:01:23Z,0,Cybersecurity
+How CISOs can rise to the business resilience challenge,"
+		
+					  
+						
+
+
+
+
+CISOs have quietly become their organizations’ de facto chief resilience officers as the role has evolved from its primary prevention roots to now include greater emphasis on incident response and business resiliency and recovery.
+
+
+
+“Any experienced CISO who’s come up through the ranks of IT has that operational mindset, which is about uptime,” says John Bruggeman, consulting CISO to OnX and CBTS. “They’re thinking, ‘How do I make sure that we’re not totally down and unable to perform our functions.’”
+
+
+
+With 30 years’ experience across numerous organizations, including a 40,000-employee global firm and a 75-employee $300 million revenue business, Bruggeman has lived the challenges faced by CISOs who shoulder responsibility for cybersecurity, including owning recovery.
+
+
+
+According to Bruggeman, CISOs have always had a resiliency mindset, only now it’s being called out by name, underpinning all business operations. The stakes couldn’t be higher for the organization, and individual CISOs.
+
+
+
+For example, in the wake of its global outage, CrowdStrike appointed its first chief resilience officer. It was a message to customers, regulators, and investors that the company was intent on strengthening its operations.
+
+
+
+But not every organization will go so far as to introduce a new C-suite role dedicated to resiliency. For most, that work increasingly falls to the CISO, and security leaders are responding.
+
+
+
+When he’s developing business continuity plans and business impact assessments, Bruggeman goes right to resiliency. The central question for most organizations is: If you’re down, how much money are you going to lose? What’s the impact to your revenue?
+
+
+
+As such, Bruggeman firmly believes terms like resilience should be emphasized in boardroom discussions as a way for CISOs to gain buy-in — and funding — for cyber operations.
+
+
+
+“If Gartner talks about it, then the CEO is going to talk about it, and then the board is going to talk about it, and then [the CISO] can get funding for what they’ve been talking about. If you have to change the word from ‘backup’ to ‘resilient,’ you’ll do it in a heartbeat.”
+
+
+
+Redefining resilience beyond uptime
+
+
+
+Traditionally, resilience has been narrowly defined in terms of uptime, but as the CISO mandate has evolved to support business operations, the definition is shifting.
+
+
+
+For Aimee Cardwell, consultant and CIO and CISO in residence at Transcend, resilience means more than bringing systems back online after an outage.
+
+
+
+As Cardwell sees it, resiliency should be measured as recovering from system downtime and protecting against data theft through tokenization or encryption — but those haven’t always been given equal weighting. Organizations typically focus on being back up and running, but knowing where sensitive data lives and how exposed it is can’t be overlooked, she says.
+
+
+
+Organizations in heavily regulated industries such as healthcare and financial services will often prioritize data protection over uptime due to potential regulatory penalties or loss of customer trust. “If you’re a bank, you’d rather be down for a day, or even two days, and not have a data loss than be back up in 40 minutes and have a data loss, because your brand damage suffers,” Cardwell says.
+
+
+
+The equation flips for companies that don’t hold especially sensitive data. Amazon, she notes, tokenizes credit card numbers, so a breach would expose only a customer’s name, address, and email — not financial or health information. “It depends on where you are on that spectrum of sensitive data … where your resilience meter is,” she says. “If you’re Amazon, you want to be up fast, because every minute is millions of dollars.”
+
+
+
+Cardwell argues CISOs need to set explicit tolerances for data loss — what kind of data and how much of it — they are prepared to risk, not just how quickly systems come back online.
+
+
+
+“The exercises to determine their mean time to recovery, … I think having that same conversation for data loss is something that, if a CISO is not already doing that, they need to add that to the conversation,” she says.
+
+
+
+The rapid adoption of AI is another stress-test for resilience that is falling to CISOs. It’s amplifying the risk of hidden data exposure, turning a theoretical data‑loss conversation into a live operational problem.
+
+
+
+Cardwell describes a healthcare company that had 15 years of patient data breached — not through its primary systems, but through an accounting folder. As a small provider billing larger organizations, it had attached patient names, numbers, and conditions to years of invoices, all sitting unprotected in a location no one thought to secure.
+
+
+
+“Why is there so much healthcare data in the accounting folder?” she says. It’s the kind of shadow data problem, she argues, no perimeter defense would have caught.
+
+
+
+“It feels like CISOs have been pounding the table, saying, ‘I can’t protect it if I don’t know where it is.’ There’s shadow IT, there’s shadow data, and AI is magnifying that ten times,” Cardwell says. “That’s where much of that resilience problem is; it’s almost impossible in a large enterprise to have an understanding of where all that data is and how people are using it.”
+
+
+
+To contain the sprawl, Cardwell says CISOs need to champion role-based access control to protect sensitive data, yet there’s a sizable gap between best practice and real-world standards.
+
+
+
+“Every CISO will tell you that role-based access control is the most important thing a company can do, and every CISO will also tell you that they’ve never seen a company that does it well. And when I say well, I mean better than 70%,” she says.
+
+
+
+While a chief resilience officer could take ownership of certain functions such as data retention policy, the remit would overlap with roles that already have clear boundaries elsewhere. Audit, privacy, and legal are unambiguous, but resilience collides directly with the CIO, who already owns mean time to recovery, and potentially a chief data officer, too.
+
+
+
+“If you’re the CEO, who do you go to for questions around resilience?” she asks. “It gets a little complicated, unless you have clear boundaries.”
+
+
+
+Executing the resilience mindset
+
+
+
+Resilience starts with defining the minimum viable operations for the organization, according to Bill O’Connell, CommVault CSO. Then it’s a matter of working backwards to decide what to prioritize, what to protect, and rehearsing what to bring back first when things go wrong.
+
+
+
+“Define the smallest version of the business that still works, then build your recovery priorities and drills around that,” he tells CSO.
+
+
+
+A longtime cybersecurity professional who’s held chief business security officer and global security operations roles, O’Connell says a resilience mindset is an operational one that takes processes “off the page” and into practice.
+
+
+
+He knows firsthand that the most difficult part of an incident is almost always where organizations have never rehearsed those steps.
+
+
+
+“I’ve had all manner of disruptions happen, where you’re asking: What are the key things, do I know who I need to talk to, do I know where I need to go, and do I know how to get the information? Unless you’re practiced at that, it’s that much more painful,” he says.
+
+
+
+He warns against treating business continuity planning and disaster recovery as “a Word document” for auditors. Practicing “who talks to whom, where they go, and how they get information during disruption” is essential.
+
+
+
+Instead O’Connell advises developing a “ResOps” approach, where organizations repeatedly test, rehearse, and improve how they recover their most important services. “We have DevOps. We have SecOps. Do we have ResOps? Do we have a process around how we make sure we’re resilient?” he says.
+
+
+
+O’Connell also warns against overindexing on defense at the expense of resilience, though he appreciates that this mindset shift can be a difficult for many CISOs to come to grips with.
+
+
+
+“When you talk to CISOs, you have to be mindful, because if you say, ‘Worry less about defense,’ they get scared, because that’s their job. But it’s not to say, ‘Do less there’; it’s just to say, ‘You’re not doing enough on recovery, on availability, and the resilience piece and you need to make sure you’re balanced there,’” he says.
+
+
+
+For the board, O’Connell frames the conversation in terms of risks, potential impact, and mitigations — an approach that requires standing side by side with business leaders, looking at the problems and opportunities they see, and then explaining how cybersecurity helps support those outcomes, he says.
+
+
+
+Advice for CISOs to strengthen the resilience mandate
+
+
+
+Drawing on his consulting experience, Bruggeman offers practical advice for security leaders who want to turn resilience into a credible mandate.
+
+
+
+“For a CISO, they may not want to take on full responsibility for the resiliency component, but they can partner with GRC and compliance people. They both want the organization to succeed; they just have different tools in their toolkit to implement it and get the funding,” he says.
+
+
+
+Executed this way, CISOs articulate cyber and operational risks; GRC/compliance codifies and quantifies those risks; the CFO/COO turns that into funding and organizational mandate.
+
+
+
+“It’s not so much that they’re going to say, ‘Here, you can have this problem,’ but to say, ‘Let’s partner together,’ because it’s a shared responsibility,” he says.
+
+
+
+Bruggeman is yet to see any one single chief resilience officer because responsibility sits with different portfolios, creating opportunities for CISOs to level up their stature in the C-suite.
+
+
+
+“I haven’t run into a single company that has a resiliency officer. The CIO has some responsibility, the CISO has some responsibility, and the COO — who really is a chief and really is an officer — has responsibility,” he says. “I see it more as a partnership than a single role.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4200382-0-26275300-1785135795-shutterstock_2502873937.jpg?quality=50&strip=all,https://www.csoonline.com/article/4200382/how-cisos-can-rise-to-the-business-resilience-challenge.html,https://www.csoonline.com/feed/,2026-07-27T07:00:00Z,10,Cybersecurity
 MCBS Data Breach Affects 1.2 Million Individuals,"The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company.
 The post MCBS Data Breach Affects 1.2 Million Individuals appeared first on SecurityWeek.
 ",,https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/,https://www.securityweek.com/feed/,2026-07-27T04:51:32Z,8,Cybersecurity
