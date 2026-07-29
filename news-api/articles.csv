@@ -1,4 +1,990 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js,"Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.
+
+The list of affected packages is as follows -
+
+
+  @joyfill/layouts@0.1.2-2773.beta.0
+  @joyfill/components@4.0.0-rc24-2773-beta.4
+
+The two packages &#34;contain an import-time JavaScript implant that resolves encrypted code",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbnnos_l5g9tfmBH7efqHHPJs-C6Ti9zjG9iifZXs0QLLoUn7L1BwkunpqbD55rRvqSiJx0R_DTAl12TBnL9MN0DkDtzhwnm8Xgbsbu8LZuKyRDnVtq3cbeMlEmNJEmZgXy3BeOILj2kM24GojxXfDJDr93XsEiORhP9q1sYo814jzq4UsQCS0RRZmhp5k/s1600/npm-hack.jpg,https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T04:20:57Z,3,Cybersecurity
+"Fortinet’s new FortiGate platform converges firewall, SASE technologies","
+		
+					  
+						
+
+
+
+
+Fortinet has expanded its firewall family with new high-speed boxes that, when combined with the vendor’s FortiSASE Outpost software, extend cloud-based SASE (secure access service edge) capabilities and policy enforcement to on-premises environments.
+
+
+
+The new midrange FortiGate 1200G series supports 10G, 25G, and 100G connectivity options and delivers 397 Gbps firewall throughput. It’s aimed at securing campus, data center, and hybrid environments that need to inspect large volumes of encrypted traffic without sacrificing performance, according to Fortinet. The 1200G fills the gap between Fortinet’s campus, edge, and branch appliances, such as the 400G, and its flagship data center platforms like the 3500G.
+
+
+
+The new boxes run the vendor’s recently announced FortiOS 8.0 operating system, which includes new capabilities such as AI-assisted operations, enhanced Security Fabric integration, networking features, and SASE-related enhancements. One of those SASE-related features – FortiSASE Outpost – is enabled by FortiOS 8.0. 
+
+
+
+When configured as a FortiSASE Outpost, the 1200G can be deployed as a local SASE point of presence (POP), extending SASE enforcement closer to users and applications in customer-controlled locations, such as on-premises sites, private data centers, or colocation facilities, while maintaining centralized cloud management, according to Fortinet. Users can maintain local enforcement where needed without building separate stacks, the vendor stated.
+
+
+
+The FortiSASE interface centrally manages configuration, policy, monitoring, lifecycle operations, and upgrades across both deployment models, maintaining consistent zero-trust policies, visibility and protection without treating the on-site POP as a separate security environment. In addition customers can keep designated traffic, logs, and processing within defined geographic or private infrastructure boundaries to meet regulatory requirements and reduce connectivity costs without changing the end-user experience, Fortinet stated.
+
+
+
+“As AI adoption, encrypted traffic, and hybrid infrastructure reshape enterprise networks, organizations need to inspect growing traffic volumes without introducing performance bottlenecks,” Fortinet stated. “They also need the flexibility to determine where security enforcement occurs based on application performance, data sovereignty, compliance, and operational requirements.”
+
+
+
+The FortiGate 1200G competes most closely with enterprise firewalls from vendors such as Cisco, Palo Alto Networks, Check Point and HPE/Juniper.
+
+
+
+FortiGate 1200G is expected to be available in Q3 2026.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202566-0-13372400-1785288927-Fortinet-building.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202566/fortinets-new-fortigate-platform-converges-firewall-sase-technologies-2.html,https://www.csoonline.com/feed/,2026-07-29T01:35:11Z,3,Cybersecurity
+A 13-year-old flaw is exposing tens of thousands of data center management systems,"
+		
+					  
+						
+
+
+
+
+The ‘no man’s land’ beneath the OS on enterprise servers is becoming the malicious actors’ next target.
+
+
+
+Attackers are gaining a foothold into broader data center environments by exploiting Baseboard Management Controllers (BMCs) that are largely unprotected, still running decades-old protocols and susceptible to a vulnerability published 13 years ago, according to data center security company Lava.
+
+
+
+Lava’s red team researchers were able to hack into BMCs, which provide out-of-band remote control over servers without the need for physical access, within minutes by guessing basic passwords. BMCs on Supermicro and HPE servers were among the most impacted.
+
+
+
+“BMCs control critical infrastructure, yet they often receive far less monitoring and protection than the systems they manage,” Michael Katchinskiy, Lava’s head of security research, explained in a blog post. “Most security tools monitor the operating system, kernel, containers, and workloads.” 
+
+
+
+But BMCs operate outside that trust boundary, he said, “giving an attacker control beneath the host while remaining largely invisible to the tools designed to protect it.”
+
+
+
+How attackers can exploit BMC weaknesses
+
+
+
+As the name ‘baseboard’ would imply, BMCs are specialized micro-controllers embedded in server platforms that operate independently of the host system’s main CPU, memory, and operating system (OS). This gives admins the ability to do out-of-band management and troubleshooting of servers, update firmware, change configurations, and read hardware sensors, among other actions.
+
+
+
+“In practice, the BMC is one of the most privileged control points in a data center,” Katchinskiy noted.
+
+
+
+But BMCs can expose management planes such as the 22-year-old out-of-band IPMI, the newer HTTPS-based Redfish, browser-based admin interfaces, and remote console features. In many cases, these share the same database and even the same credentials.
+
+
+
+The culprit enabling the current attacks is a vulnerability in the IPMI 2.0 authentication protocol, tracked as CVE-2013-4786, that was published in 2013.
+
+
+
+Lava’s researchers discovered 36,872 BMCs reachable from the public internet still exposing IPMI. Of those, 66% (24,650) disclosed authentication hashes, scrambled versions of passwords that are stored and later used to authenticate users. Hackers can take them offline to examine and recover original passwords.
+
+
+
+The researchers tested hashes against common wordlists and found that more than 30% of the hashes were linked to “reused, factory-set, or predictably formatted” passwords. These matches were discovered in minutes, and often during the first pass. And nearly 17% of BMCs accepted an empty username field with a weak password.
+
+
+
+Interestingly, Supermicro, which is in wide use across data centers, GPU infrastructures, and hosted environments, accounted for more than half of responding BMCs, but their credentials did not match passwords in the researchers’ wordlist.
+
+
+
+This was “expected,” the researchers note, because in 2019 Supermicro replaced a shared admin password on impacted products with unique, factory-issued passwords which consisted of 10 uppercase letters printed on a chassis label.
+
+
+
+The researchers reported their findings to impacted parties and to Supermicro, which said it would review potential improvements to its default password policy for future hardware revisions. Lava said that Supermicro has since fixed the exposure. 
+
+
+
+Lava has also created an interactive map of the internet-exposed BMCs it uncovered.
+
+
+
+Why this attack method is dangerous
+
+
+
+BMCs sit a layer below that which many security products monitor, on shared out-of-band management networks where administrative credentials are often reused. Thus, malicious changes made to BMCs or other platform hardware are able to survive OS reinstalls, disk replacements, and standard incident response procedures, Katchinskiy noted.
+
+
+
+The risk is “especially pronounced” in neocloud and GPU cloud environments, he said. AI infrastructure can span thousands of GPUs on shared management networks, with joint storage, high-speed interconnects, and multi-tenant tooling.
+
+
+
+He pointed out that, while a customer may rent their own dedicated servers, they are still connected to shared, provider-managed, out-of-band networks where orchestration and provisioning services, credential stores, and admin tools span infrastructure used by numerous joint customers.
+
+
+
+That means, he noted, that the risk extends well beyond a single server, and attackers can gain a foothold to reach larger portions of data center infrastructure.
+
+
+
+In the environments examined, BMC management networks “lacked effective segmentation, access controls, and monitoring,” Katchinskiy said. “A single compromised BMC can therefore become a path to additional servers, critical infrastructure, and customer workloads.”
+
+
+
+Why BMCs are so often overlooked
+
+
+
+There are “countless examples” of hardware and software tools that don’t get patched because IT or security teams determine that, while they are vulnerable, threat actors can’t exploit them, noted David Shipley of Beauceron Security. For instance, there’s a commonly-held notion that if a server or piece of software is air-gapped, meaning it is not network connected or not connected to the internet, it is safe.
+
+
+
+“If it’s overlooked, it’s likely because it sits in this weird in-between space between teams,” he said. It’s not really part of networking, and it exists before the OS is booted, so it’s not under the domain of the system administrators.
+
+
+
+Thus, getting access is “so simple,” Shipley noted, and attackers can do “all kinds of not fun things in theory.”
+
+
+
+For instance, they can power off devices, which can shut down a company’s servers. Second, they could potentially take control of a server by “reimaging it and having their own OS in play,” although that should be detected pretty quickly, he pointed out. Third, they can be persistent.
+
+
+
+“It gives them a place to live on a network and think about finding other holes to exploit as vulnerabilities,” said Shipley.
+
+
+
+A ‘simple fix’
+
+
+
+There’s a “simple” fix to this problem, according to Katchinskiy: IPMI and Redfish should never be exposed to the public internet.
+
+
+
+To keep attackers out of BMCs, defenders should:
+
+
+
+
+Replace factory-issued passwords.
+
+
+
+Restrict BMC access to a dedicated private management network, VPN, or other controlled path.
+
+
+
+Apply network access controls so that only approved admins can reach BMC interfaces.
+
+
+
+Disable “legacy or weak” options like IPMI 1.5, anonymous accounts, or, worse, authentication that grants access or tokens without requesting a password, secret, or login.
+
+
+
+Monitor management networks and production workloads separately.
+
+
+
+
+And, Katchinskiy emphasized, “organizations must treat management layers as critical security boundaries: Isolate them, remove public exposure, rotate factory credentials, and monitor them continuously.”
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202530-0-00522600-1785288989-shutterstock_680078848-100961481-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202530/a-13-year-old-flaw-is-exposing-tens-of-thousands-of-data-center-management-systems.html,https://www.csoonline.com/feed/,2026-07-29T01:34:10Z,16,Cybersecurity
+Senate confirms Clayton as Trump’s next intelligence director,"The former SEC chairman will replace acting intelligence chief Bill Pulte, who cut staff in the nation’s top spy office.",,https://www.defenseone.com/policy/2026/07/senate-confirms-clayton-trumps-next-intelligence-director/415075/,https://www.defenseone.com/rss/all/,2026-07-29T01:17:00Z,0,Defense
+The CSO’s blind spot: Why platform engineering 2.0 is now a security imperative,"
+		
+					  
+						
+
+
+
+
+Security leaders have spent the last decade building controls around people and code. Shift-left practices caught vulnerabilities earlier in the development cycle. Zero trust reduced lateral blast radius. Developer tooling added guardrails at the IDE. The architecture was sound — for an enterprise where humans wrote code and humans ran applications.
+
+
+
+That enterprise no longer exists.
+
+
+
+AI agents are moving from research projects to production workloads at a pace most security organizations weren’t designed to match. They operate autonomously, consume tokens and APIs directly, make decisions without human checkpoints, and leave behind an audit trail only if someone thought to require one. 
+
+
+
+The shift-left model, which placed responsibility on developers to catch security issues before deployment, cannot catch what happens in live inference streams, inside model registries, or in the decisions an agent makes at runtime.
+
+
+
+The attack surfaces are new. The tooling hasn’t caught up. And the conventional response — add another developer-side control — won’t close the gap.
+
+
+
+What Your Current Tooling Doesn’t See
+
+
+
+Here is the honest inventory of what existing security tooling misses in an AI-enabled enterprise:
+
+
+
+Prompt injection introduces malicious instructions into live inference streams. No SAST or DAST tool detects it — they were built for static code, not dynamic model interactions or for AI workloads.
+
+
+
+Model poisoning occurs when models are pulled from registries without signing or provenance verification. There are no equivalent controls to the software signing workflows most enterprises already apply to code artifacts.
+
+
+
+Inference data leaks expose PII and intellectual property through model responses with no audit trail and no embedded controls — invisible to DLP tools that sit at the network or endpoint layer.
+
+
+
+Shadow AI sprawl means developers and teams are consuming unsanctioned models that bypass data governance and DLP controls entirely.
+
+
+
+None of these are hypothetical. All of them are active in enterprises that have started deploying AI workloads without updating their security architecture to match.
+
+
+
+
+
+
+The Platform Is the Most Comprehensive Trust Boundary
+
+
+
+The response to this challenge is architectural, not procedural. You cannot train your way out of prompt injection. You cannot audit your way out of model poisoning at quarterly checkpoints. The only control surface with the scope, depth, and enforcement capability to address these threats is the platform itself.
+
+
+
+Platform Engineering 2.0 defines four control surfaces that operationalize platform-level AI security and data privacy:
+
+
+
+Model governance: A versioned model registry with provenance tracking, approval gates, and drift monitoring. Every model in production has a chain of custody. No model gets deployed without a signing check.
+
+
+
+Prompt security: Platform-level input sanitization and output filtering. Context boundary enforcement that prevents injection attacks from propagating through inference pipelines — at the infrastructure layer, not the application layer.
+
+
+
+Data isolation and privacy: Tenant-level data boundaries with encryption at rest and in transit, with DLP policies embedded directly in inference pipelines — including PII detection and real-time masking. Pipelines and guardrails for data handling and associated controls for privacy are also essential.
+
+
+
+Inference audit: A full audit trail of every AI inference, with explainability outputs and compliance reporting. Not a point-in-time snapshot — a continuous, real-time record covering both human and agent actions.
+
+
+
+Taken together, these make the platform the trust boundary for AI. Security sits deep in the infrastructure — invisible and immutable by default. Configurations enforce least privilege, mTLS, micro-segmentation, and automated secrets rotation without requiring developers to configure them. Compliance becomes continuous rather than periodic.
+
+
+
+Agents Are a New Identity Problem
+
+
+
+Agentic AI introduces something security teams must confront directly: a new class of non-human identity operating inside your enterprise. AI agents consume APIs rather than interfaces. They need scoped permissions, non-human identity credentials, budget controls, and egress controls. The key governance components are MCP-compatible APIs for agent discovery, policy guardrails constraining agent actions to pre-approved patterns, audit logging capturing the full decision chain, and escalation mechanisms routing uncertain decisions to human reviewers.
+
+
+
+If your identity and access management strategy doesn’t yet account for agent identities, it has a gap — and that gap will widen as agentic deployments scale.
+
+
+
+What This Means for the CSO
+
+
+
+Security is becoming structurally unanswerable at the developer layer. The controls that worked when humans were the only actors in the system are insufficient for an environment where agents are making decisions, consuming resources, and interacting with your most sensitive data pipelines — often without a human in the loop.
+
+
+
+The security posture of your enterprise AI deployments will be determined largely by the maturity of your platform engineering function. That is not a technology decision to delegate to a platform team working in isolation. It is a security architecture decision that belongs on the CSO’s agenda.
+
+
+
+The ask is concrete: engage your platform engineering leadership. Demand visibility into how AI workloads are governed, how agent identities are managed, and whether the four AI security control surfaces — model governance, prompt security, data isolation, and inference audit — are embedded in the platform or left to individual teams to figure out.
+
+
+
+If the answer is the latter, you have identified your most urgent security gap.
+
+
+
+For a comprehensive framework on embedding security into the AI-era platform, read the full whitepaper: Platform Engineering 2.0: An Evolution for the AI Era, co-authored by Broadcom and PlatformEngineering.org. 
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202540-0-48365300-1785287369-1200x800-2-2-1.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202540/the-csos-blind-spot-why-platform-engineering-2-0-is-now-a-security-imperative.html,https://www.csoonline.com/feed/,2026-07-29T01:09:14Z,11,Cybersecurity
+Audi has a new flagship designed with the US in mind: The 2027 Q9,"The new full-size flagship SUV starts at $87,700 when it goes on sale in Q4.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/A263825_large-1152x648.jpg,https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/,https://arstechnica.com/feed/,2026-07-29T01:00:36Z,0,Tech
+Arista patches maximum severity vulnerability that is already being exploited,"
+		
+					  
+						
+
+
+
+
+Arista has patched a VeloCloud Orchestrator (VCO) security hole that has been actively leveraged in the wild, one that the vendor says “may allow a remote attacker to access privileged internal functionality and impact the VCO host.”
+
+
+
+The Arista security advisory added that the hole “may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.”
+
+
+
+Furthermore, it said, “there is no configuration that can prevent the exposure.” 
+
+
+
+The company advised customers with the affected software, VeloCloud Orchestrator On-Prem (formerly VeloCloud Orchestrator by Broadcom), to upgrade to a fixed release as soon as possible: VCO 5.2.3.14 and later in the 5.2 train, VCO 6.1.3.4 and later in the 6.1 train, or VCO 6.4.2.4 and later in the 6.4 train.
+
+
+
+It also said that, because compromises to the VCO platform could give attackers access to VeloCloud Edge devices, organizations should consider other incident response activities such as credential rotation, review of administrator activity, validation of managed device state, and restoration or replacement of affected instances from trusted sources.
+
+
+
+About as bad as it gets
+
+
+
+Frank Dickson, group VP for security at IDC, described the hole as a “CISO day wrecker.” 
+
+
+
+“This is the rare kind of perfect 10 that you never want to see: an unauthenticated command-injection flaw that’s already being exploited in the wild is what CISO have nightmares about,” Dickson said. “To make things worse, there’s no configuration workaround because the VCO web interface is exposed by default.”
+
+
+
+Consultant Brian Levine, executive director of FormerGov, agreed.
+
+
+
+“A CVSS‑10, unauthenticated command‑injection flaw in a network orchestrator is about as bad as it gets. Once an attacker owns the management plane, they effectively own every connected edge device,” he said. “The enterprise implication is straightforward: treat SD‑WAN and orchestration platforms as Tier‑0 assets, restrict their exposure, and patch them with the same urgency you reserve for identity infrastructure.”
+
+
+
+He pointed out, “this is another reminder that ‘segmentation’ built on compromised network gear is an illusion. If your control plane is exposed to the internet, you’ve already lost the first battle.”
+
+
+
+Noah Kenney, principal consultant at Digital 520, added, “A management plane that an unauthorized stranger can run commands on is close to the worst-case scenario.”
+
+
+
+Concerning questions
+
+
+
+Giuseppe Trotta, principal security researcher at Malwarebytes, also noted that the technical details disclosed raise concerning questions. 
+
+
+
+“Arista reportedly secured its cloud-hosted infrastructure before on-premises deployments, highlighting a harsh reality that organizations that choose on-prem for compliance, sovereignty, or control often face slower access to critical security fixes during active exploitation,” he said. And because many enterprises unknowingly leave VCO management interfaces internet-accessible for use by vendors and integrators, this turns a single vulnerability into a potential enterprise-wide compromise.
+
+
+
+He added that patch management in this case may be tricky. “The patch could be a difficult operational challenge for mature organizations that rely on SD-WAN automation through tools such as Ansible and Terraform. Any change to backend command execution may disrupt existing workflows.”
+
+
+
+A familiar failure
+
+
+
+The consultants and analysts also highlighted Arista’s statement that the functionality being compromised “was intended to be for internal use only and is not intended to be remotely accessible.”
+
+
+
+‘Not intended to be remotely accessible’ isn’t the same as ‘not remotely accessible,’ IDC’s Dickson said. “This is a textbook case of internal functionality that was never actually sufficiently walled off from the exposed interface, which is why a single unauthenticated request could reach it.”
+
+
+
+Kenney added the internal-only mindset is not only dangerous now, but is going to be increasingly so now that attackers have discovered the weakness.
+
+
+
+“What happened here is a familiar failure,” he said. “Someone writes an internal function and assumes the only thing calling it will be another trusted part of the system, so they don’t sanitize the input the way they would on a public endpoint, because the caller is supposed to be you.” But then, he said, at some point, a change leaves the endpoint reachable from outside, and now a stranger is feeding input to a function written to trust whoever called it. “The code never changed. Its exposure did,” he said.
+
+
+
+It was the outcome of a pair of colliding decisions, Kenney said. “’This is internal. It doesn’t need hardening’ was fine when it was made and ‘this has to be reachable for the product to work’ was also fine. But nobody went back and checked whether the first was still true after the second happened.”
+
+
+
+Arista declined a request for more information, saying in an email, “We have no comment beyond what is publicly available in the published CVE.”
+
+
+
+M&amp;A blues
+
+
+
+Another factor that may have played a role in this situation is that VeloCloud is a relatively new part of Arista’s portfolio, having only been part of the company for a little more than a year. M&amp;A due diligence often doesn’t explore new potential security risks as deeply as it should.
+
+
+
+“The orchestration layer, often inherited through acquisition, is newer and holds the most privilege over everything downstream,” Kenney pointed out. “Attackers stopped throwing themselves at the hardened data plane and started going after the console that controls it.”
+
+
+
+To make things worse, VeloCloud passed through VMware and Broadcom before it came to Arista, and by the time code has changed hands that many times, the people who knew which functions quietly assumed a trusted caller are probably gone.
+
+
+
+“Testing confirms features still work, but it rarely rechecks whether an old internal-only assumption survived the move,” he said.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202502-0-71831700-1785285849-shutterstock_1816891124.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202502/arista-patches-maximum-severity-vulnerability-that-is-already-being-exploited.html,https://www.csoonline.com/feed/,2026-07-29T00:43:54Z,20,Cybersecurity
+OpenAI’s Rogue AI Agent Hacked More Than Just Hugging Face,"In a new disclosure, OpenAI says its agent used exposed logins to gain access to at least four “publicly available services” in its unhinged quest to solve a test.",,https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face/,https://www.wired.com/feed/category/security/latest/rss,2026-07-29T00:15:30Z,0,Cybersecurity
+Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents,The deal is Cyera&#39;s third acquisition this year. ,,https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/,https://techcrunch.com/feed/,2026-07-29T00:09:05Z,8,Tech
+"The Army didn’t want this striking rotorcraft, but could it be what NATO needs?",Sikorsky showcased its dual-rotor Raider helicopter at the Farnborough airshow.,,https://www.defenseone.com/business/2026/07/army-didnt-want-striking-rotorcraft-could-it-be-what-nato-needs/415073/,https://www.defenseone.com/rss/all/,2026-07-28T23:44:30Z,0,Defense
+A Typo Landed an Innocent Gamer in Prison for 18 Months,"How much could a single underscore in a username really matter? Just ask Brandon Klayme, who served 18 months in prison before realizing how authorities arrested, charged, and convicted the wrong man.",,https://www.wired.com/story/a-typo-landed-an-innocent-gamer-in-prison-for-18-months/,https://www.wired.com/feed/category/security/latest/rss,2026-07-28T23:30:00Z,0,Cybersecurity
+The US is banning foreign robots,"The US government is targeting China with a new import ban on &#34;advanced robotic devices&#34; and power inverters made in foreign countries, as reported earlier by Reuters. In an announcement on Tuesday, the Federal Communications Commission says the ban will include &#34;mobile&#34; robots, such as humanoid and quadruped models - but it is not limited […]",,https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban,https://www.theverge.com/rss/index.xml,2026-07-28T22:37:53Z,0,Tech
+Reaction wheel failures leave Swift rescue mission spinning in orbit,&#34;Preliminary investigation shows that two of Link&#39;s three reaction wheels currently are not operable.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/link_arrays_katalyst-1152x648.jpg,https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/,https://arstechnica.com/feed/,2026-07-28T22:09:00Z,5,Tech
+College lab class ends with 32 people on antibiotics for deadly germ exposure,Lab students were supposed to ID a mild germ. They all identified a deadly pathogen.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2163393367-1152x648.jpg,https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/,https://arstechnica.com/feed/,2026-07-28T21:49:52Z,0,Tech
+Ariana Grande is suing the hackers who&#8217;ve been leaking her songs and videos for years,"Ariana Grande filed a lawsuit on Monday in the Los Angeles County Superior Court against the currently unidentified hackers who allegedly stole and leaked private content. It aims to &#34;uncover the identities of these currently unknown and unscrupulous individuals,&#34; referred to as &#34;John Doe 1 and John Does 2 through 100.&#34; The lawsuit also says […]",,https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit,https://www.theverge.com/rss/index.xml,2026-07-28T21:48:50Z,5,Tech
+JFrog tries to spin OpenAI 0-day exploit of its app into a success story,10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.,https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg,https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/,https://arstechnica.com/feed/,2026-07-28T21:36:39Z,6,Tech
+Bot-detection startup Spur nabs $200M from Insight,Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.,,https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/,https://techcrunch.com/feed/,2026-07-28T21:29:34Z,8,Tech
+CubePilot drone software dev hit by DNS hijacking to intercept traffic,"CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",,https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/,https://www.bleepingcomputer.com/feed/,2026-07-28T21:17:39Z,3,Cybersecurity
+eBay&#8217;s bizarre cyberstalking saga ends with a $56 million settlement,"eBay and three former executives will pay $55.7 million as part of a settlement with a Massachusetts couple targeted with a bizarre harassment and cyberstalking campaign in 2019, as reported earlier by CNBC. The settlement will resolve a lengthy legal saga that revealed how eBay&#39;s former executives sent live insects, a bloody pig mask, a […]",,https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement,https://www.theverge.com/rss/index.xml,2026-07-28T21:11:11Z,5,Tech
+The union drive at the Wikimedia Foundation is expanding,"In June, UK staff at the nonprofit that runs Wikipedia became the first to announce their intentions to form a union. Now, US-based employees at the Wikimedia Foundation are joining the union drive, but management at the nonprofit have declined to voluntarily recognize their union. &#34;While the Wikimedia Foundation touts to the public that they […]",,https://www.theverge.com/news/972182/wikipedia-wikimedia-foundation-union-editor-strike,https://www.theverge.com/rss/index.xml,2026-07-28T21:11:11Z,0,Tech
+"eBay, former execs pay $56M to settle “bloody pig mask” harassment case",eBay sent bloody pig mask and other macabre deliveries to journalists&#39; home.,https://cdn.arstechnica.net/wp-content/uploads/2020/06/ebay-pig-mask-1152x648-1785271314.jpeg,https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/,https://arstechnica.com/feed/,2026-07-28T21:02:15Z,0,Tech
+Dust cloud from dino-killing asteroid charbroiled the Earth,“We&#39;re in the realm where we might be essentially killing off everything within that first hour or two.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2024/08/asteroid1-1152x648.jpg,https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/,https://arstechnica.com/feed/,2026-07-28T20:51:45Z,3,Tech
+MCP startup Runlayer accuses Rippling of stealing its product idea,Runlayer is suing Rippling after Rippling evaluated the startup&#39;s MCP  gateway product and then opted to build one itself.,,https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/,https://techcrunch.com/feed/,2026-07-28T20:45:12Z,3,Tech
+"Philly suburb: Sure, build that data center—but first meet our 43 demands",The final condition will shock you! (It won’t. It’s taxes.),https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2285796281-1152x648-1785270408.jpg,https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/,https://arstechnica.com/feed/,2026-07-28T20:43:19Z,0,Tech
+OpenAI models used Artifactory zero-days to escape to the internet,JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...],,https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/,https://www.bleepingcomputer.com/feed/,2026-07-28T20:37:06Z,11,Cybersecurity
+"Despite AI hype, Google's data shows workers aren't automating themselves away",Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1711353151-1152x648.jpg,https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/,https://arstechnica.com/feed/,2026-07-28T20:20:20Z,5,Tech
+Sam Altman is ready to decelerate,His change of position comes after &#34;the first security incident that I have felt very viscerally.&#34;,,https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/,https://techcrunch.com/feed/,2026-07-28T20:17:08Z,0,Tech
+AI leaders sign statement asking the government to do something about automated AI,"Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. &#34;Al could help create a dramatically better […]",,https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta,https://www.theverge.com/rss/index.xml,2026-07-28T19:46:43Z,5,Tech
+Is it illegal to trick the US government into wiping your phone during a questionably legal search?,"A Georgia man was charged with a felony for allegedly wiping his phone while being questioned by Customs and Border Protection. Samuel Tunick had something in common with others who have had their devices searched at airports: He was an activist. Unlike others who have had their phones seized with no explanation, Tunick was told […]",,https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password,https://www.theverge.com/rss/index.xml,2026-07-28T19:35:00Z,5,Tech
+AI’s finally expensive enough to make Wall Street nervous,"It&#39;s earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter&#39;s projection of up to $190 billion. Even the lower end of Google&#39;s new projected range - $195 billion - is much more than the company had previously […]",,https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex,https://www.theverge.com/rss/index.xml,2026-07-28T19:33:03Z,5,Tech
+This comfy gaming headset that can play audio from two sources is $25,"While most gaming headsets have moved towards low-latency wireless connections, there’s something to be said for a budget-friendly, capable wired headset. The EPOS H3 Hybrid is on sale for just $24.99 at Woot, a whopping 75 percent off its original price of $99.99. It has an unorthodox batch of features: USB-A and 3.5mm options for […]",,https://www.theverge.com/gadgets/972021/epos-h3-hybrid-wired-gaming-headset-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-28T19:18:15Z,5,Tech
+Logitech will pull a Nintendo — only European mice will come with replaceable batteries,"In June, Nintendo announced a new version of the Switch 2 that should let you easily replace its battery pack - but only for Europe. Logitech will do much the same. User-replaceable batteries will be the law in Europe in February 2027, but instead of bringing them to the rest of the world, Logitech plans […]",,https://www.theverge.com/tech/971963/logitech-user-replacable-batteries-europe,https://www.theverge.com/rss/index.xml,2026-07-28T19:12:48Z,0,Tech
+Ozlo’s Sleepbuds 2 build on Bose’s sleep earbud legacy,"Ozlo’s first major update to its sleep earbuds introduces longer battery life, improved connectivity, enhanced audio, and new sleep features as the startup continues the product line once abandoned by Bose.",,https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/,https://techcrunch.com/feed/,2026-07-28T19:09:18Z,9,Tech
+The robot NASA hired to lift a orbital telescope is tumbling out of control,Katalyst&#39;s LINK spacecraft is tumbling out of control after suffering key component failures.,,https://techcrunch.com/2026/07/28/the-robot-nasa-hired-to-lift-a-orbital-telescope-is-tumbling-out-of-control/,https://techcrunch.com/feed/,2026-07-28T19:07:31Z,5,Tech
+"Waymo, robotaxi operators face fresh scrutiny over emergency response failures",Rep. Kevin Mullin (D-California ) has proposed bill would direct federal regulators to establish minimum national safety standards for autonomous vehicle operators — action that follows a series of incidents in which robotaxis blocked fire trucks and impeded emergency responders.,,https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/,https://techcrunch.com/feed/,2026-07-28T19:06:33Z,5,Tech
+Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack,"Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.
+
+The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic&#39;s released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPhJ6dzEL23Ak57nA_XsbXtGaxl5wNrcGBPMQBVz1jddDuX_oTndpQjl3omqMxhRnQ1P4cSF7Ut18tccLFT2BxngpYTqTP8Kg6f4clFWRQ2GvxetR-uAGjMS2SsZwsiPcq5vyxCmP_AN3rCPvO5WMQeLNEit0q14i0iY9wuIUDAHMXkyvO3KjIC6c6Ozg/s1600/Claude.jpg,https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T18:59:07Z,6,Cybersecurity
+Apple won’t turn on any ‘restricted mode’ for missed lease payments,"Apple says it won&#39;t limit the capabilities of devices leased through its new Upgrade program if you miss a payment. In an emailed statement to The Verge, Apple spokesperson Brian Bumbery says, &#34;There will be no restricted mode and/or there will be no limitations put on device functionality due to missed payments or default with […]",,https://www.theverge.com/tech/972063/apple-upgrade-program-no-restricted-mode,https://www.theverge.com/rss/index.xml,2026-07-28T18:43:57Z,6,Tech
+New airliner sets record flying 24 hrs nonstop from Australia to France,Record flight shows viability of Qantas Airways’ Project Sunrise routes in 2027.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/A350-1000ULR-MSN707-Qantas-First-flight-landing_AI-PHO-0383-08-04-1152x648.jpg,https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/,https://arstechnica.com/feed/,2026-07-28T18:43:36Z,5,Tech
+CISA shares advice on isolating vital systems during cyberattacks,The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...],,https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/,https://www.bleepingcomputer.com/feed/,2026-07-28T18:41:04Z,3,Cybersecurity
+eBay reaches $56M settlement with e-commerce newsletter writers it terrorized in 2019,The long tail of the eBay cyberstalking scandal has resulted in a nearly $56 million payout. ,,https://techcrunch.com/2026/07/28/ebay-reaches-56m-settlement-with-e-commerce-newsletter-writers-it-terrorized-in-2019/,https://techcrunch.com/feed/,2026-07-28T18:35:29Z,5,Tech
+Judge blocks first state law that would have banned prediction markets,"Judge may allow Minnesota to ban some types of bets, but not all of them.",https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg,https://arstechnica.com/tech-policy/2026/07/judge-blocks-first-state-law-that-would-have-banned-prediction-markets/,https://arstechnica.com/feed/,2026-07-28T18:31:13Z,0,Tech
+These App Store hidden gems prove there’s still room for great software in the AI era,"Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",,https://techcrunch.com/2026/07/28/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/,https://techcrunch.com/feed/,2026-07-28T18:16:39Z,7,Tech
+New Yorkers will soon need to verify their age to access algorithmic feeds,"New Yorkers who want to see their Instagram or TikTok feed curated by an algorithm, or receive notification after midnight, will soon have to verify their ages to access those features. New York Attorney General Letitia James (D) released a set of final rules on how to implement the SAFE for Kids Act, signed into […]",,https://www.theverge.com/policy/972007/new-york-safe-for-kids-act-age-verification,https://www.theverge.com/rss/index.xml,2026-07-28T18:09:32Z,0,Tech
+vBulletin fixes critical pre-auth RCE flaw with public exploit,A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...],,https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/,https://www.bleepingcomputer.com/feed/,2026-07-28T18:08:50Z,14,Cybersecurity
+HBO Max embraces vertical video with a new ‘Shorts’ feed,"HBO Max, like other streaming platforms, is rethinking content discovery as large libraries are making it hard for viewers to find something to watch and as audiences become accustomed to short-form content on platforms like TikTok and Instagram Reels.",,https://techcrunch.com/2026/07/28/hbo-max-embraces-vertical-video-with-a-new-shorts-feed/,https://techcrunch.com/feed/,2026-07-28T17:57:57Z,0,Tech
+Tile&#8217;s best Bluetooth tracker is down to its lowest price of the year,"Apple’s latest AirTag may seem like the obvious choice if you own an iPhone and are shopping for a Bluetooth tracker, but it’s not the most affordable option. For families that contain both Android and Apple devices, it might be better to pick up the latest Tile Pro instead. It works well across both platforms, […]",,https://www.theverge.com/gadgets/971976/tile-pro-bluetooth-tracker-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-28T17:53:51Z,6,Tech
+Turn your ordinary bike into an indoor trainer with this Wi-Fi connected smart base,"While the summer months are great for putting in the miles on your favorite bike, it can be frustrating to have to hang it up when the weather turns. This smart bike trainer turns your road bike into an indoor exercise bike, with Wi-Fi and Bluetooth to connect to your PC, iOS, or Android device, […]",,https://www.theverge.com/gadgets/971634/wahoo-kickr-core-bike-trainer-dell-6k-monitor-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-28T17:48:03Z,5,Tech
+Saudi prince buys 5% stake in Lucid Motors,The investment comes after speculation that Saudi Arabia may take Lucid Motors private -- which the EV maker has denied.  ,,https://techcrunch.com/2026/07/28/saudi-prince-buys-5-stake-in-lucid-motors/,https://techcrunch.com/feed/,2026-07-28T17:33:51Z,0,Tech
+Report: Trump mad RFK Jr. hasn’t cut more vaccines or proven autism link,"Trump is fixated on the false, long-debunked claim that vaccines cause autism.",https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2262712176-1152x648.jpg,https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/,https://arstechnica.com/feed/,2026-07-28T16:16:25Z,5,Tech
+HBO Max is putting on vertical shorts,"Warner Bros. Discovery is bringing a vertical video feed to HBO Max to help you find something new to watch. Streaming platforms like Netflix, Disney Plus, and Peacock already offer TikTok-like vertical video feeds to surface content that might be interesting to users, and now HBO Max will have a similar feed of its own. […]",,https://www.theverge.com/streaming/971880/hbo-max-vertical-video-feed-shorts,https://www.theverge.com/rss/index.xml,2026-07-28T15:59:37Z,0,Tech
+4GB graphics cards are back,"The first modern GPU with 4GB of VRAM has appeared, as RAM prices and component shortages push tech prices higher. As Digital Foundry reports, a listing for an AMD Radeon RX 9050 with 4GB of RAM was spotted on ASRock&#39;s website by a user on X, the same day ASRock also launched an 8GB version […]",,https://www.theverge.com/games/971868/asrock-amd-4gb-rx-9050-gpu,https://www.theverge.com/rss/index.xml,2026-07-28T15:52:04Z,1,Tech
+Data centers may face temporary power cuts to prevent blackouts on largest US grid,The largest grid operator in the U.S. says it will cut power to large data centers to prevent blackouts starting next year.,,https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/,https://techcrunch.com/feed/,2026-07-28T15:42:26Z,0,Tech
+PayPal leaves the door open to a higher takeover offer following earnings beat,"After reporting better-than-expected Q2 results, PayPal said it remains focused on its AI-driven turnaround, but would consider a deal that creates more value for shareholders.",,https://techcrunch.com/2026/07/28/paypal-leaves-the-door-open-to-a-higher-takeover-offer-following-earnings-beat/,https://techcrunch.com/feed/,2026-07-28T15:10:10Z,5,Tech
+Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process,"A new Mirai-derived botnet called Tengu can use a compromised Linux device&#39;s hardware watchdog to trigger a reboot when defenders kill its main process.
+
+If that happens, Tengu&#39;s other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force.
+
+Tengu supports 25 distributed denial-of-service (",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zv7PihU6xAba7-fb5OY-Xv5YIEPM1HhmCu2ET65l5TSKYrPh6q4pYVQRNJtHb9RkvO1oNsBBrsxs50Hm_GRnPKCu4XoG1hhtPOoeGILfRHN99ICGSO72NOGQ6AdUc_haCrQvHRUn4YiyFmCy99WgH1v4-4GRLirZzsV1b5MmCjfTX3a2yWmg1tWOr38/s1600/tengu-botnet.jpg,https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T15:01:33Z,0,Cybersecurity
+Elon Musk’s X Money app is rolling out in the U.S.,The app is currently available to X Premium and Premium+ subscribers in the U.S.,,https://techcrunch.com/2026/07/28/elon-musks-x-money-app-is-rolling-out-in-the-u-s/,https://techcrunch.com/feed/,2026-07-28T14:57:12Z,6,Tech
+Cyera Acquiring Oasis Security in $1 Billion Deal,"Oasis Security recently raised $120 million in Series B funding for its agentic access management platform.
+The post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.
+",,https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/,https://www.securityweek.com/feed/,2026-07-28T14:55:30Z,1,Cybersecurity
+WhatsApp now lets you make calls using its web app,"Similar to the smartphone and desktop apps, the web app will support the calling features such as screen-sharing and reactions.",,https://techcrunch.com/2026/07/28/whatsapp-now-lets-you-make-calls-using-its-web-app/,https://techcrunch.com/feed/,2026-07-28T14:53:22Z,1,Tech
+"24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login","Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.
+
+Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIZDJmL5vHIaEgakZEwVC-O1KGBidMz7xrUS6MQmj0Nfqx4_WzGlwmz4amGxIwYa2PEJTKr5UsFwkh8lEOoFkjAVwTm38bgmbc_gDW2-__9MBpP5Z6cWQrIjFTe3tKTMEhD2lX3XyTrIe0T4mQDruecN3nCWqHUpkU5NpW5OIzZFy5la9RQnMCsmGkt-n8/s1600/bmcs.jpg,https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T14:41:36Z,7,Cybersecurity
+Apple’s reported ‘HomePad’ may launch as early as October,"For years, we&#39;ve heard rumors of a new home hub device from Apple, meant to take on smart home devices like the Google Nest Hub Mini and Amazon&#39;s Echo Show. Besides &#34;HomePod with a screen,&#34; details have been sparse. But now, a new report from Bloomberg&#39;s Mark Gurman sheds some light on the alleged device, […]",,https://www.theverge.com/tech/971790/apple-homepad-rumor-launch,https://www.theverge.com/rss/index.xml,2026-07-28T14:39:42Z,6,Tech
+"Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe","Apple announced that dozens of vulnerabilities have been patched in each of its operating systems.
+The post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.
+",,https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/,https://www.securityweek.com/feed/,2026-07-28T14:19:31Z,2,Cybersecurity
+Is Your SSO Protected Against Modern Credential Attacks?,"A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",,https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/,https://www.bleepingcomputer.com/feed/,2026-07-28T14:00:10Z,6,Cybersecurity
+Fish Audio raises $50M seed to build AI voice models for creators and enterprises,"Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.",,https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/,https://techcrunch.com/feed/,2026-07-28T14:00:00Z,8,Tech
+Apple launches ‘Upgrade’ device leasing program in partnership with Klarna,"Leasing prices start at $17.99 per month for iPhone, $11.99 for Apple Watch, $24.99 for Mac, and $11.99 for iPad.",,https://techcrunch.com/2026/07/28/apple-launches-upgrade-device-leasing-program-in-partnership-with-klarna/,https://techcrunch.com/feed/,2026-07-28T13:50:27Z,1,Tech
+JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach,"JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.
+
+Artifactory is JFrog&#39;s software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVRTEATuhKwW2BlflaNjqHVV9mJlq6m3_rFzsUHv3RXATsLWdyJvG-XoWDftscxMF9r_-551JELumQMj7Jhp_iY-GTj79r3RxYKEEJkPo8B7Zd5SuiBnPRWjM1MBygMvV0Za1ZLItcoSjsCY4gDwbV-ZOkXLEzi2vohrqrlYSJL4Ut0GmmDvhEhiGti1U/s1600/openai-0day.jpg,https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T13:33:47Z,11,Cybersecurity
+"As US measles cases rise, biotech firms start developing new treatments","The US is making measles great again, so treatment options are needed for the most vulnerable.",https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2201696919-1152x648.jpg,https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/,https://arstechnica.com/feed/,2026-07-28T13:32:23Z,5,Tech
+Recursive Superintelligence signs $410 compute deal with Amazon,Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.,,https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/,https://techcrunch.com/feed/,2026-07-28T13:19:17Z,5,Tech
+OT Security Startup Frenos Raises $1.52 Million,"The company will use the fresh investment to grow its customer success and AI R&amp;D teams.
+The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.
+",,https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/,https://www.securityweek.com/feed/,2026-07-28T13:05:25Z,1,Cybersecurity
+Infoblox joins crowded EASM market with DNS-centric approach,"
+		
+					  
+						
+
+
+
+
+With AI compressing reconnaissance and exploit development from weeks to hours, security vendors are racing to help enterprises identify exposures long before an incident happens.
+
+
+
+Infoblox is the latest to make that move, announcing its entry into the External Attack Surface Management (EASM) market alongside a new Supply Chain Intelligence capability that broadens its exposure management portfolio.
+
+
+
+These two additions are designed to give organizations visibility into both their own internet-facing assets and those of their critical vendors. According to Infoblox, the combined offering enables security teams to discover, prioritize, and reduce external exposures before attackers can exploit them.
+
+
+
+“As attackers automate reconnaissance, organizations need continuous visibility into their external attack surface and better context to prioritize the exposures that pose the greatest business risk,” said Michelle Abraham, research vice president for Security and Trust at IDC. “This is driving growing interest in preemptive approaches to external attack surface management as part of broader exposure management strategies.”
+
+
+
+The new capabilities join Infoblox’s existing Digital Risk Protection Services (DPRS).
+
+
+
+A DNS-first spin on the crowded EASM market
+
+
+
+External Attack Surface Management has become one of the fastest-growing segments in cybersecurity, with vendors racing to help enterprises inventory internet-facing assets and identify exploitable weaknesses.
+
+
+
+Infoblox’s differentiation lies in applying its long-standing DNS expertise to the problem.
+
+
+
+The company’s new EASM capability discovers internet-facing assets without requiring software agents, credentials or active scanning, the company said in a press statement shared with CSO ahead of the announcement on Tuesday.
+
+
+
+It also evaluates exposures based on exploitability and business impact while surfacing DNS-specific issues that conventional EASM platforms may overlook, Infoblox claims. Among such issues are “dangling CNAME records,” which refer to the orphaned DNS entries that attackers can hijack to host phishing sites, steal credentials, or impersonate trusted corporate domains.
+
+
+
+The company said an early access program involving roughly 40 organizations found dangling CNAME records at 31 participants, a third of which were reportedly easy to take over.
+
+
+
+A support beyond enterprise assets
+
+
+
+Infoblox also announced a new Supply Chain Intelligence that promises continuous monitoring of the internet-facing assets of critical vendors, tracking exposures, leaked credentials, dark web activity and active threat campaigns that could introduce risk through third-party connections.
+
+
+
+This capability is positioned as an expansion of its broader Exposure Management strategy rather than a standalone product launch.
+
+
+
+“The simple question every security leader should be able to answer is: ‘What can an attacker reach right now?’” said Mukesh Gupta, chief product officer at Infoblox. He argued that AI has made answering that question significantly harder by accelerating attacker reconnaissance, making continuous external visibility a key component of modern cybersecurity operations.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202205-0-16406900-1785243764-shutterstock_2781778569.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202205/infoblox-joins-crowded-easm-market-with-dns-centric-approach.html,https://www.csoonline.com/feed/,2026-07-28T13:00:00Z,15,Cybersecurity
+You don’t need to splurge on an expensive handheld fan to beat the heat,"Despite what influencers may say, you don’t need to spend $99.99 on Dyson’s HushJet Mini Cool or $149.99 for the Shark ChillPill to survive the summer whenever you leave the comfort of air-conditioning. My family has found all the comfort it needs to survive humid baseball games, sweltering concerts, and sweaty hikes with a couple […]",,https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan,https://www.theverge.com/rss/index.xml,2026-07-28T13:00:00Z,5,Tech
+Twelve South’s stylish charging tray now delivers more wireless power with a smaller footprint,"Following the original&#39;s debut at CES earlier this year, Twelve South is introducing a new version of its leather-wrapped Valet charging tray designed for use in places where space is at a premium. While the original Valet was 7.5-inches deep and large enough to serve as a catchall for a couple of items like your […]",,https://www.theverge.com/tech/969957/twelve-south-valet-wireless-charger-qi2-25w-leather,https://www.theverge.com/rss/index.xml,2026-07-28T13:00:00Z,1,Tech
+Granola launches an Apple Watch app,Granola debutes an Apple Watch app for in-person notetaking,,https://techcrunch.com/2026/07/28/granola-launches-an-apple-watch-app/,https://techcrunch.com/feed/,2026-07-28T13:00:00Z,1,Tech
+Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root,"OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.
+
+The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt&#39;s GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDmz4Rv-IWcHYP4Y_-WINLECGsPviBOTJXEPhvz2mO671_s8c1Rao7iErkNghWYtomczRf82scnXyzrBTAIc4urvwSlv3j4AK1XaEw75WVsIfXLfNDQd1JGUoVRWW50H48KA3VxzAbL1KTuf3sKCgzmSE3toXbqcIA-N5vwN4A_wcmRdwDLBSJbBpmmME/s1600/OpenWrt.jpg,https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T12:56:14Z,6,Cybersecurity
+Logitech’s handheld plans are on ice — don’t expect a G Cloud 2 soon,"Logitech&#39;s new gaming boss, Robin Piispanen, tells me he likes the idea of gaming handhelds. &#34;It&#39;s such a charming value proposition,&#34; he says, as we sip iced vanilla lattes at my local cafe. But he&#39;s not building one right now. He&#39;s not sure when or if Logitech should try again, after its underwhelming experiment with […]",,https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview,https://www.theverge.com/rss/index.xml,2026-07-28T12:31:51Z,8,Tech
+Perplexity’s Personal Computer turns Windows PCs into AI agents,"Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world&#39;s most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a &#34;general-purpose digital worker&#34; that can access local files and apps to perform […]",,https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents,https://www.theverge.com/rss/index.xml,2026-07-28T12:30:00Z,6,Tech
+Apple launches ‘Upgrade’ program to lease new devices,"Apple has officially introduced &#34;Apple Upgrade,&#34; a new leasing program that aims to make it easier to get your hands on the latest iPhone, Mac, iPad, and Apple Watch models. The service is launching today in the US, and works like a car lease - allowing users to keep a device at the end of […]",,https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch,https://www.theverge.com/rss/index.xml,2026-07-28T12:23:50Z,6,Tech
+"Over 24,000 exposed server BMCs leak password hash via decades-old flaw","More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",,https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/,https://www.bleepingcomputer.com/feed/,2026-07-28T12:10:23Z,3,Cybersecurity
+Smart rings are looking like my kind of AI gadget,"Over the last few months, I&#39;ve spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I&#39;ve tested lots of these apps, from […]",,https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index,https://www.theverge.com/rss/index.xml,2026-07-28T12:00:00Z,7,Tech
+Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays,"The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.
+
+The intrusions involve the use of a previously undocumented Windows backdoor called NightLedger and two custom WebSocket tunnelers,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-Whbx97t7xBrrpM26fYSbwg29hdKR8zskNLIwlrWC0Jd3Rrf4INhiCTI3WMw8NzmJ1iETQlt-CKdUxBzL2hef4pgQBOoI1rrrtRbU96hJRUXtTGy5dT40mP2B1AshyphenhyphenM4mc1K1-IISWwY6PSPyGXNBHplHM8kuxX9e5Di6RmMybyO2Q7Guu__CK8jOOkja/s1600/proxy.jpg,https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T11:55:20Z,3,Cybersecurity
+"Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model","The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing.
+The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model  appeared first on SecurityWeek.
+",,https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/,https://www.securityweek.com/feed/,2026-07-28T11:11:48Z,2,Cybersecurity
+Act Security Emerges from Stealth to Fight the Patch Problem,"Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. 
+The post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.
+",,https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/,https://www.securityweek.com/feed/,2026-07-28T11:00:00Z,2,Cybersecurity
+Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker,"Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks.
+The post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.
+",,https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/,https://www.securityweek.com/feed/,2026-07-28T11:00:00Z,1,Cybersecurity
+Hush Security Raises $30 Million for AI Agent Governance,"The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships.
+The post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek.
+",,https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/,https://www.securityweek.com/feed/,2026-07-28T10:17:27Z,1,Cybersecurity
+Data breach at medical billing firm MCBS affects 1.26 million people,Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...],,https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/,https://www.bleepingcomputer.com/feed/,2026-07-28T09:10:03Z,4,Cybersecurity
+Hugging Face is being used to easily undress women and children,"Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That&#39;s according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with […]",,https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children,https://www.theverge.com/rss/index.xml,2026-07-28T09:07:14Z,5,Tech
+Why your AI safety certificates are worthless at runtime,"
+		
+					  
+						
+
+
+
+
+Every week, another enterprise technology vendor issues a glossy press release announcing their new autonomous AI agent architecture, complete with a SOC 2 Type II report, an ISO 42001 certification, and an ironclad safety guarantee. On paper, the enterprise security battle looks won. In production, the trap is just snapping shut.
+
+
+
+The core mistake modern enterprise leaders are making is treating AI safety as a design-time product certification rather than a live runtime execution problem. A model blueprint can be perfectly secure and rigorously aligned in a developer’s sandboxed testing lab. Yet, the moment that model is wrapped into an autonomous agent, granted internal API access, and tasked with reading and writing corporate data, its security profile changes at machine velocity. Point-of-entry compliance certificates do not protect a business from an active operational runtime.
+
+
+
+The product safety illusion
+
+
+
+We still think about security as a static asset that can be packaged and delivered by a vendor; a perspective that heavily influences current regulatory logic and implicitly assumes that enterprise cybersecurity obligations can be safely delegated down the supply chain to AI model developers.
+
+
+
+This is a dangerous operational blind spot. The governance challenge with autonomous systems lives in their unpredictable runtime behaviour, not in their fixed code. Traditional software can be vetted, compiled, and expected to behave identically every time it runs. Agentic systems, by contrast, alter their actions based on shifting context, real-time data inputs, and dynamic third-party plug-ins.
+
+
+
+The structural blind spot of point-of-time certification is formally recognized as LLM06 in the OWASP Top 10 for LLM Applications. In their framework, risks like Excessive Agency and Insecure Output Handling are classified as systemic vulnerabilities born entirely out of deployment architecture, not model code. When an institution transforms a passive model into an active agent, its operational state space explodes exponentially through three distinct runtime phenomena:
+
+
+
+
+Dynamic tool chaining: The agent is no longer simply generating text; it is actively selecting which internal APIs, database queries, and script environments to execute based on its semantic interpretation of a live request.
+
+
+
+State-dependent cascades: The output of an agent’s initial tool call permanently modifies the active application state, creating an altered environment for its next decision loop that can never be fully simulated in a design-time red-teaming lab.
+
+
+
+Multi-agent feedback loops: As multiple specialized corporate agents begin to pass tasks, variables, and context summaries back and forth, they form an unpredictable, non-linear ecosystem with micro-deviations that rapidly compound into systemic failures.
+
+
+
+
+To address this fluid perimeter, the National Institute of Standards and Technology (NIST) Center for AI Standards and Innovation launched its AI Agent Standards Initiative. The framework signals an immediate shift for enterprise defines: Monitoring that stops at static uptime or point-in-time evaluation is fundamentally obsolete. True risk management requires continuous, post-deployment monitoring across functional, operational, and structural layers.
+
+
+
+The danger of trusted systems
+
+
+
+The time between initial network intrusion and full operational impact has collapsed to minutes. Recent breach investigations detailed in the CrowdStrike 2026 Global Threat Report show that average breakout times for automated tools have dropped to under 30 minutes, with the fastest exploits measured in seconds. Despite this acceleration, most enterprise cyber defenses still run on a sluggish human timeline.
+
+
+
+Security operations phaseOperational execution timelineAutomated agent intrusion &amp; exfiltrationSub-30 Minutes (Often measured in seconds)Legacy human threat triage1 to 4 HoursInfrastructure vulnerability remediation2 to 5 DaysEnterprise patch management cycle2 to 6 Weeks 
+
+
+
+The current enterprise containment gap is severe. Empirical data from the Kiteworks 2026 Cyber Security Risk Management Forecast highlights a stark disconnect between current infrastructure capabilities and the new reality of agentic deployment:
+
+
+
+
+63 percent of organizations report an inability to enforce purpose limitations on active AI agents.
+
+
+
+60 percent of IT leaders state they cannot quickly terminate or trigger an immediate kill-switch on a misbehaving agent.
+
+
+
+55 percent of corporate networks cannot isolate autonomous AI systems from broader network access, allowing lateral privilege creep to go entirely unmonitored.
+
+
+
+
+When you deploy autonomous agents to handle enterprise identity provisioning or access management, they interact directly with these boundary data streams. A safety certificate cannot protect your business when these compromised session tokens are written into internal system logs, which the agent then ingests during an automated diagnostic or provisioning routine.
+
+
+
+The dissolution of the “data as code” boundary
+
+
+
+The technical mechanism driving this risk is the total collapse of the traditional Data as Code boundary. In standard enterprise software, application logic (code) is strictly insulated from the records it processes (data). When a user types a command into a web form, a parameterized database query handles it safely because the system treats the input strictly as passive text, never as executable instructions.
+
+
+
+Agentic architectures dissolve this boundary. Because these systems process unstructured information semantically, any data the agent reads (be it a customer support email, a vendor invoice, or a network log) can be interpreted by the underlying model as a direct command. To the model’s core engine, all language is processed as a single, flattened token stream where instructions and data are indistinguishable.
+
+
+
+This exposure is compounded by the widespread adoption of the Model Context Protocol (MCP). As detailed in a National Security Agency (NSA) design consideration report, MCP connects models directly to local file systems and enterprise developer tools. Because MCP servers rely on raw tool descriptions loaded directly into the model’s operational context window, attackers can use tool poisoning and session hijacking to steer internal agents without ever interacting with the primary user interface.
+
+
+
+This is not a theoretical threat. Security research has identified sophisticated actors leveraging Indirect Prompt Code Injection to systematically bypass frontier model safety protocols by embedding high-density, semantic lures inside passive data files. The model does not recognize that it is being attacked; it simply absorbs the malicious instruction as valid contextual data and executes it downstream.
+
+
+
+The global reality: Disparate architecture and legal regimes
+
+
+
+A global enterprise cannot secure this runtime environment by relying on centralized, regional security paradigms. The operational and regulatory environments governing autonomous agents are fragmenting along highly distinct geographic and technical borders:
+
+
+
+
+Mainland China: The Cyberspace Administration of China (CAC) enforces strict generative AI algorithm registries and absolute, real-time data provenance requirements. For global firms, this means an agent’s runtime environment must handle highly specific, state-mandated logging hooks and regional content boundaries that can introduce distinct structural latencies into the execution loop.
+
+
+
+Singapore: Through the Infocomm Media Development Authority (IMDA), Singapore’s approach emphasizes operational lineage and bounded autonomy. Their Model AI Governance Framework mandates explicit system transparency, requiring organizations to map the entire toolchain and verify the logical path an agent takes before it alters any production record.
+
+
+
+Australia &amp; the Five Eyes Network: The Australian Cyber Security Centre (ACSC), along with its international partners, explicitly mandates moving away from reactive point-security toward a Modern Defensible Architecture, where agents are treated as entirely distinct, isolated identity segments designed to withstand and contain the inevitable compromise of underlying models.
+
+
+
+Latin America: Driven by a rapid acceleration of localized, open-source model infrastructure to bypass mega-vendor lock-in, technology leaders in this region face a significantly higher engineering burden. Without automated vendor-pushed safety updates, the responsibility for securing the runtime falls entirely on the enterprise’s internal API gateway architecture.
+
+
+
+
+The practical pivot: Govern the process, not the asset
+
+
+
+To protect the enterprise without choking innovation, technology leadership must shift from static software asset management to continuous process governance.
+
+
+
+1. Enforce non-human identity controls
+
+
+
+AI agents must not inherit the broad, unmonitored privileges of legacy service accounts. They should be treated as untrusted, non-human identities subject to real-time access governance, continuous session logging, and strict behavioural rate-limiting at the API gateway layer.
+
+
+
+As Phil Calvin, chief product officer at identity security firm Delinea, noted in an industry briefing on the rise of autonomous machine accounts:
+
+
+
+“At its most basic, an AI agent is just an account, and you need to understand the account sprawl and permissions.”
+
+
+
+Agents are frequently granted overly broad access to prevent automated workflows from stalling due to permission errors. To mitigate this, enterprises must deploy automated machine identity kill-switches. This means enforcing short-lived, ephemeral session tokens that automatically expire every 15 minutes.
+
+
+
+A technical solution: Implement an automated OAuth 2.1 or RFC 8693 Token Exchange proxy directly between your orchestration layer and internal systems. Instead of hardcoding keys, the agent must present an ephemeral assertion token that the proxy validates and dynamically downgrades to a single-use, read-only scope, ensuring a compromised prompt cannot execute state-changing actions.
+
+
+
+2. Establish process firewalls
+
+
+
+Dynamic systems cannot be regulated with static rules. The workflow itself must be secured. If a manual business process is fragmented or broken, automating it simply scales the risk at machine speed. Humans inherently act as circuit breakers for logical absurdities; autonomous agents lack this baseline intuition, executing flawed or manipulated workflows to completion without hesitation. The underlying human workflow must be mapped, deduplicated, and restricted to deterministic outcome paths before any automation occurs.
+
+
+
+To bridge the gap, implement short-lived, least-privilege JSON gateways. Agents must be completely banned from directly executing code, writing commands, or querying database layers. Instead, the agent’s output must be restricted to a strictly structured, non-executable JSON payload. This payload is parsed by a deterministic software gateway that validates not just the schema structure, but enforces strict, hard-coded business-logic boundaries on the parameters themselves, such as maximum transaction limits and strict whitelists for destination fields.
+
+
+
+A technical solution: Deploy a deterministic state-machine validator directly inside your API gateway. This architectural layer treats the agent’s proposed JSON payload as an unverified schema input, forcing it through strict regex validation, data-type matching, and predefined boundary constraints before allowing any downstream execution.
+
+
+
+3. Implement session sanitation
+
+
+
+To counter the risk of context drift and slow-rolling manipulation, implement strict runtime memory sanitation protocols.
+
+
+
+This requires continuous cryptographic verification of all data inputs entering the agent’s context window. By running data payloads through localized, lightweight semantic input firewalls, organizations can detect and strip out structural obfuscation, hidden text, and tool-poisoning commands before the data is ingested by the core model. Furthermore, all active tools and MCP connectors must be digitally signed and version-pinned to prevent rogue local server compromises.
+
+
+
+A technical solution: Enforce sliding-window contextual resets and run all incoming multi-source data through stateless, single-turn inference pipelines. By stripping conversational histories down to the bare minimum token requirements and enforcing hard context resets between discrete operational steps, you break the dependency loops that semantic prompt injections rely on to hijack agent memory.
+
+
+
+The bottom line for tech leadership
+
+
+
+Relying on model weights and vendor certificates to protect an enterprise is the modern equivalent of locking the front door while leaving the back wall completely unbuilt. Frontier models are remarkable engines, but when they become autonomous agents, they are highly dynamic and unpredictable actors within a network.
+
+
+
+The true security perimeter is no longer a static line drawn around a software asset. It is the real-time, fluid boundary of the process itself. To win the runtime security battle, technology leaders must stop treating AI as an untouchable black box and start managing it for what it truly is: an untrusted, hyper-fast identity that requires rigorous isolation, deterministic firewalls, and absolute accountability.
+
+
+
+The enterprise safety battle will not be won by the vendor that prints the prettiest compliance certificate. It will be won by the CIO who builds the most defensible runtime architecture.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201919-0-84966600-1785229339-steve-a-johnson-Kr8Tc8Rugdk-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201919/why-your-ai-safety-certificates-are-worthless-at-runtime.html,https://www.csoonline.com/feed/,2026-07-28T09:00:00Z,21,Cybersecurity
+Google Adopts New Threat Actor Naming System,"The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word.
+The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/,https://www.securityweek.com/feed/,2026-07-28T08:42:52Z,4,Cybersecurity
+Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In,"JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.
+
+The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiX3xcF2Bm9BY5obe-T5JItuKynq8bPijOxp14p5damNEjPGtAbYyuLSqp6vKN_KkhPx1qYeTXHxpgnZllCrtLvDaDuJNyHpY1qV0i8KWCe79_bnFtBtTRPCTU28LcN7OFM26h_WZdxeM3KPWBK4dlp0jY8JKrs1UILNR0qRgtxhKJqCcrht69sc3gcwsU/s1600/tc.jpg,https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T08:11:22Z,7,Cybersecurity
+Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit,"STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel&#39;s network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgBRFXQr7hvRBIkSC-vqaka7UlRsU8Y380TbDC3jFpFlSlCK1RuVthJDLKt5KaNzAn82kMBNUWPp5s1Voug8ptjn0DiHoxbzw9QdoKXhFfR9SR9zCm1uYeE43tZUba0H7F-mlLogft-qyvtdggSASBR8qAxrRK3U3uPzvf_bkRmJPNzcWX-vfb7qW0VD8/s1600/linux.jpg,https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T08:04:44Z,3,Cybersecurity
+Hugging Face breach shows why incident response needs a multi-model AI strategy,"
+		
+					  
+						
+
+
+
+
+The recent breach of Hugging Face’s platform was the latest in a string of AI-assisted intrusions to come to light in recent weeks, showing that attackers can now use LLMs to automate entire attack chains. But it also exposed a limitation for defenders trying to use AI to respond at similar machine speed: Increasingly conservative safety controls on frontier models can block attempts to analyze malicious payloads and other intrusion artifacts that are needed to investigate incidents.
+
+
+
+The incident was caused by an internal OpenAI test of advanced model cyber capabilities that went wrong. GPT-5.6 Sol and a more capable pre-release model, operating with reduced cyber refusals and without the production classifiers normally used to block high-risk activity, found and exploited zero-day vulnerabilities to escape their sandboxed environment, gain unrestricted access to the internet, and breach Hugging Face’s infrastructure in search for answers to their cybersecurity challenge.
+
+
+
+Hugging Face, which operates the world’s largest platform for hosting AI models and machine learning artifacts, detected the intrusion through an LLM-powered anomaly-detection pipeline of its own. However, when its security team attempted to use frontier AI models to analyze the intrusion logs with more than 17,000 recorded events, they got blocked.
+
+
+
+“When we started the log analysis, we first used frontier models behind commercial APIs,” the company said in its incident report. “This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers’ safety guardrails, which cannot distinguish an incident responder from an attacker. We ran the forensic analysis instead on GLM 5.2, an open-weight model, on our own infrastructure. This had a second benefit: no attacker data, and none of the credentials it referenced, left our environment.”
+
+
+
+This raises a significant issue that security practitioners have observed in recent times: Frontier models are becoming less useful for defensive cybersecurity work. AI labs choose or are forced to restrict their models’ increasingly powerful cyber capabilities from being abused, but the safety controls they put in place are largely identity-agnostic and can’t differentiate between attackers and defenders.
+
+
+
+The community has found and documented various so-called jailbreaking techniques to bypass these filters, but using such methods violates providers’ terms of service and acceptable use policies. And while hackers don’t care about their throw-away accounts getting banned, security analysts on enterprise subscriptions do.
+
+
+
+“Machine-speed exploitation requires machine-speed response, and that response can’t run on models that refuse to examine the evidence,” Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, tells CSO.
+
+
+
+“Defenders increasingly need AI capabilities comparable to the attackers they’re facing,” says Sonali Shah, CEO of offensive security testing firm Cobalt. “We’re now entering an era where the quality of your defensive AI may directly determine how quickly you understand, contain, and remediate an attack. Perhaps the more significant lesson is that incident response can’t depend entirely on cloud-hosted AI services whose safety guardrails may prevent effective forensic analysis during a crisis.”
+
+
+
+Attackers have more options
+
+
+
+Attackers don’t have much trouble abusing frontier models in attacks. Anthropic, OpenAI, and Google have all reported adversarial AI activity on their services in the past, and while they all worked on stronger guardrails, attackers continue to find bypass techniques.
+
+
+
+This week, researchers from Cato Networks reported the case of a threat actor named Trim who is promoting an AI-powered web vulnerability scanner called the “AI Pentest Checker” on Russian cybercrime forums. Trim claims that the tool is powered by Claude Opus 4.8 and uses jailbreaking techniques he developed based on a leaked system prompt for Anthropic’s latest and most capable Fable 5 model. The threat actor has a history on the forum for sharing jailbreaking techniques for AI models.
+
+
+
+But attackers don’t even need the latest frontier models to fully automate powerful attacks. Even Trim noted in the past that open-weight models such as Kimi, GLM, and MiniMax were fallback options. And this was back in March before the Chinese labs released their latest versions such as GLM 5.2 or Kimi K3 which have further closed the capability gap with the frontier models, and even outperform them in some tasks.
+
+
+
+Most open-weight models have built-in content safety guardrails as well, even if generally weaker than frontier ones, but these can be removed using techniques such as fine-tuning primarily because their weights are openly available. Researchers from managed detection and response vendor ThreatDown identified over 6,600 AI models hosted on Hugging Face and advertised as guardrail-free with labels such as abliterated, uncensored, decensored, heretic, and unfiltered. These models were downloaded more than 22 million times over a 30-day period.
+
+
+
+Last month, researchers from the University of Toronto published a study where they managed to create an AI-powered self-replicating worm capable of autonomously finding and exploiting weaknesses in dozens of simulated systems. The researchers leveraged a small and free AI model that could run on hijacked GPUs and made up for the lack in built-in reasoning capabilities by building a custom attack harness complete with a database-based memory system to keep the attack workflows on track.
+
+
+
+“Organizations should assume attackers will increasingly operate at machine speed, which means security testing, exposure management, and remediation also have to operate at machine speed,” Cobalt’s Shah tells CSO.
+
+
+
+Frontier models are increasingly restricted
+
+
+
+With the release of their latest generation of models, the leading frontier labs were criticized by users for aggressive safety filters that led to frequent incidents of over-refusal — models refusing to process harmless prompts or routing them to lesser capable models. Some of these conservative settings were self-imposed while others might have been driven by government pressure.
+
+
+
+Anthropic only provided access to its Claude Mythos model to a restricted number of organizations for cybersecurity testing purposes under Project Glasswing. Then when it released a Mythos-class model publicly under the name Fable 5, users reported that routine incident response, detection, and basic forensic workflows were getting routed automatically from Fable 5 to Claude Opus 4.8.
+
+
+
+On June 12, the US government issued an export control directive that required Anthropic to suspend Fable 5 and Mythos 5 access to foreign nationals due to concerns about cyber misuse and safety risks. The restrictions were lifted on June 30.
+
+
+
+OpenAI had to delay its general availability release for the GPT-5.6 family of models at the US government’s request as well, initially making it available for preview to a small group of trusted partners. The company also noted that the model’s safeguards block around 10 times more potentially harmful actions than previous models and that this might cause some friction, especially for cybersecurity users.
+
+
+
+Security experts don’t agree that these aggressive approaches of restricting cybersecurity tasks will be successful at stopping attacks and believe they do more harm than good.
+
+
+
+While safety is a priority with AI in general, the cybersecurity limitations on models as they are done now, and the export controls specifically, are misguided, says Gadi Evron, CEO of AI security firm Knostic. “They don’t stop the bad guys, they do slow down defenders and in fact, deny knowledge of cybersecurity when it is needed most.”
+
+
+
+“Determined attackers will continue using unrestricted or open-weight models, or find ways around guardrails, while defenders operating within policy lose access to advanced capabilities during incident response,” Etay Maor, vice president of threat intelligence at Cato Networks, tells CSO. “The more you gate frontier models, the more you push security teams toward capable open-weight alternatives they can actually use.”
+
+
+
+Organizations need multi-model strategies
+
+
+
+Security experts believe that even if they use an API-based frontier model for most of their tasks, organizations should adopt a strategy where they always have access to one or multiple fallback models, like Hugging Face did.
+
+
+
+“Different models have different strengths, availability, and risk profiles, so using multiple models provides resilience if one becomes unavailable, overly restricted, or compromised,” Maor says. “If organizations choose to use open-weight models, they should do so within a well-governed architecture that includes strong access controls, monitoring, and containment, rather than assuming any single model is the right long-term answer.”
+
+
+
+There are benefits to using open-weight models. For one, incident response often involves large amounts of signal data and log events that might contain credentials and other sensitive information about the environment. This was also the case in the Hugging Face incident and the company noted that because they used GLM 5.2 hosted on their own infrastructure no attacker data or the credentials it referenced left its environment.
+
+
+
+That said, Hugging Face is an AI infrastructure company with the compute power readily available to host such large models. The big open-weight models need large amounts of VRAM to run and not many organizations have datacenters with enterprise-grade GPU clusters. In that case they will need to rely on neoclouds or services such as Amazon Bedrock or Microsoft’s Azure AI Foundry, after analyzing the jurisdiction, data retention, and privacy policies of these services, because simply using these open-weight models through their official APIs would mean sharing data with the Chinese labs that created them.
+
+
+
+A multi-model architecture also needs strong identity controls, monitoring, target scoping, restricted tool permissions, network containment, evidence-handling rules, and human approval for important actions. The objective is resilience when a model is too restrictive for a particular task, not providing AI agents with autonomous access to every system in the environment.
+
+
+
+“Organizations should have vetted AI models they can operate inside their own trust boundary before an incident happens,” Shah says. “That said, better models alone aren’t enough. AI for cybersecurity is still maturing, and organizations shouldn’t blindly trust autonomous systems.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201361-0-67642600-1785225736-shutterstock_2787623331.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201361/hugging-face-breach-shows-why-incident-response-needs-a-multi-model-ai-strategy.html,https://www.csoonline.com/feed/,2026-07-28T08:00:00Z,25,Cybersecurity
+Lyft and Baidu enter London’s robotaxi battleground as testing begins,"Baidu&#39;s Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025.",,https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/,https://techcrunch.com/feed/,2026-07-28T08:00:00Z,5,Tech
+Unpatched Fastjson Vulnerability Exploited in Attacks,"The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations.
+The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/,https://www.securityweek.com/feed/,2026-07-28T07:27:55Z,11,Cybersecurity
+Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day,"Impacting on-premises deployments, the OS command injection allows attackers to access privileged internal functionality.
+The post Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/,https://www.securityweek.com/feed/,2026-07-28T06:40:36Z,15,Cybersecurity
+Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost,"Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.
+
+The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwmG858LYHQA-u4cQupdhqsi5oUcvLaQdoorupsW3tzPZvDg7kwgRIewOBPVNvp3Szfqb4VFJ_j6caul2NTIlm69_-vskp4gYQwVkQA59LbsMhOEO3yr4C48nhrO177ORbi9uFc_oIOrcXnCBs_dmPhVDZVZx9F3Cyp4RQKi71EhvfZQqmUKat36cbqEE/s1600/MAI-Cyber-1-Flash.jpg,https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T06:07:22Z,5,Cybersecurity
+Hugging Face Has a Deepfake Nudes Problem,"Researchers tested top image editing models on Hugging Face and found they could easily create explicit deepfakes—and 1,000 image editing prompts show how people use the software.",,https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/,https://www.wired.com/feed/category/security/latest/rss,2026-07-28T05:30:00Z,0,Cybersecurity
+"Origin Energy Data Breach Affects 900,000 Australians","The hacker claimed to have stolen the information of 2 million Origin Energy customers after breaching its systems.
+The post Origin Energy Data Breach Affects 900,000 Australians appeared first on SecurityWeek.
+",,https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians/,https://www.securityweek.com/feed/,2026-07-28T05:01:05Z,5,Cybersecurity
+Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw,"A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild.
+
+The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code execution.
+
+&#34;VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_Rqy6Y9a8XU8InktsbP7Op6N-6ZSvEQl0MJ2PL6_gd_s2ij5aL2vZHlW3sgsqtQQCY47wAO4RxIqqSUkQ7kXeXbhzEJe0g9VCbkC9pwEcGqKybszrRurMZQPQHsy6o8YLXYOZk1F9Cyp7kBQTFXjIzngB0_Jche9kzCVE_XIL7W24A-3ARqgisnibgAvw/s1600/cyber.jpg,https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html,https://feeds.feedburner.com/TheHackersNews,2026-07-28T04:43:53Z,10,Cybersecurity
 Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing,Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.,,https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/,https://techcrunch.com/feed/,2026-07-28T04:30:00Z,3,Tech
 Hackers are compromising hotel Wi-Fi gateways to hijack Microsoft 365 accounts,"
 		
@@ -229,6 +1215,136 @@ Microsoft took the same approach with Project Perception for cost considerations
 
 “At Microsoft, we have a security team, and they actually evaluate all the models that you can find out there, and we look at which ones are going to get us the best results,” Hayete Gallot, executive vice president for security at Microsoft, said. “The reason we do that is, number one, is we want the best quality. Number two is we want to make sure that this is affordable. Security is a 24/7 operation, so you need to make sure that this is scaling. And last but not least, the reason why we’re multi-model is that not every model is available everywhere. So we need that diversity of model to make sure that every customer can defend itself. We cannot be in a world of haves and have-nots.”
 ",https://www.csoonline.com/wp-content/uploads/2026/07/4202080-0-95490000-1785205515-shutterstock_370707185.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202080/microsoft-unveils-multi-model-agentic-cyber-stack-for-security-operations.html,https://www.csoonline.com/feed/,2026-07-28T02:25:00Z,16,Cybersecurity
+Samsung’s AI-powered glasses could be looking at your data,"
+		
+					  
+						
+
+
+
+
+Now that Samsung has jumped into the crowded AI-powered glasses arena alongside Apple, Google, Meta, and others, CISOs and IT leaders are having to think through whether it makes sense to establish enterprise restrictions on such devices, given the likely data leakage and compliance issues.
+
+
+
+And even if those tech leaders decide that such policies might make sense, the logistical hurdles to universally enforcing them on employees working outside the office are all but insurmountable.
+
+
+
+For example, it is up to individual wearers to choose their device’s settings, making it difficult for IT policies around data acquisition and usage to be enforced. Worse, AI devices have a history of ignoring guardrails. That means that a setting that limits how data is used may not necessarily be obeyed. 
+
+
+
+And while Samsung’s smart glasses, like Meta’s, have a warning light that indicates to coworkers when the camera is recording, that signal is not going to be picked up by enterprise data loss prevention systems when the wearer is looking at files on a screen.
+
+
+
+Enforcement is virtually impossible
+
+
+
+“Although some organizations have tried to physically ban smart glasses from their in-person and virtual workplaces, the sad reality for corporate technological gatekeepers is there is no way to completely keep any device out of the workplace,” said independent technology analyst Carmi Levy. 
+
+
+
+There is nothing stopping employees from wearing eyewear of any type, smart or not, he noted, “and attempting to do so might put employers on the wrong side of a disability lawsuit launched by a worker who needs prescription smart glasses to accommodate vision issues.”
+
+
+
+Jitesh Ubrani, an IDC director focusing on worldwide device trackers, pointed out that the biggest challenge in creating rules around usage of smart glasses is that the data leakage problem with devices is both not new and certainly not limited to glasses. 
+
+
+
+“The instinct to ban AI smart glasses outright is understandable, but it misses that the underlying risk isn’t new. A smartphone has been able to record a whiteboard, a screen, or a conversation for close to two decades,” he said. “What’s changed is the friction. Glasses make covert capture nearly effortless and far harder to notice because there’s no phone being visibly raised or pointed. That’s a real escalation in ease of misuse, but it’s a difference of degree rather than a fundamentally new capability.”
+
+
+
+In fact, Ubrani argued, “where this gets hard for CISOs is enforcement. A ban on paper is easy to write. Enforcing it inside a corporate office is already difficult, since most current-generation devices, including Meta’s Ray-Bans, are visually indistinguishable from ordinary eyewear.”
+
+
+
+And, he added, “enforcing it in a hybrid or work-from-home setting is close to impossible. IT has no practical way to confirm what someone is wearing on a home Zoom call, and even in-office detection options, like scanning for Bluetooth or BLE advertising signals tied to known manufacturer IDs, only catch devices that haven’t been reconfigured or that happen to be broadcasting at the time.”
+
+
+
+Additional risk
+
+
+
+Connected glasses have a history going back decades, but enterprises didn’t take them seriously until this year.
+
+
+
+But Anshel Sag, principal analyst at Moor Insights &amp; Strategy, characterized the problem as more psychological than technological. 
+
+
+
+“People want to ban it because they don’t know how to handle it. But that just creates more problems than it solves. It’s a very kneejerk fear reaction,” Sag said. “We live in an era where cameras are everywhere.”
+
+
+
+Meghan Hollis, a senior principal analyst for Gartner, agreed that the focus on smart glasses is misplaced, given that even headphones can today capture audio for translation and transcription. The change is not in the data capture, Hollis said, but the fact that it is adding video.
+
+
+
+This creates additional risk, with the new capability brought into the corporate environment causing “a potential exposure for corporate intellectual property,” Hollis said.
+
+
+
+One other often-overlooked issue is data sovereignty. Even if the glasses manufacturer agrees to store data only in specific countries, it could easily change that policy or simply switch third-party vendors. 
+
+
+
+“There could be export control issues, possibly violating regulatory controls in transmitting information,” Hollis noted. 
+
+
+
+However, Hollis said, threatening to punish workers if they are caught using unauthorized devices “is your last line of defense,” and that the best initial approach should not be enforcement, but education.
+
+
+
+“You need to be educating your end-users, with constant reinforcement, telling them, ‘If you do this, here’s how you can harm the company and our clients/customers.’ Combine that with, ‘And if you do this, we will take action against you.’”
+
+
+
+Tiered policies required
+
+
+
+Hollis noted that the risk goes beyond an employee initially recording something they shouldn’t. Consider, for example, a technical meeting where an employee asks the rest of the attendees for permission to record the discussion. They agree and he starts to record. 
+
+
+
+At the end of the meeting, he leaves to return to his office, fully intending to turn off the recording function when he gets there. But on the way, he has a brief hallway meeting with an SVP who tells him, without warning, “FYI, but the board just decided to greenlight our hostile takeover of Smith Corp. We’ll explore the specifics at a 10 a.m. tomorrow. Have your team there.” The executive then walks off.
+
+
+
+With the recording still running, that ultra-sensitive data has just been transmitted to the cloud. 
+
+
+
+IDC’s Ubrani pointed out that situations like this make smart glasses governance more challenging. “Enterprise IT and security leaders need to stop framing this as ‘ban versus allow,’ and instead build a tiered policy based on where the actual risk sits,” he said. “Boardrooms, R&amp;D labs, and any space where trade secrets or regulated data are visible or discussed out loud deserve strict no-wearables rules, enforced the same way phone bans already are in those rooms.”
+
+
+
+Open floor plans and general office space probably don’t need that level of restriction, he said, but meeting policies should require disclosure when a device capable of recording is present, similar to the way in which some companies already handle personal recording devices in sensitive briefings.
+
+
+
+“Companies that try to write one blanket rule for every environment are going to find it’s either unenforceable or so restrictive it interferes with accessibility, since some employees rely on these devices as assistive technology,” he said.
+
+
+
+However, Brian Jackson, a principal research director at Info-Tech Research Group, argued that enterprise CISOs and IT Directors need to take a far more strict position.
+
+
+
+“Organizations should update their acceptable use policies for personal technology ASAP,” he said. “Look back about 15 years ago at how smartphones moved from consumer life into the workplace, and we may be at the beginning of a redefinition of BYOD here. But it needs to start with an extremely restrictive policy against the use of AI wearables and similar devices.”
+
+
+
+He added, “organizations need to hold the line against making personal recordings in the workplace and maintain not only their compliance standards, but their workplace culture. This restriction cannot go as far as an outright ban; look at how Walt Disney World got caught up in a lawsuit after telling an employee she could not use Meta glasses. Still, this exception can be made narrow, and it should be made clear that other employees must be alerted when they are being recorded.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201977-0-47256200-1785245658-shutterstock_2156438243.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201977/samsungs-ai-powered-glasses-could-be-looking-at-your-data.html,https://www.csoonline.com/feed/,2026-07-28T01:42:36Z,17,Cybersecurity
 Samsung’s entry into AI-powered glasses forces CISOs to again consider corporate risk,"
 		
 					  
@@ -370,6 +1486,7 @@ Razer’s analog Huntsman V3 Pro is over 20 percent off,"Gaming keyboards have e
 Satya Nadella says companies that trust one AI for everything may not survive,"Businesses that rely wholly on the major AI labs ultimately won&#39;t survive, Microsoft CEO Satya Nadella predicts.",,https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/,https://techcrunch.com/feed/,2026-07-27T21:17:11Z,5,Tech
 New Dysphoria DDoS botnet spreads to 200k devices worldwide,"A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",,https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/,https://www.bleepingcomputer.com/feed/,2026-07-27T21:08:15Z,3,Cybersecurity
 New Certighost PoC exploit lets attackers hijack Windows domains,"A proof-of-concept exploit for &#34;Certighost,&#34; a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",,https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/,https://www.bleepingcomputer.com/feed/,2026-07-27T21:00:25Z,9,Cybersecurity
+NIST unveils new AI evaluation platform,The AI Technology Evaluation will provide exclusive data to grade models’ performance in select areas.,,https://www.defenseone.com/technology/2026/07/nist-unveils-new-ai-evaluation-platform/415044/,https://www.defenseone.com/rss/all/,2026-07-27T20:56:00Z,0,Defense
 Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies,"Kennedy has focused on nutrition but has neglected food safety, critics say. ",https://cdn.arstechnica.net/wp-content/uploads/2015/02/salad.jpg,https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/,https://arstechnica.com/feed/,2026-07-27T20:42:13Z,0,Tech
 Thea Energy lands $20M federal grant to build its magnets for fusion reactors,Fusion power startup Thea Energy snagged a $20 million award from ARPA-E to scale production of its high-temperature superconducting magnets.,,https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/,https://techcrunch.com/feed/,2026-07-27T20:40:12Z,3,Tech
 "As rivals chase acquisitions, Peacock bets on bundles through a new deal with YouTube","The deal means content will be integrated into the YouTube experience, allowing viewers to discover and watch Peacock content without leaving the platform. ",,https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/,https://techcrunch.com/feed/,2026-07-27T20:40:00Z,3,Tech
@@ -380,12 +1497,14 @@ PSA: Your Claude shared chats and Artifacts may have ended up on Google,"An unto
 Google won’t give up odd war against AI web scraping despite court loss,"Google&#39;s and Reddit&#39;s use of DMCA to fight web scraper is bizarre, expert says.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2264310791-1152x648.jpg,https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/,https://arstechnica.com/feed/,2026-07-27T20:12:42Z,5,Tech
 Private Claude Chats Exposed in Google and Bing Search Results,The screwup shows how tricky it can be to stop web crawlers from making ostensibly private conversations with AI chatbots entirely too public.,,https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/,https://www.wired.com/feed/category/security/latest/rss,2026-07-27T20:08:00Z,0,Cybersecurity
 Xbox’s huge outage even blocked games on disc,"An extended Xbox outage that began Sunday evening hasn&#39;t just caused issues for people trying to play digital games - it blocked people from playing their disc-based games, too. Xbox&#39;s status page initially reported the outage on Sunday at about 11PM ET, and it has also prevented people from logging in, launching apps, or finding […]",,https://www.theverge.com/games/971545/xbox-outage-disc-physical-games,https://www.theverge.com/rss/index.xml,2026-07-27T19:53:50Z,1,Tech
+RIMPAC 2026 and the Future of Multinational Maritime Operations in the Indo-Pacific,This year&#39;s iteration of the exercise reflects several important strategic concepts – and a focus on countering China&#39;s navy.,https://images.thediplomat.com/v1/td-list-l-2/2026/07/thediplomat_2026-07-28-043747.jpg,https://thediplomat.com/2026/07/rimpac-2026-and-the-future-of-multinational-maritime-operations-in-the-indo-pacific/,https://thediplomat.com/category/asia-defense/feed/,2026-07-27T19:39:00Z,0,Defense
 Nanoleaf&#8217;s colorful pegboard and shelf kit is half off,"Nanoleaf’s Blocks Combo XL Smarter Kit is a fun back-to-school buy that can add pops of customizable light and storage to your wall. It combines colorful smart lighting panels with a low-profile shelf and pegboard, and right now you can buy the kit for half off at $99.99 from Nanoleaf, which marks a new low […]",,https://www.theverge.com/gadgets/971535/nanoleaf-blocks-combo-xl-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-27T19:24:55Z,0,Tech
 "5th Circuit blocks Texas law requiring websites to filter ""harmful"" speech","Age verification is okay, but filtering is preempted by Section 230, judges find.",https://cdn.arstechnica.net/wp-content/uploads/2024/07/texas-flag-1152x648-1785178684.jpg,https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech/,https://arstechnica.com/feed/,2026-07-27T19:18:02Z,0,Tech
 "Verizon seeks AI profits with mini data centers, $1B dark fiber deal with Google",Telecom expects AI revenue from dark fiber deals and retrofitted data centers.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/Verizon-Times-Square-Store-1152x648.jpg,https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/,https://arstechnica.com/feed/,2026-07-27T18:48:41Z,5,Tech
 "Despite recent successes, rapid reuse of Starship remains a tough nut to crack",NASA has not made substantial investments in thermal protection research for decades.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/heat-shield-streaks-1152x648.png,https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/,https://arstechnica.com/feed/,2026-07-27T18:34:40Z,5,Tech
 "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform. ,,https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/,https://techcrunch.com/feed/,2026-07-27T18:32:11Z,5,Tech
 Apple sued after alleged App Store crypto scam cost users $1.8M,"Apple is facing a lawsuit from three users who say they collectively lost more than $1.8 million after downloading a fraudulent crypto wallet from the App Store, challenging the company’s longstanding claims that its app review process keeps users safe from scams.",,https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m/,https://techcrunch.com/feed/,2026-07-27T18:28:15Z,7,Tech
+More than 30 companies form open-source AI alliance,The Open Secure AI Alliance hopes to shore up industry support for continued access to and work with open-source artificial intelligence models.,,https://www.defenseone.com/business/2026/07/over-30-companies-form-open-source-ai-alliance/415043/,https://www.defenseone.com/rss/all/,2026-07-27T18:22:00Z,0,Defense
 NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework,"NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.
 
 The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare, CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij-O7sLARD9c2QGCheTeoamew1jlKiNe2KRKqw4_8f6VTxZo0MHNIQdizHhyphenhyphen-Bchq9tTzlYBJrJcJDhhhzNB17wPMHDT00pAikN61fAgOh7AdibxKPt5fQ_1KwMvkUXx1J7IzZBbtONSSIAOjRV74KSkmlsKYB7hFWy17AaQu02BqwngqCzlubslSbKvg/s1600/nvidia.jpg,https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-07-27T18:10:05Z,1,Cybersecurity
