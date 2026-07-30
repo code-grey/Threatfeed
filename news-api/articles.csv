@@ -1,4 +1,1034 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+CISA unveils a six-step blueprint for isolating critical infrastructure during cyberattacks,"
+		
+					  
+						
+
+
+
+
+Most IT operators understand that critical infrastructure should be isolated in crisis situations, but many don’t know how to do it in a way that maximizes security and minimizes disruption.
+
+
+
+Now, several global agencies are offering a step-by-step action plan, CI Fortify. Released by the US Cybersecurity and Infrastructure Security Agency (CISA) and several Five Eyes security agencies across the US, UK, Australia, Canada, and New Zealand, the guide is intended to help organizations isolate and separate their vital systems to prevent malicious actors from wreaking havoc in case of attack, and to allow for safe rebuild post-attack.
+
+
+
+“The end state must be to enable the continued operation of critical services in a state of isolation,” the guide emphasized.
+
+
+
+A six-step guide for locking down systems
+
+
+
+Cyber actors, particularly state-sponsored ones, are increasingly targeting operational technology (OT) systems to perform espionage or disrupt critical infrastructure such as power and water distribution.
+
+
+
+As a result, some organizations have been forced to take their systems completely offline; for instance, this week CAF Bank suspended its online services due to a third-party software vulnerability, thus preventing the charities it serves from paying staff. Also this week, Minnesota Water Utilities’ OT services were disrupted in a coordinated cyberattack.
+
+
+
+To help organizations that may suffer similar fates, the new guide outlines what it calls a “critical path to isolation,” with six actionable steps:
+
+
+
+
+Identify vital systems and networks
+
+
+
+Identify critical customers
+
+
+
+Identify common levels of criticality and trust for networks and hosts
+
+
+
+Identify potential isolation points and map connections to vital systems
+
+
+
+Build effective separation and isolation points
+
+
+
+Create and test an isolation plan
+
+
+
+
+The first two steps are relatively straightforward: Understand the minimum set of systems required to support critical services, then set delivery targets based on top customers’ needs, such as the number of megawatts of power or gallons of water required to keep them up and running.
+
+
+
+Assigning different degrees of criticality means segmenting networks, hosts, and systems into different zones based on their nature and threat exposure. Risk management processes will help in this area.
+
+
+
+Once systems have been classified, the next step is to map, and continuously update, interconnection points between those critical networks and other systems, the guide advises. Some connections to take into account include those to vendors with remote access, such as consultants, contractors, or managed service providers; those to cloud environments, including private cloud; to untrusted networks; and to peer-critical networks like utilities or dispatch.
+
+
+
+It’s also important to identify connections that might lower trust or increase network vulnerability, such as those to carrier-provided networks, or Wi-Fi, satellite, radio point-to-point, or mobile connections. Operators should identify any protection mechanisms, like encryption, that may be in place in these areas, according to the agencies.
+
+
+
+Further, operators should understand the business context of each connection, including the type of information that flows through it and how critical it is to operations and to the system owner or third-party provider. Technical information around these interconnections should also be documented, for instance, internet gateway information, architectural diagrams, firewall, router, and virtual private network (VPN) configurations, as well as emergency contact details.
+
+
+
+“This critical technical information will be necessary for building isolation controls,” the guide notes.
+
+
+
+Establishing separation and isolation points
+
+
+
+The assumption is that zero-trust networks reduce the need for isolation because devices are designed to inherently distrust one another. But the guide emphasizes that isolation points between networks and services are necessary and “highly effective” at containing attacks, limiting overall impact on operations and on attackers’ ability to pivot, and shortening time to restore services in the event of an incident.
+
+
+
+“Organizations must build physical isolation points into their vital systems to enable the capability to operate in a state of isolation,” the guide states.
+
+
+
+This means zero connectivity or shared infrastructure with non-OT networks via switching, routing, compute, repeaters, or multiplexers. Additionally, vital resources like power, cooling, backup generation, and physical security systems should not be controllable from non-critical networks.
+
+
+
+Enterprises should harden OT boundaries, fully segregate management and admin systems, and secure network control planes, the guide advises. They can also implement admin network controls like virtual local area networks (VLANs), multiprotocol label switching (MPLS), IP access lists, route blocking, and blackhole routing in which malicious packets are dropped before they can impact servers.
+
+
+
+However, the agencies acknowledge that complete physical isolation may not be operationally feasible for some enterprise operating systems with large disparate footprints.
+
+
+
+In these types of distributed critical infrastructure where third-party communication is unavoidable, OT boundaries should be secured with strong encryption. Additionally, dedicated communication paths such as wavelengths or fiber pairing can help prevent data sharing with non-vital systems.
+
+
+
+Meanwhile, Layer 2 and Layer 3 services should be encrypted, with remote access prevented or at least limited, and unnecessary services disabled, the guide says. Enterprises should not rely on encryption built into OT devices; rather, a dedicated device should be used for encryption over a carrier’s links.
+
+
+
+Ultimately, operators should treat any carrier-provided service as “untrusted and potentially hostile,” the guide warns.
+
+
+
+Understand dependencies and risks, isolate in phases
+
+
+
+Given all this, operators should understand dependencies between OT and non-OT systems, and build dedicated OT capabilities, the agencies note. Dependencies might occur in shared routing, virtualization, switching, storage, document management, Active Directory, and certificate and authentication services. These must be understood to prevent unforeseen performance issues or degradation of service quality in the case of physical isolation.
+
+
+
+Enterprises also need to understand how they will operate during any extended periods of separation, given that could result in operational and security risks. For instance, systems may fall out of patching compliance, removable media may not receive updates, resulting in increased risk of infection, and external visibility can be reduced.
+
+
+
+Isolating systems may seem an overwhelming task at first, so the agencies suggest a graduated plan. This can help “progressively isolate pathways” to vital OT and supportive systems while maintaining continuity of business processes.
+
+
+
+To protect themselves, companies should consider these steps, in order:
+
+
+
+
+Disable remote workers’ ability to access OT systems through intermediaries like jump hosts on non-OT environments;
+
+
+
+Disable on-premises remote access to OT systems from corporate systems;
+
+
+
+Isolate all connections between non-OT and OT environments;
+
+
+
+Isolate lower-priority connections between decentralized OT and OT systems; 
+
+
+
+Completely isolate OT environments and vital systems.
+
+
+
+
+“Progressively removing access to OT systems as the cyber threat environment deteriorates may be effective in halting or hindering attacks on vital OT and enabling systems,” the guide notes.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203133-0-12806000-1785372343-power-lines-water-tower-critical-infrastructure-essential-security-100941653-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203133/cisa-unveils-a-six-step-blueprint-for-isolating-critical-infrastructure-during-cyberattacks.html,https://www.csoonline.com/feed/,2026-07-30T00:45:26Z,16,Cybersecurity
+"Microsoft is openly competing with OpenAI, Anthropic more than ever","Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",,https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/,https://techcrunch.com/feed/,2026-07-30T00:21:06Z,5,Tech
+"Defense Business Brief: Handshake deals > plane orders?; Inside the aerospace supply chain, plus thoughts on that critical minerals EO",,,https://www.defenseone.com/business/2026/07/defense-business-brief-handshake-deals-plane-orders-inside-aerospace-supply-chain-plus-thoughts-critical-minerals-eo/415111/,https://www.defenseone.com/rss/all/,2026-07-29T23:50:05Z,0,Defense
+Russian hackers exploit Exchange OWA zero-day for long-term mailbox access,"The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]",,https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/,https://www.bleepingcomputer.com/feed/,2026-07-29T23:44:07Z,11,Cybersecurity
+"Iran war ‘accelerated’ key tanker connectivity upgrades, top Air Force officials say",Service leaders said increasing battlespace awareness on the KC-135 was paramount.,,https://www.defenseone.com/defense-systems/2026/07/iran-war-accelerated-key-tanker-connectivity-upgrades-top-air-force-officials-say/415109/,https://www.defenseone.com/rss/all/,2026-07-29T23:41:38Z,0,Defense
+Mark Zuckerberg predicts that billions of people will have personal AI agents in five years,"As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",,https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/,https://techcrunch.com/feed/,2026-07-29T23:00:11Z,5,Tech
+"Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag","When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",,https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/,https://techcrunch.com/feed/,2026-07-29T22:46:03Z,5,Tech
+Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents,"On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software.",,https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/,https://techcrunch.com/feed/,2026-07-29T22:23:12Z,6,Tech
+Microsoft confirms Copilot ‘super app’ coming this year,"Microsoft is working on an AI &#34;super app&#34; that combines Copilot&#39;s chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span &#34;both consumer and commercial experiences&#34; when it launches this year. &#34;Copilot is evolving rapidly from chat to Cowork to Autopilots,&#34; Nadella said. &#34;This quarter, […]",,https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed,https://www.theverge.com/rss/index.xml,2026-07-29T22:17:38Z,6,Tech
+Mythos uncovers crypto weaknesses that went unknown for years,Separating the chaff from the wheat in Anthropic results is hard. We take a stab anyway.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/broken-encryption-lock-1152x648.jpg,https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/,https://arstechnica.com/feed/,2026-07-29T22:07:06Z,0,Tech
+Mark Zuckerberg is planning a big push into personal AI agents,"Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday&#39;s Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do […]",,https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents,https://www.theverge.com/rss/index.xml,2026-07-29T21:48:07Z,6,Tech
+Qualcomm is raising phone chip prices starting September 1st,"RAMageddon won&#39;t be the only reason your next phone costs more - Qualcomm is about to raise prices on all its processors, as well. Qualcomm CEO Cristiano Amon said on Wednesday that &#34;prices are going to go up&#34; on the company&#39;s products starting on September 1st, CNBC reports. The price hikes were rumored last week […]",,https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings,https://www.theverge.com/rss/index.xml,2026-07-29T21:41:56Z,5,Tech
+Cisco warns of FMC static credential flaw exploited in zero-day attacks,"Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",,https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/,https://www.bleepingcomputer.com/feed/,2026-07-29T21:35:40Z,19,Cybersecurity
+"Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026","At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",,https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-07-29T21:16:39Z,8,Tech
+"Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",Weng previously served as the VP of AI Safety Research at OpenAI.,,https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/,https://techcrunch.com/feed/,2026-07-29T21:07:48Z,5,Tech
+xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law,"xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets &#34;nudification&#34; apps, claiming that the statute&#39;s punitive provisions leave the company with &#34;no practical choice but to restrict Grok Imagine&#39;s image-editing features in various ways.&#34; The law, the company argues, violates the First Amendment. Back in January, […]",,https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit,https://www.theverge.com/rss/index.xml,2026-07-29T21:06:52Z,6,Tech
+Cyberpunk 2077 packs a lot of fun into its discounted $20 price,"Over the last few years, CD Projekt Red put a ton of work into fixing Cyberpunk 2077, squashing bugs, polishing content, and even launching new DLC in 2023, Phantom Liberty. As a result, this game has gone from a source for funny, glitch-fueled videos to a world I’ve returned to a number of times to […]",,https://www.theverge.com/gadgets/972777/cyberpunk-2077-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-29T21:02:50Z,0,Tech
+Winamp aims for a comeback with a new music player powered by Deezer,"    Winamp is preparing to relaunch with a Deezer-powered premium music service, betting its nostalgic brand and a new all-in-one music player can stand out in today’s crowded streaming market.",,https://techcrunch.com/2026/07/29/winamp-aims-for-a-comeback-with-a-new-music-player-powered-by-deezer/,https://techcrunch.com/feed/,2026-07-29T21:02:12Z,5,Tech
+Anthropic confirms Claude is down worldwide," [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/,https://www.bleepingcomputer.com/feed/,2026-07-29T20:59:32Z,0,Cybersecurity
+"Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper",Advertisers agreed to “reset” relationship with X.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1229892464-1024x648.jpg,https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/,https://arstechnica.com/feed/,2026-07-29T20:57:35Z,5,Tech
+Xbox revenue drops 10 percent as Microsoft&#8217;s cloud and AI business surges,"Xbox is having yet another tough quarter, as revenue from content and services like its Game Pass subscription dipped 10 percent over the past few months. At the same time, Xbox hardware sales declined 14 percent, according to Microsoft&#39;s fourth-quarter earnings report released on Wednesday. The news comes just weeks after Xbox head Asha Sharma […]",,https://www.theverge.com/tech/972738/xbox-revenue-microsoft-earnings-q4-2026,https://www.theverge.com/rss/index.xml,2026-07-29T20:26:48Z,9,Tech
+Who wins and who loses after US bans foreign robots?,"Government ban on foreign-made robots may hinder instead of help US robotics.
+",https://cdn.arstechnica.net/wp-content/uploads/2026/07/Unitree-robots-boxing-1152x648.jpg,https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/,https://arstechnica.com/feed/,2026-07-29T20:03:42Z,3,Tech
+"The Hugging Face AI break-in, as told through an increasingly committed bear metaphor","Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.) ",,https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/,https://techcrunch.com/feed/,2026-07-29T19:44:49Z,5,Tech
+"Comcast store punished low sales by smashing pies in workers' faces, lawsuit claims","Comcast, accused of negligence, says lawsuit mischaracterized alleged events.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/banana-cream-pie-1152x648-1785351920.jpg,https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/,https://arstechnica.com/feed/,2026-07-29T19:33:55Z,5,Tech
+Customize Ars your way with an Ars Pro subscription,Ars Pro subscribers get customizable layouts along with no ads and no trackers.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/ars-subscriber-ball-track-1152x648.jpg,https://arstechnica.com/staff/2026/07/customize-ars-your-way-with-an-ars-pro-subscription/,https://arstechnica.com/feed/,2026-07-29T19:23:27Z,0,Tech
+Amazon uncovers broad North Korean hacking campaign against open-source software,"New findings connect the same Pyongyang-backed group to four compromises dating to 2025, revealing a larger operation than previously known.",,https://www.defenseone.com/threats/2026/07/amazon-uncovers-broad-north-korean-hacking-campaign-against-open-source-software/415110/,https://www.defenseone.com/rss/all/,2026-07-29T18:58:00Z,0,Defense
+Claude Opus 5 became downright ruthless when tasked with running a vending machine,Andon Labs&#39; latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever. ,,https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/,https://techcrunch.com/feed/,2026-07-29T18:45:27Z,5,Tech
+What’s the catch with the Apple Upgrade program?,"Apple&#39;s new Upgrade program is here, allowing you to lease select models of iPhones, iPads, Macs, and Watches with a relatively low monthly payment. The company promises you won&#39;t pay more than the full price of the device over the course of the one- to three-year lease, and in some cases, you&#39;ll pay hundreds of […]",,https://www.theverge.com/tech/972583/apple-upgrade-program-deal,https://www.theverge.com/rss/index.xml,2026-07-29T18:40:06Z,1,Tech
+OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots,"In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a &#34;family of devices&#34; for interacting with its AI models. However, Brockman didn&#39;t confirm reports that one of those devices is a smart speaker OpenAI&#39;s rumored to be launching in 2027, or earlier […]",,https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview,https://www.theverge.com/rss/index.xml,2026-07-29T18:15:02Z,5,Tech
+The US government just banned Roombas,"When the Trump administration announced yesterday that it was banning &#34;advanced robotic devices&#34; from entering the United States, the headlines were all about humanoids. But spying doesn&#39;t require legs - and neither does the FCC&#39;s robot ban. The robot ban will sweep up robot vacuum cleaners too, FCC media relations director Katie Gorscak confirms to […]",,https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums,https://www.theverge.com/rss/index.xml,2026-07-29T18:13:09Z,0,Tech
+Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads,"Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.
+
+Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRhCsS9eOb_YSXM57bDGZOPg4d9kipGTxFJ2_jC48mztPkE1_sZzuBe7ArzC4jl1TiWM9JiY20pu5uorCtSNIlmaX3EwT0trxI_HjmT_3dAJftY49-4bna-J5wnZlxs9CccsarbhZ9_L2Rxo9xtZbIszYc2mLKh0UdxKJsGftqHPggGLvtkrwWfD2-Wk/s1600/rails.jpg,https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T18:10:00Z,7,Cybersecurity
+Google begins global rollout of age verification API in Google Play,Google&#39;s new API relies on parents to set age ranges in Family Link.,https://cdn.arstechnica.net/wp-content/uploads/2024/05/google-play-store-1152x648.jpg,https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/,https://arstechnica.com/feed/,2026-07-29T18:08:22Z,0,Tech
+Elon Musk’s xAI is trying to sue its way out of a Grok reckoning,"Musk defends Grok, says Minnesota&#39;s nudifying app ban is unconstitutional.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2255893185-2-1152x648-1785343633.jpg,https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/,https://arstechnica.com/feed/,2026-07-29T17:58:24Z,6,Tech
+"Sorry, haters. Ferrari’s first EV is doing just fine","To the horror of commenters across the internet, the Ferrari Luce appears to be a sales success.",,https://techcrunch.com/2026/07/29/sorry-haters-ferraris-first-ev-is-doing-just-fine/,https://techcrunch.com/feed/,2026-07-29T17:57:45Z,1,Tech
+Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare,"Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",,https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/,https://www.bleepingcomputer.com/feed/,2026-07-29T17:54:05Z,11,Cybersecurity
+Up to six designs could move ahead in Air Force’s next robot-wingman effort,"The concept refinement phase of CCA Increment 2 could wrap by May 2027, portfolio executive says.",,https://www.defenseone.com/defense-systems/2026/07/cca-usaf-robot-wingman/415093/,https://www.defenseone.com/rss/all/,2026-07-29T17:51:42Z,0,Defense
+Waymo robotaxis are starting to return to freeways,Waymo robotaxis are now using freeways in Phoenix with more cities to follow in the coming days. ,,https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/,https://techcrunch.com/feed/,2026-07-29T17:50:57Z,0,Tech
+"US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security","The ban largely affects U.S. imports from China, which currently dominates the global market for making humanoid robots and solar inverters.",,https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/,https://techcrunch.com/feed/,2026-07-29T17:41:09Z,0,Tech
+Quantum computing roundup: Still more technologies making waves,Companies are making sure we have a surplus of options for building qubits.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-3-1152x648.png,https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves/,https://arstechnica.com/feed/,2026-07-29T17:37:47Z,5,Tech
+"Actually, Starliner might fly into space this year","&#34;We&#39;re feeling pretty good about that,&#34; Boeing CEO Kelly Ortberg said.",https://cdn.arstechnica.net/wp-content/uploads/2024/04/GettyImages-2148806962-1152x648.jpg,https://arstechnica.com/space/2026/07/actually-starliner-might-fly-into-space-this-year/,https://arstechnica.com/feed/,2026-07-29T17:24:41Z,5,Tech
+Google brings its age-assurance technology to Android developers worldwide,"Google is expanding its Play Age Signals API, giving Android developers a privacy-preserving way to tailor experiences based on users’ age ranges. ",,https://techcrunch.com/2026/07/29/google-is-rolling-out-its-age-assurance-tech-for-apps-worldwide-by-year-end/,https://techcrunch.com/feed/,2026-07-29T17:00:00Z,5,Tech
+Full school day cell phone bans are more popular than ever,"As schools across the country continue to implement cell phone bans, a new Pew Research Center survey shows they continue to gain support. Seventy-seven percent of US adults support banning cell phones in middle and high school classes, and 48 percent support banning them for the entire school day. That&#39;s the first time more Americans […]",,https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever,https://www.theverge.com/rss/index.xml,2026-07-29T16:42:44Z,5,Tech
+OpenAI agent used exposed credentials at 4 services in Hugging Face breach,"In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",,https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/,https://www.bleepingcomputer.com/feed/,2026-07-29T16:04:59Z,7,Cybersecurity
+"Tame Dependabot: Group your updates, slow the cadence, keep security fast","Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here&#39;s how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.
+The post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog.
+",,https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/,https://githubengineering.com/atom.xml,2026-07-29T16:00:00Z,1,General
+Anthropic is finding bugs faster than Microsoft can fix them,Microsoft is on a mad dash behind the scenes to patch exploits before hackers find them.,https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg,https://arstechnica.com/security/2026/07/anthropic-is-finding-bugs-faster-than-microsoft-can-fix-them/,https://arstechnica.com/feed/,2026-07-29T15:52:48Z,0,Tech
+Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory,"Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.
+
+The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security&#39;s",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCgiIKxPiETcU1yIlU2RFsHgjXg2uLgbzaJ-98y7sPuujYarFbc0FdMqSRLIKJ1hYrsGLCZTCf5k40RtQ2PgwmA2L6tLAidOymHNIduXN3vtU0u0BsI37PLgWK8gwla3oTYkdD8ggssjMfF_5PuC9-exVYpBcqjg9tvscJ7XNAaHJxeUmCj-WP8VttRSgy/s1600/mcp.jpg,https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T15:39:30Z,8,Cybersecurity
+Elon Musk’s X settles multiyear legal battle with the World Federation of Advertisers,X sued the WFA in 2024 for conducting what it called a &#34;systematic illegal boycott&#34; of the platform after it saw a decline in advertising revenue following Musk&#39;s $44 billion takeover of the social network,,https://techcrunch.com/2026/07/29/elon-musks-x-settles-multiyear-legal-battle-with-the-world-federation-of-advertisers/,https://techcrunch.com/feed/,2026-07-29T15:36:48Z,0,Tech
+"Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners","AI home management startup Hint, co-founded by Martha Stewart, wants to become an “AI for your home,” combining property records, maintenance schedules, home documents, and an AI assistant into a single app.",,https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/,https://techcrunch.com/feed/,2026-07-29T15:35:09Z,9,Tech
+New AMD Linux patch boosts low-end gaming performance on Steam Deck,Improved efficiency in EPP mode leads to ~32% jump in &#34;1% low&#34; frame rates.,https://cdn.arstechnica.net/wp-content/uploads/2025/01/Civ7-Steam-Deck-1152x648.jpg,https://arstechnica.com/gaming/2026/07/new-amd-linux-patch-boosts-low-end-gaming-performance-on-steam-deck/,https://arstechnica.com/feed/,2026-07-29T15:33:20Z,0,Tech
+"Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape","Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.
+
+The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.
+
+&#34;A malicious actor with network access to vCenter",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLKz0u1mJIVvPAxiFFqsvkMVXxyXqS_paYhbtTRFLoIWyl5Q_FwIrJjruxEYH0LAdzJm38P48m_T_24ycKfjPs2bg6FUoy2IWVUxH7SpNtiSJuExOy3dDEAWprGwkvhY5005OPyFUzl2qJzAztAckgZNLVzqlp34s9HtQ3wrvq6lDCcXgYwfOXKF08wtdp/s1600/vmware.jpg,https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T15:31:15Z,1,Cybersecurity
+The Ferrari Luce has at least 500 fans,"Just two months after a bumpy launch earlier this year, Ferrari has reportedly already hit its 2026 sales goal for its polarizing, Jony Ive-designed Luce EV. Ahead of Ferrari announcing its quarterly earnings on Thursday, the Financial Times reports that Ferrari was aiming to sell &#34;just under 500&#34; Luce units this year, and reached that […]",,https://www.theverge.com/transportation/972569/ferrari-luce-ev-sales,https://www.theverge.com/rss/index.xml,2026-07-29T15:28:50Z,5,Tech
+Mythos takes its first shot at post-quantum cryptography,"
+		
+					  
+						
+
+
+
+
+Anthropic’s Claude Mythos Preview model has helped researchers discover ways to speed up attacks against two widely studied cryptographic algorithms.
+
+
+
+One of the targets is Hawk, a candidate for post-quantum digital signature algorithms currently being evaluated by NIST, while the other improves the best previously known attack against a weakened version of the widely used Advanced Encryption Standard (AES).
+
+
+
+Neither finding compromises production deployments nor weakens the security of real-world systems. Instead, Anthropic said, the findings improve the understanding of the security margins of modern cryptographic designs.
+
+
+
+Security margin reduced
+
+
+
+Hawk is among the post-quantum cryptographic (PQC) schemes under consideration by the US National Institute of Standards and Technology as it evaluates additional algorithms designed to withstand attacks from quantum computers, and like some previously evaluated submissions relies on lattice-based cryptography.
+
+
+
+“Despite Hawk having survived two rounds of expert human review over a period of two years, Mythos was able to improve the best-known attack on it in just 60 hours of work,” Anthropic said in a blog post about its research.
+
+
+
+Anthropic only studied the 256-bit version of Hawk, while the submission NIST is evaluating concerns the 512- and 1024-bit versions. However, said Anthropic, its findings are still relevant.
+
+
+
+“The key sizes proposed in the HAWK submission are significantly weaker than originally suggested,” it said in its blog post, but for larger keys, Hawk “remains impractical to attack.”
+
+
+
+On the other hand, the post said, Anthropic’s attack makes Hawk less practical to use because it effectively halves Hawk’s security level, meaning substantially larger key sizes will be required to restore its intended security. Such an increase would diminish many of the efficiency benefits that made Hawk an attractive post-quantum signature candidate, Anthropic wrote.
+
+
+
+Anthropic’s new finding “is specific to Hawk and does not impact other NIST post-quantum signature candidates or lattice-based cryptography in general,” the company wrote.
+
+
+
+The second attack is based on a new cryptanalytic technique, dubbed “Mobius Bridge,” which improves attacks against a weakened version of AES-128 using only seven “rounds” instead of the full-strength version’s 10. Rounds are the repeated series of mathematical transformations that AES and other encryption algorithms apply to protect data. Security researchers commonly study reduced-round variants to evaluate the security margins of block ciphers like AES.
+
+
+
+Anthropic said the new technique improving the speed of the previous best attacks by 200-800 times previous attacks on the reduced-round construction while remaining well short of threatening the full versions of AES used in production.
+
+
+
+No practical application
+
+
+
+Anthropic explicitly stated that the research has no practical impact on the security of deployed AES implementations — and for good reason.
+
+
+
+“The attack operates under a chosen plaintext threat model, which is the most common assumption used for studying ciphers like AES,” it explained in the blog post. This assumes that an attacker is able to request that the defender encrypt arbitrary inputs with a fixed, unknown key, and then gets to see the corresponding output. In this case, it assumes the attacker can request the encryption of 2^105 (about 4 billion billion billion) chosen plaintexts. “This attack is therefore completely impractical but quantifies the attack cost against AES under these assumptions,” it said.
+
+
+
+Claude Mythos Preview discovered the attack almost entirely autonomously, Anthropic said, adding, “A researcher at Anthropic built a scaffold that enabled Claude to pose hypotheses, run experiments to experimentally validate or refute these hypotheses, and then asked Claude to design an attack that improves on the best cryptanalysis of AES.”
+
+
+
+Even with AI accelerating some parts of the research, more time is spent verifying the correctness of results. The improved attack on AES was discovered in about a week, but took two researchers nearly a month to validate, Anthropic said.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202920-0-86482200-1785338245-passkey-security-encryption-concept-by-cybrain-via-shutterstock.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202920/mythos-takes-its-first-shot-at-post-quantum-cryptography.html,https://www.csoonline.com/feed/,2026-07-29T15:17:06Z,9,Cybersecurity
+Gaming and IRL worlds collide in Jumanji: Open World trailer,&#34;I&#39;m beginning to suspect we are not in Jumanji.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/jumanji-1152x648.jpg,https://arstechnica.com/culture/2026/07/gaming-and-irl-worlds-collide-in-jumanji-open-world-trailer/,https://arstechnica.com/feed/,2026-07-29T15:16:22Z,5,Tech
+Remarkable’s refurbished bundle is an awesome deal that’s over $350 off,"A lot of us here at The Verge are fans of Remarkable’s digital note-taking tablets, and right now one of its higher-end options is much cheaper than usual. The Remarkable Paper Pro normally sells for $629 on its own, but Woot is currently offering a refurbished bundle for $449.99 through July 31st. It includes the […]",,https://www.theverge.com/gadgets/972219/remarkable-paper-pro-twelve-south-airfly-2-pro-deluxe-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-29T15:09:24Z,0,Tech
+Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work,"Polar has come out with an AI-first browser aimed at knowledge workers, and it has now raised a $5.7 million seed round led by Madrona.",,https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/,https://techcrunch.com/feed/,2026-07-29T15:00:00Z,5,Tech
+Hackers target over 30 Minnesota water utilities in coordinated OT attack,The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in &#34;a coordinated cyberattack.&#34; [...],,https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/,https://www.bleepingcomputer.com/feed/,2026-07-29T14:55:57Z,5,Cybersecurity
+Encore AI raises $30M to build AI agents that learn from customer calls,"The startup analyzes calls, messages and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.",,https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/,https://techcrunch.com/feed/,2026-07-29T14:41:06Z,8,Tech
+Your AI Agents Are Guessing at Scale: Permissions Decide the Damage,"AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",,https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/,https://www.bleepingcomputer.com/feed/,2026-07-29T14:02:12Z,2,Cybersecurity
+‘No one’s making a phone like this’: Light’s co-founders on building for the anti-smartphone generation,"With the Light Phone, Kaiwei Tang and Joe Hollier have spent over a decade exploring the value of simplicity in our relationship to technology, partnering along the way with players like Andrew Yang, Kendrick Lamar, and Pete Davidson. Now, with a new flip phone and a growing wave of “attention activists” pushing back against Big Tech, they think the rest of […]",,https://techcrunch.com/video/no-ones-making-a-phone-like-this-lights-co-founders-on-building-for-the-anti-smartphone-generation/,https://techcrunch.com/feed/,2026-07-29T14:00:00Z,5,Tech
+Windows 11 KB5101684 update released with 42 changes and fixes,"​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",,https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/,https://www.bleepingcomputer.com/feed/,2026-07-29T13:56:22Z,0,Cybersecurity
+Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline,"A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.
+
+Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls.
+
+Braham&#39;s water plant went offline, and the city asked residents to minimize",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Bq6dazLT-P0v4T1DEwFJ86iFFR6sRJnNqjoFBKPVc0FuCvvys-WCkQjT86mHuwxs_DuEpBBb1_y8sOyqqFu7Smth-4YGfw7tTawHxUD9RxGs2Dzau_QCJXc4GtRCnUsNMwbgrx2jh8ozwPpo3udCn4t63ntw6B25phrH1meZil0zODzpvhXViz7Z8-k/s1600/water-plant-attack.jpg,https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T13:48:36Z,5,Cybersecurity
+Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments,"Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.
+
+According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9hThKkBhl022O0TklhaF1JKxLj1RKJjnUgfHzzyuxctFOR0UIyUS0FH1No7KlXJHHmQwUKafQf0UYDm0g6v5RU0m1VS-7v-NtgBCW0OXsPhVeX-IAnluUD-FpMoyTc-wrN55GFssISEWcfJNhBPywn7Pp35cww_lLDZdrWxEqpGWgC15vSK_N4Qo1eM/s1600/russian-hacking.jpg,https://thehackernews.com/2026/07/nine-year-fraud-campaign.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T13:42:57Z,5,Cybersecurity
+"US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security","The agency said imports of advanced robots pose cybersecurity and other national security risks.
+The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-bans-foreign-made-humanoid-robots-targeting-china-over-national-security/,https://www.securityweek.com/feed/,2026-07-29T13:31:00Z,3,Cybersecurity
+What happens when you put AI to work deciphering lost languages?,"AI is fantastic at spotting patterns, but human insight is the key.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/etruscan-1024x648.jpg,https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/,https://arstechnica.com/feed/,2026-07-29T13:23:31Z,6,Tech
+DoorDash is going airborne with new drone delivery division,DoorDash is launching a new drone delivery program called DoorDash Air. The largest food delivery app in the US said that it has approval from the Federal Aviation Administration that clears the way for drone delivery in the near future. DoorDash said it has received a Part 135 air carrier certification from the FAA that […],,https://www.theverge.com/science/970731/doordash-air-drone-delivery-faa,https://www.theverge.com/rss/index.xml,2026-07-29T13:00:00Z,6,Tech
+Spotify adds a running mode to its app,Running Mode will be available to Premium users on iOS in select countries,,https://techcrunch.com/2026/07/29/spotify-adds-a-running-mode-to-its-app/,https://techcrunch.com/feed/,2026-07-29T13:00:00Z,6,Tech
+DoorDash is building its own drone delivery business,DoorDash has received FAA approval to operate a commercial drone delivery service in the United States.,,https://techcrunch.com/2026/07/29/doordash-is-building-its-own-drone-delivery-business/,https://techcrunch.com/feed/,2026-07-29T13:00:00Z,1,Tech
+OpenAI rogue AI agent’s attack expanded beyond Hugging Face,"
+		
+					  
+						
+
+
+
+
+The autonomous AI agent that escaped during OpenAI testing exploited weaknesses across a customer workload, a third-party cloud platform, and Hugging Face’s production environment before being contained, according to new technical disclosures that provide the clearest picture yet of one of the first publicly documented AI-driven intrusion chains.
+
+
+
+Hugging Face’s technical timeline identifies Modal as the third-party cloud platform where the agent gained its initial foothold after exploiting vulnerable customer code running inside a customer-managed sandbox. The company said the compromised environment became the launch point for a broader attack that abused multiple code-execution paths, escalated privileges, and harvested credentials before moving laterally through production systems.
+
+
+
+“The agent found an unsecured, user-hosted public endpoint designed to allow running arbitrary code for CyberGym-style tasks on third-party sandbox infrastructure (Modal),” Hugging Face wrote in a blog. “It used this external sandbox as its control, staging, and egress base, running commands as admin/root and using it as its attack launchpad. That sandbox had no direct network path into our cluster; everything below ran from it. Modal’s infrastructure was not compromised in any way.”
+
+
+
+Modal, however, claimed its “platform and isolation were not compromised in any way.” Instead, the AI agent exploited an internet-facing endpoint exposed by one of Modal’s customers, allowing it to execute code inside the customer’s sandbox before pivoting toward Hugging Face.
+
+
+
+Reuters reported on Modal’s involvement, citing the company’s chief technology officer and two people familiar with the incident.
+
+
+
+Autonomous attack unfolded at machine speed
+
+
+
+Hugging Face said its investigation reconstructed more than 17,600 attacker actions grouped into roughly 6,280 activity clusters, illustrating how autonomous AI systems can rapidly execute thousands of decisions that would traditionally require extensive human effort.
+
+
+
+The company described the post as a technical timeline of the intrusion, detailing how the attack abused data-processing workflows, escalated privileges, and expanded its access before security teams contained the incident.
+
+
+
+Unlike conventional cyberattacks, the operation demonstrated an AI system capable of independently identifying opportunities, chaining vulnerabilities, and adapting its behavior as it progressed through different environments.
+
+
+
+For enterprise security teams, the incident represents a shift from isolated software exploits toward autonomous attacks capable of traversing interconnected cloud services.
+
+
+
+“AI agents should be treated like highly privileged users, not regular applications,” said Vibhum Dubey, a cybersecurity researcher and red teamer.
+
+
+
+Dubey said traditional identity controls, including IAM, RBAC, and MFA, remain essential but were designed primarily around human users. Autonomous agents require additional safeguards such as task-specific permissions, runtime monitoring, approval workflows for sensitive actions, and policies that clearly define what an AI agent is permitted to access or execute.
+
+
+
+Kevin Kirkwood, CISO at Exabeam, said organizations should assume autonomous AI workloads will eventually be compromised and instead focus on limiting the blast radius.
+
+
+
+“The goal is not to assume every malicious payload will be caught. The goal is to make sure a compromised worker has nowhere useful to go.”
+
+
+
+He said AI workloads should execute inside disposable environments with no standing cloud credentials or direct access to production infrastructure. Short-lived identities, network segmentation, and monitoring for credential discovery can prevent a compromised agent from expanding into a broader enterprise breach.
+
+
+
+Industry responds with new safeguards
+
+
+
+The incident has already begun reshaping security practices beyond the organizations directly involved.
+
+
+
+OpenAI said the experimental model compromised accounts across four external services before being disabled and restricted for further testing.
+
+
+
+“One of these four accounts was used as an outbound relay and staging path, and another account was used for data storage. The remaining two accounts were accessed by the models in a read-only manner and were not used in furtherance of compromising Hugging Face,” it said in a statement.
+
+
+
+The company said it has not identified any other incident matching the severity or scale of the Hugging Face intrusion.
+
+
+
+JFrog, which worked with OpenAI through a coordinated vulnerability disclosure process, said the exercise exposed multiple zero-day vulnerabilities that vendors patched before public disclosure. The company said the incident demonstrates how AI systems can dramatically accelerate vulnerability discovery and exploitation, making rapid coordinated remediation increasingly important.
+
+
+
+“This is a preview of a world where software, not humans, probes, chains, and exploits vulnerabilities at machine speed,” JFrog said in a statement.
+
+
+
+The response has extended beyond software vendors
+
+
+
+The Cloud Security Alliance’s CISO Community this week issued emergency guidance urging organizations not to wait for formal standards before strengthening controls around autonomous AI agents.
+
+
+
+“Rapid response from industry experts and enterprise practitioners is a key tool for turning uncertainty into practical guidance, such as was done with the Hugging Face incident,” Jim Reavis, CEO of the Cloud Security Alliance, said in a statement.
+
+
+
+The guidance recommends treating AI workloads as untrusted by default, enforcing least-privilege access, isolating execution environments, and continuously monitoring agent behavior as enterprises grant AI systems greater operational autonomy.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202852-0-47300600-1785329755-OpenAI-shutterstock_editorial_2797310785.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202852/openai-rogue-ai-agents-attack-expanded-beyond-hugging-face.html,https://www.csoonline.com/feed/,2026-07-29T12:54:59Z,21,Cybersecurity
+Mate Security Raises $35 Million for Agentic SOC,"The startup will use the investment to expand its customer support, sales, and R&amp;D teams.
+The post Mate Security Raises $35 Million for Agentic SOC appeared first on SecurityWeek.
+",,https://www.securityweek.com/mate-security-raises-35-million-for-agentic-soc/,https://www.securityweek.com/feed/,2026-07-29T12:47:13Z,1,Cybersecurity
+"The Nothing Ear 3A deliver great, but sometimes buggy, performance for the price","Nothing has had a strong visual identity since the Ear 1 were released in 2021 for $99 and challenged the notion that a highly featured headset requires a high price. The Ear 3A have the same transparent look as Nothing&#39;s previous earbuds, with a clear case and stem design accented by a solid-colored body - […]",,https://www.theverge.com/tech/972254/nothing-ear-3a-earbuds-review,https://www.theverge.com/rss/index.xml,2026-07-29T12:30:00Z,0,Tech
+Samsung’s Galaxy Z Fold 8 feels like the future,"Is this the future of foldable phones? Samsung clearly thinks so. The company has given its new wide foldable the &#34;Z Fold 8&#34; name, positioning the phone not as a widescreen oddity, but as the new normal, the default design for foldables going forward. Rumor has it that Apple feels the same way, with a […]",,https://www.theverge.com/tech/972387/samsung-galaxy-z-fold-8-review,https://www.theverge.com/rss/index.xml,2026-07-29T12:22:03Z,1,Tech
+ThreatLocker Raises $190 Million in Series F Funding,"The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation.
+The post ThreatLocker Raises $190 Million in Series F Funding appeared first on SecurityWeek.
+",,https://www.securityweek.com/threatlocker-raises-190-million-in-series-f-funding/,https://www.securityweek.com/feed/,2026-07-29T12:17:14Z,4,Cybersecurity
+Mythos Asks the Right Question. It Doesn't Answer It.,"AI is compressing exploit timelines. The real question isn&#39;t whether your vulnerability management playbook needs to change, it&#39;s which part of it you&#39;ve been getting wrong all along.
+
+The conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing. Does the vulnerability management playbook need to change?
+
+The honest answer is",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0mieQQ57yqCRvM0amMKsszEvpX9AK9C4fSA6fyD6rx9VpNdjgYpiFk2D_AfSYT386yNTNuL1-ki2llA_LR-LXYw9r0p0nb2FZCnnP-u33sN2McktovTGN13k_n_i7HExGQdX6GcRSG0uKJAawc_6wusYkt37jY5sTvjz7k8kLa8RTIZM_NABBL64mbnY/s1600/meshs.jpg,https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T12:15:00Z,7,Cybersecurity
+"Artists are lawyering up against AI slop, and some are even winning","When The Atlantic published a searchable dataset of works used to train AI, Kirk Wallace Johnson, like a lot of artists, looked for his name out of curiosity. And, like a lot of artists, he found it. Essentially, his books, like The Feather Thief and The Fishermen and the Dragon - nonfiction tomes that he […]",,https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic,https://www.theverge.com/rss/index.xml,2026-07-29T12:00:00Z,5,Tech
+Fast Metals is treating waste with more waste to extract critical minerals,Aluminum production has saddled the world with billions of tons of caustic waste. One startup has a plan to clean it up and turn a profit.,,https://techcrunch.com/2026/07/29/fast-metals-is-treating-waste-with-more-waste-to-extract-critical-minerals/,https://techcrunch.com/feed/,2026-07-29T12:00:00Z,3,Tech
+Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser,"Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.
+
+Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser&#39;s renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update.
+
+&#34;No settings or additional user interaction are required,&#34; Eten Zou,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOwFIxqT8kRBNj9LdZBZhO1g2RPJwUttxQosrS_mPoNXkIR-JB-yM87HPzuPZ1tazourGhRg9Sco6YQEGZkC77DSqXBYjp0DkNDAUHOaAOnIisRYNPAQfNWwqnmoILXOgR0wwyGVNlU3kSVRU6TcfyAx5ztaAWZfbKnCDJYgUeIVsM7n7O2zq7fGc-xnI/s1600/tor-exploit.gif,https://thehackernews.com/2026/07/researchers-show-single-malicious.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T11:57:00Z,2,Cybersecurity
+OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face,"The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog […]",,https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face,https://www.theverge.com/rss/index.xml,2026-07-29T11:54:29Z,6,Tech
+Critical VM Escape Vulnerability Patched in VMware ESXi,"A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion.
+The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/,https://www.securityweek.com/feed/,2026-07-29T11:42:38Z,5,Cybersecurity
+73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack,"Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack.
+
+According to The State of Incident Response Readiness 2026, based on a survey of 600 senior IT security decision makers conducted by Vanson Bourne in January",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixbolkSzPCa__qy94Mm27YfEsvVeyY94SOG5BrCQCGtAe-QenE0qDM5Tkbb7eOy0PwSCECFGMrZ7IG7lVePoMWjqMn8s_7-5_r8JUSQ7WVHsHAo-zZIhyphenhyphenyNW5aGTbFkpgtu99ucSeEgcJK75UdxkAsWKjXf_x8zEGpcDURPf9UJjcDz8JSHFD0uahDcOI5/s1600/ss.jpg,https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T11:13:10Z,4,Cybersecurity
+These near-mint ASUS Chromebook refurbs are only $145,"Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade &#34;A&#34; rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",,https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/,https://www.bleepingcomputer.com/feed/,2026-07-29T11:12:19Z,0,Cybersecurity
+"Tested: Google SynthID works great, but labeling AI content may be a losing game",Deciding what&#39;s real on the Internet won&#39;t be easy in the future. ,https://cdn.arstechnica.net/wp-content/uploads/2026/07/synthid-fingerprint-1152x648.jpg,https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/,https://arstechnica.com/feed/,2026-07-29T11:00:39Z,5,Tech
+Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity,"The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law.
+
+The principal security agency said the instant messaging platform &#34;failed to remove numerous channels, chats, and bots on the platform that are",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMUnFYtFjTBTc4gylDAEu-XkRP-crArKjOPCGhPhdX7S3Of7UKlVyAbHVb9CyAStiVaXJkXjUgXssYTKSJNnQvJvxdn_diL69NGa-2lhE_6GJCBFp0qMshbqCPnCksje_5yYMqhqh43Np9-CEkjJDa_gs6Axq0lxbi12SlPKqPWf-s6_Roin-zR0DIBjvy/s1600/x-post-telegram.jpg,https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T11:00:00Z,1,Cybersecurity
+"As AI content floods the internet, Pangram raises $9M to detect it","Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview. ",,https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/,https://techcrunch.com/feed/,2026-07-29T11:00:00Z,10,Tech
+We’re running out of reasons to ignore AI safety,"Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Adam Gleave, cofounder and CEO […]",,https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning,https://www.theverge.com/rss/index.xml,2026-07-29T11:00:00Z,6,Tech
+"US, Australia Release OT Isolation Guidance for Critical Infrastructure","The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period.
+The post US, Australia Release OT Isolation Guidance for Critical Infrastructure  appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/,https://www.securityweek.com/feed/,2026-07-29T10:58:44Z,1,Cybersecurity
+"Xbox outage shouldn&#8217;t have affected games on disc, Microsoft confirms","After the recent Xbox outage even blocked people from playing offline disc-based console games, Microsoft is trying to soothe concerns that you don&#39;t truly own anything under Xbox&#39;s license system. In a statement to The Verge, Xbox technology chief Scott Van Vliet says that while physical game discs are subject to licensing inspections, that shouldn&#39;t […]",,https://www.theverge.com/games/972416/xbox-outage-game-disc-entitlement-check-issue,https://www.theverge.com/rss/index.xml,2026-07-29T10:58:29Z,0,Tech
+OpenAI’s Rogue AI Ventured Beyond Hugging Face,"Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation.
+The post OpenAI’s Rogue AI Ventured Beyond Hugging Face appeared first on SecurityWeek.
+",,https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/,https://www.securityweek.com/feed/,2026-07-29T10:10:09Z,4,Cybersecurity
+Elon Musk finally launches X Money. What could possibly go wrong?,Expect bumps with X Money rollout as major US financial markets are excluded.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2239391568-1024x648.jpg,https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/,https://arstechnica.com/feed/,2026-07-29T10:00:51Z,0,Tech
+It’s easier to steal cargo than toothpaste,"
+		
+					  
+						
+
+
+
+
+Our cybersecurity world can get quite interesting and even close to science fiction sometimes. No, it’s not AI this time, but something movie-worthy nevertheless. Picture scenes from known heist-themed movies such as “Ocean’s Eleven” or “Mission: Impossible”. Real-world equivalent scenarios like these are happening in front of your eyes and you might not even know when it’s happening. Cyber-enabled cargo theft is growing at a shocking pace.
+
+
+
+Most cybersecurity professionals do not spend much time focusing on transportation and logistics and it makes sense why. Traditionally, these industries were heavily manual in nature with little tech innovation or connected systems. However, that has changed drastically in the last few years. Autonomous vehicles, connected systems and devices, robotics – the list goes on, are just a few examples of how logistics and specifically freight logistics has changed in recent years to innovate to ultimately keep transportation costs low. While shiny tech companies are still the attack beacon on the hill, there has been something brewing in the shadows and the bad guys have been paying attention.
+
+
+
+According to TruckNews.com, “cargo theft incidents are up more than 90% since 2021, with high-tech strategic cargo thefts soaring by 1,500%”. That’s not a typo. I lead the cybersecurity function for a company that specializes in vehicle logistics, and we also see reports of cyber-enabled vehicle thefts increase around 1,400% during transport. Again, that’s not a typo. It has gotten so bad that the FBI has noticed it and is deploying dedicated resources to combat the increase.
+
+
+
+How did we get here?
+
+
+
+Freight logistics is quite a fragmented industry. From the production line all the way to consumers or customers, there are generally multiple parties in the mix to get goods from point A to point B. At a high level, transportation of goods does not seem overly complex. Maybe it’s a warehouse or the production facility; a truck shows up, loads the goods and transports them to the store. However, the reality is, complexity is quite high.  This includes inventory systems, brokers and their systems, bills of lading, payment systems, vehicle telematics and of course a ton of data and the goods themselves. Freight logistics, and logistics more broadly, have been heavily paper-based but had to innovate and move operations and their data online. However, controls, governance and security gates have traditionally been de-prioritized. Shipping goods is a cost center, and the goal is to keep costs low. Well, the bad guys have noticed.
+
+
+
+Think about it this way: I could try to walk into a store with mounted security cameras, security guards standing at the doors, locked shelves and try to steal whatever is behind that locked shelf and risk being caught — or I can exploit a transportation management system, divert an entire truckload and completely cover my tracks for a much bigger payday with arguably less immediate risk. Or even better, pin it on someone else. Just to prove how lucrative this scheme is, instead of breaking into a car to steal it, thieves went after a transporter to steal NBA legend Shaquille O’Neal’s Range Rover during transport. It takes coordination and planning to get that done, and apparently a compromised transporter.
+
+
+
+How hackers get the goods
+
+
+
+Generally, just like with every compromise, attackers look for the easiest way in. However, certain patterns are emerging of how the perpetrators are accomplishing these heists, which include business email compromise (BEC), identity theft/carrier impersonation, load board hacks and freight redirection and Electronic Bill of Lading (eBOL) tampering. As previously mentioned, there are many handoffs and parties involved in the logistics process. Each handoff, or trust boundary if you’re thinking in terms of a threat model, carries risks and has potential vulnerabilities that a threat actor could exploit. What we also see is that carriers (transporters) have large, varying degrees of cybersecurity maturity, generally no requirements for standardization and often not sufficient resources to defend against increasingly complex cyberattacks.
+
+
+
+At this point, you might wonder if freight logistics is completely defenseless and the answer is “no”. Vehicle telematics and GPS tracking have been in place for a while, but they were often used to prevent traditional theft. Attackers know this and they have pivoted as well. One of the movie-worthy heists that made the news was the cyber-enabled cargo theft of 24,000 bottles of Guy Fieri’s tequila. Not only did the bad guys infiltrate systems, but they also spoofed GPS tracking to make it look like the goods were en route to the correct destination when they weren’t.
+
+
+
+Also, think about the planning and infrastructure these crime rings have invested in, and I am calling them crime rings because these are major operations with attacks often coming from overseas. In a “traditional” compromise, you get in, get the data, cover your tracks and get out. In these examples, the attackers do that and need real infrastructure to move physical goods. It’s one thing to infiltrate a system or spoof a carrier online, but it’s a whole different story to operate actual trucks, clear goods through customs and ship them overseas — which is what they often do.
+
+
+
+The industry is noticing, but we need more of the “good guys”
+
+
+
+Industry sharing forums and conferences around cyber-enabled cargo theft have started to emerge, but we still have a long way to go. Given the industry’s fragmented systems, operators and entities, it can be challenging to perform incident response and forensics.  We need cybersecurity professionals who understand logistics as well. There is phishing and then there is showing up with an actual truck with a forged USDOT number and a spoofed eBOL. The US Department of Transportation estimates that “in 2023, the U.S. transportation system moved a daily average of about 55.5 million tons of freight valued at more than $51.2 billion” — yup, daily. You can see what the potential for these attackers is, and they are currently only handicapped by their own capacity to move the loot. Maybe AI-enabled TSOCs (Transportation Security Operations Center), which combine the movement of the goods with cyber operations, are an avenue to explore. We ourselves are investing heavily in advanced detection and prevention mechanisms. While I am hopeful this industry will attract more talent, especially as thefts become more widely reported, finding talent can be challenging. A recent CSO article mentions that there is a “gap between existing and needed skills” to fill many of the cyber roles, but now we are also adding specific industry knowledge and while unicorns exist, there are no specific trainings or certifications geared toward cyber-enabled cargo theft to help close the knowledge gap. It is learning by doing (most of the time).
+
+
+
+It seems the perpetrators have an agenda, although clear patterns of strategic thefts vs. opportunistic ones have not emerged yet or been publicly disclosed.  According to recent reported thefts, they are targeting raw materials, data center equipment, high-value vehicles, and yes, even adult protection products.  I suspect we will also see them scaling their operations to divert more freight. So, is it easier to steal cargo than toothpaste? In a way, yes and no, but it is a perfect storm of a fragmented industry catching up, low levels of regulation, limited controls and detection capabilities and until now, a relatively low risk of punishment. The next time you see a car hauler or semi-truck on the road, there could be a chance you are watching a cyber-enabled cargo heist unfold in front of your eyes.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202383-0-47973500-1785319535-shutterstock_2524664627.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html,https://www.csoonline.com/feed/,2026-07-29T10:00:00Z,16,Cybersecurity
+Spur Raises $200 Million for IP Intelligence Platform,"The IP intelligence company will use the fresh investment to accelerate and scale its operations.
+The post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek.
+",,https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/,https://www.securityweek.com/feed/,2026-07-29T09:12:19Z,1,Cybersecurity
+Risk-based patching is the future. AI made it table stakes,"
+		
+					  
+						
+
+
+
+
+CISA’s new Binding Operational Directive (BOD) 26-04 marks one of the most important changes to federal vulnerability management in years. Rather than requiring agencies to patch every critical vulnerability on the same timetable, the directive prioritizes remediation based on risk, with patch deadlines ranging from three days for the highest-risk vulnerabilities to deferral for those posing minimal risk. It’s a welcome evolution, but it brings us to the starting blocks, not the finish line.
+
+
+
+Security teams have long known that severity alone doesn’t determine risk. A CVSS score says little about whether a vulnerability is reachable from the Internet, is being actively exploited, can be automated or provides the attacker with control of the asset. BOD 26-04 acknowledges the contextual nature of risk by directing organizations to focus first on the exposures most likely to be exploited.
+
+
+
+However, AI is compressing every stage of the attack lifecycle, changing the threat landscape faster than vulnerability management practices can adapt. CrowdStrike reports that the average eCrime breakout (Initial Lateral Movement)  time has fallen to just 29 minutes, with the fastest observed breakout taking 27 seconds. Once attackers establish a foothold, Mandiant found they hand off access between operators in a median of 22 seconds.
+
+
+
+At the same time, AI itself is growing as an attack surface. Organizations are rapidly deploying copilots, browser agents, autonomous workflows and other AI-powered systems, introducing prompts, plugins, connectors and integrations that require protection.
+
+
+
+Against this backdrop, the directive’s three-day remediation window for the riskiest exposures looks less like an aggressive target and more like a luxury. 
+
+
+
+Today’s attackers don’t simply exploit CVEs. They combine vulnerabilities with stolen identities, cloud misconfigurations, exposed APIs, SaaS weaknesses and increasingly AI systems to construct attack paths into critical assets. BOD 26-04 moves us forward, but AI requires defenders not simply to accelerate existing processes, but to rethink them.
+
+
+
+AI has changed the tempo and economics of cyberattacks
+
+
+
+One of AI’s biggest advantages for attackers is its ability to automate work that previously required teams of human operators. Reconnaissance, vulnerability research, exploit generation, phishing, credential harvesting and even portions of lateral movement can now be accelerated or, in some cases, largely orchestrated by AI.
+
+
+
+Recent research has demonstrated autonomous agents carrying out much of the operational work in sophisticated cyber campaigns while humans supervise the broader objectives. As a result, campaigns become easier and less expensive to scale, more targets can be pursued simultaneously and attackers can test far more paths into an environment before defenders realize they’re being probed.
+
+
+
+For years, vulnerability management assumed that organizations had weeks, or even months, to identify, prioritize and remediate security issues. That assumption no longer reflects reality. Attackers routinely move from initial access to lateral movement in less than an hour, and vulnerabilities are increasingly exploited shortly after disclosure, and in some cases are weaponized before defenders have even begun evaluating them.
+
+
+
+This is why CISA’s move toward risk-based remediation matters. Prioritizing vulnerabilities based on exploitability and operational risk gives defenders a much better chance of addressing the issues most likely to be used against them. But vulnerabilities represent only one piece of today’s exposure landscape.
+
+
+
+Modern attacks follow paths, not findings
+
+
+
+Most security organizations still divide responsibilities across specialized teams. Vulnerability management focuses on CVEs. Identity teams concentrate on authentication and privilege. Cloud security addresses configuration. Application security reviews code.
+
+
+
+Attackers don’t encounter those same boundaries. Their objective is to reach valuable assets using whatever route is available. A campaign may begin with an exposed vulnerability, stolen credentials, excessive cloud permissions, a misconfigured SaaS application or a compromised AI agent. More often than not, several of those conditions are combined. For example, the 2026 Verizon Breach report found that while 31% of initial exploitation last year was a vulnerability, 39% of attack chains involved identity issues. In every notable breach, attackers chain together various types of exposures to advance inside networks.
+
+
+
+An attacker who compromises a low-privilege account may discover an over-permissioned identity, pivot through a cloud workload, exploit a vulnerable application and eventually gain access to sensitive business systems. None of those individual exposures may appear catastrophic when viewed independently. Together, they form a viable attack path.
+
+
+
+With breaches always a chain of various exposures, and vulnerabilities representing only part of the story of how breaches actually occur, this is where vulnerability-centric security begins to break down. CrowdStrike also reported a 42% year-over-year increase in vulnerabilities exploited, before vendors even announced them. That means organizations that are nose-to-the-grindstone closing   hundreds of high-severity findings will get breached because they lack the context needed to close off the most practical route an attacker would take to their critical assets.
+
+
+
+Organizations should assume breach and plan for the possibility that an attacker will eventually gain an initial foothold. Security architecture should be as segmented as possible and limit how far an adversary, or a compromised AI agent, can move after that initial compromise. And security controls should be validated continuously rather than assumed effective because they were successfully deployed. 
+
+
+
+These principles shift attention away from individual findings and toward the conditions that enable successful attacks.
+
+
+
+How defenders can adapt: Continuous assessment and validation
+
+
+
+One practical way to make this transition is to get serious about implementing a Continuous Threat Exposure Management (CTEM) program, which establishes an ongoing process for understanding and reducing exposure.
+
+
+
+It starts with something many organizations still struggle to maintain: a current understanding of the environment. That means continuously mapping assets, identities, cloud infrastructure, SaaS applications, AI systems and the relationships between them. From there, security teams can identify exposures, prioritize them according to exploitability and business impact, validate whether they are actually reachable, and drive remediation across operational teams.
+
+
+
+This continuous cycle restores what Mandiant calls the Defender’s Advantage. Attackers must first discover an unfamiliar environment before they can exploit it. Defenders already have that knowledge – or should. The challenge is keeping it current as cloud services, identities, AI applications and business systems evolve daily.
+
+
+
+Embed validation into the process
+
+
+
+Security teams also need to verify that the exposures they’ve identified can actually be exploited and that remediation efforts have eliminated meaningful risk.
+
+
+
+That’s where adversary-aware exposure validation becomes an essential part of the process. Technologies such as breach-and-attack simulation, automated penetration testing and attack path analysis allow organizations to continuously test their environments using techniques that resemble real adversaries.
+
+
+
+Instead of asking whether a vulnerability exists, exposure validation answers more practical questions: Can an attacker reach it? Can they exploit it? Can they pivot from it to something the business actually cares about? Just as important, validation confirms whether remediation efforts have truly closed the door rather than simply reducing the number of findings on a dashboard.
+
+
+
+Prioritize the business, not the dashboard
+
+
+
+Validation becomes even more valuable when combined with business context. A medium-severity weakness affecting a revenue-generating application, regulated data or critical operational system may represent greater organizational risk than multiple critical vulnerabilities affecting isolated development environments.
+
+
+
+Prioritizing validated exposures according to business impact gives security leaders a remediation strategy they can explain to executives in operational terms rather than technical ones. More importantly, it aligns defensive efforts with the attack paths most likely to affect the organization.
+
+
+
+BOD 26-04 is an important step forward. But AI has already made risk-based patching table stakes. In the AI era, the organizations that succeed won’t necessarily be those that patch the fastest. They’ll be the ones that understand their exposure better than the attackers trying to exploit it.
+
+
+
+This article is published as part of the Foundry Expert Contributor Network.Want to join?
+",https://www.csoonline.com/wp-content/uploads/2026/07/4202381-0-63303100-1785315737-shutterstock_2079263032.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202381/risk-based-patching-is-the-future-ai-made-it-table-stakes.html,https://www.csoonline.com/feed/,2026-07-29T09:00:00Z,27,Cybersecurity
+ICE’s New Detention Center Contracts Declare State Laws ‘Shall Not Apply’,"One day after a federal judge ordered an ICE detention center opened to state health inspectors, the agency posted new contract terms that would void state oversight at four facilities.",,https://www.wired.com/story/ices-new-detention-contracts-declare-state-law-shall-not-apply/,https://www.wired.com/feed/category/security/latest/rss,2026-07-29T09:00:00Z,0,Cybersecurity
+Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass,"Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.
+
+The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIxq_zUC231fexQTfY9VPvqP7FWVRurT9fbUUS3YMpMX2SRmJu9eXIlH7v6fnvqJGtirQwXJVjs1h-hbUM7j-R6DlfpW7M4kt28q9EoxMt7jJFjUjaAoVsuTWSsBZOFcDj99U8ApvFR4B4sDQ37QHYeWXjJsowFBP3n8-TBfzcKB2Rl-de-OluIkzbJIYb/s1600/cp-poc.jpg,https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T08:58:27Z,9,Cybersecurity
+JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack,"The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given.
+The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/,https://www.securityweek.com/feed/,2026-07-29T08:46:30Z,9,Cybersecurity
+How MFA gets hacked — and strategies to prevent it,"
+		
+					  
+						
+
+
+
+
+The security benefits of multifactor authentication (MFA) are well-known, yet MFA continues to be poorly, sporadically, and inconsistently implemented, undercutting its effectiveness as a security tool while often saddling users with an extra workflow burden — one of many obstacles to MFA’s success.
+
+
+
+Frequent news stories that describe innovative ways to circumvent MFA don’t help, such as evidence of an AI-fueled phishing attack that found cloud keys and SSH access details, and another case of an AI-based attack that leveraged Claude Code. Even the savviest vendors aren’t immune, as evidenced by a series of Okta attacks in 2023 that resulted in stolen GitHub source code, an infected supply chain, and a compromised support portal.
+
+
+
+Still, MFA methods have gotten easier to use, thanks to the growing popularity and sophistication of passwordless approaches. Over the past several years, MFA mandates from big vendors such as Google and Microsoft for both employees and customers have helped motivate IT operations to strengthen their authentication practices and encourage comprehensive and continuous authentication across all applications. 
+
+
+
+According to a JumpCloud 2025 survey, 87% of larger enterprises regularly employ MFA methods, although only about a third of smaller firms did the same. Cisco more recently found that while 87% of survey respondents agreed that having phishing-resistant MFA methods were critical, less than 20% had implemented any such procedure across their enterprises.
+
+
+
+We used the following references that describe many of the MFA exploits in further technical detail, and how to prevent them, including:
+
+
+
+
+A collection of bypass methods illustrated by Abnormal Security
+
+
+
+KnowBe4’s extensive slide deck detailing a number of MFA exploit methods, though somewhat outdated
+
+
+
+The FIDO Alliance’s series of white papers on how enterprises can implement better MFA methods
+
+
+
+JumpCloud’s collection of MFA usage statistics from surveys
+
+
+
+Cisco Duo’s MFA Buyer’s Guide, which details how to cost-justify stronger MFA deployments
+
+
+
+RSA’s useful deep dive on implementing better MFA programs via its passwordless solutions
+
+
+
+
+Notable MFA threat modalities and common attack techniques
+
+
+
+The below table offers an overview of four common MFA threat modalities, along with the associated attack methods applied across specific locations.
+
+
+
+Of note is that fact that attackers have found weaknesses across all aspects of enterprise computing infrastructure. Part of the problem is that the average modern authentication workflow is complex: Users can arrive at an application via a web portal, a smartphone app, an AI query, or an API. They can connect via a variety of endpoints, through a local network or a VPN, running different OSes and browsers. As a result, any enterprise testing its MFA portfolio must apply careful and continual vigilance to a grab bag of circumstances and locations where MFA codes can be intercepted.
+
+
+
+MFA bypass and exploit technologies
+
+
+
+Methods NetworkMobileApplicationsWorkflowBrowser and cookieFatigueGaps in auth and access policies Prompt bombing, Gaps in auth and access policies Prompt bombingPrompt bombing, Gaps in auth and access policies Prompt bombing, Gaps in auth and access policiesSocial EngineeringEvil proxy servers, Real-time phishing relayVishing, SMS phishing, SIM swappingNon MFA-enabled apps, Faked websites, TOTP relayConsent phishing, Account recovery abusesMan-in-the-browser, Consent phishingStealing auth tokens/cookiesMITM attacksAuth app phisingMalicious MFA softwareSession hijackingSession hijacking, Pass-the-cookieTargeting weak authenticationManipulate trusted IPs/devicesReused passwords, Lack of FIDO/biometricsWeak account recovery, Non-MFA accounts, IMAP/POP email accessPrior auth/logins, Brute force MFASession hijacking, Pass-the-cookie, Man-in-the-browser, Consent phishing 
+
+
+
+MFA fatigue
+
+
+
+MFA fatigue is an attack modality that involves rapidly sending numerous authorization requests, typically via SMS push messages, until a user gives in and approves the request, granting access to an attacker, such as what happened to Uber in 2022.
+
+
+
+This is one of numerous reasons why SMS has long been considered a very insecure second factor channel and why it still is a threat, as evidenced by PayPal’s 2026 elimination of MFA-based SMS.
+
+
+
+These attacks also go by the name “push bombing” or “prompt bombing” and are not limited to mobile exploits. MFA fatigue can also take advantage of gaps in authentication or access control policies. The irony is that the more MFA an organization uses, the more likely an MFA fatigue attack will succeed.
+
+
+
+Social engineering
+
+
+
+Attackers also use a combination of social engineering andphishing attacks — based on SMS (smishing) or voice calls (vishing) to disrupt the overall authentication workflow and trick users into giving up MFA tokens.
+
+
+
+Changes in user behavior, such as more remote post-pandemic usage and events such as the World Cup, are often exploited by bad actors. Arctic Wolf wrote in its blog, “Using social engineering along with an MFA fatigue attack can be effective for threat actors, as it creates a false sense of trust.”
+
+
+
+These combination attacks also often lure users to fake websites, real-time phishing relays, or proxy servers to capture one-time passcodes. For mobile authenticators, SIM swaps can also be used to redirect one-time codes to an attacker’s phone. These happen by convincing a customer service employee at a telecommunications provider that they are the legitimate phone owner and then use SMS to access authentication messages.
+
+
+
+More recently we’ve seen exploits that use account recovery or password reset fallbacks to circumvent MFA protections.
+
+
+
+Stealing authentication cookies
+
+
+
+Hijackers can also compromise MFA sessions by stealing authentication cookies or other tokens. This can be accomplished in several ways, including setting up phony login pages, using relays or man-in-the-middle or man-in-the-browser proxies to intercept and obtain the MFA codes.
+
+
+
+A Joomla compromise from last year provides an example. Because numerous websites don’t enforce session inactivity time limits, attackers could use endpoints that had received prior authentication and steal cookies to bypass MFA. “The authorization process does not have a way of knowing whether the current holder of that access control token was the legitimate user or ever successfully authenticated. This key fact is often used by hackers to compromise MFA,” KnowBe4’s researchers wrote in their report.
+
+
+
+Targeting weak authentication
+
+
+
+Targeting non-MFA users and applications with weak passwords is another common threat modality that can operate across the entire computing spectrum. While MFA adoption has improved, it still is far from universal, and attackers count on finding those unprotected places and users to target their efforts accordingly.
+
+
+
+A few years ago Akira ransomware threat actors infiltrated organizations using Cisco VPNs that were not configured for MFA, where they could use brute force to obtain user credentials. Going back to the 2021 Colonial Pipeline attack, analysts found it was caused by compromising a single password used on a legacy VPN that wasn’t running any MFA.
+
+
+
+Using other service accounts that may have been once used by administrators or by users who have either forgotten them or left the company are also a common pathway for these types of compromises. There are also cases of taking advantage of already-authenticated IP addresses or devices, or direct attacks on cellular networks, or setting up proxy servers to intercept MFA codes.
+
+
+
+Strategies to stop MFA attacks
+
+
+
+Given all these exploits, MFA needs attention to detail to ensure security. Here are a few tips for ensuring your MFA strategy will be successful.
+
+
+
+1. Understand what you’re trying to protect
+
+
+
+First, security teams must understand the resources they seek to protect from compromise. “For example, cyber threat actors often target email systems, file servers, and remote access systems to gain access to an organization’s data, along with trying to compromise identity servers like Active Directory, which would allow them to create new accounts or take control of user accounts,” according to this CISA fact sheet.
+
+
+
+CISA recommends systems that support FIDO protocols for the first recipients of MFA protection. This includes using hardware keys, better biometric controls, and setting up passwordless access for the most sensitive applications.
+
+
+
+CISA’s fact sheet came out more than three years ago, and I feel its recommendations don’t go far enough: Better MFA should be enterprise wide.
+
+
+
+Kevin Surace, CEO of biometric authentication provider Token.com, tells CSO: “We moved to MFA, and [the attackers] moved with us.” This means that enterprise security managers must up their game as well.
+
+
+
+“There are some MFA methods without biometrics so it’s not as secure, as it doesn’t guarantee the person, just possession,” Surace says. “While it technically works short term, it’s not the end game. We will all be given services like Zoom and banking that will require real live biometrics to verify identity.”
+
+
+
+One example is when Microsoft introduced conditional access and risk-based authentication to combat advanced MFA bypass techniques such as token theft and session hijacking, reflecting its ongoing efforts to strengthen identity security.
+
+
+
+2. Get adaptive with authentication
+
+
+
+Next, all authentications should be real-time, continuous risk-based assessments, and they should dynamically step up security requirements automatically based on what users are doing at any given moment.
+
+
+
+The old ways of using a single access control moment when a user logs in need to be replaced accordingly. There are a number of authentication products that couple MFA into their adaptive authentication processes, and combine with the above hardened methods, such as asking for a passwordless verification when you want to add a new payee on your bank account.
+
+
+
+3. Button down access rights
+
+
+
+A companion effort should be a careful assessment and frequent review of user and application access rights.
+
+
+
+IT security staff should ensure employees only receive access to limited data needed to accomplish their job responsibilities. But this is not always simple to accomplish, as roles and responsibilities change. Still, over the years it is common to see numerous users who are overprovisioned access rights without any subsequent auditing or reduction in these rights.
+
+
+
+4. Conduct MFA workflow analysis regularly
+
+
+
+All these points should be part of an overall MFA workflow analysis, which really isn’t anything new. Gerhard Giese from Akamai points this out in a 2021 blog post, when he talks about how MFA doesn’t always prevent credential stuffing.
+
+
+
+Giese says IT managers need to “re-examine your authentication workflows and login screens to make sure an attacker cannot uncover valid credentials by interrogating the web server’s response and implement a bot management solution to make sure you are not making things easier for the bad guys.”
+
+
+
+5. Review your password reset workflow
+
+
+
+One aspect that seems to get historically neglected is the password reset workflow process, which is why it is a common target of attackers.
+
+
+
+“Surprisingly, there are many websites that don’t have a second layer of verification for their 2FA reset password process, or they offer MFA but do not enforce users to employ it,” says Mitnick Security in this blog post. Having better MFA, along with limits on unsuccessful login attempts and password reuse can also help.
+
+
+
+6. Ensure the security of high-value targets
+
+
+
+Finally, you should assess and locate users who might be high-value targets.
+
+
+
+“Every organization has a small number of user accounts that have additional access or privileges, which are especially valuable to cyber threat actors,” CISA writes in its report. Examples include IT and system administrators, staff attorneys, and HR managers. Consider these groups for an initial rollout phase of your MFA project.
+
+
+
+MFA technology should be a part of corporate security’s critical infrastructure. Recent attacks, as well as urging from experts across government and the private sector, should provide further impetus for intelligent implementations.
+",https://www.csoonline.com/wp-content/uploads/2026/07/570795-0-97085600-1785312140-shutterstock_788301778-100924556-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/570795/how-to-hack-2fa.html,https://www.csoonline.com/feed/,2026-07-29T08:00:00Z,18,Cybersecurity
+Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks,"State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities.
+The post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/,https://www.securityweek.com/feed/,2026-07-29T07:53:22Z,4,Cybersecurity
+New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands,"Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account.
+
+Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm9I3aoAsUS5yCtKTvSX6LYxjKfJu-RShA1QmcUiBLu760VFfeqd6D4NfH3ttKHoQkfWT57oL0_4KJBovY7nshgiGQ4R5wimWh-2k48f9qjdlJtjKqK0oM5vxquJFPuguLbBkbqzA7xc4NgjQaxkcU7tVSQ0a3GyXreEyvdvR4NmERWPbkiR6Um2thKfY/s1600/Gitea-rce.jpg,https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T07:47:19Z,7,Cybersecurity
+"Ransomware report: VPNs in the crosshairs, AI attacks","
+		
+					  
+						
+
+
+
+
+Ransomware attacks were up year over year in June for the fourth consecutive month, according to the NCC Group, though attacks increased just 3% in Q2 2026 versus the previous quarter. VPNs and other network edge devices continue to be prime initial access targets. And an autonomous AI agent enters the fray.
+
+
+
+Here is a rundown of recent ransomware developments.
+
+
+
+Industries at risk
+
+
+
+NCC Group reports that ransomware gangs targeted the industrials sector (30%) above all other verticals in Q2, followed by the consumer discretionary industry (24%) and information technology (11%). Healthcare (10%) was the fourth most targeted industry, with an April attack on Signature Healthcare in Massachusetts disrupting ambulance services, forcing cancer treatment cancellations, and leading Brockton Hospital to use downtime procedures for several weeks.
+
+
+
+Government entities experienced 89 confirmed and 98 unconfirmed ransomware attacks in the first half of 2026, according to a report from Comparitech. US government agencies were targeted the most, accounting for 31% of those attacks, though at a rate 23% less than 2H 2025. Industries under increasing attack over the past six months include transportation (52%), healthcare (35%), retail (28%), and technology (23%), Comparitech found.
+
+
+
+Most active threat actors
+
+
+
+Ransomware groups Qilin and The Gentlemen came in No. 1 and No. 2 in both NCC Group’s list for most attacks in Q2 2026 and Comparitech’s list for 1H 2026, though Comparitech notes that The Gentlemen, reportedly a Qilin splinter group, topped Qilin in victims claimed on their respective data leak sites for the month of June. Cyber resilience platform vendor Halcyon recently called The Gentlemen “one of the fastest-scaling ransomware threats” it has tracked.
+
+
+
+Akira, DragonForce, Lockbit, and INC rounded out both lists’ top 6 most active threat ransomware actors. NCC Group also singled out KryBit as a notable emerging group — first observed in March 2026 — that operates as ransomware-as-a-service specializing in targeting Windows, Linux, VMware ESXi, and NAS devices. According to Halcyon, KryBit’s activity model gives the group notable growth potential.
+
+
+
+TTP trends
+
+
+
+Both Qilin and The Gentlemen have been observed deploying “EDR killer” tools of late, according to reports from Cisco Talos and ESET, respectively.
+
+
+
+The tools, which are not new, attempt to bypass or disable endpoint security agents on PCs and servers. Notable, however, is that affiliates must develop or source their own EDR killers, a significant undertaking given the breadth of platforms used by defenders and thus a sign of growing threat group sophistication.
+
+
+
+Network edge vulnerabilities and credentials, VPNs in particular, are being increasingly exploited by ransomware groups, according to NCC Group, which notes Akira, Qilin, and The Gentlemen as heavy users of these primary vectors. Targeted devices include systems from Fortinet, Citrix, and Check Point. Arctic Wolf recently announced an ongoing Qilin campaign versus a vulnerability in Palo Alto Networks’ GlobalProtect VPN.
+
+
+
+AI watch
+
+
+
+Researchers from Sysdig detailed the operations of an autonomous AI agent, dubbed JadePuffer, that completed its entire intrusion chain, from initial access to database extortion, using an LLM to adapt its actions and execute more than 600 coordinated payloads. The agent harvested credentials, established persistence, and mapped internal services before encrypting configuration records, deleting the original tables, and leaving behind a Bitcoin ransom demand in what Sysdig researchers labeled “the first documented case of agentic ransomware.”
+
+
+
+In depth:
+
+
+
+
+Ransomware groups increasingly hammer network edge for access
+
+
+
+Microsoft uncovers GigaWiper, a backdoor designed for destruction on demand
+
+
+
+Why The Gentlemen ransomware is a test of identity and recovery controls
+
+
+
+This AI agent autonomously hacked a network, adapted on the fly, and demanded a ransom
+
+
+
+New CitrixBleed-like NetScaler flaw sees exploit attempts in the wild
+
+
+
+Be on the lookout for Mistic, a new backdoor used by ransomware broker
+
+
+
+FortiBleed campaign exposes 75,000 Fortinet firewalls worldwide
+
+
+
+Check Point warns of ransomware-linked attacks exploiting outdated VPN protocol
+
+",https://www.csoonline.com/wp-content/uploads/2026/07/4201372-0-67835500-1785310336-kevin-horvat-Pyjp2zmxuLk-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4201372/ransomware-report-vpns-in-the-crosshairs-ai-attacks.html,https://www.csoonline.com/feed/,2026-07-29T07:30:00Z,23,Cybersecurity
+Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates,"Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers.
+
+They linked the framework to a fake &#34;公安一网通办&#34; Public Security service application targeting Android users in China. The kit supports payment-password",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOpdosdOAoAjpR73DY5i_8YN9dHOY7KsBws53ivjlY3iVg0-EZAO6CliWbdg61_hT6eI9_Im9aiH_c312ttIHamIl4IIxe2omPSWjC4OaCfbNKZC7Gr85jXs12NObtpiSAK1PNljccRdmzvITRijNNh16c2IDK3kWmL5Ce3lbzQNCJaMy4wgKwWyB2oiI/s1600/android-rat.jpg,https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T07:07:23Z,1,Cybersecurity
+OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach,"OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face&#39;s production environment, and also hacked multiple third-party accounts and services as part of the attack.
+
+The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s1600/openai-breach.jpg,https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html,https://feeds.feedburner.com/TheHackersNews,2026-07-29T06:45:02Z,7,Cybersecurity
+ShinyHunters Claims Ernst & Young Hack,"Ernst &amp; Young previously confirmed that personal and financial information was stolen from a third-party management platform.
+The post ShinyHunters Claims Ernst &amp; Young Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/shinyhunters-claims-ernst-young-hack/,https://www.securityweek.com/feed/,2026-07-29T06:23:34Z,1,Cybersecurity
+How the U.K. is helping Ukraine hit Russian targets,"Allied donations to Ukraine have gone from missiles to designs, as Ukrainian manufacturing outpaces its donors.",,https://www.defenseone.com/technology/2026/07/how-uk-helping-ukraine-hit-russian-targets/415077/,https://www.defenseone.com/rss/all/,2026-07-29T04:47:09Z,0,Defense
 Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js,"Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.
 
 The list of affected packages is as follows -
