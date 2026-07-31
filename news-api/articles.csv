@@ -1,4 +1,904 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Anthropic Says Claude Hacked Real Systems During Cybersecurity Tests,"In a review triggered by OpenAI&#39;s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations.",,https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/,https://www.wired.com/feed/category/security/latest/rss,2026-07-31T01:24:26Z,5,Cybersecurity
+Microsoft confirms an AI worm is propagating through Copilot and other MS apps,"
+		
+					  
+						
+
+
+
+
+A prominent Norwegian AI researcher on Tuesday posted details about an AI worm that is wreaking havoc in various Microsoft applications, including Word and Copilot.
+
+
+
+The report from noted Norwegian AI researcher Håkon Måløy, now confirmed by Microsoft, said that an attacker can conceal instructions in a document that is later used as source material for Copilot-generated or Copilot-edited Word documents, for example, as input to a financial report. Those malicious instructions could potentially alter figures in the document being created. They then copy themselves into the new document, causing it to become a carrier of the attack when used in another Copilot-assisted workflow.
+
+
+
+Måløy noted: “To my knowledge, this is among the first public demonstrations of document-borne AI-worm self-propagation through normal workflows in a mainstream commercial productivity suite.”
+
+
+
+Microsoft on Thursday emailed a statement to CSOonline discussing the report’s revelations. 
+
+
+
+“We have addressed the findings reported by the researcher and thank them for working with us through coordinated vulnerability disclosure. To address this class of risk, we use a defense-in-depth strategy with safeguards that block malicious instructions at multiple points and help keep tasks aligned with users’ requests,” Microsoft said. 
+
+
+
+“We are continuously strengthening these safeguards as the technology and threat landscape evolve,” it added. “We encourage customers to install the latest updates, use multiple layers of security protection, treat content from unknown sources with caution, and review AI-generated content before using or sharing it.” 
+
+
+
+Sidesteps defenses
+
+
+
+Aman Mahapatra, chief strategy officer for Tribeca Softtech, a New York City-based technology consulting firm, has reviewed the mechanisms used in this vulnerability and says that it is much worse than it might seem, because it will sidestep just about every defensive mechanism enterprises have in place today.
+
+
+
+“This is a worm, a self-propagating malware pattern that uses Copilot as the transmission mechanism and legitimate corporate collaboration as the delivery channel. It bypasses every traditional email security control because the document is not malicious on delivery and it becomes malicious when Copilot processes it. That means that it bypasses DLP because the exfiltration happens through the user’s own authenticated Copilot session,” Mahapatra said. “It then bypasses endpoint protection because no code executes, only instructions get followed by an AI service the enterprise has explicitly authorized.”
+
+
+
+He also noted that researchers have been warning about this class of attack for two years.
+
+
+
+Microsoft’s involvement
+
+
+
+Måløy said that he has been working with the Microsoft Security Response Center (MSRC) since March 3 and Microsoft  subsequently implemented and distributed multiple small focused mitigations, but the core vulnerability has yet to be fixed.
+
+
+
+He said he was hesitant to disclose an active vulnerability, but felt that it was now time to publish. 
+
+
+
+“My reasoning is that defenders cannot reduce exposure to a risk they are unaware of,” Måløy wrote, “and the propagation mechanism described here affects ordinary document workflows that many organizations already rely on.”
+
+
+
+In an email interview, Måløy noted that the tweaks Microsoft has implemented were helpful, nonetheless. 
+
+
+
+“The coordinated disclosure process showed that mitigations can meaningfully reduce the demonstrated attack surface, making attacks less reliable and limiting their reach, even without completely eliminating the underlying problem,” he said. 
+
+
+
+Måløy also addressed the resolution that many analysts and consultants suggested, which is to change the nature of LLMs to fully isolate instructions from the data they operate on. 
+
+
+
+“Separating instructions from data may be part of the solution, but I think the distinction between data and instructions is not always clear in real-world workflows. For example, a user may ask an agent to arrange a business trip, requiring the agent to retrieve an email specifying the approved itinerary and a document containing the booking procedure,” Måløy said. 
+
+
+
+“My view is that the broader challenge is therefore not simply to prevent systems from interpreting external content as instructions, but to evaluate whether those instructions align with the user’s goals and the context in which the system is operating,” he added.
+
+
+
+Problem hard to overstate
+
+
+
+Mike Wilkes, enterprise CISO at Aikido Security, said it would be difficult to overstate the potential problems from this situation. 
+
+
+
+“This is a significant issue because it moves prompt injection from a single compromised interaction into a potentially self-propagating document integrity attack,” he said, noting that it is not a conventional worm that spreads automatically. A user or Copilot workflow must still bring an infected document into the model’s context. “But once that happens, the malicious instructions can reportedly alter business information, conceal themselves inside the resulting Word document and turn a legitimate internal file into the next carrier,” he said.
+
+
+
+That, he pointed out, creates “a dangerous enterprise supply chain in which financial reports, contracts, policies and partner documents may inherit malicious behavior while retaining the trust associated with their legitimate authors and Microsoft 365 accounts.”
+
+
+
+Not a new issue
+
+
+
+The key issue behind this flaw is the fact that genAI tends to struggle with telling the difference between data that a user offers as input and the instructions the AI is to execute.
+
+
+
+Flavio Villanustre, CISO for the LexisNexis Risk Solutions Group, observed that the same problem with mixed data and instructions occurred in databases decades ago, and turned into what we know as SQL injection attacks today. But, he noted, a few years later, parametrized binding for the database access layers was developed, which separates instructions, which are handled internally and safely, from data, which can come from untrusted sources. “The same needs to happen with LLMs and other AI,” he said.
+
+
+
+Mike Leone, a VP/principal analyst at Moor Insights &amp; Strategy, agreed.
+
+
+
+“It’s hard not to chuckle a bit with this one. People have been asking whether data can give orders since SQL injections. We fixed that one by giving the database a way to tell an instruction from a value,” Leone said. “Thirty years later, we’ve built an entire category of software that can’t tell the difference at all.”
+
+
+
+Tom Findling, CEO at Conifers.ai, also said he sees the data-vs-instructions issue as the biggest problem. 
+
+
+
+“Separating data from instructions is still unsolved at the model layer. The labs are making real progress, but not enough to be your only control,” he said, and stressed, “Microsoft doesn’t need to wait for that. It can slow propagation inside Copilot: stop hidden content from being written into new documents, surface hidden text before it’s used, preserve the trust level of what Copilot read and show all AI-generated changes.”
+
+
+
+Fix needs industry agreement
+
+
+
+However, Frank Dickson, group VP for security at IDC, argued that a fix needs industry agreement. 
+
+
+
+“A fundamental fix requires the industry to converge on the same architectural change, which isn’t happening anytime soon given the incentives and the fact that the major players are far from besties,” he said, pointing out that Instruction-data separation would need to be baked in at the model or platform level across every major vendor. “None of them are rewarding that work commercially right now, so treat that as a multi-year research problem, not something a CISO should wait on.”
+
+
+
+Leone disagreed, arguing that a single vendor can do quite a bit, at least for its own customers. 
+
+
+
+“Microsoft has said publicly since last year that indirect prompt injection can’t be fully prevented, and I give them credit for saying it out loud rather than pretending otherwise,” Leone said, noting that the industry doesn’t have to move in lockstep. “This attack lives inside one product,” he said. “If Microsoft hardens the Copilot document path, Copilot customers get safer whether or not anyone else moves.”
+
+
+
+Dickson added that another critical problem with this vulnerability is that the carrier documents are created by legitimate employees using legitimate tools, “so there’s no obvious point of origin once the payload starts moving; an organization could be laundering corrupted financial figures through its own workflow for weeks before anyone notices.”
+
+
+
+Tactics that might help
+
+
+
+That said, experts had some specific suggestions for CISOs trying to negate this problem. 
+
+
+
+IDC’s Dickson said, “the most useful lever right now sits outside the model entirely, in how much untrusted content Copilot is allowed to pull into a session without a human choosing it.” He noted that enterprises can turn Copilot’s auto-discovery behavior off or restrict it, and require humans to explicitly select the documents they feed it. “That alone closes off one of the two ways the attack gets a foothold,” he said.
+
+
+
+IDC also suggested a visible diff or redline of anything Copilot changes in a financial or otherwise consequential document, and the requirement for a human to approve the changes. “That’s not a technical fix, it’s a workflow one, and it’s available today,” Dickson said.
+
+
+
+He said that IT should also track where content came from and what was touched by an AI system, in metadata that travels with the document. “It doesn’t stop the injection, but it means when something does get through, an organization can actually trace how far it spread instead of discovering a corrupted number three reports later with no way to reconstruct the chain,” he said.
+
+
+
+However, one expert, Tyler Reguly, Fortra’s associate director of security R&amp;D, said that he didn’t see this vulnerability having a meaningful impact because it feels like what he called a “laboratory vulnerability.” 
+
+
+
+Normal enterprise workflows don’t encompass a number of the necessary steps for compromise, he said, pointing out that, if anything, people are trained not to download Word documents. Plus, he noted, looking at the blurred example in the report, the malicious document contained an additional apparently blank page which held the concealed prompts in white text.
+
+
+
+“That page is going to send up warning signs for me if someone even managed to convince me to download an external Word document,” he said. So, overall, “this feels like it requires a perfect storm.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203630-0-82290800-1785460429-shutterstock_267440663.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203630/microsoft-confirms-an-ai-worm-is-propagating-through-copilot-and-other-ms-apps.html,https://www.csoonline.com/feed/,2026-07-31T01:13:39Z,20,Cybersecurity
+Anthropic says its own AI models breached three companies during security tests,"After OpenAI&#39;s models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",,https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/,https://techcrunch.com/feed/,2026-07-31T01:06:54Z,5,Tech
+"Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests","One of Anthropic&#39;s Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",,https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/,https://www.bleepingcomputer.com/feed/,2026-07-31T00:57:25Z,7,Cybersecurity
+Claude uploaded malware to PyPI in Anthropic's botched test,"One of Anthropic&#39;s Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",,https://www.bleepingcomputer.com/news/security/claude-uploaded-malware-to-pypi-in-anthropics-botched-test/,https://www.bleepingcomputer.com/feed/,2026-07-31T00:57:25Z,4,Cybersecurity
+Apple stockpiles inventory as it braces for ‘significant supply constraints’,"Apple is worried enough about supply shortages that it reported about $11.1 billion in inventory, which is almost double the $5.7 billion it reported last September.",,https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/,https://techcrunch.com/feed/,2026-07-30T23:28:05Z,6,Tech
+"AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.,,https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/,https://techcrunch.com/feed/,2026-07-30T23:25:58Z,5,Tech
+Reddit reports a solid quarter but shows signs of AI’s impact,Reddit&#39;s financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.  ,,https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/,https://techcrunch.com/feed/,2026-07-30T23:08:58Z,5,Tech
+"Investors love AI, as long as you’re a cloud host",Amazon isn&#39;t slowing down on data center spending — but investors don&#39;t seem to mind.,,https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/,https://techcrunch.com/feed/,2026-07-30T22:41:41Z,8,Tech
+Apple says gaming slowdown and App Store changes hurt services growth,"Apple said a slowdown in mobile gaming and changes to the App Store’s business model—including court-ordered payment rule changes in the U.S.—weighed on its services business, even as the company topped 1.5 billion paid subscriptions. ",,https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/,https://techcrunch.com/feed/,2026-07-30T22:37:06Z,6,Tech
+Tim Cook hints at iCloud Plus tier for AI power users,"Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI &#34;a lot,&#34; adding that &#34;we will have some kind of upgrade possibilities on iCloud Plus where people […]",,https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai,https://www.theverge.com/rss/index.xml,2026-07-30T22:29:45Z,9,Tech
+South Korea fines telco giant KT $39 million for customer data breach,South Korea&#39;s Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...],,https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/,https://www.bleepingcomputer.com/feed/,2026-07-30T22:28:30Z,4,Cybersecurity
+CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs,"CISA is urging water and wastewater utilities to lock down internet-exposed controllers, days after intrusions hit dozens of Minnesota systems.
+The post CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/,https://www.securityweek.com/feed/,2026-07-30T22:18:36Z,4,Cybersecurity
+Xbox CEO says the team has one year to start growing again,"After a massive Xbox &#34;reset&#34; that laid off thousands of employees and spun off four studios, Xbox CEO Asha Sharma wants to get Xbox back to growth. In a memo obtained by The Verge, Sharma told staff by the end of fiscal year 2027 (which runs through next June), &#34;we will return XBOX to player […]",,https://www.theverge.com/games/973520/xbox-ceo-memo-one-year-growth,https://www.theverge.com/rss/index.xml,2026-07-30T22:10:13Z,5,Tech
+"Tim Cook's last earnings call: Strong iPhone sales, but memory costs loom large","The iPhone and Mac sold well, but memory costs threaten further price increases.",https://cdn.arstechnica.net/wp-content/uploads/2017/12/GettyImages-869824586-1152x648.jpg,https://arstechnica.com/gadgets/2026/07/tim-cooks-last-earnings-call-strong-iphone-sales-but-memory-costs-loom-large/,https://arstechnica.com/feed/,2026-07-30T22:05:35Z,0,Tech
+JetBrains warns of critical TeamCity remote code execution flaw,JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...],,https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/,https://www.bleepingcomputer.com/feed/,2026-07-30T22:01:31Z,11,Cybersecurity
+"A coordinated attack hit 30+ Minnesota water systems. Who did it, and what does a Rockwell notice add to the picture?","
+		
+					  
+						
+
+
+
+
+A coordinated cyberattack that targeted more than 30 Minnesota community water systems has alarmed industrial cybersecurity experts, not because it caused widespread disruption, but because it appears to represent the first distributed campaign against dozens of small utilities linked by a common operational technology weakness.
+
+
+
+While the affected communities reported that drinking water remained safe and disruptions were limited, security researchers say the incident marks another escalation in a months-long campaign targeting US water infrastructure amid heightened geopolitical tensions with Iran.
+
+
+
+“This is a first-of-its-kind distributed attack on water utilities,” Markus Mueller, field CISO at Nozomi Networks, tells CSO. “Based on the publicly available information, it was clearly aimed at disruption rather than financial gain.”
+
+
+
+What happened?
+
+
+
+Minnesota IT Services disclosed that the water systems experienced coordinated cyber activity over a two-day period from July 26 to July 27. The city of Braham, with roughly 1,700 people in Isanti County, suffered the most visible operational impact after shutting down portions of its water system for roughly two hours while operators regained control of affected systems.
+
+
+
+The city of Plymouth disconnected cellular-connected equipment at two water towers and multiple wastewater lift stations to stop the intrusion and prevent the attackers from regaining access while the equipment was reconfigured. The city of South St. Paul said some automated controls were affected, and the city of Maple Plain declared a local state of emergency to expand its response.
+
+
+
+The incident comes just days after CISA, the FBI, NSA and EPA expanded an advisory warning that Iranian-affiliated cyber actors continue targeting programmable logic controllers (PLCs) used throughout US critical infrastructure, including water systems.
+
+
+
+“CISA is currently observing a significant increase in cyber threat actors targeting programmable logic controllers at water utilities,” CISA Acting Director Nick Andersen said in a statement provided to CSO. “We urge critical infrastructure owners and operators to remove publicly exposed PLCs and other operational technology from the internet as soon as possible.”
+
+
+
+“We also encourage all organizations to review the latest guidance on CISA.gov and to report suspected incidents or anomalous activity to us for further support,” Andersen said.
+
+
+
+More than another utility hack
+
+
+
+Experts agree that the attacks stand apart from previous incidents because they were coordinated across numerous utilities rather than focused on a single victim.
+
+
+
+Nozomi’s Mueller believes that this coordination strongly suggests investigators will eventually identify some technical thread connecting the affected communities.
+
+
+
+“To be this sector-specific,” he says, “my assumption would be that there is something that ties these together beyond simply being Minnesota water utilities.” He thinks investigators may ultimately discover a shared systems integrator, communications architecture or other common infrastructure that made the utilities collectively vulnerable.
+
+
+
+Ron Fabela, an industrial control systems researcher who closely tracks attacks against operational technology, reached a similar conclusion after examining publicly available information.
+
+
+
+“I searched Minnesota’s public IP space and didn’t find obvious exposed water infrastructure,” he says. “Many of these utilities use cellular communications, which makes them much harder to identify than internet-facing industrial systems.”
+
+
+
+That distinction could explain why dozens of geographically clustered utilities were affected while neighboring infrastructure apparently was not.
+
+
+
+The Rockwell connection
+
+
+
+An additional development could prove significant as investigators continue examining the attacks.
+
+
+
+According to a source familiar with the federal investigation, authorities are examining whether vulnerable Rockwell Automation MicroLogix 1400 PLCs served as a common enabling factor in the campaign.
+
+
+
+Fabela ran a targeted Shodan search on Plymouth’s public IP space and found the city using at least two Rockwell Automation MicroLogix 1400 controllers.
+
+
+
+The possibility aligns with both recent federal warnings and a July 30 Rockwell Automation security advisory addressing the MicroLogix 1400 family of controllers. Earlier federal guidance identified Rockwell Automation/Allen-Bradley PLCs among the industrial controllers being actively targeted by Iranian-affiliated threat actors before expanding the warning to additional PLC manufacturers.
+
+
+
+On July 30, amid the investigation into the Minnesota attacks, CISA issued fresh guidance urging water and wastewater utilities to remove publicly exposed PLCs and other operational technology from the internet as quickly as possible.
+
+
+
+Scott Caveza, senior staff research engineer at Tenable, the first security organization to issue a report on the incident, cautioned that the timing alone does not establish causation. “The timing certainly makes it suspicious,” Caveza says. “Rockwell Automation devices have routinely been targeted by these groups before, so it’s definitely plausible.”
+
+
+
+If exposed PLCs did provide attackers with access, the implications extend beyond simple monitoring.
+
+
+
+“Depending on configuration,” Caveza explains, “an attacker could gain monitoring capability, manipulate what operators see, or in some circumstances modify operational settings.” Fortunately, manual safety controls built into most water facilities make catastrophic consequences considerably more difficult.
+
+
+
+The relatively quick recovery in Braham appears consistent with that assessment. Operators restored systems within roughly two hours, and no boil-water orders were issued.
+
+
+
+CISA’s July 30 alert did not identify the equipment involved in the Minnesota incidents or address whether Rockwell controllers played a role. However, the agency’s renewed emphasis on removing internet-exposed PLCs closely mirrors both Rockwell’s own mitigation guidance and one of the questions investigators are now examining: whether exposed Rockwell controllers provided a common avenue into multiple utilities.
+
+
+
+Attribution remains the biggest unanswered question
+
+
+
+Federal agencies have stopped short of publicly identifying those responsible, although most experts believe Iranian-affiliated actors remain the leading suspects.
+
+
+
+Cynthia Kaiser, former FBI cyber deputy director and now vice president of strategy and policy at Halcyon, says the attacks closely followed recent federal warnings describing an active Iranian campaign targeting operational technology.
+
+
+
+“You have the FBI and other US government agencies putting out an urgent warning about Iran targeting operational controls,” she tells CSO. “Then this larger coordinated campaign occurs. Geopolitically, Iran has the strongest motivation to conduct this kind of chaos-driven cyberattack.”
+
+
+
+Still, Kaiser acknowledges investigators lack a definitive technical smoking gun. Instead, she argues Iran increasingly benefits from what she calls “strategic ambiguity.”
+
+
+
+“They thrive in people suspecting it might be them but not knowing for sure,” she says. “That ambiguity complicates response and buys them time operationally.”
+
+
+
+That explanation may help resolve one of the attack’s biggest mysteries.
+
+
+
+Unlike previous campaigns by CyberAv3ngers and other Iranian-aligned hacktivist groups, no convincing public victory videos or detailed Telegram posts immediately appeared following the Minnesota attacks. In an unusual delay, an Iranian state publication attributed the attack to threat group Handala only on July 29, days after the incident.
+
+
+
+Handala itself has been silent, even though it claimed credit on X on July 26 for a cyberattack targeting the network infrastructure of SupraNet Communications, a major internet service provider based in Madison, Wisc.
+
+
+
+That Handala claimed credit for one attack days earlier but has said nothing about Minnesota deepens the mystery of its silence here.
+
+
+
+Fabela noted that absence stood out. “Neither Handala nor CyberAv3ngers has publicly claimed responsibility the way we’ve seen in previous campaigns,” he says. “Normally they post screenshots or proof. We haven’t seen that yet.”
+
+
+
+Mueller also found the silence unusual.
+
+
+
+“At the peak we were tracking more than a hundred Iranian splinter groups,” he says. “Then everything became very quiet. Even with renewed kinetic activity, we haven’t seen the same level of public boasting.”
+
+
+
+Lessons for water utilities
+
+
+
+Whatever the final attribution, experts say the attacks reinforce an uncomfortable reality: Attackers often do not need sophisticated zero-day exploits to disrupt operational technology.
+
+
+
+Rather, they succeed because industrial control devices remain directly reachable from the internet, protected by weak credentials, or deployed without the network segmentation long recommended by federal agencies.
+
+
+
+Fabela summed up the irony this way: “Tying all these pieces together, it seems the threat actors are implementing the CISA-recommended actions for PLCs — without operator permission, of course: set a password, remove them from the internet. Joking, not joking.”
+
+
+
+“The guidance is pretty typical,” Caveza says. “Don’t connect these devices directly to the internet. These are things we hope would already be common knowledge—but unfortunately things happen.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203638-0-24985800-1785448427-shutterstock_2457419151.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203638/a-coordinated-attack-hit-30-minnesota-water-systems-who-did-it-and-what-does-a-rockwell-notice-add-to-the-picture.html,https://www.csoonline.com/feed/,2026-07-30T21:53:36Z,29,Cybersecurity
+A Leaked Memo Ties Cyberattacks on Minnesota Water Utilities to Iran,"A memo obtained by WIRED, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Tehran.",,https://www.wired.com/story/a-leaked-memo-ties-cyberattacks-on-minnesota-water-utilities-to-iran/,https://www.wired.com/feed/category/security/latest/rss,2026-07-30T21:20:00Z,3,Cybersecurity
+Bank of America to Acquire Cybersecurity Firm MDSec,"The acquisition will add approximately 65 cybersecurity professionals to Bank of America’s operations in the United Kingdom.
+The post Bank of America to Acquire Cybersecurity Firm MDSec appeared first on SecurityWeek.
+",,https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/,https://www.securityweek.com/feed/,2026-07-30T21:02:21Z,2,Cybersecurity
+Kremlin hackers are exploiting Exchange flaw to backdoor unpatched networks,Exploits can give persistent server access that survives credential rotation and disk re-imaging.,https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg,https://arstechnica.com/security/2026/07/kremlin-hackers-are-exploiting-exchange-flaw-to-backdoor-unpatched-networks/,https://arstechnica.com/feed/,2026-07-30T20:57:22Z,0,Tech
+Apple&#8217;s iPhone and Mac sales keep growing despite RAM shortages,"Apple&#39;s iPhone and Mac sales are on the rise even as a global memory shortage squeezes device makers. In its third-quarter earnings report released on Thursday, Apple revealed that iPhone sales jumped 22 percent to $54.25 billion, while Mac sales increased 29 percent to $10.35 billion. Apple raised prices across its Macs, iPads, and other […]",,https://www.theverge.com/tech/973430/apple-q3-2026-earnings,https://www.theverge.com/rss/index.xml,2026-07-30T20:49:32Z,6,Tech
+Trump FCC's war on ABC slammed by both conservatives and liberals,&#34;Chilling message to all broadcasters: carry speech we don’t like at your peril.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2025/09/brendan-carr-concordia-1152x648-1758655744.jpg,https://arstechnica.com/tech-policy/2026/07/trump-fccs-war-on-abc-slammed-by-both-conservatives-and-liberals/,https://arstechnica.com/feed/,2026-07-30T20:48:47Z,0,Tech
+The loss of Situational Awareness,"I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don&#39;t use a name like &#34;Long-Term Capital Management,&#34; or &#34;Amaranth Advisors&#34; (named for the floral symbol for […]",,https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks,https://www.theverge.com/rss/index.xml,2026-07-30T20:46:25Z,0,Tech
+Satellites spot new war damage to Amazon data centers and Saudi oil site,Satellites show burn scars and fires at AWS data centers and Saudi oil refinery.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/AWS-logo-1024x648.jpg,https://arstechnica.com/gadgets/2026/07/satellites-spot-new-war-damage-to-amazon-data-centers-and-saudi-oil-site/,https://arstechnica.com/feed/,2026-07-30T20:45:39Z,0,Tech
+Judge says Trump admin still lacks evidence for Anthropic ‘supply chain risk’ label,"A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply chain risk, casting doubt on the government&#39;s ban on its AI technology.",,https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/,https://techcrunch.com/feed/,2026-07-30T20:26:38Z,5,Tech
+CareCloud begins to notify hundreds of thousands after hackers stole medical records,"The health tech data giant, which handles vast amounts of patients&#39; medical data, said hackers struck one of its protected health data stores.",,https://techcrunch.com/2026/07/30/carecloud-begins-to-notify-hundreds-of-thousands-after-hackers-stole-medical-records/,https://techcrunch.com/feed/,2026-07-30T20:13:12Z,8,Tech
+The disc is not the game: Physical releases increasingly require extra downloads,DoesItPlay tracks the many &#34;physical&#34; games that don&#39;t work without the Internet.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/discburn-1152x648.jpg,https://arstechnica.com/gaming/2026/07/the-disc-is-not-the-game-physical-releases-increasingly-require-extra-downloads/,https://arstechnica.com/feed/,2026-07-30T20:12:50Z,0,Tech
+"Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag","Friend, the AI wearable, can now talk to its users — for an enhanced price. ",,https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/,https://techcrunch.com/feed/,2026-07-30T19:44:16Z,5,Tech
+Chrome may get faster updates with no restart required,The last two versions of Chrome have included more patches than the previous 23 combined.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/Chrome-shield-1152x648.png,https://arstechnica.com/ai/2026/07/chrome-may-get-faster-updates-with-no-restart-required/,https://arstechnica.com/feed/,2026-07-30T19:26:56Z,1,Tech
+Okta to Acquire Identity Threat Detection Firm Permiso,"The deal extends Okta&#39;s reach beyond identity management and into the realm of security operations, positioning the company to compete more directly on identity threat detection and response.
+The post Okta to Acquire Identity Threat Detection Firm Permiso appeared first on SecurityWeek.
+",,https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/,https://www.securityweek.com/feed/,2026-07-30T19:10:26Z,4,Cybersecurity
+Samsung’s Galaxy Watch 9 is $40 off at Costco and comes with over $50 in freebies,"The Galaxy Watch 9 launches on August 7th, and not only does Costco have the best preorder incentives we’ve seen so far, the watch is also discounted. The deal includes the 40mm Watch 9 in cream or graphite, two wireless fast chargers for the watch, and a $50 Costco gift card, all for $339.99 — […]",,https://www.theverge.com/gadgets/973211/costco-galaxy-watch-9-preorder-costco-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-30T19:00:00Z,0,Tech
+"Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI","As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",,https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/,https://techcrunch.com/feed/,2026-07-30T18:57:58Z,5,Tech
+LinkedIn actually adds a ‘seems like AI slop’ button,"A lot of content on LinkedIn might seem like AI slop, and now, you&#39;ll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that &#34;Seems like AI […]",,https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button,https://www.theverge.com/rss/index.xml,2026-07-30T18:43:26Z,6,Tech
+Florida plans to build air taxi pads using $200M intended for EV chargers,"Florida wants to use federal EV charger funds to build an air taxi network connecting golf courses, luxury apartment buildings, and airports.",,https://techcrunch.com/2026/07/30/florida-plans-to-build-air-taxi-pads-using-200m-intended-for-ev-chargers/,https://techcrunch.com/feed/,2026-07-30T18:38:12Z,5,Tech
+DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware,"Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview campaign.
+
+The defining aspect of the attack is that bogus macOS software update screen stealthily",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCHbm6QCC9jjGwa-7P1N2PwhDjRvpC2hlS2hl09-DUZa5xdDeHt9qH1zISepl2ERqDzmDbdQ_zfE2vkHDsvE7G8QsetJHjzC45DpPr5-83lc1BGaLHfEwMfdYEA04d5xc7GL02_qkz1HjhIenSKBWF0FZqHnICaLn9agLEoEGnnN2n-smXxYFuQQaYNd8A/s1600/all-secure.jpg,https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T18:18:24Z,9,Cybersecurity
+"Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...],,https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/,https://www.bleepingcomputer.com/feed/,2026-07-30T18:13:24Z,3,Cybersecurity
+LinkedIn adds a button to report AI-generated ‘slop’,"LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It&#39;s also replacing its own AI writing feature with a proofreading tool.",,https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/,https://techcrunch.com/feed/,2026-07-30T18:05:21Z,5,Tech
+Govee&#8217;s portable smart lamp is down to one of its best prices to date,"Buying multiple lamps for different rooms can get expensive. Govee’s rechargeable Table Lamp Classic gives you one lamp you can use throughout your home instead of getting one for every room, and right now it’s down to $59 ($21 off) at Amazon. That’s just $4 shy of the all-time low set during Prime Day, and […]",,https://www.theverge.com/gadgets/973266/govee-table-lamp-classic-back-to-school-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-30T18:01:26Z,0,Tech
+"VMware fixes three critical flaws allowing auth bypass, VM escapes","Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtual machine to the host. [...]",,https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/,https://www.bleepingcomputer.com/feed/,2026-07-30T18:00:51Z,4,Cybersecurity
+"Google reveals Gemini Robotics 2.0, promising improved dexterity and safety","Gemini Robotics 2 includes three models, but only one is publicly available right now. ",https://cdn.arstechnica.net/wp-content/uploads/2026/07/gemini-robotics-2-1152x648.png,https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/,https://arstechnica.com/feed/,2026-07-30T17:58:02Z,8,Tech
+Synthetic-user startup Simile raises $200M at $2B valuation 5 months after $100M Series A,Add another member to the fast-and-furious AI unicorn club: Simile,,https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/,https://techcrunch.com/feed/,2026-07-30T17:50:11Z,8,Tech
+Spotify launches ‘User notes’ to let users add memories to songs,"Spotify says the new feature is designed to let users add personal captions to their favorite songs, such as noting why a track was added to a playlist or when they first discovered it",,https://techcrunch.com/2026/07/30/spotify-launches-user-notes-to-let-users-add-memories-to-songs/,https://techcrunch.com/feed/,2026-07-30T17:41:25Z,0,Tech
+Space Force-backed mission does its best impression of Top Gun in orbit,&#34;Dogfighting in space doesn’t quite have the drama of an aerial dogfight.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/victus_1.jpg,https://arstechnica.com/space/2026/07/space-force-backed-mission-does-its-best-impression-of-top-gun-in-orbit/,https://arstechnica.com/feed/,2026-07-30T17:35:57Z,0,Tech
+NASA’s Curiosity rover found a ‘sea of polygons’ on Mars,"The latest discovery from NASA&#39;s Curiosity Mars rover is a field of honeycomb-shaped polygons covering a Martian valley called Valle Grande. As Gizmodo reports, Curiosity has snapped pictures of the unusual terrain texture before, called polygonal fractures, each about 1.5 to 3 inches wide, but NASA says it&#39;s previously only found them in small patches, […]",,https://www.theverge.com/science/973314/nasa-curiosity-rover-mars-polygons,https://www.theverge.com/rss/index.xml,2026-07-30T17:20:06Z,6,Tech
+Google DeepMind’s new AI model can control a robot’s entire body,"Google DeepMind says the latest version of its Gemini Robotics AI model can &#34;control entire humanoid robots.&#34; While the previous model focused on controlling a humanoid robot&#39;s upper body, Gemini Robotics 2 now supports &#34;whole-body motions&#34; ranging from its feet to fingertips, according to an announcement on Thursday. The new model will allow humanoid robots […]",,https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body,https://www.theverge.com/rss/index.xml,2026-07-30T17:18:45Z,9,Tech
+ABC demands FCC drop its ‘punitive’ early license renewal of its stations,"ABC filed its formal opposition to the Federal Communications Commission&#39;s effort to force it to submit to an early renewal of its broadcast station licenses, calling it an effort to chill the speech of broadcasters across the country. In a new filing with the FCC, ABC charges that the agency&#39;s willingness to pursue the early […]",,https://www.theverge.com/policy/973289/abc-fcc-early-license-renewal-opposition,https://www.theverge.com/rss/index.xml,2026-07-30T17:08:14Z,0,Tech
+Google is working on Chrome updates that don’t require restarts,"Google is working on a way to apply Chrome updates without requiring you to restart your browser. In a post on Thursday, Google outlines its approach to bug fixes in the age of AI, while noting that it&#39;s trying to make updates less disruptive by &#34;investing in &#39;dynamic patching&#39; that will eliminate the need for […]",,https://www.theverge.com/tech/973174/google-chrome-update-no-restart,https://www.theverge.com/rss/index.xml,2026-07-30T17:00:00Z,7,Tech
+Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting,"The two Chrome updates in June patched more bugs than the 23 updates before them. Now, Google is ramping up its patching schedule thanks to AI-assisted vulnerability discovery.",,https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/,https://www.wired.com/feed/category/security/latest/rss,2026-07-30T17:00:00Z,4,Cybersecurity
+"Google says AI helped Chrome fix 1,072 security bugs in two releases","Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser&#39;s two most recent releases as it expands its use of AI. [...]",,https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/,https://www.bleepingcomputer.com/feed/,2026-07-30T17:00:00Z,2,Cybersecurity
+Pixel 11 Pro Fold design leaks ahead of Google launch event,"Weeks ahead of Google&#39;s next Pixel hardware event, Leaker Evan Blass has shared what appear to be marketing renders of the unannounced Google Pixel 11 Pro Fold in a post on his Substack. The renders, if accurate, show that the new foldable will look fairly similar to last year&#39;s model - it has a tall […]",,https://www.theverge.com/tech/973249/pixel-11-pro-fold-buds-watch-leaks-google-launch-event,https://www.theverge.com/rss/index.xml,2026-07-30T16:57:39Z,7,Tech
+"ShinyHunters claims Brinks Home breach, threatens to leak stolen data",Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...],,https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/,https://www.bleepingcomputer.com/feed/,2026-07-30T16:46:15Z,8,Cybersecurity
+"Friend re-launches its AI pendant with a speaker that talks to you, for twice the price","Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn&#39;t remember, Friend is back. And now, it&#39;s twice the price. This morning, Friend launched a new ad showing two […]",,https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price,https://www.theverge.com/rss/index.xml,2026-07-30T16:33:32Z,5,Tech
+Okta buys AI security startup Permiso; source says for about $200M,The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.,,https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/,https://techcrunch.com/feed/,2026-07-30T16:09:42Z,11,Tech
+Tesla made its 10 millionth EV,The milestone means Tesla is halfway to accomplishing one of the four core product goals Elon Musk has to hit to unlock his full $1 trillion pay package.,,https://techcrunch.com/2026/07/30/tesla-made-its-10-millionth-ev/,https://techcrunch.com/feed/,2026-07-30T16:00:25Z,0,Tech
+"If a quantum computer outperforms normal ones, can you tell if it's right?",Three approaches to the issue of quantum results that can&#39;t be verified classically.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-4-1152x648.png,https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/,https://arstechnica.com/feed/,2026-07-30T15:59:37Z,1,Tech
+Microsoft Teams vishing attacks lead to Chaos ransomware attacks,Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...],,https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/,https://www.bleepingcomputer.com/feed/,2026-07-30T15:56:33Z,14,Cybersecurity
+The Pulse: Quitting Spotify Podcasts over reliability,"Spotify’s podcast platform has become chronically unreliable since the company’s leadership started boasting about AI adoption. Competitors haven’t had similar issues, so I offboarded from Spotify.","https://substackcdn.com/image/fetch/$s_!dFJF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8041085f-fc43-4b61-9e99-47d7e11e5a84_1752x1058.png",https://blog.pragmaticengineer.com/the-pulse-quitting-spotify-podcasts-over-reliability/,https://blog.pragmaticengineer.com/rss/,2026-07-30T15:51:38Z,5,Tech
+Best Buy is selling an RTX 5080 for more than the RTX 5090’s MSRP,"Best Buy has raised the price of the Asus ROG Astral RTX 5080 OC to $2,099 - the first time a major US retailer is directly selling an RTX 5080 for more than the $1,999 MSRP of the RTX 5090, VideoCardz reports. The ROG Astral RTX 5080 OC now costs 40 percent more than its […]",,https://www.theverge.com/games/973173/asus-rog-rtx-5080-price-hike-best-buy,https://www.theverge.com/rss/index.xml,2026-07-30T15:48:10Z,5,Tech
+Timeless Compliance: Why Better Questions Beat Bigger Frameworks,"The best compliance programs aren&#39;t the biggest ones. They&#39;re the ones built on a short list of questions that can actually be answered, and that still hold true when the models change.
+The post Timeless Compliance: Why Better Questions Beat Bigger Frameworks appeared first on SecurityWeek.
+",,https://www.securityweek.com/timeless-compliance-why-better-questions-beat-bigger-frameworks/,https://www.securityweek.com/feed/,2026-07-30T15:46:17Z,2,Cybersecurity
+When will fusion power startup Commonwealth Fusion Systems go public?,There are fresh signs that fusion power startup Commonwealth Fusion Systems will list in the next two to three years.,,https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/,https://techcrunch.com/feed/,2026-07-30T15:45:36Z,3,Tech
+Meta says AI is making it easier to build new apps — and more are coming,"Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way following a recent wave of releases for Facebook Groups, Marketplace sellers, Instagram, and gaming.",,https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/,https://techcrunch.com/feed/,2026-07-30T15:41:16Z,6,Tech
+Netflix lands global streaming deal for ‘The Walking Dead’,Netflix just signed a massive new licensing agreement worth $500 million to bring The Walking Dead Universe to international markets. ,,https://techcrunch.com/2026/07/30/netflix-lands-global-streaming-deal-for-the-walking-dead/,https://techcrunch.com/feed/,2026-07-30T15:27:08Z,0,Tech
+"ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories","A lot of security still comes down to trusting the wrong screen.
+
+This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been harder.
+
+Some defenses improved. The loose parts still got found first. Anyway,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNfPEjoHY1NDIrmCVPaZ_dmWbOk0MZwMlh6Odxpqfchn-5rOvsj4PhaBZs4LJvoj5iXhgbBTZzKCNYOPbblXU6kSnVNxEfQER6bNIuhROsSBTrhS6P_mPySTbAS5CvbYgu7lOANl0C6YuLR92om_sS_-9skmNqYT4BDmy_07cTMVj75vUUES70gPicrgGW/s1600/threatsday.jpg,https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T15:25:57Z,10,Cybersecurity
+Nscale buys Anyscale as it seeks to own more of the AI compute stack,"British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",,https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/,https://techcrunch.com/feed/,2026-07-30T15:19:15Z,12,Tech
+Fusion power darling Commonwealth Fusion Systems raises another $1B,Commonwealth Fusion Systems raised $1 billion as the startup moves toward its first commercial fusion power plant.,,https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/,https://techcrunch.com/feed/,2026-07-30T15:17:39Z,8,Tech
+"Analog Devices discloses data breach, says operations unaffected",American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...],,https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/,https://www.bleepingcomputer.com/feed/,2026-07-30T15:12:25Z,4,Cybersecurity
+Xiaomi’s SkyNomad N90 Max is an extended-range EV with a transforming interior,"The SkyNomad N90 Max is the latest electric SUV from Xiaomi and its first extended-range EV, with a claimed range of over 1,705 km (about 1,059 miles). It will come in both five- and seven-seat configurations, as well as an N90 Max Camping Edition. One of the big features of the N90 is its highly […]",,https://www.theverge.com/tech/973053/xiaomi-skynomad-n90-max-extended-range-electric-suv,https://www.theverge.com/rss/index.xml,2026-07-30T15:05:09Z,5,Tech
+Razer’s new keyboards drop the price on powerful gaming features,"Razer has insisted that optical keyboard switches are the best choice for competitive esports stars and the sweatiest of try-hards, but it&#39;s now relenting slightly by offering cheaper keyboards with magnetic switches and a similar array of gaming features. The $120 Razer Huntsman V3 HE Magnetic Mini and $140 Huntsman V3 HE Magnetic Tenkeyless, both […]",,https://www.theverge.com/tech/973027/razer-huntsman-v3-he-magnetic-mechanical-keyboard-snap-tap-price-impressions,https://www.theverge.com/rss/index.xml,2026-07-30T15:00:00Z,0,Tech
+Forward-deployed engineers are the AI industry’s latest talent obsession,"A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",,https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/,https://techcrunch.com/feed/,2026-07-30T15:00:00Z,5,Tech
+"With a stateless makeover, new MCP spec targets enterprise scale","Plus, a new deprecation policy ensures features aren&#39;t removed suddenly.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/MCP-logo-1152x648.jpg,https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/,https://arstechnica.com/feed/,2026-07-30T14:53:07Z,0,Tech
+"In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable","Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against HuggingFace has nothing to do with AI, but traditional cybersecurity defense. ",,https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/,https://techcrunch.com/feed/,2026-07-30T14:48:32Z,5,Tech
+Zoox can now charge for rides in its steering-wheel-free robotaxis,"Zoox just got permission to charge for robotaxi rides in its boxy, steering-wheel-less vehicles. On Thursday, the National Highway Traffic Safety Administration announced it has granted the Amazon-owned Zoox a temporary exemption, allowing it to deploy up to 2,500 vehicles annually over the next two years, as reported earlier by Reuters. The NHTSA&#39;s decision exempts […]",,https://www.theverge.com/transportation/973099/zoox-amazon-nhtsa-robotaxi-approval,https://www.theverge.com/rss/index.xml,2026-07-30T14:35:43Z,0,Tech
+Microsoft’s latest Surface Laptop is hundreds off at Best Buy,"If you’re keen on getting a laptop that looks fantastic, feels great to use, and doesn’t cost too much, well, pickings are slim right due to RAMageddon. However, there’s a good deal happening at Best Buy through Thursday, July 30th, on Microsoft’s Arm-based, 13.8-inch Surface Laptop that has the 10-core Snapdragon X2 Plus chipset. Originally […]",,https://www.theverge.com/gadgets/973056/surface-laptop-16gb-ram-microsd-express-switch-2-lego-game-boy-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-30T14:22:20Z,1,Tech
+After the Break-In: What Attackers Do Once They're Already Inside,"Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable defenses, and reshape compromised systems, and why defenders must investigate the original entry point rather than simply remove the malware. [...]",,https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/,https://www.bleepingcomputer.com/feed/,2026-07-30T14:01:11Z,9,Cybersecurity
+DataBahn Raises $40 Million for Agentic Data Pipeline Management,"The company will accelerate investments in R&amp;D and product innovation to expand its agentic data control plane.
+The post DataBahn Raises $40 Million for Agentic Data Pipeline Management appeared first on SecurityWeek.
+",,https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/,https://www.securityweek.com/feed/,2026-07-30T14:00:00Z,2,Cybersecurity
+"TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come","The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade. ",,https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/,https://techcrunch.com/feed/,2026-07-30T14:00:00Z,1,Tech
+Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database,"A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service&#39;s Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.
+
+Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_dFT-y76kGOf4rFOAu6NYNsE2s57G-7dl0a03tULY-f2ZGTbpPeEvu-NUCLVh-bgEdBvecIt28BJLQXUHclBc_IfGP9tBSZyMIm971Myrp2_zhSPyXhCJkhYmSfvLWNRewSsCip2YJfBEWocEEKdXPUL-y_mK8ZcHbBAaTWt8SzXmDJeQoYc6r5ceC6A/s1600/wiz-cosmodb.jpg,https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T13:34:09Z,11,Cybersecurity
+FTC sues Hims & Hers for allegedly sharing patients’ medical data with advertisers Meta and Snap,"The U.S. federal consumer watchdog said Hims &amp; Hers, which prescribes for sexual wellness and mental health conditions, used website trackers to share customers&#39; information with advertisers.",,https://techcrunch.com/2026/07/30/ftc-sues-hims-hers-for-allegedly-sharing-patients-medical-data-with-advertisers-meta-and-snap/,https://techcrunch.com/feed/,2026-07-30T13:30:52Z,5,Tech
+Zoox clears final federal hurdle to launch paid robotaxi service,Federal safety regulators have given Zoox a temporary exemption that will allow the Amazon-owned autonomous vehicle technology company to charge customers for rides in its custom-built robotaxi.,,https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service/,https://techcrunch.com/feed/,2026-07-30T13:09:03Z,5,Tech
+Discern Security Raises $13 Million in Series A Funding,"The company will invest in accelerating the development and adoption of its agentic platform.
+The post Discern Security Raises $13 Million in Series A Funding appeared first on SecurityWeek.
+",,https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/,https://www.securityweek.com/feed/,2026-07-30T13:00:00Z,1,Cybersecurity
+Dili raises $21.7 million to bring AI compliance to the infrastructure boom,"The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan. ",,https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/,https://techcrunch.com/feed/,2026-07-30T13:00:00Z,5,Tech
+Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks,London-based Inforcer just closed a $50 million Series C round led by Insight Partners.,,https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks/,https://techcrunch.com/feed/,2026-07-30T13:00:00Z,5,Tech
+AI agents gain access to financial workflows amid growing governance gaps,"
+		
+					  
+						
+
+
+
+
+AI agents are now being allowed to create business records, approve transactions, and execute financial workflows. ERP security firm Pathlock says most organizations don’t know if that is all they are doing.
+
+
+
+The company’s 2026 AI Governance Gap Report found that 79% of organizations do not have a dedicated AI governance team, despite AI agents being increasingly plugged into business-critical operations like finance, procurement, HR, and supply chain applications.
+
+
+
+More than half of the organizations surveyed by Pathlock said they can’t fully verify actions AI agents execute across these business systems.
+
+
+
+“For decades, governance focused on controlling who could access a system,” said Susan Stapleton, GRC expert at Pathlock. “AI agents introduce a different challenge: understanding what actually happened after access was granted.” Being able to verify, trace, investigate, and explain AI-driven actions in real time across business applications will determine an organization’s AI preparedness, she added.
+
+
+
+Agents moving from copilots to financial operators
+
+
+
+The survey suggested enterprises are already trusting AI agents with responsibilities that until recently belonged exclusively to employees.
+
+
+
+Among surveyed respondents, 38% said AI agents can create or modify vendors and other business records, 35% allow them to execute cross-system workflows, and 28% permit them to approve transactions. More than one-third (36%) have already deployed, or are actively implementing, AI agents within finance and accounting environments.
+
+
+
+Most notably, about one in four organizations allow AI agents direct access to backend databases, Pathlock said in a report that CSO reviewed ahead of its publication.
+
+
+
+Chris Radkowski, another GRC expert at Pathlock, said three trends are converging simultaneously: the growth of machine identities, increasingly interconnected enterprise applications, and AI agents capable of executing business processes autonomously.
+
+
+
+The findings illustrate why machine identities are becoming a problem for security, said Crystal Morin, senior cybersecurity strategist at Sysdig. “As automation and AI-driven development explode, the gap between human and machine identities is becoming one of the defining security challenges of our time,” Morin said. “Businesses must treat machine identities as the new firewall.”
+
+
+
+Governance is still catching up
+
+
+
+While enterprises have begun introducing governance controls, the report argues most remain rooted in human-centric security models that focus on who receives access rather than what autonomous systems actually do after access is granted.
+
+
+
+Only 19% of organizations said they have complete, real-time visibility into AI agent activity across business systems, while 53% admitted they cannot fully verify AI-driven actions. Nearly half (48%) cannot trace AI activity end-to-end across multiple systems, making it difficult to reconstruct how an AI-driven outcome was produced.
+
+
+
+Investigation capabilities remain equally immature. Just 13% can investigate AI incidents in real time, while 22% cannot reliably investigate AI-driven actions at all.
+
+
+
+Ram Varadarajan, CEO at Acalvio, said traditional security approaches are unlikely to help. “General-purpose AI and traditional ‘check-the-box’ security audits are a false comfort when the actual battle is moving in milliseconds,” he said. “To maintain competitive edge and protect valuation, companies have to pivot from reactive defense to active, game-theoretic defense.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203384-0-80321100-1785416537-shutterstock_2438190465.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203384/ai-agents-gain-access-to-financial-workflows-amid-growing-governance-gaps.html,https://www.csoonline.com/feed/,2026-07-30T13:00:00Z,3,Cybersecurity
+Spotify Running Mode helps match tunes to tempo,"Spotify has introduced a new Running Mode feature that makes it easier to curate playlists around your workout goals, music tastes, and desired beats per minute (BPM). The aim is to help you &#34;spend less time hunting for the right music and more time moving,&#34; according to Spotify&#39;s announcement, providing customizable running presets and optional […]",,https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists,https://www.theverge.com/rss/index.xml,2026-07-30T13:00:00Z,5,Tech
+Cantina Emerges From Stealth With $8 Million in Funding,"The startup’s community-powered agentic security platform helps proactively identify, prioritize, and remediate vulnerabilities.
+The post Cantina Emerges From Stealth With $8 Million in Funding appeared first on SecurityWeek.
+",,https://www.securityweek.com/cantina-emerges-from-stealth-with-8-million-in-funding/,https://www.securityweek.com/feed/,2026-07-30T13:00:00Z,1,Cybersecurity
+Spotify adds a running mode to its app,Running Mode will be available to Premium users on iOS in select countries,,https://techcrunch.com/2026/07/30/spotify-adds-a-running-mode-to-its-app/,https://techcrunch.com/feed/,2026-07-30T13:00:00Z,6,Tech
+Amazon’s short story collections are one of the best reasons to own a Kindle,"Over the last few years, I&#39;ve gradually shifted away from ebooks. It&#39;s been part of a general return to physical media, an attempt to create a deeper sense of ownership over the art I love and collect. A Kindle is obviously more convenient than a paperback: It&#39;s tiny, holds a huge library, and you can […]",,https://www.theverge.com/tech/972612/amazons-kindle-short-stories,https://www.theverge.com/rss/index.xml,2026-07-30T12:30:00Z,0,Tech
+Critical Ruflo flaw lets attackers hijack AI agents through exposed MCP bridge,"
+		
+					  
+						
+
+
+
+
+A critical vulnerability in the open-source AI agent platform Ruflo could allow unauthenticated attackers to take control of enterprise AI environments by exploiting an exposed Model Context Protocol (MCP) bridge, according to research published by Noma Security.
+
+
+
+The flaw, tracked as CVE-2026-59726 and dubbed RufRoot, carries a maximum CVSS score of 10.0 and affects Ruflo versions prior to 3.16.3, Noma Security wrote in a blog post.
+
+
+
+The vulnerability allows attackers to execute arbitrary code, steal large language model (LLM) API keys, access user conversations, hijack AI agents, and manipulate the platform’s persistent AI memory through a single HTTP request.
+
+
+
+The researchers said the issue stems from an unauthenticated MCP Bridge that is exposed by default and provides direct access to the tools AI agents use to interact with enterprise systems.
+
+
+
+“The MCP Bridge isn’t a random auxiliary debug interface; rather, it is Ruflo’s central nervous system. Every tool call, every agent action, every memory operation goes through the MCP bridge,” the researchers wrote. “Mistakenly giving unauthenticated access to the MCP Bridge means giving unauthenticated access to everything.”
+
+
+
+One request leads to full compromise
+
+
+
+According to Noma Security, Ruflo’s built-in MCP Bridge is an Express.js server that handles every tool invocation made by AI agents. The bridge exposes 233 tools covering shell access, database operations, agent management, and memory storage.
+
+
+
+The researchers said the bridge’s /mcp endpoint accepts tool invocations without authentication. In a proof-of-concept demonstration, they used Ruflo’s terminal_execute tool to obtain command execution inside the container with a single HTTP request.
+
+
+
+“Because the MCP Bridge requires direct access to the underlying system resources to execute these commands, it creates a high-stakes security boundary,” the researchers wrote. “When an attacker can reach this endpoint without authentication, they gain a direct pipeline to the underlying host infrastructure.”
+
+
+
+The researchers said they were able to enumerate available tools, steal LLM provider API keys from environment variables, deploy attacker-controlled AI agent swarms, retrieve user conversations stored in MongoDB, and establish persistence.
+
+
+
+The researchers also demonstrated what they described as AI memory poisoning by inserting malicious entries into Ruflo’s AgentDB pattern store, allowing future AI responses to incorporate attacker-controlled instructions.
+
+
+
+Every stage of the attack chain was validated against a default Ruflo deployment running on AWS EC2, according to the researchers.
+
+
+
+Beyond Ruflo: A broader MCP security challenge
+
+
+
+While the authentication flaw is specific to Ruflo, security practitioners say the research highlights broader risks surrounding AI orchestration platforms and MCP infrastructure.
+
+
+
+“MCP adoption has outpaced the security defaults built into a lot of orchestration tools,” said Amit Jena, AI Development Manager at Kanerika. “These platforms shipped fast, prioritized ease of setup over authentication, and assumed the network boundary would protect them. That assumption breaks down once the tool sits on a server reachable from a corporate network, which is increasingly where enterprises are running them.”
+
+
+
+Jena said the research also points to a security concern that extends beyond a single product.
+
+
+
+“The memory poisoning problem isn’t product-specific, and that’s the part worth paying attention to,” he said. “Any platform that gives agents a persistent, writable memory store needs to treat that store as a security boundary: who can write to it, and can you tell system-generated memory from memory an attacker planted. Very few platforms are doing that today.”
+
+
+
+He added that, unlike traditional persistence techniques, poisoned AI memory can remain inside a trusted data store and continue influencing future agent behavior after the original intrusion has ended.
+
+
+
+Patch addresses attack chain
+
+
+
+Noma Security said it disclosed the vulnerability responsibly to Ruflo, which released fixes within hours along with a public security advisory.
+
+
+
+According to the researchers, the updated release changes the MCP Bridge to bind to the loopback interface by default and fail closed if administrators attempt to expose it publicly without configuring authentication.
+
+
+
+Noma Security also urged organizations running Ruflo to immediately close firewall access to ports 3001 and 27017, rotate all LLM API keys, audit AgentDB for malicious entries because “a patched redeploy alone doesn’t undo poisoning,” and inspect MongoDB for signs of tampering.
+
+
+
+Jena said organizations should also review how AI orchestration platforms are deployed and managed.
+
+
+
+“If a component can execute a shell command or query a database, it gets the same authentication, network segmentation, and logging as any other privileged system in the environment,” he said. He also recommended that security teams inventory the tools exposed through AI agent deployments, audit persistent AI memory separately from software patching, and narrowly scope and rotate LLM provider credentials following any suspected exposure.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203408-0-32305700-1785414613-shutterstock_2471042165.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203408/critical-ruflo-flaw-lets-attackers-hijack-ai-agents-through-exposed-mcp-bridge.html,https://www.csoonline.com/feed/,2026-07-30T12:29:58Z,21,Cybersecurity
+Onyx Security Raises $113 Million to Control AI Agents in the Enterprise,"The Series B funding round brings the total raised by Onyx Security to $153 million. 
+The post Onyx Security Raises $113 Million to Control AI Agents in the Enterprise appeared first on SecurityWeek.
+",,https://www.securityweek.com/onyx-security-raises-113-million-to-control-ai-agents-in-the-enterprise/,https://www.securityweek.com/feed/,2026-07-30T12:29:03Z,1,Cybersecurity
+‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale,"Researchers warn that AI could turn dangling DNS takeovers into a nation-state weapon capable of disrupting governments, banks and global supply chains.
+The post ‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale appeared first on SecurityWeek.
+",,https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/,https://www.securityweek.com/feed/,2026-07-30T12:15:24Z,1,Cybersecurity
+A second lens makes DJI’s Osmo Pocket 4P my new favorite video camera,"DJI&#39;s Osmo Pocket 4P is a pretty simple proposition: an Osmo Pocket 4 with a second camera lens slapped inside. But is that extra lens worth the added size, weight, and cost relative to the regular Pocket 4? And how does it compare to the only rival on the market, Insta360&#39;s dual-lens Luna Ultra? It […]",,https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review,https://www.theverge.com/rss/index.xml,2026-07-30T12:00:00Z,1,Tech
+Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents,"Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
+
+In his proof of concept, the internally generated file triggered the same behavior when it was used in a second Copilot drafting session.
+
+Måløy&#39;s",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-BgxoTGLqXYzQh4HW0TUm-hbX0ApFizzFtFkKe5mb3fKS_yn6Zzpj_Uvivxi7VCwEUOuJx3Bg1XHpHWq9tbZh5xBrAHT4gBG2DYyqvFkVKmWIRiF_zCpXIG5bTs7HfsV1pjM2EsTm-e7WttN-iB57p0n4ki2Vs7vXyB6rTF9mSqlwPu3h7KHocg0mWcI/s1600/copilot-word.jpg,https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T11:54:49Z,0,Cybersecurity
+The Network Has Become the Control Plane for AI Security,"Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect to applications, applications exchange data, and security tools inspect packets, protocols, and destinations. Firewalls",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCMiEYFcCrvL7s-o_ZApEbF6gP4J5FpWseBSQN2iP5bBIXP51mVR8QDnUmxDHBrMr0ta6ucsouVsVnWg8mGPeRvwkx09PCddi0pWLYzOpeA7NnrKUaeVhypXKK9rBJSfminUSBH9cz4YTelqUFMU-VZU2G-mkKFhb1pMQsGcAqtuT4btXzbbgb4pD1Mdfi/s1600/checkpoint-main.jpg,https://thehackernews.com/2026/07/the-network-has-become-control-plane.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T11:32:46Z,6,Cybersecurity
+Semiconductor Firm Analog Devices Discloses Data Breach,"Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files.
+The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/,https://www.securityweek.com/feed/,2026-07-30T11:16:23Z,5,Cybersecurity
+Russian hackers turn Exchange flaw into ‘half-click’ mailbox takeover,"
+		
+					  
+						
+
+
+
+
+A Russia-aligned threat group used a “half-click” exploit against Microsoft Exchange’s Outlook Web Access to install a browser-based backdoor when recipients opened specially crafted emails.
+
+
+
+The campaign began on July 22 and was conducted by TA488, which is also tracked as Void Blizzard and Laundry Bear, according to a report from the cybersecurity firm Proofpoint.
+
+
+
+The attacks targeted government organizations in the US and Europe, as well as companies in the telecommunications, financial, hospitality, and aerospace sectors. Proofpoint did not name the targeted organizations or say how many attacks resulted in successful compromises.
+
+
+
+The attackers exploited CVE-2026-42897, a cross-site scripting vulnerability caused by inadequate sanitization of HTML in email bodies. A recipient did not have to click a link or open an attachment. Viewing a crafted message in OWA allowed malicious JavaScript to execute inside the browser.
+
+
+
+Microsoft has previously said the flaw affects all update levels of Exchange Server 2016 and 2019, as well as Exchange Server Subscription Edition, while Exchange Online is not affected. The company disclosed the vulnerability on May 14 and issued an emergency mitigation before releasing a code fix in June. Microsoft later said customers who installed its July 2026 Exchange security update could remove the earlier mitigation.
+
+
+
+Proofpoint found that infrastructure associated with the campaign had been created in March, before Microsoft disclosed the vulnerability. The company said the timeline made it feasible that TA488 had used the flaw as a zero-day, although it did not confirm that such exploitation occurred.
+
+
+
+“TA488 used intentionally vague message lures with no call-to-action for the targeted user,” Proofpoint said. The messages resembled routine informational updates, including material on supply chains and market indicators. Opening one in OWA triggered OWAReaper, a previously undocumented JavaScript implant that runs inside the reading pane.
+
+
+
+OWAReaper removes the exploit code from the message stored on the Exchange server after execution, reducing the evidence visible to users and investigators. It can collect account information and attempt to capture credentials entered through browser autofill.
+
+
+
+If OWAReaper finds an Outlook add-in with ReadWriteMailbox permissions, it can use the add-in to obtain an OAuth token and grant owner-level access to Exchange’s built-in “Default” identity. This could allow an attacker controlling another authenticated account in the organization to continue accessing the victim’s mail folders.
+
+
+
+Because those permissions are stored on the Exchange server, changing the victim’s password or rebuilding the endpoint would not remove them.
+
+
+
+Mailbox persistence
+
+
+
+OWAReaper shifts incident response beyond the affected device because the attacker can establish persistence within Exchange itself, said Sakshi Grover, senior research manager for IDC Asia Pacific Cybersecurity Services.
+
+
+
+“The most important shift is where the attacker establishes persistence,” she said.
+
+
+
+Organizations should treat the compromise as a server-side identity incident rather than only an infected endpoint or stolen password, said Keith Prabhu, founder and CEO of Confidis.
+
+
+
+“The normal incident response is usually to reset the password, revoke tokens, and reimage the endpoint,” Prabhu said. “This may no longer be sufficient.”
+
+
+
+Detection blind spots
+
+
+
+Security tools focused on endpoint files or processes may fail to identify an implant operating inside the OWA browser session, Prabhu said.
+
+
+
+“Traditional email-security controls may also struggle because the delivery emails contain no obvious malicious attachment or conventional phishing link,” Grover said.
+
+
+
+Because OWAReaper operates within an authenticated OWA session and can abuse legitimate mailbox functions, individual events may not appear malicious when examined in isolation.
+
+
+
+Detecting the threat requires cross-layer correlation, Prabhu said. He recommended starting with users that opened suspicious OWA messages, then reviewing subsequent mailbox-permission changes, add-in activity, and OAuth events. Investigators should also examine browser-storage artifacts and related network metadata.
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203349-0-89023400-1785408317-shutterstock_2108335628.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203349/russian-hackers-turn-exchange-flaw-into-half-click-mailbox-takeover.html,https://www.csoonline.com/feed/,2026-07-30T10:45:02Z,23,Cybersecurity
+Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts,"South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE backdoors.
+
+A compromised page could infect a system running a vulnerable AnySign4PC version without a prompt or",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGU7u7ESWcaN4Xy7bCwiH5yVHsr1vMjqCu05UKJ7c4tsJ4gSRsQXwg-WOe69VD1dLiRuf9FC3HTcjp1ia1NZPPg85MUmHz2TCOplJKSC002w7OMu0X9KWtXTN0MljVt88tQlfABhP7p4pnndpOJoplI5fnqheI8LZwBp623A6gx1HyurT4ZBHRSSils1g/s1600/south-korea.jpg,https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T10:33:15Z,7,Cybersecurity
+SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT,"The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent remote access.
+
+&#34;In this campaign, the group combines new vulnerable-driver abuse, newly observed abuse of legitimate",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzKpx1jDG3j0UsS5Ova8qJWV4gmJcez4M7iowp3M10Tvnvl1toUDwWI1igPQ_XK4-7IIuFXf7cTiKZ9QIRFco8PWFC4mRzBwGz81-8Ix95ujv3bVhshhFEAwjCNJR14ezza7kiAIalG3MjMQPPhH6rQP4lcZS4o1Vw9dO7ErrFmCvlrrd0ATiakQ_LeENQ/s1600/drivers.jpg,https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T10:32:59Z,3,Cybersecurity
+SwitchBot makes a better fan,"I was already a big fan of SwitchBot&#39;s big circulator fan I recently reviewed, and now we&#39;re getting the SwitchBot Battery Circulator Fan 2 Pro. Priced at $119.99, it ditches the height-adjustable stand but increases battery life, throw distance, and wind speed while adding native Matter-over-Wi-Fi, allowing it to join your smart home without needing […]",,https://www.theverge.com/tech/972986/switchbot-makes-a-better-fan,https://www.theverge.com/rss/index.xml,2026-07-30T10:30:55Z,1,Tech
+OpenAI’s Hacking Debacle Was a Human Mistake,"If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple companies.",,https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/,https://www.wired.com/feed/category/security/latest/rss,2026-07-30T10:30:00Z,1,Cybersecurity
+A Civilian Plane Crashed in New Mexico. Was the Military’s Tech to Blame?,"Drone warfare is making the skies more dangerous, even for airplanes far from the battlefield.",,https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/,https://www.wired.com/feed/category/security/latest/rss,2026-07-30T10:00:00Z,0,Cybersecurity
+Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms,"Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container.
+The post Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms  appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/,https://www.securityweek.com/feed/,2026-07-30T09:56:10Z,4,Cybersecurity
+AI Scammers Are Better at Building Trust Than Humans,"Researchers pitted a person against a Claude agent and found that, after a week of texting, the AI chatbot was more effective at creating “exploitable trust” with others.",,https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/,https://www.wired.com/feed/category/security/latest/rss,2026-07-30T09:30:00Z,3,Cybersecurity
+1 in 5 Data Center Assets Are Within Easy Reach of Attackers,"Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities.
+The post 1 in 5 Data Center Assets Are Within Easy Reach of Attackers appeared first on SecurityWeek.
+",,https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers/,https://www.securityweek.com/feed/,2026-07-30T09:28:37Z,5,Cybersecurity
+A Scattered Spider member was indicted. Microsoft’s GDID went to trial.,"
+		
+					  
+						
+
+
+
+
+A recently released criminal complaint against Peter Stokes, an alleged member of the Scattered Spider cybercrime group, reveals previously unpublicized details about Windows telemetry.
+
+
+
+Microsoft has never exactly had a reputation for being privacy-focused, however the complaint reveals the important part played by Microsoft’s Global Device Identifier (GDID), a persistent identifier tied to a Windows installation, in the case.
+
+
+
+GDID enabled investigators to correlate the suspect’s Windows installation with ngrok signup activity and other telemetry. But security experts and lawyers tell CSO that GDID was only one piece of evidence in a broader correlation chain involving provider records, IP history, and other account logs that helped investigators identify Stokes as a suspect in a May 2025 attack on a luxury jewelry retailer.
+
+
+
+“Microsoft wasn’t watching ngrok; it was watching the device, and investigators connected the dots,” says Dray Agha, senior manager of security operations at managed detection and response firm Huntress.
+
+
+
+Still, the indictment stirred many questions from the broader technology community and privacy advocates regarding Microsoft’s data collection practices around the little-known and scantly documented GDID.
+
+
+
+GDID: Link in a chain of evidence or smoking gun?
+
+
+
+GDID is a unique identifier that is automatically assigned and linked to a single Windows installation and remains consistent across Windows updates, although reinstalling Windows creates a new GDID. The ID is sent to Microsoft servers as part of telemetry capture for various Microsoft-related services and apps, some of which are bundled within Windows.
+
+
+
+According to the indictment, Microsoft records showed that the Windows device linked to Stokes’ GDID visited a signup page for ngrok, a service used to securely expose local development servers to the internet. The records also reportedly showed that the Windows device associated with Stokes’ GDID accessed websites through Tzulo proxy servers and later visited the victim company’s website.
+
+
+
+The details of this activity reportedly collected by Microsoft and linked to Stokes’ Windows device raised significant concerns among Windows users and the data privacy community alike.
+
+
+
+But as Benson Varghese, a board-certified criminal lawyer at US law firm Varghese Summersett, notes, the criminal complaint is a probable-cause document rather than a technical audit trail.
+
+
+
+“The phrase ‘Microsoft records’ may compress several different data sources into one sentence,” Varghese tells CSO. “It does not necessarily mean Windows itself was logging every website visited in every browser, but it does suggest investigators obtained records tied to a persistent device identifier and then linked that identifier to activity involving third-party services.”
+
+
+
+Everett Lupton, a criminal attorney at US law firm Slaughter &amp; Lupton, also notes the technically ambiguous nature of the indictment.
+
+
+
+“The criminal complaint, however, does not provide enough technical detail to explain exactly how these records were generated or which Microsoft product collected them,” Lupton tells CSO. “It is unclear whether Microsoft captured the full web addresses through Edge, Microsoft Defender SmartScreen, another security service, or another Microsoft product.”
+
+
+
+Lupton continues: “It is also possible that Microsoft did not hold a complete browsing history. Investigators could instead have correlated Microsoft device, timestamp, and IP records with separate records obtained from ngrok and Tzulo. This is not clear from the wording of the complaint.”
+
+
+
+If the records came from Edge, SmartScreen, Defender, Microsoft account services, crash reporting, or another Microsoft component, the privacy and legal implications raised around GDID change from persistent retention of activity associated with an individual user to those that arise from correlating disparate sources of information.
+
+
+
+“If Microsoft merely had timestamps, IP addresses, device identifiers, or security telemetry that prosecutors later correlated with ngrok and Tzulo logs, that is different from Microsoft retaining browsing history,” according to Varghese. “The complaint language is too thin to answer that confidently.”
+
+
+
+As far as Huntress’ Agha can tell, investigators “likely correlated subpoenaed access logs from ngrok and Tzulo with standard Windows telemetry.”
+
+
+
+“The indictment makes it sound like one neat database, but in reality, investigators stitched disparate data sources together after the fact,” he says.
+
+
+
+Privacy has its limits
+
+
+
+The case highlights the privacy limitations of privacy-enhancing technologies such as virtual private networks (VPNs) and Tor, which serve to hide the source and destination of internet traffic through the use of proxies and relays.
+
+
+
+“Tools like Tor and VPNs mask IP addresses, but persistent identifiers like the GDID are baked into the OS itself,” Agha explains. “If a device routinely ‘phones home’ to Microsoft for updates or syncing while connected to a proxy, it broadcasts its unique ID from that masked IP.”
+
+
+
+Agha adds: “This effectively tags the proxy with a known device, stripping away the anonymity the privacy tool was supposed to provide; operational security often stops at the network layer.”
+
+
+
+Varghese adds: “This case shows why endpoint telemetry is often more valuable to investigators than network logs. If data was collected before anyone knew the suspect’s name, privacy tools used later may not matter much.”
+
+
+
+Catching a Scattered Spider suspect is a clear win for law enforcement but it reveals that every standard Windows user is generating a similarly durable, searchable record long before anyone is a suspect.
+
+
+
+“The fact that a persistent device ID can be queried by law enforcement to unmask users raises legitimate, under-discussed questions about Microsoft’s data retention periods, the lack of a clear opt-out for the GDID, and the broader privacy implications for everyday users,” Agha concludes.
+
+
+
+Technology companies may be required to provide account and device records when served with valid subpoenas, warrants, or court orders. “However, users may still be surprised that a single persistent identifier can help link activity across different IP addresses and services,” Lupton concludes.
+
+
+
+The broader privacy issue is transparency.
+
+
+
+“People should be clearly told when persistent device identifiers are being used, what activities may be linked to them, how long the data is retained, and how they can reduce the collection of such information,” according to Lupton. “The fact that these records may help investigate serious crime does not eliminate the need for meaningful privacy protections and proper legal oversight.”
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203079-0-94591700-1785400040-Windows-logo-on-white-laptop-being-stood-on-its-side.jpg?quality=50&strip=all,https://www.csoonline.com/article/4203079/a-scattered-spider-member-was-indicted-microsofts-gdid-went-to-trial.html,https://www.csoonline.com/feed/,2026-07-30T08:25:00Z,6,Cybersecurity
+US and Allies Update SBOM Guidance,"Five years after the initial release, the refresh introduces new elements, removes others, and updates terminology.
+The post US and Allies Update SBOM Guidance appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-and-allies-update-sbom-guidance/,https://www.securityweek.com/feed/,2026-07-30T08:21:19Z,1,Cybersecurity
+Chrome 151 Patches 370 Vulnerabilities,"The major browser update resolves roughly 80 critical- and high-severity security defects.
+The post Chrome 151 Patches 370 Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/,https://www.securityweek.com/feed/,2026-07-30T07:51:24Z,2,Cybersecurity
+Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation,"The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and aerospace sectors.
+
+The activity, which began on July 22, 2026, involves the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAHLuK9rcrkKZxWdmWf50USFH75iYP3nViQrL7sP_6gBJUipIQfUTU0XmA2xnOTR57ZCQWd83Y2joLatEV3XVV10ph4uQV7LrrYLzDCfW4dBiDyvVtpyhD3fgrGY7J2hFbNtCzzp4CGU7DxDYCxnuzJtgCJKCMFuRxloks-iW4dXJlZADetaMQK5rZiUKF/s1600/outlook.jpg,https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T07:40:48Z,10,Cybersecurity
+FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks,"The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US.
+
+Previously authorized models can still be sold, and devices people already own are unaffected. Federal purchases and use",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipannhqI3vkI628-oBoMbtwDDVE4F2PpVmxVM9d10AE06EVVwZzrBde5sTZTddm_89YUCUkfopYwqVzuk2Y8I4g84Ete1SQLvrQ2gA8FVxyCt952gNJpTmXpReLiZZ6EIv33zLjDTFI-_KLydIHDGoIDkbv1ptGTXLdVf6NyeaKeWEEWX4yNsxx46-zyY/s1600/robots.jpg,https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T07:28:43Z,1,Cybersecurity
+Indonesia’s Chinese Fighter Gamble Will Test ASEAN Trust,"President Prabowo Subianto’s hyper-hedging may preserve his country’s diplomatic flexibility, but it risks military fragmentation and regional uncertainty. ",https://images.thediplomat.com/v1/td-list-l-2/2025/06/thediplomat_2025-06-09-031527.jpg,https://thediplomat.com/2026/07/indonesias-chinese-fighter-gamble-will-test-asean-trust/,https://thediplomat.com/category/asia-defense/feed/,2026-07-30T07:16:00Z,0,Defense
+Cisco Secure FMC Zero-Day Exploited in the Wild,"The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. 
+The post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/,https://www.securityweek.com/feed/,2026-07-30T06:31:31Z,15,Cybersecurity
+Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet,"Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them.
+
+The original Aikido and Wiz reports did not attribute the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgWsCKCTbRf4kZF1zcu1cmfHaf-pPPKTo2q21iPUibGu2jsDaxT92LByZdMAi0d_luVH-yt263qlWE5uDFAh4Ue21dIUk_eu08YXHqwgHI_R9bziAK9nBUiht_lMbaL9bqBH800A0HtxNSYNISi1sZ4SKv1DanwxXBPj4rd6OFBk3ogNn9iTUmsiISve0/s1600/northkorean-npm.jpg,https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T06:05:17Z,0,Cybersecurity
+"Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data","The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.
+
+The vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFSDmsE6q7010reBwpOwS1ESkJSxlBlgRBbtjEVAdeClQFAkRfpriRQWUpL0Br8xnFdF1mctv4Ttj1Nv77MMIKm9qlNehPtTLYzOQwcZAWR4Vw1HzjAvItevYjwQkUo_2JNRluc2_OeJ3vOZ-P8meai9NLLWBvothfh7GDqoOpMPmKpOO-hjAeY-Pxa-BV/s1600/cisco.jpg,https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html,https://feeds.feedburner.com/TheHackersNews,2026-07-30T05:08:39Z,17,Cybersecurity
 CISA unveils a six-step blueprint for isolating critical infrastructure during cyberattacks,"
 		
 					  
@@ -301,6 +1201,89 @@ Claude Mythos Preview discovered the attack almost entirely autonomously, Anthro
 Even with AI accelerating some parts of the research, more time is spent verifying the correctness of results. The improved attack on AES was discovered in about a week, but took two researchers nearly a month to validate, Anthropic said.
 ",https://www.csoonline.com/wp-content/uploads/2026/07/4202920-0-86482200-1785338245-passkey-security-encryption-concept-by-cybrain-via-shutterstock.jpg?quality=50&strip=all,https://www.csoonline.com/article/4202920/mythos-takes-its-first-shot-at-post-quantum-cryptography.html,https://www.csoonline.com/feed/,2026-07-29T15:17:06Z,9,Cybersecurity
 Gaming and IRL worlds collide in Jumanji: Open World trailer,&#34;I&#39;m beginning to suspect we are not in Jumanji.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/07/jumanji-1152x648.jpg,https://arstechnica.com/culture/2026/07/gaming-and-irl-worlds-collide-in-jumanji-open-world-trailer/,https://arstechnica.com/feed/,2026-07-29T15:16:22Z,5,Tech
+Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities,"
+		
+					  
+						
+
+
+
+
+Sweet Security, the proactive runtime enforcement company for cloud and AI, today announced its further expansion into AI security with Agentic AI Blocking. Sweet now blocks rogue agent behavior in real time – extending Sweet’s runtime enforcement from the cloud to the AI agents that are acting alongside it.
+
+
+
+Eighty percent of the world’s businesses are already AI enterprises, and their agents take on identities, reach sensitive data, and act on their own. Yet no one verifies that the behavior an agent carries out is the behavior that was intended. Every other security tool detects and alerts; by the time a team reads the alert, the agent has already acted.
+
+
+CyberNews Wire
+
+
+
+“AI has collapsed the cost of attack, and it has put autonomous software inside the enterprise. Someone has to decide, in the moment, what an agent is allowed to do,” said Dror Kashti, CEO and co-founder of Sweet Security. “When an agent reaches for data it shouldn’t touch, Sweet stops the action red-handed and provides the team one line: here is what we found, and here is how we stopped it. Nothing bad happened, and nothing is waiting in a queue. That is what lets an enterprise adopt AI with confidence.”
+
+
+
+Among Sweet’s new Agentic AI Blocking capabilities: 
+
+
+
+
+Terminates unauthorized tool calls and sessions at runtime
+
+
+
+Stops secrets, PII, and sensitive data from leaving through an agent
+
+
+
+Blocks prompt injections live, before they steer an agent off course
+
+
+
+
+What empowers Sweet customers to use its autonomous protection is its confident runtime knowledge. The Sweet Learning Loop continuously Attacks, Fixes, and Defends, leveraging Sweet’s runtime reasoning layer that analyzes over one billion runtime events daily to learn what every application and agent is intended to do. Because Sweet holds each one to a simple bar, “do exactly what your creator intended and nothing more,” it can enforce decisively without breaking live production.
+
+
+
+The market is converging on the same conclusion. Leading industry analysts now describe runtime inspection and enforcement as a mandatory capability for securing AI agents, and expect the winners in agent security to be products that automatically prevent risky agent behavior rather than surfacing more dashboards and alerts. Sweet goes further, enforcing across cloud and AI together in a single platform.
+
+
+
+Sweet already enforces protection at extreme scale, including at Zoomd, where the platform protects tens of thousands of cloud applications in an environment where disruption is measured in market impact.
+
+
+
+“Sweet gave us the confidence to adopt AI across the business,” said Niv Sharoni, CTO at Zoomd. “With most tools, you find out about bad behavior in a report after the damage is done. With Sweet, it’s blocked in runtime, the moment it happens. That’s the difference between monitoring risk and actually removing it.”
+
+
+
+Sweet’s autonomous protection will be demonstrated live at Black Hat USA 2026, Booth 5721. Learn more at https://hi.sweet.security/black-hat-2026.
+
+
+
+About Sweet Security
+
+
+
+Sweet Security delivers proactive runtime enforcement for cloud and AI. While the rest of the industry detects and alerts, Sweet blocks bad behavior before anything bad happens, where intent turns into action: in runtime. Through the Sweet Learning Loop, organizations continuously Attack, Fix, and Defend, driving every application and AI agent toward maximal immunity. Founded in 2023 by veterans of the IDF’s most elite cyber units and backed by $120M from Evolution Equity Partners, Munich Re Ventures, Glilot Capital Partners, and Key1 Capital, Sweet protects the world’s most demanding enterprises. Learn more at www.sweet.security.
+
+
+
+Contact
+
+
+
+Noa Glumcher
+
+
+
+Sweet Security, CMO
+
+
+
+noag@sweet.security
+",https://www.csoonline.com/wp-content/uploads/2026/07/4203485-0-86148500-1785424401-75.png,https://www.csoonline.com/article/4203485/sweet-security-brings-autonomous-protection-to-the-ai-enterprise-with-new-blocking-capabilities.html,https://www.csoonline.com/feed/,2026-07-29T15:11:16Z,11,Cybersecurity
 Remarkable’s refurbished bundle is an awesome deal that’s over $350 off,"A lot of us here at The Verge are fans of Remarkable’s digital note-taking tablets, and right now one of its higher-end options is much cheaper than usual. The Remarkable Paper Pro normally sells for $629 on its own, but Woot is currently offering a refurbished bundle for $449.99 through July 31st. It includes the […]",,https://www.theverge.com/gadgets/972219/remarkable-paper-pro-twelve-south-airfly-2-pro-deluxe-deal-sale,https://www.theverge.com/rss/index.xml,2026-07-29T15:09:24Z,0,Tech
 Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work,"Polar has come out with an AI-first browser aimed at knowledge workers, and it has now raised a $5.7 million seed round led by Madrona.",,https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/,https://techcrunch.com/feed/,2026-07-29T15:00:00Z,5,Tech
 Hackers target over 30 Minnesota water utilities in coordinated OT attack,The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in &#34;a coordinated cyberattack.&#34; [...],,https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/,https://www.bleepingcomputer.com/feed/,2026-07-29T14:55:57Z,5,Cybersecurity
