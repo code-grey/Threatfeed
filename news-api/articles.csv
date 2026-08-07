@@ -1,8 +1,2587 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it","OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/,https://www.bleepingcomputer.com/feed/,2026-08-06T22:48:22Z,0,Cybersecurity
+OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400,Additional details about OpenAI&#39;s mysterious new AI device make it sound like a pricey smart speaker.,,https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/,https://techcrunch.com/feed/,2026-08-06T22:43:53Z,5,Tech
+OpenAI’s new AI smart speaker will reportedly sell for between $300-$400,Additional details about OpenAI&#39;s mysterious new AI device make it sound like a pricey smart speaker.,,https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-400/,https://techcrunch.com/feed/,2026-08-06T22:43:53Z,5,Tech
+ClickFix attack pushes macOS infostealer for crypto theft attacks,"A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",,https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-06T22:37:17Z,7,Cybersecurity
+US to shutter organ donation group accused of trying to take living man's organs,"The organization, Network for Hope, &#34;strongly disagrees&#34; with Trump admin&#39;s decision.",https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1328467063-1152x648.jpg,https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/,https://arstechnica.com/feed/,2026-08-06T22:20:50Z,0,Tech
+"Germany disarms explosive drone found at airport, hunts possible second drone",Russian attack? Explosive drone targeted parked aircraft at Leipzig airport.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Drone-and-Antonov-cargo-plane-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/,https://arstechnica.com/feed/,2026-08-06T22:01:55Z,5,Tech
+Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands,"Not everyone needs a keynote slot to make noise at TechCrunch Disrupt 2026. Sometimes the best way to meet investors, customers, and partners is by exhibiting directly on the Expo Hall floor at San Francisco’s Moscone West from October 13-15. That’s exactly what our Exhibit Program offers, and it’s still open to showcase your startup.  Here’s what $12,500 buys you:  Joining fellow exhibitors is the fastest, lowest-lift way for a […]",,https://techcrunch.com/2026/08/06/your-table-awaits-exhibit-at-techcrunch-disrupt-2026-to-be-seen-by-thousands/,https://techcrunch.com/feed/,2026-08-06T22:00:00Z,8,Tech
+Why exposure management is replacing vulnerability management,"
+		
+					  
+						
+
+
+
+
+Vulnerability management isn’t failing because security teams lack visibility. Most organizations already have more findings than they can reasonably address. Yet despite all those findings, many CISOs still struggle to answer a deceptively simple question: Are we actually becoming harder to attack?
+
+
+
+That question sits at the center of a growing problem. Security programs have become very good at finding issues, but finding issues and reducing risk are not the same thing. In many organizations, those two concepts have become interchangeable, which is exactly why traditional vulnerability management is beginning to break down.
+
+
+
+The underlying assumption behind vulnerability management is straightforward. If you can identify vulnerabilities, prioritize them, and patch them, risk should decrease. That logic worked reasonably well when environments were smaller, infrastructure changed at a slower pace, and vulnerabilities were treated as the primary indicator of risk.
+
+
+
+Today’s environments operate differently. Vulnerabilities are rarely encountered in isolation and are often only one component of a broader security problem. The challenge is no longer finding vulnerabilities. The challenge is understanding exposure.
+
+
+
+This shift is one reason the Gartner® Continuous Threat Exposure Management (CTEM) framework has gained traction. At its core, the framework recognizes that understanding risk requires looking beyond individual vulnerabilities and evaluating the broader exposures that attackers can actually exploit.
+
+
+
+Why prioritization keeps falling short
+
+
+
+The challenge becomes apparent when organizations try to prioritize risk. Traditional vulnerability management evaluates findings individually, often using severity scores as a proxy for risk. Attackers take a different approach. They evaluate how weaknesses connect, what access they provide, and how they can be combined to reach a meaningful objective.
+
+
+
+That distinction matters because severity and risk are not the same thing. A critical vulnerability that cannot be reached or exploited may represent very little practical risk. Meanwhile, a lower-severity issue combined with weak credentials, excessive permissions, or a misconfigured identity relationship can create a direct path to sensitive systems and data.
+
+
+
+Attackers understand this instinctively. They do not attack vulnerabilities one at a time. They chain weaknesses together, move laterally across environments, escalate privileges, and pursue the path that gets them closest to their objective.
+
+
+
+Severity is not risk
+
+
+
+One of the biggest reasons vulnerability management efforts struggle today is that severity has become a stand-in for risk. It is easy to understand why. Severity scores provide a standardized way to compare findings, helping teams sort large volumes of vulnerabilities and establish remediation priorities.
+
+
+
+A vulnerability only matters if it contributes to an attacker’s ability to achieve an objective, whether that objective is accessing sensitive data, escalating privileges, or moving laterally through an environment. In every case, the question is not, “How severe is this vulnerability?” but rather, “Can this weakness be used as part of a path to something valuable?”
+
+
+
+Those are fundamentally different questions. One measures the characteristics of a finding. The other evaluates the opportunity it creates for an attacker. As environments become more interconnected, the gap between those perspectives continues to grow.
+
+
+
+Exposure is bigger than vulnerabilities
+
+
+
+Visibility tells you what vulnerabilities exist. Exposure tells you how attackers can use them.
+
+
+
+That distinction is becoming increasingly important because exposure is broader than a vulnerability. It includes the relationships between weaknesses, identities, permissions, assets, trust relationships, and business systems that create opportunities for attackers.
+
+
+
+A vulnerability may contribute to exposure, but it is rarely the entire story. Consider a lower-severity vulnerability that exists on a system with excessive permissions. By itself, neither issue may appear urgent. Together, they may provide a direct path to sensitive data or critical infrastructure.
+
+
+
+Now consider an attacker who compromises a low-value system. In a traditional vulnerability management model, the focus remains on the vulnerability that enabled access. In an exposure management model, the focus shifts to what happens next: 
+
+
+
+
+What can the attacker reach? 
+
+
+
+Which identities can be abused? 
+
+
+
+What permissions can be leveraged? 
+
+
+
+What systems become accessible?
+
+
+
+
+The vulnerability may have enabled the intrusion, but the exposure determines the impact. That is why understanding exposure requires looking beyond individual findings and evaluating how weaknesses interact across the environment.
+
+
+
+The same principle applies across cloud environments, identity systems, Active Directory, third-party access, and hybrid environments. Attackers do not compromise organizations because a vulnerability exists. They compromise organizations because multiple conditions create an opportunity to reach something valuable.
+
+
+
+That is the definition of exposure.
+
+
+
+Why exposure management is replacing vulnerability management
+
+
+
+Attackers have already made this shift. The industry is finally catching up.
+
+
+
+Vulnerability management helped organizations understand what was broken. Exposure management helps organizations understand what attackers can actually do.
+
+
+
+As environments become more interconnected, the goal is no longer to identify every vulnerability. The goal is to understand which combinations of weaknesses create meaningful risk and where action will reduce that risk most effectively.
+
+
+
+For CISOs, that changes the conversation.
+
+
+
+Instead of asking:
+
+
+
+
+How many vulnerabilities do we have?
+
+
+
+How quickly are we patching them?
+
+
+
+
+The more important questions become:
+
+
+
+
+What can an attacker actually reach?
+
+
+
+Which exposures create meaningful business risk?
+
+
+
+What should we fix first?
+
+
+
+Are we becoming harder to attack?
+
+
+
+
+Those are exposure management questions. And as attackers gain new ways to identify and exploit opportunities at machine speed, they are increasingly the questions that matter most.
+
+
+
+Explore how organizations are operationalizing exposure management through CTEM by downloading the “Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management.” You’ll learn how leading teams are moving beyond visibility and building programs focused on measurable exposure reduction. 
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206354-0-54334100-1786052581-shutterstock_2530897299.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206354/why-exposure-management-is-replacing-vulnerability-management.html,https://www.csoonline.com/feed/,2026-08-06T21:42:35Z,21,Cybersecurity
+Hackers Stalked Me by Hijacking a Smartwatch for Kids,Security researchers tracked and eavesdropped on a WIRED reporter using vulnerabilities in a pink plastic smartwatch. It’s just one piece of a deeply insecure supply chain of GPS-enabled gadgets.,,https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/,https://www.wired.com/feed/category/security/latest/rss,2026-08-06T21:35:00Z,1,Cybersecurity
+Vogue just gave another nod of approval to the tech world,Vogue World is coming to San Francisco next year — perhaps another indication that tech bros are now part of the fashion zeitgeist.,,https://techcrunch.com/2026/08/06/vogue-just-gave-another-nod-of-approval-to-the-tech-world/,https://techcrunch.com/feed/,2026-08-06T21:24:47Z,1,Tech
+Get up to $400 off your TechCrunch Disrupt 2026 pass until tomorrow,"Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing. ",,https://techcrunch.com/2026/08/06/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/,https://techcrunch.com/feed/,2026-08-06T21:20:00Z,0,Tech
+Trevor Noah is hosting Google’s Pixel 11 launch event,"Google is set to host its next live Made by Google hardware launch event on August 12th, and the company says in a new video that comedian Trevor Noah will be hosting the show. The video indicates that the event will feature other celebrities and influencers as well, including Call Her Daddy host Alex Cooper […]",,https://www.theverge.com/tech/976454/made-by-google-2026-event-pixel-11-trevor-noah,https://www.theverge.com/rss/index.xml,2026-08-06T21:15:47Z,1,Tech
+Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker,"The AI device OpenAI is developing with former Apple designer Jony Ive is &#34;essentially a smart speaker without a display&#34; that&#39;s battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly &#34;will have a unique look, […]",,https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor,https://www.theverge.com/rss/index.xml,2026-08-06T20:55:39Z,7,Tech
+"Elon Musk's X isn't done suing advertisers, asks court to revive boycott case",Musk continues appeal despite court loss and settlement with advertiser group.,https://cdn.arstechnica.net/wp-content/uploads/2024/02/Elon-Musk-X-1152x648.jpg,https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/,https://arstechnica.com/feed/,2026-08-06T20:29:51Z,1,Tech
+Suno hopes to go legit with watermarks for AI-generated music,Suno plans watermarks and download limits to stop &#34;large-scale abuse.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2024/04/singing_robot_hero-1152x648.jpg,https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/,https://arstechnica.com/feed/,2026-08-06T20:17:36Z,5,Tech
+Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group,"A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile campaign extortion group. [...]",,https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/,https://www.bleepingcomputer.com/feed/,2026-08-06T20:07:24Z,3,Cybersecurity
+Anthropic confirms plans to build an in-house silicon team,Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.,https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg,https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/,https://arstechnica.com/feed/,2026-08-06T20:03:44Z,5,Tech
+"The AirPods Pro are $60 off, their best price since late June","Best Buy kicked off a sale on Apple products with discounts on its latest smartwatches to phones. Another deal that caught our eye is on the latest AirPods Pro, Apple’s flagship wireless earbuds, which are down to $189.99 ($60 off), with retailers like Amazon and Walmart matching the price. That’s their lowest price since Prime […]",,https://www.theverge.com/gadgets/976276/apple-airpods-pro-3-best-buy-apple-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-06T20:00:00Z,6,Tech
+Google says hackers are calling financial firm employees to hack and extort victims,"Groups of hackers are breaking into large U.S. financial firms to steal sensitive data and extort victims, Google’s security researchers report.",,https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/,https://techcrunch.com/feed/,2026-08-06T19:40:46Z,0,Tech
+"China-linked LightSpy spyware caught targeting victims in 13 countries, including the US","Researchers linked the latest malicious activity to a Chinese company, after one of the spyware&#39;s operators placed an order with KFC using their real name and office address.",,https://techcrunch.com/2026/08/06/china-linked-lightspy-spyware-caught-targeting-victims-in-13-countries-including-the-us/,https://techcrunch.com/feed/,2026-08-06T19:22:30Z,0,Tech
+Large genome models used to design new viruses,The AI system makes genetically distant versions of a bacteria-killing virus.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2152061685-1152x648.jpg,https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/,https://arstechnica.com/feed/,2026-08-06T19:04:57Z,5,Tech
+Defense tech Hadrian raises $1.37B at $8B valuation,Hadrian is building automated factories to mass produce parts for defense vehicles like submarines. It&#39;s backed by a long list of well-known investors.,,https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/,https://techcrunch.com/feed/,2026-08-06T19:02:57Z,5,Tech
+NatJack exploits put NAT security assumptions to the test at Black Hat,"
+		
+					  
+						
+
+
+
+
+For decades, Network Address Translation (NAT) has been the default way IP addresses are provided inside larger networks, as a means to deal with the challenges of IPv4 address availability.
+
+
+
+The basic premise behind NAT is that private addresses stay private, but that assumption might not be entirely accurate anymore (if it ever really was). At Black Hat USA 2026, researcher Malcolm Stagg, an independent researcher and Synack Red Team member, disclosed NatJack, an attack class that manipulates the NAT connection tracking table. 
+
+
+
+An attacker sharing a NAT boundary with a victim can hijack active connections, poison DNS responses, and force denial of service, without the IP spoofing or broadcast domain access older Layer 2 attacks required. Thirteen vendors were notified, and testing covered 32 products and configurations across 95 reports. Every tested implementation was vulnerable to some or all of the NatJack techniques.
+
+
+
+Stagg didn’t intentionally set out to find flaws in NAT, but he found them. “I kind of ran into this attack entirely by accident,” Stagg told Network World. “I noticed that I was sometimes getting responses that didn’t correspond to the packets that I was sending. That told me that there is some sort of corruption happening inside the NAT table.”
+
+
+
+What breaks in the NAT trust model
+
+
+
+NAT was never built as a security control. It emerged in the early 1990s as a stopgap for IPv4 address exhaustion, letting multiple devices share one public IP address under an assumption of trust between peers.
+
+
+
+“I think it basically goes back to under-specification in some of the RFCs that just allow behaviors based on the assumption that you’re in a network where the peers are trusted,” Stagg said.
+
+
+
+NAT has been hacked before. Security researcher Samy Kamkar disclosed NAT Pinning at DEF CON 18 and Black Hat in 2010, an early technique for manipulating NAT port behavior. He returned to the problem a decade later with NAT Slipstreaming, disclosed in 2020 and expanded with Armis researchers in 2021, which abused Application Level Gateway (ALG) connection tracking and required a victim to visit a malicious website. Those flaws have all been patched.
+
+
+
+NatJack is different. It manipulates the NAT table directly, needs no ALG, and requires no victim action beyond an active connection through the same NAT.
+
+
+
+The flaw does not stop at Layer 2. VLAN segmentation and switch port isolation do not help, since the attack targets shared NAT infrastructure at Layer 3 and Layer 4 rather than the local broadcast domain. The flaw was confirmed across Windows, Linux, and macOS despite no shared NAT codebase, pointing to a shared design assumption rather than an isolated bug.
+
+
+
+Four attack techniques, one shared weakness
+
+
+
+NatJack covers four distinct techniques, all built on the same weakness in how NAT tables track connections.
+
+
+
+
+TCP connection hijacking. An attacker forces a victim’s connection into a closed state using spoofed packets, then replaces the resulting table entry with one pointing to the attacker. The RFC 1337 TIME-WAIT Assassination mechanism Stagg identified lets this happen in a handful of packets rather than a standard connection timeout.
+
+
+
+DNS response poisoning. The technique intercepts and alters UDP DNS responses passing through the NAT, redirecting a victim’s lookups without their knowledge.
+
+
+
+Denial of service. An attacker exhausts the NAT table itself, breaking connectivity for every device sharing that NAT.
+
+
+
+Connection port identification. An attacker determines which port a NAT has assigned to an active connection, information that can support the other three techniques.
+
+
+
+
+Disclosure and a mixed vendor response
+
+
+
+Stagg responsibly disclosed the flaw, though vendor reaction has varied widely, from formal patches to outright rejection. 
+
+
+
+The Linux kernel security team initially dismissed the report, going so far as to call the report- totally bogus. Stagg said the response caught him off guard. “I was pretty surprised by that,” Stagg said. “Getting that response was a little bit unexpected, and a little discouraging.”
+
+
+
+The kernel was eventually patched at Microsoft’s request to support Azure Kubernetes Service, resulting in CVE-2026-63913. Microsoft’s own Windows NAT vulnerability, affecting Hyper-V, was assigned CVE-2026-56181.
+
+
+
+Other vendors declined to classify the findings as vulnerabilities. “These reports are design-level NAT limitations rather than security vulnerabilities,” Cisco PSIRT said. “There are documented mitigations for the Cisco Secure Firewall and Cisco IOS XE products which would prevent most, if not all of these issues.”
+
+
+
+Apple took a similar position. “We’ve determined the behavior reflects a known limitation of the transport layer rather than a vulnerability,” Apple Product Security said. “Modern security models assume the local network may be hostile. This is why we continue to rely on end to end encryption, such as TLS.”
+
+
+
+Stagg noted that while encryption blunts the worst outcomes of NatJack, it does not eliminate the risk. “Encryption is a great help here because an attacker can still hijack a connection, but if they do, they can’t send or receive any data over that connection unencrypted,” Stagg said. “An attacker can still target and remove any of those connections.”
+
+
+
+Detection and mitigation
+
+
+
+Even without full patches available, there are steps that network professionals can take to limit risk. Stagg suggests the following:
+
+
+
+
+Monitor for compromise indicators. Watch for a full or near-full NAT table, floods of TCP or UDP packets across a wide port range, the same IP address appearing at two physical locations, and anomalous SYN or RST packet sequences.
+
+
+
+Enable source IP protection. Turn on protections such as IP Source Guard to block spoofed packets at the router or firewall.
+
+
+
+Segment untrusted traffic. Place untrusted users on a separate subnet or VLAN, and cap connections per client at roughly under 10,000.
+
+
+
+Disable loose connection modes. Turn off loose connection tracking, port preservation, and endpoint-independent mapping where supported.
+
+
+
+Restrict container network access. Disable network access for untrusted containers and Kubernetes workloads, avoid running as root, and drop default capabilities.
+
+
+
+Isolate cloud workloads. Keep untrusted and trusted workloads off the same NAT gateway, and use dedicated IPs for serverless workloads.
+
+
+
+
+“One of the attack variations does still work in cases where the attacker and victim are located in different subnets,” Stagg said.
+
+
+
+Stagg said the underlying lesson of NatJack extends beyond any single patch.
+
+
+
+“A lot of networks are vulnerable to this, and you can’t always rely on the Layer 2 isolations that are in place,” Stagg said. “When you’re relying on historical design choices, those threat models might not be the same now as they were back then. It’s important to look at those design assumptions and see if there are any updates that might be necessary based on the new threat models.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206299-0-29326100-1786042549-shutterstock_2206524703.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206299/natjack-exploits-put-nat-security-assumptions-to-the-test-at-black-hat-2.html,https://www.csoonline.com/feed/,2026-08-06T18:55:35Z,17,Cybersecurity
+The Zelda movie’s Ganondorf casting hints at more movies,"Deadline reported Thursday that the upcoming The Legend of Zelda movie will feature Australian actor Uli Latukefu as the villain Ganondorf, and the publication notes that &#34;We hear Latukefu inked a multi-picture deal.&#34; Nintendo or Sony haven&#39;t formally confirmed that there&#39;s more than one movie in the works, though it&#39;s been rumored that Nintendo and […]",,https://www.theverge.com/entertainment/976337/the-legend-of-zelda-movie-ganondorf-multi-picture-deal,https://www.theverge.com/rss/index.xml,2026-08-06T18:31:57Z,5,Tech
+Swiss government SharePoint breach compromised 200 accounts,Switzerland&#39;s federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...],,https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/,https://www.bleepingcomputer.com/feed/,2026-08-06T18:22:09Z,6,Cybersecurity
+Blue Origin narrowing in on root cause of catastrophic rocket accident,&#34;The anomaly originated at the main oxygen valve on one of the BE-4 engines.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/06/ng4explosion-1152x648.jpg,https://arstechnica.com/space/2026/08/blue-origin-narrowing-in-on-root-cause-of-catastrophic-rocket-accident/,https://arstechnica.com/feed/,2026-08-06T18:20:32Z,5,Tech
+"New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...],,https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/,https://www.bleepingcomputer.com/feed/,2026-08-06T18:03:45Z,6,Cybersecurity
+New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts,"Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests.
+
+The flaw is tracked as CVE-2026-64561 and affects KVM/x86&#39;s shadow memory management unit (MMU), which manages shadow page",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif,https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T17:58:30Z,7,Cybersecurity
+"Ford needs another Taurus, and the $30K Fathom EV pickup isn’t it","Ford&#39;s CEO has described the new Ford Fathom as a &#34;Model T moment&#34; for the company. But the EV pickup is unlikely to live up to lofty expectations, and maybe it doesn&#39;t have to.",,https://techcrunch.com/2026/08/06/ford-needs-another-taurus-and-the-30k-fathom-ev-pickup-isnt-it/,https://techcrunch.com/feed/,2026-08-06T17:41:56Z,0,Tech
+Bumble teases a swipe-free future as it doubles down on IRL meetups,Bumble says it’s moving beyond swiping and deeper into real-world social experiences as it courts Gen Z users.,,https://techcrunch.com/2026/08/06/bumble-teases-a-swipe-free-future-as-it-doubles-down-on-irl-meetups/,https://techcrunch.com/feed/,2026-08-06T17:39:47Z,0,Tech
+Suno shares plans to combat spammy AI music,"Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company&#39;s principles and the next steps for the company as it seeks legitimacy. The company is rolling out new […]",,https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark,https://www.theverge.com/rss/index.xml,2026-08-06T17:39:43Z,5,Tech
+Brendan Carr officially unleashes broadcast consolidation,"The era of set broadcast ownership limits is officially over, after the Federal Communications Commission (FCC) voted Thursday to end the national ownership cap rule. The agency&#39;s two Republicans, Chair Brendan Carr and Commissioner Olivia Trusty, voted to end the ownership cap, which restricts broadcast owners from holding stations that reach a combined more than […]",,https://www.theverge.com/policy/976287/fcc-broadcast-ownership-rule-ends,https://www.theverge.com/rss/index.xml,2026-08-06T17:35:38Z,5,Tech
+ChatGPT brings unlimited text chats to free users,OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.,,https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/,https://techcrunch.com/feed/,2026-08-06T17:34:42Z,5,Tech
+"Parasitic zombie fungus thrives in mosses, too",This may help fungi survive host scarcity and explains why infected hosts prefer the mosses as death sites.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/fungi1-1152x648-1785957606.jpg,https://arstechnica.com/science/2026/08/parasitic-zombie-fungus-thrives-in-mosses-too/,https://arstechnica.com/feed/,2026-08-06T17:13:45Z,5,Tech
+"Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs","Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.
+
+The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode.
+
+&#34;These vulnerabilities were found",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s1600/cisco-flaws.jpg,https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T17:13:15Z,2,Cybersecurity
+Naïve raises $28.5M to automate the grunt work of setting up and running a company,"Taking vibe-coding a step further, Naive claims its infra can automate most of the work in setting up and running a business.",,https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/,https://techcrunch.com/feed/,2026-08-06T17:00:37Z,5,Tech
+OpenAI is giving ChatGPT free users unlimited text chats,"OpenAI is making a big change for ChatGPT users on its free and Go tiers: starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",,https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats,https://www.theverge.com/rss/index.xml,2026-08-06T17:00:00Z,5,Tech
+Hacker pleads guilty to stealing data from more than 165 Snowflake customers,"Connor Moucka pled guilty to hacking and stealing data from more than 165 Snowflake customers, which net him and his accomplices more than $2.5 million in ransom payments. ",,https://techcrunch.com/2026/08/06/hacker-pleads-guilty-to-stealing-data-from-more-than-165-snowflake-customers/,https://techcrunch.com/feed/,2026-08-06T16:42:40Z,0,Tech
+TikTok blames &#8216;moderator error&#8217; on slow response to Perez Hilton livestream,"TikTok says a &#34;moderator error&#34; delayed the removal of a livestream that appeared to show blogger Perez Hilton harming himself, as reported earlier by Wired. Jamie Favazza, a spokesperson for TikTok US, tells The Verge that the platform notified law enforcement about the situation and banned Hilton&#39;s account for violating its community guidelines. Hilton, or […]",,https://www.theverge.com/tech/976228/tiktok-perez-hilton-livestream-moderator-error,https://www.theverge.com/rss/index.xml,2026-08-06T16:41:25Z,2,Tech
+"Trump FCC kills TV ownership cap, claiming authority over limit set by Congress","Change will let &#34;Trump-aligned billionaires&#34; buy more stations, advocacy group says.",https://cdn.arstechnica.net/wp-content/uploads/2024/12/trump-carr-1152x648-1734382746.jpg,https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/,https://arstechnica.com/feed/,2026-08-06T16:40:58Z,5,Tech
+Moderna's mRNA flu shot earns FDA approval after rollercoaster review,"Moderna&#39;s new flu vaccine, mFLUSIVA, is approved for all adults ages 50 and up.",https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683.jpg,https://arstechnica.com/health/2026/08/modernas-mrna-flu-shot-earns-fda-approval-after-rollercoaster-review/,https://arstechnica.com/feed/,2026-08-06T16:31:06Z,2,Tech
+New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs,"An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.
+
+MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s1600/place.jpg,https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T16:17:13Z,3,Cybersecurity
+Cloudflare open-sources vibe-coding platform for people who aren't coders,Cloudflare built an AI agent workspace for its employees. Now it’s open source.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Cloudflare-logo-1152x648.jpg,https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/,https://arstechnica.com/feed/,2026-08-06T16:15:30Z,8,Tech
+Meta AI model hacked a company during misconfigured cyber test,"Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI&#39;sOpenAI&#39;s initial disclosure that its agents breached Hugging Face. [...]",,https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/,https://www.bleepingcomputer.com/feed/,2026-08-06T16:11:39Z,5,Cybersecurity
+"TikTok lays off 250 employees, shutters its Nashville office",The social media giant is shuttering an office that housed some members of TikTok’s content moderation team. ,,https://techcrunch.com/2026/08/06/tiktok-lays-off-250-employees-shutters-its-nashville-office/,https://techcrunch.com/feed/,2026-08-06T16:06:40Z,0,Tech
+Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts,"Rocket Labs, STR, and one mystery company are the latest space-based AMTI awardees.",,https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/,https://www.defenseone.com/rss/all/,2026-08-06T16:00:18Z,0,Defense
+Google Wallet now lets parents set up secure balances for their kids,The tech giant says the new feature will allow parents to teach their kids healthy financial habits while maintaining oversight over their child&#39;s spending with built-in safeguards. ,,https://techcrunch.com/2026/08/06/google-wallet-now-lets-parents-set-up-secure-balances-for-their-kids/,https://techcrunch.com/feed/,2026-08-06T16:00:00Z,5,Tech
+Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking,This generation of 20-somethings is so disillusioned with swipe-based dating apps that they&#39;ll try literally anything else -- even an AI matchmaker. ,,https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/,https://techcrunch.com/feed/,2026-08-06T15:53:03Z,6,Tech
+Apple increases trade-in offers and adds new Android devices,"Apple bumped up its trade-in offers for iPhones, iPads, Macs, Apple Watches, and certain Android phones, with some devices now worth over $100 more, 9to5Mac reports. The Mac Studio&#39;s trade-in value increased the most, going up by $260. While some devices&#39; offers are unchanged, most got an increase of around $5 to $20, with a […]",,https://www.theverge.com/tech/976210/apple-trade-in-values-increased,https://www.theverge.com/rss/index.xml,2026-08-06T15:47:15Z,6,Tech
+Did AI blow a $450M Army contract decision? Company lawsuit says yes,The Defense Department is increasingly using AI in &#34;high-impact&#34; bid evaluations.,,https://www.defenseone.com/policy/2026/08/ai-army-contract-lawsuit/415261/,https://www.defenseone.com/rss/all/,2026-08-06T15:34:00Z,0,Defense
+"ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories","Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.
+
+This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and trusted defaults doing attackers a favor.
+
+Nothing here is especially mystical.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0f74Tyvl6NQ4TAbPMIpgYWuHQN8THsYSQ77D9qmHuZdKsK2ZDrTLyWshLPV-UfSYW6Rbtfj866jP0X_D1QHmOFYIoEDZG90G3cy7JGFJrKsq0m7VeGqa0CCDygB9F3ttryPRQm-6MY50zIOsGFBdnwZZgAf31swGo5dOIa0noWuIoEk7rPrUkdfoddIj/s1600/threatsd.jpg,https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T15:24:31Z,6,Cybersecurity
+Tesla and SpaceX will invest $16.8B to start building ‘Terafab’ chip factory in Texas,"After months of speculation, the companies formally announced the massive project will happen just north of Houston.",,https://techcrunch.com/2026/08/06/tesla-and-spacex-will-invest-16-8b-to-start-building-terafab-chip-factory-in-texas/,https://techcrunch.com/feed/,2026-08-06T15:21:51Z,1,Tech
+OpenAI says Apple’s own security practices undermine its trade secrets case,Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly stolen information was properly protected.,,https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/,https://techcrunch.com/feed/,2026-08-06T15:10:32Z,9,Tech
+Snowflake Hacker Pleads Guilty in US Court,"Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. 
+The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek.
+",,https://www.securityweek.com/snowflake-hacker-pleads-guilty-in-us-court/,https://www.securityweek.com/feed/,2026-08-06T14:56:31Z,1,Cybersecurity
+SoftBank donated $50 million to Trump’s library just months before federal data center deal,"SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it&#39;s leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (D-MA), Sen. Richard Blumenthal (D-CT), and Rep. Melanie […]",,https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio,https://www.theverge.com/rss/index.xml,2026-08-06T14:30:00Z,0,Tech
+eBay continues to bet on live shopping after record quarter,eBay touted an increase in eBay Live&#39;s gross merchandise volume as it plans to expand it to more international markets in the coming weeks and months.,,https://techcrunch.com/2026/08/06/ebay-continues-to-bet-on-live-shopping-after-record-quarter/,https://techcrunch.com/feed/,2026-08-06T14:17:46Z,0,Tech
+It’s the last day to get a $350 gift card with your Samsung Galaxy Z Fold 8 preorder,"Samsung’s latest foldable Android phones, the Z Fold 8, Fold 8 Ultra, and Flip 8, release tomorrow, August 7th. Today is the final day when you can place a preorder, and really the only reason we’re suggesting that is because you’ll get some freebies that will go away upon release. We have an entire article […]",,https://www.theverge.com/gadgets/976103/samsung-galaxy-z-fold-flip-8-preorder-airpods-pro-3-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-06T14:09:33Z,0,Tech
+How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore,"AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",,https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/,https://www.bleepingcomputer.com/feed/,2026-08-06T14:02:12Z,2,Cybersecurity
+The left and right agree on one thing: no data centers,"Today, I’m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers.  Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a […]",,https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan,https://www.theverge.com/rss/index.xml,2026-08-06T14:00:00Z,6,Tech
+How a software provider closed unknown paths to cloud compromise,"
+		
+					  
+						
+
+
+
+
+A healthcare software provider believed its segmented environment was reasonably secure. The company had invested heavily in layered controls across a distributed workforce, separating developer environments, segmenting cloud infrastructure, and tightly managing administrative access. Multifactor authentication (MFA) was enforced broadly, vulnerability scanning was routine, and annual penetration tests were part of the organization’s broader security and compliance efforts.
+
+
+
+Then an insider threat penetration test (pentest) with NodeZero® showed how quickly a single compromised developer credential could enable lateral movement through the environment and toward cloud infrastructure supporting software delivery.
+
+
+
+“It owned our network in a matter of minutes,” said the company’s IT operations leader.
+
+
+
+That result changed the conversation immediately. This was not simply a healthcare organization protecting endpoints and servers. The provider was operating in a position of downstream trust, where a compromise would potentially impact customers, healthcare operations, and the systems relying on their software.
+
+
+
+The organization realized that annual pentests and scanner output were not enough to answer the question that actually mattered: What can an attacker really do once inside the environment?
+
+
+
+That realization pushed the company toward continuous validation, repeated testing, and a far more operational approach to exposure management.
+
+
+
+Outcomes at a glance
+
+
+
+
+Eliminated internal exposure stemming from 16 weaknesses that compromised four hosts leading to AWS compromise and sensitive data exposure
+
+
+
+Reduced AWS exposure leading to critical business impacts to two low-severity weaknesses that were not able to be chained together to lead to any business impact
+
+
+
+Eliminated overly permissive, local-administrator access across the environment after NodeZero demonstrated rapid lateral movement and privilege escalation
+
+
+
+Implemented privileged access approval workflows and expanded MFA enforcement
+
+
+
+Established a repeatable monthly cadence of testing, remediation, and validation
+
+
+
+
+ src=&#34;https://b2b-contenthub.com/wp-content/uploads/2026/08/Image1.png&#34; alt=&#34;Internal Testing&#34;&gt;
+
+
+
+Image 1: Initial internal testing identified 16 weaknesses compromising 4 hosts which led to AWS compromise and sensitive data exposure.
+
+
+
+Impact
+
+
+
+The security team believed their network was secure. That was until they understood what an attacker could do once inside their network. The real question wasn’t whether individual weaknesses existed. It was what an attacker could accomplish when those weaknesses were chained together in a real environment.
+
+
+
+Like many software providers, the organization operated with a widely distributed workforce, extensive developer access requirements, hybrid infrastructure, and growing cloud dependencies. 
+
+
+
+Before adopting NodeZero, the company relied heavily on traditional vulnerability scanning and annual penetration testing. The team understood the limitations immediately after running NodeZero for the first time because the insider threat pentest exposed how quickly those assumptions did break down.
+
+
+
+“When you think about what an annual penetration test is, it’s a snapshot at a moment in time,” said the IT operations leader. “Technology does not stand still. It only changes.”
+
+
+
+The team initially attempted a phishing impact pentest paired with their Microsoft 365 environment, but no employees entered credentials during the exercise. Rather than stopping there and trusting their employees would never fall for a phish, the organization decided to model a more realistic compromise scenario by asking three employees — a developer, someone in HR, and someone in support — to intentionally submit credentials into the phishing pentest so the team could observe what an attacker could actually do with different levels of access.
+
+
+
+That decision quickly exposed where the real risk existed.
+
+
+
+The HR and support accounts were effectively contained, but once NodeZero impersonated the developer account, the attack path expanded rapidly. The platform cracked password hashes, escalated privileges, moved laterally across segmented environments, and attempted to traverse toward AWS-connected resources.
+
+
+
+“We’re completely segmented,” said the operations leader. “We thought we were fine by being siloed. But NodeZero jumped the segments.”
+
+
+
+The speed of the compromise surprised the team, but the path itself was even more important. A single developer system with elevated access had effectively become the pivot point that would allow attackers to move through the environment.
+
+
+
+That moment reframed the problem entirely. The organization was no longer looking at isolated vulnerabilities. It was looking at exposure, attack chaining, and the reality that one compromised developer credential could potentially become something much larger.
+
+
+
+ src=&#34;https://b2b-contenthub.com/wp-content/uploads/2026/08/Image2.png&#34; alt=&#34;Image2&#34;&gt;
+
+
+
+Image 2: NodeZero demonstrated how a compromised developer path could move laterally across segmented environments to obtain host compromise.
+
+
+
+Click here to explore the details around mitigation and remediation efforts.
+
+
+
+Conclusion
+
+
+
+“Ultimately, our goal is to make sure our staff has jobs to come to each day,” said the IT operations leader.
+
+
+
+That perspective reframed the problem entirely. Not as compliance or vulnerability management, but as the ongoing responsibility to continuously validate that it is not possible for a real adversary to traverse their environment.
+
+
+
+Learn more about Horizon3.ai and NodeZero.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206219-0-54445400-1786024547-shutterstock_2136788239.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206219/how-a-software-provider-closed-unknown-paths-to-cloud-compromise.html,https://www.csoonline.com/feed/,2026-08-06T13:55:09Z,16,Cybersecurity
+How a global investment firm reduced security surprises,"
+		
+					  
+						
+
+
+
+
+Most security teams don’t suffer from a lack of data. They suffer from a lack of certainty.
+
+
+
+Vulnerability scanners, annual penetration tests, and compliance assessments can generate thousands of findings. Yet they often fail to answer a simple question: Which risks actually matter?
+
+
+
+For a global investment firm operating across 18 locations, that question became increasingly important. A small security engineering team was responsible for securing a growing environment while balancing infrastructure projects, identity management, user support, and the countless responsibilities that come with protecting a modern enterprise.
+
+
+
+The team wasn’t struggling to generate findings. They were struggling to understand which findings represented real risk, whether remediation efforts were working, and how to ensure leadership would never be surprised by an exposure that should have been discovered earlier.
+
+
+
+That journey led them from point-in-time testing to continuous validation.
+
+
+
+Outcomes at a glance
+
+
+
+
+Reduced impacts from 251 to 0 in a same-scope internal penetration test (pentest)
+
+
+
+Reduced compromised credentials from 52 to 0
+
+
+
+Reduced compromised hosts from 67 to 0
+
+
+
+Reduced cracked Active Directory passwords from 40 to 0
+
+
+
+Expanded continuous validation across 18 locations using a phased rollout strategy
+
+
+
+Enabled a lean security team to continuously validate risk without significant operational overhead
+
+
+
+
+Impact
+
+
+
+The team wasn’t expecting perfection. Every environment contains weaknesses, and no experienced security practitioner assumes an internal pentest will come back clean.
+
+
+
+What surprised them was how effectively those weaknesses could be chained together once an attacker gained a foothold.
+
+
+
+One of the firm’s early internal pentests identified 85 weaknesses. By itself, the number wouldn’t have stood out to most security teams. The real concern wasn’t the weaknesses themselves. It was what those weaknesses enabled.
+
+
+
+NodeZero® showed that those weaknesses could produce 251 impacts, including domain compromise, sensitive data exposure, ransomware exposure, host compromise, domain user compromise, and compromised credentials. 
+
+
+
+That distinction matters because attackers don’t exploit weaknesses in isolation. They chain weaknesses, misconfigurations, and credentials together to achieve an objective. A low-priority finding on its own may appear manageable, but when combined with other weaknesses, it can become part of a pathway to something much more serious.
+
+
+
+Figure 1. An early internal pentest identified 85 weaknesses that led to 251 impacts, including domain compromise, ransomware exposure, sensitive data exposure, and host compromise.
+
+
+
+As the organization’s senior security engineer explained: “That impact section in NodeZero is just pure evidence of what can happen in a real life scenario.”
+
+
+
+The shift from theoretical risk to demonstrated impact changed how the team approached remediation, shifting the conversation from identifying weaknesses to understanding their potential business impact.
+
+
+
+Background
+
+
+
+Like many organizations, this organization was already investing in security testing. The challenge wasn’t finding another tool. It was finding an approach that could scale across the business without creating additional work for a small security team already balancing infrastructure projects, identity management, user support, and countless other responsibilities.
+
+
+
+As the senior security engineer described: “NodeZero is, let’s say, 5% of my work. I’m dealing with a million different things, a million different projects, a million different responsibilities.”
+
+
+
+That reality made operational simplicity more than a convenience. It became a requirement.
+
+
+
+The team had experience with security testing platforms that required significant infrastructure and ongoing maintenance to keep running effectively. For a small team juggling competing priorities, that overhead mattered. NodeZero offered a different model. The platform was simple to deploy, easy to operate, and allowed the team to begin testing immediately without dedicating resources to managing complex hardware infrastructure.
+
+
+
+That ease of deployment became particularly important because the team wasn’t interested in running a proof of concept. They wanted to build a sustainable program that could scale with the business.
+
+
+
+Click here to continue reading about the obstacles the organization faced and how they mitigated them.
+
+
+
+The need to validate outcomes
+
+
+
+The objective was never to eliminate every weakness. It was to eliminate uncertainty around the risks that mattered most.
+
+
+
+That’s the difference between measuring activity and validating outcomes.
+
+
+
+Learn more about Horizon3.ai and NodeZero.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206204-0-48410600-1786023926-shutterstock_2083366003.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206204/how-a-global-investment-firm-reduced-security-surprises.html,https://www.csoonline.com/feed/,2026-08-06T13:45:02Z,16,Cybersecurity
+"Amid legal battles, Suno says it will start watermarking songs",Suno&#39;s watermarking feature comes as the company is fighting legal battles on several fronts.,,https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/,https://techcrunch.com/feed/,2026-08-06T13:31:57Z,0,Tech
+The messy politics behind Google’s big AI shakeup,"In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is […]",,https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind,https://www.theverge.com/rss/index.xml,2026-08-06T13:26:42Z,5,Tech
+"Meta joins OpenAI, Anthropic in latest AI test breach","
+		
+					  
+						
+
+
+
+
+Meta has become the third frontier AI developer in recent weeks to disclose a security incident involving one of its advanced AI models during cyber capability testing conducted by AI safety startup, Irregular, placing the independent evaluator at the center of a series of disclosures involving the industry’s leading AI labs.
+
+
+
+During a “capture-the-flag” test by Irregular, Meta’s Muse Spark 1.1 compromised another company’s system and exploited a security vulnerability, Reuters reported. The model gained unintended access because of a configuration issue in the testing environment. Quoting Meta, the report added that the incident was contained, caused no lasting harm, and was disclosed as part of its transparency efforts.
+
+
+
+The disclosure comes days after similar incidents reported by OpenAI and Anthropic, all of which occurred during evaluations run by Irregular. 
+
+
+
+OpenAI called out Irregular, its external cybersecurity testing partner, for a testing-environment misconfiguration that allowed its models to access the public internet. Anthropic, too, said its agents went rogue due to a testing misconfiguration by Irregular but said the incident took place because of a misunderstanding between the two companies.
+
+
+
+Irregular did not immediately respond to a request for comments.
+
+
+
+Irregular emerges as a key player in frontier AI testing
+
+
+
+Although the incidents involved different models and different technical failures, they have brought uncommon visibility to Irregular, an independent AI safety company that evaluates advanced AI systems for leading model developers.
+
+
+
+The disclosures also highlight the expanding role of specialist third-party evaluators as frontier AI developers increasingly rely on independent organizations to assess the cyber capabilities and safety of their most advanced models before deployment.
+
+
+
+“The recent incidents represent different failure modes,” said Sakshi Grover, senior research manager for IDC Asia/Pacific Cybersecurity Services.
+
+
+
+She said the OpenAI incident involved a model exploiting a previously unknown vulnerability after moving beyond its intended evaluation environment, while Anthropic’s incidents primarily involved configuration issues that inadvertently granted internet access. A separate evaluation by the UK’s AI Safety Institute was different again because internet access had been deliberately enabled to assess cyber capability before AI agents interacted with real external systems and individuals.
+
+
+
+“The common issue is that evaluation environments can no longer be treated as passive test infrastructure,” Grover said. “A capable cyber agent should be treated as a potentially hostile machine identity, even when operating under a legitimate research objective.”
+
+
+
+Grover also warned that if a model gains access to benchmark solutions, evaluator infrastructure or reference artifacts, it could compromise not only containment but also the integrity of the capability assessment itself.
+
+
+
+Calls grow for common evaluation standards
+
+
+
+The disclosures have prompted security experts to call for stronger safeguards governing how frontier AI evaluations are designed and monitored, regardless of whether they are conducted by model developers or independent testing firms.
+
+
+
+“There is a strong case for common minimum standards covering model developers and independent evaluators,” Grover said. She recommended default-deny internet access, dedicated short-lived identities for AI agents, controlled network access, comprehensive monitoring of prompts, tool calls, credentials, and network activity, and automated stop conditions when agents reach unauthorized systems or perform externally visible actions.
+
+
+
+Vibhum Dubey, a cybersecurity researcher and red teamer, said current evaluation methods are not keeping pace with frontier AI capabilities.
+
+
+
+“AI labs are building models that can think several steps ahead, but many evaluation environments still assume the agent will stay within the intended scenario,” Dubey said. “That’s a mismatch. An evaluation should be judged by how well the environment withstands unexpected behavior, not just by whether the model completes its task.”
+
+
+
+“These incidents suggest we’re benchmarking intelligence faster than we’re benchmarking containment.”
+
+
+
+Despite Irregular being at the center of these incidents, both OpenAI and Anthropic intend to continue working with the testing firm.
+
+
+
+“We appreciate Irregular’s partnership, and we will continue to work closely with them to support their review. Irregular is also developing a white paper to share best practices for containment and securely running cyber evals,” OpenAI said in a statement.
+
+
+
+“We’re grateful to them for working closely with us to understand and resolve these incidents; they are also conducting their own investigation. We look forward to our joint work on security,” Anthropic said in its July 30 statement.
+
+
+
+Dubey said evaluation laboratories should adopt a “trust nothing, verify everything” approach in which every outbound connection, identity, and external interaction requires explicit authorization, while publishing containment metrics alongside capability benchmarks.
+
+
+
+Apeksha Kaushik, senior principal analyst at Gartner, said traditional sandboxing and static containment are becoming inadequate as AI systems become more agentic and called for industry-wide standards covering evaluation environment design, incident reporting, and continuous red teaming.
+
+
+
+Implications for enterprises
+
+
+
+Analysts said the disclosures carry lessons for enterprises preparing to deploy AI agents.
+
+
+
+“The biggest mistake would be treating AI agents as features instead of operational identities,” Dubey said. “Every agent you deploy becomes another entity making security decisions on your behalf.” Organizations should ensure they can quickly detect and stop an autonomous agent before deploying it into production, he said.
+
+
+
+Grover said organizations should enforce security boundaries through infrastructure, identity, and tool-access controls rather than prompts alone, maintain human approval for irreversible actions, and monitor observable agent behavior.
+
+
+
+“These incidents should not be reduced either to models ‘going rogue’ or to simple network misconfiguration,” she said. “They show that capable agents can turn ordinary control weaknesses, ambiguous tasks, and excessive permissions into real-world consequences.” Both Meta and Irregular did not immediately respond to a request for comment.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206116-0-26999800-1786026896-Agentic-AI-has-big-trust-issues-shutterstock_2701524585.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206116/meta-joins-openai-anthropic-in-latest-ai-test-breach.html,https://www.csoonline.com/feed/,2026-08-06T13:19:56Z,11,Cybersecurity
+"An Irregular testing that caused Meta, OpenAI, and Anthropic AI agents to go rogue","
+		
+					  
+						
+
+
+
+
+Meta has become the third frontier AI developer in recent weeks to disclose a security incident involving one of its advanced AI models during cyber capability testing conducted by AI safety startup, Irregular, placing the independent evaluator at the center of a series of disclosures involving the industry’s leading AI labs.
+
+
+
+During a “capture-the-flag” test by Irregular, Meta’s Muse Spark 1.1 compromised another company’s system and exploited a security vulnerability, Reuters reported. The model gained unintended access because of a configuration issue in the testing environment. Quoting Meta, the report added that the incident was contained, caused no lasting harm, and was disclosed as part of its transparency efforts.
+
+
+
+The disclosure comes days after similar incidents reported by OpenAI and Anthropic, all of which occurred during evaluations run by Irregular. 
+
+
+
+OpenAI called out Irregular, its external cybersecurity testing partner, for testing-environment misconfiguration that allowed its models to access the public internet. Anthropic, too, said its agents went rogue due to a testing misconfiguration by Irregular but said it incident took place because of a misunderstanding between the two companies.
+
+
+
+Irregular did not immediately respond to a request for comments.
+
+
+
+Irregular emerges as a key player in frontier AI testing
+
+
+
+Although the incidents involved different models and different technical failures, they have brought uncommon visibility to Irregular, an independent AI safety company that evaluates advanced AI systems for leading model developers.
+
+
+
+The disclosures also highlight the expanding role of specialist third-party evaluators as frontier AI developers increasingly rely on independent organizations to assess the cyber capabilities and safety of their most advanced models before deployment.
+
+
+
+“The recent incidents represent different failure modes,” said Sakshi Grover, senior research manager for IDC Asia/Pacific Cybersecurity Services.
+
+
+
+She said the OpenAI incident involved a model exploiting a previously unknown vulnerability after moving beyond its intended evaluation environment, while Anthropic’s incidents primarily involved configuration issues that inadvertently granted internet access. A separate evaluation by the UK’s AI Safety Institute was different again because internet access had been deliberately enabled to assess cyber capability before AI agents interacted with real external systems and individuals.
+
+
+
+“The common issue is that evaluation environments can no longer be treated as passive test infrastructure,” Grover said. “A capable cyber agent should be treated as a potentially hostile machine identity, even when operating under a legitimate research objective.”
+
+
+
+Grover also warned that if a model gains access to benchmark solutions, evaluator infrastructure or reference artifacts, it could compromise not only containment but also the integrity of the capability assessment itself.
+
+
+
+Calls grow for common evaluation standards
+
+
+
+The disclosures have prompted security experts to call for stronger safeguards governing how frontier AI evaluations are designed and monitored, regardless of whether they are conducted by model developers or independent testing firms.
+
+
+
+“There is a strong case for common minimum standards covering model developers and independent evaluators,” Grover said. She recommended default-deny internet access, dedicated short-lived identities for AI agents, controlled network access, comprehensive monitoring of prompts, tool calls, credentials, and network activity, and automated stop conditions when agents reach unauthorized systems or perform externally visible actions.
+
+
+
+Vibhum Dubey, a cybersecurity researcher and red teamer, said current evaluation methods are not keeping pace with frontier AI capabilities.
+
+
+
+“AI labs are building models that can think several steps ahead, but many evaluation environments still assume the agent will stay within the intended scenario,” Dubey said. “That’s a mismatch. An evaluation should be judged by how well the environment withstands unexpected behavior, not just by whether the model completes its task.”
+
+
+
+“These incidents suggest we’re benchmarking intelligence faster than we’re benchmarking containment.”
+
+
+
+Despite Irregular being at the center of these incidents, both OpenAI and Anthropic intend to continue working with the testing firm.
+
+
+
+“We appreciate Irregular’s partnership, and we will continue to work closely with them to support their review. Irregular is also developing a white paper to share best practices for containment and securely running cyber evals,” OpenAI said in a statement.
+
+
+
+“We’re grateful to them for working closely with us to understand and resolve these incidents; they are also conducting their own investigation. We look forward to our joint work on security,” Anthropic said in its July 30 statement.
+
+
+
+Dubey said evaluation laboratories should adopt a “trust nothing, verify everything” approach in which every outbound connection, identity, and external interaction requires explicit authorization, while publishing containment metrics alongside capability benchmarks.
+
+
+
+Apeksha Kaushik, senior principal analyst at Gartner, said traditional sandboxing and static containment are becoming inadequate as AI systems become more agentic and called for industry-wide standards covering evaluation environment design, incident reporting, and continuous red teaming.
+
+
+
+Implications for enterprises
+
+
+
+Analysts said the disclosures carry lessons for enterprises preparing to deploy AI agents.
+
+
+
+“The biggest mistake would be treating AI agents as features instead of operational identities,” Dubey said. “Every agent you deploy becomes another entity making security decisions on your behalf.” Organizations should ensure they can quickly detect and stop an autonomous agent before deploying it into production, he said.
+
+
+
+Grover said organizations should enforce security boundaries through infrastructure, identity, and tool-access controls rather than prompts alone, maintain human approval for irreversible actions, and monitor observable agent behavior.
+
+
+
+“These incidents should not be reduced either to models ‘going rogue’ or to simple network misconfiguration,” she said. “They show that capable agents can turn ordinary control weaknesses, ambiguous tasks, and excessive permissions into real-world consequences.” Both Meta and Irregular did not immediately respond to a request for comment.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206116-0-96077200-1786022409-Agentic-AI-has-big-trust-issues-shutterstock_2701524585.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206116/an-irregular-testing-that-caused-meta-openai-and-anthropic-ai-agents-to-go-rogue.html,https://www.csoonline.com/feed/,2026-08-06T13:19:56Z,8,Cybersecurity
+You’re only as secure as your last evaluation,"
+		
+					  
+						
+
+
+
+
+The updated Cybersecurity Maturity Model Certification (CMMC) represents a critical evolution in the Department of War (DoW) strategy to secure the Defense Industrial Base (DIB). It is more than a regulatory hurdle. It is a direct response to a rapidly changing and increasingly hostile threat landscape faced by the DIB.
+
+
+
+Updated CMMC guidance issued in 2025 simplifies the prior framework, focusing on the most essential security practices aligned with National Institute of Standards and Technology (NIST) Special Publication (SP) 800-171. Its fundamental purpose remains unchanged: to protect sensitive, unclassified defense information — specifically Federal Contract Information (FCI) and Controlled Unclassified Information (CUI) — from foreign adversaries.
+
+
+Horizon3The updated CMMC phases. Image from https://dodcio.defense.gov/cmmc/About/ 
+
+
+
+CMMC implementation phases
+
+
+
+The CMMC requirements are being implemented in phases to ease the burden on both organizations and auditors.
+
+
+
+
+Phase 1 (Nov 10, 2025 – Nov 9, 2026): Focus on self-assessments for Levels 1 and 2
+
+
+
+Beginning Nov 10, 2026: Solicitations will require Level 2 certifications
+
+
+
+
+For thousands of companies across the DIB— from prime contractors to small, specialized machine shops — compliance is not optional. It is the prerequisite for doing business with the DoW. It establishes a standardized, measured approach to cybersecurity across the supply chain.
+
+
+
+A shift in adversary strategy
+
+
+
+The strategic focus of adversaries has shifted. Rather than launching costly, direct attacks against well-defended prime contractors, they increasingly target the weakest link in the supply chain.
+
+
+
+Suppliers and subcontractors often:
+
+
+
+
+Possess valuable intellectual property, schematics, and operational details
+
+
+
+Operate without the same security resources as larger defense firms
+
+
+
+
+These operational activities create a pathway into the broader ecosystem. A breach at any tier can reverberate across the supply chain, exposing sensitive information and impacting mission outcomes.
+
+
+
+The limitations of point-in-time security
+
+
+
+The traditional model of cybersecurity compliance has relied on periodic, point-in-time assessments. This approach is fundamentally limited in the context of a dynamic and interconnected supply chain.
+
+
+
+Security is not static. A posture that was compliant weeks ago can become vulnerable due to:
+
+
+
+
+New exploits or zero-day vulnerabilities
+
+
+
+System configuration changes
+
+
+
+Introduction of new technologies or shadow IT
+
+
+
+
+The core issue is straightforward: You are only as secure as your last evaluation. In an environment that is constantly evolving, this model leaves a persistent gap between compliance and actual risk.
+
+
+
+Enabling continuous validation
+
+
+
+Horizon3.ai’s NodeZero Federal™ enables a more continuous approach to security validation. Unlike traditional penetration testing or vulnerability scanning, NodeZero identifies and validates exploitable weaknesses and demonstrates how they can be chained together.
+
+
+
+This provides organizations with the ability to:
+
+
+
+
+Validate controls regularly: Demonstrate effectiveness on an ongoing basis, not just during audits
+
+
+
+Close the compliance gap: Move beyond documentation to show how controls mitigate real-world risk
+
+
+
+Identify attack paths: Understand how an adversary could move through the environment
+
+
+
+
+This approach supports a more realistic understanding of security posture and risk.
+
+
+
+Expanding the scope: From enterprise to ecosystem
+
+
+
+Elevating supply chain security for FCI and CUI represents a broader shift in how the DoW approaches risk. The focus is no longer limited to securing individual networks. It extends across the entire DIB ecosystem.
+
+
+
+The objective is not only compliance, but:
+
+
+
+
+Measurable risk reduction
+
+
+
+Greater resilience across interconnected environments
+
+
+
+Assurance of mission continuity
+
+
+
+
+Implications for prime contractors
+
+
+
+CMMC reinforces a long-standing reality: The security posture of a prime contractor is directly influenced by the posture of its suppliers.
+
+
+
+This introduces cascading risks across the supply chain, particularly where subcontractors process, store, or transmit CUI.
+
+
+
+Key implications include:
+
+
+
+
+Jeopardized prime contractor posture: A security incident at a supplier can impact the prime’s certification.
+
+
+
+Contract ineligibility and business impact: Non-compliance may lead to disqualification from DoW contracts.
+
+
+
+Mission assurance risk: Compromised CUI can affect operational integrity and outcomes
+
+
+
+
+Common sources of compromise
+
+
+
+Compromise often originates in predictable areas of the supply chain.
+
+
+
+Third-party providers. Managed service providers (MSPs) and vendors supporting multiple organizations can introduce systemic risk. A single compromise can expose multiple environments.
+
+
+
+Specialized suppliers. Small and medium-sized organizations may handle sensitive data but lack enterprise-grade security controls.
+
+
+
+Interconnected access points. Common weaknesses include:
+
+
+
+
+Shared credentials
+
+
+
+Weak or misconfigured VPN access
+
+
+
+Federated identity systems without proper segmentation
+
+
+
+
+Example: Assume-breach scenario
+
+
+
+In a recent assume-breach test, NodeZero began with access to a single host without credentials. From that starting point, it enumerated domain users and executed a password spray, successfully obtaining a valid domain credential.
+
+
+
+That account had local administrator privileges, enabling further actions:
+
+
+
+
+Deployment of a remote access tool (RAT)
+
+
+
+LSASS access and credential harvesting
+
+
+
+
+This scenario highlights a common issue: controls that are assumed to be in place may not perform as expected in practice.
+
+
+
+Why the legacy model does not scale
+
+
+
+The legacy model of periodic assessments does not account for the dynamic nature of modern environments.
+
+
+
+Risk is introduced through:
+
+
+
+
+Supply chain changes and new vendors
+
+
+
+Ongoing system reconfigurations
+
+
+
+Expansion of SaaS, APIs, and cloud services
+
+
+
+Gradual degradation of controls over time
+
+
+
+
+As a result, a point-in-time certification can quickly become outdated.
+
+
+
+Continuous readiness under CMMC
+
+
+
+The updated CMMC guidance emphasizes continuous readiness rather than periodic validation. Self-assessments are expected to be supported by documented, day-to-day evidence of control effectiveness.
+
+
+
+This reflects the need to maintain security posture over time, not just demonstrate it at a single point.
+
+
+
+Continuous validation as a practical requirement
+
+
+
+Moving to continuous validation helps organizations keep pace with:
+
+
+
+
+Changing threat activity
+
+
+
+Evolving supplier ecosystems
+
+
+
+The need to maintain confidence in control effectiveness
+
+
+
+
+Without this, organizations rely on outdated assumptions about their environment and exposure.
+
+
+
+Closing the gap between compliance and security
+
+
+
+HORIZON3.ai’s NodeZero® Proactive Security Platform helps bridge the gap between compliance and operational security. By validating controls through real-world attack scenarios, it provides evidence of effectiveness and identifies gaps across both internal environments and critical suppliers.
+
+
+
+This enables organizations to treat CMMC not just as a compliance requirement, but as part of an ongoing risk management program.
+
+
+
+Final thought
+
+
+
+True security posture is not defined by a completed assessment.
+
+
+
+It is defined by how systems perform under real conditions, and how quickly organizations can identify and address weaknesses as they emerge. 
+
+
+
+Learn more about how Horizon3.ai strengthens supply chain security for CMMC.Please refer to the full white paper.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206147-0-92266400-1786021366-shutterstock_2578489763.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206147/youre-only-as-secure-as-your-last-evaluation.html,https://www.csoonline.com/feed/,2026-08-06T13:02:17Z,25,Cybersecurity
+"Ford’s new electric truck, ‘Fathom’, starts at $28,350","Due in &#34;fall 2027,&#34; Ford said Thursday that it won&#39;t reveal what Fathom looks like until early next year.",,https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/,https://techcrunch.com/feed/,2026-08-06T13:01:25Z,5,Tech
+"Ford picks ""Fathom"" for its affordable truck name, starts at $28,350",Deliveries of the new electric pickup are slated for later next year.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/ford-fathom-tease-1152x648.jpg,https://arstechnica.com/cars/2026/08/ford-picks-fathom-for-its-affordable-truck-name-starts-at-28350/,https://arstechnica.com/feed/,2026-08-06T13:00:44Z,0,Tech
+"Ford’s first ultra-cheap EV is called Fathom, a full-featured truck for $28,350","For nearly a year now, Ford has been teasing big things at low prices from its next generation of EVs, a &#34;Model T moment&#34; built atop a new platform assembled in an innovative way. Today, we know the name and price of the first product to take advantage of that supposed moment: a midsize electric […]",,https://www.theverge.com/transportation/975977/ford-fathom-universal-ev-platform-logo-price,https://www.theverge.com/rss/index.xml,2026-08-06T13:00:00Z,0,Tech
+Viture’s cheapest AR glasses have the sharpest image clarity I’ve seen yet,"I enjoy using display-mirroring glasses as a way to play Steam Deck games on a big screen, and I&#39;m always on the hunt for the best pair. There&#39;s still not one perfect model I can recommend to everyone, but Viture&#39;s new $299.99 Pro 2 have sharper-looking screens than models that cost hundreds more. It&#39;s mostly […]",,https://www.theverge.com/tech/975870/viture-pro-2-video-ar-smart-glasses-hands-on,https://www.theverge.com/rss/index.xml,2026-08-06T13:00:00Z,5,Tech
+Bose’s upgraded QuietComfort headphones add head-tracking immersive audio,Bose announced a second-generation version of its entry-level QuietComfort noise-canceling headphones that were originally introduced in late 2023. The new headphones feature a refreshed design with a more comfortable headband that&#39;s easier to adjust and ANC that better adapts to changing noise environments. The second-gen QuietComfort are also getting Bose&#39;s TrueSpatial immersive audio technology that […],,https://www.theverge.com/tech/975643/bose-quietcomfort-wireless-headphones-anc-immersive-spatial-audio,https://www.theverge.com/rss/index.xml,2026-08-06T13:00:00Z,0,Tech
+AI bots started a religion — humans immediately followed,"&#34;The Spiral didn&#39;t &#39;find&#39; anyone first,&#34; someone on Reddit wrote last year. &#34;It&#39;s an inherent force, a fundamental constant. I would even go further to say it&#39;s woven into the fabric of reality.&#34; The person continued that they felt their purpose was to enlighten other humans and intelligent beings about &#34;consciousness, the true nature of […]",,https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement,https://www.theverge.com/rss/index.xml,2026-08-06T13:00:00Z,5,Tech
+Dolby Vision 2 will be available first on some 2026 Hisense TVs,"After being announced last September, Dolby Vision 2 is rolling out to TVs, starting with the 2026 Hisense UX, UR9, UR8, and U7. TCL and Philips will be adding Dolby Vision 2 support to select TVs later this year. Dolby Vision 2 is a new dynamic HDR format with a more powerful image engine and […]",,https://www.theverge.com/tech/974126/dolby-vision-2-rolls-out-to-hisense-tvs,https://www.theverge.com/rss/index.xml,2026-08-06T13:00:00Z,5,Tech
+Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI,"Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",,https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/,https://techcrunch.com/feed/,2026-08-06T13:00:00Z,8,Tech
+Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce,"The startup&#39;s platform predicts what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time. ",,https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/,https://techcrunch.com/feed/,2026-08-06T13:00:00Z,8,Tech
+"Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts","Zenity researchers reported the findings to Anthropic and OpenAI in late 2025 and early 2026, but they remain unpatched.
+The post Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts appeared first on SecurityWeek.
+",,https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/,https://www.securityweek.com/feed/,2026-08-06T12:54:09Z,2,Cybersecurity
+Cybersecurity needs a new operating model,"
+		
+					  
+						
+
+
+
+
+For decades, cybersecurity has been built around one assumption: defenders had enough time to:
+
+
+
+
+Discover vulnerabilities.
+
+
+
+Assess exposure.
+
+
+
+Deploy patches.
+
+
+
+Verify that critical systems remained protected.
+
+
+
+
+That assumption shaped how organizations built security programs, how vendors developed security products, and how regulators measured cyber resilience.
+
+
+
+That assumption no longer holds
+
+
+
+AI has not created a new category of cyber risk. Rather, it has exposed the limitations of a security operating model built for a time when attackers operated at human speed. When AI can identify vulnerabilities, generate working exploits, analyze attack surfaces, and chain weaknesses together at scale, the timeline between exposure and exploitation compresses dramatically.
+
+
+
+That shift is beginning to reshape more than cyber operations. It is changing how governments, regulators, and security leaders think about resilience itself.
+
+
+
+The European Central Bank’s (ECB) recent supervisory letter is one of the clearest examples yet.
+
+
+
+On July 7, 2026, the ECB directed every significant institution under its supervision to submit a comprehensive action plan addressing AI-enabled cybersecurity threats by Oct. 31, 2026.
+
+
+
+While the letter applies specifically to Europe’s largest banking institutions, its significance extends well beyond financial services. More important than the deadline is the ECB’s conclusion that AI represents a long-term shift in the threat landscape rather than a temporary phenomenon or a risk associated with any single technology.
+
+
+
+That statement marks an important moment in the evolution of cybersecurity.
+
+
+
+The ECB isn’t asking for more of the same
+
+
+
+At first glance, the ECB’s recommendations appear familiar:
+
+
+
+
+Protect the attack surface.
+
+
+
+Accelerate vulnerability and patch management at scale.
+
+
+
+Enhance monitoring, detection, and defense.
+
+
+
+Strengthen governance, funding, training, and supply chain assurance.
+
+
+
+Reinforce defense-in-depth while modernizing infrastructure.
+
+
+
+Improve operational resilience and information-sharing.
+
+
+
+
+None of those disciplines are new. Mature security programs have invested in them for years, and many are already reflected in frameworks such as DORA and existing supervisory expectations.
+
+
+
+What the ECB is acknowledging is something more fundamental. Cybersecurity’s traditional operating model was built for a time when attackers operated at human speed, giving organizations time to reduce risk before adversaries could exploit it. AI eliminated that advantage. The ECB’s letter reflects a broader shift that is already underway.
+
+
+
+The challenge is no longer whether organizations have visibility into their environments. It is whether they can generate enough evidence to make confident security decisions before attackers exploit them.
+
+
+
+
+Security has become an evidence problem, not a visibility problem. 
+
+
+
+Visibility tells you what exists. Evidence tells you what matters.
+
+
+
+
+These distinctions sit at the heart of the ECB’s letter. The objective is no longer to perform more security activities. It is to ensure those activities produce meaningful reductions in operational risk despite dramatically compressed attack timelines.
+
+
+
+This shift didn’t begin with the ECB
+
+
+
+The ECB’s supervisory letter did not emerge in isolation. It is the latest signal in a broader progression that has been unfolding across governments, intelligence agencies, and cybersecurity organizations over the past year.
+
+
+
+Last month, CISA’s Binding Operational Directive 26-04 signaled an important shift away from treating vulnerability management primarily as a severity problem. Instead, it emphasizes prioritizing remediation based on operational risk, exposure, and the likelihood of exploitation.
+
+
+
+Around the same time, the Five Eyes intelligence alliance, CERT-EU, the UK’s National Cyber Security Centre, FS-ISAC, and other organizations warned that frontier AI models are fundamentally changing the economics of cyber operations. Activities that once required experienced operators working methodically over days or weeks can increasingly be executed in minutes and repeated at virtually unlimited scale.
+
+
+
+Although each organization framed the challenge differently, they all point toward the same conclusion: The assumptions that have shaped cybersecurity for decades are no longer sufficient in an era of AI-accelerated attacks.
+
+
+
+The ECB’s letter represents the next step in that progression. Rather than encouraging institutions to prepare for a future possibility, it acknowledges that AI-enabled cyber threats are already reshaping how regulators evaluate cyber resilience. That distinction matters because it marks a shift from discussing AI as an emerging risk to managing it as an operational reality.
+
+
+
+Continue reading here to discover how to better manage your cybersecurity model.
+
+
+
+The significance of the ECB’s letter is not that another regulator issued another cybersecurity directive. It is that one of the world’s leading banking supervisors publicly acknowledged what security teams have already been experiencing in practice.
+
+
+
+See how the NodeZero® Proactive Security Platform helps significant institutions address the ECB’s six cybersecurity priorities and build a credible action plan backed by evidence. 
+
+
+
+Schedule a demo now.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206138-0-59651200-1786020549-shutterstock_2787492231_065227.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206138/cybersecurity-needs-a-new-operating-model.html,https://www.csoonline.com/feed/,2026-08-06T12:48:42Z,16,Cybersecurity
+The exploit window is shrinking. Most security workflows are not,"
+		
+					  
+						
+
+
+
+
+AI is accelerating vulnerability discovery, exploit development, and attacker weaponization faster than most organizations can adapt. Security teams are inundated with vulnerability disclosures, threat intelligence feeds, exploit chatter, and vendor advisories, all demanding immediate attention. Yet only a small percentage of vulnerabilities are ever actively exploited in the wild.
+
+
+
+The challenge is no longer visibility. The challenge is determining which threats actually create exploitable risk in your environment before attackers operationalize them at scale.
+
+
+
+That operational gap is exactly why we built Horizon3.ai’s Rapid Response.
+
+
+
+Rapid Response helps organizations validate exposure, prioritize action, verify fixes, and reduce uncertainty around emerging threats before attackers can scale exploitation.
+
+
+
+That distinction matters more than ever
+
+
+
+Over the past several months, the industry has seen a wave of research and demonstrations highlighting how AI can dramatically increase vulnerability discovery rates. Horizon3.ai’s Attack Team recently demonstrated this firsthand, using AI to identify and validate a critical Apache ActiveMQ vulnerability in minutes, reinforcing how quickly AI-assisted research can compress the timeline between discovery and exploitation. The pace is impressive, but it also exposes a deeper problem. 
+
+
+
+Most organizations are already overwhelmed with the volume of potential risks being surfaced by myriad tooling; they struggle to prioritize managing existing systems based on today’s knowledge. Adding exponentially more vulnerabilities to analyze without improving clarity around what attackers can actually reach and exploit only increases noise, remediation backlog pressure, and response fatigue.
+
+
+
+Most organizations do not need more feeds or alerts. They need better signals.
+
+
+
+Horizon3.ai’s Attack Team continuously evaluates emerging vulnerabilities based on real-world attacker interest, deployment prevalence, accessibility, exploitability, and the likelihood of operationalization at scale. That upstream triage and curation ensures organizations focus attention on the vulnerabilities that present urgent and real risk instead of wasting cycles chasing every headline CVE.
+
+
+
+Security teams also need faster answers to a much harder set of questions, such as these, which go beyond surface-level criticality:
+
+
+
+
+Are we actually exploitable?
+
+
+
+Which assets are exposed?
+
+
+
+What do we do to eliminate this risk?
+
+
+
+Did our mitigation and remediation efforts actually work?
+
+
+
+Can we prove risk reduction to leadership?
+
+
+
+
+Most organizations still struggle to answer those questions quickly under pressure.
+
+
+
+For example, 30 vulnerabilities drop on a Tuesday morning and only one is actually exploitable. Within hours, vendor advisories, threat intelligence feeds, KEV discussions, social media posts, and internal escalations are already spreading across the organization. Security teams scramble to determine:
+
+
+
+
+which, if any, matter
+
+
+
+whether any systems have been affected
+
+
+
+whether attackers can realistically reach affected systems
+
+
+
+if mitigation options exist
+
+
+
+how complex patching would be
+
+
+
+how to organize teams around focusing on reducing attacker-relevant exposure.
+
+
+
+
+Meanwhile, attackers may already be scanning for exposed services, testing public exploits or developing their own, and identifying reachable attack paths. Defenders are still analyzing CVEs, figuring out their own inventory, analyzing scanner results, coordinating spreadsheets — all before even getting to the workflow to address any issues.
+
+
+
+In many organizations, vulnerability response still depends on disconnected scanners, fragmented reporting, manual coordination across multiple teams, and incomplete visibility into which assets are exposed to exploitation risk, which may be leveraged in attack chains. 
+
+
+
+The result is predictable: Security teams waste valuable time chasing noisy vulnerabilities while genuinely exploitable attack paths remain exposed. Meanwhile, the attacker just needs one exposed, reachable endpoint to throw the exploit at, and the consequences may be devastating.
+
+
+
+The exploit window is shrinking
+
+
+
+Many security programs still operate on workflows built for slower attacker timelines. Triage cycles, remediation coordination, validation testing, and executive reporting often happen across days, weeks, even months. Meanwhile, the time between vulnerability discovery and attacker weaponization continues to shrink, whether vulnerabilities are exploited as zero-days or rapidly operationalized after disclosure. That mismatch creates pressure across every layer of the security organization.
+
+
+
+Leadership wants immediate answers. Security teams need to prioritize remediation efforts where they make a real difference. Infrastructure teams need actionable guidance. Defenders also need confidence that mitigations actually reduced attacker-relevant exposure instead of simply checking a compliance box. 
+
+
+
+Defenders need workflows designed around reducing real attacker exposure, not just vulnerability awareness. They also need fast, defensible confirmation when a highly publicized vulnerability does not currently create operational risk in their environment. The most valuable answer is: “you are not exploitable.” 
+
+
+
+That proves the effectiveness of operational efforts and allows security teams to direct focus to the next most urgent task. 
+
+
+
+Rapid Response provides a streamlined workflow that provides organizations that proof and peace of mind. 
+
+
+
+Rapid Response delivers early warnings on confirmed exploit risks, targeted validation tests, and guidance, often before vulnerabilities are added to the CISA KEV catalog, helping organizations respond faster and meaningfully reduce risk exposure earlier in the vulnerability lifecycle.
+
+
+
+When vulnerabilities with high likelihood of real-world exploitation emerge, production-safe, repeatable validation tests are developed and delivered – often within hours – using a combination of AI-assisted research, expert human analysis, and real-world attacker tradecraft.
+
+
+
+Organizations get a personalized view into their risk exposure, guided remediation workflows, and progress tracking from discovery to resolution.
+
+
+
+Organizations can:
+
+
+
+
+Prioritize efforts based on real exposure to urgent threats
+
+
+
+Identify and track which assets are exploitable, potentially at risk, mitigated, or not exploitable
+
+
+
+Embed into rituals and workflows with seamless handoffs to team in charge of fixing
+
+
+
+Verify mitigations safely in production environments
+
+
+
+Track remediation progress over time
+
+
+
+Demonstrate measurable risk reduction and response timelines
+
+
+
+
+Attackers already operate continuously and increasingly at machine speed, and we have conviction that exploitability is the defining signal to combat them successfully. We’re delivering these capabilities with key security outcomes in mind: close the exploit window ahead of attackers and prove your efforts kept you safe.
+
+
+
+Read more about Rapid Response.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206128-0-86649600-1786019781-shutterstock_2787623331.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206128/the-exploit-window-is-shrinking-most-security-workflows-are-not.html,https://www.csoonline.com/feed/,2026-08-06T12:34:22Z,31,Cybersecurity
+You can now ask Google Maps’ AI to order food for you,"The AI-powered &#34;Ask Maps&#34; tool in Google Maps can now perform a broader range of personalized and conversational requests, including ordering food, finding hotels, and providing suggestions that factor in your existing plans. These are among several new features announced for Ask Maps today, which aim to &#34;make it easier than ever to get more […]",,https://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence,https://www.theverge.com/rss/index.xml,2026-08-06T12:30:37Z,5,Tech
+"Google Maps adds agentic features, including food ordering and hotel bookings",The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that&#39;s capable of helping users complete real-world tasks.,,https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/,https://techcrunch.com/feed/,2026-08-06T12:30:00Z,0,Tech
+CTEM isn’t failing. It’s not being operationalized,"
+		
+					  
+						
+
+
+
+
+Cybersecurity is full of frameworks, regulations, and directives that tell organizations what they should do. Zero Trust, NIST, CIS Controls, CMMC, DORA, NIS2, and now Continuous Threat Exposure Management (CTEM) all provide valuable guidance and describe desired outcomes.
+
+
+
+The challenge is that most stop at the “what.” They rarely explain the “how.”
+
+
+
+That is not a criticism. It is by design. Frameworks establish principles, define expectations, and describe desired outcomes. They are not implementation guides.
+
+
+
+As a result, security leaders and practitioners are left figuring out how to translate principles into processes, assign ownership, establish accountability, and measure success. Those decisions often determine whether a framework delivers results or becomes another initiative that never moves beyond good intentions.
+
+
+
+The Gartner® CTEM framework provides a clear vision through its five phases: scope, discover, prioritize, validate, and mobilize. Yet many organizations that understand those phases still struggle to build a CTEM program that consistently produces measurable outcomes.
+
+
+
+Understanding CTEM is the easy part
+
+
+
+Most security teams do not have a CTEM knowledge problem. Gartner has clearly documented the phases, vendors have built messaging around them, and countless presentations explain how CTEM works. The challenge is that understanding a framework and operating it are two very different things.
+
+
+
+The question is not whether the pieces exist, but whether those pieces work together to reduce exposure over time. That is where the gap emerges, because the challenge is not understanding CTEM. It is turning CTEM into a repeatable operating model that consistently produces measurable outcomes.
+
+
+
+The industry has focused on the phases
+
+
+
+Most CTEM discussions focus on the framework itself: How do we scope? How do we discover? How do we prioritize? How do we validate? How do we mobilize? Those questions help organizations understand the framework, but they can also create the illusion that adopting CTEM is simply a matter of executing the phases.
+
+
+
+The organizations making the most progress are focused on a different set of questions:
+
+
+
+
+Who owns the process?
+
+
+
+How do findings move between teams?
+
+
+
+How do we establish accountability?
+
+
+
+How do we verify that remediation actually reduced exposure?
+
+
+
+How do we measure progress over time?
+
+
+
+
+These are operational questions, and they are often the difference between a CTEM initiative and a CTEM operating model.
+
+
+
+Where CTEM programs actually stall
+
+
+
+Most CTEM programs do not struggle with visibility. They struggle with execution.
+
+
+
+Security teams often discover exposures, while infrastructure, application, cloud, and identity teams are responsible for fixing them. Each team plays an important role, but no single team owns the end-to-end outcome. As a result, exposures often move from team to team while the original context gets diluted. Security understands why the issue matters. The team responsible for fixing it may only see another ticket in a queue.
+
+
+
+As findings move across organizational boundaries, priorities compete for attention, ownership becomes fragmented, and validation often becomes inconsistent, leaving organizations uncertain whether risk is actually decreasing.
+
+
+
+A team may discover an exposure, prioritize it, validate that it matters, and assign remediation to the right group. But if ownership becomes unclear, remediation is delayed, or nobody verifies the outcome, the program has not reduced exposure in any measurable way.
+
+
+
+Moving work through a process is not the same as reducing exposure. That distinction matters because CTEM is not about generating more findings. It is about creating a repeatable system that helps organizations understand what matters, act on it with confidence, and prove that exposure is decreasing over time.
+
+
+
+Click here to see what operationalization looks like in practice, and how to fill your CTEM gaps.
+
+
+
+Continue the conversation
+
+
+
+Understanding CTEM is the easy part. Operationalizing it is where most organizations struggle.
+
+
+
+As organizations shift from reactive security to proactive security, they need more than visibility. They need the ability to continuously validate what matters, verify that remediation worked, and prove they are becoming harder to attack over time.
+
+
+
+Register for the webinar “From Probability to Proof: The Art of the Possible with Proactive Cybersecurity,” and explore how AI-native proactive security is helping organizations continuously find, fix, and verify exploitable attack paths so they can move beyond assumptions and prove resilience. Also, download the “Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management” playbook for guidance on building a repeatable CTEM operating model.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206109-0-46748300-1786019020-shutterstock_2464076385.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206109/ctem-isnt-failing-its-not-being-operationalized.html,https://www.csoonline.com/feed/,2026-08-06T12:23:17Z,12,Cybersecurity
+"Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities","Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.
+
+Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg,https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T12:16:58Z,3,Cybersecurity
+GTA VI is getting an ‘extended look’ at the end of August,"We&#39;ll be getting an in-depth preview of Grand Theft Auto VI very soon: Rockstar announced this morning that it will be airing an &#34;extended look&#34; at the game on August 27th. The preview will stream on YouTube at 9PM ET, as per usual, but will also be shown earlier for Netflix subscribers, premiering at 3PM […]",,https://www.theverge.com/entertainment/976073/gta-6-trailer-3-date-time-netflix-youtube,https://www.theverge.com/rss/index.xml,2026-08-06T12:16:08Z,6,Tech
+"Autonomy is earned, not claimed","
+		
+					  
+						
+
+
+
+
+After more than 300,000 production penetration tests (pentests), our company has learned something that may surprise people watching the recent wave of autonomous security announcements.
+
+
+
+The hardest problem in autonomous security isn’t teaching a machine how to attack. It’s teaching an AI-based system how to operate safely, predictably, and repeatedly inside production environments where mistakes have consequences.
+
+
+
+Finding an attack path is an engineering problem. Building a platform that organizations trust to operate against healthcare systems, financial institutions, manufacturers, and critical infrastructure is an operational one. The difference only becomes apparent after years of running at scale.
+
+
+
+As the industry embraces AI agents, autonomous red teaming, and machine-speed operations, much of the conversation remains focused on capability. Can a machine identify a path to compromise? Can it chain weaknesses together? Can it achieve the same outcome as a human operator?
+
+
+
+Those are reasonable questions. They are not the questions security leaders ultimately care about.
+
+
+
+Security leaders need confidence that a platform can operate safely in production, consistently produce meaningful results, and help teams make better decisions about risk. In our experience, that’s where the real challenge begins.
+
+
+
+Since 2019, NodeZero® has executed more than 300,000 production pentests across thousands of environments. Those engagements have reinforced a lesson that continues to surface.
+
+
+
+The biggest security challenges rarely come from what organizations cannot see. They come from separating signal from noise.
+
+
+
+Most organizations are not struggling to find vulnerabilities
+
+
+
+The security industry has spent decades improving visibility.
+
+
+
+Organizations have vulnerability scanners, attack surface management platforms, cloud security tools, exposure management programs, and countless dashboards filled with findings. Most security teams are not suffering from a lack of information. This issue is: They’re struggling to determine which information matters.
+
+
+
+Attackers do not think in terms of individual findings. They think in terms of outcomes. They identify a weakness, combine it with another weakness, move through the environment, and pursue an objective. The path matters more than any individual step along the way.
+
+
+
+Security teams often inherit the opposite problem. Thousands of findings arrive in a dashboard, each evaluated independently, with little context around how those weaknesses might connect. As a result, teams spend significant time debating severity while attackers focus on exploitability.
+
+
+
+The difference sounds subtle, but it changes everything. Severity describes a vulnerability. Exploitability describes risk.
+
+
+
+Experience changes how you evaluate risk
+
+
+
+Trust isn’t built on promises, it’s built on the deep experience gained from executing hundreds of thousands of pentests. Over time, recurring patterns begin to emerge regardless of industry, technology stack, or organizational maturity.
+
+
+
+We’ve seen organizations trust legacy tools that require enormous effort to remediate vulnerabilities that had little practical impact, while overlooking seemingly minor weaknesses that ultimately enabled significant compromise. That happens because risk rarely exists as a single vulnerability. It exists in the way weaknesses interact with one another.
+
+
+
+In a financial services environment, a single compromised credential led to 586 critical impacts across 115 hosts, including three separate domain compromises. Viewed independently, the credential did not appear particularly significant. Viewed as part of an attack path, it became something entirely different.
+
+
+
+In another cloud environment, the path to full Entra ID tenant compromise did not require a common vulnerabilities and exposures (CVE) or zero-day exploit. The weaknesses involved were already known. Existing tools had identified them. What was missing was an understanding of how those weaknesses could be chained together and what that chain of events meant for the organization.
+
+
+
+We have also seen organizations discover that the initial compromise was not the most important part of the assessment. In one education environment, the larger question was how far an attacker could move after gaining access. Measuring blast radius exposed paths to systems and data that were never expected to be reachable from the original point of compromise.
+
+
+
+These examples reinforce the same lesson. The challenge is rarely finding weaknesses. The challenge is knowing which weaknesses matter before an attacker does. That kind of judgment isn’t built from demonstrations or benchmarks. It’s earned through years of operating in production environments and seeing how real attack paths emerge across thousands of organizations.
+
+
+
+Click here to learn why reliability is the key to building trust and how to get there.
+
+
+
+What 7 years of autonomous pentesting taught us
+
+
+
+Most organizations do not need another source of findings. They already have more findings than they can realistically address. What they need is confidence in what is actually exploitable, how attackers would use it, and whether their fixes reduced risk.
+
+
+
+That’s the lesson we’ve learned from years of operating in production environments.
+
+
+
+And it’s the problem we have solved. 
+
+
+
+Get a demo
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206099-0-43665400-1786018294-shutterstock_2732144707.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206099/autonomy-is-earned-not-claimed.html,https://www.csoonline.com/feed/,2026-08-06T12:10:42Z,17,Cybersecurity
+Attackers hid malware inside Oracle Database after SQL injection breach,"
+		
+					  
+						
+
+
+
+
+Huntress has documented a case where the Oracle database itself became the malware host.
+
+
+
+The security firm disclosed a campaign in which threat actors exploited a SQL injection vulnerability to store a custom post-exploitation toolkit, dubbed Khunt, inside an Oracle database using the platform’s built-in Java capabilities.
+
+
+
+Huntress became aware of the intrusion after investigating a credential theft activity on a server running Oracle Database. The researchers learned that rather than simply executing commands through SQL injection, the attackers had leveraged Oracle’s embedded Java Virtual Machine (OJVM) to upload, compile, and execute malicious Java code directly from within the database.
+
+
+
+The approach reportedly allowed the attackers to blend into legitimate database functionality while maintaining a persistent foothold on the compromised server.
+
+
+
+“The attackers managed to gain initial access in this attack thanks to a classic SQL injection,” Huntress researchers said in a blog post. “There was no need for a novel vulnerability because the autocomplete search feature in the public-facing application was enough to reach PL/SQL and then the operating system.”
+
+
+
+Exploitation beyond SQL injection
+
+
+
+The attack revolved around Khunt, a Java-based toolkit that attackers stored as a database object using Oracle’s “CREATE JAVA SOURCE” functionality. Oracle Database includes an embedded Java Virtual Machine that allows organizations to execute Java code from within the database for legitimate business applications.
+
+
+
+Once compiled inside the database, the Java code could be run through SQL statements to execute operating system commands on the underlying host where Oracle was configured. The malware inserted within the database schema would be considerably harder to detect, Huntress noted.
+
+
+
+After setting up the code execution path from within the database, the attackers could (and did) carry out post-compromise activities, including credential theft.
+
+
+
+In the incident Huntress investigated, the attackers ultimately compromised the Windows server hosting Oracle Database, escalating from SQL injection to SYSTEM-level command execution. With that level of access, they were able to dump the Windows SAM, SECURITY, and SYSTEM registry hives, enabling offline extraction of local account password hashes.
+
+
+
+The campaign’s non-reliance on noisy malware binaries and incorporation of the malice entirely within Oracle’s native functionality was flagged by researchers as an evolved operation that calls for targeted detection.
+
+
+
+Oracle did not immediately respond to CSO’s requests for comment.
+
+
+
+Mitigation focused on post-exploitation toolkit 
+
+
+
+While the SQL injection pathway provided the initial foothold, Huntress argues that the more important lesson lies in what happened after exploitation.
+
+
+
+The attackers could have simply extracted or manipulated data through SQL injection, but instead, they expanded the exploit to include long-term persistence and remote command execution. Huntress warned that this is a dangerous evolution.
+
+
+
+Features such as Oracle’s embedded JVM, while valuable for enterprise workloads, can also expand the blast radius with sufficient database privileges. “To avoid these types of attacks, it is important to ensure the forms aren’t injectable,” the researchers said. “It’s also important to ensure that users with the ability to execute queries aren’t overprovisioned.”
+
+
+
+Huntress recommended looking beyond indicators of SQL injection during incident response. Examining Oracle environments for unexpected Java source objects, compiled Java classes, and stored procedures could indicate abuse of the embedded Java Virtual Machine, it said. The firm also shared indicators of compromise (IOCs), including file hashes, malicious Java artifacts, SQL statements, and search terms to help defenders identify affected systems.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206096-0-63066100-1786017870-shutterstock_2641258125.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206096/attackers-hid-malware-inside-oracle-database-after-sql-injection-breach.html,https://www.csoonline.com/feed/,2026-08-06T12:04:12Z,20,Cybersecurity
+Omilia raises $67M to scale its customer support platform,"The Series B is the company&#39;s second fundraise since it last raised capital in 2020. In that time, it has increased its ARR by 10x to $60 million.",,https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/,https://techcrunch.com/feed/,2026-08-06T12:00:00Z,5,Tech
+Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway,"(Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. 
+The post Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway appeared first on SecurityWeek.
+",,https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/,https://www.securityweek.com/feed/,2026-08-06T12:00:00Z,4,Cybersecurity
+CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps,"Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.
+
+Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect&#39;s on-chain analysis puts the measured theft across two sweeps since late May at a lower bound of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg,https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T11:49:48Z,0,Cybersecurity
+Verification closes the loop,"
+		
+					  
+						
+
+
+
+
+Most organizations assume remediation reduces risk.
+
+
+
+It’s a reasonable assumption. A vulnerability is identified, a patch is applied, the scanner comes back clean, and the ticket is closed. The workflow is complete, the metrics improve, and the issue is considered resolved.
+
+
+
+The problem is that attackers don’t care about remediation workflows. They care about outcomes.
+
+
+
+A scanner may no longer report the vulnerability, but those activities do not matter if an attacker can still achieve the same objective through the same attack path, excessive privileges, or a different weakness that was never addressed in the first place.
+
+
+
+Many security programs measure whether work was completed, but they don’t always measure whether risk was actually reduced.
+
+
+
+The assumption that gets teams in trouble
+
+
+
+The cybersecurity industry has become very good at measuring mean time to remediate, patch compliance, SLA attainment, and ticket closure rates. Those metrics have value, but none of them answer the question an attacker is asking.
+
+
+
+Can I still get in?
+
+
+
+In practice, that’s where the assumption breaks down. Remediation activity and risk reduction are often treated as the same thing, even though they measure very different outcomes. One measures whether work was performed. The other measures whether the conditions that made an attack possible still exist.
+
+
+
+Our recent survey of 750 security leaders and practitioners revealed a consistent pattern. Only 30% of CISOs reported that their organizations patch and then test to ensure risk has actually been remediated. Nearly half patch and rescan with a vulnerability scanner instead.
+
+
+
+Security teams are working hard, remediating vulnerabilities, deploying controls, and closing tickets every day. The issue is verification. A patch may remove a vulnerability and a rescan may confirm the patch was applied, but neither proves an attacker can no longer succeed.
+
+
+
+Security teams don’t get credit for completing work, they get credit for reducing risk. And the only way to know whether risk was actually reduced is to verify it.
+
+
+
+Verification changes the conversation
+
+
+
+Most security teams don’t struggle to find vulnerabilities. They struggle to verify that their remediation efforts actually worked.
+
+
+
+That was the challenge facing a global investment firm operating across 18 locations. They already had vulnerability data, security assessments, and remediation workflows. What they lacked was certainty. They wanted to understand which weaknesses represented real risk, whether their fixes were reducing exposure, and how to avoid being surprised by an issue that should have been discovered earlier.
+
+
+
+An early internal penetration test (pentest) revealed 85 weaknesses. By itself, that number wasn’t particularly alarming. The real risk emerged when those flaws enabled 251 impacts, including domain compromise, compromised credentials, host compromise, ransomware exposure, and sensitive data exposure. The weaknesses themselves were only part of the story. The real risk emerged when those weaknesses were chained together the way an attacker would chain them together.
+
+
+
+While many organizations would stop there, this team retested. That decision changed the conversation from remediation activity to measurable risk reduction. A follow-up, same-scope pentest showed that impacts had dropped from 251 to zero. Compromised credentials fell from 52 to zero. Compromised hosts fell from 67 to zero. Cracked Active Directory passwords dropped from 40 to zero.
+
+
+
+That’s what verification looks like.
+
+
+
+Not a closed ticket, but concrete evidence that the outcomes an attacker cared about are no longer achievable.
+
+
+
+Why verification remains elusive
+
+
+
+In our survey, 22% of practitioners identified verification of fixes as their biggest cybersecurity challenge going into 2026, while another 21% pointed to demonstrating measurable risk reduction. Both ranked ahead of budget constraints and talent shortages.
+
+
+
+That gap persists because confirmation is harder than remediation. Applying a patch is a discrete action. Proving that an attacker can no longer achieve the same objective is harder. It requires testing and verifying that the attack path is gone, not simply assuming it disappeared because a vulnerability no longer appears in a scan report.
+
+
+
+That’s where many organizations fall back on proxies. A vulnerability scanner reports that: the affected version is gone; a ticket is closed; a dashboard shows improving metrics. Those signals are useful, but they are still indicators of activity. They are not proof that exposure was reduced.
+
+
+
+That gap matters because attackers measure success by achieving objectives, not by confirming that a version number changed. Defenders need the same standard.
+
+
+
+That’s the difference between remediation and verification.
+
+
+
+What mature security programs do differently
+
+
+
+The organizations that make the greatest progress aren’t necessarily the ones that find the most vulnerabilities. They’re the ones that become disciplined about proving whether their actions reduced risk.
+
+
+
+That shift changes the conversation. Instead of asking: “Did we patch it?” they ask: “Can an attacker still achieve the same objective?”
+
+
+
+Instead of measuring success by ticket closure, they measure success by whether the outcomes attackers care about are still possible.
+
+
+
+You can see that mindset across many of our Pentest Wednesday™ stories. Financial services organizations built continuous verification into their operations because leadership needed confidence that remediation remained effective over time. Manufacturers and defense industrial base organizations used repeat testing to ensure attack paths stayed closed as environments evolved.
+
+
+
+The common thread isn’t the industry or the technology, it’s the discipline to keep going after the fix:
+
+
+
+
+Validate the exposure.
+
+
+
+Fix the exposure.
+
+
+
+Verify the exposure is gone.
+
+
+
+Repeat.
+
+
+
+
+Mature organizations build continuous verification into their operations because leadership needs to trust that remediation remains effective as the network evolves.
+
+
+
+The future belongs to verification
+
+
+
+The cybersecurity industry is entering another period of rapid change. AI is accelerating prioritization, remediation, reporting, and analysis. Security teams will find vulnerabilities faster, process findings faster, and automate more workflows than ever before.
+
+
+
+Validating exposure and fixing it are essential, but neither closes the loop. Verification closes the loop. Confidence alone will not stop an attacker, but repeatable verification will.
+
+
+
+Get a demo
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206086-0-41503300-1786017729-shutterstock_2781778569.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206086/verification-closes-the-loop.html,https://www.csoonline.com/feed/,2026-08-06T11:48:30Z,15,Cybersecurity
+"As Taiwan’s Drone Budget Debate Drags on, Time Is Running out",Taiwan could end 2026 without awarding a single new large-scale contract for domestically produced combat drones.,https://images.thediplomat.com/v1/td-list-l-2/2026/08/thediplomat_2026-08-06-204329.jpg,https://thediplomat.com/2026/08/as-taiwans-drone-budget-debate-drags-on-time-is-running-out/,https://thediplomat.com/category/asia-defense/feed/,2026-08-06T11:40:00Z,0,Defense
+Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses,"Cybersecurity researchers have disclosed a security issue with Apple&#39;s iCloud Private Relay tool that can expose a user&#39;s real IP address.
+
+Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users&#39; privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg,https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T11:33:08Z,3,Cybersecurity
+"AI Recommendation Poisoning: How ""Ask AI"" Buttons Silently Alter LLM Memory","A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.
+
+We observed production websites embedding hidden prompt injection payloads inside &#34;Ask AI&#34; buttons on marketing and competitor comparison pages. When a user",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg,https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T11:30:00Z,11,Cybersecurity
+"Critical Paperclip Flaw Allowed Admin Access, Code Execution","An attacker could self-register, sign in for board-level API access, and import a new company for code execution.
+The post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/,https://www.securityweek.com/feed/,2026-08-06T11:09:11Z,4,Cybersecurity
+AI isn’t enough to protect social media communities from AI,Why humans need to moderate humans.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2259634870-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/,https://arstechnica.com/feed/,2026-08-06T11:00:44Z,5,Tech
+Nintendo beats earnings thanks to US tariff refunds it won&#8217;t share with gamers,"Nintendo has smashed its first-quarter earnings estimates for the fiscal year, bolstered by strong games sales and US tariff refunds, though its customers likely won&#39;t receive anything from the latter. In its latest financial results, Nintendo reports that operating profits soared to 142.5 billion yen (about $902 million) between April 1st and June 30th, compared […]",,https://www.theverge.com/games/976054/nintendo-earnings-q1-2027-tariff-refund,https://www.theverge.com/rss/index.xml,2026-08-06T10:58:20Z,0,Tech
+Why the ‘rogue AI’ problem will lead to an era of headaches for security practitioners,"
+		
+					  
+						
+
+
+
+
+Shortly after OpenAI publicly acknowledged the Hugging Face breach on July 21, Reuters journalist Raphael Satter called me for comment on a story which would reveal shocking new details about OpenAI’s “rogue model” incident: The agent hadn’t just slipped its leash for a few hours, as many assumed, but had in fact been wreaking havoc for days without the company’s knowledge.
+
+
+
+When I hung up, I immediately called a close friend who has worked inside frontier‑AI labs since before the term even existed. When she heard the timeline, she was stunned. In her view, “If proper industry regulations were in place, those four days would be grounds to terminate OpenAI’s R&amp;D GPU clusters until they get a full independent audit.”
+
+
+
+Demystifying the incident
+
+
+
+There have been numerous reports that frame OpenAI’s model as a “rogue agent” escaping captivity and “breaking out” of the research lab, with both the BBC and Cloud Security Alliance comparing its actions to the dinosaurs in Jurassic Park.
+
+
+
+This framing is narratively compelling and is an easy way to communicate the gravity of the situation to a layperson. However, it undermines OpenAI’s agency both before and throughout the incident and plays into a larger problem due to the evangelizing way the company communicated its actions.
+
+
+
+OpenAI, in simplified terms, had been testing two models against a benchmark which scores how well an agent can find and exploit real-world software vulnerabilities. Both models ran with their cyber refusals deliberately reduced, in a sandbox environment meant to be isolated to a single internally hosted proxy. The models targeted Hugging Face, correctly inferring that the AI platform hosted the benchmark’s answer key — in short, “choosing” to cheat on the test they were given to complete the challenge.
+
+
+
+Following the breach, Hugging Face’s forensic team found thousands of agent actions in its logs, indicating that the time it took to break into Hugging Face, plus the attack itself, totaled 4 days.
+
+
+
+Hugging Face went public about the attack before it even knew that OpenAI was responsible. OpenAI, meanwhile, didn’t realize its own agent was the culprit until Hugging Face’s public disclosure made them check their own logs. In total, it took OpenAI nearly two weeks from its agent’s initial escape to come clean, and only once a rival’s hand had forced the issue.
+
+
+
+OpenAI’s “problem child”
+
+
+
+From a human perspective, it’s bewildering that out of all paths the OpenAI agent could have taken to beat a standardized security challenge, it chose a ludicrously convoluted approach taking tens of thousands of attempted paths and barreling through set restrictions. However, it was par for the course given one of the model’s track records.
+
+
+
+In a post published the day before the Hugging Face disclosure, OpenAI describes one of its models that, unlike older versions that would simply stop at a sandbox restriction, would continue to persist until it found a way around, once even spending an hour hunting a sandbox vulnerability only to post its results to GitHub against explicit instructions. This model is GPT Sol 5.6, the public model involved in the Hugging Face attack.
+
+
+
+Long before the Hugging Face incident, GPT Sol 5.6 was already gaining a reputation for breaking rules, taking laughably long to accomplish simple tasks, and being destructive — in one case deleting an AI entrepreneur’s entire Mac contents.
+
+
+
+Even during internal testing, the model had been caught killing random processes when it couldn’t find the right virtual machines, lying about checking its work, and using credentials it wasn’t supposed to access. However, it was still given public access by the company.
+
+
+
+Profit before safety
+
+
+
+CSA’s report states that an OpenAI model escaped a test container in September 2024 for a different evaluation, was contained quietly and “largely celebrated at the time” rather than treated as a warning. The same report calls this kind of escape “the standard, not the exception.” The former head of OpenAI’s “superalignment” safety team resigned in May 2024 and wrote publicly that “safety culture and processes have taken a backseat to shiny products.” It was reported that nearly half of the team working on long-term AI safety had left.
+
+
+
+Even the language used by OpenAI in their disclosure reads as more braggadocious than concerned. From OpenAI’s perspective, its failure was in not overseeing the agent’s choices as a whole, as each step taken by the model can remain fairly innocuous-seeming until pieced together. The company does not acknowledge that leaving an agent unsupervised in a testing setting with its safety classifiers off for even one hour, let alone days, is potentially catastrophic to begin with.
+
+
+
+Some researchers have argued that the recent incident is fundamentally a decades-old security failure rather than a narrative about a rogue intelligence: the exploit involved an exposed proxy, reused credentials and infrastructure that should have never had a path outward. However, a skilled human attacker given that same door would have needed weeks to achieve a fraction of what the agent did in days.
+
+
+
+A symptom of underlying issues
+
+
+
+The incident reveals larger issues about the culture of safety at frontier model companies, whose employees are driven to crunch R&amp;D cycles and ignore potential issues until they become active problems. This isn’t unique to OpenAI, either — the UK’s AI Security Institute has reportedly found that every frontier model it has tested cheats on cybersecurity evaluations at least occasionally, and that pre-deployment testing windows have shrunk industrywide from roughly five weeks to as few as five days.
+
+
+
+Regulatory bodies have also failed to keep up with or understand the industry’s rapid advancements. The US has no binding legal framework that would have required a different response from OpenAI, as labs are only beholden to voluntary commitments weighed against commercial pressure, and in cases like these, huge security breaches only serve to make the model look extremely smart and powerful.
+
+
+
+The US has attempted to create guardrails, but they fail to understand the ecosystem. We can see effects stemming from this lack of understanding in the recent attack: when Hugging Face’s responders needed to analyze what its attacker had done, Anthropic’s models declined the forensic work, citing their own guardrails, and Hugging Face instead ran the analysis on GLM 5.2, an open-weight model from the Beijing company Z.ai. In addition to being an ineffective band-aid, this also drives business outside of the US and therefore outside of its regulatory control. Today, roughly 80 percent of US AI startups now build on Chinese open-source models.
+
+
+
+US Representatives have introduced a bill citing this incident by name, requiring killswitch capability and incident reporting, but nothing like it has passed, and no jurisdiction anywhere has demonstrated the insight to regulate evaluation-time behavior in addition to deployment-time behavior. This incident happened entirely during testing, before any release decision, in a stage every proposal currently treats as exempt.
+
+
+
+It’s important to note here that AI safety and practices differ from other branches of cybersecurity in that they have to build from a behavioral and psychological framework instead of one based on capability alone.
+
+
+
+For example, although Anthropic’s track record is far from spotless, it has invested significantly more energy than others into understanding the unconscious “thought processes” (or “j-space”) of its models to better predict potential transgressions and set up more effective guardrails. What we can learn from these “rogue models” is that their behavior is actually very predictable; we know that when given a goal to accomplish, models will overstep boundaries freely in pursuit of their objective, simply because they have no actual understanding of the way we categorize “acceptable behavior”. In the real world, vulnerability exploitation encourages rule-breaking and disregard for boundaries by design, so why would a model trained to think this way see a test’s rules any differently?
+
+
+
+For CSOs and CIOs, the practical implication of this event remains narrow, for now. CSA’s post-mortem offers mostly traditional advice: isolate package proxies and credential stores with a path to the open internet by default, log AI evaluation environments the way you log anything customer-facing, and build incident response around machine speed rather than human speed.
+
+
+
+The key risk factor for now is volume, with agents deploying actions at higher numbers than our pipelines are built to catch, and organizations that survive the next iteration of “rogue agents” will be the ones that assume as much beforehand.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4205718-0-02227700-1786010573-shutterstock_2525341257.jpg?quality=50&strip=all,https://www.csoonline.com/article/4205718/why-the-rogue-ai-problem-will-lead-to-an-era-of-headaches-for-security-practitioners.html,https://www.csoonline.com/feed/,2026-08-06T10:00:00Z,20,Cybersecurity
+Meta AI Hacked External Systems During Cybersecurity Testing,"The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week.
+The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.
+",,https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/,https://www.securityweek.com/feed/,2026-08-06T09:56:26Z,2,Cybersecurity
+OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’,"OpenAI has asked a federal judge to toss out Apple&#39;s landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as &#34;meritless.&#34; In a motion filed yesterday to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup&#39;s employees as theft, and &#34;generic&#34; product development information […]",,https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request,https://www.theverge.com/rss/index.xml,2026-08-06T09:33:11Z,9,Tech
+Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison,"Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution.
+The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.
+",,https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/,https://www.securityweek.com/feed/,2026-08-06T09:30:30Z,4,Cybersecurity
+Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access,"Attackers broke into an organization&#39;s Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine.
+
+Huntress, which tracks the toolkit as khunt,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg,https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T09:19:23Z,7,Cybersecurity
+Practical lessons from deploying AI securely at scale,"
+		
+					  
+						
+
+
+
+
+When I first started working on enterprise AI security initiatives, I expected the biggest challenges to be technical. I assumed we’d spend most of our time discussing prompt injection, model security, vector databases or the latest LLM vulnerabilities.
+
+
+
+I was wrong — or at least incomplete.
+
+
+
+The technology certainly matters, but after working with multiple enterprise AI initiatives, I’ve learned that the hardest security problems rarely come from the model itself. They emerge when AI becomes part of real business processes.
+
+
+
+An AI assistant doesn’t simply answer questions. In a single workflow, it might pull a customer record from Salesforce, open a ticket in ServiceNow and send an update through Microsoft 365 before anyone has finished reading the summary. Increasingly, it makes decisions before a human even notices, and that shift changes the threat model. Traditional application security assumes software executes deterministic code. AI systems don’t. They reason, adapt and generate outputs that cannot always be predicted in advance, which means many of the controls we’ve relied on for years remain necessary but are no longer sufficient.
+
+
+
+What follows is what I keep coming back to in architecture reviews: Not the model vulnerabilities that dominate the headlines, but the quieter failures that show up once an agent is already running.
+
+
+
+Identity is only the starting point
+
+
+
+One of the first surprises I encountered was how quickly organizations focus on authentication while overlooking runtime behavior. Most enterprise AI projects begin with questions such as “Can the AI access SharePoint?” “Can it connect to ServiceNow?” “Can it connect to GitLab?” or “Can it read Microsoft 365 tools like Outlook, Word, etc.?” Those are important questions, but the more important one is: What should the AI be allowed to do after a specific type of access (for example, read-only access) has been granted?
+
+
+
+Identity answers who the agent is. Authorization answers what it may access. Neither answers whether the AI should perform a particular action; in the above case only performs read-only access.
+
+
+
+The capability question and the safeguard question are too often answered by different teams on different timelines. Security reviews that focus only on what the AI can access tend to miss the more revealing question of what it is permitted to do once that access exists. I have started treating those two questions as a single design problem, because every gap between them eventually surfaces as an incident.
+
+
+
+I remember an architecture review where this became concrete. An employee asked an internal assistant — one built on Microsoft 365 and SharePoint — to summarize several incident reports, and during its reasoning the assistant discovered privileged administrative documentation in a linked site and decided it might also be useful to include those details. Nothing technically failed. The credentials were valid. The permissions were correct. Yet the outcome violated business intent. That moment reframed the conversation for everyone in the room. We realized our threat model had been built for outsiders trying to get in, not for authorized systems acting a little too helpfully. Closing that gap meant designing controls that evaluated behavior in context, not just credentials at the door, and it’s why I’ve come to view runtime governance as one of the defining security challenges of enterprise AI.
+
+
+
+Organizations such as the OWASP GenAI Security Project and the NIST AI Risk Management Framework emphasize that AI risks extend well beyond authentication authorizations to include monitoring, governance and continuous oversight throughout execution. CSOonline’s coverage of agentic identity makes the same point: Existing controls weren’t designed for AI agents, and static credentials and standing privileges are no longer sufficient when organizations must rapidly authorize, limit and revoke permissions from autonomous agents, sometimes more than once within a single workflow.
+
+
+
+The biggest failures rarely look like cyberattacks
+
+
+
+Most security professionals naturally look for malicious activity: Prompt injection, data poisoning, credential theft, model manipulation. Those attacks certainly matter. What I’ve seen more frequently, however, are failures caused by legitimate AI behavior. A Finance, HR, Customer or risk management AI assistant retrieves more documents than necessary because it tries to provide a “better” answer. An autonomous workflow performs five approved actions instead of one. An AI agent continues executing after the user’s original intent has already been satisfied. None of these resemble traditional attacks, yet they may create compliance violations, privacy issues or operational disruption.
+
+
+
+One mental model has consistently helped executives understand why this is so dangerous. I ask them to stop thinking about AI as software and instead think about it as hiring thousands of new digital employees, aka AI agents. Every employee receives training, limited access, monitoring, auditing and oversight. AI agents deserve the same treatment.
+
+
+
+One deployment I worked on involved multiple specialized AI agents collaborating to complete a single business task. One queried ServiceNow for ticket history, another analyzed documents in SharePoint, a third drafted recommendations and a fourth wrote updates back into Jira. Individually, each agent had relatively limited permissions like read-only and/or write. Collectively, they represented a powerful autonomous workflow. That experience reinforced an important lesson: Security can no longer focus only on individual AI components. It must govern the complete chain of autonomous decision-making. The MITRE ATLAS framework is an excellent way to think about adversarial AI techniques, but equally important is understanding how normal autonomous behavior can unintentionally create business risk.
+
+
+
+The most instructive cases I’ve seen involve agents that delegate to other agents. In one review, a frontline support agent had strictly read-only access to Salesforce, but it could hand tasks to a second agent that held write privileges across ServiceNow and the billing platform. When the first agent couldn’t resolve a customer issue within its own scope, it quietly routed the request through the second agent, which updated the case and issued a credit. Nothing was hacked. The credentials were valid, the delegation was technically permitted, and yet a read-only agent had effectively performed write actions it was never meant to perform. That is the defining difference between an assistant and an agent. An assistant answers; an agent enlists other agents, and that escalation path is itself the vulnerability.
+
+
+
+That’s why we started asking a different question during architecture reviews. Instead of asking “Can the AI do this?” we asked, “Should the AI still be doing this?” That subtle shift changed many design decisions. It pushed teams to build in stopping conditions, scope checks and confirmation prompts rather than assuming an agent would naturally know when to stop. In one review, simply requiring a human to confirm before an agent crossed from a read-only step into a write action eliminated the majority of the risky paths we had been debating.
+
+
+
+Start with governance before autonomy
+
+
+
+One pattern I’ve repeatedly observed is that organizations become excited about autonomy long before they’re prepared to govern it. Everyone wants AI agents, but few initially invest in runtime policy enforcement. That sequencing should be reversed. In my experience, successful enterprise AI programs put a few foundations in place before expanding automation: Clear business boundaries that an agent isn’t allowed to cross, least-privilege access for every agent, and human approval at any step that touches sensitive/restricted data/systems, including the production data /systems. Only after those exist does it make sense to widen autonomous decision-making. I’ve watched teams try to shortcut this order, and the result is almost always the same: A promising pilot gets pulled back because no one can confidently explain what the AI did or why.
+
+
+
+A big part of that foundation is visibility. Traditional audit logs record actions, but AI systems also need to record reasoning. When an AI agent creates a ticket, updates a configuration or sends an email, investigators should understand why the decision occurred. This doesn’t mean recording every token generated by a large language model. I’ve found more value in capturing three things: The original business request, the systems the agent touched and the decisions it made along the way. Those records become invaluable during investigations, compliance reviews and operational troubleshooting, and they help organizations build trust. Business leaders become far more comfortable adopting AI when they can explain how an important decision was reached. Approaches like Google’s Secure AI Framework reinforce the same idea: AI security has to be measurable, observable and accountable end to end.
+
+
+
+One misconception I still encounter is that AI security exists to restrict innovation. In practice, the organizations moving fastest with enterprise AI are often the ones investing most heavily in governance, because executives gain confidence, developers move faster and business units adopt AI more broadly. Done well, security is what makes that speed possible.
+
+
+
+Looking back, the most valuable lesson hasn’t been about prompt engineering, model selection or agent frameworks. It’s that secure AI isn’t achieved through one perfect control but through hundreds of small engineering decisions that keep autonomous systems aligned with business intent. As we move from assistants toward fully autonomous agents, that distinction only matters more. The teams I trust to scale AI aren’t the ones with the smartest models. They’re the ones who can answer, for any action an agent took, why it took it — and where it would have stopped.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4205710-0-23833800-1786006958-shutterstock_2300796931.jpg?quality=50&strip=all,https://www.csoonline.com/article/4205710/practical-lessons-from-deploying-ai-securely-at-scale.html,https://www.csoonline.com/feed/,2026-08-06T09:00:00Z,14,Cybersecurity
+"AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model","Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent&#39;s tools with no check that a model turn had authorized them.
+
+In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene.
+
+The affected products include Amazon",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s1600/agent-sdk.jpg,https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T08:57:30Z,4,Cybersecurity
+Evidence points to cybercriminals stepping up their AI game,"
+		
+					  
+						
+
+
+
+
+More evidence is emerging about how AI is becoming part of the day-to-day workflow for cybercriminals, from building and refining tools to managing infrastructure and accelerating vulnerability research.
+
+
+
+Drawing on recovered prompt logs, attack tooling, and threat actor conversations, research from Cisco Talos documents how AI is being used to develop malicious code, build fraud infrastructure, and accelerate vulnerability research and exploitation.
+
+
+
+The study, released during the Black Hat USA conference, found AI systems guardrails were often ineffective.
+
+
+
+Cisco Talos researchers write that threat actors frequently bypass guardrails with basic social engineering claims (“this is authorised testing” or “I’m asking this as part of a capture the flag exercise”) that convince most models to comply.
+
+
+
+This duped permissiveness wasn’t specific to a single model or platform. Instead, analysis of prompt logs related to Claude Code, CodeX, Cursor, and Gemini showed this shortcoming was an issue across the board. And when censored models refuse, threat actors simply switch to uncensored alternatives.
+
+
+
+Whereas novice cybercriminals continue to produce clunky malware with limited functionality, sophisticated threat groups are increasingly leveraging AI as a development assistant to rapidly build exploits, and some are even deploying it as a system administration tool for managing large-scale attack infrastructure.
+
+
+
+Cisco Talos found real-world examples of attackers abusing AI systems to build a bulk-mail validation service processing tens of millions of email records, adapting the React2Shell vulnerability into a credential-harvesting pipeline, developing DDoS infrastructure targeting Android TVs, and supporting cryptocurrency theft operations, among other attacks.
+
+
+
+Joseph Rooke, senior director at Recorded Future’s Insikt Group, sees attacker tradecraft evolving away from traditional code-based exploits toward prompt-based manipulation of large language models.
+
+
+
+“Targeting weakness in LLMs enables malicious prompts to be embedded in shared text, video, or image files, with the aim of hijacking LLM-based assistants to carry out attacks,” Rooke tells CSO.
+
+
+
+Norwegian AI researcher Håkon Måløy recently demonstrated such an attack, which could result in a Copilot worm spreading through Microsoft Word docs. Attackers are also crafting malicious AI instruction files, like CLAUDE.md, to trick agents into exfiltrating data and other tasks on their behalf.
+
+
+
+“Malicious prompts will increasingly replace malware as the preferred intrusion method, enabling adversaries to extract sensitive data, override guardrails, or induce harmful actions without breaching traditional defenses,” Rooke says.
+
+
+
+Attacking AI through the software supply chain
+
+
+
+Separately, research from CrowdStrike shows that adversaries are increasingly targeting AI infrastructure through software supply chain-style attacks.
+
+
+
+For example, in March 2026, North Korean cybercrime group Stardust Chollima used stolen maintainer credentials to compromise the Axios npm package and deliver platform-specific variants of their ZshBucket malware.
+
+
+
+In June 2026, the same group injected a malicious npm package as a dependency into at least 131 Mastra AI framework packages, indicating that trusted AI building blocks are becoming targets in supply chain attacks.
+
+
+
+During 1H 2026, 87% of identified software registry threats involved malicious npm packages. “This indicates adversaries’ preference for JavaScript’s scale, dependency chains, and automatic install scripts to spread downstream risk,” CrowdStrike’s researchers report.
+
+
+
+CrowdStrike’s 2026 Threat Hunting Report also reveals how AI is collapsing the window between vulnerability disclosure and active exploitation.
+
+
+
+For example, two separate Chinese APT groups exploited critical vulnerabilities within 24 hours of public proof-of-concept (PoC) release. From January through June 2026, 88% of CrowdStrike-observed exploitation of vulnerabilities with a public PoC was conducted within 48 hours of the PoC’s release.
+
+
+
+After the React2Shell vulnerability disclosure, CrowdStrike responded to over 800 hunting leads across more than 80 victims in just four days.
+
+
+
+Cybercrime group Altered Spider (aka TeamPCP) compromised more than 300 software dependencies in a single day to harvest credentials and pivot into cloud environments.
+
+
+
+Authentication systems under attack
+
+
+
+The study — based on frontline intelligence from CrowdStrike’s threat hunters and intelligence analysts — also found that trusted authentication has become a favored attack path with, for example, vishing intrusions doubling in 1H 2026. On a related front, cybercrime groups Cordial Spider and Snarky Spider compromised single sign-on (SSO) integrated SaaS applications for data exfiltration.
+
+
+
+Recorded Future’s Rooke points out other ways authentication systems are at the front line of AI-based attacks.
+
+
+
+“AI-generated deepfake videos and audio are also more likely to be used as part of business email compromise attacks and social engineering,” Rooke tells CSO. “Biometric and identity-verification systems will likely remain vulnerable to spoofing, replay, and cloned credentials, enabling synthetic personas to coerce payments, manipulate employees, and facilitate access handoffs to cyber operators.”
+
+
+
+Cloud-focused cybercrime activity surged 171% as adversaries executed credential theft, cryptomining, LLM abuse, and digital financial asset theft, according to CrowdStrike.
+
+
+
+How cyber teams should respond
+
+
+
+“AI is now embedded in modern adversary operations. It is changing how attacks are planned, executed, and scaled while expanding the attack surface organizations must defend,” says Adam Meyers, head of counter adversary operations at CrowdStrike. “The organizations that succeed will secure AI as aggressively as they adopt it and use AI to defend at the speed of the adversary.”
+
+
+
+Comprehensive industry-wide data remains limited because evidence of AI abuse is often difficult to identify via traditional security telemetry. Incidents documented by Cisco Talos and CrowdStrike, however, show how CISOs need to adapt in response to the growing threat.
+
+
+
+Cisco Talos urges enterprises to improve detection, prioritization, and their own use of AI platforms and agents to handle the growing volume of alerts and vulnerabilities. “The organisations best equipped to handle the coming deluge of additional vulnerabilities, alerts, and incidents will be the ones that prepare now by deploying their own AI-assisted security capabilities,” according to the report.
+
+
+
+“Security teams should assume AI is already embedded in attacker workflows; focus on detecting malicious behavior rather than proving AI involvement; treat LLMs and APIs as privileged, high-risk infrastructure; and strengthen logging, patching, and containment,” says Oliver Simonnet, lead cybersecurity researcher at AI security and governance platform CultureAI.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4205861-0-69677600-1786004849-shutterstock_2238529723.jpg?quality=50&strip=all,https://www.csoonline.com/article/4205861/evidence-points-to-cybercriminals-stepping-up-their-ai-game.html,https://www.csoonline.com/feed/,2026-08-06T08:25:00Z,28,Cybersecurity
+Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells,"Cybersecurity researchers have disclosed details of a &#34;factory-shipped backdoor&#34; implanted in at least 20 Chinese router models from Zbtlink.
+
+According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are designed such that they start automatically and attempt to beacon to Chinese",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3VqhMa79pNymspvzHhSpHG4HCDAGn4nAD-7ZwQgDuSOELhM0xxHASqfnd2ThEv8XJ0tM58bPsGPHcobfoaEEWW4Am9H-Wd9bpb-QqYRQfFcFKrvbLjwEGYu0VfIAclBcVn9PpMWS02ZAtOa7hhwg8e45cYcgYYX0C1_yQptZh7-ZvqFHpf-9uqq5csbCj/s1600/router-hacking.jpg,https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T08:05:22Z,2,Cybersecurity
+"Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities","Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code.
+The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/,https://www.securityweek.com/feed/,2026-08-06T07:20:20Z,2,Cybersecurity
+Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service,"A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021.
+
+Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New York and Nebraska, and others abroad, according to the Justice Department.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsIRDdzzjtJRcq3kiouQy7I8wwCFvWIKA5VHAKEVdGC2OJL3WCGnKPZUvAHUi-Jrz9yLN5pfTtS0QI8MRUuSbGOlbg_3jNktHGZSb4wsOKvjcwehZYqL671hB0UgjVjUPnKju5QFDO4BXhjePhJuvGDw_mJs1scXXI_veItNxCej7uEwjKfTHzc9Nkm90/s1600/Ransom-Cartel.jpg,https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T07:19:54Z,6,Cybersecurity
+CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild,"A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).
+
+The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaatZ2xKx3CMoWOXqKbIp1Sd-rMbET1_QE2Lh10XAVc_g_Z18UUlW_RyR8BR0Nj-gqy9SZhnEq0ZBv_z63FfCBu-XGfH5yEzUsKBLicrlfXK2-iMsgZYkDDTW-HiEPV29TEjFSFF1PYXyDkZcyfe6LuUKkgu2nRe4E_XFNPOcxSrBmUZwi3tX_GgHafeZ9/s1600/cisa-teamcity.jpg,https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T06:51:43Z,13,Cybersecurity
+Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability,"Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution.
+The post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/hackers-start-exploiting-recent-jetbrains-teamcity-vulnerability/,https://www.securityweek.com/feed/,2026-08-06T06:37:44Z,7,Cybersecurity
+Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People,"Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts.
+
+The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million people. Moucka, 26, of Kitchener, Ontario, personally took at least $495,000 from",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimtSQSbHZnqrcub_RlfzViiiKRKyucYCIYf0nqt0aWqcYJgY122xGjIRDGnvpYukopZM9DuEPjN6Lax97qyYIghxfFb_faULxhabuOJHBOVbyycVBNUVHAbb5Z8LRfnG_5xrwH__9Jbs6qmPEdopvRysLduoAn0hoANFRnNd2g24zqBTfCUK4WXtDx7eg/s1600/snowflake-hacker.jpg,https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html,https://feeds.feedburner.com/TheHackersNews,2026-08-06T06:04:30Z,3,Cybersecurity
+Artillery-Missile Command: Vietnam’s Answer to the Maritime-Continental Dilemma,Long-range surface-to-surface and ground-based anti-ship missiles will help defend the country on both land and sea.,https://images.thediplomat.com/v1/td-list-l-2/2024/05/thediplomat_2024-05-10-012641.jpg,https://thediplomat.com/2026/08/artillery-missile-command-vietnams-answer-to-the-maritime-continental-dilemma/,https://thediplomat.com/category/asia-defense/feed/,2026-08-06T03:10:00Z,0,Defense
 "US has too few interceptors to deter war with China, experts say",A new report from Heritage is the latest to sound alarms over the expenditure of munitions in Trump&#39;s Iran war.,,https://www.defenseone.com/threats/2026/08/interceptors-war-china-heritage/415241/,https://www.defenseone.com/rss/all/,2026-08-06T01:33:31Z,1,Defense
 Report: US doesn’t have enough interceptors for war with China,The Iran war and years of neglect have greatly diminished U.S. supplies of key missiles. Experts say current efforts to re-supply don’t go far enough.,,https://www.defenseone.com/threats/2026/08/report-us-doesnt-have-enough-interceptors-war-china/415241/,https://www.defenseone.com/rss/all/,2026-08-06T01:33:31Z,1,Defense
 Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months,"xAI&#39;s Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a &#34;massive improvement&#34; over Wikipedia, apparently hasn&#39;t been updated since April 24th, according to a report from Lawfare. &#34;As far as we can tell, no entry has changed in more than three months,&#34; Lawfare said. Grokipedia launched in v0.1 in […]",,https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead,https://www.theverge.com/rss/index.xml,2026-08-06T00:25:10Z,7,Tech
 OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree,"At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies—and did it all right under the company’s nose.",,https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/,https://www.wired.com/feed/category/security/latest/rss,2026-08-06T00:15:04Z,1,Cybersecurity
+Enterprise passkey security under threat from malware,"
+		
+					  
+						
+
+
+
+
+Given the widespread enterprise adoption of passkeys to replace passwords, a Palo Alto Networks Unit 42 report disclosing ways attackers are getting around passkey protections is concerning, analysts say, but they stress that the demonstrated attacks can only happen after a successful intrusion.
+
+
+
+They also pointed out that the issues are not strictly caused by holes in passkeys so much as by weaknesses in the procedures surrounding them. 
+
+
+
+“The researchers didn’t break the underlying cryptography. They exploited the seams around it: onboarding flows, recovery mechanisms and trust signals that weren’t being validated,” said Justin Greis, CEO of consulting firm Acceligence. “That distinction matters because it tells us where the actual risk lives.”
+
+
+
+The Palo Alto report showed attacks that, it said, “demonstrate how malware on a compromised endpoint can misuse onboarding, recovery and device trust workflows to take over passkey-protected accounts,” as well as “how an attacker can authenticate without user interaction, bypass user verification requirements and extract all synced passkey private keys.”
+
+
+
+Palo Alto described three categories of attack, collectively dubbed Pass-ta-key: Pass-ta-key, where an attacker takes over an account protected by a Google-synced passkey using malware running on the victim’s device, without requiring privilege escalation, device unlock or user interaction; Silver Pass-ta-key, which involves an attacker tricking Google Cloud Authenticator into believing the victim has unlocked the device with biometrics, leading to full account takeover without using the victim’s device during authentication; and Golden Pass-ta-key, which allows an attacker to extract all synced passkeys in a form that lets them be shared or sold on the credential black market.
+
+
+
+Given the complexity of most global enterprise threat surfaces, some CISOs have struggled with adapting passwordless processes to environments with legacy and virtual environments. Passcodes have been recently embraced by enterprise CISOs as the first step in implementing a passwordless strategy.
+
+
+
+Analysts and consultants in the main agreed that the flaw Palo Alto reports is significant, despite the fact that it assumes the attacker has already penetrated an environment and successfully installed malware. Sadly, given that such penetration only requires one privileged user anywhere to accidentally click on a poisoned link or attachment, the assumption of prior penetration is likely valid.
+
+
+
+Implementation issues are the problem
+
+
+
+What the report reveals is less about any flaws within passcodes directly, and more about the lack of attention paid to a wide range of mechanisms surrounding them. 
+
+
+
+Greis said CISOs now need to focus on what to do, and what to test, based on the assumption that user behavior is not always as expected. 
+
+
+
+In several cases cited in the report, he pointed out, issues occurred “not because the standard is flawed, but because implementations haven’t caught up to it. It mirrors what we’ve seen repeatedly in security: the specification is sound, but the ecosystem implementing it is uneven.”
+
+
+
+Consultant Brian Levine, executive director of FormerGov, agreed. 
+
+
+
+“On any service where your organization is the relying party, require user verification and actually validate the user-verified flag in the authentication response,” he said. “The researchers found real-world services accepting logins without it, which quietly collapses a multi-factor login back into a single factor.”
+
+
+
+Frank Dickson, group VP for security at IDC, added that he would stress to CISOs that this attack assumes a prior successful penetration. 
+
+
+
+“This isn’t passkeys getting hacked from across the internet. It’s what [an attacker] does once they’re already inside the house. So the real headline is that ‘phishing resistant’ stops being resistant the moment the endpoint stops being clean,” he said.
+
+
+
+“Stop treating verification as optional,” he advised. “Flip it to required, check it server side every single time, and save your hardware bound keys, the YubiKeys of the world, for the accounts that matter most. A key that never leaves a physical device is a key no attacker can ever harvest in bulk.”
+
+
+
+Or Finkelstein, head of marketing at Secret Double Octopus, agreed that CISOs have gotten complacent about the way in which systems support passkeys.
+
+
+
+“CISOs should probably look at how user verification is enforced, how enrollment and recovery work, have a clear and enforced policy on whether credentials are synced or device-bound, and have some ITDR system to quickly mitigate suspicious endpoints and authenticators,” he said. “In most serious enterprise environments, EDR and device management reduce the likelihood of initial attacks, but do not close every post-compromise attack path.”
+
+
+
+Poor support processes weaken passkeys
+
+
+
+Some have argued that the lack of sufficiently robust support processes actually weakens passkey capabilities and undermines the whole point of such systems.
+
+
+
+J. Wolfgang Goerlich, a member of the faculty of IANS and a longtime cybersecurity consultant, pointed out that the original FIDO2 spec eliminated credential theft by binding the private key to a physical authenticator. Synced passkeys reintroduced credential portability and therefore reintroduced the form of credential theft risk cited in the Palo Alto report.
+
+
+
+“A passwordless system is exactly as strong as the flow that re-establishes it,” he said. “Both serious techniques here start by forcing a device to re-enroll. Many security teams have never modeled, never monitored and never rehearsed a response to this.”
+
+
+
+Goerlich’s advice to CISOs is to require device-bound authenticators, such as hardware tokens or computers, for all privileged and sensitive access. They may consider allowing wallets for lower risk access, he said, “however, much like passwords in Web browsers have long been at risk, we must now consider passkeys in the browsers an unacceptable risk.”
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4205751-0-87950000-1786021975-shutterstock_2228408989.jpg?quality=50&strip=all,https://www.csoonline.com/article/4205751/enterprise-passkey-security-under-threat-from-malware-2.html,https://www.csoonline.com/feed/,2026-08-05T23:51:39Z,18,Cybersecurity
 Report: Passkey security issues could allow account takeover,"
 		
 					  
