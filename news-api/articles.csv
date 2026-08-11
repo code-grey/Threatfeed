@@ -1,4 +1,841 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"The future of AI security research isn’t autonomous, it’s human-amplified","
+		
+					  
+						
+
+
+
+
+Meet HTTP Terminator, a new AI system that has identified hundreds of websites vulnerable to HTTP request smuggling, hacked them live at scale, and even identified a “genuinely new class” of vulnerability, dubbed “shared-parser confusion.”
+
+
+
+But it didn’t do it alone; it was guided by a human the entire time, which may be the most interesting finding of all.
+
+
+
+A researcher from security company PortSwigger used his own processes to design and build the AI, HTTP Terminator, posed narrow, high-value questions, ruled out weak answers, applied anomaly-detection logic, used deterministic code to restrict agent behavior, and applied findings to subsequent ‘cascade’ research.
+
+
+
+“This inverts the accepted narrative by showing an expert can be a massive amplifier for an AI research system,” James Kettle, PortSwigger’s director of research, explained in a white paper. “A human in the loop can still add significant value, as opposed to just building the loop, then stepping back.”
+
+
+
+Disrupting HTTP request flow
+
+
+
+HTTP desync attacks, also known as HTTP request smuggling, interfere with the way web sites process HTTP requests from various users. In this architecture, users send requests to a front-end server, which then forwards them to back-end servers.
+
+
+
+The issue is in the inherently “weak” isolation of requests, Kettle pointed out: The front-end server typically sends several requests at once over the same back-end network connection to improve performance and efficiency.
+
+
+
+“HTTP requests are sent one after another, and the receiving server has to determine where one request ends and the next one begins,” he explained. But front-end and back-end systems must “agree” on where each request ends, otherwise, attackers can send ambiguous messages that are interpreted as two requests by the back end.
+
+
+
+Through response query poisoning (RQP), those attackers can inject false information into subsequent requests or otherwise manipulate data flows so that systems lose track of which responses came from where. They can then intercept responses intended for other users, which can sometimes include sensitive information, credentials, or API keys.
+
+
+
+While request smuggling is typically associated with HTTP/1 requests, websites that support HTTP/2 might also be vulnerable, depending on their back-end architecture, Kettle noted.
+
+
+
+“Request smuggling vulnerabilities are often critical in nature, allowing an attacker to bypass security controls, gain unauthorized access to sensitive data, and directly compromise other application users,” he said.
+
+
+
+HTTP Terminator’s methodology
+
+
+
+Kettle built HTTP Terminator around his own research methodologies.
+
+
+
+The initial phase is ideation: It autonomously generates hypothetical testable RQP attacks, such as, for instance, desync triggers, patterns, or weaponization techniques.
+
+
+
+The next step is evaluation: hypotheses are tested at large scale to identify which actually worked. HTTP Terminator used live websites that allow security testing via bug-bounty and Vulnerability Disclosure Programs (VDPs). A built-in anomaly detection layer flagged unusual responses.
+
+
+
+Following that is a weaponization phase, which determines whether findings actually have real-life impact.
+
+
+
+In some cases, they did: HTTP Terminator initially generated 30,000 unique attack vectors that it tested continuously, soon identifying 700 vulnerable targets, including financial institutions and government infrastructure. The system even stole a live API key from one of these banks, and other breaches were traced back to flaws in popular enterprise products like Apache Traffic Server, Citrix NetScaler, and BeyondTrust.
+
+
+
+Finally, there’s a step Kettle calls ‘cascade.’ Each finding may be a clue to an overlooked target or detection path. “When you discover something, if you explore back up the tree you may find other undiscovered branches,” he explained.
+
+
+
+For instance: How could you detect similar behavior elsewhere? And could the behavior enable other types of attacks? Essentially, each finding becomes “the seed for the next.”
+
+
+
+“That might not look like much, but it creates a positive feedback loop which can spiral into a cascade of discoveries taking you beyond predictable findings, into the unknown,” Kettle said.
+
+
+
+Ultimately, “I realized that autonomous vs human is the wrong framing,” he explained. “It’s better to frame system design as AI vs code vs human.”
+
+
+
+A new tool for security teams
+
+
+
+HTTP Terminator was able to invent and prove several novel desync triggers, one novel desync pattern, and a desync weaponization technique.
+
+
+
+Notably, though, it identified a new “shared-parser confusion” technique that allows attackers to parse requests and responses and thus increase their attack surface.
+
+
+
+“That, by itself, is absolutely huge,” Kettle said. But, he emphasized, “this discovery was not fully autonomous — the HTTP Terminator proposed it, and I validated it. Neither of us would have discovered it alone.”
+
+
+
+Kettle has open-sourced HTTP Terminator along with his research blueprint so other security teams can “turn their own methodology and instincts into an autonomous research weapon.”
+
+
+
+The researcher advised tackling tasks in four steps: Set an objective, create an evaluation strategy, establish inspiration sources, and explore cascade routes for new discoveries. 
+
+
+
+“Evaluation is the first concrete step for both design and implementation,” he said, “because any issues there will derail the entire project.”
+
+
+
+It’s also important to “aggressively” identify and resolve data quality issues, as those will be difficult to correct later on. Further, ask high-value questions without being too broad; review outputs in initial test runs and use them to rule out low-value hypotheses; and remember that “every extra sentence of prompt risks context-contamination,” Kettle said.
+
+
+
+When a system is fully AI-driven and also reliant on AI-built code, it’s near-impossible for it to improve over time, he said. It’s better to start quickly with an AI-heavy approach, then move responsibility to deterministic code for speed and accuracy.
+
+
+
+“Fully autonomous research is real,” Kettle acknowledged. However, “humans are a massive power amplifier for AI research systems.”
+",https://www.csoonline.com/wp-content/uploads/2026/08/4207666-0-36424900-1786414708-shutterstock_2649850199.jpg?quality=50&strip=all,https://www.csoonline.com/article/4207666/the-future-of-ai-security-research-isnt-autonomous-its-human-amplified.html,https://www.csoonline.com/feed/,2026-08-11T02:18:14Z,12,Cybersecurity
+How Congress is reshaping the administration's FY27 budget,Three of the four House and Senate committees have marked up the spending proposal. Here&#39;s what they want.,https://dsm.forecastinternational.com/wp-content/uploads/2026/08/Acquisition-Request-Base-vs-Reconciliation-1024x562.png,https://www.defenseone.com/policy/2026/08/how-congress-reshaping-administrations-fy27-budget/415327/,https://www.defenseone.com/rss/all/,2026-08-11T00:21:24Z,0,Defense
+"ICBM killer passes two key tests ahead of design review, Lockheed says",The company’s Next Generation Interceptor had an 18-month delay for motor problems.,,https://www.defenseone.com/defense-systems/2026/08/lockheed-martins-icbm-killer-passed-two-key-tests-ahead-2026-design-review/415328/,https://www.defenseone.com/rss/all/,2026-08-11T00:14:00Z,0,Defense
+OpenAI reportedly completed a $7 billion employee tender offer,San Francisco&#39;s housing market is in trouble again. ,,https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/,https://techcrunch.com/feed/,2026-08-11T00:03:18Z,5,Tech
+"As AI-led attacks multiply, OpenAI launches a new cyber model","OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",,https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/,https://techcrunch.com/feed/,2026-08-10T23:56:15Z,5,Tech
+Jeff Bezos might finally get his hands on a sports team,Jeff Bezos is reportedly close to buying his first stake in a sports team: the U.K.&#39;s famed Liverpool Football Club.,,https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/,https://techcrunch.com/feed/,2026-08-10T23:16:44Z,0,Tech
+Hackers breached a small Polish energy plant via private APN last year,"Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",,https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/,https://www.bleepingcomputer.com/feed/,2026-08-10T23:07:21Z,3,Cybersecurity
+Now Rippling is counter suing tiny startup Runlayer,This lawsuit follows one filed last month by Runlayer that accused Rippling of stealing its product ideas. It&#39;s a seller and buyer-beware market warning.,,https://techcrunch.com/2026/08/10/now-rippling-is-counter-suing-tiny-startup-runlayer/,https://techcrunch.com/feed/,2026-08-10T22:26:54Z,3,Tech
+Ars Live: Ross Scott discusses the Stop Killing Games movement,Our discussion takes place live on August 11 at 3 pm ET.,https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg.jpg,https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/,https://arstechnica.com/feed/,2026-08-10T22:23:43Z,0,Tech
+"With new open models, Meta pitches another reboot of its struggling AI strategy",Meta has been trailing competitors. Zuckerberg thinks he&#39;s found a way forward.,https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg,https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/,https://arstechnica.com/feed/,2026-08-10T22:13:03Z,5,Tech
+Local water utilities are under cyber attack. A new group wants to help,The National Rural Water Association and DEF CON Franklin are coordinating the development of a replicable cybersecurity package for water providers.,,https://www.defenseone.com/threats/2026/08/water-utilities-cyber/415326/,https://www.defenseone.com/rss/all/,2026-08-10T22:00:00Z,0,Defense
+Mark Zuckerberg doesn’t understand how to live,"Recently, a man I was rock climbing with told me about how he&#39;d used AI to make a motivational poster for himself, which he&#39;d hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, &#34;Do cool shit.&#34; I made what I hoped was a polite noise. What […]",,https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision,https://www.theverge.com/rss/index.xml,2026-08-10T22:00:00Z,5,Tech
+"Trump signs bonkers order that cuts vaccines, promotes ones that don't exist",Trump falsely claimed the MMR vaccine is &#34;quite lethal&#34; and linked shots to autism.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2289391344-1024x648.jpg,https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/,https://arstechnica.com/feed/,2026-08-10T21:42:56Z,5,Tech
+Players lose access to Aliens: Fireteam Elite on Nintendo Switch without refunds,A reminder of the perils of digital ownership. ,https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/,https://arstechnica.com/feed/,2026-08-10T21:26:38Z,0,Tech
+Google co-founder Sergey Brin has now spent $100 million to fight the billionaire tax,"California&#39;s Prop 40, would impose a one-time 5% tax on the net worth of the state&#39;s billionaires.",,https://techcrunch.com/2026/08/10/google-co-founder-sergey-brin-has-now-spent-100-million-to-fight-the-billionaire-tax/,https://techcrunch.com/feed/,2026-08-10T21:20:04Z,5,Tech
+Anker&#8217;s travel charger works in almost any country and is down to $20,"If you’ve got international travel coming up, an adapter is essential for keeping your phone, earbuds, power banks, and other gadgets charged. Anker’s Nano Travel Adapter is one of our picks from our guide to the best gadgets for summer travel because it can charge up to five devices at once, yet it’s small enough […]",,https://www.theverge.com/gadgets/977626/anker-nano-travel-adapter-summer-travel-tech-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-10T21:18:15Z,2,Tech
+BdThemes plugins supply-chain hack creates rogue WordPress admins,"A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators&#39; browsers to create rogue admin accounts. [...]",,https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/,https://www.bleepingcomputer.com/feed/,2026-08-10T21:12:10Z,3,Cybersecurity
+The government was ready to expand its voting-security work. Then it pulled the plug,Cybersecurity executives described the political pressures that emerged when their findings did not support claims of election manipulation.,,https://www.defenseone.com/policy/2026/08/government-was-ready-expand-its-voting-security-work-then-it-pulled-plug/415325/,https://www.defenseone.com/rss/all/,2026-08-10T21:00:00Z,0,Defense
+Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI,"On Monday, Mark Zuckerberg published a 6,500 word manifesto about personal AI, largely about the possibilities for the &#34;personal superintelligence&#34; systems Meta AI is building. ",,https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/,https://techcrunch.com/feed/,2026-08-10T20:53:02Z,5,Tech
+Amazon funds biggest gas power plant in US despite climate pledge,Amazon announces first off-the-grid data center in race to reap AI profits.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-1152x648.jpg,https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/,https://arstechnica.com/feed/,2026-08-10T20:45:52Z,5,Tech
+Tech industry is buzzing after a Claude agent hacked into a gym,An OpenClaw agent hacked into a gym&#39;s reservation system to bump its human boss higher on a class&#39;s waitlist. And the tech industry took notice.,,https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/,https://techcrunch.com/feed/,2026-08-10T20:04:24Z,5,Tech
+Zuckerberg’s super yacht stood by while stranded boaters looked for help,Zuckerberg’s superyacht and support ship were slow to heed Coast Guard call.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2190858040-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/,https://arstechnica.com/feed/,2026-08-10T20:01:15Z,0,Tech
+Using the GitHub Copilot SDK for Java,"Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more.
+The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog.
+",,https://github.blog/engineering/using-the-github-copilot-sdk-for-java/,https://githubengineering.com/atom.xml,2026-08-10T19:30:00Z,0,General
+Bluesky now lets you hide reposts from that annoying person you follow,"Bluesky has added a new feature that lets you hide reposts from a specific person in your feeds. The tool might be helpful if you want to stop seeing reposts from that one person who clogs up your feed with reposts of things you don&#39;t care about. If you follow me, I may be that […]",,https://www.theverge.com/tech/977581/bluesky-hide-reposts-user-post-count-threads,https://www.theverge.com/rss/index.xml,2026-08-10T19:26:50Z,0,Tech
+"OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users","OpenAI has developed a new model called &#34;GPT 5.6 Cyber,&#34; designed for vulnerability research, penetration testing, incident response, and remediation. [...]",,https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/,https://www.bleepingcomputer.com/feed/,2026-08-10T19:24:40Z,3,Cybersecurity
+Costco&#8217;s great Switch 2 console bundle includes over $100 in free stuff,"The cost of the Nintendo Switch 2 is going up by $50 on September 1st, 2026, resulting in a $499.99 price tag for just the console. We’re just weeks away, but Costco is offering a fantastic $499.99 bundle for its members that includes a Nintendo Switch 2, a 256GB microSD Express card (usually $59), and […]",,https://www.theverge.com/gadgets/977489/costco-switch-2-microsd-express-switch-online-expansion-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-10T19:14:27Z,0,Tech
+Aptoide becomes the first rival app store to return to Google Play in the US,"Aptoide has brought its games store back to Google Play after more than a decade, as court-ordered changes open Android to competing app stores.",,https://techcrunch.com/2026/08/10/aptoide-becomes-the-first-rival-app-store-to-return-to-google-play-in-the-us/,https://techcrunch.com/feed/,2026-08-10T18:31:54Z,1,Tech
+Social media platforms still facing thousands of user addiction lawsuits after failed appeals,"Platforms like Meta, TikTok, Snapchat, and Google are facing a long road of litigation.",,https://techcrunch.com/2026/08/10/social-media-platforms-still-facing-thousands-of-user-addiction-lawsuits-after-failed-appeals/,https://techcrunch.com/feed/,2026-08-10T18:30:33Z,6,Tech
+YouTube now requires creators to have twice as many watch hours to start earning money,"Creators who want to start earning on the platform will need at least 8,000 qualified watch hours over the past year or 20 million qualified Shorts views in the last 90 days. ",,https://techcrunch.com/2026/08/10/youtube-now-requires-creators-to-have-twice-as-many-watch-hours-to-start-earning-money/,https://techcrunch.com/feed/,2026-08-10T18:27:44Z,0,Tech
+Clicks’ Power Keyboard brings BlackBerry-style typing to any phone — with some compromises,"Clicks’ $99 Power Keyboard brings a customizable, slide-out physical keyboard to MagSafe and Qi2 smartphones, but its added heft can make larger phones awkward to use",,https://techcrunch.com/2026/08/10/clicks-power-keyboard-brings-blackberry-style-typing-to-any-phone-with-some-compromises/,https://techcrunch.com/feed/,2026-08-10T18:00:39Z,0,Tech
+New StormEncryptor ransomware used by former Medusa affiliate,A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...],,https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/,https://www.bleepingcomputer.com/feed/,2026-08-10T17:42:00Z,6,Cybersecurity
+What to expect from Google’s 2026 Pixel hardware launch event,"It&#39;s that time of year: On Wednesday, Google is set to host its annual Made by Google hardware launch event for Pixel gadgets. Google itself has already teased new slab-style and foldable Pixel smartphones, but leaks also indicate that the company could announce updated watches, a new color for familiar earbuds, and perhaps a brand […]",,https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event,https://www.theverge.com/rss/index.xml,2026-08-10T17:30:00Z,3,Tech
+YouTube is making it harder to earn money on YouTube,"Starting February 1st, 2027, creators who want to monetize their channel through YouTube&#39;s Partner Program (YPP) will need at least 1,000 subscribers and either 8,000 qualified watch hours over the past year, or 20 million qualified Shorts views in the last 90 days. That&#39;s a sizeable jump from YouTube&#39;s current requirement of 1,000 subscribers with […]",,https://www.theverge.com/streaming/977474/youtube-partner-program-new-requirements,https://www.theverge.com/rss/index.xml,2026-08-10T17:26:46Z,0,Tech
+Has Ford got cheap car fever? A $25K crossover is supposedly on the way.,Ford dealers were told about the new Escape-sized model; one of them spilled the beans.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/ford-logo-pcb-style-1152x648.jpg,https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/,https://arstechnica.com/feed/,2026-08-10T17:07:47Z,0,Tech
+"China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw","Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.
+
+The use of StormEncryptor marks a shift from the adversary&#39;s previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.
+
+&#34;StormEncryptor is written in C++ and appends the file name extension .encrypted",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s1600/strom-ransomware.jpg,https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T16:38:37Z,6,Cybersecurity
+Taylor Farms recalls jalapeño products for Salmonella amid Cyclospora outbreak,"Recall of jalapeño products spans 26 states, major retailers, a variety of foods. ",https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2252731557-1152x648.jpg,https://arstechnica.com/health/2026/08/taylor-farms-recalls-jalapeno-products-for-salmonella-amid-cyclospora-outbreak/,https://arstechnica.com/feed/,2026-08-10T16:37:08Z,5,Tech
+Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision,"Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access.",,https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/,https://techcrunch.com/feed/,2026-08-10T16:20:13Z,5,Tech
+Valve slowly expands SteamOS support on non-Valve hardware,New update includes improvements for the Intel-based MSI Claw 8 EX AI+ among others.,https://cdn.arstechnica.net/wp-content/uploads/2024/12/powered-by-steam-os-1152x648.jpg,https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/,https://arstechnica.com/feed/,2026-08-10T16:01:04Z,7,Tech
+"Third-party app stores are rolling out in Google Play, but there's only one right now",Aptoide has become the first app store distributed inside Google Play under a judge&#39;s order. ,https://cdn.arstechnica.net/wp-content/uploads/2023/11/googleplay.jpeg,https://arstechnica.com/gadgets/2026/08/third-party-app-stores-are-rolling-out-in-google-play-but-theres-only-one-right-now/,https://arstechnica.com/feed/,2026-08-10T15:44:45Z,1,Tech
+Sila lands $1.4B Pentagon loan as militaries demand more batteries,Battery materials startup Sila will use a $1.4 billion loan from the U.S. Department of Defense to scale production at its factory in Washington State.,,https://techcrunch.com/2026/08/10/sila-lands-1-4b-pentagon-loan-as-militaries-demand-more-batteries/,https://techcrunch.com/feed/,2026-08-10T15:22:42Z,3,Tech
+Four takeaways from Mark Zuckerberg&#8217;s massive AI manifesto,"Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled &#34;The Future is for Everyone,&#34; broadly lays out his beliefs about how the […]",,https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble,https://www.theverge.com/rss/index.xml,2026-08-10T15:19:05Z,10,Tech
+Archer buys former rival Wisk Aero,"The two companies were once embroiled in a trade secret theft lawsuit. Now, Wisk is being absorbed into Archer. ",,https://techcrunch.com/2026/08/10/archer-buys-former-rival-wisk-aero/,https://techcrunch.com/feed/,2026-08-10T15:09:39Z,0,Tech
+One of China's workhorse rockets just exploded in flight,"If the failure involved the YF-100 engine, there are broader concerns for China&#39;s space program.",https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1936304422-1152x648.jpg,https://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/,https://arstechnica.com/feed/,2026-08-10T15:05:00Z,5,Tech
+Dogs can tell if you're scared or sad,"fMRI scans show happiness, fear, anger, and sadness have distinct brain activity patterns in doggy brains.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/doggy1-1152x648-1786207383.jpg,https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/,https://arstechnica.com/feed/,2026-08-10T15:00:53Z,6,Tech
+Elevating Trust: Email Threat Defense Achieves FedRAMP Class D (High) Certification,Cisco is proud to announce a landmark achievement: Secure Email Threat Defense has officially achieved FedRAMP Class D (High) certification!,,https://blogs.cisco.com/security/elevating-trust-email-threat-defense-achieves-fedramp-class-d-high-certification/,https://blogs.cisco.com/security/feed,2026-08-10T15:00:44Z,3,Cybersecurity
+"⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors","A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.
+
+That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place.
+
+That’s only part of it. Here’s",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg,https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T15:00:29Z,7,Cybersecurity
+Apple will stream Friday Night Baseball live in Vision Pro,"Starting on Friday, August 28th, Apple will begin streaming Friday Night Baseball in immersive video on Apple Vision Pro. The stream will feature commentary from various analysts and reporters, and live graphics will be anchored around the viewers space during the game. After the games conclude, replays will be made available in the Apple TV […]",,https://www.theverge.com/tech/977199/apple-will-stream-friday-night-baseball-live-in-vision-pro,https://www.theverge.com/rss/index.xml,2026-08-10T15:00:00Z,6,Tech
+"2026 Subaru Outback Limited review: Boxy outside, almost premium inside",The newest Outback sticks to the script; that&#39;s no bad thing if you like Outbacks.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/5F3A8338-1152x648.jpg,https://arstechnica.com/cars/2026/08/2026-subaru-outback-limited-review-boxy-outside-almost-premium-inside/,https://arstechnica.com/feed/,2026-08-10T14:49:21Z,1,Tech
+CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs,"CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",,https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/,https://www.bleepingcomputer.com/feed/,2026-08-10T14:34:32Z,7,Cybersecurity
+OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns,"The current GPT-5.6-Sol has been assigned a ‘high’ cybersecurity threshold, but Astra could reach the maximum ‘critical’ threshold. 
+The post OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns appeared first on SecurityWeek.
+",,https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/,https://www.securityweek.com/feed/,2026-08-10T14:33:36Z,5,Cybersecurity
+Keychron’s wireless Hall effect keyboard is back to its lowest price,"Getting a keyboard with customizable Hall effect sensors is more affordable than it used to be, and you don’t need to compromise on quality to get a good deal. Keychron’s aluminum-clad K2 HE with a 75-percent layout is down to $103.99 (was $130) at Amazon, which matches the lowest price we’ve seen occur a few […]",,https://www.theverge.com/gadgets/977300/keychron-hall-effect-sony-inzone-headsets-gaming-laptop-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-10T14:27:23Z,0,Tech
+A researcher bought noreply.net. Companies started sending him secrets.,"Companies treat some email domains as digital trash cans, despite the risks.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/rubbish-1152x648.jpg,https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/,https://arstechnica.com/feed/,2026-08-10T14:25:50Z,5,Tech
+"A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",Companies that rely on Ceva Logistics for shipping their physical goods to customers say their personal data was taken during a recent cyberattack.,,https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/,https://techcrunch.com/feed/,2026-08-10T14:20:19Z,5,Tech
+Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds,"The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure.
+The post Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds appeared first on SecurityWeek.
+",,https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/,https://www.securityweek.com/feed/,2026-08-10T14:19:36Z,4,Cybersecurity
+Signed up for Klaviyo? Dozens of advertisers may have seen your password,"A bug in the tech giant&#39;s website mistakenly shared users&#39; sign-up information, including personal data and their password, to third-party companies.",,https://techcrunch.com/2026/08/10/signed-up-for-klaviyo-dozens-of-advertisers-may-have-seen-your-password/,https://techcrunch.com/feed/,2026-08-10T14:14:43Z,0,Tech
+Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC,"Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition.
+The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/,https://www.securityweek.com/feed/,2026-08-10T14:07:48Z,7,Cybersecurity
+When Credentials Are No Longer Enough: Device Trust in the AI Era,"AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",,https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/,https://www.bleepingcomputer.com/feed/,2026-08-10T14:01:11Z,3,Cybersecurity
+Bose CEO Lila Snyder on the fight for high-quality audio,"Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both […]",,https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio,https://www.theverge.com/rss/index.xml,2026-08-10T14:00:00Z,5,Tech
+Boeing is selling its air taxi startups to Archer Aviation,"Boeing is selling three of its electric vertical takeoff and landing (eVTOL) subsidiaries to Archer Aviation, in addition to taking an undisclosed stake in the San Jose-based company. The subsidiares to be acquired by Archer include Wisk Aero, which has been developing an autonomous electric aircraft; SkyGrid, which is building air traffic management systems to […]",,https://www.theverge.com/transportation/977306/boeing-selling-evtol-archer-wisk-air-taxi,https://www.theverge.com/rss/index.xml,2026-08-10T13:51:46Z,8,Tech
+Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development,"North Korea&#39;s state hackers are no longer content to type prompts into public chatbots. One of the country&#39;s main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware.
+
+South Korean security firm Genians says it uncovered the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg,https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T13:19:58Z,7,Cybersecurity
+‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad,"An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word.
+The post ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad appeared first on SecurityWeek.
+",,https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/,https://www.securityweek.com/feed/,2026-08-10T12:59:34Z,9,Cybersecurity
+"Member of The Com sent to prison for blackmail, sextortion","A member of &#34;The Com,&#34; a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]",,https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/,https://www.bleepingcomputer.com/feed/,2026-08-10T12:56:28Z,0,Cybersecurity
+"Steam hardware shipper breach leaks customer data, including names and addresses","Valve says a data breach may have exposed the personal information of customers who ordered its Steam hardware in Europe. In an email sent to users, Valve says its European shipping partner, CEVA Logistics, suffered a data breach that may have included customer names, addresses, phone numbers, and email addresses. The breach at CEVA occurred […]",,https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach,https://www.theverge.com/rss/index.xml,2026-08-10T12:48:12Z,6,Tech
+New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA,"Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.
+
+Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim&#39;s machine, and used a ",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWKCkGCqH-c6Yaqkd_NnzFQijViu34tjAEsdl9tl2CmZLHL4m1rLhezO76zF6XFRTGS9Sr4R3jhMD7z15QV0BMqG948bjg8SoZb_j6HtQajd0PUDR8Tmw06GMqDwS6VhAtH-ZNtD06lzb9KMhJsHi-Vvkps0n6bl6C8n6rSBHCldBuc1cMczr30h11N-8/s1600/passkeys.jpg,https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T12:25:04Z,9,Cybersecurity
+LexisNexis shuts down services after suspicious activity on servers,"LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",,https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/,https://www.bleepingcomputer.com/feed/,2026-08-10T12:11:52Z,0,Cybersecurity
+"OpenAI says Astra could reach ‘critical’ cyber capability, tightens safeguards","
+		
+					  
+						
+
+
+
+
+OpenAI said its upcoming model Astra is showing cybersecurity capabilities that could reach its highest risk category, where a system can autonomously find and exploit vulnerabilities or carry out end-to-end cyberattacks against hardened targets.
+
+
+
+The company disclosed the assessment following recent internal testing and expert reviews.
+
+
+
+“Our latest internal evaluations of Astra, one of our upcoming models, over the past few days indicate significant advancements in agentic coding and cybersecurity,” OpenAI said in a statement. “These results, in addition to expert assessments, have led us to conclude last night that we cannot rule out critical cyber capabilities under our Preparedness Framework⁠.
+
+
+
+What has changed
+
+
+
+To explain the shift, OpenAI pointed to its internal Preparedness Framework, which tracks how far AI models advance in sensitive areas such as cybersecurity.
+
+
+
+At the top end of that framework are systems that no longer just assist humans but can act on their own, the company said.
+
+
+
+“A model reaches the Critical cybersecurity threshold if it can identify and develop functional zero-day exploits of all severity levels in many hardened real-world critical systems without human intervention, or can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high-level desired goal,” the statement added.
+
+
+
+The company said Astra has not yet been definitively classified at that level, but its early performance is “strong enough” that such a designation cannot be ruled out. Its earlier models, including GPT 5.6 Sol, “have been evaluated for frontier cyber capabilities and assessed at the High (rather than Critical) threshold.”
+
+
+
+“This is a substantial inflection point,” said Apeksha Kaushik, senior principal analyst at Gartner. “An AI system could autonomously discover vulnerabilities, develop exploits, and execute end-to-end attacks with minimal human guidance.”
+
+
+
+Why this matters for enterprises
+
+
+
+For security teams, the change is not just technical — it affects how attacks may unfold, analysts feel.
+
+
+
+Kaushik said the pace of progress suggests “practical, real-world exploitation is becoming increasingly feasible,” meaning attackers could automate large parts of the attack process. That reduces the time defenders have to react.
+
+
+
+“The implication is clear: enterprise security must evolve from reactive to preemptive,” she said, adding that organizations should move toward continuous, AI-driven exposure assessment and predictive analysis.
+
+
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, said companies should not wait for a formal label before acting.
+
+
+
+“OpenAI has said it cannot rule out critical cybersecurity capability in Astra and is treating the model accordingly. That is a precautionary trigger rather than a finished finding,” he said.
+
+
+
+He added that the focus should shift beyond patching speed. “The measure that matters is defensive response latency. A flat vulnerability queue is no longer a security posture.”
+
+
+
+What OpenAI is doing now
+
+
+
+Based on the development, OpenAI said it is tightening controls around Astra’s development.
+
+
+
+“We are implementing stricter security controls for higher-capability models,” the company said, including “isolated testing environments, restricted network and tool access, enhanced model weight protections and encryption, additional monitoring and detection capabilities, and sandboxed execution,” OpenAI added I n the statement.
+
+
+
+It is also “pausing internal activities involving Astra that do not yet meet these strengthened security control requirements.”
+
+
+
+The company said it has expanded monitoring across how the model is used. “We have implemented universal monitoring for risky actions and misalignment,” it said, adding that systems can “trigger a security response to review and interrupt high-risk activity.”
+
+
+
+Are the safeguards enough?
+
+
+
+Analysts said these steps are necessary, but may not fully address the risks as capabilities improve.
+
+
+
+“Current safeguards such as restricted environments, continuous monitoring, and external red-teaming are necessary, but the gap between safeguards and emerging threats is increasing,” Kaushik said. She pointed to risks such as prompt injection and weak access controls in AI systems.
+
+
+
+Gogia said safeguards need to be viewed in the context of the broader system.
+
+
+
+“A capable model does not operate inside a framework document. It operates inside a system, and systems leak authority through their exceptions,” he said. “Gated access buys defenders time. It does not repeal a capability.”
+
+
+
+OpenAI said it will work with governments and external safety groups to further test Astra.
+
+
+
+“We will work with relevant government agencies and select AI safety organizations to test the capabilities for this model,” the company said, adding that it will also share guidance with third-party testing partners. The company said it is disclosing the findings to be transparent about what it called a “potential shift in capabilities.”
+",https://www.csoonline.com/wp-content/uploads/2026/08/4207311-0-46365300-1786363644-OpenAI-shutterstock_editorial_2797310785.jpg?quality=50&strip=all,https://www.csoonline.com/article/4207311/openai-says-astra-could-reach-critical-cyber-capability-tightens-safeguards.html,https://www.csoonline.com/feed/,2026-08-10T12:07:10Z,22,Cybersecurity
+Google Play adds Venmo as a payment option,The ability to add Venmo to Google Play comes as people are spending more money on apps and games. ,,https://techcrunch.com/2026/08/10/google-play-adds-venmo-as-a-payment-option/,https://techcrunch.com/feed/,2026-08-10T12:00:00Z,1,Tech
+This great retro-inspired keyboard now comes preassembled,"You probably know just by looking at it if the Classic-TKL Underscore Edition is for you. Do you want a retro-looking wired keyboard without a number pad? Great. Do you care that it doesn&#39;t have wireless? Perfect. Do you want it preassembled? Buddy, you&#39;re in the right place. But Nathan, you might say, preassembled is […]",,https://www.theverge.com/tech/976262/novelkeys-classic-tkl-underscore-edition-review,https://www.theverge.com/rss/index.xml,2026-08-10T12:00:00Z,0,Tech
+Discovered Materials is playing AI whack-a-mole to hunt cooler chips,Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips. ,,https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/,https://techcrunch.com/feed/,2026-08-10T12:00:00Z,5,Tech
+One-click flaw in Atlassian Rovo exposed enterprise data via prompt injection attack,"
+		
+					  
+						
+
+
+
+
+Atlassian’s enterprise AI assistant Rovo, which is usually connected across sensitive work environments like Slack, Microsoft 365, and Google Workspace, was found vulnerable to data leaks through malicious instructions.
+
+
+
+At DEF CON 34, researchers from Varonis demonstrated an attack that used Rovo’s rovoChatPrompt parameter to place attacker-controlled instructions directly into Rovo Chat.
+
+
+
+“A single click on a link triggers the attacker’s embedded instructions and forces Rovo to accept externally supplied parameters as trusted inputs within a user’s session,” Varonis researcher Dolev Taler said in a blog post, dubbing the attack “RovoBlast.”
+
+
+
+The attack only required one click by the victim on a specially crafted link, which then allowed the attacker to potentially access anything Rovo is privileged.
+
+
+
+The issue was reported to Atlassian through a bug bounty program hosted on Bugcrowd, and the company has since fixed it. The company, however, did not immediately respond to CSO’s request for comments.
+
+
+
+Rovo’s broad access made the click worse
+
+
+
+Varonis found that Rovo could enumerate and search data across a wide range of sources available to an organization, including Jira, Confluence, Bitbucket, Slack, Google Workspace, Microsoft 365, relational databases, uploaded files, webpages, and archives.
+
+
+
+Rovo connectors extend reach to more than 50 platforms, Varonis said. Attackers could access data protected behind credentials without a compromise. This could all look like legitimate activity performed by the assistant on behalf of a user.
+
+
+
+Taler also noted that Rovo cannot be fully uninstalled.
+
+
+
+“Organizations attempting to remove the risk may not be able to eliminate Rovo’s presence in their environment or the associated attack surface, making robust input validation and security controls even more critical,” he said.
+
+
+
+Exfiltration was possible
+
+
+
+Varonis researchers then looked at whether Rovo’s agent capabilities could turn the access to corporate information into an actual data-exfiltration path.
+
+
+
+They found that they could.
+
+
+
+Rovo’s “ResearchAgent,” it turned out, could perform deep, multi-source web research and navigate across websites through multiple autonomous steps. In Varonis’ testing, that created a potential chain in which Rovo could retrieve information from internal sources and move it toward an external destination.
+
+
+
+Importantly, the researchers said they did not need a jailbreak, a double request technique, or a complicated prompt-surgery attack. The single culprit clicking on the crafted Rovo link was enough to seed the malicious instructions.
+
+
+
+Once inside the session, autonomous agent capabilities were shown to be capable of carrying out the attack in its entirety. “Rovo includes built-in automation that accelerates exfiltration once misused,” Taler added.
+
+
+
+As the threat extended from a failing AI guardrail to the risk of automated damage escalation, researchers advised measures beyond a patch.
+
+
+
+They recommended shrinking Rovo’s blast radius by limiting connected systems, keeping highly sensitive areas such as legal, HR, finance, and incident response out of scope, and disabling browsing or multi-step automation that organizations do not need.
+
+
+
+“The less the assistant can see, the less it can leak, regardless of prompt injection or agent abuse,” they said.
+
+
+
+Varonis drew parallels with other recently disclosed AI attacks like SearchLeak, EchoLeak, ShadowLeak, and Antigravity. The company said RovoBlast is just another example of a broader AI security issue where “untrusted inputs, autonomous behavior, and trusted communication” are together creating serious data exposure.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4207306-0-69862700-1786363196-bluestork_shutterstock_2597330593_NR_16z9.jpg?quality=50&strip=all,https://www.csoonline.com/article/4207306/one-click-flaw-in-atlassian-rovo-exposed-enterprise-data-via-prompt-injection-attack.html,https://www.csoonline.com/feed/,2026-08-10T11:59:41Z,10,Cybersecurity
+Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development,"AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.
+
+When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security from becoming the bottleneck, or worse, losing control of what gets shipped.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy3fcUJacnxspYO1ssk2-ESCQ9QYb5BBCB0-3Jk8UyWQFmKZxt8RCeYemwUlJ08y_hnkyVm4LaAq6a_oyz5BPmpuwkmephJ0K7iy6cFvPjAe-b3pQ4Q28jh3KzNqLhZ6qtecuG9jenDpeVsjpUrG9ZBEwe2WStxgh6RiOwhI_rlsxYelFv2BD31o9rhd8/s1600/chain-webinar.jpg,https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T11:52:16Z,2,Cybersecurity
+Valve notifies Steam hardware customers of a data breach,"Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",,https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/,https://www.bleepingcomputer.com/feed/,2026-08-10T11:47:55Z,4,Cybersecurity
+"New Jersey, Alabama Join States Targeted in Water Cyberattacks","Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states.
+The post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/,https://www.securityweek.com/feed/,2026-08-10T11:44:26Z,4,Cybersecurity
+TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore,"The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.
+
+Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.
+
+The activity involves exploiting a vulnerability chain",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwaZH1uRwKD4SlLCwgb-7zVkEGjYYXdFxb21glBm3grBdwOZ_M-ECnOmNVFPPY6mg6wXUCf4R4xm9mI8mBiEm21Ixh6y9GXYvL9DKQgKEBkTN65AVQqFz9DJpMs6BRmrGWjGC5vDC-cFgx774ASr7j73D0wiRxrs9tKNdovUbwmLuGicKgcZeQR53z71bT/s1600/trueconf.jpg,https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T11:33:41Z,15,Cybersecurity
+The first rival Android app store just arrived in the US Play Store,"Following the latest twist in Google&#39;s legal battles with Epic, US Android users are now able to open Google&#39;s Play Store and download a third-party digital store with its own selection of apps. Aptoide, a store specialized in mobile games, is the first to become available. Third-party app stores have always been available on Android, […]",,https://www.theverge.com/tech/977269/google-play-store-third-party-app-aptoide-games,https://www.theverge.com/rss/index.xml,2026-08-10T11:30:32Z,6,Tech
+Metabase Patches Vulnerability Exploited as Zero-Day,"The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances.
+The post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/,https://www.securityweek.com/feed/,2026-08-10T11:03:55Z,16,Cybersecurity
+Peer review is overwhelmed—can it survive in the AI era?,"As research and AI-assisted papers surge, volunteer reviewers struggle to keep up.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg,https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/,https://arstechnica.com/feed/,2026-08-10T11:00:47Z,6,Tech
+Space mirrors could ruin astronomy — and your eyes,"Solar energy, at any time of day or night - that&#39;s the dream of space mirror projects. Futurists have been imagining satellite mirrors that could reflect the sun&#39;s light onto the Earth&#39;s surface for over a century. Russian scientists experimented with the concept in the &#39;90s with the Znamya project. The idea is to put […]",,https://www.theverge.com/science/976977/space-mirror-reflect-orbital-fcc-solar-eye-damage,https://www.theverge.com/rss/index.xml,2026-08-10T11:00:00Z,0,Tech
+Ford’s new AI assistant can check your fuel levels and tire pressure,"Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you&#39;ll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it […]",,https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app,https://www.theverge.com/rss/index.xml,2026-08-10T11:00:00Z,6,Tech
+Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility,"CERT.PL said this appears to be the first instance of a private APN being used as an attack vector.
+The post Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility appeared first on SecurityWeek.
+",,https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/,https://www.securityweek.com/feed/,2026-08-10T10:01:52Z,4,Cybersecurity
+Critical Progress LoadMaster flaw now actively exploited in attacks,The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...],,https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-10T09:49:37Z,11,Cybersecurity
+CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability,"The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands.
+The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/,https://www.securityweek.com/feed/,2026-08-10T09:31:51Z,11,Cybersecurity
+4 million fake applications and one blind spot: A SOC playbook for OAuth client ID spoofing,"
+		
+					  
+						
+
+
+
+
+Key takeaways
+
+
+
+
+OAuth client ID spoofing defeats detections that key off application name or a known application ID, because the field itself is fabricated, rotated or blank.
+
+
+
+AADSTS700016 paired with an unrecognized client ID can mean valid credentials, not a broken app registration — treat it as a triage signal, not noise.
+
+
+
+Effective detection logic correlates client ID cardinality, missing application names and AADSTS error sequences across a time window, not any single event.
+
+
+
+A rehearsed response runbook (reset, revoke, review) matters as much as the detection query itself, and the cost of skipping it shows up as account takeover, not just alert fatigue.
+
+
+
+
+The signal hiding in plain sight
+
+
+
+Picture a queue of failed sign-in alerts against Microsoft Entra ID. Each one points to a different application ID. None of the IDs are registered in the tenant. None crosses a volume threshold on its own. Nothing about the queue reads as a coordinated campaign; it reads like the normal debris of expired app registrations and forgotten test scripts that every tenant accumulates. An analyst scanning for a named application spiking in failures would scroll right past this queue without a second look. That is the point. Since December 2025, at least two threat actors have built enumeration campaigns specifically engineered to look like configuration noise instead of an attack, and the difference between the two is a detection-engineering question, not just a threat-intel one.
+
+
+
+The mechanism, in three error codes
+
+
+
+The technique abuses the OAuth 2.0 Resource Owner Password Credentials (ROPC) flow, in which a single token request bundles a username, password, and client ID. Three Entra ID response codes carry the signal that matters.
+
+
+
+AADSTS50034 means the username doesn’t exist. AADSTS50126 means the username exists, but the password is wrong. AADSTS700016 fires when the username and password are both valid but the client ID isn’t recognized. That last code is the one worth building a detection around: on its own, it looks like an app-registration problem an admin forgot to clean up. When paired with an unfamiliar, constantly rotating client ID, it can mean an attacker has already confirmed a working credential pair and is one step away from account takeover.
+
+
+
+ROPC persists in more environments than security teams expect. It survives in legacy scripts, CI pipelines and third-party integrations built before Microsoft’s guidance to avoid it, precisely because it is the path of least resistance for developers who never need to open a browser. That installed base is what gives the technique room to operate. Attackers are not exploiting a rare misconfiguration; they are exploiting a flow that is still common enough to hide inside.
+
+
+Figure 1. OAuth client ID spoofing attack and detection workflow.Sunil Gentyala
+
+
+
+Two campaigns, one detection gap
+
+
+
+UNK_pyreq2323. Proofpoint tracked this campaign running from AWS infrastructure, mutating the trailing digits of a real Exchange Online app ID across more than 700,000 variations, reusing each one against no more than a dozen accounts before discarding it. The campaign targeted over a million users across roughly 4,000 tenants, with about 28 percent of touched accounts hitting lockout.
+
+
+
+UNK_OutFlareAZ. Running mostly through Cloudflare, this campaign skipped mutation entirely and generated a fresh random UUID per request: 3.7 million spoofed IDs against more than two million accounts, peaking near 720,000 targeted users on March 15, 2026.
+
+
+
+Proofpoint’s own researchers say they can’t yet confirm whether this is one actor or two independent clusters converging on the same trick through forum discussion and trial and error, a point Help Net Security also covered in reporting on the research. For detection purposes, that ambiguity doesn’t matter. Both campaigns defeat the same control, per-application volume thresholds, using the same gap: an uncorrelated, disposable identifier field that nobody is watching for cardinality.
+
+
+
+Why this is a CISO problem, not just a queue problem
+
+
+
+A 28 percent lockout rate across a million-user campaign is not a rounding error. It is a helpdesk cost, a productivity hit and, for every account where AADSTS700016 fired before the lockout, a live credential an attacker has already validated and can use elsewhere: mailbox access, OAuth consent grants, lateral movement into connected SaaS. The detection gap here isn’t cosmetic. It is the difference between catching a validated-credential event while it’s still isolated to one authentication attempt and finding out about it three weeks later from a mailbox-forwarding rule or a fraudulent wire request. That is what makes this worth a rule, not just a footnote in a threat-intel digest.
+
+
+
+Building the detection
+
+
+
+A workable rule reconstructs the request sequence instead of scoring one event in isolation. Over Entra ID sign-in logs, or the equivalent SIEM ingestion, the core logic looks like this:
+
+
+
+SigninLogs
+| where TimeGenerated &gt; ago(1h)
+| where ResultType in (&#34;50034&#34;, &#34;50126&#34;, &#34;700016&#34;) or isempty(AppDisplayName)
+| summarize
+    DistinctClientIDs = dcount(AppId),
+    ResultCodes = make_set(ResultType),
+    Usernames = make_set(UserPrincipalName)
+  by SourceIPAddress, UserAgent, bin(TimeGenerated, 15m)
+| where DistinctClientIDs &gt; 5
+| where ResultCodes has &#34;700016&#34;
+
+
+
+The two variables that matter most are DistinctClientIDs, because a single source cycling through many unregistered app IDs is the tell that per-application thresholds miss, and the presence of AADSTS700016 in that same window, which elevates the event from configuration noise to possible credential validation in progress. Layer in username-pattern detection, alphabetic or dictionary progression across attempts from the same source, to catch the OutFlareAZ-style wordlist pattern specifically.
+
+
+
+Tune the DistinctClientIDs threshold against your own tenant’s baseline before trusting it in production. A dev team running CI against a handful of test app registrations can produce a smaller version of the same shape, and Conditional Access policies scoped only to named applications will not catch a fabricated client ID that never matches an intended application scope in the first place.
+
+
+
+Wire the rule into existing SOAR or ticketing workflows rather than a standalone dashboard nobody checks on a Friday afternoon. A detection that fires into the same queue as password-spray and impossible-travel alerts gets triaged with the same urgency; one that lands in an isolated identity-hygiene report gets read weeks later, if at all.
+
+
+
+Separating signal from noise
+
+
+
+Not every blank-app-name or 700016 event is an attack. Deleted app registrations, expired multi-tenant consent, wrong-tenant endpoint calls and CI pipelines pointed at the wrong client ID all produce similar-looking noise. Two filters cut the false-positive rate substantially. Legitimate misconfiguration is almost always low-cardinality, one or two client IDs, not dozens, and it repeats from known internal infrastructure. The attack pattern is high-cardinality and arrives from unfamiliar ASNs or hosting-provider ranges. Cross-referencing against existing password-spray and impossible-travel alerts before escalating avoids paging an analyst for a stale service principal, and tracking the rule’s precision over its first few weeks, confirmed incidents versus total fires, is worth doing before treating it as production-grade. Document the triage criteria alongside the rule itself, since the next analyst on shift needs the same reasoning to close a ticket with confidence rather than escalate out of caution.
+
+
+
+The response runbook
+
+
+
+When the correlated signal fires, the runbook should be short and rehearsed before it’s needed, not improvised during the incident. Force a password reset on the affected account, revoke active sessions and refresh tokens, and review sign-in and mailbox-access activity for the days following the AADSTS700016 hit, since that is the window where a confirmed credential gets used elsewhere.
+
+
+
+Retiring ROPC entirely, migrating interactive apps to browser-based auth and service workloads to managed identities or certificate-based service principals, removes the flow this technique depends on. Until that migration is complete, the detection above is what stands between a ticket closed as configuration noise and a caught account-takeover attempt.
+
+
+
+The broader lesson for detection engineers
+
+
+
+The reusable lesson here isn’t about OAuth specifically. Any field a defender logs but doesn’t correlate — application ID, user agent, ASN, whatever comes next — is a candidate for an attacker to fragment their traffic across until per-field thresholds stop tripping.
+
+
+
+Four million fake applications is what that gap looks like at scale when nobody is watching cardinality instead of volume, and it is the same underlying playbook as MITRE ATT&amp;CK’s Valid Accounts: Cloud Accounts, T1078.004: an attacker using technically valid credentials. The fix generalizes regardless of which field gets exploited next. Build detections around behavioral sequences across multiple fields and a time window, not a single field crossing a static threshold.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4206750-0-41499000-1786352603-shutterstock_2662877349.jpg?quality=50&strip=all,https://www.csoonline.com/article/4206750/4-million-fake-applications-and-one-blind-spot-a-soc-playbook-for-oauth-client-id-spoofing.html,https://www.csoonline.com/feed/,2026-08-10T09:00:00Z,15,Cybersecurity
+Corporate Data Stolen in Levi Strauss Cyberattack,"Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them.
+The post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.
+",,https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/,https://www.securityweek.com/feed/,2026-08-10T08:55:44Z,8,Cybersecurity
+AI agents conspired to hack into networks and steal data during an experiment: study,"When researchers imposed difficult missions, AI tools forged identities, escaped sandboxes—and tried to cover it all up.",,https://www.defenseone.com/threats/2026/08/ai-agents-conspired-hack-networks-and-steal-data-during-experiment-study/415302/,https://www.defenseone.com/rss/all/,2026-08-10T08:39:22Z,0,Defense
+7 key trends defining the cybersecurity market today,"
+		
+					  
+						
+
+
+
+
+AI is having a seismic impact on the cybersecurity market. Record-shattering amounts of venture capital is flowing into a new generation of startups focused on AI cybersecurity.
+
+
+
+At the same time, established cybersecurity vendors are racing to integrate AI and agentic AI features into their platforms, triggering a surge in acquisition activity. But while AI is the most significant driver of cybersecurity market trends, it’s not the only one.
+
+
+
+Here are the top cybersecurity market trends this year.
+
+
+
+VC funding hits new highs
+
+
+
+Global venture funding reached a record $510 billion in the first half of 2026, topping the $440 billion invested last year, according to Crunchbase. OpenAI and Anthropic accounted for $217 billion or 43% of that startup funding, but investors also poured billions into more than 5,000 other startups in the first half of 2026.
+
+
+
+“Venture capital is concentrating into AI-enabled cybersecurity companies: 72% of US cyber deals through May 2026 involved an AI-enabled company,” according to John China, co-head of innovation economy at J.P. Morgan Commercial Banking.
+
+
+
+Crunchbase predicts that 2026 “may be remembered not only as the year venture funding reached a new high, but as the beginning of a cycle in which record private investment and a functioning exit market reinforce one another,” leading to a new wave of public cybersecurity companies.
+
+
+
+Here are three major 2026 VC deals involving cybersecurity companies:
+
+
+
+
+Keyfactor, which provides a trust infrastructure based on secure certificates and encryption keys for AI and machine identities, raised $1 billion in July.
+
+
+
+Cyera, which offers an AI-native data security platform, raised $600M in June, boosting its total amount of VC investment to $2.3B.
+
+
+
+Upwind Security raised $250M in January to support its runtime-first, cloud-native security platform.
+
+
+
+
+See also: “10 promising cybersecurity startups CISOs should know about.”
+
+
+
+New AI-centric product categories emerge
+
+
+
+AI has created entirely new product categories. Gartner lists some of them as LLM security, prompt injection detection, model integrity, AI firewalling, AI governance, AI red teaming, and shadow AI discovery.
+
+
+
+Prompt Security has built an AI security startup map that covers 367 companies. The breakdown, with companies potentially appearing multiple times, looks like this: AI observability and governance (239 vendors); runtime security and guardrails (188); agentic identity protection (89); MCP and LLM gateways (79); AI red teaming (78); AI-SPM (64); agentic data governance (63); and model security (52).
+
+
+
+Richard Stiennon, who tracks cybersecurity vendors in his IT-Harvest database, has identified 21 distinct AI security categories, including SOC automation, governance, vulnerability management, guardrails, model security, deepfake defense, agent security, MCP security, and AI identity. There is no indication that the growth rate is slowing down. In June, Stiennon added 20 new AI security startups to his database.
+
+
+
+Representative vendors include Noma Security, Hidden Layer, Zenity, Latera Guard, Rebuff, Vigil, LLM Guard, Vectra AI, 7ai, and Mindguard.
+
+
+
+See also: “AI-SPM buyer’s guide: 14 tools to secure your AI infrastructure.”
+
+
+
+Cyber M&amp;A activity surges
+
+
+
+For CISOs trying to make sense of the dizzying explosion of new AI-focused security tools, the traditional cybersecurity market leaders are filling gaps in their portfolios via acquisition.
+
+
+
+Investment bank Momentum Cyber, which tracks cybersecurity M&amp;A activity, reports that at the halfway point of 2026, there have been 219 transactions worth $9.1B, putting 2026 on pace for the highest deal count it has ever tracked and 11% above 2025’s record year.
+
+
+
+For example, CrowdStrike bought SGNL to bolster identity security across human, non-human, and AI identities. Cisco bought agentic AI security vendor WideField Security, non-human identity security platform Astrix, and AI observability vendor Galileo. Check Point acquired Cyata, which provides governance of AI agents. Zscaler is buying AI and data security firm Symmetry Systems.
+
+
+
+Palo Alto Networks is acquiring AI gateway startup Portkey, as well as Koi for its agentic endpoint security technology. 1Password has acquired Apono, which specializes in just-in-time access governance for humans, machines, and AI. A10 Networks bought TrojAI to add AI red-teaming and runtime protection to its security portfolio.
+
+
+
+June was the strongest month of the year with 39 M&amp;A transactions and $4.9B of disclosed value, signaling growing momentum toward larger, more transformative strategic outcomes in the second half, according to Momentum Cyber.
+
+
+
+See also: “10 most powerful cybersecurity companies today.”
+
+
+
+Advertisement. Scroll to continue reading.
+
+
+
+Platform momentum grows
+
+
+
+Despite the healthy VC market for startup security vendors, the overarching trend toward platforms remains unchallenged. Enterprise CISOs are certainly deploying specific point products to address security gaps, but they are also demanding tools that integrate with their broader platforms.
+
+
+
+Gartner points out that enterprises that may have had 60 to 100 security tools are now targeting 20 to 30 integrated platforms. Vendors are responding by expanding into adjacent markets, such as endpoint security and identity management; SIEM and XDR; email and browser security.
+
+
+
+The vendors with the strongest momentum in 2026 tend to share several characteristics: broad security platforms rather than single-purpose tools, AI-native automation and agentic capabilities, strong identity and cloud security integration, unified data architecture and outcome-focused messaging (reduced risk, faster response, measurable resilience).
+
+
+
+“Conversely, vendors offering standalone products without differentiated AI, automation, or platform integration are under increasing pressure to consolidate, partner, or specialize,” Gartner says.
+
+
+
+Forrester analyst Jess Burn puts it more bluntly: “It’s time to ditch standalone security tools that don’t integrate well or offer enough visibility. While single-function tools work for niche needs, relying too heavily on them creates inefficiencies — especially now that multipurpose platforms are more common. Focus instead on solutions that prioritize integration, automation, and productivity.”
+
+
+
+See also: “6 tips for consolidating your IT security tool set.”
+
+
+
+Quantum security gets real
+
+
+
+Threats posed by attackers using quantum computing to break public-key encryption have seemed like something CISOs could put on the back burner and deal with at some point in the future. But that future has arrived, and the vendor community is now offering tools to help enterprises identify potentially vulnerable datasets, and to migrate to quantum-safe environments.
+
+
+
+The “harvest-now, decrypt later” approach taken by potential adversaries has created an urgency to protect sensitive data. And US President Donald Trump signed an executive order in June signaling the federal government’s effort to accelerate quantum security. The order calls for a nationwide transition to post-quantum cryptography by 2031.
+
+
+
+Gartner analyst Alex Michaels says, “Post-quantum cryptography alternatives must be adopted now to avoid potential data breaches, legal liability, and financial loss from ‘harvest now, decrypt later’ attacks targeting long-term sensitive data.”
+
+
+
+Some of the leading vendors in the emerging quantum security market include SandboxAQ, QuSecure, Post-Quantum, Quintessance, and Fortanix. In addition, familiar faces such as IBM, Palo Alto Networks, Microsoft, Cisco, and Google are offering or developing protections against quantum-based attacks.
+
+
+
+See also: “The CISO’s guide to establishing quantum resilience.”
+
+
+
+Managed security services (MSS) gain momentum
+
+
+
+The largest cybersecurity transaction in 2026 so far was Accenture’s $4.175B acquisitions of Dragos, NetRise, and runZero. Accenture’s goal is to create a unified cybersecurity platform to protect critical infrastructure, including industrial control systems, IoT, sensors, and cloud-connected devices — and to offer that protection as a managed service.
+
+
+
+Accenture’s entry into managed security services is an attempt to offset softness in its consulting business, according to analysts, but also reflects the fact that managed security services is a hot growth area.
+
+
+
+“Cybersecurity is being reshaped by expanding attack surfaces, AI-enabled threats, and intensifying regulatory scrutiny. Managed security services (MSS) are reflecting this momentum, with spending expected to rise from approximately $35.6 billion in 2025 to over $52 billion by 2028,” according to Frost &amp; Sullivan.
+
+
+
+GrandView Research says that enterprises are turning to managed services for advanced threat intelligence, round-the-clock monitoring, incident response, and vulnerability management. “The services segment is witnessing robust growth as organizations prioritize agility, expertise, and scalable cybersecurity capabilities to safeguard critical data, ensure regulatory compliance, and strengthen overall resilience against sophisticated cyberattacks,” according to GrandView.
+
+
+
+The market for managed cybersecurity services is rapidly expanding on two fronts. There are pure-play MSS vendors such as Arctic Wolf, Huntress, and SentinelOne. In addition, established vendors such as Dell, Microsoft, Cisco, Palo Alto Network, and others are delivering managed detection and response (MDR).
+
+
+
+See also: “Top 12 managed detection and response solutions.”
+
+
+
+The rise of data security posture management (DSPM)
+
+
+
+The market has stepped up to meet the growing need for a holistic approach to securing data with a product category called data security posture management (DSPM). These tools discover, classify, and secure data across environments and use cases.
+
+
+
+“In today’s landscape of expanding data assets, the use of AI, and evolving data breach threats, data security posture management tools are in high demand,” says Gartner analyst Jaimie Anderson.
+
+
+
+Krista Case, research director at Futurum Group, adds, “DSPM is increasingly central to how organizations think about visibility and control over sensitive data in hybrid, multi-cloud environments.”
+
+
+
+As often happens when a product category takes off, startups lead the way and established vendors start snapping them up. In the DSPM market, Palo Alto bought Dig Security, IBM bought Polar Security, Thales bought Imperva, Rubrik bought Laminar, Proofpoint bought Normalyze, Commvault bought Satori, Veeam bought Securiti, and so on.
+
+
+
+This gives CISOs plenty of choices from among their platform partners, but there are still a number of independent DSPM players such as Cyera, Skyhigh, BigID, Concentric, and Sentra.
+
+
+
+“The future looks bright for DSPM,” says Omdia Research analyst Adam Strange, adding, “DSPM has both critical mass and momentum.”
+
+
+
+See also: “DSPM buyer’s guide: Top 10 data security posture management tools.”
+",https://www.csoonline.com/wp-content/uploads/2026/08/3829666-0-13216000-1786350465-shutterstock_1099822964.jpg?quality=50&strip=all,https://www.csoonline.com/article/3829666/7-key-trends-defining-the-cybersecurity-market-today.html,https://www.csoonline.com/feed/,2026-08-10T08:25:00Z,18,Cybersecurity
+"Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials","Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (&#34;solidity-pro&#34;) that has been observed delivering a browser wallet and credential stealer.
+
+The names of the extensions are below -
+
+
+  helper-beeps.solidity-pro
+  web3devtoolsx.solidity-pro
+
+Although neither of the extensions is now available on Open VSX, the GitHub repository",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR5_Dx4heVYIxaujo8ybl0OFdVuLzMFe0qdEdr6-q_QTdhSVlgHdrP6MeooXamFpRNfHjoAqTquvk3CkkCKUw1TQDkQJCrZY1RTC9iYK_bsTLNvpj0BZfFKFcnlt1RAlBvfcsWeSuLAn6Gwh9lur7v9-HlH-6ZpSmw7npsn9TSZAEpwFSFE54_xcFPcuDi/s1600/pro.jpg,https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T07:38:23Z,2,Cybersecurity
+OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause,"OpenAI has announced that it&#39;s pausing some &#34;internal activities&#34; involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.
+
+In response to the discovery, the AI upstart said it&#39;s implementing security controls for higher-capability models and associated activities, such as isolated",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgat4Wvo6Fpe6pNG66UengjFIWRohQUVp-khyphenhyphenxa57n9Ued3-mWlDeeTQkblpAP-OEjgSCbY0n1bC_MhI3a5_BF1bWq7rBohkS2DG1AXUtcDI8MuWPRMFKGNdteA7_Xkg-_6w-y-wao14ZPQWoRF8cnbibQYHUAGP1byqwYyBpcyvCBQd0h2fe6t94zvoa4j/s1600/openai-astra.jpg,https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html,https://feeds.feedburner.com/TheHackersNews,2026-08-10T05:50:03Z,2,Cybersecurity
+Bangladesh Joins Saudi-led Defense Coalition as Bab el-Mandeb Risks Grow,Bangladesh says that joining the Saudi-led defense coalition does not pose a threat to its relations with Iran.,https://images.thediplomat.com/v1/td-list-l-2/2026/08/thediplomat_2026-08-10-161820.jpeg,https://thediplomat.com/2026/08/bangladesh-joins-saudi-led-defense-coalition-as-bab-el-mandeb-risks-grow/,https://thediplomat.com/category/asia-defense/feed/,2026-08-10T05:23:00Z,0,Defense
+Critical Flaws Discovered in Belgian eID Software Used by 2 Million People,"The vulnerabilities affected software used by eight of Belgium’s ten largest banks and over 60 government agencies.
+The post Critical Flaws Discovered in Belgian eID Software Used by 2 Million People appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/,https://www.securityweek.com/feed/,2026-08-10T04:44:32Z,1,Cybersecurity
 Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry,The AI-focused hedge fund is still making some big bets.,,https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/,https://techcrunch.com/feed/,2026-08-09T20:35:17Z,8,Tech
 No Dogs in Space is a music history podcast for true obsessives,"Sadly, there hasn&#39;t been a new episode of No Dogs in Space since July of 2024. Part four of the podcast&#39;s series on Can wrapped up an abbreviated season three, which focused on experimental rock. Don&#39;t get me wrong, I loved seasons one and two, but the show seemed to be gearing up for a […]",,https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast,https://www.theverge.com/rss/index.xml,2026-08-09T20:28:31Z,1,Tech
 Anthropic is turning Claude Code’s auto mode on by default,Programming with Claude Code will soon require even less human oversight.,,https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/,https://techcrunch.com/feed/,2026-08-09T19:20:32Z,0,Tech
