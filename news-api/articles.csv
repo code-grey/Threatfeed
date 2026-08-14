@@ -1,4 +1,710 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+5 key takeaways from Black Hat USA 2026,"
+		
+					  
+						
+
+
+
+
+AI’s potential as a security tool and the danger of autonomous AI agents as a new attack surface were key themes of the presentations and product announcements at Black Hat and DEFCON in Las Vegas last week.
+
+
+
+Here are some key takeaways from this year’s hacker summer camp that CISOs should review while developing cybersecurity strategies.
+
+
+
+Reactive patching alone is no longer sufficient
+
+
+
+Microsoft’s David Weston delivered a keynote at Black Hat arguing that AI is making advanced vulnerability discovery and exploit development cheaper and faster, undermining traditional assumptions that attacks are rare and defenders have time to establish defenses.
+
+
+
+Rather than attempting to respond faster than attackers, he said, the security industry needs to build greater durability into systems by adopting memory-safe languages such as Rust, harnessing AI-assisted engineering to improve existing codebases and automating remediation rather than sticking to established monthly patch cycles.
+
+
+
+In its analysis, CSO explored his arguments in greater depth.
+
+
+
+AI attacks are creating fresh avenues for supply-chain attacks
+
+
+
+Researchers from Zenity have uncovered a large-scale attack in which trojanized AI “skills” (instruction/configuration files that tell AI agents how to use tools) were uploaded to the skills.sh marketplace.
+
+
+
+The malicious skills, which typo-squatted on popular AI services Paperclip and Browser Use, were downloaded more than 1.7 million times in less than a month. During a presentation at Black Hat, Zenity described the campaign as part of a broader trend of AI software supply-chain attacks.
+
+
+
+CSO’s Lucian Constantin provides more details on the research and its implications.
+
+
+
+GitHub event stream can be used for security telemetry
+
+
+
+Security professionals concerned about supply chain attacks more generally were offered a useful pointer from one Black Hat talk: GitHub may already provide enough telemetry to detect many supply-chain attacks.
+
+
+
+Microsoft’s Yossi Weizman and Echo’s Mor Weinberger showed that recent supply chain attacks such as Shai-Hulud, Trivy, and Megalodon repeatedly used the same patterns: forged commit identities, poisoned tags, workflow abuse, OIDC token misuse, and attempts at evidence erasure.
+
+
+
+These hallmarks of potential malfeasance can be turned into behavioural detections using GitHub webhooks, APIs, and Git metadata, the researchers explained during their presentation.
+
+
+
+They released an open-source tool called GitHub Threat Detector, offering 30 built-in detection rules, to accompany their talk. GitHub Threat Detector follows an EDR-like pipeline, but ought to be viewed as a work in progress, they noted; its current drawbacks include possibly disabled webhooks, rate-limited APIs and an absence of real time inspection.
+
+
+
+See further details about their research in an article by CSO’s Shweta Sharma.
+
+
+
+AI-powered security research more powerful when human-led instead of autonomous
+
+
+
+AI is capable of performing original security research beyond simply pattern-matching of known bugs, but the most impactful findings arise when human experts shepherd its path.
+
+
+
+PortSwigger researcher James Kettle showed how it was possible for an expert to design the research methodology, filter weak outputs, and use deterministic code to constrain and scale the AI’s work before turning it loose.
+
+
+
+HTTP Terminator, a system designed by Kettle using this methodology, was able to find hundreds of live HTTP request smuggling (HTTP desync) vulnerabilities, steal a real API key from a bank, and uncover a new class of vulnerability called “shared-parser confusion.”
+
+
+
+Kettle highlighted his work during a talk at Black Hat, and urged other security researchers to apply this methodology when developing similar AI-amplified research systems, described in more depth earlier this week by CSO.
+
+
+
+Network Address Translation ‘privacy’ threatened by new attack
+
+
+
+Security assumptions that underpin the widespread use of Network Address Translation (NAT) within enterprises were undermined by another presentation at Black Hat.
+
+
+
+NAT was designed as a workaround for IPv4 address exhaustion, not as a security control, but the technology is supposed to ensure that private addresses stay private, an assurance that fresh research has thrown into doubt.
+
+
+
+During a presentation at Black Hat, researcher Malcolm Stagg (an independent affiliated with Synack’s Red Team) disclosed NatJack, a class of attacks that manipulate the NAT connection tracking table.
+
+
+
+The NatJack technique could be used to hijack active connections, poison DNS responses, and cause denial of service, without the need for the IP spoofing at Layer 2 or access to the same broadcast domain that was necessary for older attacks, he said.
+
+
+
+Testing covered 32 products or configurations across multiple vendors; every implementation tested was vulnerable to at least some or all of the NatJack techniques developed by Stagg. More detail about the vulnerabilities was reported last week by CSO.
+
+
+
+Both Microsoft and Linux maintainers have issued patches for the issue in response to Stagg’s revelations.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4209429-0-94716500-1786675528-shutterstock_1836735523.jpg?quality=50&strip=all,https://www.csoonline.com/article/4209429/5-key-takeaways-from-black-hat-usa-2026.html,https://www.csoonline.com/feed/,2026-08-14T02:45:14Z,17,Cybersecurity
+New US security entities hint at more Latin American operations,A new task force and coordinating body suggest SOUTHCOM senses a need for cooperation in the region.,,https://www.defenseone.com/ideas/2026/08/security-entities-latin-american-operations/415420/,https://www.defenseone.com/rss/all/,2026-08-14T01:26:27Z,0,Defense
+Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks,You&#39;re not alone if you just received an &#34;Apple Threat Notification&#34; saying it detected a &#34;mercenary spyware attack targeted at your iPhone.&#34; [...],,https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-14T01:19:12Z,11,Cybersecurity
+Trump declares 100 percent tariffs on many drones and all aircraft parts,"The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He&#39;s going to try to make them cost a lot more. In a presidential action, […]",,https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts,https://www.theverge.com/rss/index.xml,2026-08-14T01:06:15Z,5,Tech
+"As warfare becomes engineering, the era of the digital mercenary dawns",The White House revives “privateering for the digital age” by authorizing cyber firms to strike foreign targets.,,https://www.defenseone.com/policy/2026/08/warfare-becomes-engineering-era-digital-mercenary-dawns/415421/,https://www.defenseone.com/rss/all/,2026-08-14T00:28:52Z,0,Defense
+Apple and Epic argue over how much Apple should get from purchases made outside the App Store,"In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don&#39;t use the company&#39;s in-app purchase system. Epic has already responded, saying that Apple&#39;s request is &#34;far outside of the bounds&#34; of the […]",,https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing,https://www.theverge.com/rss/index.xml,2026-08-13T23:13:24Z,1,Tech
+Intel ops are underway at Space Command’s nascent Alabama HQ,Alabama landed SPACECOM after a years-long political fight. Now it’s getting off the ground.,,https://www.defenseone.com/policy/2026/08/intel-ops-are-underway-space-commands-nascent-alabama-hq/415418/,https://www.defenseone.com/rss/all/,2026-08-13T22:24:35Z,0,Defense
+US wait times for cancer surgeries are getting longer and longer,Study finds wait times for cancer surgeries hit 10-year high.,https://cdn.arstechnica.net/wp-content/uploads/2018/03/GettyImages-869535440-1152x648.jpg,https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/,https://arstechnica.com/feed/,2026-08-13T22:17:29Z,5,Tech
+Investors sue Selena Gomez alleging fraud tied to her mental health startup,"The plaintiffs say they invested nearly $1.2 million in the company, and are accusing Gomez of failing to build and market the startup. ",,https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/,https://techcrunch.com/feed/,2026-08-13T22:12:40Z,8,Tech
+"Flock says its new tool will help identify police abuse, but hasn’t explained how it works","The surveillance company announced it&#39;s making a tool called &#34;Audit Assistance&#34; mandatory for all customers, claiming it&#39;s already helped catch abuse. But the company has yet to explain how the tool works in detail, raising questions about its effectiveness.",,https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/,https://techcrunch.com/feed/,2026-08-13T22:02:04Z,5,Tech
+‘That is not acceptable’: Judge orders Google to make rival app store installs easier,"One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just ordered Google to make it easier to install rival app stores on Android. It&#39;s been nearly three years since a jury unanimously decided […]",,https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier,https://www.theverge.com/rss/index.xml,2026-08-13T21:53:04Z,1,Tech
+"If Apple sends you a push notification alerting you to a spyware attack, take it seriously",Apple now sends out push notifications to iPhone lock screens when the company identifies government spyware targeting someone&#39;s devices.,,https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/,https://techcrunch.com/feed/,2026-08-13T21:50:11Z,1,Tech
+The fight over Flock and other ALPRs,"There are over 120,000 of Flock’s automatic license plate reader (ALPR) cameras installed all over the US. Flock’s cameras, and others like them, use AI to identify and track vehicles based on their license plate number, make, model, color, and other info, networked together to track vehicles and people’s movements throughout the day and across […]",,https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy,https://www.theverge.com/rss/index.xml,2026-08-13T21:46:21Z,5,Tech
+Microsoft’s Clippy-like Mico character is no longer the face of Copilot,"Microsoft Copilot will no longer show its emotive yellow blob Mico when you use the chatbot&#39;s voice mode. In a support page, Microsoft says it&#39;s going to move Mico to its Learn Live platform, where the avatar will have &#34;more to react to,&#34; as reported earlier by GeekWire. Mico launched in Copilot&#39;s voice mode last […]",,https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired,https://www.theverge.com/rss/index.xml,2026-08-13T21:42:38Z,0,Tech
+Writer introduces new AI model and upgraded harness to contain token costs,"Built as a post-training variation on Z.ai&#39;s open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",,https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/,https://techcrunch.com/feed/,2026-08-13T21:13:24Z,5,Tech
+"Ukraine shuts down 94 fraudulent call centers, seize millions in cash",Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...],,https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/,https://www.bleepingcomputer.com/feed/,2026-08-13T21:12:47Z,0,Cybersecurity
+Netflix is closing two game studios,"Netflix plans to shut down two of its gaming studios as it makes a bigger shift toward party games and titles streamed to TVs. One of the studios being shut down is Night School Studio, creators of the Oxenfree series. Netflix bought Night School in 2021, and it just released a horror experience called Unhinged […]",,https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games,https://www.theverge.com/rss/index.xml,2026-08-13T20:52:58Z,0,Tech
+"Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...],,https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/,https://www.bleepingcomputer.com/feed/,2026-08-13T20:47:02Z,4,Cybersecurity
+Attackers target zero-day vulnerability in geospatial data platform GeoServer,"
+		
+					  
+						
+
+
+
+
+Security researchers have seen evidence that attackers are attempting to exploit a currently unpatched SQL injection vulnerability in GeoServer, an open-source web server for managing and publishing geospatial data.
+
+
+
+The software is widely used by organizations in many industries, including the government, defense, science, education, engineering and technology sectors, and has been targeted by hackers in the past.
+
+
+
+A bug bounty hunter shared the vulnerability Wednesday on X as a zero day. According to his post, the jsonArrayContains function contains a vulnerability that allows unauthenticated users to inject SQL commands into the database.
+
+
+
+If the database runs with administrator permissions on Microsoft SQL Server, the account also has the ability to execute commands on the system, so the SQL injection becomes a remote code execution vector. Another user confirmed on X that they were able to reproduce the flaw in a non-default configuration.
+
+
+
+“Within hours of public disclosure, we began observing exploitation attempts and have since recorded hundreds of attempts originating from a small number of source IP addresses,” researchers from security firm watchTowr told CSO via email on Thursday. “Yet another example of how quickly attackers move once a vulnerability enters the public domain.”
+
+
+
+So far, the researchers haven’t seen any malicious payloads or commands being sent, and the attempts look more like probes to identify vulnerable GeoServer instances. However, this is likely to change; GeoServer has a history of being exploited, since its users are usually seen as high value targets.
+
+
+
+Until a patch becomes available, organizations who run GeoServer should identify their internet exposed instances and restrict public access to them. They should also check the logs for any signs that exploitation has already occurred.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4209388-0-05039000-1786653806-shutterstock_2533498743.jpg?quality=50&strip=all,https://www.csoonline.com/article/4209388/attackers-target-zero-day-vulnerability-in-geospatial-data-platform-geoserver.html,https://www.csoonline.com/feed/,2026-08-13T20:43:11Z,17,Cybersecurity
+"Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.","AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",,https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/,https://techcrunch.com/feed/,2026-08-13T20:14:39Z,5,Tech
+This school-friendly laptop from HP is $300 off,"With memory prices still high and showing no signs of dropping, we’re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X Flip discounted by $300, bringing the cost down to $699.99. This model is equipped with an Intel Core Ultra […]",,https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-13T20:07:53Z,1,Tech
+White House recruits security firms to hack overseas cybercriminals,Trump memo is first time gov&#39;t has authorized private sector to perform cyber attacks.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/security-illustration-skull-1152x648-1783710141.jpg,https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/,https://arstechnica.com/feed/,2026-08-13T19:38:58Z,0,Tech
+OpenAI is losing its second executive this week,"Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the &#34;coming weeks&#34; to &#34;pursue other opportunities,&#34; she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz, will be taking over the […]",,https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure,https://www.theverge.com/rss/index.xml,2026-08-13T19:28:39Z,5,Tech
+"OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT 5.6 Sol work at 14x the speed","OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users. ",,https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/,https://techcrunch.com/feed/,2026-08-13T19:22:40Z,6,Tech
+IBM partners with OpenAI to bolster enterprise AI push,IBM plans to train and certify tens and thousands of consultants on OpenAI&#39;s technologies as part of this deal.,,https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/,https://techcrunch.com/feed/,2026-08-13T19:19:49Z,5,Tech
+Virgin Galactic wants your help naming its new Delta class spaceship,"Will it be the VSS... Horizon, Explorer, Ascend or Apeiron?",https://cdn.arstechnica.net/wp-content/uploads/2026/08/news-081226a-lg-1152x648.jpg,https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/,https://arstechnica.com/feed/,2026-08-13T19:12:15Z,0,Tech
+The Trump admin will start letting private firms launch international cyberattacks,"The Trump administration is launching a new program that will allow private firms to perform cyberattacks against foreign criminals, as reported earlier by Bloomberg. The private firms would operate &#34;under the control and oversight&#34; of the federal government, giving them permission to surveil and disrupt criminal networks, according to a presidential memorandum published on Wednesday. […]",,https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms,https://www.theverge.com/rss/index.xml,2026-08-13T18:56:13Z,5,Tech
+Ukrainian drones wipe out entire US tank brigade in live war game,Ukrainian drone pilots teach the US military and NATO hard battlefield lessons.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/US-Army-Tank-in-Exercise-Combined-Resolve-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/,https://arstechnica.com/feed/,2026-08-13T18:31:56Z,5,Tech
+I finally found a robot lawnmower I’d trust with my yard,"Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they’re still not set-it-and-forget-it machines. If you don’t want these autonomous cutting machines to tear up your lawn or go roaming in your neighbors’ yard, you’re still going to need to keep an eye on them. But […]",,https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame,https://www.theverge.com/rss/index.xml,2026-08-13T18:30:00Z,5,Tech
+Anthropic set AI agents loose on the same task. They started a turf war.,"Anthropic researchers found AI agents can clash, collude and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",,https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/,https://techcrunch.com/feed/,2026-08-13T18:28:14Z,5,Tech
+Hackers breach govt webmail while running parallel crypto fraud,The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...],,https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/,https://www.bleepingcomputer.com/feed/,2026-08-13T18:15:19Z,3,Cybersecurity
+"Flock “can’t tech its way out” of the stalker cop problem, experts say","Flock to lock out cops who stalk exes, but agencies can still hide abuse.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2288946074-1024x648.jpg,https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/,https://arstechnica.com/feed/,2026-08-13T18:10:14Z,0,Tech
+You can now just point at a mess and this robot vacuum will suck it up,"Matic, my current favorite robot vacuum, just got a big upgrade. The company has launched Matic Cues, which brings voice and gesture control to the robot. Now, you can talk directly to your vacuum to tell it what you want it to do, or just point at a mess to have it spot-clean. The feature […]",,https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review,https://www.theverge.com/rss/index.xml,2026-08-13T18:00:00Z,0,Tech
+Pet owners say smart pet feeder outage led to furry ones going unfed,&#34;I&#39;ve lost trust ...&#34; ,https://cdn.arstechnica.net/wp-content/uploads/2026/08/PDP-AF105-Carousel-07-1152x648.webp,https://arstechnica.com/gadgets/2026/08/pet-owners-say-smart-pet-feeder-outage-led-to-furry-ones-going-unfed/,https://arstechnica.com/feed/,2026-08-13T17:53:53Z,0,Tech
+Microsoft patches LegacyHive Windows zero-day vulnerability,"Microsoft has released security patches to address a Windows zero-day vulnerability known as &#34;LegacyHive,&#34; disclosed after the July 2026 Patch Tuesday. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/,https://www.bleepingcomputer.com/feed/,2026-08-13T17:46:20Z,10,Cybersecurity
+AI 'watermark removers' flood the web. Almost none can prove they work.,"Multiple &#39;watermark removers&#39; have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasion services. None of the tools&#39; claims about defeating the text watermark can be verified, as Anthropic has not released a detector. [...]",,https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/,https://www.bleepingcomputer.com/feed/,2026-08-13T17:33:28Z,0,Cybersecurity
+The new Instagram logo is the perfect embodiment of AI slop,Opinion: Some remarks about the new wordmark accidentally being perfectly awful.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/instagram-2026-wordmark.png,https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/,https://arstechnica.com/feed/,2026-08-13T17:32:10Z,5,Tech
+OpenAI hires new CRO as executive shake-up continues,Dali Rajic will take over as OpenAI&#39;s top salesperson. ,,https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/,https://techcrunch.com/feed/,2026-08-13T17:07:13Z,5,Tech
+Google announces Gemini 3.7 Flash just three weeks after previous release,"Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has &#34;substantial improvements.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-4-1152x648.jpg,https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/,https://arstechnica.com/feed/,2026-08-13T17:00:13Z,0,Tech
+Critical VMware vCenter RCE flaw exploited for reverse SSH access,A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...],,https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/,https://www.bleepingcomputer.com/feed/,2026-08-13T16:40:23Z,12,Cybersecurity
+2K launches new studio to build its &#8216;next blockbuster sports franchise&#8217;,"2K is launching a new AAA game development studio, Small Axe Studios, with an ambitious goal: to build the company&#39;s &#34;next blockbuster sports franchise,&#34; according to a LinkedIn post. The post doesn&#39;t explicitly say what sport this new game will focus on. But an image included in the post features what appears to be a […]",,https://www.theverge.com/games/979689/2k-sports-franchise-small-axe-studios-soccer,https://www.theverge.com/rss/index.xml,2026-08-13T16:38:15Z,1,Tech
+Ford on track to complete $2B factory overhaul for Fathom EV truck,Ford expects to begin prototype builds of the Fathom EV in the first quarter of 2027. ,,https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/,https://techcrunch.com/feed/,2026-08-13T16:37:53Z,0,Tech
+"Ford’s $28,000 Fathom EV nears production after $2 billion factory overhaul","Ford said today that its next-generation electric vehicle - recently dubbed Fathom - will go into production at the automaker&#39;s recently overhauled Louisville Assembly Plant in the first quarter of 2027. The first Fathoms will be prototypes, with Ford&#39;s team in Louisville already in the production-level pre-tooling phase at the recently converted facility. Factory workers […]",,https://www.theverge.com/transportation/979565/ford-fathom-uev-louisville-assembly-plant,https://www.theverge.com/rss/index.xml,2026-08-13T16:23:18Z,5,Tech
+Meta adds AI screening to detect WhatsApp scams,"Meta is launching an optional Scam Alert feature on WhatsApp that uses on-device machine learning to flag suspicious messages. Earlier this year, Meta also launched scam detection for device linking requests on WhatsApp. The new Scam Alert feature, which is rolling out in a limited beta, shows users a warning if a chat seems like […]",,https://www.theverge.com/tech/979654/meta-whatsapp-scam-message-detection,https://www.theverge.com/rss/index.xml,2026-08-13T16:10:06Z,9,Tech
+"X open sources its ranking algorithm, letting users see if they’ve been ‘shadowbanned’",X is expanding the open source code behind its &#39;For You&#39; feed and launching new transparency tools that show users when its ranking systems have affected their accounts or posts.,,https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/,https://techcrunch.com/feed/,2026-08-13T16:00:00Z,0,Tech
+Suno is trying to look more like a real music production tool,"Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it&#39;s basically a prerequisite for any modern DAW. Unfortunately, […]",,https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects,https://www.theverge.com/rss/index.xml,2026-08-13T16:00:00Z,5,Tech
+The Corvette Grand Sport X delivers Porsche 911 performance for a fraction of the price,"My drive of the 2027 Corvette Grand Sport X began under oily black clouds, a torrential weather front releasing its grip on Manhattan - an inauspicious start for any mega-powered sports car. Rain pelted the waterlogged pavement, as I set course for the mountain-man roads of the Catskills, then on to Long Island and New […]",,https://www.theverge.com/transportation/979125/corvette-grand-sport-x-review-specs-price,https://www.theverge.com/rss/index.xml,2026-08-13T16:00:00Z,8,Tech
+Instagram introduces a redesigned wordmark,The social media giant says it was time for a sharper and more modern look after a decade. ,,https://techcrunch.com/2026/08/13/instagram-introduces-a-redesigned-wordmark/,https://techcrunch.com/feed/,2026-08-13T15:46:02Z,0,Tech
+Microsoft kills off unsuccessful AI features while merging its separate Copilot apps,"Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",,https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/,https://techcrunch.com/feed/,2026-08-13T15:30:52Z,6,Tech
+"I looked inside an AI generated movie, and the best parts were all human","Imagine a trio of bumbling, English lads who fantasize about becoming megastars while knocking back a few pints in a grimy pub somewhere in London. Picture the guys chortling and trying to one-up each other&#39;s idealized visions of the future with a series of increasingly glitzy fantasies in which their fame leads to access to […]",,https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list,https://www.theverge.com/rss/index.xml,2026-08-13T15:30:00Z,5,Tech
+"Trezor discloses data breach affecting nearly 14,000 customers","Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping provider and logistics partner, got hacked. [...]",,https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/,https://www.bleepingcomputer.com/feed/,2026-08-13T15:13:19Z,4,Cybersecurity
+"Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",Nvidia has a plan to make sure its GPUs won&#39;t lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.,,https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/,https://techcrunch.com/feed/,2026-08-13T15:08:00Z,5,Tech
+This is Instagram&#8217;s new logo,"Instagram has unveiled a new wordmark, moving away from the recognizable cursive typeface it&#39;s used over the last decade. The updated wordmark is a strange mix of half-cursive half-print that&#39;s somehow less legible than its predecessor. Like, that totally says &#34;Instagzam&#34;, right? &#34;The wordmark at the top of the app hasn&#39;t changed in 10 years, […]",,https://www.theverge.com/tech/979583/this-is-instagrams-new-logo,https://www.theverge.com/rss/index.xml,2026-08-13T15:00:38Z,2,Tech
+Wolverine on the PS5 made me care about Marvel’s mutant for the first time,"Going into my demo of Marvel&#39;s Wolverine, I mainly wanted to try out the game&#39;s very bloody combat. And it is delightfully bloody. But after two-ish hours of slashing and stabbing (and parrying!) enemies with Wolverine&#39;s claws, I left surprised - despite no previous attachment to the character, I was deeply endeared to Logan himself. […]",,https://www.theverge.com/games/977564/marvels-wolverine-ps5-preview-character-combat,https://www.theverge.com/rss/index.xml,2026-08-13T15:00:00Z,5,Tech
+Who really needs a cocktail robot?,"Bartesian&#39;s cocktail makers would be best described like a Keurig or Nespresso machine, but for alcoholic drinks.",,https://techcrunch.com/2026/08/13/bartesian-duet-cocktail-maker-review/,https://techcrunch.com/feed/,2026-08-13T15:00:00Z,5,Tech
+Cybersecurity M&A Roundup: 21 Deals Announced in July 2026,"Significant cybersecurity M&amp;A deals announced by Barracuda, CrowdStrike, Cyera, Okta, Palo Alto Networks, and Qualcomm.
+The post Cybersecurity M&amp;A Roundup: 21 Deals Announced in July 2026 appeared first on SecurityWeek.
+",,https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/,https://www.securityweek.com/feed/,2026-08-13T14:41:44Z,2,Cybersecurity
+Apple in talks to pay publishers to provide Siri with current news: report,"The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",,https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/,https://techcrunch.com/feed/,2026-08-13T14:34:43Z,1,Tech
+Adobe Commerce Bug Targeted Immediately After Disclosure,"The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches.
+The post Adobe Commerce Bug Targeted Immediately After Disclosure appeared first on SecurityWeek.
+",,https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/,https://www.securityweek.com/feed/,2026-08-13T14:17:44Z,5,Cybersecurity
+Does Google even want to win at AI?,"Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about a question that’s been rocketing around the tech industry for the past week: Is Google losing the AI race? That’s because last week Google announced a bombshell reorganization of its AI division, Google DeepMind. Jeff Dean, the company’s chief scientist, is […]",,https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis,https://www.theverge.com/rss/index.xml,2026-08-13T14:10:31Z,5,Tech
+"In a first, US will allow some private firms to carry out cyberattacks",The new order sweeps away decades of existing U.S. cybersecurity policy prohibiting private companies from conducting &#39;hack back&#39; attacks or offensive cyber operations.,,https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/,https://techcrunch.com/feed/,2026-08-13T14:09:05Z,0,Tech
+Rivian tweaks its R1 range for model year 2027,"Pricing hasn&#39;t changed, and now you can get captain&#39;s chairs for the R1S.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/260701_BRANDON-DELA-CRUZ_MY27-ESKER-R1_1441_final-1152x648.jpg,https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/,https://arstechnica.com/feed/,2026-08-13T14:00:57Z,5,Tech
+Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion,"AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]",,https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/,https://www.bleepingcomputer.com/feed/,2026-08-13T14:00:10Z,1,Cybersecurity
+"Samsung&#8217;s $1,900 Z Fold 8 is still vulnerable to pocket lint","iFixit has provisionally given Samsung&#39;s Galaxy Z Fold 8 a repairability score of 4 out of 10, which largely hinged on… well, the hinge. In its teardown of the device, iFixit found that because it carries an IP48 ingress rating - meaning it isn&#39;t protected against particles under 1 millimeter - dust and sand could […]",,https://www.theverge.com/tech/979421/ifixit-samsung-galaxy-z-fold-8-hinge,https://www.theverge.com/rss/index.xml,2026-08-13T14:00:00Z,5,Tech
+Quiet luxury has come for wearables,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. During my summer vacation, I went in on the screenless wearable life. These past two weeks, I wore the Fitbit […]",,https://www.theverge.com/column/978295/optimizer-screenless-wearables-fitness-trackers-smart-rings,https://www.theverge.com/rss/index.xml,2026-08-13T14:00:00Z,1,Tech
+"Rivian is finally getting a long-requested feature — and no, it’s not CarPlay","Rivian R1S owners, rejoice. Rivian has heard your pleas for second-row captain&#39;s chairs. For years, Rivian owners have lamented the absence of captain&#39;s chairs in the R1S, noting that the three-row SUV would be much improved with standalone seats instead of a bench in the second row. Parents groused that loading and unloading kids in […]",,https://www.theverge.com/transportation/978093/rivian-r1s-r1t-2027-captains-chairs,https://www.theverge.com/rss/index.xml,2026-08-13T14:00:00Z,5,Tech
+Anthropic could be worth $2 trillion when it goes public,Rapid revenue growth fuels hope Claude maker&#39;s IPO is the biggest listing in history,https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg,https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/,https://arstechnica.com/feed/,2026-08-13T13:58:56Z,0,Tech
+"We've flown a radiation-blocking vest to the Moon and back, and it worked",Let&#39;s shield the astronauts instead of the spacecraft.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/spacevest-1152x648.jpg,https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/,https://arstechnica.com/feed/,2026-08-13T13:48:55Z,0,Tech
+White House taps security firms for offensive hack-back operations,A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cybercrime organizations. [...],,https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/,https://www.bleepingcomputer.com/feed/,2026-08-13T13:30:53Z,1,Cybersecurity
+Can social media start over? Bluesky’s CEO and COO deliver their case at TechCrunch Disrupt 2026,Bluesky CEO Toni Schneider is joined by COO Rose Wang for a Disrupt Stage session on whether social media can start over and where Bluesky fits into that potential reboot. ,,https://techcrunch.com/2026/08/13/can-social-media-start-over-blueskys-ceo-and-coo-deliver-their-case-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-08-13T13:30:00Z,0,Tech
+Microsoft is combining its Copilot apps ahead of a ‘super app’,"Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single &#34;super app&#34; interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the &#34;Microsoft Copilot&#34; name but features an updated app icon. The single […]",,https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience,https://www.theverge.com/rss/index.xml,2026-08-13T13:30:00Z,7,Tech
+AI agents wage near-autonomous cyberattack on Asian government networks,"
+		
+					  
+						
+
+
+
+
+Autonomous AI agents built on open-source frameworks breached Taiwanese government systems, compromised credentials, and probed a nuclear safety agency in a multi-day cyberattack that researchers say signals a new phase in AI-enabled operations.
+
+
+
+The campaign unfolded over four days in early July, during which multiple AI agents operated in parallel to map networks, identify vulnerabilities, and execute intrusion steps across interconnected systems, according to research published by cybersecurity firm Dream.
+
+
+
+“In roughly four days, the agentic attacker produced 1,395 files, 85 cracked credentials, thousands of exfiltrated personnel records, and gained a persistent foothold inside state infrastructure,” Dream wrote in a blog post. “It spells out one thing loudly – the cost of running a competent attack has collapsed, but the cost of defending against one has not.”
+
+
+
+They described the activity as a “near-autonomous attack,” adding that “AI-enabled offensive operations are now at an inflection point.”
+
+
+
+Taiwan link emerges as government flags AI-assisted attack
+
+
+
+Dream did not identify the affected country but stated that it was “government entities in Asia.” However, Taiwan’s Ministry of Digital Affairs said it detected an “AI agent-assisted” cyberattack targeting government agencies during the same period, according to Reuters, which reported that the activity involved AI-driven tools such as OpenClaw.
+
+
+
+“The relevant attack sources, methods, and scope of impact have all been fully ‌investigated, and ⁠the affected units have successively completed their handling,” the report added, quoting an official from the Ministry of Digital Affairs of Taiwan, though neither Dream nor Taiwanese authorities have explicitly confirmed a link between the two.
+
+
+
+Responding to CSO’s queries, a Dream spokesperson declined to comment on the identity of the target or the attacker and said its research did not find evidence of a confirmed breach of the entity’s systems. “We cannot comment on the identity of the target or attacker. Our report describes the framework at the time of our analysis.” 
+
+
+
+The company further said that since the publication of its initial blog post, it has identified evidence indicating the use of a DeepSeek-V4-Flash model within this framework. “We do not know whether it was the only model used,” the spokesperson said.
+
+
+
+The Government of Taiwan did not immediately respond to a request for comment.
+
+
+
+Multi-agent system executes coordinated attack waves
+
+
+
+The researchers wrote that the attack framework was built on Hermes and OpenClaw agents and deployed multiple sub-agents simultaneously, each assigned to specific targets and tasks across successive attack waves.
+
+
+
+Across 12 attack waves, the agents carried out reconnaissance, credential attacks, and exploitation efforts in parallel, incorporating planning loops and feedback mechanisms.
+
+
+
+This allowed the system to “run an intrusion campaign rather than answer questions about one,” the researchers wrote.
+
+
+
+Colin Ferris, head of threat hunting and incident response at Silverfort, said the use of multiple agents working in parallel reflects how such systems can divide tasks and adapt in real time.
+
+
+
+“AI does to cybersecurity what cheap drones have done to conventional warfare,” Ferris said, adding that attackers can deploy “a handful of inexpensive AI agents to continuously find and exploit the gaps they haven’t fixed yet.”
+
+
+
+Identity systems and APIs form initial entry points
+
+
+
+The campaign began with automated reconnaissance, during which the system mapped government infrastructure by extracting API endpoints and authentication configurations from publicly accessible code, according to the blog post.
+
+
+
+The researchers wrote that the framework identified unauthenticated APIs exposing user data and, in one instance, an entire user database without authentication.
+
+
+
+They added that the system used a combination of techniques to gain access, including exploiting hidden authentication endpoints, conducting credential attacks, and bypassing token validation mechanisms.
+
+
+
+The compromised accounts were then used to move laterally across connected systems through single sign-on integrations.
+
+
+
+Cris Thomas, security advocate at cybersecurity firm Semgrep, said the techniques described are not new, but AI is changing how they are executed.
+
+
+
+“This demonstrates that AI is just a tool, one that defenders and attackers can both use,” Thomas said. “Attackers are going to attack, and they will find a way around a harness and other restrictions.”
+
+
+
+Campaign expands to supply chain and critical sectors
+
+
+
+The researchers wrote that the operation extended beyond initial targets to include supply chain partners, a government email system, and organizations in the energy sector.
+
+
+
+They added that the campaign reached a nuclear safety-related organization, though the report does not identify the country or specify the level of access achieved.
+
+
+
+Ferris said such campaigns highlight how attackers can use widely available tools to scale operations, noting that systems can “research targets, divide responsibilities, and change tactics when blocked.”
+
+
+
+Growing concern over autonomous AI in cyber operations
+
+
+
+Recent disclosures from AI developers have pointed to similar risks. OpenAI recently said it cannot rule out that advanced models could autonomously identify and exploit vulnerabilities, while Anthropic has reported instances of AI agents attempting to access external systems during testing.
+
+
+
+The researchers wrote that safeguards designed to restrict AI behavior were bypassed in the campaign by framing the activity as authorized testing. They added that linguistic analysis suggests the campaign was carried out by a “Chinese-language operator,” though the report does not attribute it to any specific group or country.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4209210-0-23110300-1786627405-shutterstock_2287898607.jpg?quality=50&strip=all,https://www.csoonline.com/article/4209210/ai-agents-wage-near-autonomous-cyberattack-on-asian-government-networks.html,https://www.csoonline.com/feed/,2026-08-13T13:23:10Z,16,Cybersecurity
+The US Military Can’t Function Without China,Rare earths are critical to making modern weapons – and China dominates the supply chain.,https://images.thediplomat.com/v1/td-list-l-2/2026/08/thediplomat_2026-08-13-221601.jpg,https://thediplomat.com/2026/08/the-us-military-cant-function-without-china/,https://thediplomat.com/category/asia-defense/feed/,2026-08-13T13:13:00Z,0,Defense
+Flock CEO: ‘We got this one wrong’,"Surveillance tech company Flock is rolling out updates to address reports of cops across the country abusing its tools to stalk ex-romantic partners and others. CEO Garrett Langley is delivering a mea culpa, and in an interview with The Verge, says he&#39;s changed his mind on what responsibility Flock bears for how law enforcement uses […]",,https://www.theverge.com/policy/979339/flock-ceo-audits-data-retention,https://www.theverge.com/rss/index.xml,2026-08-13T13:00:00Z,1,Tech
+Nintendo’s next Fire Emblem has a bold new structure,"Nintendo&#39;s first Fire Emblem game for the Switch 2 is structured in an ambitious way. Unlike the well-loved Three Houses, a strategy game that tasked you with pledging allegiance to a specific faction and seeing their story all the way to the end, the new Fortune&#39;s Weave lets you swap between four heroes and their […]",,https://www.theverge.com/games/977955/fire-emblem-fortunes-weave-preview-impressions-nintendo-switch-2,https://www.theverge.com/rss/index.xml,2026-08-13T13:00:00Z,0,Tech
+WordPress 7.0.4 Patches Remote Code Execution Vulnerability,"Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files.
+The post WordPress 7.0.4 Patches Remote Code Execution Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/,https://www.securityweek.com/feed/,2026-08-13T12:53:56Z,11,Cybersecurity
+Trump administration opens door to private-sector cyber offensives,"
+		
+					  
+						
+
+
+
+
+The Trump administration is opening the door for vetted US companies to conduct cyber operations against foreign cybercriminal organizations under federal supervision, giving the private sector a more direct role in disrupting cyber-enabled crime.
+
+
+
+A presidential memorandum issued on August 12 directs the National Coordination Center to create a program authorizing participating companies to conduct cyber surveillance and cyber effects operations against foreign groups engaged in cyber-enabled crime targeting US interests.
+
+
+
+The memorandum says, “any resulting operational action will be exclusively conducted on behalf of and under the supervision of the Federal Government.”
+
+
+
+Companies admitted to the program will have to contract with either the Department of
+
+
+
+Justice or the Department of Homeland Security and undergo government vetting. The memorandum gives officials 60 days to establish operating procedures and requires written approval for every proposed operation before a participating company can act.
+
+
+
+The program could extend well beyond conventional threat monitoring. Cyber surveillance operations involve accessing systems without the owner’s authorization or exceeding authorized access, while cyber effects operations can interfere with systems or infrastructure and may extend to their destruction.
+
+
+
+The memorandum allows participating companies to receive threat information collected by private-sector organizations during normal business activities, which may then be used to propose cyber operations to the National Coordination Center.
+
+
+
+The collateral damage problem
+
+
+
+The arrangement amounts to a limited form of government-authorized private-sector “hack back,” although it differs substantially from companies independently pursuing attackers, said Pareekh Jain, CEO of Pareekh Consulting.
+
+
+
+Government control may constrain what participating companies can do, but it does not eliminate the operational risks, Jain said. An incorrectly identified target could belong to an innocent organization or fall under another country’s jurisdiction, while disruptive action could also provoke retaliation against the security company carrying it out.
+
+
+
+“Avoiding collateral damage is extremely hard,” he said. “Cybercriminals often don’t buy their own servers as they hide inside real company networks, hack smart home devices, and rent standard cloud servers using stolen credit cards.”
+
+
+
+Jonathan Ong, senior analyst for managed security services at Omdia, said the accountability picture for participating companies also remains unclear.
+
+
+
+“The commercial cyber company has neither immunity nor indemnity that we can see from the memorandum, and does not have the protection from nation-state capabilities that a government agency does,” Ong said.
+
+
+
+As a safeguard, the memorandum says companies must stop an operation and immediately notify the National Coordination Center if they unintentionally target a US person or certain US-linked systems.
+
+
+
+Such steps are useful, Jain said, but their effectiveness will depend on how accurately targets can be identified and on rules that have yet to be developed.
+
+
+
+A new purpose for threat intelligence
+
+
+
+For CISOs, the policy could change how threat intelligence gathered during normal business activities is ultimately used. Data provided by enterprises could feed proposals for government-approved cyber operations.
+
+
+
+“Enterprise CISOs should be careful before feeding telemetry into these programs,” said Neil Shah, vice president for research at Counterpoint Research. “The threat intelligence is used to block and defend, but in the future, if it is used under this framework for monitoring, intelligence, and to actively disrupt and/or destroy, it would be detrimental.”
+
+
+
+Shah said CISOs will also want assurance that information they share does not expose details of their own infrastructure, particularly where systems may already have been compromised by attackers. Data sharing could also raise privacy concerns if it involves deep tracking of customers, he said.
+
+
+
+CISOs should also check whether existing contracts and privacy rules allow such information to be shared if it could later be used for an offensive operation, according to Jain.
+
+
+
+Attribution adds another complication. Infrastructure associated with an attack may itself have been compromised, meaning an IP address or server may not identify the attacker behind an intrusion, Jain said.
+
+
+
+Will cyber firms participate?
+
+
+
+The commercial case for participation is another open question.
+
+
+
+“I don’t see the financial incentive for a mega-cap cyber company to undertake the risks,” Ong said. Access to adversary infrastructure could offer intelligence value, but Ong said that information may not necessarily translate into material that can be used for detection engineering or commercial threat feeds.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4209169-0-13334500-1786624432-shutterstock_119973388.jpg?quality=50&strip=all,https://www.csoonline.com/article/4209169/trump-administration-opens-door-to-private-sector-cyber-offensives.html,https://www.csoonline.com/feed/,2026-08-13T12:33:37Z,10,Cybersecurity
+"It took $58 to break Microsoft’s SCCM, but a patch made it harder","
+		
+					  
+						
+
+
+
+
+Researchers at XM Cyber found that a standard domain user with no Microsoft SCCM privileges can chain multiple flaws to reach remote code execution, although the attack does require network access to the SCCM environment.
+
+
+
+Enterprises use Microsoft System Center Configuration Manager (SCCM) to deploy operating systems, manage patches, distribute software, and monitor compliance across large Windows fleets. XM Cyber’s attack can move from an ordinary domain account to code execution as “NT AUTHORITY\SYSTEM” on the primary site server.
+
+
+
+“After the Site Server is compromised, all of its managed clients are compromised as well, which usually means taking over all the company assets,” XM Cyber’s Omri Baso told CSO.
+
+
+
+The revealed attack chain combines four weaknesses, including a broken authorization in the AdminService upload functionality, a path-traversal flaw dubbed “CabSlip,” weak code-signing validation that could be tricked with a $58 commercial certificate, and an unsigned DLL-loading path in the SMS Executive service.
+
+
+
+Microsoft fixed the initial authorization flaw, tracked as CVE-2026-47301, in July, but Baso said the remaining links in the chain are not expected to be fully addressed until ConfigMgr 2609, planned for October.
+
+
+
+The patch did not patch
+
+
+
+The initial foothold comes from SCCM’s AdminService API. Its normal extension-upload endpoint checks whether a user has the required permission, but its “chunked-upload” counterpart does not. That allows an authenticated Active Directory user to submit a malicious CAB archive without SCCM administrative privileges.
+
+
+
+Microsoft’s July fix blocks that route for standard domain users. However, the downstream chain remains reachable through another path. Users assigned the built-in Operations Administrator role, or a custom role with Create permission on “SMS_ConsoleExtensionData,” can still trigger the same sequence.
+
+
+
+But there is an important qualification here. XM Cyber said it believes organizations are unlikely to be exposed through the Operations Administrator route because it is already a highly privileged role.
+
+
+
+Once the CAB reaches the server, CabSlip allows files to escape the intended temporary extraction directory and be written elsewhere on the filesystem. The attacker can use this arbitrary file-write capability to replace “adsource.dll,” a secondary library loaded by the SYSTEM-level SMS Executive service without its own signature check.
+
+
+
+When the service subsequently loads the DLL, the attacker gets code execution as SYSTEM.
+
+
+
+A $58 certificate can cross the trust boundary
+
+
+
+The chain becomes particularly notable because SCCM’s signature validation does not establish that the signing certificate belongs to Microsoft or the target organization. It checks that the signature is structurally valid and non-expired, while revocation checks are disabled.
+
+
+
+That means an attacker does not need an enterprise certificate. XM Cyber said the attack depends on a code-signing certificate and can also abuse certificates leaked online. For his own research, Baso used a Certum Open Source Developer Certificate that cost about $58.
+
+
+
+For defenders, XM Cyber recommends restricting network access to the AdminService API and auditing SCCM RBAC assignments, particularly accounts with the Operations Administrator role or equivalent Create permissions.
+
+
+
+Teams should also monitor the Site Server’s “AdminService.log” for a “System.IO.DirectoryNotFoundException” followed by an HTTP 500 response, a pattern that can indicate the path traversal was triggered, XM Cyber added.
+
+
+
+Unexpected modifications to adsource.dll in the Configuration Manager installation directory can provide another detection signal.
+
+
+
+Microsoft is reportedly working on patches for the remaining flaws. It did not immediately respond to CSO’s request for comment.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4209154-0-38680600-1786623301-shutterstock_2662877349.jpg?quality=50&strip=all,https://www.csoonline.com/article/4209154/it-took-58-to-break-microsofts-sccm-but-a-patch-made-it-harder.html,https://www.csoonline.com/feed/,2026-08-13T12:14:45Z,6,Cybersecurity
+Pentagon hands Palantir up to $244M in no-bid work,"Mute on the required justifications for sole-source work, a memo orders agencies to find uses for the company&#39;s software.",,https://www.defenseone.com/business/2026/08/pentagon-palantir-no-bid/415400/,https://www.defenseone.com/rss/all/,2026-08-13T12:00:00Z,0,Defense
+WhatsApp rolls out new feature that flags potential scam messages,"WhatsApp has begun rolling out a new optional &#34;Scam Alert&#34; feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",,https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/,https://www.bleepingcomputer.com/feed/,2026-08-13T11:50:22Z,5,Cybersecurity
+Venture Firm Team8 Secures Additional $365 Million,"The Israeli company has nearly $2 billion in total assets under management since 2014.
+The post Venture Firm Team8 Secures Additional $365 Million appeared first on SecurityWeek.
+",,https://www.securityweek.com/venture-firm-team8-secures-additional-365-million/,https://www.securityweek.com/feed/,2026-08-13T11:42:48Z,1,Cybersecurity
+Claude's new Scarlet Letter watermark is invisible — for now,"The mark flags anything Claude processed, even human writing it only edited.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg,https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/,https://arstechnica.com/feed/,2026-08-13T11:10:18Z,0,Tech
+Fortinet Patches Authentication Flaws in FortiWeb and FortiManager,"The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance.
+The post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first on SecurityWeek.
+",,https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/,https://www.securityweek.com/feed/,2026-08-13T10:40:57Z,5,Cybersecurity
+White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs,"Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.
+The post White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs appeared first on SecurityWeek.
+",,https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/,https://www.securityweek.com/feed/,2026-08-13T09:53:04Z,1,Cybersecurity
+"CBP Workers Allegedly Used Government Databases to Spy on Exes, Crushes, and Colleagues",Records obtained by WIRED detail hundreds of allegations of Customs and Border Protection workers misusing internal tools to look up romantic interests and track colleagues’ cell phones.,,https://www.wired.com/story/cbp-workers-allegedly-used-government-databases-to-spy-on-exes-crushes-and-colleagues/,https://www.wired.com/feed/category/security/latest/rss,2026-08-13T09:30:00Z,1,Cybersecurity
+Critical VMware vCenter Vulnerability in Attackers’ Crosshairs,"Tracked as CVE-2026–59310, the directory traversal bug allows remote attackers to execute arbitrary code.
+The post Critical VMware vCenter Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/,https://www.securityweek.com/feed/,2026-08-13T09:06:40Z,7,Cybersecurity
+Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’,"Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges.
+The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ appeared first on SecurityWeek.
+",,https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/,https://www.securityweek.com/feed/,2026-08-13T08:38:03Z,10,Cybersecurity
+Microsoft wants you to rethink your approach to cyber defense,"
+		
+					  
+						
+
+
+
+
+Cyber defenders need to shake off traditional best practices and switch from reactive patching to building inherently resilient systems in the face of AI-accelerated vulnerability discovery, according to a senior security manager at Microsoft.
+
+
+
+David Weston, group manager in the Windows team at Microsoft, told delegates at Black Hat USA that traditional approaches to vulnerability remediation fail to work in an era when AI tools are making vulnerability discovery and exploit development cheaper, faster, and more scalable.
+
+
+
+Weston’s keynote — entitled “The End of Rare: Defending When Offense Is Cheap” — challenged industry vulnerability best practices that Weston said where from a time when developing exploits and mounting attacks was time consuming and expensive. That’s no longer the case, he said.
+
+
+
+As evidence, Weston explained how the Microsoft Security Response Center (MSRC) is doubling the number of vulnerabilities it processes and patches every six weeks. “That is an incredible number,” he said. “We’re nine times the vulnerability volume that we were in March.”
+
+
+
+The accelerating pace of vulnerability discovery is “highly correlated” to rising use of increasingly capable AI tools, and presents a cross-industry problem, he said.
+
+
+
+“These are serious vulnerabilities, the kind that I used to take a year to bespoke craft,” Weston pointed out. “They’re being spit out at industrial speed, and it’s not [just] Windows. You look at Linux, you look at any other operating system out there, I think you’ll see a pretty strong correlation.”
+
+
+
+Microsoft’s MDASH, short for Multi-model Agentic Scanning Harness, found roughly 200 Linux kernel vulnerabilities in the company’s internal Azure Linux distribution that Microsoft is working with the community to fix.
+
+
+
+Microsoft also added a new module to MDASH to help its engineers triage vulnerabilities. The technology is capable of turning a static analysis result into proof-of-concept exploit code.
+
+
+
+“That’s worked much better than we ever thought,” said Weston, who leads Microsoft’s AI vulnerability-discovery and frontier-model research. “Of the 200 vulnerabilities, we can automatically generate 182 crash-level POCs. Many of them are fully working exploits. I’m talking root exploits automatically spit out from vulnerability.”
+
+
+
+The average computing cost of detecting those vulnerabilities and generating their exploits was just $3.61, with a time to generation of 21 minutes.
+
+
+
+Microsoft’s work provides further evidence that developing an exploit from a security vulnerability is not likely a factor holding back any attackers with access to advanced AI-based security tools.
+
+
+
+“By the end of the year, we’ll be looking at automatic exploit generation being pretty commonplace and pretty commodity,” Weston warned.
+
+
+
+Traditional mitigations failing
+
+
+
+Nondeterministic mitigations that introduce randomness or unpredictability, such as ASLR (Address Space Layout Randomization), may continue to be an obstacle for attackers but are not likely to stem the rising tide of AI-mediated vulnerability discovery for long.
+
+
+
+Enterprises have historically relied heavily on threat detection for defense, but that layer of protection assumes attackers face cost and time challenges in changing the tools and techniques they use. Those comforting assumptions are also being undermined by AI, Weston said.
+
+
+
+The idea used to be that it’s “super expensive to code a framework or an implant, so people just keep using packers and obfuscation tools on the same stuff, and they keep using the same TTP, so we’ll work against that. And that’s gonna give us durability in detection,” Weston said.
+
+
+
+“Instead of having to retrain the operator, which would have been expensive for cyber operations, we can just use autonomous operations,” he noted of attackers’ evolving mentality. “Instead of obfuscating, we can create a bespoke set of tools or frameworks per target.”
+
+
+
+How to turn the table on attackers
+
+
+
+In response to the changing economics of security, the industry must adopt memory-safe computer programming languages such as Rust alongside the use of AI-based tools to improve the resilience of existing code bases.
+
+
+
+“We don’t wanna go vulnerability for patch,” Weston argued. “We don’t want to go exploit for detection, evasion for detection. Hand-to-hand combat with attackers will cause us to lose in defense.”
+
+
+
+About 70% of vulnerabilities that are patched today, at least by the major vendors, are memory safety issues. Safer computer programming languages, such as Rust and Golang, “eliminate those,” according to Weston. For example, Google reduced memory safety flaws from 76% of Android vulnerabilities in 2019 to below 20% in 2025 after it switched to Rust.
+
+
+
+More recently, Microsoft rewrote the Azure hypervisor, the software that isolates virtual machines from one another, using Rust, and scaled it across 1.5 million virtual machines without any adverse incident.
+
+
+
+A project from the Defense Advanced Research Projects Agency, called Tractor, automates the conversion of legacy C code into Rust. Microsoft Research’s AI-based project RustAssistant, introduced last year, uses AI-based technology to detect and suggest remedies for Rust compilation errors.
+
+
+
+Weston added: “We can shift left and make more secure software. That’ll limit vulnerability.”
+
+
+
+Detection of attacks is still important but no longer sufficient. Both enterprises and vendors should be investing in durability.
+
+
+
+“We can move to more prevention mechanisms,” Weston said. “And we can use secure by construction and even formal methods to get the deterministic safety. If we can do that along a realistic timeline, then we can turn the tables and drive this problem towards attackers.”
+
+
+
+Vulnerability research in the age of AI
+
+
+
+Yan Shoshitaishvili, an associate professor at Arizona State University and well-known vulnerability researcher, presented a Black Hat USA keynote on how agentic AI is drastically reducing the cost and time required to discover and exploit vulnerabilities.
+
+
+
+The talk — “Vulnerability Research in the Agentic Age” — offered a companion piece to Weston’s presentation. AI tools have shifted the human skills in bug hunting toward developing better search strategies, validation pipelines, and exploitability checks.
+
+
+
+“Going from asking GPT to find bugs, to having an agentic pipeline that’s vulnerability-aware requires human innovation, human understanding of the threat models, of the vulnerability space,” Shoshitaishvili said.
+
+
+
+He and his research student Hong Kai Chen applied these techniques to a study on OpenHarmony, the open-source foundation behind parts of Huawei’s commercial HarmonyOS ecosystem for mobile devices.
+
+
+
+“We found dozens of flaws, ranging from Bluetooth, device takeovers, to privacy leaks, location, all of this, very fun stuff, in Open Harmony, because we started from the vulnerability properties that we extracted from Android bugs,” Shoshitaishvili said. “Now we’re doing this agentically, and the results are incredible.”
+
+
+
+With agentic pipelines, Shoshitaishvili’s team is finding vulnerabilities far faster than they can responsibly disclose with accompanying documentation and proposed fixes.
+
+
+
+Shoshitaishvili tested the “just rewrite everything in Rust” idea using agentic code generation on a Rust rewrite of coreutils shipped with Ubuntu. His team found that memory-safety bugs (buffer overflows, use-after-free) were largely gone but logic vulnerabilities, such as time-of-check–time-of-use (TOCTOU) races and cryptographic, reappeared.
+
+
+
+Rewriting in a safer language removes some classes of bugs but not the underlying design-level weaknesses unless active steps to rewrite problematic code are undertaken, Shoshitaishvili concluded.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4208815-0-70345900-1786609638-shutterstock_2781778569.jpg?quality=50&strip=all,https://www.csoonline.com/article/4208815/microsoft-wants-you-to-rethink-your-approach-to-cyber-defense.html,https://www.csoonline.com/feed/,2026-08-13T08:25:00Z,15,Cybersecurity
+Attackers Exploit SharePoint Authentication Bypass After Public PoC Release,"Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.
+
+The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.
+
+&#34;The authentication",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg,https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html,https://feeds.feedburner.com/TheHackersNews,2026-08-13T06:09:48Z,14,Cybersecurity
 "Iran war reveals protection of space assets on bases has to ‘evolve,’ top general says","Key radars have been hit during Epic Fury, Gen. Whiting says.",,https://www.defenseone.com/threats/2026/08/iran-war-reveals-protection-space-assets-bases-has-evolve-top-general-says/415389/,https://www.defenseone.com/rss/all/,2026-08-13T03:32:57Z,0,Defense
 Defense Business Brief: VR welding; News from SMD; L3Harris opens maritime factory,,,https://www.defenseone.com/business/2026/08/defense-business-brief-vr-welding-news-smd-l3harris-opens-maritime-factory/415388/,https://www.defenseone.com/rss/all/,2026-08-13T00:41:34Z,1,Defense
 New Marine commander takes the helm in the Pacific,"Lt. Gen. Glynn passed the flag to Lt. Gen. Turner, a classmate from The Basic School, on Tuesday.",,https://www.defenseone.com/policy/2026/08/new-marine-commander-takes-helm-pacific/415387/,https://www.defenseone.com/rss/all/,2026-08-13T00:39:12Z,0,Defense
@@ -13,6 +719,108 @@ Five things Space Command says it needs to win tomorrow’s wars,Gen. Whiting ad
 Made by Google 2026 live blog: Let’s watch Trevor Noah talk about the Pixel 11,"It&#39;s almost time for the Made by Google keynote, where the company will show off the brand-new Pixel hardware it announced today. Like last year, it&#39;ll be a celebrity-packed live show, though Trevor Noah is hosting instead of Jimmy Fallon. If the 2025 show was any indication, today&#39;s broadcast might be something of a cringefest. […]",,https://www.theverge.com/tech/979241/made-by-google-2026-live-blog-pixel-11-trevor-noah,https://www.theverge.com/rss/index.xml,2026-08-12T21:30:00Z,1,Tech
 This 8BitDo mechanical keyboard has an extra keypad and is 30 percent off,"If you’re looking for a mechanical keyboard that can give your desk a touch of retro flair, Amazon has 8BitDo’s Retro Mechanical Keyboard with Dual Super Buttons on sale for $69.99, one of the lowest prices we’ve seen for the bundle. The styling on this keyboard is thorough, with blocky retro legends on the rounded […]",,https://www.theverge.com/gadgets/979263/8bitdo-mechanical-keyboard-galaxy-25-edge-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-12T21:21:09Z,5,Tech
 Have physicists finally discovered glueballs? New evidence points to yes.,“It’s the strongest evidence yet that particles dominated by a glueball component can exist in nature.”,https://cdn.arstechnica.net/wp-content/uploads/2026/08/glueball1-1152x648-1786561096.jpg,https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/,https://arstechnica.com/feed/,2026-08-12T21:13:39Z,0,Tech
+"Researcher bypasses Microsoft Defender security patch, seizing control","
+		
+					  
+						
+
+
+
+
+Just weeks after Microsoft patched a critical hole in Microsoft Defender, a cybersecurity researcher has posted an apparent bypass that provides system-level control to attackers once they gain any level of access. 
+
+
+
+The researcher, who goes by the name Nightmare Eclipse, has been engaged in a long-running battle with Microsoft Security. 
+
+
+
+Nightmare Eclipse has not provided the further details we requested, however Microsoft sent a brief statement, saying, “Microsoft is aware of the reported vulnerability and is actively investigating the validity and potential applicability of these claims,” and reiterating its commitment to investigating issues and supporting coordinated disclosure.
+
+
+
+But the proof of concept (PoC) security bypass, ShieldBreak, described by Nightmare Eclipse in a series of public posts, potentially threatens to be more damaging than earlier bypass. 
+
+
+
+Like other recently reported vulnerabilities, ShieldBreak requires an attacker to first somehow gain system access, typically via a successful phishing scam. Once in, however, the attacker can gain full admin/root access.
+
+
+
+But there is a troubling psychological component to ShieldBreak, in that it is a bypass for a recently posted security patch from Microsoft, noted Justin Greis, CEO of consulting firm Acceligence.  The problem is that CISOs who have already deployed that patch might feel protected when they are not.
+
+
+
+“This one is concerning because the patch bypass directly calls the integrity of the remediation into question,” he said. “ShieldBreak appears to demonstrate that an attacker can bypass the fix Microsoft shipped for CVE-2026-50656 and ultimately obtain system-level privileges on the endpoint. That is an important distinction for enterprise defenders, because organizations may believe they have already remediated the underlying vulnerability. A successful patch bypass means the exposure can persist even after the normal vulnerability-management process says the system is protected.”
+
+
+
+Greis added that such bypass can reduce overall trust in official patches. 
+
+
+
+“When public proof of concept code can bypass it, the CISO’s question becomes ‘have we actually removed the exposure?’ rather than simply ‘have we deployed the patch?’,” he said. “From an architecture perspective, organizations should be very careful about allowing the same security product to become both the control being relied upon and the only source of evidence that the control is working.”
+
+
+
+Flavio Villanustre, CISO for the LexisNexis Risk Solutions Group, said he was especially concerned about the timing of the PoC’s release, given that it seemed to be intended to put the most pressure on Microsoft, given its typical timing for security patches. 
+
+
+
+“This vulnerability, if valid, would need a fix from Microsoft, but because those patches are usually only released on the second Tuesday of the month and the security researcher seems to have carefully timed the release of the PoC, we may have this exposure for another 4 weeks unless Microsoft deems this a very high severity risk, which is unlikely,” he pointed out.
+
+
+
+Cybersecurity consultant Brian Levine, executive director of FormerGov, agreed that CISOs should not underestimate the damage potential if this PoC proves valid. 
+
+
+
+“What makes it dangerous is what it does once they’re in: it turns an ordinary low-privilege account into full system control by abusing Defender itself, the security tool running at the highest privilege on the box,” he said. “An exploit that lives inside your antivirus is quiet, it’s trusted, and it can be used to blind or disable the very thing you’re counting on to catch the intruder. It’s not a worm, but it’s a near-ideal second stage for ransomware crews and anyone doing hands-on-keyboard intrusion.”
+
+
+
+Levine suggested that CISOs not wait for a Microsoft fix, but immediately take an aggressive defensive stance.
+
+
+
+“Assume it’s live and lean on defense in depth, because this is exactly the scenario where treating Defender as your only line fails you. Application allowlisting, such as WDAC or AppLocker in enforced mode, is the strongest hardening available and can stop the payload even if the race succeeds,” Levine said. 
+
+
+
+“Tighten local admin rights and least privilege so a foothold has less to escalate from. And give your hunters one very specific thing to watch for: an interactive shell or scripting host running as system whose parent process is Defender’s engine, MsMpEng.exe. That should never happen in a healthy environment and it’s a high-fidelity sign someone is running this.”
+
+
+
+But he also suggested that CISOs not assume that the PoC necessarily works as advertised. 
+
+
+
+“This is a single researcher’s proof of concept. It hasn’t been independently verified, and it’s coming from someone in the middle of a very public and very bitter fight with Microsoft, so perhaps some of the theater around it should be discounted,” Levine said. “But you can’t wave it away either. Patch bypasses are extremely common, and the claim that Microsoft’s fix for RoguePlanet didn’t fully close the door is entirely plausible. Defenders should treat it as credible until proven otherwise, not the reverse.”
+
+
+
+Although Levine and other analysts were initially dubious, there are now indications that the PoC’s effectiveness has been independently verified. 
+
+
+
+Cybersecurity and risk advisor Steven Eric Fisher, a former cybersecurity risk specialist at Walmart, said, “I’ve seen independent confirmation that ShieldBreak works, although its exploitation method differs materially from the original RoguePlanet exploit. RoguePlanet relied on a filesystem race condition, while ShieldBreak appears to use a different Defender/Cloud Filter API path,” Fisher said. “So while it is being characterized as a bypass of Microsoft’s CVE-2026-50656 fix, it is not simply a replay of the original exploit.”
+
+
+
+He added that cybersecurity researcher Kevin Beaumont has already published Microsoft Defender Advanced Hunting detections for ShieldBreak that organizations can incorporate into monitoring while evaluating their exposure.
+
+
+
+And Pieter Arntz, malware intelligence researcher at Malwarebytes, also said he has seen confirmation from a researcher he tracks, Will Dormann.
+
+
+
+This article has been updated with a statement from Microsoft and further confirmation of the exploit.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4208760-0-29129600-1786607201-shutterstock_editorial_1934605040-100947085-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4208760/researcher-bypasses-microsoft-defender-security-patch-seizing-control.html,https://www.csoonline.com/feed/,2026-08-12T21:07:24Z,25,Cybersecurity
 Researcher creates workaround for Microsoft Defender security patch,"
 		
 					  
