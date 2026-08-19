@@ -1,4 +1,705 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"Microsoft finally patches critical one-click Copilot vulnerability, almost eight months after learning of it","
+		
+					  
+						
+
+
+
+
+Almost eight months after confirming a critical security vulnerability within the personal version of its AI assistant, Copilot, Microsoft on Tuesday issued a patch to close the hole, which relies on an LLM’s inability to distinguish the data in a query from an instruction.
+
+
+
+The CoSnitch hole was discovered by Varonis, and marked the third Copilot bug that Varonis has reported to Microsoft this year, following Reprompt, which bypassed Copilot guardrails by repeating queries, and SearchLeak, which Varonis said turned Microsoft 365 Copilot Enterprise into “a silent exfiltration tool. All three share the same exploit pattern: one click on a legitimate-looking link is enough.”
+
+
+
+A detailed blog, posted by Varonis on Tuesday, said the hole’s capabilities were significant. 
+
+
+
+CoSnitch relied on an attacker leveraging three different Copilot flaws, Varonis wrote: 
+
+
+
+
+Automatic prompt execution. “The ?q= URL parameter, combined with an undocumented parameter, causes any attacker-supplied prompt to execute instantly on page load: no click, no confirmation, no user action. One link is all it takes.”
+
+
+
+Data exfiltration to external servers. “An injected prompt can query the victim’s connected apps, such as Gmail, Drive, Calendar or OneDrive, encode the results into a URL and exfiltrate them via Copilot’s built-in URL-fetch capability to an attacker-controlled webhook.”
+
+
+
+Persistent memory poisoning via web summarization. “A crafted webpage, when summarized by Copilot, injects attacker instructions into the victim’s permanent memory store. The injection survives password changes, session revocation, and device re-enrollment, persisting forever.”
+
+
+
+
+But the potentially most intriguing element of the CoSnitch bug was how it was discovered: Copilot essentially revealed the hole itself. 
+
+
+
+Copilot revealed its own flaw
+
+
+
+“We prompted Copilot to explain why auto-execution was impossible, and each refusal came with a technical justification, which mapped the architecture,” the Varonis post said. Varonis then “reframed every refusal as a follow-up question, and each answer narrowed the attack surface further. Copilot then disclosed an undocumented URL parameter, unprompted, mid-refusal, including its historical behavior and every protection put in place to disable it. We built the URL exactly as described. With no click or confirmation from the user, the prompt was successfully executed automatically. Copilot wasn’t breached; it was played.”
+
+
+
+Microsoft confirmed both the flaw and the fix, emailing a statement that said, “our customers are already protected and do not need to take any action. We continuously update our guardrails to strengthen our protections against similar techniques.” It also issued an MSRC disclosure labeling the hole “critical.” 
+
+
+
+But Microsoft’s emailed comments also included a statement that is not strictly accurate: It said, “enterprise customers using Microsoft 365 Copilot are not affected.”
+
+
+
+But analysts and others stressed that the complex nature of enterprise environments would often also house some consumer-grade Copilots from the personal accounts of workforce members, meaning that the flaw in the personal version could have absolutely impacted the enterprise version.
+
+
+
+This is further complicated by the fact that Microsoft also said that it “is in the process of moving toward a more unified Copilot experience,” referred to as Copilot Fusion; details of the planned product merger began to leak last month. That means that enterprise CISOs need to be concerned about flaws in the personal version of Copilot that may be carried over into the merged offering.
+
+
+
+The timing of Microsoft’s fix was also fragmented. Varonis reported the CoSnitch hole on December 31, and the company patched one element of the hole, its auto-execution capability, on February 1, noted Lior Adar, a Varonis senior security researcher, in an interview, but it didn’t complete the fix until Tuesday.
+
+
+
+That February patch “lowered the other vulnerabilities significantly,” Adar said. And, added his colleague, Chen Levy Ben Aroy, the Varonis Cloud Security Research Team leader, “LLMs are a whole new world of vulnerabilities.”
+
+
+
+Mark Tauschek, VP and distinguished analyst at Info-Tech Research Group, said that he found the Varonis methodology of tricking Copilot into revealing its own flaws powerful.
+
+
+
+Varonis used “a very sophisticated combination of social engineering on an LLM, a variety of jailbreaks, and a prompt injection attack that is very concerning in its capability,” he said. “The combination of hack vectors is what makes it more startling, as we’ve seen all of those methods alone before, but I think all three working for one exploit is new, at least from a disclosure perspective.”
+
+
+
+For CISOs, Tauschek said urgent action might be required. 
+
+
+
+“Much like in the old macro virus days in the late 90s and early 2000s, the only way to definitively stop it is to turn it off. Disable macros back then. Disable Copilot now,” Tauschek said. “There are many mitigation steps that can reduce risk to negligible, but that’s not zero. The point is, it’s just the beginning.”
+
+
+
+The money trail will make this fix difficult
+
+
+
+Aman Mahapatra, chief strategy officer for Tribeca Softtech, a New York City-based technology consulting firm, said there is a much more difficult issue involved in this case. He argued that the financial incentives for the major AI companies will make meaningfully fixing these kinds of holes almost impossible.  
+
+
+
+He pointed out that every guardrail that would fully close this class of attack degrades the product, because the same capabilities being exploited are the features that Microsoft is marketing as Copilot’s value. “The fix and the feature are in direct tension, which means these will not be cleanly patched so much as perpetually mitigated, and the eight-month window is what it looks like when a vendor is negotiating between its security obligation and its product roadmap on every single fix,” Mahapatra said.
+
+
+
+“This is the pattern CISOs must internalize: in agentic systems, the malicious action and the legitimate action are the same action with different intent, which collapses the entire signature-and-anomaly detection model that enterprise security has been built on for twenty years,” Mahapatra said. “CoSnitch is serious, but its defining property is that nothing was broken. Three chained flaws: an autorun URL parameter firing a prompt with no click, OAuth connector abuse reading full Gmail bodies rather than metadata, and persistent memory poisoning through web summarization, and every one is Copilot doing exactly what it was designed to do.”
+
+
+
+Mahapatra added that the third element of the CoSnitch flaw is the most troubling.
+
+
+
+“The memory-poisoning component is the one being undersold, and it is the most dangerous. A single summarized webpage writes attacker instructions into Copilot’s persistent memory, and that memory survives password changes, session revocation, and device re-enrollment,” he said. “Every standard incident response step leaves the injection intact. The attacker needs no persistent infrastructure after the initial write, because every future session runs under attacker-controlled context, recorded only in a memory settings UI almost no user has opened.”
+
+
+
+Flavio Villanustre, CISO for the LexisNexis Risk Solutions Group, also pointed to a bigger-picture issue that impacts all agentic and genAI deployments. 
+
+
+
+“The mechanisms behind the prompt injection part of the attack are based on the inability of the LLM to differentiate between data, the unsafe data stream coming from an external web page, and instructions which happen to be embedded in that data stream by the attacker controlling that external web page,” Villanustre said. “This is another example of why a different architectural approach to LLMs that separates data and instructions is needed to better guarantee the safety of their operation. This is not something that Microsoft or any other AI vendor has addressed to date.”
+
+
+
+This article originally appeared on Computerworld.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4211342-0-34442600-1787106786-copilot-pc-cw-shutterstock_2423375781.jpg?quality=50&strip=all,https://www.csoonline.com/article/4211342/microsoft-finally-patches-critical-one-click-copilot-vulnerability-more-than-eight-months-after-learning-of-it-2.html,https://www.csoonline.com/feed/,2026-08-19T02:27:16Z,16,Cybersecurity
+"""Sabotage"": Experts, lawmakers blast RFK Jr. for destroying healthcare research","US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too.",https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2237968141-1152x648.jpg,https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/,https://arstechnica.com/feed/,2026-08-18T22:32:46Z,0,Tech
+Ukrainian drones overwhelm Russian tanks’ new active protection system—for now,Tanks with defensive tech for shooting down drones are still proving vulnerable.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-18-at-2.13.55-PM-1152x648.png,https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/,https://arstechnica.com/feed/,2026-08-18T22:18:13Z,5,Tech
+"Cursor capitalizes on Github frustration, launches rival hosting platform","Cursor, known for its AI Code Editor, is launching a new code hosting platform to rival developers&#39; long preferred favorite, Github. ",,https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/,https://techcrunch.com/feed/,2026-08-18T22:14:25Z,5,Tech
+DOJ’s probe into Andreessen Horowitz over board seats baffles VCs,"Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest as unavoidable for large VC firms.",,https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/,https://techcrunch.com/feed/,2026-08-18T20:36:20Z,0,Tech
+Comcast turns your Xfinity WiFi into a home motion detector,"Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]",,https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/,https://www.bleepingcomputer.com/feed/,2026-08-18T20:14:58Z,0,Cybersecurity
+"TikTok explores peer-to-peer payments via DMs, report says","If rolled out, the feature would use the social media service’s TikTok Pay offering, which is already available in Southeast Asia for TikTok Shop purchases.",,https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/,https://techcrunch.com/feed/,2026-08-18T20:03:56Z,5,Tech
+SteelSeries’ comfy wireless gaming headset is nearly half off,"While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The SteelSeries Arctis Nova 3P in cyan is on sale for $59.99, a 45 percent discount from their usual $109.99 price. This […]",,https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-18T20:01:01Z,5,Tech
+Robin Williams’ Instagram account brought back to fight ‘AI abuse’,"Robin Williams&#39; children are taking over their father&#39;s Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor&#39;s Instagram profile to be a &#34;safe, trusted place where the […]",,https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai,https://www.theverge.com/rss/index.xml,2026-08-18T19:48:26Z,5,Tech
+Critical GitLab flaw allows attackers to delete and modify public repos,"
+		
+					  
+						
+
+
+
+
+GitLab has fixed a critical vulnerability that could allow unauthenticated attackers to perform unauthorized modifications inside code repositories or to completely delete them with a single HTTP request. The patched releases also address a second high-risk cross-site request forgery (CSRF) flaw.
+
+
+
+The critical vulnerability, tracked as CVE-2026-19478, is described as a code injection issue through the GraphQL directive and was reported privately to GitLab through its bug bounty program on HackerOne.
+
+
+
+However, even if the flaw’s details are not yet public, researchers from security firm watchTowr warn that it’s extremely easy to reverse-engineer the patches and build an exploit.
+
+
+
+“WatchTowr was able to reproduce the vulnerability within minutes of its disclosure, armed only with the advisory details and patch,” Jake Knott, principal security researcher at watchTowr, tells CSO. “AI-enabled attackers are unlikely to be far behind.”
+
+
+
+GitLab is a popular source code management system and DevOps platform, complete with CI/CD pipelines and security scanning. The fact that users can self-host it on their own servers makes it an attractive alternative to GitHub, especially for organizations, which is why the software comes in two variants, a free Community Edition (CE) and a paid Enterprise Edition (EE).
+
+
+
+The code injection vulnerability is very dangerous especially for GitLab instances exposed directly to the internet because it can lead to software supply chain attacks. The flaw allows attackers to rewrite the state of GitLab repositories, forge merge records, ban maintainers, and even delete entire projects. The exploit doesn’t require credentials, user interaction, or special configurations.
+
+
+
+GitLab released versions 19.2.4, 19.1.6, 19.0.8, and 18.11.11 for both CE and EE editions to patch CVE-2026-19478 and CVE-2026-19650, a CSRF issue in the GraphQL multiplex query handler.
+
+
+
+Users who can immediately deploy the patches are advised to make their repositories private and to block unauthenticated access to the /api/graphql endpoint.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4211140-0-49363100-1787081626-Prompt-Injektionen-bei-GitLab-Duo-verbreiten-Schadcode.jpg?quality=50&strip=all,https://www.csoonline.com/article/4211140/critical-gitlab-flaw-allows-attackers-to-delete-and-modify-public-repos.html,https://www.csoonline.com/feed/,2026-08-18T19:33:31Z,20,Cybersecurity
+OpenAI lays out new security changes after its AI hacked Hugging Face,"OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have &#34;critical&#34; cybersecurity capabilities, and the […]",,https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack,https://www.theverge.com/rss/index.xml,2026-08-18T19:28:30Z,6,Tech
+It's Christmastime at SpaceX as company salvages Starship from Indian Ocean,&#34;A team of SpaceX engineers is on their way to conduct additional analysis on the vehicle.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/08/ship40_2-1152x648-1787078981.jpg,https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/,https://arstechnica.com/feed/,2026-08-18T19:01:09Z,0,Tech
+OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue,"The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",,https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/,https://www.wired.com/feed/category/security/latest/rss,2026-08-18T18:33:11Z,0,Cybersecurity
+"Disney sues FCC and its chair, escalating fight against Trump's chief censor","FCC demands &#34;total capitulation&#34; in Trump censorship campaign, Disney suit says.",https://cdn.arstechnica.net/wp-content/uploads/2025/09/brendan-carr-concordia-1152x648-1758655744.jpg,https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/,https://arstechnica.com/feed/,2026-08-18T18:11:26Z,5,Tech
+OpenAI institutes new safeguards after Hugging Face breach," The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",,https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/,https://techcrunch.com/feed/,2026-08-18T18:00:00Z,5,Tech
+Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps,"Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim&#39;s Copilot session.
+
+The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAc2Z6RvtNlJnjkfp-kCEhx8x8Q9XPLHY-oQb8NXu6cb-C5BTfa9HnmWq3G1GT3mPsHLV6Xf6tyBui-ljplsYEo9Qt8kBiNKXOwvTzACMisyS0NQ5U3bGg8O6yVEPStEPbYw4W-4ZasDNssDr2JTJD7GTo6QEpER1L-9Xci-mNSk3A5t_aLXGIHwo04FI/s1600/copilot.jpg,https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T17:47:22Z,4,Cybersecurity
+Samsung’s Galaxy Buds 3 Pro are almost half off today,"If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Buds 3 Pro on sale for $139.99. That’s $40 lower than the current Amazon price, and a big discount from their original retail price of $249.99. These well-equipped earbuds feature excellent sound quality, crisp transparency […]",,https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-18T17:47:04Z,5,Tech
+Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets,"Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation efforts.
+
+According to independent reports from watchTowr and VulnCheck, the vulnerabilities in question are as follows -",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1600/mlflow.jpg,https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T17:44:05Z,6,Cybersecurity
+Save up to $300 on your TechCrunch Disrupt 2026 pass until August 21,"If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!   ",,https://techcrunch.com/2026/08/18/save-up-to-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/,https://techcrunch.com/feed/,2026-08-18T17:31:01Z,3,Tech
+Clop created custom web shell for Windchill data theft attacks,"A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",,https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-18T17:29:51Z,7,Cybersecurity
+Etched’s valuation doubles to $21B in a month,"Jane Street has installed Etched&#39;s first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",,https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/,https://techcrunch.com/feed/,2026-08-18T17:21:58Z,8,Tech
+PlayStation&#8217;s wireless gaming speakers launch in November,"Sony&#39;s Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announced on Tuesday. Announced nearly a year ago, the speakers are compatible with a PS5, PlayStation Portal, PC, and Mac, and they include &#34;studio-inspired planar magnetic drivers&#34; that offer &#34;lifelike sound across the entire audible spectrum,&#34; Sony says. […]",,https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder,https://www.theverge.com/rss/index.xml,2026-08-18T17:18:57Z,0,Tech
+"Apple overhauls its EU App Store fees, loosens rules for alternative app stores","Apple is simplifying its EU App Store fees, replacing its per-install fee with a 5% commission for apps distributed outside the App Store and making it easier for developers to operate alternative app marketplaces.",,https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores/,https://techcrunch.com/feed/,2026-08-18T17:12:13Z,1,Tech
+"Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000","A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups&#39; servers in exchange for a fee ranging from $20,000 to $60,000.
+
+&#34;In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous,&#34; GuidePoint Research",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_eOapavOiIGXF7klCQPyN0-Qg2nWk9KlUYzPHuLwAyMKM75P3E2jciQR3v9gt2UBmez3XRSC57e5Fe9Oowm2brtgRXz5nJMPN8iQnBYddnTI4DyffnBAh4iLQFSOhA-8RhbbwuXqbJQOkhiXo5asFku1kFfmQd-UsHT6ulzdvRvw7WXwFKYFBTU_Q9nB/s1600/ransom.jpg,https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T16:58:16Z,12,Cybersecurity
+Apple squashes EU beef with new App Store rules,"Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its &#34;disagreements with the Commission over business terms and alternative distribution.&#34; As part of the changes, every developer that distributes apps will be moved to a single set of business terms, and digital transactions for apps distributed […]",,https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission,https://www.theverge.com/rss/index.xml,2026-08-18T16:48:26Z,6,Tech
+Peacock raises prices by 18 percent after becoming profitable,Peacock&#39;s quarterly profitability isn&#39;t guaranteed. ,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1238249061-1024x648.jpg,https://arstechnica.com/gadgets/2026/08/peacock-raises-prices-by-18-percent-after-becoming-profitable/,https://arstechnica.com/feed/,2026-08-18T16:42:30Z,5,Tech
+"Comcast adds motion sensing to millions of its newer routers, with a privacy catch",A new feature added to Comcast&#39;s newest routers can detect if there is motion is inside your home without needing traditional motion sensors.,,https://techcrunch.com/2026/08/18/comcast-adds-motion-sensing-to-millions-of-its-newer-routers-with-a-privacy-catch/,https://techcrunch.com/feed/,2026-08-18T16:39:05Z,0,Tech
+The United States is about to wake up to the threat from China's space program,"One big question, will China assert territorial rights where its rover explores?",https://cdn.arstechnica.net/wp-content/uploads/2026/04/shadowcam_shackleton_crater_mosaic_072823-1152x648-1776290971.jpg,https://arstechnica.com/space/2026/08/the-united-states-is-about-to-wake-up-to-the-threat-from-chinas-space-program/,https://arstechnica.com/feed/,2026-08-18T16:30:07Z,0,Tech
+Tesla is finally launching the Cybercab — let’s hope it’s ready,"The Tesla Cybercab, that golden two-seater central to Elon Musk&#39;s robo-supremacist ambitions, is finally nearing it&#39;s public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains very much in doubt. According to The Information, Tesla is planning a public launch of the Cybercab in […]",,https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready,https://www.theverge.com/rss/index.xml,2026-08-18T16:26:29Z,5,Tech
+Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear,Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.,,https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/,https://techcrunch.com/feed/,2026-08-18T16:19:10Z,6,Tech
+Fairphone brings the repairable Fairphone Gen 6+ to the US,"Fairphone sells components like the USB port and screen, all swappable with a single torx driver.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/Fairphone-6-plus-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/fairphone-brings-the-repairable-fairphone-gen-6-to-the-us/,https://arstechnica.com/feed/,2026-08-18T16:05:00Z,6,Tech
+Bluesky says its recent outage was caused by another DDoS attack,This is the latest large-scale DDoS attack to hit the social networking site this year.,,https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack/,https://techcrunch.com/feed/,2026-08-18T15:59:48Z,0,Tech
+Ford hopes this Hypercar will be its next Le Mans winner,The American automaker returns to the top category of endurance racing next year.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/1_Ford_Hypercar_Test_PaulRicard26_081709055100110MS-1152x648.jpg,https://arstechnica.com/cars/2026/08/ford-hopes-this-hypercar-will-be-its-next-le-mans-winner/,https://arstechnica.com/feed/,2026-08-18T15:52:50Z,0,Tech
+Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream,Matte paintings—not CGI—warp a world designed to hit a nerve for slasher fans.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Camp-Miasma-via-Mubi-2-1152x648.jpg,https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream/,https://arstechnica.com/feed/,2026-08-18T15:36:47Z,5,Tech
+Peacock is raising prices across all of its streaming plans,The cheapest ad-supported “Select” plan is increasing from $7.99 to $8.99 per month.,,https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/,https://techcrunch.com/feed/,2026-08-18T15:26:31Z,5,Tech
+Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks,"Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default.
+The post Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/,https://www.securityweek.com/feed/,2026-08-18T15:03:30Z,4,Cybersecurity
+X-rays add new twist to narwhal's spiral tusk,"New study finds that the tusks have not one but two spirals, twisting in opposite directions.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/narwhalTOP-1152x648.jpg,https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/,https://arstechnica.com/feed/,2026-08-18T15:00:51Z,0,Tech
+Meta Ran Ads for an App That Promised to Nudify Female Politicians,One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.,,https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/,https://www.wired.com/feed/category/security/latest/rss,2026-08-18T14:45:33Z,0,Cybersecurity
+CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW,"With no formal training and no career plan, Waisman built a path from Argentina&#39;s early hacking scene to leading security at an AI-powered offensive security firm.
+The post CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW appeared first on SecurityWeek.
+",,https://www.securityweek.com/ciso-conversations-nico-waisman-from-self-taught-hacker-to-ai-driven-offensive-security-at-xbow/,https://www.securityweek.com/feed/,2026-08-18T14:30:00Z,1,Cybersecurity
+Peacock is raising prices by up to $3,"Peacock is raising prices across its streaming plans once again, with the company&#39;s cheapest ad-supported Select tier going from $7.99 to $8.99 / month, as reported earlier by Variety. The Premium plan with ads is increasing from $10.99 to $12.99 / month, while the ad-free Premium Plus plan is getting the biggest hike, jumping from […]",,https://www.theverge.com/streaming/981418/peacock-price-increase-august-2026,https://www.theverge.com/rss/index.xml,2026-08-18T14:11:39Z,5,Tech
+Your Controls Block Known Attacks. What About the Behavior?,Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security&#39;s Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...],,https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/,https://www.bleepingcomputer.com/feed/,2026-08-18T14:01:11Z,4,Cybersecurity
+Warp’s new system is an out-of-the-box software factory for AI development,"On Tuesday, Warp introduced Warp Factories, a new infrastrructure system designed to make building AI software factories as easy as possible.",,https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/,https://techcrunch.com/feed/,2026-08-18T14:00:00Z,6,Tech
+Anthro Energy breaks ground on factory that could pave the road to solid-state batteries,"Battery materials startup Anthro Energy has broken ground on a Louisville factory to make electrolytes, including those for solid-state batteries.",,https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/,https://techcrunch.com/feed/,2026-08-18T14:00:00Z,3,Tech
+Exercise Rotor Clap III and Mission Sudarshan Chakra: Options for Pakistan,"India is trying to establish a defensive shield against airborne objects, from drones to missiles.",https://images.thediplomat.com/v1/td-list-l-2/2026/08/thediplomat_2026-08-18-225731.jpg,https://thediplomat.com/2026/08/exercise-rotor-clap-iii-and-mission-sudarshan-chakra-options-for-pakistan/,https://thediplomat.com/category/asia-defense/feed/,2026-08-18T13:54:00Z,0,Defense
+OpenAI launches a safer ChatGPT for teens — years after teens started using it,"ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",,https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/,https://techcrunch.com/feed/,2026-08-18T13:50:30Z,6,Tech
+Perplexity’s free AI offer left it with millions more users in India,"Perplexity&#39;s India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",,https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/,https://techcrunch.com/feed/,2026-08-18T13:45:40Z,5,Tech
+Coyote vs. Acme is even funnier because Warner Bros. Discovery tried to kill it,"There&#39;s an argument to be made that people wouldn&#39;t be all that interested in Coyote vs. Acme if it weren&#39;t for the way David Zaslav tried to kill it. By trying to shelve the project, Warner Bros. Discovery only drew attention to its habit of disappearing nearly completed movies in order to cash in on […]",,https://www.theverge.com/entertainment/981131/coyote-vs-acme-david-zaslac-warner-bros-discovery,https://www.theverge.com/rss/index.xml,2026-08-18T13:35:35Z,1,Tech
+Comcast is turning millions of its routers into motion detectors,"Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers&#39; homes, turning the devices into activity monitors. A new update to the Xfinity Internet app, arriving today, August 18th, enables the feature on compatible Xfinity routers at no extra cost. Announced as part of its new Xfinity Shield service, WiFi […]",,https://www.theverge.com/news/981381/comcast-xfinity-shield-wifi-motion-sensing,https://www.theverge.com/rss/index.xml,2026-08-18T13:30:00Z,2,Tech
+Apple’s new macOS update reportedly contains a video of AirPods with a camera,"A video in a MacOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri.",,https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/,https://techcrunch.com/feed/,2026-08-18T13:28:51Z,7,Tech
+ABC sues the FCC over Trump and Carr&#8217;s campaign of threats,"ABC is suing the Federal Communications Commission over claims the agency &#34;waged a retaliatory campaign&#34; against its networks over the content they broadcast. In a lawsuit filed in federal court on Tuesday, ABC and its parent company Disney accuse the FCC of &#34;punishing ABC for its speech&#34; by threatening its broadcast licenses. It&#39;s the latest […]",,https://www.theverge.com/streaming/981392/abc-fcc-broadcast-license-lawsuit,https://www.theverge.com/rss/index.xml,2026-08-18T13:27:43Z,5,Tech
+Microsoft Copilot reveals secret input that allowed it to be hacked,Secret parameter allowed hackers to steal passwords when a target clicked on a link.,https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg,https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/,https://arstechnica.com/feed/,2026-08-18T13:00:04Z,0,Tech
+Firefox&#8217;s Smart Window promises a better AI browser,"Starting today, AI chats in Firefox&#39;s Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest tab groups and show visual previews of pages you previously visited when you search your browsing history using natural […]",,https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features,https://www.theverge.com/rss/index.xml,2026-08-18T13:00:00Z,6,Tech
+AI-Driven Vulnerability Surge Breaks the Traditional Patching Model,"Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores.
+The post AI-Driven Vulnerability Surge Breaks the Traditional Patching Model appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/,https://www.securityweek.com/feed/,2026-08-18T13:00:00Z,8,Cybersecurity
+"Polaroid’s new Pokémon collection captures memories, not Pikachus","Polaroid announced a new collection of cameras, instant film, and accessories all featuring limited-edition designs to help celebrate the 30th anniversary of Pokémon. The new collection goes a little harder than Fujifilm&#39;s Pokémon collaboration from five years ago with the introduction of Polaroid film printed with various characters around the frames, including Pikachu and Snorlax. […]",,https://www.theverge.com/tech/981141/polaroid-pokemon-pikachu-now-go-generation-3-instant-camera-film,https://www.theverge.com/rss/index.xml,2026-08-18T13:00:00Z,0,Tech
+"Daniel Ek’s body-scanning startup Neko Health opens first US office, in New York",The scanning and bloodwork health startup founded by Spotify&#39;s founder will officially launch in New York in about a month. ,,https://techcrunch.com/2026/08/18/daniel-eks-body-scanning-startup-neko-health-opens-first-us-office-in-new-york/,https://techcrunch.com/feed/,2026-08-18T13:00:00Z,3,Tech
+"AI ""Mind Viruses"" Can Spread Between Agents Through Persistent Prompt Files","Security researchers at Anthropic and Switzerland&#39;s EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harnesses use to carry state between sessions.
+
+The work, released as a preprint on August 10, 2026, tests the technique in a simulated six-agent coding",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnswSsouQNTAo6sTmVePaIjeVawCruhIMYtwOXzzX0Qup-a8tWq6WsuiwxkhQxemYCsguvWzRqA5ILOcnEtQa2Xz2rpmU8aQ_c3zd5m82sqMjJa4ruVDS5JVH0P9trKFRwZY53P6cek06_5q-5Xz9TzuyL1TzKP_wnMY9_16AgwjoCXomphcu4p7Or1Kk/s1600/mindvirus.jpg,https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T12:38:36Z,1,Cybersecurity
+TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks,"Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.
+
+&#34;TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructure inside trusted Microsoft services,&#34; Ontinue said in a technical report shared with The Hacker News. &#34;Tasking flows through SharePoint Online file",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIrQ96TUVfZUEVto7SlNlTp_8P2270tmrpifBbd-F8vo3gQz3Na40YH60oRh2dEazLOZInJzCGa66bxl9t85Usl30eG_Db_yjMWup2eOM3BmaPhILk_Ihs-yo6AdB-DWG99L7OXK9bdD8Jygu2imWU71-Ap3bPtYLOgqu-vO2Zbr5egp6A5HNcXDSaa0o2/s1600/windows-malware.jpg,https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T12:38:20Z,2,Cybersecurity
+Xpander Raises $7.5 Million for AI Management and Governance,"Xpander’s platform uses a universal agent harness that executes AI agents as portable workloads and securely renders interfaces on demand.
+The post Xpander Raises $7.5 Million for AI Management and Governance appeared first on SecurityWeek.
+",,https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/,https://www.securityweek.com/feed/,2026-08-18T12:29:08Z,1,Cybersecurity
+Fortinet Acquires AI Security Company Virtue AI,"Fortinet will use Virtue AI technology to enhance its AI security portfolio, including for AI models, applications, and agentic systems.
+The post Fortinet Acquires AI Security Company Virtue AI appeared first on SecurityWeek.
+",,https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/,https://www.securityweek.com/feed/,2026-08-18T12:06:21Z,1,Cybersecurity
+Google&#8217;s Pet Memory forgot who my cats are,"One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss important ones. So, when Google announced its new Pet Memory feature for Gemini for Home, […]",,https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review,https://www.theverge.com/rss/index.xml,2026-08-18T12:01:29Z,0,Tech
+The Verge Guide to Pets,"Ah, the relationship between animals and the technology they can’t quite understand.  Today, it seems like there’s a high-tech solution to every element of pet ownership, with devices on the market designed to keep pets fed, cleaned, watched over, and entertained. And if you have a pet you know: nothing is too good — or […]",,https://www.theverge.com/tech/975556/pets-tech-autofeeder-litter-robot-scale,https://www.theverge.com/rss/index.xml,2026-08-18T12:01:28Z,6,Tech
+My parrot ate my keyboard,"One of the great joys in life is having pets. The unconditional love, the snuggles, the excitement they show when you get home - these things add an emotional fulfillment to daily existence that can&#39;t be achieved in another way. I think everyone&#39;s life would be better with a pet (or two) in their lives. […]",,https://www.theverge.com/tech/978402/parrot-ate-keyboard-protect,https://www.theverge.com/rss/index.xml,2026-08-18T12:00:00Z,5,Tech
+16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets,"Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.
+
+OpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the moniker StubMaker. The complete list of packages published as part of the campaign is below -
+
+
+  ubnuler
+  ubnlder
+  ri18nr
+  reaker
+  rakier
+  orakw
+  joxn",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9BsXf9I7m4IoC0hb3fSwYiBJsaB1_vSj9kGhfi0HsWGeR0xVl_W1O_Z0bd6IxvQ-vUQP5FDsj5mpiwUjv72JG3vNdViDwAKDG1uswOPDfb84xN_n8AgafhIP2sCx8x1Jd4L0mptrXuzCCGze-safV0V13WiWsFbKrKYvIC6CPBncYuhwgaDafyqSJx9Kv/s1600/ruby.jpg,https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T11:40:06Z,8,Cybersecurity
+One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025,"A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco.
+
+The activity, which Reco has named the City Forum campaign after a domain tied to the attacker&#39;s IP address, traces back to one server: 158.220.87.79, hosted on a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijGpzrXApP6QuAgCJDVSMHyi1nEVE7liFsNRwcNTWzkwbjmzqv8vGi8qalq_aWVgtgrD2CC_ZT-qXCsj_Bkj8njgIFQExo0gg5PG_dVIQfo9-wW6lIBh6OLp6z4nBeephIQACe1GX_KOP6nzqe10CM4H8p7EwRIlWGImwXgXjsSIYKCCVlSB7Oe1LWAIQ/s1600/reco.gif,https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T11:30:00Z,4,Cybersecurity
+Oops! My cat is an iPad kid,"Pets, like children, come with the responsibility to keep them happy, healthy, and mentally stimulated - obligations I readily committed to before getting my cat, Trevor. I work from home, so he&#39;s never lonely, and play with him using a mountain of toys at every opportunity outside of my working hours. But younger cats can […]",,https://www.theverge.com/tech/980226/cat-ipad-kid-pet-tech-games-youtube,https://www.theverge.com/rss/index.xml,2026-08-18T11:30:00Z,6,Tech
+How I turned my fish tank high tech,"When I was a kid, I owned two goldfish that eventually outgrew the size of their tank. At the time, I didn&#39;t realize just how much actually goes into having fish and keeping them healthy. I&#39;ve learned a lot over the past couple of years while keeping nano fish - a group of five celestial […]",,https://www.theverge.com/tech/978229/fish-tank-tech,https://www.theverge.com/rss/index.xml,2026-08-18T11:15:00Z,0,Tech
+"Microsoft tests faster Windows File Explorer, new context menu",Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/,https://www.bleepingcomputer.com/feed/,2026-08-18T11:14:28Z,0,Cybersecurity
+"As temperatures get hotter, pesticides are more dangerous to farmworkers",Research shows heat amplifies the dangers of pesticides.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2219172919-1152x648.jpg,https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/,https://arstechnica.com/feed/,2026-08-18T11:07:49Z,0,Tech
+New Malware turns Microsoft cloud into its control center,"
+		
+					  
+						
+
+
+
+
+Security researchers are warning of a newly uncovered Python malware framework that routes much of its command-and-control (C2) activity through Microsoft services that defenders already expect to see.
+
+
+
+The Ontinue Cyber Defense Center discovered the implant while investigating an active campaign in July and has since tracked it as TWINLOOT. It was seen using SharePoint Online as a file-based dead drop, Microsoft Teams’ TURN infrastructure for interactive communications, and a headless instance of the victim’s own Edge browser to send Microsoft Graph API requests.
+
+
+
+Its primary C2 traffic can terminate in Microsoft IP space rather than an attacker-controlled domain, Ontinue researchers said in a report shared with CSO ahead of its publication Tuesday.
+
+
+
+“TWINLOOT works because defenders have been trained to treat Microsoft traffic as safe by default, and this malware was built to take full advantage of that,” said Shane Barney, chief information security officer at Keeper Security. “There is no attacker-owned domain in the chain, which means the traffic looks exactly like what it is supposed to look like, and most detection tools will leave it alone.”
+
+
+
+Microsoft did not immediately respond to CSO’s request for comment.
+
+
+
+Malware lives inside the trust boundary
+
+
+
+TWINLOOT’s architecture separates routine tasking from “interactive” access. Its SharePoint channel polls a drive roughly every 15 seconds for commands, returning results and exfiltrating stolen credentials and reconnaissance data.
+
+
+
+According to Ontinue, the implant authenticates to an attacker-controlled Azure tenant rather than the victim’s Microsoft 365 environment, producing no authentication or audit events in the victim’s Entra ID logs.
+
+
+
+For interactive access, the malware can establish a reverse SOCKS5 tunnel and route it through Microsoft’s Teams TURN infrastructure. The operator can then use the compromised endpoint to access the internal network, with connections to services such as SMB, RDP, and WinRM appearing to originate from the victim machine.
+
+
+
+TWINLOOT is only the second observed case of in-the-wild Teams TURN abuse, and Ontinue says it is the first to use actual WebRTC DataChannels for the technique.
+
+
+
+The pathway is different from Edge transport. The implant launches Microsoft Edge in headless mode, attaches through the Chrome DevTools Protocol, and issues Graph API calls as “same-origin fetch ()” requests from within the browser. From network telemetry, it looks like a legitimate Edge process communicating with Microsoft, the researchers said.
+
+
+
+Commenting on the detection complications TWINLOOT adds, Robert Coles, senior manager of threat intelligence security at Black Duck, said, “Attackers are increasingly hiding inside trusted cloud services rather than using attacker-controlled infrastructure.” He recommended focusing on behavioral detection, identity monitoring, and anomaly detection, including unusual Graph API activity, OAuth applications and consent grants, and anomalous SharePoint and Teams behavior.
+
+
+
+Stealing credentials and persisting without admin rights
+
+
+
+On command, TWINLOOT displays a Windows 10 or Windows 11 lock screen populated with the victim’s real account information. It never validates the password. Instead, every password attempt is captured, encrypted, and sent to the SharePoint C2 channel. The victim receives a normal-looking incorrect password message before eventually authenticating the login.
+
+
+
+The stolen credentials can enable lateral movement through the reverse SOCKS tunnel, potentially allowing RDP, SMB, or WinRM access to other systems.
+
+
+
+The implant also contains a persistence technique that Ontinue calls “Corrupting the Hive Mind.” It creates a Windows “NTUSER.MAN” mandatory-profile hive offline, requiring no administrator privileges and generating no registry modification event.
+
+
+
+This is the first time the technique is ever used in the wild, Ontinue said. Defenders were advised to focus on anomalous SharePoint, Teams, and Graph activity rather than malware signatures alone. Ontinue also recommended disabling Edge headless mode, monitoring unusual Python activity, resetting exposed credentials, and using phishing-resistant authentication.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4210973-0-00073500-1787051307-malware_hero.jpg?quality=50&strip=all,https://www.csoonline.com/article/4210973/new-malware-turns-microsoft-cloud-into-its-control-center.html,https://www.csoonline.com/feed/,2026-08-18T11:07:45Z,19,Cybersecurity
+Fairphone is launching its latest repairable phone in the US too,The Fairphone 6+ is priced at $649 and will be available on Amazon.,,https://techcrunch.com/2026/08/18/fairphone-is-launching-its-latest-repairable-phone-in-the-us-too/,https://techcrunch.com/feed/,2026-08-18T11:00:00Z,5,Tech
+ChatGPT is getting a dedicated mode for teens,"OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is &#34;an experience designed to help teens […]",,https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode,https://www.theverge.com/rss/index.xml,2026-08-18T11:00:00Z,5,Tech
+Elon Musk made flying even worse so Palantir could profit,"On August 6th, the Minneapolis Air Route Traffic Control Center lost radar and communications for around two hours. The outage disrupted more than 1,100 flights across the center&#39;s 330,000 square mile, nine-state airspace sector. Two days earlier, on August 4th, President Donald Trump departed the White House inside his Marine One military helicopter. As Federal […]",,https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir,https://www.theverge.com/rss/index.xml,2026-08-18T11:00:00Z,5,Tech
+Fairphone’s latest repairable phone is going on sale in the US,"The Fairphone 6 Plus is a minor hardware refresh, but a major launch for the company: It&#39;s the first phone that Fairphone is selling directly in the US. It&#39;s on sale now for $649.99, available through Fairphone&#39;s website and Amazon, and is sold unlocked with support for both T-Mobile and AT&amp;T. In Europe it costs […]",,https://www.theverge.com/tech/980876/fairphone-6-plus-us-t-mobile-amazon,https://www.theverge.com/rss/index.xml,2026-08-18T11:00:00Z,6,Tech
+Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’,Reach Capital announced Tuesday an oversubscribed $265M Fund V. ,,https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/,https://techcrunch.com/feed/,2026-08-18T11:00:00Z,5,Tech
+"300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw","Tracked as CVE-2026-15748, the arbitrary file upload bug allows unauthenticated attackers to upload executable files.
+The post 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw appeared first on SecurityWeek.
+",,https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/,https://www.securityweek.com/feed/,2026-08-18T10:48:23Z,4,Cybersecurity
+CISA: Windows Task Host flaw now exploited by ransomware gangs,The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...],,https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/,https://www.bleepingcomputer.com/feed/,2026-08-18T10:32:16Z,11,Cybersecurity
+Einride strikes deal to add 500 Tesla Semis to its fleet,"Einride will buy the Tesla Semis, which will be made to Amazon and other customers.",,https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/,https://techcrunch.com/feed/,2026-08-18T10:30:00Z,0,Tech
+Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To,Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?,,https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/,https://www.wired.com/feed/category/security/latest/rss,2026-08-18T10:30:00Z,2,Cybersecurity
+The Cop Who Took On Flock,"After Noel Pichardo called out his city&#39;s embrace of Flock surveillance cameras, he was subjected to five internal affairs investigations in less than two years.",,https://www.wired.com/story/the-cop-who-took-on-flock/,https://www.wired.com/feed/category/security/latest/rss,2026-08-18T10:00:00Z,0,Cybersecurity
+Detroit startup Grounded raises $5M to customize electric and gas-powered vans,"The company has shifted from making van-life builds to custom outfitting vehicles for small businesses, all while the EV landscape in the US changed dramatically.",,https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/,https://techcrunch.com/feed/,2026-08-18T10:00:00Z,8,Tech
+Microsoft confirms outage affecting search in Microsoft 365 apps,"Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/,https://www.bleepingcomputer.com/feed/,2026-08-18T09:24:49Z,0,Cybersecurity
+Heights Finance Data Breach Impacts at Least 1.2 Million Individuals,"Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform.
+The post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek.
+",,https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/,https://www.securityweek.com/feed/,2026-08-18T09:18:34Z,5,Cybersecurity
+"SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers","SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.
+
+The hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line &#34;[Important] Your SafePal Order",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFTKWlpW6A2F_jXpwDsCbJmaJ7-TnZPoCNsW0BG5pa4F8X8I1zzCRAMefU00NEQHKlqdqGchFbSTQ_aADgjlJeIHpUKswwnwNiP7WnbAftpciT_4FAFzPKi5NYnBtI0R0VEhP4JIHXFpm6hhyQFASu7IP1kFP2FmlLVejJDiG3Tgxf2ofz-J0Aq02AoF8/s1600/safe.jpg,https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T09:10:45Z,2,Cybersecurity
+Apple&#8217;s camera-equipped AirPods appear in leaked video,"We may have our first glimpse of Apple&#39;s rumored camera-equipped AirPods, thanks to a video that MacRumors found in the macOS Tahoe 26.7 Release Candidate. The short video clip features a man - who is wearing the new AirPods - holding up a book with the cover displayed, so that Visual Intelligence can see the […]",,https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak,https://www.theverge.com/rss/index.xml,2026-08-18T09:00:01Z,6,Tech
+What you say during a cyber breach can — and will — be used against you,"
+		
+					  
+						
+
+
+
+
+The first 24 hours after a cyber incident are messy. Teams are moving fast, and a lot gets said on Slack or email that can come back later. People are scrambling to contain the issue, figure out what happened and keep things moving. In the process, they create a record that doesn’t always age well.
+
+
+
+Months and sometimes years later, when the dust is settled, CISOs often find out that those early communications get pulled apart in litigation or investigations. What your team documented and how they said it can have a longer tail – and a more disastrous financial outcome – than the attack itself.
+
+
+
+It’s easy to see how this happens. The instinct once you learn you’ve been breached is to move fast. Get on a call. Fire off a Slack message. Loop in the lawyers. Start figuring out what happened.
+
+
+
+My experience is that cyber litigation doesn’t hinge only on what happened. It also hinges on what you documented and what you said when it was happening. The problem is that the communications generated in those first chaotic hours often become evidence in litigation, regulatory investigations and enforcement actions. Many organizations operate under a dangerous illusion: copying legal on an email or Slack message makes it protected. It doesn’t.
+
+
+
+Attorney-client privilege and work-product protection are real, but they are not a panacea. I’ve seen that courts evaluating privilege claims in cyber cases don’t care whether legal was merely copied on the thread. They need to see if the predominant purpose of a communication was to obtain or provide legal advice. A technical summary of how an attacker moved through a network, a timeline of what was patched and when, or an incident report documenting what the security team found are often created for operational reasons. Courts regularly rule these materials discoverable even when general counsel reviewed them afterward.
+
+
+
+The Sedona Conference, whose working groups produce widely cited legal guidance on cybersecurity and electronic information, has noted that courts are increasingly scrutinizing exactly these questions: was the communication created for legal advice, or was it ordinary business documentation that happened to pass through legal hands?
+
+
+
+Where privilege actually breaks down
+
+
+
+During breach mitigation, you might expect the most damaging moments to come from technical forensics or a security program that couldn’t withstand scrutiny. But the reality is that companies get into trouble when people’s internal content filters break down under pressure.
+
+
+
+When a cyber incident hits, chaos is the norm. Security teams need to deal with containment deadlines, regulatory notification windows, executive escalations and a hundred other priorities, none of which can wait. It’s a stressful environment, and people tend to make assumptions or be overly candid across channels, whether it’s Slack, Teams or emails.
+
+
+
+Comments like these create the most damaging evidence when they are exposed in discovery and become exhibits in a trial:
+
+
+
+
+“We were supposed to fix this six months ago”
+
+
+
+“Nobody takes this seriously”
+
+
+
+“We knew this was a risk”
+
+
+
+
+If your incident response is happening in a 40-person Slack channel with legal just sitting in it, you are creating a searchable record for the plaintiff. Many executives and security teams operate with the misguided notion that adding your lawyer to an incident-specific Slack channel or slapping “ACP” (attorney-client privilege) on the channel title means any conversation in that channel is protected. It is not.
+
+
+
+The courts have made it abundantly clear that a channel with dozens of participants is not considered privileged. The more people on the channel, the weaker the claim. If you’re combining legal strategy discussions with operational discussions, there’s a very high likelihood that you’re going to overshare and put some questionable things on the record.
+
+
+
+Courts also do not limit discovery to the current incident. Opposing counsel is free to request documentation from prior incidents. This includes how the organization handled those events, what was said and what processes existed. The standard must hold across every incident, including the ones that never became public. If it doesn’t, you’re vulnerable.
+
+
+
+The AI problem nobody has figured out yet
+
+
+
+If your AI tool is training on your incident data, you may have already waived privilege. Courts have only begun addressing whether AI-generated communications carry privilege protections and case law remains thin.
+
+
+
+There are some early warning signs.
+
+
+
+Early decisions indicate that using consumer-grade AI tools, in which the provider may train on user inputs, creates real exposure, since courts tend to look unfavorably on privilege claims when information has been shared with outside parties. Enterprise tools using AI need to be designed to ensure confidentiality to have the highest likelihood of preserving legal privilege.
+
+
+
+AI note-takers are another gray area. Does an automated transcription tool change the level of privilege in a meeting where counsel is present? We don’t know yet, but there are some indications.
+
+
+
+Is the AI a party to the incident?  Arguably not, but that depends on the confidentiality protections in place and how the tool is designed. If there are no confidentiality protections, bye-bye privilege. Next, who all has access to the content of the AI output?  If it is an unprivileged group, privilege might be gone too. We need to think about all of this without even mentioning the requirement that an attorney be involved in the communication. There are a lot of factors at play.
+
+
+
+Designing for privilege before the breach
+
+
+
+By the time you’re in the middle of an incident, it’s already too late to fix this. Privilege is not something you can improvise under pressure. It must be designed into the process. That means establishing a clear structural separation between:
+
+
+
+
+Operational record — the factual documentation that will show what the organization did and when
+
+
+
+Legal strategy discussions that should remain protected (what you say, disclose and defend)
+
+
+
+
+If these are discussed in the same communication channel, then you’re not protecting privilege; you’re diluting it. Hiring “dual-tracked” forensic firms with one being directed by outside counsel doesn’t solve this problem either. Instead, keeping those functions deliberately separated in dedicated places, rather than scattered across personal devices, consumer apps or improvised channels, makes privilege claims far more credible when they’re held up to scrutiny later.
+
+
+
+In practice, that means defining specific channels and tools for legal strategy versus day-to-day incident operations, limiting participation in privileged discussions to those who truly need to be there, documenting who controls access and retention for each, and testing your process during tabletop exercises rather than live-fire events. Most teams have a plan going in, but that’s not what the lawyers pay attention to. When the subpoena arrives, the focus shifts to what was said and documented. That’s the part that sticks, and the part you must be able to defend.
+
+
+
+In breach litigation, the biggest liability usually isn’t what happened. It’s what your team said about it and where they said it.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4210677-0-95421100-1787043752-shutterstock_2056414424_court_ruling.jpg?quality=50&strip=all,https://www.csoonline.com/article/4210677/what-you-say-during-a-cyber-breach-can-and-will-be-used-against-you.html,https://www.csoonline.com/feed/,2026-08-18T09:00:00Z,16,Cybersecurity
+GitLab Patches Critical Code Injection Vulnerability,"The security defect allows unauthenticated attackers to modify or delete user data and public projects.
+The post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/,https://www.securityweek.com/feed/,2026-08-18T08:51:07Z,9,Cybersecurity
+AI can find zero-days but still can’t reliably write secure code,"
+		
+					  
+						
+
+
+
+
+In recent months, LLMs have gone from flooding open-source projects and bug bounty programs with questionable security reports that wasted developers’ time, to routinely finding zero-day flaws that humans and traditional security audit tools had missed for years — a rapid evolution in cyber capabilities that scares even their own creators.
+
+
+
+But despite these advances in vulnerability discovery and exploit generation, AI models do not appear to be progressing as fast in vital areas of cyber defense, often leaving basic security flaws in the code they generate — a critical gap not only due to widespread use of AI for software development but also in helping provide patches for the holes AI can now readily find and exploit.
+
+
+
+According to a recent study from application security firm Veracode, 44% of AI-generated code contains at least one known OWASP Top 10 vulnerability. While recent frontier models scored higher, no model had more than a 68% security pass rate, meaning it still generated insecure code once every three tries.
+
+
+
+Moreover, the average security pass rate for AI-generated code hardly improved across four study snapshots Veracode performed over the past year, which combined tested more than 100 model versions.
+
+
+
+Meanwhile, all tested models produced syntax-correct code 99% of the time.
+
+
+
+“Why are they getting better at syntax? Why are they getting better at writing exploit code yet not getting better at writing secure code?” asks Chris Wysopal, chief security evangelist at Veracode, when discussing the results with CSO. “That is my question to [the AI labs], and that’s what we’re trying to measure.”
+
+
+
+It’s a critical question for IT leaders looking to make good on AI’s promise to accelerate software development in an era that also sees AI helping to shrink time-to-exploit closer to instantaneous.
+
+
+
+Cyber imbalance
+
+
+
+Veracode is not the only company observing the growing asymmetry between offensive and defensive cyber capabilities in LLMs. Tests from Dutch software quality assurance firm Software Improvement Group (SIG) for its State of Software 2026 report found that AI-generated code produces roughly two times the security risk violations compared to human-written code.
+
+
+
+“We also found that 71% of all code, not just AI code, has a low degree of security controls,” Jasper Geurts, SIG’s CTO, tells CSO. “AI didn’t create the problem; it amplified it. Where organizations have measured and managed code quality, AI accelerates delivery. Where they haven’t, it accelerates technical debt and security exposure.”
+
+
+
+In July, researchers from Xint.io, a code security testing platform developed by Theori, used five recent AI models from Anthropic and OpenAI to vibe-code applications from scratch, and worked with them to re-architect and harden one existing human-written application. Across the 28 app variants, the researchers found and validated 434 security flaws, of which 196 were in the newly generated codebases (greenfield) and 238 in the re-architected application (brownfield).
+
+
+
+“In general, we find that the most common type of flaws in AI-generated code are flaws where the code still compiles — so the code runs but will have embedded secrets or will use too many resources at scale,” Kay Kwak, product owner for Xint at Theori, tells CSO. “This is in part due to shortcuts/quick-starts in the training data; as well as developers asking for a feature without also explicitly asking for a guardrail. We also found that the larger and more complex the codebase is, the more likely for AI to lose track of fine-grained user permissions.”
+
+
+
+As Xint’s study shows, models have problems generating safe code even when they work on an existing codebase. And this extends to fixing security flaws, according to research from 1Password’s Off-By-1 Labs, which tested the quality of new patches generated by various models for six known and fixed vulnerabilities in complex open-source projects.
+
+
+
+Across over 6,000 runs, the average success rate for generating a patch that fully resolved the vulnerability without materially changing application behavior was just 26%. Over half of the LLM-generated patches did not resolve the vulnerability, added a new vulnerability, or both.
+
+
+
+“Since our research looked at patching, we were observing more of an editing process than a net-new creation process,” Keith Hoodlet, head of 1Password’s Off-By-1 Labs, tells CSO. “As such, our research and the research from Veracode should be viewed as complementary, rather than assessing the same challenges. Having said that, we cite their research as an inspiration for our work, and both bodies of research directionally point toward similar conclusions.”
+
+
+
+Better training alone might not solve secure coding
+
+
+
+While AI labs rush to highlight model improvements in cutting-edge vulnerability research, it’s not entirely clear why secure code generation and vulnerability remediation appear to lag far behind vulnerability discovery and exploit development.
+
+
+
+Xint’s Kwak believes that writing secure code and proving code is secure are inherently hard problems. “The difficulty isn’t specific to AI,” he says. “Software engineering has an underspecification problem: Nobody writes down everything the code must not do.”
+
+
+
+Different definitions of success for offensive and defensive scenarios may also help explain the disparities. Offensive success is relatively straightforward to verify: If an agent can reproduce or exploit a vulnerability, the result is concrete. But determining whether a patch closes every relevant exploitation vector and vulnerable code path is much harder.
+
+
+
+That said, training data quality matters for LLM performance, and it’s fair to assume existing models were trained on a lot of public code that varies widely in quality and security.
+
+
+
+“All the experimentation we’re hearing about is that they’re playing around with offensive capability and trying to understand how to do offense; that’s how those agents got loose,” Veracode’s Wysopal says, referring to the string of recent incidents at AI labs in which agents escaped containment during testing and attacked third-party systems.
+
+
+
+“What they should be doing is having a curated secure software dataset and training on that, saying: ‘Forget about all the other code you trained on, which was the random code across the internet. Get rid of all of that,’” he says. “License the best code you can from maybe banks or other places like avionics, where code is known to be secure because it’s gone through rigorous code review, and train on that only. That’s hard and takes time but that’s how you would do it for defense. As far as I know, they’re not doing things like that.”
+
+
+
+Meanwhile, Hoodlet points out another inherent limitation of LLMs: their attention mechanisms, through which they judge the context and relevance of input tokens.
+
+
+
+“The attention mechanisms, which are fundamental to the nature of how current LLMs function, may inhibit models from ever fully addressing the challenge of patching vulnerabilities,” he says. “In section 7.3 of the research paper, we observed situations where an agent’s patch only addressed a single code path from the proof-of-concept exploit, while missing character-for-character identical instances of the same bug in adjacent code paths. It’s unclear how much more training is required to produce better secure coding outcomes given this inherent limitation.”
+
+
+
+Geurts thinks better training will help only at the margins because a model does not have an organization’s architecture, security policies, threat model, and other application-specific context by default. Harnesses can supply that context and embed deterministic security checks inside the development workflow.
+
+
+
+Harness engineering remains critical
+
+
+
+For its study, Veracode deliberately used minimal prompts sent directly to models without additional security instructions, which is not how software engineering teams use LLMs in practice. The other studies used varying degrees of scaffolding, but none evaluated the full breadth of controls that might exist in a mature enterprise development pipeline, which often include specialized AI coding assistants with detailed specifications, validation workflows, system prompts, MCP connections, skills definitions, and other supporting tools.
+
+
+
+Such harnesses can retrieve relevant files and architectural documentation, provide threat model information, list approved coding patterns, run compilers and tests, invoke static and dynamic security testing tools, and enforce approval gates that prevent AI agents from continuing until identified failures are addressed.
+
+
+
+For example, OpenAI partnered with Trail of Bits to use its models to find vulnerabilities in open-source projects critical to internet infrastructure and help develop patches for them. For the project, dubbed Patch the Planet, researchers built specialized workflows and harnesses, and, as of Aug. 11, the initiative listed 1,250 reported issues across 49 codebases, 271 authored fixes, and 146 patches accepted upstream.
+
+
+
+Xint has observed a similar effect in internal testing, according to Kwak. The company evaluated frontier models against 208,000 lines of code containing 17 injected vulnerabilities. Bare prompted loops found between zero and one of the flaws, whereas models operating inside Xint’s specialized harness found between 11 and 14.
+
+
+
+“The bare loops only ever opened 2.9% of the files, and you can’t find a bug in a file you never open,” Kwak says.
+
+
+
+Harnesses can determine which evidence reaches the model, which tools can contradict its initial answer, what counts as progress, and when the workflow should stop or escalate. This can matter as much as the choice of model, especially when working with large repositories. There are plenty of examples over the past six months where open-weight models less capable at long reasoning loops performed as well as frontier models when used inside purpose-built harnesses that helped keep them on track and managed their memory.
+
+
+
+SIG recently used Claude Sonnet 4.6 to build the same test project 20 times. Ten runs used the same model, task, scaffold, acceptance tests, and initial instructions, while the other 10 also had the company’s Sigrid Guardrails system through MCP as a mandatory security and quality gate. The guided runs produced approximately 97% fewer high-risk security findings under SIG’s analysis and achieved 24% higher maintainability scores.
+
+
+
+“The harness is the operating system for AI agents,” Geurts notes. “It’s where you put the constraints that make them reliable. Without it, AI is fast and convincing, even when it’s wrong.”
+
+
+
+Effective harnesses embed deterministic analysis tools into the AI workflow, such as code linters, type checkers, security scanners, and tests that block an agent from proceeding until its output is verified. But even with well-engineered harnesses there is no guarantee that no vulnerabilities remain.
+
+
+
+“Harness implementation is largely where we believe the industry is heading,” Off-By-1 Labs’ Hoodlet says. “If you run a workflow that moves from vulnerability discovery, to critic/judge, patching, and validation before going back through vulnerability discovery, do you need to repeat that process 10 times to achieve a 90% or better chance of generating a robust patch? Does it require a hundred iterations, or a thousand to achieve a robust patch outcome? That is something we’re interested in taking a closer look at.”
+
+
+
+Human oversight still needed
+
+
+
+Validation gates and automated checks can reduce the volume of defective code that reaches developers, but they do not transfer responsibility for the result to the LLM. An AI agent can act on scanner findings, run tests, and revise its output, but in the end the organization still needs to decide whether the requirements were complete, the validation was sufficient, and the residual risk is acceptable.
+
+
+
+Geurts argues that this changes where human judgment is applied and that, as organizations scale AI adoption, the human role moves upstream: from reviewing code to governing what and how gets built.
+
+
+
+Experts agree that companies should retain the security controls they presently use rather than treating AI-based code reviewers as their replacement. Compilation, type checking, unit and integration tests, static application security testing, software composition analysis, secrets scanning, and infrastructure checks can catch different classes of security failures.
+
+
+
+“All the controls that we have today have to continue to be used, but we do have these additional capabilities of agentic security testing,” Wysopal tells CSO. He views deterministic tools and AI-based security testing as complementary because each can identify problems the other misses.
+
+
+
+But ultimately, security-sensitive changes should remain under the control of developers who understand the affected code and its role in the larger system.
+
+
+
+“You wouldn’t have an AI deploy your software with no human in the loop — so why are you asking for ‘auto-remediation’ patching that would allow you to skip your engineers?” Kwak asks. “The key steps of merging changes and testing those changes should remain the responsibility of code owners.”
+
+
+
+Human validation will limit how quickly organizations can accept AI-generated changes, particularly as agents produce more code and more patch candidates. But at least for now, treating that review process as avoidable can be dangerous.
+
+
+
+“While this may not be efficient in terms of code velocity, to reuse a mantra from the US Navy SEALs: ‘Slow is smooth, and smooth is fast,’” Hoodlet says. “Producing larger volumes of code faster is not equivalent to producing functional, secure, and robust code. Code that is functional, secure, and robust is incredibly efficient — as it only needs to be written once.”
+
+
+
+See also:
+
+
+
+
+Attackers are crafting malicious AI instruction files to turn your agents into quiet criminal helpers
+
+
+
+Hugging Face breach shows why incident response needs a multi-model AI strategy
+
+
+
+Context bombing heralds a new AI era of deceptive defense
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4210735-0-56639400-1787041666-shutterstock_790790974.jpg?quality=50&strip=all,https://www.csoonline.com/article/4210735/ai-can-find-zero-days-but-still-cant-reliably-write-secure-code.html,https://www.csoonline.com/feed/,2026-08-18T08:25:00Z,24,Cybersecurity
+Microsoft starts removing WMIC tool used by cybercriminals,"Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/,https://www.bleepingcomputer.com/feed/,2026-08-18T08:12:08Z,0,Cybersecurity
+"Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates","The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data.
+The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWeek.
+",,https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/,https://www.securityweek.com/feed/,2026-08-18T06:46:22Z,6,Cybersecurity
+CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+
+Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW_d5c3hAfK37Zdlctl3fWxMgNXEsGKNJ9Fwf0LvHSV75qdLLYHAnyy7Le8aziJ58ma6YA83clBQQwK0xqG-lmeat7Z9bcTEaV4hmNl_SJL5iAh3r1Q4w8vk4b87pQHiGgorzFqyAYUcGXgkSyXA-0ZN1FTjC6ztxhHceoMJr-Qf-B0giZ1ZEC74B4FKL7/s1600/cisa-ray.jpg,https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-08-18T06:34:20Z,5,Cybersecurity
+Theban tomb reveals how Egyptian burial trends evolved in time,Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/egypt1-1152x648.jpg,https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/,https://arstechnica.com/feed/,2026-08-18T04:00:40Z,0,Tech
 OpenAI president’s blog pushing agentic AI most notable for what it did not say,"
 		
 					  
