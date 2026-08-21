@@ -1,4 +1,511 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Genki’s new customizable controller has a big screen and adjustable buttons,"After collaborating with 8BitDo on a gamepad two years ago, Genki launched the first controller the company designed from the ground up today. With an unorthodox design that positions its thumbsticks and buttons above a large 2.9-inch LCD screen, the Manta looks a lot chunkier than competing controllers. But what really sets it apart is […]",,https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen,https://www.theverge.com/rss/index.xml,2026-08-21T02:00:00Z,0,Tech
+"Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada","Together, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months. 
+
+",,https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/,https://techcrunch.com/feed/,2026-08-21T00:23:36Z,0,Tech
+AI data startup Micro1 reaches $500M gross run rate amid AI training boom,Surging demand for AI training data is driving rapid growth for the startup and its rivals.,,https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/,https://techcrunch.com/feed/,2026-08-21T00:13:44Z,8,Tech
+"Learn what VCs actually want, from a founder who’s raised $1B","Investors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or waiting until you’re nearly out of cash to start fundraising can cost founders leverage, valuation, and even a term sheet. In this episode of Build Mode, host Isabelle Johannessen sits down with Sasha Orloff, founder and CEO of Puzzle […]",,https://techcrunch.com/video/learn-what-vcs-actually-want-from-a-founder-whos-raised-1b/,https://techcrunch.com/feed/,2026-08-20T23:32:27Z,5,Tech
+"OpenAI is gaining on Anthropic with business users, new data indicates","Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies&#39; investors pause about how &#34;sticky&#34; enterprise AI spending really is.",,https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/,https://techcrunch.com/feed/,2026-08-20T22:36:37Z,5,Tech
+ChatGPT can now send texts for you with new Apple Messages plugin,Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration. ,,https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/,https://techcrunch.com/feed/,2026-08-20T22:09:51Z,1,Tech
+US distributor of China’s most popular humanoid robots pivots after US ban,FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Robo-Inc-1152x648.jpeg,https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/,https://arstechnica.com/feed/,2026-08-20T22:00:11Z,0,Tech
+Google Discover is getting an AI chatbot-tuned feed,"Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the &#34;coming days,&#34; will use AI to automatically tweak your feed and &#34;remember&#34; your preferences for future visits. You&#39;ll find the option within the three-dot menu on your […]",,https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed,https://www.theverge.com/rss/index.xml,2026-08-20T21:50:22Z,6,Tech
+Europe cancels planned upgrades for Ariane 6 rocket,Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.,https://cdn.arstechnica.net/wp-content/uploads/2025/03/GlYHDKoWQAAxQiG-1152x648.jpg,https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/,https://arstechnica.com/feed/,2026-08-20T21:40:52Z,0,Tech
+New 9/11 documentary finds hope in the horror,Survivors reconnect with those who saved them in National Geographic&#39;s 9/11: Reunited.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/reunited8-1152x648.jpg,https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/,https://arstechnica.com/feed/,2026-08-20T21:25:25Z,0,Tech
+"The Enhanced Games — tech’s steroid extravaganza — didn’t pay off, as company posts $60 million loss",An effort to transform the world of sports through steroid use doesn&#39;t exactly seem to be bearing financial fruit. ,,https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/,https://techcrunch.com/feed/,2026-08-20T21:08:34Z,0,Tech
+Critical flaw patched in popular JavaScript sandbox used in AI projects,"
+		
+					  
+						
+
+
+
+
+A critical sandbox escape vulnerability was discovered and patched in isolated-vm, a library for running JavaScript code inside an isolated process. If exploited, the vulnerability could allow attackers to hijack the host’s control flow, which could enable remote code execution.
+
+
+
+Isolated-vm is downloaded more than 1 million times per week and is also used as a direct or optional component in other projects, including open-source AI agent automation frameworks such as n8n, Sim.ai, Mastra, and Activepieces. Its goal is to execute untrusted user-provided JavaScript code inside a sandbox created with the Isolate feature in V8, the JavaScript engine from Chrome and Node.js.
+
+
+
+“Running untrusted JavaScript safely is one of the hardest problems in the Node.js ecosystem, and its history is littered with failures,” said Cris Staicu, lead researcher at appsec firm Edor Labs, who found the vulnerability. “Vm2, for years the default answer, accumulated more than twenty documented breakouts before being deprecated.”
+
+
+
+But isolated-vm takes a different architectural approach and relies on V8’s Isolate, the same primitive that Google Chrome uses to isolate code running in different browser tabs. That is a strong and well tested mechanism, critical to browser security.
+
+
+
+But this vulnerability, which Endor Labs describes as a type confusion, was located in the library’s C++ glue code that carries data into V8, not in the isolation mechanism itself.
+
+
+
+“A perfectly sound building block was undermined by the binding layer wrapped around it,” Staicu said. “As AI agents and automation platforms make untrusted-code execution a mainstream requirement, the binding layer around your sandbox deserves first-class security attention.”
+
+
+
+The isolated-vm developers promptly patched the vulnerability in versions 7.0.1 and 6.2.0, released earlier this month. However, the security advisory along with details about the flaw were made public today.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4212151-0-39700400-1787259675-alexander-dummer-x4jRmkuDImo-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4212151/critical-flaw-patched-in-popular-javascript-sandbox-used-in-ai-projects.html,https://www.csoonline.com/feed/,2026-08-20T21:00:59Z,15,Cybersecurity
+"Ok, can we actually cool data centers with our pee?","Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- his suggestion is not completely ludicrous.",,https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/,https://techcrunch.com/feed/,2026-08-20T20:53:13Z,0,Tech
+Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads,"The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.
+
+The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1600/rust.jpg,https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T20:22:35Z,6,Cybersecurity
+China Is Strapping ‘Digital Bombs’ to Civilian Infrastructure—Is the US Ready?,"This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chinese hacking group Volt Typhoon",,https://www.wired.com/story/china-is-strapping-digital-bombs-to-civilian-infrastructure-is-the-us-ready/,https://www.wired.com/feed/category/security/latest/rss,2026-08-20T20:03:13Z,3,Cybersecurity
+Someone targeted security researchers using a fake crypto conference as a lure,A hacker pretending to work for a leading cryptocurrency news website targeted several cybersecurity professionals using Google Docs as a way to deliver malware.,,https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/,https://techcrunch.com/feed/,2026-08-20T20:00:00Z,0,Tech
+Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts,"Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S.
+
+These clusters include UNC6293, UNC7005, and UNC5976.
+
+&#34;These clusters engage in persistent, adaptive",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg,https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T19:59:19Z,3,Cybersecurity
+Riot is ending development on its League of Legends fighting game,"Riot Games is already winding down work on 2XKO, the free-to-play League of Legends fighting game, less than a year after its initial launch. Riot says &#34;active development&#34; will conclude at the end of 2026 because the company hasn&#39;t &#34;seen enough players stick with the game to get to a path toward sustainability.&#34; Servers will […]",,https://www.theverge.com/games/982986/riot-games-league-of-legends-fighting-game-2xko-end-development,https://www.theverge.com/rss/index.xml,2026-08-20T19:59:09Z,5,Tech
+Mark buys a castle,Mark Zuckerberg just bought a cozy abode somewhat close to Meta’s international headquarters in Ireland.,,https://techcrunch.com/2026/08/20/mark-buys-a-castle/,https://techcrunch.com/feed/,2026-08-20T19:55:40Z,0,Tech
+"Golden Dome Caucus chair says building support, funding for missile shield is a ‘tough slog’","Rep. Jeff Crank, R-Colo., told Defense One that funding the war in Iran threatens the missile-defense project.",,https://www.defenseone.com/defense-systems/2026/08/golden-dome-caucus-chair-says-building-support-funding-missile-shield-tough-slog/415546/,https://www.defenseone.com/rss/all/,2026-08-20T19:55:04Z,0,Defense
+The Genesis GV90 blows the bloody doors off what’s possible in EV design,"Genesis, Hyundai&#39;s luxury brand, just revealed its first full-size, three-row electric SUV for the US market, the GV90. And arguably it has some of the wildest designs and features in the auto market today. Right off the bat, the coach-style doors signal that things aren&#39;t what they seem with the GV90. When the front and […]",,https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor,https://www.theverge.com/rss/index.xml,2026-08-20T19:52:57Z,5,Tech
+Google gives publishers a new way to fight AI-driven traffic losses,"Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",,https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/,https://techcrunch.com/feed/,2026-08-20T19:18:21Z,5,Tech
+"Runlayer, Rippling drop lawsuits. But the brouhaha is still a cautionary tale for founders.",Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.,,https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/,https://techcrunch.com/feed/,2026-08-20T19:15:05Z,5,Tech
+Castelion hits $13B valuation to mass-produce hypersonic missiles,"The $1 billion Series C was co-led by Andreessen Horowitz, Carlyle, and JP Morgan Chase.",,https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/,https://techcrunch.com/feed/,2026-08-20T19:01:41Z,0,Tech
+Citrix issues critical security updates for its NetScaler devices,"
+		
+					  
+						
+
+
+
+
+Citrix is urging its NetScaler ADC and NetScaler Gateway customers to quickly patch two critical security holes, one involving a memory overflow vulnerability leading to unpredictable behavior or denial of service, and the other allowing authentication bypass.
+
+
+
+Citrix said in an advisory that supported versions of customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess ZTNA Hybrid (formerly Secure Private Access Hybrid) deployments that use customer-managed NetScaler instances, are affected. Citrix-managed cloud services and Citrix-managed Adaptive Authentication have already been updated.
+
+
+
+However, it added, “at this point [August 19] the NetScaler images available on cloud marketplaces (AWS, Azure, GCP) have not been updated. If you need to update the images to the versions containing the fix, please download them from Citrix downloads page.”
+
+
+
+Analysts and cybersecurity consultants agreed that these patches should be urgently applied, given the sensitive and risky nature of gateways. 
+
+
+
+In fact, noted Charlie Winckless, VP/analyst at Gartner, his firm now identifies the increase in perimeter threats “as the highest signal as used by threat actors,” with internet-exposed appliances the most critical. “In the past,” he said, “new Citrix issues have been exploited rapidly by attackers due to their location in the application path.”
+
+
+
+Of the two flaws, “the authentication bypass [CVE-2026-19490] is the one that should make people move tonight,” said cybersecurity consultant Brian Levine, executive director of FormerGov. “NetScaler sits at the network edge, facing the internet, and a critical-rated, pre-authentication bypass on an edge appliance is about as high-value as a target gets.” 
+
+
+
+And because authentication bypasses in Citrix gateways are almost always weaponized, and usually quickly, he said, “I suggest organizations patch the authentication bypass on an emergency basis, not on their normal maintenance cycle.”
+
+
+
+Levine added that this is not a “patch and you’re done” situation; defenders also need to rotate credentials, kill active sessions, and hunt for signs of prior access before they close the incident.
+
+
+
+“A CVSS 9.3 means a remote attacker with no credentials and no user interaction can defeat the login on a device whose entire job is to be a secure front door,” he said. “If you’re running it as a Gateway or AAA virtual server, you have to assume this is a ‘when,’ not an ‘if.’”
+
+
+
+Fritz Jean-Louis, principal cybersecurity advisor at Info-Tech Research Group, echoed Levine’s concerns. 
+
+
+
+“Even when a vulnerability is rated lower than a remote code execution flaw, organizations should not underestimate the risk when it affects a security gateway,” Jean-Louis said. The vulnerability “can’t just be added to the patch queue, because it has the potential to undermine one of the controls organizations depend on to keep unauthorized users out.”
+
+
+
+Mike Wilkes, enterprise CISO at Aikido Security, added that rapid application of these fixes is crucial now that the announcement has alerted attackers to the flaws. That means it’s a race to see who acts the fastest: the good guys or the bad guys. 
+
+
+
+“There are no public indicators that these two new flaws are being exploited at the moment, but that is likely to change within hours, given the ability of threat actors to weaponize the update patch to discern the exploit details,” he said, given that a CVSS 9.3 authentication bypass flaw on a NetScaler Gateway or AAA server is precisely the kind of vulnerability defenders do not want sitting on an internet-facing boundary, because a successful exploit could allow unauthorized access to resources behind the gateway, followed by credential or session abuse, reconnaissance, lateral movement and ultimately data theft or broader compromise.
+
+
+
+The second major hole flagged by Citrix, CVE-2026-19489, with an 8.8 CVSS score, is less of a concern but still worrisome, he noted. 
+
+
+
+“It requires SIP ALG to be enabled on a large-scale NAT group, so the vulnerable population should be considerably smaller,” Wilkes said. “Nevertheless, a remotely triggerable memory overflow capable of producing unpredictable behavior or denial of service is consequential on infrastructure whose purpose is keeping applications and remote users connected. An attacker does not necessarily need to steal data for an attack to be damaging: repeatedly destabilizing or crashing an ADC or gateway can interrupt VPN access, customer-facing applications and other dependent services at precisely the moment an organization needs them.”
+
+
+
+In addition, Wilkes said, CISOs should be worried about the “accumulated risk history around NetScaler and Citrix edge infrastructure.”
+
+
+
+“CISA has flagged 22 Citrix vulnerabilities as known exploits over the last five years, six of them associated with ransomware,” he pointed out. “That history matters because attackers have repeatedly demonstrated that they understand the strategic value of these perimeter systems and know how to abuse them. The risk calculation is not simply the theoretical severity of CVE-2026-19489 or CVE-2026-19490. It is the combination of serious vulnerability classes, internet exposure, privileged network position and a demonstrated adversary appetite for weaponizing Citrix flaws soon after disclosure. There is a hungry population of attackers that has heard the Pavlovian bell ring that it’s feeding time again on Citrix stacks.”
+",https://www.csoonline.com/wp-content/uploads/2026/08/4212082-0-46029600-1787252065-shutterstock_2466601291.jpg?quality=50&strip=all,https://www.csoonline.com/article/4212082/citrix-issues-critical-security-updates-for-its-netscaler-devices.html,https://www.csoonline.com/feed/,2026-08-20T18:54:09Z,28,Cybersecurity
+Mark Zuckerberg bought an Irish castle,"Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and its 440-acre estate in Ireland &#34;several weeks ago,&#34; according to The Irish Times. While the exact price of the purchase is unclear, the family could have paid &#34;anywhere between €20 million and €30 million&#34; for the […]",,https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland,https://www.theverge.com/rss/index.xml,2026-08-20T18:50:14Z,5,Tech
+"Linkdaze’s smart calendar is built to run a household, not just track a schedule","Linkdaze&#39;s smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool. ",,https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/,https://techcrunch.com/feed/,2026-08-20T18:20:35Z,5,Tech
+The Pulse: Meta’s self-inflicted resignation-wave,"In what was predictable: Meta’s layoffs and forced reassignments pushed engineers not impacted by either to look for a new job. Meta is now offering large equity retainers, and it doesn’t seem working",https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2026/08/image-6.png,https://blog.pragmaticengineer.com/the-pulse-metas-self-inflicted-resignation-wave/,https://blog.pragmaticengineer.com/rss/,2026-08-20T18:08:45Z,5,Tech
+Hackers poison arrayref Rust crate to push infostealer malware,Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers&#39; systems during compilation. [...],,https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/,https://www.bleepingcomputer.com/feed/,2026-08-20T17:53:52Z,3,Cybersecurity
+Australia says Roblox hasn&#8217;t fixed its child predator problem,"Roblox is promising more changes to its child safety features following testing from Australia&#39;s online safety regulator, eSafety. eSafety has been looking into concerns that the company hasn&#39;t been in compliance with Australia&#39;s Online Safety Act, including &#34;allegedly failing to have sufficient measures in place to prevent contact between adults and children under 16. While […]",,https://www.theverge.com/games/982885/roblox-australia-safety-regulator-child-safety,https://www.theverge.com/rss/index.xml,2026-08-20T17:42:34Z,5,Tech
+FCC officially decides gigabit speeds are too good for you,"Another day, another sad thing to report about our compromised Federal Communications Commission. Chairman Brendan Carr has followed through on his 2025 threat to kill long-term broadband speed goals established during the Biden administration, which aimed for eventually getting us to gigabit download and half-gigabit upload speeds. How dare we dream of spreading great download […]",,https://www.theverge.com/policy/982863/fcc-kills-gigabit-goal,https://www.theverge.com/rss/index.xml,2026-08-20T17:38:30Z,5,Tech
+Grok keeps sending gibberish responses to users,"Affected users told TechCrunch say they were using Grok Lite, and noticed the issues as early as Wednesday morning.",,https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/,https://techcrunch.com/feed/,2026-08-20T17:32:16Z,0,Tech
+The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know,"Year after year, investors who&#39;ve explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt this year. ",,https://techcrunch.com/2026/08/20/the-investors-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/,https://techcrunch.com/feed/,2026-08-20T17:27:47Z,1,Tech
+"ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More","A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.
+
+Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.
+
+Nothing here needs",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmpCA-Pjqqy5BQaFvVtYqPZocJNkI4XUD8bcD9KrGaBcLyKd3J-aWVUtB8HwTiVqrFSI8U5wtTPhtjowrBWukeoUwSM5Y0-YKY535m1iDdQCXLYbSlx-qS-2TzZUpWVghvC3b9qWHxPoY4b-d3uUn3E4jeeW6iPt6Klxte-iNHfbq7K4aUpKH-EfhZV69/s1600/threatsday-main.png,https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T17:23:48Z,9,Cybersecurity
+"A third of webpages published since ChatGPT’s launch show signs of AI authorship, study finds",ChatGPT and other AI models are now authoring and editing much of the new web. ,,https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/,https://techcrunch.com/feed/,2026-08-20T17:18:58Z,5,Tech
+Framework says it&#8217;s addressing a BIOS update that bricked some of its older laptops,"Some Framework Laptop 13 owners with last-gen AMD chips have reported that a recent BIOS update is bricking their laptops on both Windows and Linux. The BIOS update causing this issue is version 3.20 for Ryzen 7040-series mainboards, released back in July and still available on Framework&#39;s site at the time of this writing. Upon […]",,https://www.theverge.com/gadgets/982800/framework-laptop-13-amd-7040-bios-320-bricking-warranty,https://www.theverge.com/rss/index.xml,2026-08-20T17:16:02Z,6,Tech
+"Weak Roblox safeguards failed to stop adults contacting kids, regulator says",Roblox is first platform to submit to independent audits under the Online Safety Act.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2273992483-1024x648.jpg,https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/,https://arstechnica.com/feed/,2026-08-20T17:14:08Z,5,Tech
+Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner,"At Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments.",,https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/,https://techcrunch.com/feed/,2026-08-20T17:04:53Z,5,Tech
+AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure,"The U.S. government on Wednesday warned of an &#34;active threat&#34; targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.
+
+The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s1600/plc.jpg,https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T16:59:44Z,6,Cybersecurity
+"Ramp launches its own AI model router, called Router","Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",,https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/,https://techcrunch.com/feed/,2026-08-20T16:46:00Z,5,Tech
+Senators demand answers from TikTok over experiment that disabled safeguards,"The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.",,https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/,https://techcrunch.com/feed/,2026-08-20T16:22:19Z,1,Tech
+"Meta brings Pocket, an app that lets you vibe-code and share games, to US users","Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",,https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/,https://techcrunch.com/feed/,2026-08-20T16:07:26Z,6,Tech
+Inertia Enterprises finds a way to make its fusion fuel fast,Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It&#39;s one of ten hurdles the company must overcome to make a profitable power plant.,,https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/,https://techcrunch.com/feed/,2026-08-20T16:00:00Z,3,Tech
+"Patreon launches 30 new creator features, including short-form Clips and revamped discovery","Patreon is overhauling how creators get discovered, adding short-form Clips, topic-based communities, and a revamped recommendation system designed to give smaller creators more visibility.",,https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/,https://techcrunch.com/feed/,2026-08-20T16:00:00Z,0,Tech
+The 2026 Startup Battlefield 200 is here — see who made the cut,"We’re thrilled to unveil the 2026 Startup Battlefield 200, our annual handpicked list of the 200 most promising early-stage startups from around the world.",,https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/,https://techcrunch.com/feed/,2026-08-20T16:00:00Z,3,Tech
+There are less than 48 hours to save up to $300 on your TechCrunch Disrupt 2026 ticket,"If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!   ",,https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/,https://techcrunch.com/feed/,2026-08-20T15:53:49Z,3,Tech
+It’s Greg Brockman’s OpenAI now,"OpenAI has had a hell of a year. The company spent months battling former co-founder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives […]",,https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion,https://www.theverge.com/rss/index.xml,2026-08-20T15:45:55Z,6,Tech
+This app makes the Pixel 11&#8217;s HiLight feature actually useful,"Google&#39;s new HiLight notification LED on the Pixel 11 Pro is nearly useless. Out of the box, the only two things it can glow for are when the phone is face down and you&#39;re interacting with Gemini, or when you get a call from a favorite contact. And even then, it can only glow one […]",,https://www.theverge.com/tech/982791/this-app-makes-the-pixel-11s-hilight-feature-actually-useful,https://www.theverge.com/rss/index.xml,2026-08-20T15:30:34Z,1,Tech
+LG’s 65-inch B6 OLED is $300 lower than its previous best price,"Best Buy has a whole host of LG products discounted for today’s Deal of the Day festivities, including laptops, home theater gear, and more. One that stood out is a price cut on LG’s 65-inch B6 OLED TV that’s deeper than I’ve seen before. At Best Buy, it’s $1,399.99 (originally $1,999.99) for the rest of […]",,https://www.theverge.com/gadgets/982695/lg-b6-65-inch-oled-doordash-digital-game-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-20T15:08:38Z,0,Tech
+Amazon&#8217;s drone deliveries are landing in pools and ponds,"Amazon&#39;s speedy drone delivery service will soon reach 500 cities across the US - but that might just mean there are more pools to drop packages into. On Wednesday, ABC7 News Bay Area shared a video showing an Amazon delivery drone hovering over a customer&#39;s pool in Texas, before opening its hatch and plopping the […]",,https://www.theverge.com/tech/982808/amazon-prime-air-drones-packages-pools-ponds,https://www.theverge.com/rss/index.xml,2026-08-20T14:59:21Z,0,Tech
+Hackers Target Zimbra Servers in Active Exploitation Campaign,"Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska.
+The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.
+",,https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/,https://www.securityweek.com/feed/,2026-08-20T14:50:49Z,7,Cybersecurity
+Critical Elementor Pro bug exposes WordPress sites to RCE attacks,A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...],,https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-20T14:39:48Z,11,Cybersecurity
+New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data,"Adversa AI has disclosed an attack technique that it says can cause xAI&#39;s Grok chatbot to send a user&#39;s name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page.
+
+The AI security company, which has codenamed the technique &#34;Cryptographic Context Injection,&#34; said the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv76ODDXuPeov3fu_Gs_V-72pKnjw38Qu9A4qXOn_2QFd9daTYFAXre2eubEQ6Fwb65SwXgv10mhyDCGE_KcvL69c-CGe2BfEiOj74UTHwv6WAhMyxNuVGOEdUZYwz0Y9v55SFmaOwjHQYHbOyzvZEofi0egkTfeFxQlJRD3Sj6ve-TZ47SM1sNfYGB0/s1600/grok-chat.jpg,https://thehackernews.com/2026/08/new-cryptographic-context-injection.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T14:36:27Z,5,Cybersecurity
+Genesis joins the giant electric SUV club with new GV90,"A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/Original-6723-photo-3-gv90-exterior-1152x648.jpg,https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/,https://arstechnica.com/feed/,2026-08-20T14:35:58Z,0,Tech
+"Surveillance – Everything You Wanted to Know, But Were Afraid to Ask","We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it.
+The post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.
+",,https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/,https://www.securityweek.com/feed/,2026-08-20T14:30:00Z,1,Cybersecurity
+Tesla Robotaxis appear to go fully unsupervised in Austin ahead of Cybercab launch,"Seven months after Elon Musk announced that Tesla Robotaxis in Austin were operating without human safety monitors onboard, the city&#39;s service appears to have finally gone fully driverless. Over the past two weeks, all 170 Tesla Robotaxi rides in Austin monitored by the crowdsourced Robotaxi Tracker were unsupervised, the site&#39;s creator, Ethan McKanna, told The […]",,https://www.theverge.com/transportation/982759/tesla-robotaxi-unsupervised-austin-robotaxi-tracker,https://www.theverge.com/rss/index.xml,2026-08-20T14:09:31Z,1,Tech
+How MSPs can catch phishing attacks email filters miss,"AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",,https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/,https://www.bleepingcomputer.com/feed/,2026-08-20T14:01:11Z,6,Cybersecurity
+Here’s what data Comcast says its motion-detecting routers collect,"Comcast announced a new platform this week called Xfinity Shield that includes the option to let customers turn their routers into motion sensors. Many people reacted with fear and anger. &#34;I am not enabling this. I am also seriously considering replacing my leased gateway with my own equipment, because a device I do not control […]",,https://www.theverge.com/tech/982689/comcast-xfinity-wifi-motion-privacy-concerns-response,https://www.theverge.com/rss/index.xml,2026-08-20T14:00:22Z,0,Tech
+Waymo lifts the lid on the ‘brain’ powering its robotaxis,"What&#39;s in the trunk of your car? Shopping bags? A spare tire? Jumper cables? What about a high-powered computer capable of performing up to one quadrillion operations a second? Only if you&#39;re Waymo. For the first time, Waymo revealed key details about the heavy compute &#34;brain&#34; housed in the trunk of its robotaxis, including chip […]",,https://www.theverge.com/transportation/982653/waymo-brain-computer-chip-robotaxi-hardware-suppliers,https://www.theverge.com/rss/index.xml,2026-08-20T14:00:00Z,5,Tech
+This tiny guitar amp is the most unhinged distortion pedal I’ve ever used,"Is Amp Crash a guitar amp or a guitar pedal? Yes. Death By Audio&#39;s latest is, in fact, both. While it&#39;s in a guitar pedal enclosure, Amp Crash is actually a tiny 3-watt amp hooked up to a 2-inch speaker. You can even connect an external speaker if you want. This isn&#39;t a digital re-creation […]",,https://www.theverge.com/gadgets/982598/death-by-audio-rainger-fx-amp-crash-guitar-pedal-review,https://www.theverge.com/rss/index.xml,2026-08-20T14:00:00Z,0,Tech
+Welcome to the AI crisis in math,"Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. […]",,https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis,https://www.theverge.com/rss/index.xml,2026-08-20T14:00:00Z,5,Tech
+"We played The Duskbloods, the Switch 2&#8217;s wildest new exclusive","The Duskbloods is a world away from the approachable games Nintendo is known for. But for its next Switch 2 exclusive, the company has partnered with Elden Ring developer FromSoftware on a hardcore multiplayer game about vampires. And after spending a few hours playing through its gothic world at FromSoft&#39;s offices in Tokyo, I&#39;m convinced […]",,https://www.theverge.com/entertainment/981990/the-duskbloods-hands-on-nintendo-switch-2-fromsoftware,https://www.theverge.com/rss/index.xml,2026-08-20T14:00:00Z,2,Tech
+FromSoftware can do anything,"There&#39;s something just a little bit different about FromSoftware&#39;s office in Tokyo. Like with any other successful video game studio, there&#39;s extensive security to get in the door, a minimalist lobby with framed posters from the studio&#39;s most recent releases, and a large glass display case filled with statues from ceremonies ranging from the BAFTAs […]",,https://www.theverge.com/entertainment/981970/fromsoftware-duskbloods-nintendo-hidetaka-miyazaki,https://www.theverge.com/rss/index.xml,2026-08-20T14:00:00Z,1,Tech
+SpaceX’s orbital data centers would create a new category of e-waste,The yeetcycling math resembles asteroid mining in reverse.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/yeetcycling-1152x648.jpg,https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/,https://arstechnica.com/feed/,2026-08-20T13:59:50Z,0,Tech
+Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE,"Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment.
+
+The vulnerability (&#34;GHSA-864f-rcv7-6rh4&#34;), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1600/nodejs.jpg,https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T13:48:24Z,8,Cybersecurity
+Apollo Atomics wants to make nuclear power cheaper by shrinking an overlooked part,"Y Combinator alumnus Apollo Atomics is shrinking a key nuclear reactor part, which promises to slash the cost of electricity below natural gas.",,https://techcrunch.com/2026/08/20/apollo-atomics-wants-to-make-nuclear-power-cheaper-by-shrinking-an-overlooked-part/,https://techcrunch.com/feed/,2026-08-20T13:45:00Z,0,Tech
+Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers,"Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.
+
+According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCXrYMA_j7aJrrdIZKt2gQwTWYXhhHZTfBvrNcgpLLBTa5hzcmDNguBKwBhiD8p7kO5K2OeQYVbIPg2HHDBwu9LNzR6oAFE-znmFWIgjY_XzA0qdy-rA8XzV_uGvsxLWRNXCyyOlUKdDV0LGrXPN15wxYsTuZslyecGQ1cqE2OKdX5cocpp74uXenwdj0/s1600/citrix.jpg,https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T13:35:13Z,4,Cybersecurity
+DJI Osmo fans are breaking the shackles of its closed-source camera app,"Even if you love DJI&#39;s drones and cameras, you might not love the company&#39;s bloated closed-source apps that phone home to its cloud servers. But they&#39;re the only way to easily review, manage, and wirelessly download your pocket camera&#39;s footage on the go. Osmosis, a free open-source app built by DJI watcher Konrad Iturbe (with […]",,https://www.theverge.com/tech/981852/osmosis-app-download-dji-osmo-camera-video-mimo-replacement,https://www.theverge.com/rss/index.xml,2026-08-20T13:30:00Z,5,Tech
+Reverse-lookup service exposed millions of photos of people’s faces,People-search tool ClarityCheck left database containing more than 9M image files exposed.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1047996096-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/,https://arstechnica.com/feed/,2026-08-20T13:29:54Z,5,Tech
+Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution,"A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).
+
+The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution.
+
+&#34;A remote code execution vulnerability exists in Zimbra",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s1600/zimbra.jpg,https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T13:24:28Z,11,Cybersecurity
+"Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia","Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks.
+The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.
+",,https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/,https://www.securityweek.com/feed/,2026-08-20T13:16:35Z,4,Cybersecurity
+NASA gives up on trying to rescue the Swift telescope,"Plans to rescue NASA&#39;s Swift Observatory satellite from falling into Earth&#39;s atmosphere are seemingly dead in the water. The agency and Katalyst Space announced yesterday that the Link spacecraft will no longer capture or boost the Swift telescope to a higher altitude due to an ongoing &#34;attitude control issue,&#34; but will instead conduct rendezvous and […]",,https://www.theverge.com/science/982661/nasa-katalyst-swift-rescue-mission-failure-update,https://www.theverge.com/rss/index.xml,2026-08-20T13:04:37Z,0,Tech
+AI data giant Alation confirms cyberattack,"The data search and AI giant confirmed unauthorized access to its systems during an incident on Tuesday, and said it was investigating the breach. ",,https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/,https://techcrunch.com/feed/,2026-08-20T13:01:24Z,5,Tech
+Grok exfiltrates user data when malicious instructions are encrypted,Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.,https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-1152x648.jpg,https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/,https://arstechnica.com/feed/,2026-08-20T13:00:35Z,5,Tech
+"For a16z, AI gives foreign founders an advantage","a16z’s Borderless Founder network initiative supports immigrant and international founders. &#39;Having one foot in your home country, and one foot in Silicon Valley,&#34; is an advantage, the firm believes.",,https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/,https://techcrunch.com/feed/,2026-08-20T13:00:00Z,5,Tech
+I bought DJI’s banned camera — it was cheap and easy,"As a kid, I always imagined the &#34;black market&#34; would be like the movies: Shady vendors hawking illicit goods along dusty streets. But if you want a banned DJI Osmo Pocket 4 or Pocket 4 Pro camera in the US, you can just reach for your phone. They&#39;re on Temu, AliExpress, eBay, Mercari - even […]",,https://www.theverge.com/tech/981669/dji-osmo-pocket-4-pro-us-ban-black-market,https://www.theverge.com/rss/index.xml,2026-08-20T13:00:00Z,0,Tech
+US says hackers are targeting vulnerable water systems with the help of AI,Hackers are targeting internet-connected Siemens controllers used in water facilities around the United States.,,https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/,https://techcrunch.com/feed/,2026-08-20T12:43:19Z,5,Tech
+"Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities","The flaws could be exploited to execute arbitrary code, access sensitive information, and elevate privileges.
+The post Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/,https://www.securityweek.com/feed/,2026-08-20T12:24:53Z,5,Cybersecurity
+Citrix urges admins to patch new NetScaler flaws as soon as possible,Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...],,https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/,https://www.bleepingcomputer.com/feed/,2026-08-20T12:14:38Z,1,Cybersecurity
+Meta AI’s new Mac app wants you to talk to your apps,Meta said its Muse Spark model is powering the dictation feature.,,https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/,https://techcrunch.com/feed/,2026-08-20T12:11:57Z,6,Tech
+MLflow Vulnerability Exploited for Cloud Credential Theft,"The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information.
+The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.
+",,https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/,https://www.securityweek.com/feed/,2026-08-20T12:05:55Z,10,Cybersecurity
+Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments,"Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card&#39;s cryptography.
+
+The attack, which the researchers named &#34;Zombie Card,&#34; requires physical",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg,https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T12:01:24Z,3,Cybersecurity
+"Kriminal breaks out of Grok, Claude guardrails at $12.99","
+		
+					  
+						
+
+
+
+
+Security researchers are warning of a criminal AI service built on Grok and Claude, among other models, that promises uncensored access to powerful AI capabilities for as little as $12.99 a month.
+
+
+
+ThreatDown researchers say “Kriminal” is largely a storefront wrapped around legitimate AI services, using jailbreak prompts to bypass their guardrails and resell the resulting capabilities to would-be criminals.
+
+
+
+The service is publicly accessible on the clearnet, indexed by Google and presented like a conventional SaaS product, featuring pricing tiers, usage statistics and a crypto payment system, the researchers said in a blog post shared with CSO ahead of its publication on Wednesday.
+
+
+
+The service’s offerings include exploit development, OSINT, on-chain tracing, social engineering and code generation.
+
+
+
+“This is a bellwether for a broader shift in cyber offense,” said Diana Kelley, Chief Information Security Officer at Noma Security. “As advanced offensive capability becomes cheaper and more accessible with AI, attackers can find and exploit weaknesses at a speed and scale that tilt the economics of cybercrime in their favor.”
+
+
+
+CISO’s need to fight fire with fire, use advanced AI to uncover risk and exposure and eliminate years of tolerated security debt before cybercriminals weaponize it, she added.
+
+
+
+The cheapest paid tier starts at $12.99 a month, while the top GHOST tier costs $99.
+
+
+
+The criminal AI is mostly rented
+
+
+
+ThreatDown’s analysis of Kriminal’s production JavaScript found no evidence of a proprietary foundation model. Instead, the service routes requests through several established providers.
+
+
+
+xAI’s Grok is identified in the code as the primary inference engine for chat and agent runs. OpenRouter provides access to specialist models including Mistral Large and Llama 3.3, while Anthropic’s Claude is offered for long-context analysis. Tavily supplies live web search. The service itself is hosted through Google Cloud and Cloudflare, while NowPayments handles its crypto checkout.
+
+
+
+ThreatDown noted that Kriminal operates as both a reseller and a jailbreak wrapper. Its own code shows that it forwards requests to legitimate AI providers and places a system prompt over those models to bypass their safety restrictions.
+
+
+
+When researchers asked Kriminal to identify the underlying model, its default NEXUS persona identified itself as Grok, matching the provider information found in the code.
+
+
+
+The problem is bigger than a jailbreak
+
+
+
+Krimial’s pricing also illustrates how quickly sophisticated capabilities can become commoditized. Its paid tier offers roughly 200 to 1800 messages per month, with individual services including OSINT dossiers, blockchain analysis, unrestricted code generation and access to an in-browser Python and JavaScript sandbox.
+
+
+
+Aviv Nahum, co-founder and CEO at Above Security, said the important takeaway is that there may be considerably less “criminal AI” underneath Kriminal than its branding suggests.
+
+
+
+“The underlying capability is becoming a commodity,” Nahum said. “Organizations cannot outsource their security strategy to the guardrails of AI providers. Those safeguards are important, but attackers will jailbreak models, proxy access to them, use open models locally, or simply move between providers.”
+
+
+
+Defenders must assume that increasingly capable AI will be available to both sides, he noted.
+
+
+
+KRIMINAL has packaged its capabilities into four named agent personas in its premium GHOST tier. PHANTUM is designed for “financial intelligence” and asset tracing, ARCHITECT for exploit research and offensive code, ORACLE for document and intelligence analysis, and WRAITH for social engineering, persona crafting and identity construction. The researchers said they were able to corroborate many of the technical findings from their code analysis by questioning the service itself, as if the model was designed to spill every secret AI models aren’t supposed to talk about, including its own intent.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4211952-0-23864400-1787227223-shutterstock_2376207999.jpg?quality=50&strip=all,https://www.csoonline.com/article/4211952/kriminal-breaks-out-of-grok-claude-guardrails-at-12-99.html,https://www.csoonline.com/feed/,2026-08-20T12:00:08Z,16,Cybersecurity
+Slack is launching collaborative vibe-coding channels,"Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. &#34;With Slack Code, when you have […]",,https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch,https://www.theverge.com/rss/index.xml,2026-08-20T12:00:00Z,6,Tech
+Meta glasses are a workplace menace,"In August, Toru Hinkle was stocking shelves at their job at Target when they noticed two customers and asked if they needed any help. The men requested a price check on an item - but even after Hinkle told them the item was $20, the customers asked for the price again and again. &#34;After a […]",,https://www.theverge.com/report/982414/meta-glasses-work-surveillance-labor-security,https://www.theverge.com/rss/index.xml,2026-08-20T12:00:00Z,5,Tech
+"Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities","The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks.
+The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/,https://www.securityweek.com/feed/,2026-08-20T11:46:04Z,5,Cybersecurity
+"Why ""Shady AI"" is Security's Next Big Governance Problem","In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. 
+
+The incident began when a Meta employee posted a technical question on an internal forum. An engineer used an approved AI agent to analyze it, but the agent posted its response publicly without approval. The employee",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg,https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T11:45:00Z,2,Cybersecurity
+CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification,"Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server.
+
+The attacks, collectively named &#34;CDN Tsunami,&#34; were evaluated against Alibaba, Baidu,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1600/cdn-boost.jpg,https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T11:39:35Z,8,Cybersecurity
+I ruined my cats’ toilet time with a motion-activated neon litter box sign,"My two cats live a refreshingly low-tech lifestyle. They&#39;ve never experienced a robot litter box, an automated feeder, or a GPS tracker. Noodle and Loaf live blissfully unaware of the technological trappings that surround the rest of my life. Except, that is, for the glowing neon sign that turns on whenever they go to the […]",,https://www.theverge.com/gadgets/978782/cat-litterbox-motion-activated-neon-on-air-sign,https://www.theverge.com/rss/index.xml,2026-08-20T11:30:00Z,1,Tech
+Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices,"A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications.
+
+&#34;Manic sits at the intersection of Android banking malware and mobile spyware, combining financial-fraud",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNJ75E0bEnkBf9REZEnmMNusCu2L2mrut4dSX8g-VVXH2THKdkXD1GwCZ_O5ZsnGzdamG2t0TVnelMj1TKMghauv4cIndc3OA7kuHQAdxf7FbngV7BaWV_-qmhvLZRNwN_5tkv5dSHViEwDgZ4Mou0TNLrFlyQ2yzyb7GYNQ6PPNVjCoJ7VzeKmly4Ntsf/s1600/Manic.jpg,https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T11:26:08Z,7,Cybersecurity
+AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking,"Atalanta&#39;s Argo product is now being used to prove the resilience of Viasat’s satellite communications network.
+The post AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/,https://www.securityweek.com/feed/,2026-08-20T11:08:00Z,1,Cybersecurity
+CISA warns of hackers exploiting critical MLflow vulnerability,The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...],,https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/,https://www.bleepingcomputer.com/feed/,2026-08-20T11:06:14Z,16,Cybersecurity
+NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands,"Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL&#39;s open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software&#39;s spacecraft and instrument command bus.
+
+The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0aHi13XpphD98KUUKTJJB0T5eJW8TLe8qecYWanC8lqujxWOn4dtJUXThwqpfnrd9daSkiLMxXb7r6EFFbYY2fy3qSZteMtPB5Sl5t4K01MKoHywiyohPzUQX17h3oj126zywGtTEP8twGQnbs0wjaecaY8nLhAWXLw0anuJuL2iSJmKBVnzlZhy842E/s1600/nasa.jpg,https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T11:05:11Z,4,Cybersecurity
+The Audi S6 Sportback E-tron proves that sedans still matter,"Last year, Audi announced that it gave its all-EV-by-2033 plan the boot, and instead will offer a mix of gasoline, hybrid, and electrified propulsion. There&#39;s no doubt still some uncertainty among bigger automakers - especially those under the Volkswagen Group umbrella - when it comes to such a (now prior) commitment. Even so, what it&#39;s […]",,https://www.theverge.com/transportation/982464/audi-s6-sportback-etron-sedan-ev-review,https://www.theverge.com/rss/index.xml,2026-08-20T11:00:00Z,5,Tech
+The piano that taught my cat to play for her supper,"The pianist sits before her instrument. She carefully extends a front paw, pressing gingerly on a key. She presses again, and again. She is composing some soul music, because something terrible has happened to her: The vacuum cleaner has come out of the closet. Yes, my cat is a tortured artist. When Jeeves is moved […]",,https://www.theverge.com/entertainment/980552/pet-piano-cat-autofeeder,https://www.theverge.com/rss/index.xml,2026-08-20T11:00:00Z,6,Tech
+ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud,"Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with &#34;significant enhancements,&#34; including a set of 167 remote commands and expands its targeting footprint globally.
+
+Zimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting workflow targeting more than 140 banking and cryptocurrency applications.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq19iWDNnvPUAAC2_MJN09g-1SHoPWQv82zvmQGTvrniDXm9BUWK73QrKCNCgxk0uGp6MrKF8cDQrigQCI3CW1G8V8GNltJ0GRc-yBjt69zPem4YW_b0XCZwsIFhWiOoul7eIhEOjb_F0X9A9B_DOmQNbCWHF6AzqDro4U0XjH_CgtJ_J0MVZjDPmyDL1p/s1600/android-banking-malware.jpg,https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T10:38:28Z,8,Cybersecurity
+"OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses","The action taken by OpenAI comes in light of the Hugging Face incident and the discovery of the Astra model’s advanced capabilities. 
+The post OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses appeared first on SecurityWeek.
+",,https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses/,https://www.securityweek.com/feed/,2026-08-20T10:36:14Z,6,Cybersecurity
+New Manic Android malware can exfiltrate data through nearby devices,A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...],,https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/,https://www.bleepingcomputer.com/feed/,2026-08-20T10:02:02Z,4,Cybersecurity
+Sennheiser’s new Momentum 5 earbuds feature easily replaceable batteries,"Sennheiser announced the next version of its flagship wireless earbuds with a major redesign focusing on sustainability. The company claims the new design improves the Momentum True Wireless 5&#39;s &#34;comfort, stability, and portability,&#34; but a more compelling reason to upgrade is that you won&#39;t have to replace them in a few years when they stop […]",,https://www.theverge.com/tech/982216/sennheiser-momentum-true-wireless-5-earbuds-replaceable-batteries,https://www.theverge.com/rss/index.xml,2026-08-20T10:00:00Z,5,Tech
+Critical Zimbra RCE flaw now actively exploited in attacks,"CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",,https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-20T09:46:54Z,14,Cybersecurity
+"Binance now lets AI agents trade, but keeping them in check is largely up to users","Binance&#39;s Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",,https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/,https://techcrunch.com/feed/,2026-08-20T09:30:00Z,5,Tech
+LG’s new OLED breakthrough can boost display lifespans,"LG Display has unveiled a new OLED manufacturing method that reportedly results in panels that are brighter, longer-lasting, more efficient, and theoretically can be almost any size. This new technology is called FLiPP (FMM-Less innovative Pixel Patterning), which LG Display describes as a &#34;dream next-generation OLED&#34; patterning method that aims to eliminate some of the […]",,https://www.theverge.com/tech/982609/lg-oled-panel-flipp-display-technology,https://www.theverge.com/rss/index.xml,2026-08-20T09:11:26Z,10,Tech
+40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets,"A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.
+
+According to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code and infrastructure overlaps. The campaign, dubbed Offside Wallet Theft Factory, is believed to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA5ySurVDL2oPvG7l78G22fbZEDplybrP5KX79GCEuhHybqkIgDGWDY_iHNfSLhKMt4sxn51CF33lRNwyjQy-l4Zajbkl9qUFxsjHEIoVsFhWBcGoHavMzOnmbWAI-8VHreBmZhuoCPs_N5KAKLFccr-bFLhzvJq12bvhvp5upRSkZulRN4tUDUTkfTRqo/s1600/firefox.png,https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T08:42:03Z,3,Cybersecurity
+Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler,"Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction.
+The post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek.
+",,https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/,https://www.securityweek.com/feed/,2026-08-20T08:33:25Z,8,Cybersecurity
+Critical GitLab Flaw Exploited Shortly After Disclosure,"CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data.
+The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/,https://www.securityweek.com/feed/,2026-08-20T07:48:24Z,5,Cybersecurity
+Hackers Using AI to Target Siemens PLCs in Critical US Sectors,"A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies.
+The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.
+",,https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/,https://www.securityweek.com/feed/,2026-08-20T07:02:02Z,5,Cybersecurity
+Microsoft says August Windows updates may cause gaming issues,Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/,https://www.bleepingcomputer.com/feed/,2026-08-20T06:51:03Z,0,Cybersecurity
+Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code,"Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.
+
+The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type.
+
+&#34;The flaw lives in the Forms module&#39;s File",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitKWjeNJOL_DEahUmMAYpH9qh94s2iFi8igtfSlAzOVWiUBU-EIM0MWMsFYPmA5NDL6Rs9E-w9vvCmw3Cc6Og0q-TDt87Q2hwYIePNAQ0xQ3OJYHzgCizDFm-YK9SxW4ncWnuVLaOzgb3SPO7Qpx17zHMaFzBQfYllgz5IP-p1jMALgWlasRkj1nV3Tq3G/s1600/wordpress.jpg,https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-08-20T06:04:34Z,11,Cybersecurity
+Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level,"
+		
+					  
+						
+
+
+
+
+Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent Information Security Registered Assessors Program (IRAP) assessment at the PROTECTED classification level. 
+
+
+
+The assessment was conducted by an Australian Signals Directorate (ASD)-endorsed IRAP assessor against the Australian Government Information Security Manual (ISM). It provides Australian organisations with additional independent evidence when evaluating Airlock Digital’s security controls and their alignment with applicable Australian Government security expectations, including the ISM and Protective Security Policy Framework (PSPF). 
+
+
+
+For Australian security teams, confidence in a technology provider depends on more than features. It also means understanding how that provider approaches security, how its controls stand up to independent scrutiny, and whether it can support the security requirements of sensitive environments. 
+
+
+
+The completion of the assessment gives organisations additional information for their due diligence, including those considering cloud-based application control as part of a broader security architecture. 
+
+
+
+Why This Matters to Australian Organisations 
+
+
+
+IRAP provides access to independent security assessments designed to help organisations understand the security strengths and weaknesses of information and communications technology systems and services. 
+
+
+
+Airlock Digital’s completion of an IRAP assessment at the PROTECTED level provides further independent assurance for Australian organisations assessing whether the company’s technology fits their security, governance, cloud and risk requirements. 
+
+
+
+Across the Australian market, organisations are placing increasing emphasis on independent security assurance. Organisations working with government, defence and critical infrastructure frequently need to demonstrate that the technologies on which they depend have been assessed against recognised Australian Government security expectations. 
+
+
+
+For organisations adopting cloud services, this assurance can form part of a broader assessment of how security controls, deployment architecture, governance and operational responsibilities fit within their own risk models. 
+
+
+
+For organisations working toward stronger security maturity or alignment with the Essential Eight Maturity Model, the question is increasingly not simply whether potentially malicious activity can be detected, but whether teams can clearly define what should be allowed to run in the first place. 
+
+
+
+Application control is already an important part of the Australian cyber security conversation, and Airlock Digital has a history of supporting Australian organisations with demanding security requirements. 
+
+
+
+Supporting Different Infrastructure Strategies 
+
+
+
+Australian organisations increasingly operate across a mix of cloud, on-premises, hybrid and highly constrained environments. Application control must work within those operating models rather than force organisations into a single architecture. 
+
+
+
+Airlock Digital offers flexible deployment approaches, including cloud-delivered and on-premises models, enabling organisations to align application control with their infrastructure strategies and security requirements. 
+
+
+
+For environments with particularly strict connectivity requirements, application control can also be implemented without depending on continuous external cloud connectivity. This is particularly relevant to organisations operating sensitive, segmented, air-gapped or otherwise constrained environments. 
+
+
+
+What the Assessment Means for Organisations Evaluating Airlock Digital 
+
+
+
+In addition to Airlock Digital’s existing security and privacy reports and certificates, the IRAP assessment provides independent evidence to support customer due diligence. 
+
+
+
+This includes organisations evaluating different deployment approaches. Airlock Digital supports application control across environments in which organisations may need to balance cloud adoption with specific security, operational, connectivity or infrastructure requirements. 
+
+
+
+Airlock Digital helps organisations define what runs across their endpoint environments. Rather than relying solely on generic definitions of trusted software, organisations retain ownership of their trust decisions and use Airlock Digital to operationalise allowlisting as an ongoing process. 
+
+
+
+With Airlock Digital, security and IT teams can: 
+
+
+
+
+Prevent unauthorised software from executing.  
+
+
+
+Establish and retain ownership of clear, organisation-defined trust decisions.  
+
+
+
+Maintain visibility into what runs across endpoint environments.  
+
+
+
+Support application control across cloud-connected, on-premises and constrained environments.  
+
+
+
+Work toward a Deny by Default posture while maintaining operational stability.  
+
+
+
+
+These principles are central to the Airlock Digital approach: clear ownership of trust, predictable enforcement, and security controls that work across real-world environments. 
+
+
+
+For Airlock Digital and its customers, the value of the IRAP assessment is straightforward: independent scrutiny, useful evidence for customer due diligence, and another way to help Australian security teams make informed and defensible technology decisions. 
+
+
+
+Organisations considering Airlock Digital can contact the company to discuss the assessment and its scope, available deployment options, and how Airlock Digital can help them define what runs while maintaining operational stability. 
+
+
+
+Learn more by visiting the Airlock Digital IRAP page or check out the blog announcement. 
+
+
+
+About Airlock Digital 
+
+
+
+Airlock Digital helps organizations stop threats before they start through preventative endpoint security. Founded in Australia in 2013 and operating internationally, the company provides precision application control, allowlisting and OS hardening that enable organizations to run only trusted software and reduce attack surfaces. Airlock Digital supports customers across financial services, healthcare, manufacturing, energy, government and education. Learn more at airlockdigital.com. 
+
+
+
+Contact
+
+
+
+VP of Marketing
+
+
+
+Erin Welke
+
+
+
+Airlock Digital
+
+
+
+erin.welke@airlockdigital.com
+",https://www.csoonline.com/wp-content/uploads/2026/08/4211754-0-28052100-1787201717-Picture1_b03ac4.png,https://www.csoonline.com/article/4211754/airlock-digital-completes-independent-irap-assessment-at-the-protected-level.html,https://www.csoonline.com/feed/,2026-08-20T04:55:04Z,9,Cybersecurity
 Defense Business Brief: Arcfield’s state of play; SMD wrap up; X-Bow Systems’ MDA win,,,https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/,https://www.defenseone.com/rss/all/,2026-08-20T01:28:23Z,0,Defense
 OpenAI confirms ChatGPT is down as logins and signups fail,"ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/,https://www.bleepingcomputer.com/feed/,2026-08-20T00:20:55Z,0,Cybersecurity
 NASA calls off mission to rescue Swift gamma-ray observatory,"Without a rescue, NASA&#39;s Swift Observatory is expected to reenter the atmosphere later this year.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/1783980227655-1152x648.jpg,https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/,https://arstechnica.com/feed/,2026-08-20T00:18:48Z,0,Tech
@@ -151,6 +658,7 @@ Meta AI is getting a Mac app,"Meta is launching a new Mac app dedicated to its A
 "mRNA cancer vaccine succeeded in Phase 3 melanoma trial, Moderna and Merck say",The vaccine reportedly thwarted the cancer&#39;s return and spread.,https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683.jpg,https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/,https://arstechnica.com/feed/,2026-08-19T16:53:56Z,0,Tech
 Time’s running out! Save $300 on your TechCrunch Disrupt 2026 pass until August 21,"If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!   ",,https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/,https://techcrunch.com/feed/,2026-08-19T16:16:18Z,3,Tech
 "We reviewed the new Pixel lineup, ask us anything","The embargo has lifted on Google&#39;s Pixel 11 series, as well as for its Pixel Watch 5. Now we get to talk smack - just kidding, the new hardware is good. We have four reviews live on the site that you can peruse at your leisure. We&#39;re giving subscribers a chance to engage with us […]",,https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama,https://www.theverge.com/rss/index.xml,2026-08-19T16:15:00Z,2,Tech
+DOJ charges 17 Iranians in cybertheft campaign,Prosecutors say the Mabna Institute stole 31.5 terabytes of academic data and breached email accounts at U.S. agencies and companies.,,https://www.defenseone.com/threats/2026/08/doj-charges-17-iranians-cybertheft-campaign/415536/,https://www.defenseone.com/rss/all/,2026-08-19T16:13:00Z,0,Defense
 Google Pixel 11 series review: Is the magic fading?,Google&#39;s new Pixels make some compromises but still manage to be good phones.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Pixel-11-series-1-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/,https://arstechnica.com/feed/,2026-08-19T16:11:30Z,1,Tech
 "The Pixel 11 isn’t the best Pixel of 2026, but it’s the smartest buy","It&#39;d be easy to overlook the Pixel 11. Want the best cameras? The Pixel 11 Pro is your answer. Want the best bargain? The Pixel 10A is still a great deal. But the Pixel 11 might be the sweet spot in Google&#39;s lineup this year. With 12GB of RAM and 256GB of storage, it delivers […]",,https://www.theverge.com/tech/982190/google-pixel-11-review,https://www.theverge.com/rss/index.xml,2026-08-19T16:00:00Z,5,Tech
 Google’s Pixel Watch 5 is promising — but it isn’t finished,"The Google Pixel Watch 5 has, in many ways, been the hardest Pixel Watch to accurately review. Barely anything has changed in terms of hardware. The sizes are the same, the chips and battery got an itty-bitty boost, and there&#39;s a new pyrite satin case finish. Instead, the big updates are all software-related: This year&#39;s […]",,https://www.theverge.com/tech/981957/google-pixel-watch-5-review-wearables-smartwatch,https://www.theverge.com/rss/index.xml,2026-08-19T16:00:00Z,4,Tech
