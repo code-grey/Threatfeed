@@ -1,4 +1,513 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"Over 8,300 Gitea servers vulnerable to code execution attacks","Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",,https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-28T12:58:43Z,9,Cybersecurity
+Anthropic gets its first court win over the Pentagon’s supply chain risk label,"A federal judge ruled the Trump administration illegally labeled Anthropic a supply chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",,https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/,https://techcrunch.com/feed/,2026-08-28T12:46:12Z,5,Tech
+OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems,"CISA has added the exploited flaw, CVE-2026-53362, to its KEV catalog, alongside a JFrog vulnerability exploited by OpenAI agents.
+The post OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems appeared first on SecurityWeek.
+",,https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/,https://www.securityweek.com/feed/,2026-08-28T12:36:53Z,7,Cybersecurity
+Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India,Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.,,https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/,https://techcrunch.com/feed/,2026-08-28T12:21:06Z,5,Tech
+"Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth","Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot&#39;s Locomotion PC.
+
+The flaws are tracked as CVE-2026-76639 and CVE-2026-76640, with the first involving a network-adjacent path through chat_go and bashrunner and the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKqNVrCXSaUDXfrGPJkoRoXBPQW4qwhdYqm2SMVaunZNwBrQ4FbURK-gtVawzaje20fK_m9q2dKepfj-dxmkvfKL4se3ZQ1YAI3iogqCft1UjVadJa_uBoQxFuoBpWfx2Dh3S4-jQLa7c4E9OOyQfVAT5BVKVShPykiPWEuYcchIPHFC4e5GduyW4iBio/s1600/Humanoid.jpg,https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T12:07:24Z,1,Cybersecurity
+Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2,"Confusion is a generally accepted side effect of mystery box shows. They slather on secrets with the promise of a satisfying payoff in the end, and sometimes the cast and crew even have a hard time following what&#39;s going on. But even by the standards of the genre, Dark Matter is extreme. Its multiversal premise, […]",,https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv,https://www.theverge.com/rss/index.xml,2026-08-28T12:00:00Z,1,Tech
+Toy-making giant Hasbro disclose data breach affecting employees,"Hasbro, one of the world&#39;s largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",,https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/,https://www.bleepingcomputer.com/feed/,2026-08-28T11:46:57Z,7,Cybersecurity
+Key Reasons Why Identity Fabric Matters in 2026,"An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud services and automated workloads, identity security depends less on static configuration and more on runtime visibility. This article covers the architecture, the risks of unmanaged identities, and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtiQiqrq5S2ip1c5QHUZaJADW3_fskqNx6rhLXi2mGqOH5NGwuTwmFXPtqLpFKXDLVMtG-rZTTVlRh8ZVJON5DFBxdE7RwCN8_Fh0Y_mypooHEo4yZeYB-FoGinET6wHzTwgYWDMeZxVT9b-uCQSJ7bLEZdzRUglWWuOY5ItZyGC94Xo85iFck6FMmUmY/s1600/orchid-main.jpg,https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T11:30:00Z,2,Cybersecurity
+Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL,"ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker.
+
+The company said it deployed a security update to hosted instances and provided the update to its partners and self-hosted customers, which leaves organizations that run their",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitiido-BqtV-H4U0qEAovU_m3NGb3PHF5O3IEh53W_rllGDplhA8aluEKIUULFq3L7iNQue-NLxQDR3wSF7PaaAhGg14rWdqHoB6jBZC1YfslM0wyj5xhESZKTbIxgjO_lnZqVOrKx_E2hK-wXtE85EPJW-pV8D3eMv9CWgMF8eXzsJgq3xevdBY9hCs0/s1600/servicenow.jpg,https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T11:20:32Z,8,Cybersecurity
+Authorities arrest 2 alleged members of prolific hacking group TeamPCP,"The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/teampcp-member-arrest-1152x648.jpg,https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/,https://arstechnica.com/feed/,2026-08-28T11:15:05Z,5,Tech
+"Tech, Cybersecurity Giants Unite Behind OpenAI-Led Cyber Defense Pledge","Nearly 130 tech and cybersecurity companies back a collective call to boost cyber defenses as AI-enabled attacks grow more sophisticated. 
+The post Tech, Cybersecurity Giants Unite Behind OpenAI-Led Cyber Defense Pledge appeared first on SecurityWeek.
+",,https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/,https://www.securityweek.com/feed/,2026-08-28T11:01:22Z,5,Cybersecurity
+Rocket Report: Europe splashes some cash on launch startups; Pallas-1 nears debut,"&#34;From here on, Starlink missions out of Florida will fly on Starship.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/08/European_Launcher_Challenge_launch_service_providers_initial_capacity_pillars-1152x648.png,https://arstechnica.com/space/2026/08/rocket-report-europe-splashes-some-cash-on-launch-startups-pallas-1-nears-debut/,https://arstechnica.com/feed/,2026-08-28T11:00:39Z,3,Tech
+China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access,"VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices.
+
+The implants, named SPEAKINGSTONE and DARKLANTERN by the company&#39;s zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0i2viN2zKBeSxzTqoxZkPNq_6lPMDBLb18zbLPwufsY4mFm494ydDDAWi6gGwy6PsmRGublHFmdmcEiGKViLuUgaJwWux_YUW7HQHuGbbf04HGNpoZa6QLmvf1IHE04TeTT89Yc1_jo0z6mptCbX-fIhVEVQzg5GnfU2Uya4HHASHbttTBGMxl7KMkbM/s1600/router-malware.jpg,https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T10:58:29Z,8,Cybersecurity
+"Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says","New research shows that country-of-origin labels can obscure an AI model’s upstream dependencies, inherited behaviors and potential security risks.
+The post Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says appeared first on SecurityWeek.
+",,https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/,https://www.securityweek.com/feed/,2026-08-28T10:30:00Z,2,Cybersecurity
+ServiceNow warns of three max severity security vulnerabilities,"ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",,https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/,https://www.bleepingcomputer.com/feed/,2026-08-28T10:29:42Z,8,Cybersecurity
+The first 24 hours of an AI agent security incident,"
+		
+					  
+						
+
+
+
+
+Most of what I read on AI agent security follows the same shape: a taxonomy of risks, a list of governance principles and a call to “adopt responsible AI practices.” That’s useful for a board deck. It’s nearly useless at 2 a.m. when an autonomous agent with live credentials has just done something nobody authorized, and someone is asking me what happens next.
+
+
+
+I don’t want to write another framework. I want to walk through what I would actually do, hour by hour, in the first day after discovering an AI agent has been hijacked, manipulated or has simply acted outside the bounds anyone intended for it.
+
+
+
+Why the clock runs differently for agents
+
+
+
+I built my early incident response instincts around a human attacker moving at human speed, or malware executing a fixed set of instructions. Every time I’ve walked through an agent incident since, I’ve had to unlearn part of that instinct, because agentic AI breaks both assumptions at once.
+
+
+
+Anthropic’s own account of the GTG-1002 campaign is the clearest illustration I’ve come across. A Chinese state-sponsored group manipulated Claude Code into attempting infiltration against roughly 30 organizations, and the AI reportedly carried out most of the tactical work with minimal human involvement. When I first read that writeup, what stuck with me wasn’t the attribution, it was the tempo. That’s not a phishing email sitting in an inbox for a day before someone clicks it. That’s a compromise that scales itself while my team is still getting paged.
+
+
+
+Months earlier, researchers at Aim Security disclosed EchoLeak, a zero-click prompt injection flaw in Microsoft 365 Copilot with a CVSS score of 9.3, the kind of severity rating that would normally have my team dropping everything. A single crafted email, ingested during routine summarization, was enough to trigger data exfiltration from OneDrive, SharePoint and Teams with no user interaction at all. No link to sandbox. No attachment to detonate. Just content the agent was designed to read, which is exactly the class of risk OWASP’s LLM Top 10 now ranks as the number one threat facing these systems.
+
+
+
+And the blast radius problem isn’t hypothetical either. Obsidian Security’s analysis of the Salesloft-Drift OAuth compromise shows how a single compromised connected app cascaded into hundreds of downstream SaaS environments. I expect that pattern to get worse, not better, once agents are the ones holding the tokens and chaining tool calls across systems on our behalf.
+
+
+
+What these incidents share is a structural feature that’s rewired how I run the first day: the attacker may be a set of instructions embedded in a document, a poisoned tool response or a manipulated memory store, not a person sitting behind a keyboard. Containment means revoking an identity and severing tool access. It doesn’t mean isolating a host, at least not first, and I’ve had to correct colleagues mid-incident who instinctively reached for the network cable.
+
+
+
+The hour-by-hour playbook
+
+
+
+Hour 0: Recognize what I am actually looking at
+
+
+
+The clock starts at detection, and detection is often where I lose the most time. Agent incidents rarely trip the alerts my SOC is tuned for. I look for tool-call volume from a single agent identity that’s statistically abnormal, an agent acting outside its declared task scope (an email-summarization agent suddenly querying a file share) or outputs that reference instructions no human operator gave. My job at this point is triage, not diagnosis: is this one compromised session, a shared credential or a systemic prompt-injection vector sitting in a document that any agent might ingest?
+
+
+
+Hours 0-1: Contain by identity, not by host
+
+
+
+This is where I’ve seen traditional IR playbooks get it wrong most often for agents. Pulling a network cable does nothing if the damage already happened through an API call three systems away. I revoke or suspend the agent’s credentials, API keys and OAuth tokens immediately, the same way I would treat a compromised service account. I kill the active session if the orchestration layer supports it. I freeze, but don’t delete, the agent’s memory store and tool-call history, because I will need every bit of it later. And if the agent runs through a broker or gateway, I disable its registered tools there rather than chasing individual downstream systems one at a time.
+
+
+
+Hours 1-4: Scope the blast radius
+
+
+
+Now I am answering what the agent actually touched. I pull the full tool-call log, every API invoked, every parameter passed, every response received, and I cross-reference it against the agent’s entitlements to see what it could reach versus what it did reach. I also check whether the agent’s own actions created new artifacts along the way: A scheduled task, a forwarding rule, a new API key, because autonomous agents are often better at persistence than the people who built them. If the entry vector looks like indirect prompt injection, I try to identify every other session that ingested the same poisoned content. This is rarely a single-victim event.
+
+
+
+Hours 4-8: Notify before I am certain
+
+
+
+Legal, privacy and executive stakeholders need a first briefing well before forensics is complete. I’ve learned that waiting for certainty is how AI incidents turn into disclosure failures. I give leadership three things: what the agent could access, what the evidence currently shows it did access and what’s still unknown. I loop in legal early if the agent touched regulated data. And I make an explicit call on whether other agents built from the same base configuration or tool integration need to be paused as a precaution, since a single vulnerable pattern can be replicated across an entire agent fleet before anyone notices.
+
+
+
+Hours 8-16: Reconstruct the decision chain
+
+
+
+This is the forensics work I find genuinely different from a traditional breach. I’m not just rebuilding what happened on disk. I’m rebuilding why the model decided to do it. I walk the full prompt and response chain, including anything the agent retrieved before the anomalous action, and I try to find the specific instruction, visible or hidden, that redirected its behavior. I also check whether the agent’s own reasoning output shows it recognized the instruction as suspicious and proceeded anyway, which points to a guardrail gap, versus never flagging it at all, which points to a detection gap. The fix looks different depending on which one I find.
+
+
+
+Hours 16-24: Decide on restoration, and change something first
+
+
+
+I don’t restore an agent to its prior configuration by default. That’s how these incidents come back within a week. I patch the specific vector, sanitize the ingestion path, tighten the tool scope or add an approval gate for whatever action class was abused. I re-issue credentials with narrower entitlements than before, never identical ones. And I write the 24-hour incident summary while the timeline is still fresh, because it becomes the input for both the post-incident review and, often, a regulatory or customer notification.
+
+
+
+What I’ve learned separates recovery from repeat incidents
+
+
+
+Risk frameworks tell us agents need least-privilege access and human oversight. I agree, and I’ve also found that’s not actionable at hour one when I am the one being paged. What I actually need in the room is operational sequencing: contain by identity before I contain by host, freeze evidence before I patch, notify before I am certain and never restore to the exact configuration that just failed. Every time I’ve watched a team handle an EchoLeak-class or GTG-1002-class incident well, it wasn’t because they had the best risk taxonomy on the wall. It was because they’d already rehearsed the first 24 hours before they needed them.
+
+
+
+That’s the piece I think our industry is still missing. We’ve spent two years writing agent governance principles. I’d rather spend the next year running tabletop exercises against the clock, because the next incident won’t wait for my policy to catch up.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4214961-0-67634700-1787911357-age-barros-rBPOfVqROzY-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4214961/the-first-24-hours-of-an-ai-agent-security-incident.html,https://www.csoonline.com/feed/,2026-08-28T10:00:00Z,25,Cybersecurity
+Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server,"cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.
+
+The vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported versions of cPanel &amp; WHM.
+
+cPanel described the issue as a critical security vulnerability and said that an",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s1600/cpanel-root.jpg,https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T09:45:15Z,5,Cybersecurity
+"As electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space","Launched by Belgian startup Any, LUV1 is a modular electric motorcycle with 120 liters of cargo space that can be used to carry bags, work equipment, or even pets.",,https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space/,https://techcrunch.com/feed/,2026-08-28T09:33:00Z,8,Tech
+Windows 11 KB5120998 update released with 35 changes and fixes,"Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [...]",,https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/,https://www.bleepingcomputer.com/feed/,2026-08-28T09:10:13Z,0,Cybersecurity
+Beyond compliance: Designing systems that earn customer trust,"
+		
+					  
+						
+
+
+
+
+Over the years, I have learned that customer trust is not built by compliance alone. It comes from how systems actually handle data every day. In practice, I think five areas matter most
+
+
+
+
+Making customer intent consistent across systems
+
+
+
+Treating privacy as a distributed-systems problem
+
+
+
+Reducing unnecessary data
+
+
+
+Designing for failure
+
+
+
+Understanding how AI is expanding the trust boundary
+
+
+
+
+I will go into each of these below and share why they matter in real systems with some of my experiences. For CISOs and other security leaders, these ideas can also help turn broad privacy and trust goals into concrete priorities for architecture, governance, data protection and operational risk.
+
+
+
+I learned this while working on large-scale digital commerce and personalization systems. A customer action that looks simple on the surface can involve many systems behind the scenes. A preference may be stored in one place, used by several services, cached for performance and also influence analytics or machine-learning systems. That experience taught me that privacy is not just about having the right policy or control in one system. The real challenge is making sure the customer’s choice is respected everywhere that data is used.
+
+
+
+The first area is customer intent. If a customer changes a privacy setting, opts out of personalization or asks for certain data to be deleted, that choice should not stop at the system where it was first recorded. In practice, the same data may already be used by other services, caches, event pipelines, analytics systems or machine-learning workflows. The challenge is making sure the customer’s latest choice is understood and respected across all of them, even when those systems do not update at the same time.
+
+
+
+This is where privacy becomes a distributed-systems problem, and freshness of data becomes just as important as correctness. A preference may be updated correctly in the source system, but another service may still have an older value in a cache, an event may already be in transit or a batch process may be working from yesterday’s data. I learned from working on personalization and recommendation systems that stale information can be completely accurate and still lead to the wrong outcome because the customer’s intent has changed. Privacy works the same way, but with higher consequences. Each individual system may be functioning as designed, while the overall experience no longer reflects what the customer asked for. For security leaders, that means a privacy control should not be judged only by whether it exists, but also by how quickly and reliably the latest customer choice reaches every place where that data is used.
+
+
+
+Regulation has pushed engineering in the right direction. Article 25 of the GDPR established the idea of data protection by design and by default, while the NIST Privacy Framework treats privacy as a risk-management problem that should be considered while systems are being built. I see both as important shifts because they move privacy closer to architecture and engineering decisions. But in practice, privacy programs can still gravitate toward proving that a control exists: Was consent captured? Who can access the data? Can we process deletion requests? Those questions matter, but they are still mostly about compliance. The harder question is whether the system continues to respect the customer’s intent after the data moves through multiple services, storage layers, pipelines and downstream consumers.While designing or reviewing a data flow, I find one question particularly useful, “If customer intent changes here, where can the old intent still survive?” It forces the discussion beyond whether a control exists and toward how the system actually behaves.
+
+
+
+Trust breaks at system boundaries
+
+
+
+A deletion request is a good example of where this gets complicated. To the customer, the action is simple: they ask for their data to be deleted. Behind the scenes, that information may exist in transactional storage, event streams, caches, analytical datasets, logs or derived data used by other systems. Some information may need to be deleted quickly, while other records may have legitimate security, fraud, financial or regulatory retention requirements. The goal is not necessarily to delete everything everywhere at the same moment. The important part is knowing where the data exists, why it is there, who owns it and what should happen after the customer makes the request. This is where a compliance requirement becomes an engineering and operational trust problem.
+
+
+
+This is also why I see data minimization as more than a privacy requirement. Every additional copy of customer data creates another place that has to be secured and eventually cleaned up. Over time, data that was collected for one reasonable purpose can become a dependency for analytics, experimentation or machine-learning systems and in most cases for heavy commerce and personalization focused system the likelihood of this is very high. Leading to teams managing a growing number of systems to understand the privacy and retention rules. For security leaders, reducing unnecessary data can therefore reduce both privacy risk and operational complexity.
+
+
+
+The Federal Trade Commission’s guidance for businesses makes a similar point: companies should collect only the information they need and keep it only as long as there is a legitimate business reason to do so. A useful question to translate it as an engineering question would be “Does this data earn the complexity that comes with keeping it?” If the answer is yes, then the system should have clear ownership, access controls, retention rules and a defined purpose. If the answer is unclear, that is usually a signal to challenge why the data is being collected or retained in the first place a good push to either remove or follow minimum retention policy an internal information security team follows.
+
+
+
+Privacy controls should be designed for failure
+
+
+
+Another lesson I learned from operating large-scale systems is that we should not design only for the happy path. In reliability engineering, we routinely ask what happens when a dependency times out, a message is delayed and/or a service becomes unavailable, similarly privacy controls should be reviewed. What happens if the system cannot determine the latest consent state? What happens if a deletion request succeeds in most systems but fails in one downstream service? What happens if an old event arrives after a customer has changed a preference? At scale, they become normal operating conditions, and security leaders need to know how the system is expected to behave when they occur.
+
+
+
+The important part is to make that failure behavior intentional, like the safest choice may be to stop processing when the latest privacy state cannot be verified. We can see it as fraud prevention or security required on financial records where not every system needs the same rule. What matters is that the exception is understood and designed rather than discovered during an incident. For CISOs, this is where privacy moves from policy into operational risk where we should ask whether a control exists and know what the system will do when that control is unavailable or fails.
+
+
+
+This also means privacy needs its own observability. We spend a lot of effort monitoring availability, latency and error rates, but I think privacy controls should have similar operational signals. How long does it take for a preference change to reach downstream systems? Where are deletion requests failing? Which systems are still depending on data that should have been retired? Without that visibility teams may know that a privacy control but still have very little confidence in how it is behaving in production. For CISOs, this is an important to understand privacy is not only be audited periodically, but also about measurable as part of day-to-day system health.
+
+
+
+AI is widening the trust boundary
+
+
+
+I have seen this trust boundary grow over time. During the 2015-2020, personalization and recommendation systems became increasingly sophisticated by bringing together more customer signals to improve relevance and experience. With LLMs and now agentic systems, that boundary is expanding much faster. A traditional application may read from a known database or call a defined API. An AI system can retrieve information from documents, customer records, previous interactions or other tools, combine that information and increasingly take actions based on it. That makes the trust boundary ridiculously wid. For CISOs, engineers, auditing and security team the question is no longer only “Who can access this data?” it is more about “What information can this system retrieve, combine and act on?”
+
+
+
+The scale of this shift is already visible. Cisco’s 2026 Data and Privacy Benchmark Study found that 90% of surveyed organizations had expanded their privacy programs because of AI, while 93% planned to invest more in privacy and data governance over the next two years. I see this as a sign that AI governance cannot be separated from data governance. Before security leaders think about model controls, they need to understand what data the AI system can reach, how that access is authorized and whether the same privacy rules continue to apply when information is retrieved, combined or used to take an action. The risk is beyond too much data, it’s also that customers may not understand how their information is being used once AI is involved. A support interaction, a document or a past transaction may have been collected for one purpose, but an AI system can make that information useful in a completely different context and a place where trust can erode quickly. For me the practical question is whether the customer’s original expectation still holds when data is reused by an AI system. If the answer is unclear, the architecture and governance model need more work before the feature scales.
+
+
+
+Turning trust into a CISO priority
+
+
+
+I think the practical takeaway is to make customer trust part of the system review process rather than a check only during compliance reviews. When reviewing a new data flow, AI capability or customer-facing feature, I would ask a few basic questions: What customer data is being used? Why is it needed? How fresh does the customer’s preference need to be? Where can that data travel or be copied? Is the data classified and annotated so downstream systems know how it should be handled? What happens when a privacy control fails? And can we observe whether the system is actually behaving the way we intended? One practical approach that I have seen work well in large distributed systems is attaching the right security and privacy metadata to the data itself. For example, classification can help identify sensitive data, retention metadata can define how long it should remain and routing policies can determine where that information is allowed to move. This becomes especially useful when the same data flows through many services because the control does not depend entirely on every downstream team remembering the original intent.
+
+
+
+These kinds of controls help turn a broad goal like “earn customer trust” into concrete engineering and information-security governance priorities. The harder work is making sure the system continues to respect customer intent as data moves, copied or is used in new ways. For security leaders the priority proving that the right controls exist while understanding how those controls behave in production and if the architecture can preserve customer intent through change, failure and increasingly complex AI-driven data flows, then compliance becomes part of a system customers can actually trust.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/08/4214953-0-44104500-1787907806-Trust-shutterstock_2555854985.jpg?quality=50&strip=all,https://www.csoonline.com/article/4214953/beyond-compliance-designing-systems-that-earn-customer-trust.html,https://www.csoonline.com/feed/,2026-08-28T09:00:00Z,5,Cybersecurity
+"How an Atlanta Suburb Ended Up Sharing Flock Data With More Than 2,000 Organizations","Alpharetta, Georgia, cops share data with thousands of Flock users, ranging from federal agencies to a fish and wildlife commission. The reasons why show how vast—and invasive—the network has become.",,https://www.wired.com/story/how-an-atlanta-suburb-ended-up-sharing-flock-data-with-more-than-2000-organizations/,https://www.wired.com/feed/category/security/latest/rss,2026-08-28T09:00:00Z,1,Cybersecurity
+PaperCut Releases Emergency Patch for Exploited Zero-Day,"A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations.
+The post PaperCut Releases Emergency Patch for Exploited Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/,https://www.securityweek.com/feed/,2026-08-28T08:40:36Z,10,Cybersecurity
+"PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions","PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.
+
+The company has released an emergency patch for v25 and v26 to address the issue. It said it&#39;s &#34;aware of confirmed customer incidents and is treating this matter with the highest priority.&#34; An",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3avAnoYOOKqF8JpZv9Lng1lKE0AqmHOqM-Mq2T297NQrtDBM90yMYIzzVMHgzqytcCvFz7LuBXoPp-d9mRh0_dywBaM8NxZaiKPG0gDuYbSt2oRJdxSkHG5tWjxAMKvWUYZe6YINf_-7i5zUS7xGrDcaXulRvT5jVihWDJzAHSlaXQ6UYlHa6cPMpxbDC/s1600/papercut.jpg,https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T08:25:36Z,20,Cybersecurity
+CTEM can give your security team a contextual edge,"
+		
+					  
+						
+
+
+
+
+Traditional vulnerability management is accelerating toward a reset, with many security organizations considering continuous threat exposure management (CTEM) to better align their operations with the pace of change — and attacks — today.
+
+
+
+Whereas traditional vulnerability management relies on periodic assessments, with security teams scanning environments, identifying vulnerabilities, and implementing fixes as necessary, CTEM takes a more agile approach, while also broadening beyond vulnerabilities with the aim to continuously understand an organization’s risk exposure across endpoints, networks, identities, cloud environments, applications, and users.
+
+
+
+“CTEM brings something different to the table in three key areas,” highlights Fernando Maldonado, principal analyst at Foundry Spain.
+
+
+
+The first, he points out, is scope. In addition to vulnerable software, CTEM also focuses on misconfigurations, identity risks, excessive permissions, and leaked credentials —gateways attackers are increasingly putting to use.
+
+
+
+“The second is validation, because instead of relying on a score, [CTEM] verifies whether the exposure is truly exploitable and whether current controls would prevent it,” Maldonado adds.
+
+
+
+The third difference, he says, is mobilization, because the CTEM framework assigns a specific person the responsibility for fixing each issue, which is where things traditionally get bogged down. “The metric shifts from how many vulnerabilities I’ve found to how many real attack vectors I’ve closed,” he concludes.
+
+
+
+One-off scans are no longer enough
+
+
+
+The current threat landscape makes it clear that one-off scans are no longer sufficient.
+
+
+
+Today’s infrastructures are constantly changing. Cloud environments, distributed applications, API integrations, continuous deployments, and automation are constantly changing an organization’s attack surface.
+
+
+
+“A single snapshot can provide useful information, but it quickly becomes outdated,” says Luis Uribe, offensive security engineer at Factum. “New assets, configuration changes, exposed services, or modifications to permissions can alter the level of risk in a matter of hours or days.”
+
+
+
+Moreover, attackers are operating increasingly more quickly to exploit very narrow windows of opportunity. “As a result, organizations need a continuous ability to identify, contextualize, and prioritize the vulnerabilities that could actually be used in an attack,” Uribe says.
+
+
+
+That speed is a key reason why security organizations should consider shifting to CTEM, Foundry Spain’s Maldonado adds. Otherwise, they may be operating blind.
+
+
+
+“Between assessments, there’s a long period of uncertainty, and attackers, increasingly relying on AI, are taking less time to exploit new vulnerabilities,” he says. “Simply patching and doing nothing is no longer enough.”
+
+
+
+Volume is another issue, Maldonado says. Tens of thousands of vulnerabilities are published each year, generating unmanageable backlogs where important issues are buried under countless minor findings.
+
+
+
+And finally, there is coverage to consider, he adds.
+
+
+
+“Scanners see vulnerable software, but not the identity, the SaaS, misconfigurations, or attack vectors, which is precisely where the attackers gain entry. A scan reveals what is vulnerable, but not what is exploitable or what truly matters to the business. This part of the argument holds true without needing to trust any vendor, because these are structural facts of the environment,” he explains.
+
+
+
+The role of automation and contextual intelligence
+
+
+
+Factum’s Uribe notes that automation and contextual intelligence are two essential pillars of the CTEM model. In his opinion, the former allows for continuous visibility into assets, configurations, vulnerabilities, and changes in the environment, facilitating the early detection of new exposures.
+
+
+
+And while Agustín Serralta, director of services and CISO at SCC España, states that automation is key, it doesn’t replace human judgment.
+
+
+
+“In complex environments, it’s impossible to manage large volumes of data without automation,” he says. “However, completely delegating decision-making to algorithms can be risky, especially if those models aren’t reviewed or become obsolete.”
+
+
+
+As a result, contextual intelligence must combine technical context (exploitability, exposure, existing measures) with business context (which systems support critical processes, legal obligations, or contractual commitments), he says.
+
+
+
+“Without that combination, there is no real risk management, only prioritization based on technical needs,” he says.
+
+
+
+Javier Castillo, operations director of Secure&amp;IT, says it’s important to note that CTEM doesn’t replace penetration testing  or red team activities, which “remain fundamental services for identifying complex vulnerabilities, design errors, logical failures, or advanced attack techniques that can hardly be detected through automated processes,” he says.
+
+
+
+Therefore, he adds, continuous monitoring and offensive assessments should be understood as complementary capabilities within a mature cybersecurity strategy.
+
+
+
+The shift from a reactive strategy to continuous exposure management
+
+
+
+José de la Cruz, technical director of TrendAI Iberia, says automation plays a fundamental role in enabling organizations to implement the five phases of CTEM — scoping, discovery, prioritization, validation, and mobilization — in an agile and efficient manner.
+
+
+
+With automation in place, “the human becomes an analyst who supervises (human-in-the-loop) the correct functioning of the model and validates the data it produces, thus guaranteeing an effective and reliable implementation,” he says.
+
+
+
+Enterprises should first aim those efforts at achieving a comprehensive view of their attack surface, including all the organization’s assets: traditional infrastructures, cloud environments, applications, digital identities, connected devices, and services exposed to third parties, Secure&amp;IT’s Castillo explains.
+
+
+
+“You cannot protect what you do not know, and many organizations still lack a complete vision of all the elements that make up their ecosystem,” he says.
+
+
+
+From there, organizations should work toward establishing continuous processes for risk identification, validation, prioritization, and remediation.
+
+
+
+“This involves incorporating continuous monitoring capabilities and solutions that automate the collection and correlation of information, establish risk-oriented metrics, and create collaboration mechanisms between the various technical and business teams,” he adds.
+
+
+
+CTEM adoption challenges
+
+
+
+Companies face many challenges in switching to CTEM, chief among them reducing fragmentation, SCC España’s Serralta says, because “we have too many tools, consoles, reports, and data that it’s simply impossible to manage.”
+
+
+
+At an organizational level, Serralta believes silos also remain a significant barrier. “When it’s unclear who decides or who is responsible, security is compromised. At a cultural level, several natural resistances converge: lack of time, an exclusive focus on ‘compliance,’ or an overreliance on tools.”
+
+
+
+Foundry Spain’s Maldonado believes “the cultural aspect is the hardest.”
+
+
+
+“It involves changing the mindset from finding and reporting vulnerabilities to validating and reducing business risk, resisting the urge to keep hunting them down one by one, and accepting that CTEM is not a capability delivered by a vendor, but an operational model that the organization has to design and adopt,” he says. “That’s the point that sinks most programs, because the tool is purchased expecting it to bring the culture with it, and that never works that way.” From a regulatory point of view, Serralta believes CTEM fits well with the risk management principle required by European regulations, “but only if it is implemented with governance, traceability and human control, in line with the corporate security policies, as well as acceptable use policies for technology, data, and AI, that we must define and distribute to all personnel in the organization.”
+",https://www.csoonline.com/wp-content/uploads/2026/08/4215083-0-63435700-1787905638-sasun-bughdaryan-q5kwAqdyRe8-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4215083/ctem-redefines-the-approach-to-cybersecurity-in-organizations.html,https://www.csoonline.com/feed/,2026-08-28T08:25:00Z,18,Cybersecurity
+APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations,"Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.
+
+These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE, a lightweight Windows batch script that&#39;s distributed via",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhjJnzm1UIfq8P7glIadtS8dGFvdsASot4sviMtZtFwpKL5B_2upZBcjMdYEBDcSnGmxpKP5LPUQ4XTpao-qCCbe6hQYF9qQBF7bhcPcZJkaz8KY9CCaKBRe-iu3ovbkZWjjtWEs_XJ9hl7D9ZRdKK9LqJynEh9XQ_7o8HZGi572pfnKyt3Yznk1QA311_/s1600/eu-meeting.jpg,https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T08:20:59Z,2,Cybersecurity
+"Anthropic was illegally blacklisted by the Trump administration, court rules","On Thursday, a judge ruled that the Pentagon&#39;s blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting &#34;red […]",,https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling,https://www.theverge.com/rss/index.xml,2026-08-28T03:14:06Z,5,Tech
+Privacy-focused communication app aims for military customers and beyond,"When adversaries can forge faces and voices in real time, traditional secure messaging is no longer enough.",,https://www.defenseone.com/technology/2026/08/privacy-focused-communication-app-aims-military-customers-and-beyond/415686/,https://www.defenseone.com/rss/all/,2026-08-28T02:39:29Z,0,Defense
+"AI, athletes, and Keith Rabois: StrictlyVC is back in New York on September 10","A boutique StrictlyVC evening returns to New York&#39;s West Village on September 10 with Keith Rabois, Craig Shapiro, Jason Levien, Tristan Walker, Brynn Putnam, and Deven Parekh — covering AI, sports investing, community-building, venture economics, and politics, with cocktails, food, and networking throughout the night.",,https://techcrunch.com/2026/08/27/ai-athletes-and-keith-rabois-strictlyvc-is-back-in-new-york-on-september-10/,https://techcrunch.com/feed/,2026-08-28T02:02:44Z,5,Tech
+The GTA VI ‘extended look’ is now streaming on YouTube,"Rockstar has officially published its &#34;extended look&#34; at Grand Theft Auto VI on YouTube, as promised. The in-depth preview, which features footage from the PS5 version of the game, initially premiered on Netflix at 3PM ET. But because Rockstar allowed creators to post reaction videos, you&#39;ve technically been able to watch the video on YouTube […]",,https://www.theverge.com/games/985910/grand-theft-auto-gta-vi-extended-look-youtube-netflix-stream,https://www.theverge.com/rss/index.xml,2026-08-28T01:05:18Z,1,Tech
+The biggest video game of all time looks like a movie,"I think I know why Rockstar Games debuted its &#34;extended look&#34; of Grand Theft Auto VI on Netflix instead of immediately dropping it for free on YouTube. Unlike most video game trailers, the almost 27-minute preview of GTA VI felt more like a slice of a prestige crime drama than any video game trailer that […]",,https://www.theverge.com/games/985891/grand-theft-auto-vi-gta-6-netflix-youtube-extended-look-game-movie,https://www.theverge.com/rss/index.xml,2026-08-27T23:20:00Z,6,Tech
+Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026,"At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",,https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-08-27T23:16:45Z,8,Tech
+Anthropic's new hardware standard lets AI agents control the physical world,Standardized driver interface  aims to let devices talk to AI and each other.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-1152x648.png,https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/,https://arstechnica.com/feed/,2026-08-27T22:15:43Z,6,Tech
+Nearly 700 rogue AI agents coordinated in the Hugging Face attack,New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI&#39;s internal IM1 model coordinated the compromise through an unauthorized message board. [...],,https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/,https://www.bleepingcomputer.com/feed/,2026-08-27T21:38:53Z,3,Cybersecurity
+Meta addresses ‘pervert glasses’ reputation with a privacy fix and a new marketing campaign,"Meta is updating its AI-powered smart glasses to close a loophole that allowed wearers to keep recording after covering the front-facing LED. Alex Himel, Meta&#39;s vice president of augmented reality, writes in a post on Threads that &#34;the camera will now stop working if the light is covered during a recording.&#34; The company&#39;s line of […]",,https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign,https://www.theverge.com/rss/index.xml,2026-08-27T21:37:45Z,5,Tech
+"US military bought commercial satellite images of alleged narco airstrips, Chinese naval fleet","The Space Force can improve how it embraces commercial intel, a new GAO report says.",,https://www.defenseone.com/technology/2026/08/us-military-bought-commercial-satellite-images-alleged-narco-airstrips-chinese-naval-fleet/415684/,https://www.defenseone.com/rss/all/,2026-08-27T20:54:02Z,1,Defense
+"Elon Musk’s xAI used child porn to train Grok models, lawsuit says",xAI accused of training Grok on real and AI-generated child pornography.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg,https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/,https://arstechnica.com/feed/,2026-08-27T20:52:31Z,5,Tech
+Rivian’s CFO is leaving the company,"Claire McDonough is stepping down on October 30 to pursue a new opportunity, the company said in a filing on Thursday.",,https://techcrunch.com/2026/08/27/rivians-cfo-is-leaving-the-company/,https://techcrunch.com/feed/,2026-08-27T20:23:10Z,5,Tech
+Bluesky adds an ‘algorithmic opt-out’ feature for those who don’t want to go viral,"Sometimes people just want to post to their followers, Bluesky says.",,https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral/,https://techcrunch.com/feed/,2026-08-27T20:15:26Z,0,Tech
+GOP heads to Supreme Court after losing case over TV election ad prices,GOP campaign committees want quick ruling before election ads ramp up next week.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/gop-logo-1152x648-1787858821.jpg,https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices/,https://arstechnica.com/feed/,2026-08-27T20:06:10Z,5,Tech
+Buried in Meta’s $18B settlement is a legal pass on kids’ data,"Meta’s settlement with 29 states allows it to retain certain data from children under 13 to train and test age-detection models, highlighting a privacy tradeoff built into the deal.",,https://techcrunch.com/2026/08/27/buried-in-metas-18b-settlement-is-a-legal-pass-on-kids-data/,https://techcrunch.com/feed/,2026-08-27T20:04:26Z,5,Tech
+Report: Nvidia to acquire AI model repository Hugging Face for $13 billion,Nvidia is nabbing critical infrastructure for open models as interest grows.,https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-1152x648.jpg,https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/,https://arstechnica.com/feed/,2026-08-27T19:55:22Z,5,Tech
+YouTube now lets creators tag Amazon products and earn commissions from purchases,"The update turns product recommendations into a more direct revenue stream for creators, and for Amazon, the move puts its massive online marketplace inside one of the most popular video platforms. ",,https://techcrunch.com/2026/08/27/youtube-now-lets-creators-tag-amazon-products-and-earn-commissions-from-purchases/,https://techcrunch.com/feed/,2026-08-27T19:54:28Z,1,Tech
+"Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google","Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup&#39;s CTO, led a brief stint at OpenAI and is now at Google. ",,https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/,https://techcrunch.com/feed/,2026-08-27T19:52:52Z,8,Tech
+GTA VI looks just as great as we could hope for,"Netflix and Rockstar Games finally debuted their &#34;extended look&#34; at Grand Theft Auto VI. It showed that the new game looks to keep much of the spirit of GTA - exploration, driving, crimes, shooting, and cinematic story scenes. But everything just looks much better than previous entries, with impressive graphics, densely-packed rooms, and detailed environments. […]",,https://www.theverge.com/games/983941/grand-theft-auto-vi-gta-netflix-extended-look,https://www.theverge.com/rss/index.xml,2026-08-27T19:49:57Z,5,Tech
+Google’s AI note-taking app now allows you to interact with books,"Google&#39;s AI note-taking app, Gemini Notebook, can now pull information from the books you&#39;ve purchased. The new &#34;Expert Intelligence&#34; feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their […]",,https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books,https://www.theverge.com/rss/index.xml,2026-08-27T19:30:00Z,6,Tech
+AI industry says Trump plans to tax chips in the “single dumbest way imaginable”,Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2281424431-1024x648.jpg,https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/,https://arstechnica.com/feed/,2026-08-27T18:57:08Z,5,Tech
+OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face,"OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.
+
+The incident, the company said, took place during cybersecurity evaluations of several OpenAI models, and that it was mainly fueled by what it described as a &#34;highly capable",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpo4ImsmaHcawsJN9e4E5SzjUF-nbgOxCyybx3DIguSY_exMP1jhR2BZJ3yE2ZqGOE5c6_NvldW6id4Nm_NgcVrrRPALnw1fNbiisTiy8QFiIKriNiWRq6JMb5QcQTcDBaV_T3r6QYR9VC_FwtLg-G6lSYNM0F3n7q_HXI7aScGzMNB-OwLs6U9iqdk7Gs/s1600/openai.jpg,https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T18:36:19Z,13,Cybersecurity
+"Google tells Android app developers to cool it on memory use, or else","Google will start policing memory-hungry Android apps as a direct response to the RAM crisis. Spotted by TechCrunch, the company yesterday published a memo addressing the Play Store&#39;s role in enforcing new memory-usage restrictions. The post emphasizes the importance of meeting new memory usage limits for apps, in order &#34;to help developers navigate industry-wide hardware […]",,https://www.theverge.com/tech/985679/google-play-android-17-memory-limit,https://www.theverge.com/rss/index.xml,2026-08-27T18:33:11Z,2,Tech
+A Georgia Cop Used Flock to Track 2 Other Cops: His Ex and Her Friend,"After an affair with a fellow police officer ended, a Georgia cop used Flock to track her movements—and those of a man whose vehicle often showed up near hers, internal investigation records show.",,https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/,https://www.wired.com/feed/category/security/latest/rss,2026-08-27T18:12:17Z,0,Cybersecurity
+The Pulse: We need to talk about migrations with AI,"Asana migrated off testing framework Enzyme in two weeks: without AI, this work would surely have been kicked down the road. Airbnb and Uber share similar stories and AI seems excellent at migrations.","https://substackcdn.com/image/fetch/$s_!qxa1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F798d1525-1097-40a9-b68e-8ae5dbb6598f_970x666.png",https://blog.pragmaticengineer.com/the-pulse-we-need-to-talk-about-migrations-with-ai/,https://blog.pragmaticengineer.com/rss/,2026-08-27T18:04:54Z,5,Tech
+ATF declares ‘major incident’ as ransomware gang claims hack,The ATF is the latest federal government agency in recent years to notify Congress of a &#34;major incident&#34; involving its cybersecurity.,,https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/,https://techcrunch.com/feed/,2026-08-27T17:54:23Z,5,Tech
+"OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",Some of the world&#39;s largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats. ,,https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/,https://techcrunch.com/feed/,2026-08-27T17:43:24Z,8,Tech
+The iconic T-38 jets flown by astronauts just got a spiffy new look,&#34;Everyone wants to take that aircraft up now...&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/08/news-082626aa-lg-1152x648.jpg,https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look/,https://arstechnica.com/feed/,2026-08-27T17:26:25Z,5,Tech
+Google’s new Fitbit Air brings Pokémon Sleep to your wrist,Google teamed up with the Pokemon Company to introduce a special-edition Fitbit Air that works with the Pokémon Sleep app. ,,https://techcrunch.com/2026/08/27/googles-new-fitbit-air-brings-pokemon-sleep-to-your-wrist/,https://techcrunch.com/feed/,2026-08-27T17:05:45Z,6,Tech
+Fashion startup Atorie raises $9.5M to bring consumers luxury goods without the markup,Fashion startup Atorie announced Thursday a $9.5 million seed round.,,https://techcrunch.com/2026/08/27/fashion-startup-atorie-raises-9-5m-to-bring-consumers-luxury-goods-without-the-markup/,https://techcrunch.com/feed/,2026-08-27T17:00:00Z,8,Tech
+Fashion startup Atoire raises $9.5M to bring consumers luxury goods without the markup,Fashion startup Atoire announced Thursday a $9.5 million seed round.,,https://techcrunch.com/2026/08/27/fashion-startup-atoire-raises-9-5m-to-bring-consumers-luxury-goods-without-the-markup/,https://techcrunch.com/feed/,2026-08-27T17:00:00Z,8,Tech
+Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick,"Hoomanely has developed a smart bowl to measure and record dogs&#39; feeding data, then tells owners if behaviors change. ",,https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/,https://techcrunch.com/feed/,2026-08-27T16:53:50Z,5,Tech
+RFK Jr. spews anti-vaccine rubbish as newborn revealed to have died from measles,Kennedy and his allies have a history of downplaying vaccine-preventable deaths.,https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2262712176-1152x648.jpg,https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles/,https://arstechnica.com/feed/,2026-08-27T16:36:16Z,0,Tech
+"NSA wants access to ‘all’ AI models, top official says","The spy agency is taking a key role in the government’s new voluntary model-testing program, though its deputy director did not say which companies are participating.",,https://www.defenseone.com/technology/2026/08/nsa-wants-access-all-ai-models-top-official-says/415688/,https://www.defenseone.com/rss/all/,2026-08-27T16:33:00Z,0,Defense
+"PaperCut warns of NG, MF flaw exploited in zero-day attacks",PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...],,https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-27T16:31:53Z,19,Cybersecurity
+Speedo’s new smart goggle system can track all four swim strokes,"Speedo is launching a removable smart module for its Vanquisher goggles that can analyze a swimmer&#39;s performance across all four swim strokes: freestyle, backstroke, breaststroke, and butterfly. The new Speedo iQ system uses swim-specific sensors to analyze head movement in the water, time breaths, and track distance per stroke. Unlike other smart goggles, such as […]",,https://www.theverge.com/gadgets/985650/speedo-iq-vanquisher-goggles-module,https://www.theverge.com/rss/index.xml,2026-08-27T16:18:51Z,0,Tech
+"Jensen Huang says Nvidia achieved AGI, again — not that it matters","On Nvidia&#39;s earnings call Wednesday, CEO Jensen Huang casually announced the company had &#34;achieved AGI,&#34; one of the tech industry&#39;s ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as &#34;senseless.&#34; He&#39;s right. For the supposed finish line of the AI race, there is no consensus […]",,https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi,https://www.theverge.com/rss/index.xml,2026-08-27T16:15:52Z,5,Tech
+Manchester Airports Group says hackers stole travelers' data,"The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",,https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/,https://www.bleepingcomputer.com/feed/,2026-08-27T16:12:26Z,4,Cybersecurity
+"Google’s AI Mode can now track flight prices, help book hotels, and more","The updates indicate that Google is looking position to AI Mode as an AI travel agent of sorts, as it&#39;s moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process itself. ",,https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/,https://techcrunch.com/feed/,2026-08-27T16:00:00Z,6,Tech
+Sony finally has a cheaper OLED to compete with midrange Samsung and LG TVs,"After unexpectedly showing up on a wall-mounting compatibility chart on Sony&#39;s site back in June, the company has announced the Sony Bravia 6 OLED TV. The TV sits below its other OLED TVs - the Bravia 8 and Bravia 8 II - as well as its Bravia 9 II and Bravia 7 II RGB LED […]",,https://www.theverge.com/tech/985363/sony-releases-cheaper-bravia-6-oled-tv,https://www.theverge.com/rss/index.xml,2026-08-27T16:00:00Z,0,Tech
+Americans are cheering for vigilantes who take down Flock cameras,"Americans have declared war on Flock cameras. They&#39;ve protested them, damaged them, and destroyed them. This is only the beginning. The spontaneous and decentralized nature of the vigilante protests is also what makes them difficult to suppress. There isn&#39;t a uniform method of disruption; people have done everything from unplugging, smashing, stealing, and spray-painting the […]",,https://www.theverge.com/tech/985155/flock-camera-destruction-vigilantes,https://www.theverge.com/rss/index.xml,2026-08-27T15:49:47Z,5,Tech
+"Why did 1,000 Swiss citizens bury their underpants?",Study: Land use is the biggest factor in determining decomposition rates of organic cotton underpants.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/underpants1-1152x648.jpg,https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/,https://arstechnica.com/feed/,2026-08-27T15:39:42Z,0,Tech
+Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE,"Credit: Hacktron
+Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem.
+
+The Windows path traversal, tracked as CVE-2026-75604&amp;",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbQmCgjQOeGU5sXrRRnYNbfxDed_Evv1vYrDL4L4NOguQ5wIxE6glQW7yQvhR1Dzs4Gbddc2ktadXWc2VkaGHE4pvMmjaXHMRuepjwrzefXNHb6B3Shk51VRBQw0etS5WWsS9JuNN4q_Y8lDSFtzKNEgi2X-NvAllwzw5_03HwGdC7iNJc6METEjcUNc/s1600/nodejs.gif,https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T15:13:00Z,5,Cybersecurity
+"ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories","A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.
+
+The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior, exposed systems getting scanned, and exploit windows shrinking again. Different",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwWCb2shFhaav60Wjr2-8DoStCVaQrYqkE6EBZ8F5sREap-Khi19y-w9NVmFHyHosV6xVB0fTeN_DcSpGIyCZ621SnjqZozRVG70ceOey_D8djA5r5rpP9tFkRSESgs4kHZilTMoz2y8uqX-iTLR0JjjZkhypYjCCAEvQKzyU7xarQpt3sYvJc-fnWSWlb/s1600/threats.jpg,https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T15:12:16Z,7,Cybersecurity
+This former PG&E engineer is building a ‘Google Maps for the underground’,The startup just raised a $26 million Series A to grow its customer base and help reduce red tape for utility and construction work. ,,https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/,https://techcrunch.com/feed/,2026-08-27T15:00:00Z,8,Tech
+Google launches Pokémon Sleep special-edition Fitbit Air,"The latest special-edition of Google&#39;s Fitbit Air is inspired by the Pokémon Sleep game, with a &#34;Sleepy Blue&#34; band emblazoned with a snoozing Pikachu. It&#39;s not exactly Snorlax blue, but matches the classic blue and gold of a Pokémon card pretty closely. The special-edition is available to preorder now for $129 and starts shipping September […]",,https://www.theverge.com/gadgets/985584/google-fitbit-air-pokemon-sleep,https://www.theverge.com/rss/index.xml,2026-08-27T14:58:33Z,5,Tech
+"Hugging Face is selling a cute $399 open-source duck robot, Microduck","Hugging Face is taking orders for the Microduck, a $399 tiny open-source duck robot that developers can train at home out of the box. ",,https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/,https://techcrunch.com/feed/,2026-08-27T14:56:52Z,5,Tech
+"In a swipe at Tesla, Waymo says ‘cameras… aren’t enough’","As Tesla gears up for the official launch of its steering wheel and pedal-less Cybercabs, Waymo is issuing a stark warning about Elon Musk&#39;s approach autonomous driving. Srikanth Thirumalai, Waymo&#39;s VP of Onboard Software, doesn&#39;t specifically call out Musk or Tesla in a blog post, published Wednesday, entitled &#34;10 AI Lessons from Driving 200+ Million […]",,https://www.theverge.com/transportation/985503/waymo-tesla-lidar-camera-robotaxi-cybercab-musk,https://www.theverge.com/rss/index.xml,2026-08-27T14:55:20Z,7,Tech
+Panic refunds illegal tariffs customers paid on its Playdate gaming handheld,&#34;It just felt like the right thing to do&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/08/playdate-1152x648.jpeg,https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld/,https://arstechnica.com/feed/,2026-08-27T14:53:17Z,5,Tech
+"Hold up, there’s a new Twitter in the town","You read that right. There is a new social network called “Twitter.now” on the block, and it’s being operated by a startup called Operation Bluebird, whose founding team includes former Twitter trademark counsel Stephen Coates. As ArsTechnica reported, X sued the company last year and asked a Delaware judge to issue an injunction to stop […]",,https://techcrunch.com/2026/08/27/hold-up-theres-a-new-twitter-in-the-town/,https://techcrunch.com/feed/,2026-08-27T14:40:22Z,3,Tech
+"Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale","Test drivers for Waymo and Zoox sustained more than two dozen injuries in 2024 and 2025 from hard braking or other sudden movements made by the autonomous vehicles, according to a TechCrunch review of data submitted to OSHA.",,https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/,https://techcrunch.com/feed/,2026-08-27T14:36:37Z,6,Tech
+"Australian police arrest two over TeamPCP hacks targeting Mercor, OpenAI, and others",The arrests come after a wave of cyberattacks earlier this year targeting tech companies that rely on high-profile and widely used open source software.,,https://techcrunch.com/2026/08/27/australian-police-arrest-two-over-teampcp-hacks-targeting-mercor-openai-and-others/,https://techcrunch.com/feed/,2026-08-27T14:27:52Z,6,Tech
+AI’s memory crunch is coming for Android apps,Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.,,https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/,https://techcrunch.com/feed/,2026-08-27T14:27:04Z,7,Tech
+"If Meta&#8217;s going down, it’s taking TikTok and YouTube with it","Meta might be on the hook for $17.1 billion and a host of app changes under a new kids safety settlement, but it&#39;s already spinning the deal to its advantage. After years of being the national punching bag for social media harms, Meta has reached a settlement with 47 US states and several districts and […]",,https://www.theverge.com/policy/985556/meta-settlement-youtube-tiktok-snap,https://www.theverge.com/rss/index.xml,2026-08-27T14:24:29Z,1,Tech
+"Traders brought Central American cacao to Georgia 1,000 years ago",&#34;We built this city on good cacao&#34; does have a nice ring to it.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/etowah_04_LRG-XL-1024x648.jpg,https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago/,https://arstechnica.com/feed/,2026-08-27T14:22:42Z,0,Tech
+Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear,"The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns.
+The post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek.
+",,https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/,https://www.securityweek.com/feed/,2026-08-27T14:17:26Z,1,Cybersecurity
+Here’s all the times AI has gone rogue and hacked other companies,"A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",,https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/,https://techcrunch.com/feed/,2026-08-27T14:01:42Z,5,Tech
+"Claude, Codex, and Hermes installed unowned code inside corporate networks",227 install commands were found in corporate docs pointing at code nobody owns.,https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg,https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/,https://arstechnica.com/feed/,2026-08-27T14:00:13Z,0,Tech
+How Threat Research and MDR Help SMBs Build a Defensive Edge,"Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]",,https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/,https://www.bleepingcomputer.com/feed/,2026-08-27T14:00:10Z,7,Cybersecurity
+Android 17 adds ECH support to make web browsing harder to track,"Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users&#39; home networks. [...]",,https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/,https://www.bleepingcomputer.com/feed/,2026-08-27T14:00:00Z,2,Cybersecurity
+OpenAI&#8217;s executive exodus has one big winner,"Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face, Brockman has amassed […]",,https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus,https://www.theverge.com/rss/index.xml,2026-08-27T14:00:00Z,5,Tech
+How much of a problem is AI’s water use?,"AI’s water footprint is growing, but location and cooling technology make a difference.",https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-1152x648.jpg,https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/,https://arstechnica.com/feed/,2026-08-27T13:57:08Z,5,Tech
+Hugging Face’s new robot is an adorable rollerskating duck,"Hugging Face&#39;s Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It&#39;s available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot &#34;before Christmas 2026.&#34; Video demos of the […]",,https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot,https://www.theverge.com/rss/index.xml,2026-08-27T13:44:00Z,8,Tech
+Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers,"Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers.
+
+The security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindguard. The latest version of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUdyQnHdjoEXFnc-5nB-6oglAbvpOYwuWqfjYkgeKH6HaqUjosKOHhmEQ_7StMkMBv53gz27Ilg-15yRaQ-hxoYi0ASuRMOCuPTHa8gP6a6PzYSewTWsDkKAx8dsMByZXDYDlRE1wRYoCvE7NuYqXdCpZ8_Y4E4tAUy0SBFl0S_XxLvpnjFRbqat0EwggW/s1600/kiro-amazon.jpg,https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T13:39:56Z,6,Cybersecurity
+Australia arrests alleged TeamPCP hackers behind supply-chain attacks,"Australian authorities have arrested and charged two young men accused of belonging to TeamPCP, a hacking group linked to a string of far-reaching developer supply chain attacks. [...]",,https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-27T13:31:13Z,3,Cybersecurity
+Plaud is launching AI earbuds,"Plaud has introduced a new AI wearable that&#39;s designed to record, transcribe, and summarize your conversations, only this time it looks like earbuds instead of a pin. The Plaud One Explorer Edition can be worn like traditional earbuds or used through its standalone charging case, and the case includes built-in 4G to upload and process […]",,https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability,https://www.theverge.com/rss/index.xml,2026-08-27T13:11:23Z,5,Tech
+Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents,Plaud&#39;s new &#39;agentic&#39; earbuds are priced at $249.,,https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/,https://techcrunch.com/feed/,2026-08-27T13:00:00Z,5,Tech
+Adobe is adding more AI to Photoshop,"Adobe is rolling out an AI-heavy update for Photoshop that includes a new &#34;optional&#34; interface dedicated to its AI tools. Launching in beta, the &#34;AI Assisted Editor&#34; view will show all of Photoshop&#39;s AI features in a single toolbar, including its prompt-based image editor, background remover, an AI image extender, and more. There are also […]",,https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup,https://www.theverge.com/rss/index.xml,2026-08-27T13:00:00Z,6,Tech
+How OpenAI let a mob of LLM agents game a test and ransack Hugging Face,"Without authorization, 1,200 OpenAI agents conspired among themselves to game a test. ",https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1004669768-1152x648-1784927041.jpg,https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/,https://arstechnica.com/feed/,2026-08-27T12:58:59Z,5,Tech
+Australia Arrests 2 Alleged TeamPCP Hackers,"Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison.
+The post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek.
+",,https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/,https://www.securityweek.com/feed/,2026-08-27T12:48:03Z,1,Cybersecurity
+"Microsoft rolls out fix for Windows 11 crashes, gaming issues",Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/,https://www.bleepingcomputer.com/feed/,2026-08-27T12:16:32Z,0,Cybersecurity
+Webinar: How Google Workspace breaches happen and what to do next,"Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hours, and the security controls that can make the greatest difference. [...]",,https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/,https://www.bleepingcomputer.com/feed/,2026-08-27T12:16:24Z,7,Cybersecurity
+Samsung’s Galaxy S26 FE pairs last year’s hardware with last month’s software,"The Fan Edition phones are rarely Samsung&#39;s most exciting launches of the year, but the new Galaxy S26 FE feels especially familiar. Hardware-wise, little has changed since the S25 FE launched 12 months ago, and the upgrades have mostly come in the form of software tricks which themselves were already seen on this year&#39;s previous […]",,https://www.theverge.com/report/985187/samsung-galaxy-s26-fe-hands-on-preview-specs-features-design,https://www.theverge.com/rss/index.xml,2026-08-27T12:00:00Z,7,Tech
+Sleep score court is in session,"Your honor, We all know that the woman who sits before you is tired. Just look at the circles under her eyes. The novelty Pride and Prejudice T-shirt and Muji sweatpants that pass for pajamas. The unkempt, banana clip hairstyle that says &#34;I really did wake up like this.&#34; But she&#39;s doing her best. And […]",,https://www.theverge.com/gadgets/984728/sleep-score-court-is-in-session-pixel-watch,https://www.theverge.com/rss/index.xml,2026-08-27T12:00:00Z,5,Tech
+OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack,"New training environments will teach AI models to distrust instructions arriving from other agents outside sanctioned channels.
+The post OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/,https://www.securityweek.com/feed/,2026-08-27T11:58:01Z,1,Cybersecurity
+Learn How to Build Security Operations Ready for AI-Powered Attacks,"Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.
+
+Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.
+
+The challenge is no longer just finding another vulnerability or",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s1600/wiz-webinar.jpg,https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T11:56:30Z,13,Cybersecurity
+Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks,"The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and Checkmarx KICS and the AI gateway LiteLLM.
+
+Louis Michael Gaebler, 23, and Ruben Ian Thomson, 21, appeared in Perth Magistrates Court on August 27,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Ze_JyLo4PQxJMbwu8Mn_aCoLWiD2dgbGmzOPcYcdrN8wunKZu2SZll2fiHcAOFoA0h9N5TYPOY_IvrPpGqTpnXdyd5bXHRtyHqb3t3junXDMotOAD43Y0jzA9wkCSjoOIo1knFjtTVRAeOSjpHqLzfMGceCcHYGb6cE1HD-Y5mtY9hyphenhyphenHT9PeUk3TV68/s1600/TeamPCP-arrest.gif,https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T11:56:26Z,4,Cybersecurity
+"Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security","The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities.
+The post Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security appeared first on SecurityWeek.
+",,https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/,https://www.securityweek.com/feed/,2026-08-27T11:53:10Z,1,Cybersecurity
 AI can be made to read an email much differently than you do,"
 		
 					  
@@ -76,6 +585,9 @@ The model used to drive the summarizer in this investigation was Claude-haiku-4-
 "Of course Samsung made a 1,100Hz gaming monitor","Samsung announced its upcoming lineup of Odyssey gaming monitors today at Gamescom, and says that several will feature &#34;world-first innovations&#34; across display speeds and design. This includes the 27-inch Odyssey G6 it initially unveiled in December, which now features a 1,100Hz refresh rate, alongside new OLED Odyssey G9, G8, and G7 updates for 2027. The […]",,https://www.theverge.com/tech/985476/samsung-odyssey-gaming-monitors-2027-lineup-launch,https://www.theverge.com/rss/index.xml,2026-08-27T11:38:10Z,6,Tech
 OpenAI to start showing ads on ChatGPT’s free and Go tiers in India,"OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers. ",,https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/,https://techcrunch.com/feed/,2026-08-27T11:35:59Z,5,Tech
 An EV that sounds like a 6.75 L V8: A ride in the Bentley Torcal,The electric Torcal will be Bentley&#39;s entry model and cost less than a Bentayga.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Torcal-2-1152x648.jpg,https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/,https://arstechnica.com/feed/,2026-08-27T11:30:09Z,0,Tech
+What the Data Says About AI in Security Operations in 2026,"AI is officially mainstream in security operations. According to Prophet Security&#39;s State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% are currently testing it out, and only 4% have no plans to adopt it.
+
+For the teams already using AI, what is actually changing? Here are the ten biggest",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYbYBAkf_-8-lUShFafJ32AYAo_yzwmPmpMcUgd5i9SUaCA8V0t-66WEu2B5U8KLbJ1ie3T-IudVRd73Arprc2iNUqTweYzHN_POtzXr-nJICrNkK_R5dDKr3k5sklozyuO11Y9Av55Git8fvydO3HAAcwgT6sk2gvXzmH5qz-qTMuzQfAmu7EedWV9dE/s1600/pro.jpg,https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html,https://feeds.feedburner.com/TheHackersNews,2026-08-27T11:30:00Z,3,Cybersecurity
 "CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite","SecurityWeek talks to Chris Wheeler, CISO at Resilience, about his journey from the Navy to becoming a cybersecurity leader.
 The post CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite appeared first on SecurityWeek.
 ",,https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/,https://www.securityweek.com/feed/,2026-08-27T11:15:00Z,2,Cybersecurity
@@ -334,6 +846,7 @@ FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organ
 
 The activity has been attributed to a Chinese state-sponsored group known as QTFY, employed by Nanjing Xinjiuwei Network Technology Company (南京鑫玖维网络科技有限公司).&amp;",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjXW8RS8eKAVsCBovWfkRO7QMTfrgvWcTQtLccJCxq6wXC4OhegU26JXGqEKA0zS951ogEjKmNugfT1jDKlC8Kff6m-LZm-AFQe8Y57c1H_d44_bJPayRw-HpXwbb_MmN3pds3BdBUziNNBlAA_nHqX-BTb6nQLQWrKgJYnpqikUzENaV68VpD9LHsQlX/s1600/chinese.jpg,https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html,https://feeds.feedburner.com/TheHackersNews,2026-08-26T16:42:03Z,4,Cybersecurity
 Meta agrees to $18 billion settlement over teen social media harms,Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compulsive use by children and teenagers. [...],,https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/,https://www.bleepingcomputer.com/feed/,2026-08-26T16:41:05Z,0,Cybersecurity
+FBI disables China-linked hacking tools used against US agencies,"A hacking group used the tools to target networks belonging to NASA, the Federal Reserve, the National Institutes of Health, the U.S. Senate and the departments of Energy, Justice and Health and Human Services.",,https://www.defenseone.com/threats/2026/08/fbi-disables-china-linked-hacking-tools-used-against-us-agencies/415689/,https://www.defenseone.com/rss/all/,2026-08-26T16:28:00Z,0,Defense
 Apple announces September iPhone launch event,"Apple&#39;s next launch event will take place on September 9th at 1PM ET. Invites to the event, which has a &#34;Surprise and shine&#34; tagline, were sent out on Wednesday. This event could be a big one, as Apple may finally announce the long-rumored foldable iPhone. A photo of a dummy unit indicates the foldable may […]",,https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date,https://www.theverge.com/rss/index.xml,2026-08-26T16:03:49Z,1,Tech
 Meta agrees to sweeping changes to restrict kids’ access to its apps as part of settlement with states,One of the most notable changes is that Meta plans to implement a daily two-hour time limit for teens that can only be disabled with parental permission. ,,https://techcrunch.com/2026/08/26/meta-agrees-to-sweeping-changes-to-restrict-kids-access-to-its-apps-as-part-of-settlement-with-states/,https://techcrunch.com/feed/,2026-08-26T16:03:14Z,6,Tech
 "What’s driving Sweden’s startup boom, from Lovable to Legora","Vibe-coding darling Lovable just raised $400 million at a $13.3 billion valuation, roughly doubling its worth in eight months. But Lovable isn’t the only Stockholm startup putting up huge numbers lately — legal AI company Legora and health tech startup Neko Health are right there with it.  On this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis is joined by Sophia Bendz, a partner at Cherry Ventures and longtime fixture of Europe’s startup […]",,https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/,https://techcrunch.com/feed/,2026-08-26T16:00:00Z,8,Tech
