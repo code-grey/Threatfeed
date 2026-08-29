@@ -1,4 +1,283 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Even the local pop-punk band is dissing Flock.,"Some banter from the tiny show I&#39;m at in rural upstate New York tonight (lightly condensed): &#34;Stick around for the other bands, tip your bartender, destroy Flock cameras.&#34; Read the full story at The Verge.",,https://www.theverge.com/policy/986385/even-the-local-pop-punk-band-is-dissing-flock,https://www.theverge.com/rss/index.xml,2026-08-28T23:31:32Z,0,Tech
+Chinese automakers are following Tesla’s bet that robots are the next big profit machine,Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they&#39;re all Chinese automakers. ,,https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/,https://techcrunch.com/feed/,2026-08-28T23:24:27Z,0,Tech
+ServiceNow patches three maximum severity flaws that could put enterprise data at risk,"
+		
+					  
+						
+
+
+
+
+Code injection and SQL injection attacks have been around for decades, and they are still tried-and-true ways for attackers to compromise systems.
+
+
+
+ServiceNow’s latest trio of maximum severity flaws shows that even AI-era platforms remain vulnerable to these techniques: The software provider has released patches for three bugs in its ServiceNow AI Platform that could be exploited via low-complexity code injection, SQL injection, and privilege escalation attacks, with no user interaction required.
+
+
+
+Although its cloud-based instances have already been updated, ServiceNow advises self-hosted customers to upgrade or patch immediately.
+
+
+
+“You never want to see a 10/10 critical,” said David Shipley of Beauceron Security. “And you really don’t want to see three drop in row unless it’s an Olympic judging panel.”
+
+
+
+Gives attackers the ability to access, modify and create data
+
+
+
+The ServiceNow AI Platform, formerly the Now Platform, combines AI and autonomous agents, data, and security and governance controls across enterprise IT, employee, and customer relationship management (CRM) workflows. 
+
+
+
+That makes it a juicy target for attackers.
+
+
+
+The three critical vulnerabilities now being patched are tracked as CVE-2026-18885, CVE-2026-18886, and CVE-2026-74820. CVE-2026-18885 would allow unauthenticated users to execute arbitrary code and access and/or modify instance data. CVE-2026-18886 could give malicious actors the ability to create or change instance data and escalate privileges, and the CVE-2026-74820 vulnerability could allow attackers to execute arbitrary SQL statements against an instance’s underlying database to alter data.
+
+
+
+Along with these, ServiceNow also patched the high-severity CVE-2026-6876, a sandbox escape vulnerability impacting ServiceNow AI. This vulnerability could allow attackers with basic privileges to perform remote code execution (RCE).
+
+
+
+ServiceNow said in its advisory that it was “not currently aware of exploitation” of any of the flaws. The company has released patches for all four, for impacted Xanadu, Yokohama, and Zurich versions of the platform.
+
+
+
+Recently, ServiceNow has also issued patches for several other critical vulnerabilities, including June’s API issue and last month’s  CVE-2026-6875, a pre-authentication sandbox escape in its AI Platform. Like the vulnerabilities disclosed this week, it could allow unauthenticated users to execute code. And earlier this month, independent research also identified attacks exposing company data.
+
+
+
+Concerning severity and accessibility
+
+
+
+What makes the current vulnerabilities particularly serious is the combination of severity and accessibility, noted Ensar Seker, CISO at SOCRadar; exploitation can potentially occur without authentication.
+
+
+
+“That means an attacker may not need to steal credentials or compromise an employee before attempting to exploit the platform,” Seker said, noting that CVE-2026-18885 is especially concerning because it could support arbitrary code execution through the GraphQL Composite Data API. This means that, in a successful attack, “code injection can effectively turn a trusted enterprise application into an attacker-controlled execution environment,” he pointed out.
+
+
+
+CVE-2026-74820 presents a different, but equally serious risk, he said. With SQL injection, an attacker can interact with an underlying database in unintended ways, potentially reading, manipulating, or destroying data.
+
+
+
+In general, code injection and SQL injection attacks are dangerous because they break fundamental security boundaries between data supplied by a user and instructions executed by a system, Seker explained. Once attacker-controlled input is interpreted as code or a database command, application-level access controls may no longer be adequate.
+
+
+
+Then, he noted, there’s the role ServiceNow plays inside enterprises that use it across their operations, assets, approvals, and integrations. Successful attackers can not only gain access to sensitive operational data, but move laterally and abuse trusted customer and partner workflows and integrations.
+
+
+
+“Compromising that type of platform can therefore be much more significant than compromising a standalone application,” he said. Attackers targeting platforms with extensive integrations may be more interested in the credentials, tokens, and systems connected to them, rather than just the platform itself.
+
+
+
+Patch, but also verify external integrations
+
+
+
+The immediate priority for enterprises is to determine which ServiceNow instances and versions they operate, and confirm they have been patched, Seker advised. Security teams should also inventory ServiceNow integrations, APIs, and highly privileged service accounts.
+
+
+
+Further, he said, teams should review historical telemetry for indicators of attempted exploitation, like unusual requests involving affected APIs and upload functionality. They should also look for unexpected administrative or privilege changes, unexplained creation or modification of records, anomalous service-account behavior, and unusual access to sensitive ServiceNow data. If suspicious activity is flagged, look for downstream systems connected to ServiceNow rather than treating it as an isolated application.
+
+
+
+Overall, Seker noted, AI changes the economics of vulnerability exploitation more than it changes the underlying vulnerability. Attackers are using AI to analyze disclosures, generate and modify exploit attempts, enumerate exposed services, adapt payloads to different environments, and automate post-exploitation activity.
+
+
+
+Work to reduce time to remediation
+
+
+
+“The period between public disclosure and widespread exploitation can therefore become increasingly compressed,” Seker said. This means organizations should work to reduce time between disclosure, exposure assessment, and remediation.
+
+
+
+This requires strong API authentication and authorization, strict input validation, parameterized database queries, least-privilege access, integration segmentation, application and API-layer monitoring, and controls that detect anomalous behavior, he emphasized. Internet-facing interfaces should also be minimized.
+
+
+
+But injection vulnerabilities are not new, he observed. Established controls like secure coding and static and dynamic API and adversarial testing prior to production can help eliminate weaknesses.
+
+
+
+Also assume that AI will continue to automate threat actors’ vulnerability discovery and exploitation, he added. By that token, defenders should implement similar automation around asset discovery, exposure validation, and remediation.
+
+
+
+In addition, security teams should not evaluate SaaS and enterprise platforms solely on their traditional vulnerability-management processes. Risk should be assessed on their blast radius: The data they contain, the systems, credentials, and APIs they access, and what an attacker could do, Seker said.
+
+
+
+Accessibility, no interaction required
+
+
+
+Beauceron’s Shipley pointed out that, while these vulnerability disclosures are critical for builders, they present a conundrum: Attackers now know about them, too. Within 15 minutes of ServiceNow’s publication, if not sooner, they were likely exploiting the flaws.
+
+
+
+While there was no previous evidence of exploit attempts, “you can take it to the bank that these are getting worked now,” he said. Unauthenticated access and network accessibility can create a “sweet exploit chain,” and low complexity exploits with no interaction required “make security professionals’ blood run cold.”
+
+
+
+“SQL injection is part of the OG group of web vulnerabilities that just keep on delivering,” he pointed out. Billions of lines of code still contain basic failings like these, revealing a lack of incentive on the part of software makers to ship secure code. “Until we change that,” he said, “the so-called Vulnpocalypse is here to stay.”
+",https://www.csoonline.com/wp-content/uploads/2026/08/4215430-0-01063400-1787957985-servicenow_shutterstock_editorial_2356641345.jpg?quality=50&strip=all,https://www.csoonline.com/article/4215430/servicenow-patches-three-maximum-severity-flaws-that-could-put-enterprise-data-at-risk.html,https://www.csoonline.com/feed/,2026-08-28T22:59:31Z,19,Cybersecurity
+Google further buries search results under AI mode,"Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google&#39;s results page; instead of seeing part of an AI Overview with […]",,https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand,https://www.theverge.com/rss/index.xml,2026-08-28T22:48:11Z,5,Tech
+Is the best way to watch a movie on a pair of sunglasses?,Are XREAL&#39;s smart glasses the way of the future for home entertainment? ,,https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/,https://techcrunch.com/feed/,2026-08-28T22:42:48Z,5,Tech
+McKesson discloses breach after ShinyHunters claims patient data theft,"Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]",,https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/,https://www.bleepingcomputer.com/feed/,2026-08-28T22:40:17Z,6,Cybersecurity
+"Kalshi can't evade Nevada gambling laws by calling bets ""swaps,"" court rules","Judges: &#34;Placing sports bets, even when called by another name, is still gambling.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg,https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/,https://arstechnica.com/feed/,2026-08-28T22:14:52Z,0,Tech
+Xbox CEO calls Project Helix a ‘family of devices’,"According to Xbox CEO Asha Sharma, Project Helix, which she announced in March as a codename for Microsoft&#39;s &#34;next generation console&#34; - phrasing that seemingly implied a singular device - will actually be a &#34;family&#34; of devices.&#34; &#34;We&#39;ve been hard at work on a great next generation and a great family of devices for Helix, […]",,https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices,https://www.theverge.com/rss/index.xml,2026-08-28T22:03:13Z,0,Tech
+Cities terminate Flock contracts at record pace in August,Cancellations have accelerated.,https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg,https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/,https://arstechnica.com/feed/,2026-08-28T21:33:54Z,0,Tech
+Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network,"Berlin&#39;s state government has confirmed that it is the target of an extortion attempt following the August compromise of the city&#39;s state administrative network, and said it will not meet the extortionists&#39; demands.
+
+The same statement disclosed that forensic work had found further data outflows in the portfolio of the Senate Department for Mobility, Transport, Climate Protection and Environment",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRLS8X8abAbJ9p1f1jp9VIUeKfRa4l4gAIgmCWsw1eXZuJ7SY201P6w6V8NYVf1CHpaN_pyAuLg-6h-e9RYFBlBFsl3k5egiOnoj8ZiXScxu8El1jZExmlyNYfunp0Z4j5F0PYSg4Ltu0yldY-wKmI2TC5UU-7mrasEsZ_SyEso7dGFvLIpcA8hdHqVdw/s1600/berlin.jpg,https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T21:30:52Z,1,Cybersecurity
+"""RFK Jr. has lied to the Senate"": Lawmakers call for criminal probe, ouster",RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.,https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203339270-1152x648.jpg,https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/,https://arstechnica.com/feed/,2026-08-28T21:17:38Z,0,Tech
+Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable,"Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.
+
+The vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was published without a CVE identifier, a weakness classification, or a CVSS score.
+
+Affected versions are &lt; 0.6.2 and &gt;=",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHWwlkIrD4ix8P1j7FGJW7pl0e6W600w61mPcVBRsL7BqK_8SNTLSSk-4498ZuyThNbHG8FmtGoMlR9B9ujcXUlHnRb9NTpBhImouOWrQK2WaxVVd5rjjL62kXl1fW9U5YyDN1Uc-M6OriHc7nQNzCbJAC3kRIsRgAnY5q2SSTL2TjLzix05DAoSa7jQ/s1600/cosmos-evm-hack.jpg,https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T20:38:47Z,6,Cybersecurity
+Here’s what Trump’s new ‘Space Academy’ could mean for the US military,A new source for commissioned officers—but is it needed?,,https://www.defenseone.com/policy/2026/08/heres-what-trumps-new-space-academy-could-mean-us-military/415712/,https://www.defenseone.com/rss/all/,2026-08-28T20:32:46Z,0,Defense
+Neocloud Lambda secures $1B in debt to buy more chips,"Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It&#39;s the latest in a string of loans, underscoring the high cost of the AI boom. ",,https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/,https://techcrunch.com/feed/,2026-08-28T20:24:11Z,8,Tech
+Can AI help the Marines simplify sustainment in the Pacific?,The service is testing a “logistics decision engine” at the theater level.,,https://www.defenseone.com/technology/2026/08/can-ai-help-marines-simplify-sustainment-pacific/415709/,https://www.defenseone.com/rss/all/,2026-08-28T19:50:49Z,0,Defense
+An Anthropic researcher just gave us a peek at self-improving AI,"Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",,https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/,https://techcrunch.com/feed/,2026-08-28T19:30:38Z,5,Tech
+PaperCut releases second emergency patch for exploited flaws,PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...],,https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/,https://www.bleepingcomputer.com/feed/,2026-08-28T19:08:26Z,5,Cybersecurity
+"A Pacific conflict may not look like conventional war, SOCPAC commander says","At an irregular-warfare forum in Hawaii, commanders offer warnings and advice.",,https://www.defenseone.com/threats/2026/08/pacific-conflict-may-not-look-conventional-war-socpac-commander-says/415704/,https://www.defenseone.com/rss/all/,2026-08-28T19:01:51Z,0,Defense
+Brave’s browser one-ups Chrome with its new support for email aliases,Brave&#39;s browser begins testing an email alias feature that lets you keep your main email info private. ,,https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/,https://techcrunch.com/feed/,2026-08-28T18:50:00Z,5,Tech
+GPUThor hardware attack can root Nvidia GPU systems,"
+		
+					  
+						
+
+
+
+
+Hardware security researchers from University of Toronto have developed a new memory bit flipping technique that significantly improves on previously known attacks against GPU memory. The new method can defeat the error-correcting codes (ECC) defense used on enterprise Nvidia GPUs and can lead to root access on the underlying system.
+
+
+
+Dubbed GPUThor, the technique falls in a category of attacks known as Rowhammer that exploits the cell density of modern random access memory (RAM) chips. The original Rowhammer attack was demonstrated against DDR3 and DDR4 chips back in 2015 and relies on an older observation that tightly packed rows of memory cells can sometimes leak electrical charges to adjacent rows, flipping the stored bit values in those cells from 0 to 1 or the other way around.
+
+
+
+These bit flips can be triggered intentionally using rapid and repeated read operations on the same memory row — a technique dubbed row hammering — and if done in a controlled manner, they can have security implications, from privilege escalation to AI model manipulation.
+
+
+
+Over the years researchers have developed many variations of Rowhammer attacks against different types of memory, from DDR3 and DDR4 to DDR5, which was initially thought to be safe, and to the GDDR chips used in graphics cards.
+
+
+
+“GPUThor is the first Rowhammer attack on Nvidia GPUs to break through error-correcting codes (ECC), Nvidia’s defense against this threat,” the U of Toronto team of researchers say on a website dedicated to their new research. “Our previous work, GPUHammer (2025), first demonstrated Rowhammer bit flips in the GDDR6 memory of Nvidia GPUs, and follow-up work, GPUBreach (2026) showed the privilege escalation all the way to root shell on the CPU. At that time, Nvidia recommended enabling ECC as a mitigation (Nvidia Security Notice, 2025). All prior GPU attacks are defeated once ECC is enabled.”
+
+
+
+How is GPUThor different?
+
+
+
+The previous GPUHammer and GPUBreach attacks performed the hammering of memory rows uniformly, which meant that the Target Row Refresh (TRR) mechanism present in DDR5 and later RAM generations can detect the single-bit flips, and then the ECC mechanism, if enabled, can correct them.
+
+
+
+The GPUThor technique enables the first practical non-uniform row hammering on GPU DRAM and as a consequence produces double- and even triple-bit errors, where multiple bits are flipped at the same time, a condition the built-in ECC mechanism was not designed to handle. GPUThor hammers its target 6.6 times harder than prior GPU attacks and produces 500 to 23,500 times more bit flips.
+
+
+
+This also reduces the time for finding an exploitable bit flip, given that not all value flips are in memory areas mapped by the OS for sensitive operations. GPUHammer needs 21.9 hours on an Nvidia RTX A6000 card where ECC is not enabled, compared to just 1.1 minute with GPUThor on the same card.
+
+
+
+“We confirmed bit flips on four different Nvidia Ampere GPUs with GDDR6 memory: the RTX A4000, A4500, A5000, and A6000,” the researchers said. “These are common in workstations and cloud instances. The attack technique is general, so other GPUs using similar memory and defenses may also be at risk.”
+
+
+
+However, the researchers also tested Nvidia server GPUs such as A100 and H100 or newer GPUs on the Blackwell architecture like RTX 5090 or RTX 6000, and their attack did not produce bit flips. This is because these cards use different or newer type of memory such as HBM, GDDR6X, and GDDR7, which have different defenses. The research team plans to investigate these chips in the future so they don’t discount the possibility that alternative attack patterns could exist for them.
+
+
+
+Why does this matter?
+
+
+
+In the age of AI models, enterprise and server-class GPUs are valuable because they are needed for both training or fine-tuning AI models and for running them, known as inference. Even without AI, these GPUs are usually installed in datacenters and run sensitive workloads often from multiple virtual machines at the same time.
+
+
+
+In their tests, the researchers managed to crash GPUs so often that within one day the cards flagged themselves as defective and due for replacement using their internal crash detection mechanisms. Aside from triggering denial-of-service conditions that kill all the workloads running on the card, the researchers managed to corrupt the GPU’s memory page tables in a way that allowed an unprivileged program to escalate its privileges to root.
+
+
+
+“When a GPU is time-shared between users (common in cloud AI services), an attacker running on the same card can flip bits in a victim’s data and crash the shared GPU,” the researchers said. “Even if the GPU is not time shared, any untrusted code that runs on the GPUs (e.g., ML models requiring packages downloaded from the internet that may have been compromised) can escalate to root-level privileges, and serve as an entry-point for malware into the system.”
+
+
+
+Mitigation
+
+
+
+Because this attack exploits a design flaw, a complete fix requires better hardware defenses built into future generations of GPUs, but until then users should be careful about running untrusted code in their GPUs and should monitor Nvidia’s error-correction counters, because a spike in these counters could be an indication that an attack is in progress.
+
+
+
+GPUThor was reported to Nvidia in April and the company issued a new security advisory about the attack this week. The advisory contains additional recommendations such as enabling host IOMMU/DMA isolation where supported and using the nvidia-smi tool or supported out-of-band management interfaces to monitor the ECC telemetry of the cards.
+",https://www.csoonline.com/wp-content/uploads/2026/08/4215392-0-42006000-1787942802-moritz-mentges-XZuqMUiSdgc-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4215392/gputhor-hardware-attack-can-root-nvidia-gpu-systems.html,https://www.csoonline.com/feed/,2026-08-28T18:46:28Z,21,Cybersecurity
+Microsoft Teams Has Become a Haven for Scammers in China,"Fraudsters are exploiting enterprise chat apps like Teams and Webex to trick Chinese victims into transferring large sums of money, fueling a wave of complaints.",,https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers/,https://www.wired.com/feed/category/security/latest/rss,2026-08-28T18:23:17Z,3,Cybersecurity
+Open-weight AI companies are the Valley’s hottest acquisition targets,There&#39;s a lot of capital pouring into the business of giving models away.,,https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/,https://techcrunch.com/feed/,2026-08-28T18:19:40Z,8,Tech
+GiveWP WordPress donation plugin flaw lets hackers execute server commands,A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...],,https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/,https://www.bleepingcomputer.com/feed/,2026-08-28T18:18:55Z,6,Cybersecurity
+"Trump blacklisting of ""woke"" Anthropic deemed illegal by federal judge",Anthropic refused to support lethal autonomous warfare and mass surveillance.,https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg,https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/,https://arstechnica.com/feed/,2026-08-28T18:07:55Z,0,Tech
+"Trump calls for creation of a ""space academy"" to train future NASA leaders",&#34;It&#39;s called the US Space Academy. That&#39;s a big deal.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2291885998-1152x648.jpg,https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders/,https://arstechnica.com/feed/,2026-08-28T17:36:30Z,5,Tech
+Apple One and Apple TV subscription prices increase by up to 20 percent,Annual subscriptions see the biggest bump. ,https://cdn.arstechnica.net/wp-content/uploads/2026/04/silo-1152x648.jpg,https://arstechnica.com/gadgets/2026/08/apple-one-and-apple-tv-subscription-prices-increase-by-up-to-20-percent/,https://arstechnica.com/feed/,2026-08-28T17:23:53Z,1,Tech
+Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication,"Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.
+
+&#34;This vulnerability gives an unauthenticated attacker remote control over PaperCut&#39;s trusted configuration, which could be used to execute arbitrary Java code inside the application&#39;s",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s1600/1000103914.jpg,https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T17:12:15Z,11,Cybersecurity
+How Sweden built one of Europe’s hottest startup ecosystems,"Sophia Bendz, founder of Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem. ",,https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/,https://techcrunch.com/feed/,2026-08-28T17:09:05Z,3,Tech
+Save hundreds on a TCL mini-LED TV with quantum dots and high refresh rate,"Amazon and Best Buy have the TCL QM7L mini-LED TV on sale for as low as $797.99 for the 55-inch model, a $200 discount from the usual price. We spotted scaling discounts on larger sizes as well, although Amazon already listed low stock on the 65-inch version. While OLED televisions are great for deep black […]",,https://www.theverge.com/gadgets/985741/tcl-qm7l-belkin-thunderbolt-dock-deal-sale,https://www.theverge.com/rss/index.xml,2026-08-28T17:03:07Z,0,Tech
+Our 10 favorite scenes from T2: Judgment Day,James Cameron&#39;s 1991 sci-fi blockbuster returns to theaters this weekend for its 35th anniversary.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/judgment13-1152x648.jpg,https://arstechnica.com/culture/2026/08/our-10-favorite-scenes-from-t2-judgment-day/,https://arstechnica.com/feed/,2026-08-28T16:44:47Z,0,Tech
+68-year-old imprisoned after making $1.3 million by pirating IPTV services,"A 68-year-old has been sentenced in the U.K. to more than six years in prison for operating an illegal IPTV (Internet Protocol Television) service that generated £980,812 ($1.3 million) over three years. [...]",,https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/,https://www.bleepingcomputer.com/feed/,2026-08-28T16:36:47Z,0,Cybersecurity
+Trump’s EPA wants to let data centers hide their air pollution,"Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]",,https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit,https://www.theverge.com/rss/index.xml,2026-08-28T16:28:40Z,5,Tech
+DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything,"Modders are trying out an unofficial version of Nvidia&#39;s DLSS 5 on Skyrim, Cyberpunk 2077, GTA V, and a bunch of other games after code for the AI upscaling tech appeared in an early-access build of NBA 2K27. Members of the RenoDX modding channel on Discord reportedly found a way to extract the DLSS &#34;Neural […]",,https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai,https://www.theverge.com/rss/index.xml,2026-08-28T16:22:16Z,6,Tech
+Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers,"Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users&#39; home networks.
+
+Topping the list is support for Encrypted Client Hello (ECH), a privacy standard that prevents networks from eavesdropping on which websites a user is visiting.
+
+&#34;This new privacy standard works in tandem",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHdeGqGafTZXNtGvV_-qR7K3QId_-DpEfOzetKbhVQvNdNyTMAy-6gLXVFlkMHsGDN2wKK8v1ZMeOKe9_3XVYAY5TVkqH2heesi0c_QmJzLpDX1M-XfOtI_W4Qe8OM8Yhin40QWvN0XHvU9cqDlZH3eeZY_18euIxiBdcbhWMVnXct-x84k2gvchQYSiuN/s1600/1000103901.jpg,https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T16:20:46Z,2,Cybersecurity
+More Americans oppose police license plate cameras than support them: survey,The backlash against license plate readers comes amid a wave of police abuses of surveillance cameras.,,https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/,https://techcrunch.com/feed/,2026-08-28T15:57:58Z,5,Tech
+ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines.
+
+The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZPm0X6hW-nz0AFZIB6eOBMEssN6dF5qeh2EOIBm1-ftaBEqcvJC5M0r_g3j-6Sp9x4sUnxVeOToWN_bFbr6T9flaScRcze4DRga0nqNe3LeQSvZaNPTiZC2C8GUeWWxMmIF1mybwuDaq5ZZummYiynDkf_1evTLKPicf4f2UUUb2d-0MMG6Ix-00ImwFN/s1600/1000103895.jpg,https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T15:56:55Z,11,Cybersecurity
+"Meta tweaks AI glasses to block some creepy recordings, but privacy risks remain",Meta fixes AI glasses to stop recording any time users cover up the safety light.,https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2235448062-1024x648.jpg,https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/,https://arstechnica.com/feed/,2026-08-28T15:42:24Z,5,Tech
+"In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions","Noteworthy stories that might have slipped under the radar: Manchester Airports Group cyberattack, Carhartt breach data was partly fake, U.S. Bank responds to ransomware gang’s claims.
+The post In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions appeared first on SecurityWeek.
+",,https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions/,https://www.securityweek.com/feed/,2026-08-28T15:35:34Z,11,Cybersecurity
+Friend-focused photo sharing app Retro snags $21M,"Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding.",,https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/,https://techcrunch.com/feed/,2026-08-28T15:35:03Z,9,Tech
+19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code,"Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and cryptocurrency draining capabilities.
+
+
+The extensions, per Socket security researcher Karlo Zanki, share similarities in code and tradecraft, with evidence indicating that the campaign may have been active",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_QtvF-9M9imh55UP7qeyFUNhKknBwEcmcbIa34vndzIHinEk754vasbvTqILRNrtp6BDpuR8VzAyk0_Wt1tJB4hjUlgaO5Rb6Wru-WoXlrCPIXLr0I_oBhA7BwQDoO3MH82uloaG-qXyHAloI7r2zuWNfygFNeiSYAZeWyDn8_smuzrgvsvk0eQEX5klW/s1600/1000103889.jpg,https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html,https://feeds.feedburner.com/TheHackersNews,2026-08-28T15:27:26Z,2,Cybersecurity
+The iPhone Fold could make concerts even worse,"You know the person blocking your view of the concert because their phone is swaying in the air, recording the entire thing? Get ready for the unfolded version of it. This week on The Vergecast, we dive right into the big week of Apple news. First, it&#39;s the refreshed Mac Mini and Mac Studio, as […]",,https://www.theverge.com/podcast/986145/m6-mac-mini-meta-settlement-gta-6-vergecast,https://www.theverge.com/rss/index.xml,2026-08-28T15:26:19Z,6,Tech
+India’s BrahMos at Sea: Implications for South Asian Stability,The planned Indian deployment of the BrahMos missile on all of its naval warships has destabilizing implications for the region.,https://images.thediplomat.com/v1/td-list-l-2/2026/08/thediplomat_2026-08-29-001648.jpg,https://thediplomat.com/2026/08/indias-brahmos-at-sea-implications-for-south-asian-stability/,https://thediplomat.com/category/asia-defense/feed/,2026-08-28T15:14:00Z,0,Defense
+From Isolated Agents to Collective Intelligence: Why A2A Is the Protocol the Agentic SOC Has Been Waiting For,"The Agentic SOC needs two protocols, not one. Learn how MCP and A2A work together as the vertical and horizontal layers of multi-agent security operations",,https://blogs.cisco.com/security/a2a-mcp-open-protocol-stack-multi-agent-soc/,https://blogs.cisco.com/security/feed,2026-08-28T15:00:11Z,1,Cybersecurity
+Apple TV is raising its subscription prices again,"Now, Apple TV subscriptions will cost $14.99 per month, up from its previous price of $12.99 per month.",,https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/,https://techcrunch.com/feed/,2026-08-28T14:36:48Z,6,Tech
+AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?,"AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. Action1 explains why defenders increasingly need to correlate multiple intelligence sources and turn vulnerability data into faster remediation. [...]",,https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/,https://www.bleepingcomputer.com/feed/,2026-08-28T14:00:10Z,4,Cybersecurity
+ATF Confirms Cyber Incident After Ransomware Group Claims Attack,"The Bureau of Alcohol, Tobacco, Firearms and Explosives has described it as a ‘major incident’ and it’s conducting an investigation with the DOJ.
+The post ATF Confirms Cyber Incident After Ransomware Group Claims Attack appeared first on SecurityWeek.
+",,https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/,https://www.securityweek.com/feed/,2026-08-28T13:59:14Z,7,Cybersecurity
+Apple TV now costs $14.99 a month after its fourth price hike in four years,"Apple raised the price of its streaming service for new and current subscribers on Friday, bumping it up from $12.99 per month to $14.99, Deadline and Variety are reporting. An annual subscription now costs $119, up from $99. Apple also increased the cost of its individual Apple One subscription, which includes Apple TV and Apple&#39;s […]",,https://www.theverge.com/tech/986130/apple-tv-plus-price-hike,https://www.theverge.com/rss/index.xml,2026-08-28T13:47:36Z,6,Tech
+a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’,"The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI.",,https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/,https://techcrunch.com/feed/,2026-08-28T13:24:43Z,7,Tech
 "Over 8,300 Gitea servers vulnerable to code execution attacks","Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",,https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/,https://www.bleepingcomputer.com/feed/,2026-08-28T12:58:43Z,9,Cybersecurity
 Anthropic gets its first court win over the Pentagon’s supply chain risk label,"A federal judge ruled the Trump administration illegally labeled Anthropic a supply chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",,https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/,https://techcrunch.com/feed/,2026-08-28T12:46:12Z,5,Tech
 OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems,"CISA has added the exploited flaw, CVE-2026-53362, to its KEV catalog, alongside a JFrog vulnerability exploited by OpenAI agents.
