@@ -1,4 +1,1246 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch","Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta&#39;s AI glasses, backed by $25 million from Elad Gil, Khosla Ventures, and Lennar to tackle a labor shortage severe enough that data center projects alone now need 4,000 to 5,000 workers apiece.",,https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/,https://techcrunch.com/feed/,2026-09-08T02:16:39Z,5,Tech
+"First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost","China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What&#39;s so special about that? After five years of development, Arm now has […]",,https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3,https://www.theverge.com/rss/index.xml,2026-09-08T02:00:00Z,5,Tech
+Audi’s new A2 E-tron is its most affordable and efficient EV yet,"When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here&#39;s a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes […]",,https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price,https://www.theverge.com/rss/index.xml,2026-09-07T20:03:41Z,5,Tech
+"Opaque recurrence, and other AI terms that you should probably know",The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.,,https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/,https://techcrunch.com/feed/,2026-09-07T19:24:00Z,5,Tech
+PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution,"Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.
+
+&#34;Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium&#39;s own Secure Preferences",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA3-5bNylOMc_s8MAT2ibQnV33cnJXadwKPRXjYgAL0GcZWOXuwtM-s5HS4ryVu5ewnhfAqBtOiuSseLcUSyDIfxf5XKF6mAwrpyG-v3Y-siqjJY8I5zVEMXwfkKPwBNAqaO2sQFI-q2oA4MWiagZFUlknIPKADDfvOo8s2Ifsa_xBAojg1rD5ZGUErC85/s1600/chrome-malware.jpg,https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T18:12:09Z,5,Cybersecurity
+A secret new Elizabeth Holmes documentary stuns Telluride,"Nathan Fielder and Lance Oppenheim&#39;s secret Elizabeth Holmes documentary, &#34;You Can See Everything,&#34; stunned Telluride audiences Sunday night with its generous access to the Theranos founder.",,https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/,https://techcrunch.com/feed/,2026-09-07T18:02:29Z,0,Tech
+Magento StyleSmuggler zero-day exploited to deploy Linux backdoor,A zero-day vulnerability dubbed &#34;StyleSmuggler&#34; affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...],,https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/,https://www.bleepingcomputer.com/feed/,2026-09-07T16:50:29Z,14,Cybersecurity
+"Six years later, Sony revisits its legendary XM4 headphones","Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat atop best headphones lists for years, thanks to their great sound, competitive ANC, and compact size, […]",,https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones,https://www.theverge.com/rss/index.xml,2026-09-07T16:00:00Z,5,Tech
+What we expect from the upcoming Apple launch,"While Apple&#39;s first foldable iPhone Ultra will headline the September 9 launch, we&#39;re also expecting news about AirPods and HomePods.",,https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/,https://techcrunch.com/feed/,2026-09-07T15:58:00Z,6,Tech
+Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks,"Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that&#39;s targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins.
+
+The activity, which mainly singles out directors, vice presidents, and other executive staff",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-Zo4zgxCrVcz6-00WV2qAPHSD-av2Ed5hgRmR-2vUzkr9jVeph0NNb6gGsQfwSkFyuRfRcSsaISSpfysl_Xx5F48IM7HdBpO4F3CaVuLhk1v0a4vcH5xK_bxX6BxIjkfAjhDaNGcLG7_R9IcTjVGlFcW7y1ZV64imACHi9528LOjH1Flhk-cy9LFgrMv/s1600/phish-ms.jpg,https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T15:51:56Z,7,Cybersecurity
+BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations,"A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",,https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/,https://www.bleepingcomputer.com/feed/,2026-09-07T15:39:51Z,3,Cybersecurity
+"Black Hat USA 2026: Building the Agentic SOC, One Live Event at a Time",Cisco is the Security Cloud Provider for the Black Hat conferences. Learn about the latest innovations for the Agentic SOC. ,,https://blogs.cisco.com/security/bhusa-2026-soc/,https://blogs.cisco.com/security/feed,2026-09-07T15:00:58Z,1,Cybersecurity
+Troubleshooting Wi-Fi at Black Hat USA 2026 with ThousandEyes,A behind-the-scenes look at troubleshooting Wi-Fi in the Black Hat USA 2026 Network Operations Center with ThousandEyes. ,,https://blogs.cisco.com/security/bhusa-2026-noc-thousandeyes/,https://blogs.cisco.com/security/feed,2026-09-07T15:00:39Z,0,Cybersecurity
+Distributed Latency Monitoring at Black Hat,"Learn how the Black Hat NOC/SOC used ThousandEyes, Linux command-line testing, and packet evidence to monitor distributed latency, isolate DNS issues, and validate network performance during a live cybersecurity event.",,https://blogs.cisco.com/security/bhusa-2026-te-latency/,https://blogs.cisco.com/security/feed,2026-09-07T15:00:37Z,2,Cybersecurity
+Building a Risk-Based Secure Network Analytics Detection with Splunk Detection Editor (Alpha),"At Black Hat USA, we used Splunk Detection Editor Alpha to turn Cisco SNA alarms into risk events with context, drilldowns &amp; analyst-ready investigation paths. ",,https://blogs.cisco.com/security/bhusa-2026-soc-sna/,https://blogs.cisco.com/security/feed,2026-09-07T15:00:32Z,1,Cybersecurity
+Black Hat USA 2026: Safeguarding DNS with Secure Access,"Cisco is the Security Cloud Provider for the Black Hat conferences, over a decade providing DNS Security. Learn about protecting DNS with Secure Access. ",,https://blogs.cisco.com/security/bhusa-2026-soc-dns/,https://blogs.cisco.com/security/feed,2026-09-07T15:00:32Z,1,Cybersecurity
+EcoFlow makes the miniature power station even smaller,If you&#39;re in the market for a tiny power station that punches well above its size and weight then have a look at EcoFlow&#39;s new fourth-generation River series. The River 260 Gen4 features a 256Wh capacity battery while the 520 Gen4 packs in 512Wh - storing about 2.5x and 5x the energy of the largest […],,https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller,https://www.theverge.com/rss/index.xml,2026-09-07T14:59:41Z,0,Tech
+"⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More","Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on.
+
+Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3SJbgfzjY0QMdutDU1Lf8A1ZVh6S-hcQEwATiHIXXKIpYhh1mrojhkxootev2lhFxjehrTS8h3UNmZgHBwgxNUN0ho2r5Tzk2PRLqK_yO-4OetzmlaFE5V5z0G-Yp34y_RWR5ZlWoL51LWMOFh8YTZCKDADDnHFLhYZl5oQkqLFxJ9JHK1j35kxilIkyp/s1600/recaps.jpg,https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T14:36:07Z,3,Cybersecurity
+Mathspace discloses data breach affecting over 1 million people,"Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",,https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/,https://www.bleepingcomputer.com/feed/,2026-09-07T13:05:11Z,7,Cybersecurity
+"Trezor data breach impact now reaches 81,000 customers","Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",,https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/,https://www.bleepingcomputer.com/feed/,2026-09-07T12:16:32Z,4,Cybersecurity
+"Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits","The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges.
+The post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first on SecurityWeek.
+",,https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/,https://www.securityweek.com/feed/,2026-09-07T12:15:57Z,9,Cybersecurity
+Sam Altman calls GPT-6 Astra rollout ‘messy’ as enterprise users wait for access,"
+		
+					  
+						
+
+
+
+
+OpenAI’s rollout of its GPT-6 Astra model ran into early access issues after paying ChatGPT users were unable to use the system shortly after launch, prompting CEO Sam Altman to apologize and say the release had been “messy.”
+
+
+
+“First, sorry for the messy rollout,” OpenAI CEO Sam Altman acknowledged the issue in a post on X. “Second, when we screw up, we try to make it right.”
+
+
+
+OpenAI had said GPT-6 Astra would be rolled out across ChatGPT tiers and APIs, positioning it as its most advanced model to date. However, the initial rollout did not translate into immediate access for all users, highlighting the gap between model launch and availability across subscription tiers. 
+
+
+
+Only the organizations enrolled in its Daybreak cybersecurity program were able to access the model, whereas Plus, Pro, Business, and Enterprise ChatGPT subscribers, along with developers using the OpenAI API, were left out.
+
+
+
+“Third, we should be able to begin broad rollout to API customers and ChatGPT subscribers in the near future. As usual, we will start with pro subscribers,” Altman continued in the post.
+
+
+
+Altman wrote in a follow-up X post on Friday that OpenAI had extended Astra to Pro, Enterprise, and Business Premium users in ChatGPT’s Work and Codex products and had opened it up through the API.
+
+
+
+“It might take a few days to roll out to our Plus and Business users,” OpenAI’s official X account posted on September 5.
+
+
+
+The company did not immediately respond to a request for comment.
+
+
+
+Phased rollout continues without firm timelines
+
+
+
+OpenAI introduced GPT-6 Astra on September 4, stating that availability would expand over time rather than being enabled simultaneously for all users.
+
+
+
+Altman’s post followed complaints about access during the initial rollout window, although OpenAI has not disclosed how many users were affected or how access varied across tiers.
+
+
+
+In a subsequent post on X, Altman said: “We are working towards getting Astra in everyone’s hands as quickly as we can; I know it is frustrating,” indicating that access was being expanded incrementally.
+
+
+
+OpenAI technical staff member Thibault Sottiaux confirmed in a separate X post that Plus and Business users had gained access too, crediting the company’s infrastructure: “more scalable than we anticipated.”
+
+
+
+The rollout approach is consistent with OpenAI’s initial communication that Astra would be made available over several days, rather than at once. Gartner also noted that the model was first released to a limited set of organizations before broader expansion.
+
+
+
+Rollout highlights the gap between launch and access
+
+
+
+Analysts said the sequence reflects a distinction between model announcement and actual availability.
+
+
+
+Greyhound Research said the Astra rollout should be treated as an operational signal rather than a confirmation of readiness.
+
+
+
+“Announced, available, entitled, and production-ready are four separate states,” said Sanchit Vir Gogia, chief analyst at Greyhound Research. “This must be treated as operational evidence, neither dismissed as theatre nor inflated into proof that Astra has failed.”
+
+
+
+He added that staged availability reinforces the need for enterprises to verify what level of access they actually receive, rather than assume uniform rollout across users or environments.
+
+
+
+Gartner said enterprises will need to strengthen governance as they evaluate Astra’s capabilities.
+
+
+
+“CIOs must balance Astra’s advanced automation with stronger cybersecurity, governance, and cost controls before adoption,” Gartner analysts said in an initial note on the launch shared with Computerworld
+
+
+
+The firm said Astra’s ability to execute more autonomous workflows will require tighter evaluation controls and observability.
+
+
+
+It also pointed to challenges around identity, security posture, and accountability as AI agents take on more complex roles.
+
+
+
+Contracts and control models under scrutiny
+
+
+
+Greyhound Research said the rollout raises questions about how enterprises define access and operational control.
+
+
+
+“A conventional uptime SLA is too narrow for Astra,” said Gogia. “Critical describes the engine. It does not tell the buyer how much of that engine reaches the road.”
+
+
+
+He said enterprises need to account for how such systems behave in production, particularly when access, interruption, or task continuity may vary.
+
+
+
+“A stop leaves a state the enterprise did not choose, and that state needs a record it can defend,” Gogia said.
+
+
+
+The rollout also highlights changes in how governance responsibilities are distributed.
+
+
+
+Gogia said administrative controls alone do not address enterprise requirements.
+
+
+
+“Admin opt-in is not a safety certificate,” he said. “It is the point at which accountability crosses from vendor release policy into an enterprise governance decision.”
+
+
+
+He added that such controls do not extend automatically to API-based deployments, where enforcement depends on enterprise-level systems.
+
+
+
+Capability gains introduce trade-offs
+
+
+
+OpenAI has positioned GPT-6 Astra as an advance in reasoning, coding, and automation capabilities.
+
+
+
+Gartner said these improvements introduce trade-offs that enterprises will need to evaluate in production settings.
+
+
+
+While Astra may reduce token usage for some tasks, organizations must consider overall task costs, including validation and oversight, the firm noted.
+
+
+
+Gartner also cautioned against over-indexing on early capability claims. “Without more evidence, CIOs should ignore the AGI hype for now and instead focus on use-case-specific evaluations, demonstrated business outcomes and reliable autonomy,” the firm said.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4219249-0-84679600-1788783353-original.jpg?quality=50&strip=all,https://www.csoonline.com/article/4219249/sam-altman-calls-gpt-6-astra-rollout-messy-as-enterprise-users-wait-for-access.html,https://www.csoonline.com/feed/,2026-09-07T12:14:18Z,2,Cybersecurity
+North Korean Hackers Deploy New Linux Espionage Toolkit,"The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance.
+The post North Korean Hackers Deploy New Linux Espionage Toolkit appeared first on SecurityWeek.
+",,https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/,https://www.securityweek.com/feed/,2026-09-07T12:12:08Z,1,Cybersecurity
+OpenAI Agents Hijack Another Victim Website,"OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach.
+The post OpenAI Agents Hijack Another Victim Website appeared first on SecurityWeek.
+",,https://www.securityweek.com/openai-agents-hijack-another-victim-website/,https://www.securityweek.com/feed/,2026-09-07T12:03:04Z,4,Cybersecurity
+Why the iPhone is about to get more expensive,"When Apple debuts the next generation of iPhones this week, they&#39;re likely to come with an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the clearest sign yet that soaring memory costs have become unavoidable - with no end to the memory crunch in sight. Call it &#34;chipflation&#34; […]",,https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone,https://www.theverge.com/rss/index.xml,2026-09-07T12:00:00Z,6,Tech
+Adobe Commerce Zero-Day Exploited to Backdoor Online Stores,"The StyleSmuggler zero-day allows attackers to execute code and deploy a stealthy backdoor on Adobe Commerce and Magento stores.
+The post Adobe Commerce Zero-Day Exploited to Backdoor Online Stores appeared first on SecurityWeek.
+",,https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/,https://www.securityweek.com/feed/,2026-09-07T11:58:37Z,12,Cybersecurity
+Back-to-back N-able bugs send admins on a patching spree,"
+		
+					  
+						
+
+
+
+
+A max-severity zero-day bug could be affecting cybersecurity firm N-able’s N-central remote monitoring and management platform, the company said, even as administrators were applying a hotfix for two vulnerabilities disclosed just a day earlier.
+
+
+
+The latest flaw, tracked as CVE-2026-86218, is a remote code execution bug that can give an attacker access to an N-central server without authentication.
+
+
+
+Through its incident page, the company said the new vulnerability is unrelated to the two flaws disclosed on September 5, and has already found active exploitation. “Unlike the earlier vulnerabilities, this newly identified vulnerability has been observed being exploited in the wild,” it said, adding that it is investigating the matter and has taken steps to help protect customer environments.
+
+
+
+These steps include applying the mitigations to all hosted N-central instances. On-premises customers, however, remain exposed until they download and upgrade their N-central deployments using instructions provided on the N-able support portal.
+
+
+
+In a blog post, Huntress disclosed an undocumented exploit chain involving CVE-2026-86206 and CVE-2026-86207, the two flaws N-able had disclosed on September 5, that can bypass access controls and allow unauthorized administrative accounts to be created.
+
+
+
+The disclosure had come after Huntress started investigating a compromise involving a customer’s fully patched (with Hotfix 2) N-central production on September 4. The flaws were addressed with Hotfix 3 (build 2026.3.1.13) on September 5, but systems updated with that fix need to be re-upgraded now with Hotfix 4 to upload protections against CVE-2026-86218.
+
+
+
+The cybersecurity outfit cautioned that due to limited historical logging, it could not definitively say which vulnerability the attacker used in the September 4 incident.
+
+
+
+Pinning down exploitation is getting trickier
+
+
+
+N-central is an RMM platform used by managed service providers to monitor and remotely manage their customers’ systems. That makes access to the platform particularly valuable to attackers, who can use compromised N-central accounts to create unauthorized administrative users and interact with the platform’s internal APIs.
+
+
+
+Huntress said the September exploit chain can provide control over N-central’s user management, allowing attackers to create unauthorized administrative accounts. Researchers observed attackers manipulating account names by adding strings such as .invalid to N-able email addresses, along with reconnaissance against an N-central remote control endpoint.
+
+
+
+Unlike previous August attacks involving CVE-2026-18556 and CVE-2026-18577 (addressed with Hotfix 2), which made heavy use of N-central’s “Take Control” functionality, the newer activity targets the underlying API and appliance logs, the researchers said.
+
+
+
+The distinction matters as defenders cannot simply look for suspicious remote-control sessions and declare the matches as newly exploited. Huntress recommended checking “envoy_proxy_HTTPs.log” and “syslog ncentraldms” for successful requests to API routes containing URL-encoded values such as %2F, while auditing recently created accounts for suspicious naming patterns.
+
+
+
+The new flaw makes things worse
+
+
+
+The situation became more serious on September 6, when N-able disclosed CVE-2026-86218, a separate pre-authentication RCE vulnerability with a CVSS score of 10.0.
+
+
+
+N-able as well as Huntress researchers said the flaw has been exploited in the wild and that customers should patch immediately. Technical details of the exploitation remain unavailable, presumably to allow administrators time to patch vulnerable systems.
+
+
+
+N-able’s Hotfix 4 supersedes Hotfix 3, and on-premises customers should, and on-premises customers should apply it immediately. Huntress also recommended restricting inbound access to the N-central console using controls such as IP allowlisting or a VPN, rather than leaving the RMM interface broadly exposed to the internet. Organizations should also review user creation, permission changes, and API activity for signs of abuse, the researchers noted.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4219242-0-54485700-1788782049-shutterstock_2471438675.jpg?quality=50&strip=all,https://www.csoonline.com/article/4219242/back-to-back-n-able-bugs-send-admins-on-a-patching-spree.html,https://www.csoonline.com/feed/,2026-09-07T11:53:54Z,17,Cybersecurity
+Modified ScreenConnect Clients Used in Worm-Like Campaign,"The attacks rely on backdoored ScreenConnect instances to transfer and execute payloads to newly connected clients.
+The post Modified ScreenConnect Clients Used in Worm-Like Campaign appeared first on SecurityWeek.
+",,https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/,https://www.securityweek.com/feed/,2026-09-07T11:45:48Z,4,Cybersecurity
+Your Cloud Security Checklist Doesn't Work the Way You Think It Does,"If managing security across multiple cloud providers wasn&#39;t hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in common. Here’s what the data looks like.
+
+How risk differs across cloud providers",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAkHa8CDEfDzL0HknvyLE5eRK8r91iyhgzpCS1GmG3HRtriZYYFzCTP9_H433YsqJ80SAppgs9g6rOhsTWIzHPh_CFcZJS18DIj5ANgzFwSU0vfcyJofTEqEvjGGjNcqZdHU_54PENNzxawWHCZ2r_1K-A63x3P8CbuIiu8OHASjQV3OoglWTefAF2dZw/s1600/intruder.jpg,https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T11:45:00Z,3,Cybersecurity
+Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts,"Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems.
+
+According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWA_nxvqJuKkqq0ab1I-XR1YtpsM6BadhHDNOIheZmBflLWaQ018JFJsAUBVuyWWTYI4pyT8OQNXhui8Annde3SnOIScH9B0ohMq-OzXLjvPeAXQnz4mAUdEMS_07i7gLaWqPVpHaPvyLJdZQKUTs2MLGhjB9UZ0A83CGcSeDCJFKn7hNjiyf6dbzbHogp/s1600/screen.jpg,https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T11:36:39Z,5,Cybersecurity
+Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released,"A TantoSec proof-of-concept turns an AES-CBC &#34;padding oracle&#34; in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild.
+
+Security firm TantoSec has published a working exploit chain targeting vulnerabilities",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOwlnNFKd-mH5uyY-AjtXSVx57m9MDT4WRtoQStPY9HoNxOP3ps7znRzENJAK7ZzF4homlCzVGVPFuFZ1sXYGciKyA3rZN_NYewwTXhwpRxCUFaPmUmdgP_TdJQtf57falTD12A0GJewAS23pnxttANQ1meOeRFnr_IqZqAngg0rc9ov998VwQlANB0cE/s1600/tel.jpg,https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T11:20:14Z,5,Cybersecurity
+The complex corporate web behind a $3.2 billion AI data center,"When multiple companies are behind one project, who bears responsibility for problems?",https://cdn.arstechnica.net/wp-content/uploads/2026/08/LakeMariner-1152x648.png,https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/,https://arstechnica.com/feed/,2026-09-07T11:00:03Z,5,Tech
+The AI data center boom is causing new accountability problems,"When multiple companies are behind one project, who bears responsibility for problems?",https://cdn.arstechnica.net/wp-content/uploads/2026/08/LakeMariner-1152x648.png,https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/,https://arstechnica.com/feed/,2026-09-07T11:00:03Z,5,Tech
+Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds,"Thanks to their ability to provide a smooth ride and quiet powertrain with ease, electric vehicles are a true shoo-in for the high-end luxury automotive segment. Rolls-Royce has the Spectre, Cadillac&#39;s Celestiq is taking bespoke to a whole new level, and Mercedes has given the EQS the full Maybach treatment. From Volkswagen Auto Group, Bentley […]",,https://www.theverge.com/transportation/990319/bentley-torcal-ev-power-ride-sound-v8,https://www.theverge.com/rss/index.xml,2026-09-07T11:00:00Z,5,Tech
+ChatGPT can now connect to your personal apps to mimic writing style,OpenAI appears to be testing a new &#34;Writing Style&#34; feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...],,https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/,https://www.bleepingcomputer.com/feed/,2026-09-07T10:36:37Z,0,Cybersecurity
+Hackers exploit new MikroTik RouterOS flaws to hijack routers,Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...],,https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/,https://www.bleepingcomputer.com/feed/,2026-09-07T10:32:40Z,3,Cybersecurity
+New CISO appointments 2026,"
+		
+					  
+						
+
+
+
+
+The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security officer (CISO) for the first time to support a deeper commitment to information security.
+
+
+
+Follow this column to keep up with new appointments to senior-level security roles and perhaps gain a little insight into hiring trends. If you have an announcement of your own that you would like us to include here, contact Peter Sayer, executive editor of news, at peter_sayer@foundryco.com.
+
+
+
+New CISO appointments in September 2026
+
+
+
+Mistral AI hires Thomas Coudray as CISO
+
+
+
+Thomas Coudray, previously CISO at crypto-wallet vendor Ledger, is Mistral AI’s new CISO. Prior to Ledger he worked at P1 Security, which protects telecommunications networks, as director of cyber security operations and later as CTO, and before that as a research engineer for the French National Cybersecurity Agency, ANSSI.
+
+
+
+Illumia names Sean Bruton CISO
+
+
+
+Sean Bruton has joined payment services provider Illumia as CISO, where he will lead security and compliance programs. He has a long history of working across the two areas: In 2016 he founded security posture assessment service Complyify, leading that company for seven years until its acquisition by Zyston, where he went on to become CTO.
+
+
+
+Axonius picks Chris Jones for top security role
+
+
+
+Asset intelligence platform Axonius has named Chris Jones its chief trust and security officer. He will be responsible for protecting the company’s infrastructure, data, and customer trust. He was previously a deputy CISO at Cisco.
+
+
+
+Grant Yacomeni joins Gigamon as CISO
+
+
+
+Gigamon has appointed Grant Yacomeni as its new CISO. Prior to joining the network observability specialist, he worked in a number of cybersecurity roles at the US Department of Defense.
+
+
+
+Tabcorp’s new CISO is Maxine Harrison
+
+
+
+Online sports betting company Tabcorp has hired Maxine Harrison as CISO. She was previously CISO at the Department of Energy, Environment, and Climate Action of the State Government of Victoria, Australia. 
+
+
+
+Also:
+
+
+
+
+Sharad Srivastava joins Uttar Pradesh State Transformation Commission as CISO
+
+
+
+
+New CISO appointments in August 2026
+
+
+
+Vensure appoints Michael Lockhart as CISO
+
+
+
+Vensure Employer Solutions appointed Michael Lockhart as chief information security officer, who brings nearly 30 years of technology and cybersecurity experience to the role. He previously held leadership positions at Salesforce and most recently served as CISO for EagleView.
+
+
+
+Sandro Bucchianeri joins ANZ as CISO
+
+
+
+Australia and New Zealand Banking Group has named Sandro Bucchianeri its new CISO. He previously held senior cybersecurity roles at Absa Group and the National Bank of Abu Dhabi, among others.
+
+
+
+Glow names Patti Degnan as security chief
+
+
+
+Glow appointed Patti Degnan, former operating partner at Andreessen Horowitz and CISO of Notion, as its CISO. Degnan brings nearly two decades of experience in cybersecurity and privacy. She previously founded the security organization at Notion, scaling it as the company grew past 100 million users.
+
+
+
+Trellix names David Soto as CISO
+
+
+
+Trellix appointed David Soto as chief information security officer with more than 25 years of cybersecurity leadership across regulated industries. Most recently, he served as head of infrastructure security at Amazon, where he scaled a resilient security program across more than 4,000 sites and 30 countries.
+
+
+
+UltraViolet Cyber taps Andrew Park for security
+
+
+
+UltraViolet Cyber named Andrew Park as CISO. Park brings experience from both sides of the security relationship, first as a customer and now as the executive responsible for delivering security services. He spent four years at Amazon Web Services as a cloud infrastructure architect, solutions architect, and cloud security consultant.
+
+
+
+Marriott appoints Daniel Dubowski as security officer
+
+
+
+Marriott International appointed Daniel Dubowski as SVP and CISO. Dubowski brings deep experience leading cybersecurity and risk programs across hospitality, travel, financial services, and healthcare. He most recently served in the same role at Hertz.
+
+
+
+California taps Mike Marshall as state CISO
+
+
+
+California appointed Mike Marshall as chief information security officer with 18 years of public-sector cybersecurity experience, beginning in 2008 at the California Public Employees’ Retirement System. Most recently, he served as acting information officer at the California Environmental Protection Agency since 2022, after serving as the agency’s information security officer for five years.
+
+
+
+Allied Universal names Jordan Avnaim global CISO
+
+
+
+Allied Universal appointed Jordan Avnaim as global chief information security officer. With more than 20 years of experience, Avnaim will lead development and implementation of a comprehensive, risk-based cybersecurity program. Previously, he served as CISO at Hyundai AutoEver America and Entrust, where he was responsible for the global information security program across more than 150 countries.
+
+
+
+Erika Dean named CISO at Tricentis
+
+
+
+Tricentis appointed Erika Dean its CISO. Dean’s cybersecurity leadership career spans financial services and technology, including appointments leading security programs at Robinhood and Capital One, where she focused on protecting organizations while enabling business growth and strengthening operational resilience.
+
+
+
+Todd Dekkinga joins Sycomp as security chief
+
+
+
+Sycomp appointed Todd Dekkinga as CISO to lead the company’s growing security practice. Dekkinga brings extensive experience as a cybersecurity and risk management executive and has held IT leadership and advisory roles in technology, financial services, and life sciences.
+
+
+
+Also:
+
+
+
+
+SMSI promoted Russ Gritzo to CISO
+
+
+
+
+New CISO appointments in July 2026
+
+
+
+Remitly names Jeff Lyon as CISO
+
+
+
+Remitly named Jeff Lyon chief information security officer. Lyon joins from Coinbase, where he was head of infrastructure security for two years. Prior roles include security leadership at Robinhood and Amazon Web Services, and he served as a petty officer with the US Navy for more than nine years.
+
+
+
+IREN appoints Eric Hammersley as CISO
+
+
+
+IREN appointed Eric Hammersley as chief information security officer. With more than 20 years of experience securing cloud platforms and critical infrastructure, he joins from Nutanix, where he served as VP of engineering and chief product security officer. Previous roles include leading software product security architecture for NVIDIA’s high-performance computing environments and senior engineering positions in the US federal government and defense sector.
+
+
+
+Daimler Truck elevates Marc Junker to CISO
+
+
+
+Daimler Truck North America promoted Marc Junker to regional chief information security officer. Junker brings more than 25 years of experience across cybersecurity, IT, cloud, risk governance, and digital transformation, serving at Covenant Technology Solutions, NWEA, Sunlight Supply, RS Medical, WaferTech, and Intel.
+
+
+
+US Department of Energy appoints new CESER director
+
+
+
+The US DoE tapped Andrew McClure to be its new Director of the Office of Cybersecurity, Energy Security, and Emergency Response. McClure brings over a decade of experience at Forgepoint Capital focusing on cybersecurity and infrastructure. He previously served in the US Marine Corps as an intelligence officer.
+
+
+
+Dallas names James Wilkinson as CISO
+
+
+
+The City of Dallas appointed James L. Wilkinson as chief information security officer. Wilkinson is a 25-year industry veteran with experience spanning national security, financial services, aerospace, and defense. He began his career with the US Army and US Marine Corps, including serving as Chief of Cyber Mission Forces, and later held senior positions at Wells Fargo, Lockheed Martin, and MUFG Bank.
+
+
+
+Alexander Truskovsky promoted to CISO at EigenQ
+
+
+
+EigenQ elevated Alexander Truskovsky to chief information security officer, a newly established position following his tenure as VP of Cryptography. Truskovsky will lead IS strategy, cybersecurity governance, and security architecture. He brings expertise as an accomplished inventor, cryptography leader, and enterprise solutions architect.
+
+
+
+PNC names Christian Winward CISO
+
+
+
+The PNC Financial Services Group named Christian Winward its new security chief. Winward joined from FirstBank, where he served as CIO and was a member of the senior leadership team. His FirstBank career spanned more than 30 years, beginning as a teller and progressing through leadership roles across technology and project management.
+
+
+
+Robert Yox signs on as Lightedge chief information security officer
+
+
+
+Lightedge appointed Robert Yox as CISO, bringing over 25 years of technology leadership in cybersecurity, enterprise technology, and risk management. Yox carries deep experience building and maturing security programs across regulated cloud and SaaS environments.
+
+
+
+Travelers hires former JetBlue security exec
+
+
+
+Travelers appointed Keith Anderson as CISO, bringing over two decades of experience leading cybersecurity organizations across aviation, media, and telecommunications. Anderson previously served as VP and CISO at JetBlue. Before JetBlue, he held cybersecurity leadership roles at WarnerMedia and AT&amp;T.
+
+
+
+Assaf Keren takes on Meta CISO role
+
+
+
+Meta appointed Assaf Keren as chief information security officer. Keren previously served as SVP and CSO at Qualtrics, where he led enterprise security. Before Qualtrics, he spent nine years at PayPal, holding multiple leadership roles, including CISO.
+
+
+
+Coinbase appoints Michael Sikorski as CISO
+
+
+
+Coinbase hired Michael Sikorski to be its top security exec. Sikorski joins from Unit 42, where he served as CTO for four years. He brings extensive experience from previous roles at Mandiant, FireEye, and the US National Security Agency.
+
+
+
+George Totev takes on CISO role at Clio
+
+
+
+Clio appointed George Totev VP of Security and CISO. With 20-plus years of security expertise, Totev brings leadership experience from Goldman Sachs, Visa, Atlassian, and Snowflake. Recently, he served as CISO at Trustero, managing AI security operations and compliance programs.
+
+
+
+Tera Ladner promoted to global CISO at Aflac
+
+
+
+Aflac promoted Tera Ladner to SVP and Global CISO. Across more than 25 years of leadership, Ladner has built expertise in cybersecurity, information governance, and risk management. Before the promotion, she served as Deputy Global CISO for the insurer. Before joining Aflac, she spent nearly six years at SunTrust Bank as Group VP for Corporate Records &amp; Information Management.
+
+
+
+Paul Adams named CISO at Blue Mountain
+
+
+
+Blue Mountain appointed Paul Adams as CISO. Adams brings more than 25 years of leadership experience in SaaS and technology spanning enterprise security strategy, security architecture, and cloud infrastructure to the enterprise asset management software maker.
+
+
+
+Solana Foundation names Michael Coates as first CISO
+
+
+
+The Solana Foundation hired Michael Coates to be its first chief information security officer. Coates brings two decades of cybersecurity leadership, including roles at Mozilla, Twitter, Shape Security, and the OWASP Foundation, and will focus on ecosystem security, malicious uses of AI and crypto-specific threats.
+
+
+
+Ravi Thatavarthy joins Primo Brands as CISO
+
+
+
+Primo Brands hired Ravi Thatavarthy as chief information security officer to oversee the company’s cybersecurity and IT efforts and strengthen its security and technology foundation. He brings extensive digital security and technology leadership experience across major retail and consumer goods brands.
+
+
+
+Datavault AI appoints Barry Childe CISO
+
+
+
+Barry Childe, a co-founder of quantum encryption company Arqit, has joined Datavault AI as CISO. Childe previously served as a distinguished engineer at HSBC, and held other senior technology roles at Barclays Capital and VMware.
+
+
+
+Jason Cradit joins EverLine as CISO and CTO
+
+
+
+Critical infrastructure technical services provider EverLine has hired Jason Cradit as CISO and CTO. Cradit has previously held leadership roles in consulting, software, and infrastructure operations, and founded software vendor Pivvot.
+
+
+
+Also:
+
+
+
+
+Bessemer Trust promotes Vikas Bangia to CISO
+
+
+
+Joe Harrington named CISO at Stock Yards Bank &amp; Trust
+
+
+
+Ken Pfiel joins Assail as CISO
+
+
+
+Sierra Orchestration taps Raymond Winder for CISO role
+
+
+
+Les McCollum II named CISO at Howard University
+
+
+
+
+New CISO appointments in June 2026
+
+
+
+Drew McCombs named CTO and CISO at Cylerity
+
+
+
+Cylerity appointed Drew McCombs as its chief tech and infosec exec. Bringing nearly two decades in healthcare technology, he previously held senior roles at Epic managing mission-critical systems. His expertise includes cloud infrastructure, analytics, AI, and cybersecurity.
+
+
+
+John Opala joins Ralph Lauren as CISO
+
+
+
+Ralph Lauren appointed John Opala its chief information security officer. Opala previously served at HanesBrands, where he worked with global leadership teams to strengthen cybersecurity capabilities and support enterprise transformation. At Ralph Lauren, he will lead the company’s global cybersecurity strategy, strengthening digital resilience and supporting secure business transformation.
+
+
+
+Dave McKenna named CIO and CISO at IDC
+
+
+
+IDC appointed Dave McKenna as its chief information and information security exec. McKenna brings deep experience in data architecture, risk management, and cybersecurity leadership across financial services, insurance, and government sectors. Before IDC, he served as VP of Platform Engineering and CISO at Monster.
+
+
+
+Infoblox names Henrik Smith CISO
+
+
+
+Former Amazon executive Henrik Smith has joined security platform vendor Infoblox as CISO. Smith most recently served as head of security for devices and systems at Amazon, and prior to that was vice-president of security at Salesforce.
+
+
+
+GitLab hires Chaim Mazal as CISO
+
+
+
+Chaim Mazal, previously chief AI and security officer at Gigamon, has joined GitLab as CISO. He’s been a GitLab customer for over eight years, and moved into the CISO role after serving on the company’s advisory board.
+
+
+
+Paras Malhotra joins Starburst as CISO
+
+
+
+Enterprise intelligence platform Starburst has hired Paras Malhotra as CISO. He previously served as senior director of information security at Datadog and, prior to that, held a variety of security roles at Amazon Web Services.
+
+
+
+Socure hires Mark Carter as CISO
+
+
+
+Mark Carter has joined identity infrastructure provider Socure as CISO. He has previously worked as CISO at Navan, Tesla, and Vimeo.
+
+
+
+SolarWinds appoints Justin Henkel as CISO
+
+
+
+IT management software vendor SolarWinds has named Justin Henkel its new CISO. Henkel was previously deputy CISO at OneTrust, and before that spent 25 years as an intelligence officer in the US Air Force.
+
+
+
+Uber taps Philip Martin as security chief
+
+
+
+Uber appointed Philip Martin as CISO, strengthening the company’s cybersecurity and digital trust leadership as it continues to expand its global mobility, delivery, and logistics operations.
+
+
+
+Ali Waezzadah named CISO at iCounter
+
+
+
+iCounter appointed Ali Waezzadah as chief information security officer, a respected cybersecurity executive with more than 20 years of experience leading security transformations across critical infrastructure, media, government, and enterprise environments.
+
+
+
+Roger Hale joins 1Kosmos as CISO
+
+
+
+1Kosmos appointed Roger Hale as chief information security officer, bringing more than two decades of executive management experience with global cybersecurity companies.
+
+
+
+Jacob Berry appointed CISO at Fable Security
+
+
+
+Fable Security appointed Jacob Berry as chief information security officer. Berry brings 18 years of experience across technology and cybersecurity, with background in incident response, cyber operations, governance, and compliance to the human risk management vendor.
+
+
+
+Novant Health promotes Srini Uppugonduri to CISO
+
+
+
+Novant Health promoted cybersecurity leader Srini Uppugonduri to senior vice president and CISO. He brings more than two decades leading enterprise cybersecurity, infrastructure, and technology operations across complex healthcare organizations with expertise in cyber engineering, threat intelligence, and resilience efforts.
+
+
+
+US Bank appoints Ann Barron-DiCamillo as global CISO
+
+
+
+US Bank appointed Ann Barron-DiCamillo as executive vice president and global chief information security officer. Barron-DiCamillo brings more than 25 years of cybersecurity and risk management experience from roles at Citi, American Express, and as director of the US Computer Emergency Readiness Team.
+
+
+
+Texas AG appoints Chad Holmes as CISO
+
+
+
+The Texas Office of the Attorney General named Chad Holmes chief information security officer. Holmes brings more than 25 years of private-sector cybersecurity experience, including roles at Legal &amp; General, Kivu Consulting, Optiv, EY, FireEye, Intel, and McAfee, and leads initiatives spanning cybersecurity, AI, cyber resilience, threat intelligence, and incident response readiness.
+
+
+
+BreachRx appoints Stephen Garcia as security chief
+
+
+
+BreachRx appointed Stephen Garcia as CISO. Garcia brings more than 20 years of security leadership experience, including roles at major financial-services, technology, and enterprise organizations, and will help advance the company’s security strategy and customer trust.
+
+
+
+Omnicell promotes Michael McNeil to SVP and CISO
+
+
+
+Omnicell promoted Michael McNeil to senior vice president and chief information security officer. The former McKesson CISO will expand his responsibilities to advance Omnicell’s global cybersecurity and cloud security strategy.
+
+
+
+Candescent names Thomas Hill as CISO
+
+
+
+Candescent appointed Thomas Hill as chief information security officer. Hill brings more than two and a half decades of information security experience, including five years most recently as CISO at nCino and prior service as CIO and CISO at Live Oak Bank.
+
+
+
+John Walton appointed CISO at Nubank
+
+
+
+Nubank appointed John Walton as chief information security officer. With more than 25 years in security and engineering leadership roles, Walton will lead the digital financial services platform’s information security strategy.
+
+
+
+Semperis taps John Podboy as security chief
+
+
+
+Semperis appointed John Podboy CISO. Podboy brings more than 15 years of experience spanning cybersecurity, technology management, digital transformation, risk and resilience, including leadership roles at First Citizens Bank, Fifth Third Bank, Thomson Reuters and GE Digital.
+
+
+
+Lexitas appoints Joe Giannetti as CIO and CISO
+
+
+
+Lexitas named Joe Giannetti its new CIO and CISO. Giannetti brings more than 25 years of experience in technology and security leadership from high-growth organizations, including Employ, Applied Systems, and previous roles managing complex IT infrastructure transformations.
+
+
+
+DHS names Supriya Ahuja as acting deputy CISO
+
+
+
+The US Department of Homeland Security appointed Supriya Ahuja acting deputy chief information security officer. She brings nearly two decades of cybersecurity and cyber-risk experience across government and private-sector organizations.
+
+
+
+Also:
+
+
+
+
+Christopher Porter joins Booz Allen Hamilton as global CISO
+
+
+
+William Schmidt named VP &amp; CISO at Pavilion Payments
+
+
+
+Sean Cassidy joins Plaid as CISO
+
+
+
+Nic Carroll appointed CISO at Georgia Southern University
+
+
+
+Michael Kipp promoted to CISO at ChurnZero
+
+
+
+Tony Arous signs on as Toast’s CISO
+
+
+
+Ahmed Pasha joins Tradeweb as Global CISO
+
+
+
+Cyrus Tibbs now CISO of First American
+
+
+
+Mike Brown appointed CISO at Farmers &amp; Merchants Bank of Long Beach
+
+
+
+Bryan Thompson now CISO at Luma Financial
+
+
+
+Randi Kieffer named CISO at USAA
+
+
+
+John Wideman joins Falkon Technologies as security chief
+
+
+
+Truveta promotes Pradeep Surukanti to CISO
+
+
+
+Gregory Aldridge promoted to CISO at JusticeOne
+
+
+
+Adam Sealey now CISO of Evernorth Health Services
+
+
+
+
+New CISO appointments in May 2026
+
+
+
+Hugobank names Zeeshan Manzoor CISO
+
+
+
+Zeeshan Mansoor has joined Pakistani neo-bank Hugobank as CISO. He was previously CISO of Pakistan Stock Exchange and, before that, head of IT operations and infrastructure at Dubai Islamic Bank Pakistan.
+
+
+
+Backstory names Victor Chang CISO
+
+
+
+Backstory, formerly People.ai, has appointed Victor Chang as CISO. Chang has previously served as CISO at Amdocs, among other senior security roles.
+
+
+
+Adam Dimopoulos is Entrust’s new CISO
+
+
+
+Entrust has appointed former Synchrony VP of Information Security Adam Dimopoulos as its new CISO. Dimopoulos has also previously worked in advisory roles at Microsoft and Gartner.
+
+
+
+Tanium names Paul Black as chief information security officer
+
+
+
+Tanium appointed Paul Black CISO with a mandate that includes AI-related security priorities. Black brings broad cybersecurity and technology leadership experience across technology, financial-services and enterprise organizations.
+
+
+
+Merck appoints Tim McKnight as SVP, IT Risk Management &amp; Security and CISO
+
+
+
+Merck has tapped Tim McKnight to head up IT risk management and cybersecurity. He brings more than 30 years of security leadership experience, including senior roles at UnitedHealth Group and SAP and earlier work across major technology, financial-services and government organizations.
+
+
+
+Semperis names John Podboy CISO
+
+
+
+Semperis appointed John Podboy as chief information security officer. Podboy brings more than 15 years of cybersecurity experience spanning risk, resilience, and digital transformation leadership at Fifth Third Bank, First Citizens Bank, Thomson Reuters, and GE Digital managing security programs across Fortune 100 organizations.
+
+
+
+Edwin Ng appointed CISO at LogicGate
+
+
+
+LogicGate announced Edwin Ng as chief information security officer. Ng has a two-decade track record of fortifying digital resilience for the world’s most iconic brands.
+
+
+
+Also:
+
+
+
+
+Erin Heard promoted to acting CISO at USPTO
+
+
+
+Jason Lee named CISO of PlayOn Sports
+
+
+
+Alex Burinskiy appointed CISO of Accela
+
+
+
+Edwin Lopez joins Grupo Vidanta as CISO
+
+
+
+
+New CISO appointments in April 2026
+
+
+
+NMFTA appoints Ben Wilkens as cybersecurity director
+
+
+
+NMFTA promoted Ben Wilkens to director of cybersecurity. Previously a cybersecurity principal engineer at NMFTA, he brings hands-on transportation experience and advanced cybersecurity expertise. A CISSP, CCSP, and CISM who also holds an active Class A CDL, he will lead NMFTA’s cybersecurity strategy, research, and industry engagement.
+
+
+
+Discovery Education appoints Kara Schlageter as first CISO
+
+
+
+Discovery Education announced Kara Schlageter as its first chief information security officer. Schlageter brings 25-plus years of cybersecurity, enterprise risk, and large-scale transformation expertise in highly regulated environments. She aligns technical security strategies with business priorities using secure-by-design innovation principles.
+
+
+
+Also:
+
+
+
+
+Lucas Moody joins Astera Labs as CISO
+
+
+
+
+New CISO appointments in March 2026
+
+
+
+Kathy Wang joins micro1 as CISO
+
+
+
+Frontier AI model training company micro1 has hired Kathy Wang as CISO. She was most recently CISO at hospitality software developer Otelier, and has previously held top cybersecurity roles at Discord and GitLab.
+
+
+
+Green Impact Exchange names John Visneski CISO
+
+
+
+John Visneski has joined stock exchange operator Green Impact Exchange as CISO. He was previously CISO at MGM Studios, and following that company’s acquisition by Amazon became head of security for mergers and acquisitions. His cybersecurity career began with the US Air Force, where he served as cyber advisor to the Secretary and Chief of Staff of the Air Force.
+
+
+
+US DoD appoints James ‘Aaron’ Bishop deputy CIO and CISO
+
+
+
+The US Department of Defense named James “Aaron” Bishop deputy chief information officer (cybersecurity) and CISO. In the role, he will provide policy, technical, program, and department-wide oversight of cybersecurity matters.
+
+
+
+SMBC Americas brings on Donna Hart as CISO
+
+
+
+SMBC Americas appointed Donna Hart CISO. Hart brings more than 30 years of experience across information security, infrastructure, and cyber risk management, including leadership experience at Ally Financial and more than 20 years at Wells Fargo and Wachovia.
+
+
+
+BayCare taps Robert Carvajal as security chief
+
+
+
+BayCare named Robert Carvajal chief information security officer. He will oversee BayCare’s cybersecurity strategy in support of innovation, patient safety, and operational excellence.
+
+
+
+Pennsylvania appoints Andy Ritter as CISO
+
+
+
+Pennsylvania appoints Andy Ritter as chief information security officer. Ritter brings 30-plus years of cybersecurity and IT experience spanning public and private sectors. Previously serving as deputy CISO, he now leads statewide cyber resilience, enterprise risk management, and security operations.
+
+
+
+New CISO appointments in February 2026
+
+
+
+Western Alliance appoints Stephen McMaster as CISO
+
+
+
+Western Alliance Bank named Stephen McMaster chief information security officer. McMaster brings more than 25 years of experience, including 20 years at Wells Fargo, where he most recently led cloud security, data loss prevention, third-party cybersecurity, and business information security programs.
+
+
+
+Teradata names Ken Ricketts as SVP and CISO
+
+
+
+Teradata appointed Ken Ricketts senior vice president and chief information security officer. With more than 20 years of experience, he will lead global security strategy with a focus on cloud security, AI-driven innovation, and risk-based governance.
+
+
+
+New CISO appointments in January 2026
+
+
+
+Julien Mousqueton joins Cohesity as field CISO for Europe
+
+
+
+Data security firm Cohesity has hired Julien Mousqueton as field CISO for Europe. His previous role was as CTO at IT service provider Computacenter. He is a reservist advisor for OFAC, the French national police force’s anti-cybercrime division, and created the real-time ransomware activity-tracking platform ransomware.live.
+
+
+
+Cook Children’s hires Kathy Jobes as CISO
+
+
+
+Cook Children’s Health Care System named Kathy Jobes its chief information security officer. Jobes brings more than 25 years of healthcare cybersecurity experience, with a focus on data governance and risk management, and is known for a human-centric approach to security.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/09/4186743-0-73061900-1788775801-shutterstock_2460694851.jpg?quality=50&strip=all,https://www.csoonline.com/article/4186743/new-ciso-appointments-2026.html,https://www.csoonline.com/feed/,2026-09-07T10:09:50Z,19,Cybersecurity
+Huawei copies Samsung’s privacy display in its latest trifold,"Huawei has released its third trifold phone in China, and the company has clearly had half an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form factor used on Samsung&#39;s Galaxy Z TriFold, it&#39;s also the first foldable to include a privacy-enhancing display, much like the one Samsung […]",,https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display,https://www.theverge.com/rss/index.xml,2026-09-07T10:09:42Z,0,Tech
+ConnectWise warns of new ScreenConnect flaw without patch,ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...],,https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/,https://www.bleepingcomputer.com/feed/,2026-09-07T10:06:38Z,4,Cybersecurity
+N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw,"Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able&#39;s incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed.
+
+N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOtysh_bb-hej1pQzey0RUhPD2w29ONlPDQMzE9Nc4lM529hKaHhuLKfGXEnqVZyUkMKhJchEeoN1clSKo3-opm2_BQkN6FJ72xBZOZwxX6sTwU4Zzk_j6taOwBpioZOnolR9idUjpydUlQ84TQ9pdWUlUm61JH0Xh8-6_0fo3VieeW3xVQwk4UvXcSu4/s1600/nable.jpg,https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T08:31:12Z,3,Cybersecurity
+What do CISOs need to rest easy about future AI risks?,"
+		
+					  
+						
+
+
+
+
+Security leaders’ confidence in their ability to navigate the security risks AI will pose over the next two years rests on several clear factors, according to IANS analysis of its AI Security Survey, fielded earlier this year.
+
+
+
+Of the 113 CISOs IANS surveyed in April and May, 41% expressed optimism about their organization’s ability to manage AI security risks over the next 24 months, versus 38% who were pessimistic.
+
+
+
+Delving deeper, IANS identified six strong organizational signals that differentiate CISOs who feel confident about their ability to address rapidly evolving AI risks and those CISOs who dread what’s to come. And they have less to do with current controls and capacities and more to do with the CISO’s standing and sway within the organization.
+
+
+
+“The findings reveal a distinction between present-day risk perceptions and optimism about the manageability of AI risk in the future. Perceptions of present-day risk are associated most strongly with AI security maturity — an organization’s operational capacity and security controls to manage its AI environment,” the report said. “Optimism about the future is associated more strongly with organizational readiness factors.”
+
+
+
+Those factors include:
+
+
+
+
+Leadership’s understanding of AI risk
+
+
+
+Clearly defined AI governance ownership
+
+
+
+The security team’s effectiveness with AI tools
+
+
+
+CISO ownership over the AI-security budget
+
+
+
+Sustainable security team workloads
+
+
+
+Sufficient security staffing
+
+
+
+
+Above any present-day measure of AI security maturity or budgetary increases, CISO optimism about the hard road ahead appears to rest largely on whether organizational leadership listens to, empowers, and adequately resources them — at least according to IANS’ poll.
+
+
+
+A question of confidence
+
+
+
+Cybersecurity consultants and analysts largely agree those elements will play a critical role in a company’s AI cybersecurity effectiveness going forward, but with nuance and caveats.
+
+
+
+Pearl Almeida, a research director at Info-Tech Research Group, underscores misalignment and leadership misunderstanding of AI risks as key factors that undercut a CISOs’ ability to mitigate those risks. 
+
+
+
+“The risk-averse CISOs who resisted agent adoption have mostly been overruled by the business, and they [business executives] are moving forward whether or not they feel ready,” Almeida says. “Only a handful of organizations I work with have strong controls in place. The rest are starting with fundamentals because deferring is no longer an option.”
+
+
+
+Moreover, many CISOs are contending with what Almeida described as “organizational blind spots.”
+
+
+
+“In my conversations with CISOs, I have found that most leaders, security ones included, cannot explain how an agent works. They know that they need to use it, but don’t understand the mechanics: where the agent gets its information, how it calls on tools, how it makes decisions, how human-in-the-loop actually works,” Almeida says. “When you can’t describe the mechanism, you can’t right-size the exposure.”
+
+
+
+As for AI governance, Almeida cautions that clear ownership isn’t enough on its own; the real issue is security culture.
+
+
+
+“Assigning a named business owner only works if security is already embedded in how the business operates rather than bolted on at approval,” she explains. “Owners who won’t take accountability should understand the trade plainly: They are handing security the authority to shut their workflow down during an incident without consulting them.”
+
+
+
+Rock Lambros, director of AI standards and governance at agentic security vendor Zenity, cautions that optimism can be misleading.
+
+
+
+“Every number in the report is one person’s self-assessment measured against that same person’s self-assessment,” Lambros notes. “A CISO who just told you their program is ‘efficient’ on a five-point scale isn’t going to turn around two questions later and rate their risk a nine. People stay consistent with themselves.”
+
+
+
+As for the factors identified, Lambros noted two clear groupings.
+
+
+
+“Leadership understanding, clear governance ownership, and CISO budget control all rise and fall together because they’re all downstream of a single decision somebody made in the C-suite or the boardroom,” Lambros says, adding that workload and staffing are closely aligned, “measuring whether the team has room to breathe.”
+
+
+
+The practicalities of preparedness
+
+
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, notes that, while the factors IANS identified may be indicators of organizational readiness, “readiness is not the same measure as security.”
+
+
+
+“They show whether the CISO has leadership understanding, budget control, and capacity to act, not whether the AI estate is under control,” Gogia says.
+
+
+
+Aman Mahapatra, chief strategy officer for Tribeca Softtech, a New York City-based technology consulting firm, echoes Gogia’s concerns.
+
+
+
+“A CISO with an informed board, clean governance ownership, budget control, and a fully staffed team will feel optimistic whether or not a single agent in production has bounded authorization,” Mahapatra says. “That is a useful map of how CISOs currently think. It is not a security roadmap, and the risk is that it gets read as one.”
+
+
+
+How a security team uses AI internally, however, provides practical indication of preparedness, Mahapatra suggests, because it “builds durable capability rather than favorable conditions.”
+
+
+
+And it’s something CISOs should emphasize, as it “has to be earned over quarters, which is exactly why it compounds,” he says. “Teams running AI in their own triage and detection tuning learn experientially where prompt injection bites and how agents fail under adversarial input, and that knowledge transfers directly to securing AI everywhere else.”
+
+
+
+Cybersecurity consultant Brian Levine, executive director of FormerGov, advises CISOs to ensure that AI governance ownership includes a focus on third-party risk. 
+
+
+
+“Governance is useless if you don’t actually know which models are being pulled into your environment and the risks associated with those models,” Levine says. “For a CISO, the risk isn’t just the AI you build. It’s the AI you inherit via vendors and unauthorized use.”
+
+
+
+Justin Greis, CEO of consulting firm Acceligence, says future AI risk preparedness hinges on gaining as much intelligence about AI system data and app interactions as possible.
+
+
+
+“The CISO needs to know what identity that agent is operating under, what systems it can reach, what information it can retrieve, what transactions it can initiate, what other agents or tools it can invoke, whether every material action is observable and whether the organization can immediately terminate its authority,” Greis says. “That starts looking much closer to managing a digital workforce than securing another software application.”
+
+
+
+Greis also was skeptical — along with various analysts and consultants — about whether a 41% optimism rate truly reflects what most enterprise CISOs are experiencing.
+
+
+
+“Almost half of the CISOs are optimistic about the AI security future? Who the heck are these people?” Greis asks. “The enterprise CISOs I talk with are white-knuckling their way through the fastest-moving security challenge of their careers.”
+
+
+
+And that begs the question of timing: Asked in April and May about their level of confidence, would those CISOs answer the same way given what they’ve seen since?
+
+
+
+It’s possible that the further advancement of Mythos-class models and high-profile rogue acts by agents may be shaking that optimism. But it’s also true that AI amplifies foundational security shortcomings, with organizational dysfunction chief among them. 
+",https://www.csoonline.com/wp-content/uploads/2026/09/4218433-0-75642000-1788769658-shutterstock_2426323967.jpg?quality=50&strip=all,https://www.csoonline.com/article/4218433/what-do-cisos-need-to-rest-easy-about-future-ai-risks.html,https://www.csoonline.com/feed/,2026-09-07T08:25:00Z,4,Cybersecurity
+JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies,"Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities.
+
+&#34;The payloads are protected with javascript-obfuscator, using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers,&#34; Check Point Research said in a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilF0_vQTn1mpUhivH8aX0vt8SA_Y5wkJqpHriuAdDQKVuWON7ZSzOAbWlwm50oxWlOJ5wMdzBjzy1wRVGNL6IqY8eYFUlIyayK6aiwcXK1fTO9JWZ9hG_QYrNnY_fdm2Lu7Z87p0JOR4WkYD2HNK-6WlcJQgxmUsG1k8k3ye5AT1ggaoiIDAm0kHxYQJ6V/s1600/chrome-cookies.jpg,https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html,https://feeds.feedburner.com/TheHackersNews,2026-09-07T07:53:04Z,5,Cybersecurity
 N-able patches max severity N-central flaw amid ongoing attacks,N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...],,https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/,https://www.bleepingcomputer.com/feed/,2026-09-07T06:17:41Z,4,Cybersecurity
 ChatGPT Astra is now rolling out to $20 Plus subscription,"OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there&#39;s no word on when free users will get access.. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/,https://www.bleepingcomputer.com/feed/,2026-09-07T01:15:43Z,0,Cybersecurity
 Seattle Times and Newsday sue OpenAI and Microsoft for infringement,"The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by […]",,https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft,https://www.theverge.com/rss/index.xml,2026-09-06T23:36:04Z,5,Tech
