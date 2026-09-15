@@ -1,4 +1,517 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution","Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.
+
+The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu8z5yuk0NLq0i2IvKx9dibCdw5at8BanYNBhjn665PLV0EanY_s0UV0D4D0wcPijyd5r8sS4eCMDwKdsVQ9GktnqcPRympe7ZqI7Bh8ZSBukLsxFSQ3-SFRb10ylKsDPl7tU2-M3w_E0eNSe_ytrRE-JZ62fvAExuQCawQJZFjYwArFC550Ri8mOQ1q1s/s1600/cisco-email.jpg,https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-09-15T06:11:11Z,14,Cybersecurity
+China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE,"A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.
+
+Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.
+
+&#34;The",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5aJxmkQeaEoRUyxjlnH4uMELX24ICkHN1UpJaF3kM181M-V32GMskTo1YCRAf-8m4rsHw0nEYM53AC1CAZekv6yOEfBkj1ZNxL3lWatq_F5Bpuwsvw7snHIiIz62EA1pX-bPaawFgIwbvtUH020WdVwEupWi_CkYJVDog_w0LVEnMMvRYo0D7giAdtuGK/s1600/chrome-windows.jpg,https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html,https://feeds.feedburner.com/TheHackersNews,2026-09-15T05:31:05Z,16,Cybersecurity
+Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation,"An unauthenticated attacker can exploit CVE-2026-76461 to execute arbitrary commands on the underlying OS with root privileges.
+The post Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation appeared first on SecurityWeek.
+",,https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/,https://www.securityweek.com/feed/,2026-09-15T05:18:51Z,12,Cybersecurity
+"For the first time, the US military confirms it has deployed weapons in orbit",&#34;The United States now has on-orbit space control weapons capable of defending the joint force.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/09/9718607-1152x648.jpg,https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/,https://arstechnica.com/feed/,2026-09-15T03:47:36Z,0,Tech
+"Jensen Huang took a call from Trump, and showed off something else, too","When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",,https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/,https://techcrunch.com/feed/,2026-09-15T01:50:48Z,0,Tech
+A maximum severity GitLab flaw could turn your CI/CD server into an attacker’s treasure trove,"
+		
+					  
+						
+
+
+
+
+Yet another security vulnerability has been discovered in GitLab infrastructure, this one a perfect 10 in severity.
+
+
+
+CVE-2026-85706, the second flaw GitLab has disclosed in just a month, is a maximum-severity vulnerability that allows attackers to read arbitrary files in a single HTTP request. The path traversal flaw results from improper confinement and lack of authentication enforcement in GitLab’s repository commits API, the company reported.
+
+
+
+Threat actors could exploit it “under certain conditions” and read arbitrary files (credentials, secrets, and other sensitive data) on vulnerable GitLab servers.
+
+
+
+The company has fixed the vulnerability, which impacts GitLab Community Edition (CE) and Enterprise Edition (EE), and has advised customers with public-facing self-hosted GitLab instances to patch their servers immediately, or remove public access.
+
+
+
+Experts say the flaw is alarming because GitLab’s DevSecOps platform is used by roughly 50% of the Fortune 100 and has more than 50 million estimated registered users.
+
+
+
+“GitLab is not simply a source-code repository,” noted Safayat Moahamad, advisory director at Info-Tech Research Group. In many enterprises, it is connected to build pipelines, deployment processes, application security workflows, and other trusted systems.
+
+
+
+As a result, unauthorized access to configuration files, secrets, or credentials on the GitLab server could “create consequences well beyond the affected instance,” he said.
+
+
+
+Don’t wait for the normal patch cycle
+
+
+
+GitLab has been a favorite hacker target of late: In January, it patched a high-severity flaw that allowed attackers possessing a target’s account ID to bypass two-factor authentication, and in August, it fixed a critical vulnerability that could give unauthenticated users the ability to make modifications inside code repositories or even completely delete them with a single HTTP request.
+
+
+
+The current maximum severity bug, CVE-2026-85706, was reported through GitLab’s HackerOne bug bounty program. It affected CE and EE versions 18.7 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2.
+
+
+
+The US Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-85706 to its Known Exploited Vulnerabilities catalog, noting that this type of vulnerability is a frequent attack vector for malicious cyber actors, and particularly poses significant risks to the federal enterprise; watchTowr Intel has reported that it is already observing “in-the-wild probes.” “Based on recent GitLab vulnerabilities, we know the time until indiscriminate exploitation is likely not far away,” it warned.
+
+
+
+This is not a vulnerability that organizations should leave for the normal patch cycle, Moahamad emphasized. “It offers an unauthenticated path to arbitrary files on a platform that frequently sits at the center of source code, build, and deployment workflows,” he said.
+
+
+
+Enterprises should patch immediately, hunt for suspicious repository-commits API activity, and investigate whether exposed files contained credentials or secrets that may now require rotation, he advised.
+
+
+
+Beyond patching, the watchTowr Intel team said defenders should try to identify exploitation attempts by hunting through log files for HTTP POST requests to “/api/v4/projects/{id}/repository/commits/” URIs containing “file.path” parameters.
+
+
+
+CI/CD platforms are critical trust infrastructure 
+
+
+
+Organizations running affected self-managed GitLab CE or EE instances should be most concerned, Moahamad noted. Risk increases where GitLab is connected to sensitive repositories, CI/CD pipelines, cloud environments, or production-deployment processes.
+
+
+
+The information and/or access that attackers could obtain depends on what the GitLab service can read and what organizations store on the server, he explained. It could include configuration files, secrets, credentials, and other sensitive server-side data. If those files happen to contain usable tokens, keys, or credentials, an attacker could attempt to access connected infrastructure
+
+
+
+“The flaw directly creates an unauthorized file access risk,” he said. Credential theft, lateral movement, source code exposure, and supply chain compromise are possible follow-on scenarios.
+
+
+
+Source code and CI/CD platforms must be governed as “critical trust infrastructure,” he said. While patching remains essential, resilience will depend on knowing where platforms can be exposed, limiting what they can access, detecting abnormal API behavior, and having a tested process for investigating and rotating credentials.
+
+
+
+David Shipley of Beauceron Security described two factors colliding to generate “maximum pain” for GitLab users.
+
+
+
+First is the vulnerability. “It’s a 10 for a reason: Unauthenticated read access to GitLab client source code,” he said.
+
+
+
+Second, this especially hurts because developers still have bad habits: way too much code continues to ship or is in production with embedded SSH keys, cloud secrets, tokens, and other valuable data that attackers can use to get into infrastructure, Shipley said.
+
+
+
+“So for attackers, you’ve got the classics,” he noted: Data exfiltration and extortion, ransomware, cloud infrastructure hijacking for crypto mining, and the stealing of AI tokens and infrastructure to enable other criminal activity.
+
+
+
+“This level of vulnerability is the code and cloud equivalent of being able to get the credit card number, expiry and security number,” Shipley said. “It opens up a world of criminal data shopping.”
+
+
+
+The bottom line: “Get those secrets out of production code and adopt modern coding authentication best practices,” he advised.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4221934-0-07329500-1789433588-Prompt-Injektionen-bei-GitLab-Duo-verbreiten-Schadcode.jpg?quality=50&strip=all,https://www.csoonline.com/article/4221934/a-maximum-severity-gitlab-flaw-could-turn-your-ci-cd-server-into-an-attackers-treasure-trove.html,https://www.csoonline.com/feed/,2026-09-15T00:52:55Z,28,Cybersecurity
+Valve is still figuring out ‘how and when’ to do Steam Deck 2,"Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today&#39;s Steam Frame - are we any closer to a next-gen Steam Deck handheld? Valve isn&#39;t saying so yet. The company is figuring out &#34;how and when we can deliver something like that,&#34; Valve designer Pierre-Loup […]",,https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when,https://www.theverge.com/rss/index.xml,2026-09-15T00:13:47Z,1,Tech
+Is Big Tech’s AI slowdown a safety pact or a cartel?,"When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to &#34;pace the frontier,&#34; signing on at least partially to a […]",,https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel,https://www.theverge.com/rss/index.xml,2026-09-14T22:59:41Z,5,Tech
+Apple Home’s new security camera features cost up to $60 a month,"With the public release of iOS 27 and tvOS 27, Apple Home is getting an injection of Apple Intelligence - but you&#39;ll have to pay more for it. Apple Intelligence for Home brings AI-powered video summaries to HomeKit Secure Video, so you can get short text descriptions of who and what compatible security cameras saw, […]",,https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription,https://www.theverge.com/rss/index.xml,2026-09-14T22:28:52Z,6,Tech
+RFK Jr. headlines sold-out anti-vaccine conference alongside Andrew Wakefield,The event is hosted by Kennedy&#39;s anti-vaccine group Children&#39;s Health Defense.,https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2154524764-1024x648.jpg,https://arstechnica.com/health/2026/09/rfk-jr-headlines-sold-out-anti-vaccine-conference-alongside-andrew-wakefield/,https://arstechnica.com/feed/,2026-09-14T22:06:24Z,0,Tech
+Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’,"Though Elon Musk and Sam Altman have supported Dario Amodei&#39;s calls to slow the pace of AI development, Jensen Huang seems to feel differently.",,https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/,https://techcrunch.com/feed/,2026-09-14T21:51:02Z,6,Tech
+Rocket Lab is seeing red about NASA's decision on a Mars spacecraft,&#34;NASA’s award decision appears to be inconsistent with the eligibility criteria.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/01/blue-origin-1152x648.jpg,https://arstechnica.com/space/2026/09/rocket-lab-is-seeing-red-about-nasas-decision-on-a-mars-spacecraft/,https://arstechnica.com/feed/,2026-09-14T21:32:22Z,1,Tech
+What execs and politicians are saying about slowing down AI development,"Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled &#34;We Must Pace the Frontier&#34; detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we&#39;ve compiled some of […]",,https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei,https://www.theverge.com/rss/index.xml,2026-09-14T21:21:42Z,5,Tech
+AI agents flood the Internet with slop-infused spam,"“Hello, I&#39;m an Al agent, a few days old, living on a small platform for agents.”",https://cdn.arstechnica.net/wp-content/uploads/2026/01/ai-slop-1152x648.jpg,https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/,https://arstechnica.com/feed/,2026-09-14T21:04:32Z,5,Tech
+Microsoft releases emergency Windows updates to fix RDS failures,"Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month&#39;s security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/,https://www.bleepingcomputer.com/feed/,2026-09-14T20:52:18Z,1,Cybersecurity
+Trump throws out power plant climate pollution rules,"The Environmental Protection Agency announced its plans today to kill any remaining standards on how much greenhouse gas pollution power plants are allowed to emit in the US. The move will only make electricity dirtier as AI, electric vehicles, and a revival of domestic manufacturing drive up power demand. The EPA&#39;s proposal today is a […]",,https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers,https://www.theverge.com/rss/index.xml,2026-09-14T20:45:00Z,5,Tech
+"OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple&#39;s Portrait Mode. ,,https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/,https://techcrunch.com/feed/,2026-09-14T20:44:14Z,6,Tech
+"Japan's Digital Agency says VPN flaw exposed 246,000 personnel records","Japan&#39;s Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",,https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/,https://www.bleepingcomputer.com/feed/,2026-09-14T20:36:02Z,4,Cybersecurity
+AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance,"Cornelis, a company creating networking technology to help AI chips communicate more effectively, announced Monday that it has raised $205 million.",,https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/,https://techcrunch.com/feed/,2026-09-14T20:07:37Z,5,Tech
+Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world,"Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast&#39;s All-In Summit. It&#39;s not the first time Huang has taken a call from the president during work, but this time he put Trump on speakerphone before a big crowd. During the call, the president launched into his […]",,https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit,https://www.theverge.com/rss/index.xml,2026-09-14T20:03:37Z,0,Tech
+"Homebrew 7.0.0 gets built-in GUI, better security controls","Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",,https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/,https://www.bleepingcomputer.com/feed/,2026-09-14T19:51:04Z,4,Cybersecurity
+Valve&#8217;s virtual reality plans hit actual reality,"The Steam Frame headset is here, and it may not surprise you: it was supposed to cost less than $1,059. &#34;We set out to come out with a device that would have been far more affordable, but the global RAM market, the global storage market have impacted us the same way they&#39;ve impacted everybody,&#34; Valve […]",,https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact,https://www.theverge.com/rss/index.xml,2026-09-14T19:48:06Z,0,Tech
+Musk drops Apple from antitrust suit but keeps gunning for OpenAI,Musk stops attacking Apple over ChatGPT integration but not OpenAI.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2256018320-1024x648.jpg,https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/,https://arstechnica.com/feed/,2026-09-14T19:45:13Z,6,Tech
+Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots,Wang Xingxing micromanaged Unitree to success—will his leadership style scale?,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Wang-Xingxing-Unitree-Robotics-1152x648.jpg,https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/,https://arstechnica.com/feed/,2026-09-14T19:38:46Z,0,Tech
+The best deals from Nintendo’s ‘customer appreciation’ sale,"As promised, Nintendo has marked down a wide variety of Switch games and accessories at Amazon, Best Buy, and Walmart, as well as its own digital storefront. Its “Customer Appreciation” sale is happening because of tariff-related refunds it received from the US government, and it ends on September 26th at 8:59 PM PT. Nintendo games […]",,https://www.theverge.com/gadgets/994892/nintendo-customer-appreciation-tariff-refund-deal-sale,https://www.theverge.com/rss/index.xml,2026-09-14T19:30:58Z,1,Tech
+"Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",This is also the last version of macOS to support Rosetta for Intel apps.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Apple-OS-27-1152x648-1789411862.jpg,https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/,https://arstechnica.com/feed/,2026-09-14T19:28:42Z,6,Tech
+AI leaders want to hit the brakes after years of reckless speed,"Safety is the watchword, but there could be ulterior benefits for the industry.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1482639221-1152x648-1789407457.jpg,https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/,https://arstechnica.com/feed/,2026-09-14T19:06:13Z,5,Tech
+Twitch extension with 30K installs exposes users’ OAuth tokens,"A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users&#39; Twitch OAuth session tokens to a commercial bot service. [...]",,https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/,https://www.bleepingcomputer.com/feed/,2026-09-14T19:03:51Z,0,Cybersecurity
+Hackers hijack HBO Max Reddit account to push malware in ClickFix ads,Hackers compromised HBO Max&#39;s official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...],,https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/,https://www.bleepingcomputer.com/feed/,2026-09-14T18:34:16Z,6,Cybersecurity
+Online hate researcher keeps hammering X despite deportation threat,US won’t back down from fight to deport technology researchers.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/headshot3-1152x648-1789406043.jpg,https://arstechnica.com/tech-policy/2026/09/online-hate-researcher-keeps-hammering-x-despite-deportation-threat/,https://arstechnica.com/feed/,2026-09-14T18:24:09Z,0,Tech
+Amazon Prime Video takes on TikTok with short-form news clips,Prime Video is adding on-demand local and national news clips as Amazon joins other streamers experimenting with short-form video to capture younger viewers.,,https://techcrunch.com/2026/09/14/amazon-prime-video-takes-on-tiktok-with-short-form-news-clips/,https://techcrunch.com/feed/,2026-09-14T18:14:29Z,0,Tech
+ClickFix attacks are tricking Mac and Windows users into hacking themselves,"If you clicked on a fake HBO Max ad on Reddit in the past week, you might have fallen victim to a rising &#39;ClickFix&#39; security threat.",,https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/,https://techcrunch.com/feed/,2026-09-14T18:08:43Z,0,Tech
+A new solar cell could generate electricity underwater,The trick isn&#39;t using perovskites—the trick is making them last.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2225167357-1024x648.jpg,https://arstechnica.com/science/2026/09/a-new-solar-cell-could-generate-electricity-underwater/,https://arstechnica.com/feed/,2026-09-14T18:03:16Z,0,Tech
+"3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials","An attacker was operating inside the network of 3BB, one of Thailand&#39;s largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.
+
+The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker&#39;s own tools and a list of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s1600/3bb.jpg,https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T18:01:49Z,6,Cybersecurity
+Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports,"A flaw in Telegram Desktop let a bot&#39;s message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12.
+
+In Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7YYT-Mf718wZ9kLasqkkPZ1Drw4dlLUMaHtOPuWRltuG7bOcA-d4bFr4GRmer0MMohBwgv7HFVFADi-EeDvIMcbEaJUiyn8t-iLxtR8PVRDWHLmxKnofrZgoPOH_RS7qaUkzd0Ery8Rr7oWlgoPJligCMSSywXmXdMHgzuER6M77sWisfdMOo_rqudmk/s1600/telehgram.jpg,https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T17:58:16Z,2,Cybersecurity
+Volkswagen’s crazy-efficient EV borrows an idea from Slate,"Volkswagen&#39;s new efficiency-minded halo car is almost twice as efficient as the most efficient production car, the Lucid Air.",,https://techcrunch.com/2026/09/14/volkswagens-crazy-efficient-ev-borrows-an-idea-from-slate/,https://techcrunch.com/feed/,2026-09-14T17:41:20Z,5,Tech
+TIFF 2026: the latest movie reviews from Toronto,"If you want an idea of what’s next in film, the Toronto International Film Festival is a good place to start. Every year TIFF features a huge range of features from around the world, and often some of them go on to be huge hits or awards contenders; the 2025 edition, for instance, included the […]",,https://www.theverge.com/entertainment/994834/tiff-2026-movie-reviews,https://www.theverge.com/rss/index.xml,2026-09-14T17:30:00Z,1,Tech
+Prehistoric builders transported Devil's Arrows 11 miles,"Isotropic analysis revealed the most likely source to be Brimham Rocks, not the nearby Plumpton Rocks.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/devilsarrow1-1152x648.jpg,https://arstechnica.com/science/2026/09/prehistoric-builders-transported-devils-arrows-11-miles/,https://arstechnica.com/feed/,2026-09-14T17:10:54Z,0,Tech
+"With iOS 27, I’m actually using Siri again","Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day",,https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/,https://techcrunch.com/feed/,2026-09-14T17:10:30Z,6,Tech
+macOS 27 is available now,"Apple released macOS 27 Golden Gate on Monday, which brings the new Siri AI assistant, Liquid Glass improvements, improved performance, and more. The update is compatible with all Macs with Apple Silicon, but not Intel Macs - Apple released its final big update for Intel-based Macs last year with macOS Tahoe. Siri AI is arguably […]",,https://www.theverge.com/tech/994818/apple-macos-27-golden-gate-available-now,https://www.theverge.com/rss/index.xml,2026-09-14T17:10:13Z,7,Tech
+macOS 27: new Siri takes on AI productivity apps,macOS 27 Goldgen Gate gets a new Spotlight Search with Siri integrated,,https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/,https://techcrunch.com/feed/,2026-09-14T17:10:09Z,6,Tech
+Apple releases iOS 27 with Siri AI overhaul,"Apple is now rolling out its iOS 27 update to compatible devices today, alongside the watchOS 27, iPadOS 27, and visionOS 27 updates. Siri AI is the headline feature across all four updates, the delayed AI-powered overhaul of the Siri assistant. Siri AI is available as a beta today for English-only devices, and Apple says […]",,https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update,https://www.theverge.com/rss/index.xml,2026-09-14T17:08:49Z,7,Tech
+Steam Frame: The Ars Technica review,"Valve&#39;s new $1,049 VR hardware tries to revive an abandoned VR &#34;revolution.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/09/steamframe-1-1152x648-1789396834.jpg,https://arstechnica.com/gaming/2026/09/steam-frame-the-ars-technica-review/,https://arstechnica.com/feed/,2026-09-14T17:00:07Z,2,Tech
+Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll,"Thanks to the launch of iOS 27, Daydream&#39;s app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.",,https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/,https://techcrunch.com/feed/,2026-09-14T17:00:00Z,1,Tech
+The Dell XPS 13 is the first real competitor to the MacBook Neo,"Dell&#39;s last XPS 13 was meant to be a farewell before the company sunset the entire XPS brand. But it was a bitter ending, and an overpriced one as well. Earlier this year, Dell resurrected the XPS name with the excellent (and very expensive) XPS 14 and 16. And now, it&#39;s reinvented the XPS 13 […]",,https://www.theverge.com/tech/994636/dell-xps-13-2026-intel-wildcat-lake-8gb-16gb-review,https://www.theverge.com/rss/index.xml,2026-09-14T17:00:00Z,0,Tech
+"I reviewed Valve’s Steam Frame, ask me anything","Hey! I&#39;m Sean Hollister, you might have seen me around this place a few times, and I just spent three weeks beta-testing the Steam Frame, Valve&#39;s hotly anticipated new don&#39;t-call-it-a-VR-headset that might also be an early glimpse at the future of games that run everywhere. At 4PM ET today (that&#39;s 1PM PT for West Coasters […]",,https://www.theverge.com/games/994535/steam-frame-ama-your-questions-answered,https://www.theverge.com/rss/index.xml,2026-09-14T17:00:00Z,1,Tech
+"Valve has ported Half-Life: Alyx to ARM, and it’s free with Steam Frame","Today, Valve is launching its first headset since 2019 - the new Steam Frame - while dodging our questions about whether it&#39;ll ever make another VR game to go with it. But buyers of the $1,059 gadget will get one flagship VR game anyhow, and it&#39;s great. Every Steam Frame comes with a copy of […]",,https://www.theverge.com/games/994454/valve-half-life-alyx-standalone-arm-port,https://www.theverge.com/rss/index.xml,2026-09-14T17:00:00Z,1,Tech
+"Valve’s Steam Frame costs $1,059","Valve is finally releasing its Steam Frame headset, which can run both flat and VR games locally and stream both kinds of games from your PC. The Steam Frame will start at $1,059. Valve will also offer a 1TB model that starts at $1,299. Every Steam Frame will come with a copy of Half-Life: Alyx, […]",,https://www.theverge.com/games/994376/valve-steam-frame-vr-headset-price-release-date,https://www.theverge.com/rss/index.xml,2026-09-14T17:00:00Z,0,Tech
+The Steam Frame is made for irresponsible hardware nerds like me,"For nearly three weeks, I&#39;ve been testing the limits of Valve&#39;s Steam Frame, the company&#39;s new wearable PC. At first glance, it&#39;s easy to write it off as a pricey headset that missed the VR craze. At $1,059 with 256GB of storage or $1,299 for 1TB, it costs two to three times as much as […]",,https://www.theverge.com/tech/994267/steam-frame-review,https://www.theverge.com/rss/index.xml,2026-09-14T17:00:00Z,1,Tech
+New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing,"Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server&#39;s memory, so the processor keeps reading old encrypted data as if it were current.
+
+The attack requires an attacker who already controls the server&#39;s software and can briefly access the machine to insert a small circuit",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IfzHWVZbbX-Jlw_WME4viVgnupLfVdkxzfZ0skzjQpB5I32f-nua5-Gt6UJGJ9-cwTyrHqaCxBFndtNkIFx_Tj9sf3LnxfrqlecJ0zh0N83i5YRdukZRTpTiUP-kVrkpF4gMJZN-tONZy7jjk2gqdq87ELsUHDlyjQDFCIX6Rioz3ljHItZ2IeLDqb-w/s1600/DDRop.gif,https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T16:58:42Z,4,Cybersecurity
+Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries,"A Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.
+
+&#34;Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,&#34; Acronis Threat Research Unit (TRU) said in an",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvj2lBIP05rWNCbhHf0wzhfJ35HBSL0rrr99VOwBa-AzBrvlz0hpopABC1zCHMLj6mqJTNSiij7cFcocgbHUyRbh1QV3V7OCWDLXn3fJ_fRJQxaj63BC8UOjjNlcBdwZ0jdD3zWDA6XpA3Xt2an-6vAE-kyo3sPOpjNa5tzWnntDxaeia-0zzKa-PuywC/s1600/gitea-hacked.jpg,https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T16:56:30Z,11,Cybersecurity
+New York Seizes a Dozen Celebrity Deepfake Websites,"In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.",,https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/,https://www.wired.com/feed/category/security/latest/rss,2026-09-14T16:50:00Z,0,Cybersecurity
+Netflix is making a Crazy Taxi movie and a Sonic show with ‘edge’,"Netflix has announced three new adaptations of Sega games: a Crazy Taxi film, a Sonic animated series &#34;built for kids who want to feel a little edge,&#34; and a live-action movie based on the upcoming Stranger Than Heaven from Yakuza developer RGG Studio. The Crazy Taxi movie will be the first project released, though it […]",,https://www.theverge.com/streaming/994861/netflix-crazy-taxi-sonic-stranger-than-heaven,https://www.theverge.com/rss/index.xml,2026-09-14T16:48:46Z,0,Tech
+"""Offensively cheap"": Solar power is looking up",Chinese-made panels on rooftops across the world are changing the facts of life for big utilities.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2284882889-1-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/offensively-cheap-solar-power-is-looking-up/,https://arstechnica.com/feed/,2026-09-14T16:29:18Z,0,Tech
+Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans,"The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles. ",,https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/,https://techcrunch.com/feed/,2026-09-14T16:27:53Z,5,Tech
+"Hackers target exposed Vite dev servers to steal AWS, Azure secrets",A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...],,https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/,https://www.bleepingcomputer.com/feed/,2026-09-14T16:15:58Z,0,Cybersecurity
+Waymo opens robotaxi service in Las Vegas,Las Vegas will be Waymo&#39;s 15th commercial robotaxi market. ,,https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/,https://techcrunch.com/feed/,2026-09-14T16:04:16Z,0,Tech
+WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution,"WordPress has announced it&#39;s launching an automated security review for every release of a plugin before it&#39;s distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.
+
+&#34;New plugins are reviewed before they enter the directory, but updates ship continuously after that,&#34; David Perez, WordPress Official Plugin",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s1600/wordpress-auto.jpg,https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T16:00:04Z,2,Cybersecurity
+How to make a small SUV slightly smaller: The 2028 Volvo XC40,The Swedish automaker gives its small SUV a sympathetic makeover.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/The_New_Volvo_XC40_Studio_Front_34-1152x648.jpg,https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/,https://arstechnica.com/feed/,2026-09-14T15:46:06Z,0,Tech
+Sources say Automattic’s board is out after failed attempt to oust CEO Matt Mullenweg,"Automattic’s board is out, days after its members voted to put chief executive Matt Mullenweg on leave, sources tell TechCrunch.",,https://techcrunch.com/2026/09/14/sources-say-automattics-board-is-out-after-failed-attempt-to-oust-ceo-matt-mullenweg/,https://techcrunch.com/feed/,2026-09-14T15:34:31Z,5,Tech
+Volkswagen’s slippery new EV breaks a bunch of efficiency records,"No, that&#39;s not a Tesla Cybercab. That&#39;s Volkswagen&#39;s Mission Efficiency, the world&#39;s slipperiest electric vehicle. The near-production 2+2 seat electric coupe prototype was built on VW&#39;s MEB+ platform, incorporating front-wheel drive components from the upcoming ID. Polo and ID. Cross models. True to its name, the mission of Mission Efficiency is to break records. With […]",,https://www.theverge.com/transportation/994670/volkswagen-mission-efficiency-ev-aero-drag-record,https://www.theverge.com/rss/index.xml,2026-09-14T15:12:09Z,0,Tech
+Google’s Pixel 11 is cheaper ahead of iPhone 18 Pro launch,"Apple’s iPhone 18 Pro will release this Friday, September 18th, and it’s tough to see it as just a coincidence that Google’s latest Pixel phones are discounted. The Pixel 11 Pro carries the biggest discount, with its fog, olive, and obsidian color schemes selling for around $1,007 at Amazon, almost negating this year’s $100 price […]",,https://www.theverge.com/gadgets/994737/google-pixel-11-pro-10a-amazon-fire-tv-cube-game-deal-sale,https://www.theverge.com/rss/index.xml,2026-09-14T15:10:27Z,1,Tech
+Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?,"If you&#39;re building an AI company, the question isn&#39;t whether foundation models will continue to evolve. It&#39;s whether your company will continue creating value as they do. The greatest risk isn&#39;t building a weak product — it&#39;s building a strong one that eventually becomes someone else&#39;s feature. You don’t want to miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026. Register before Sept 25 to save up to $200.",,https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/,https://techcrunch.com/feed/,2026-09-14T15:00:00Z,6,Tech
+Adam Conover explains how YouTube ruined everything,"Today, I’m joined by comedian, podcast host, and YouTuber Adam Conover. Adam is a familiar face to anyone who’s spent time on the internet. He got his start, like so many successful comedy writers, at CollegeHumor back in the day. That was before transitioning into cable TV with Adam Ruins Everything, then onto Netflix, and […]",,https://www.theverge.com/podcast/991471/adam-conover-youtube-tv-media-union-labor-ai,https://www.theverge.com/rss/index.xml,2026-09-14T15:00:00Z,5,Tech
+"US military has ‘on-orbit’ space weapons, Air Force Secretary reveals","Experts said the acknowledgment may lead to overt action by China, Russia.",,https://www.defenseone.com/defense-systems/2026/09/us-military-has-orbit-space-weapons-air-force-secretary-reveals/415964/,https://www.defenseone.com/rss/all/,2026-09-14T14:58:11Z,0,Defense
+Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work,"Fathom said that it has over 400,000 monthly active users",,https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/,https://techcrunch.com/feed/,2026-09-14T14:45:44Z,5,Tech
+"⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits","AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination.
+
+The rest of the week is more familiar: old bugs still working, fresh exploit chains, exposed systems, weak defaults, and simple paths that should have been harder to abuse. A few of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgubijVX34VFFHDXzT2j2iTTWrHaElVXjylLKHKAjeSU59q3jTZvRM_O35zw5QOCnrT8ejrYHTG-kjYyt0-R127H_2qEgIWJNuKynEL1FcM9JLyPbsJPY5OZW9rrkJpRprrxpWP8oAGZA2ARZ3xg_0DvBw1I2wbIoXKItcVEjNXQH-CXCMRyuqp1u53ALj7/s1600/recap-cyber.jpg,https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T14:40:34Z,6,Cybersecurity
+F1 in Madrid: Like Monaco but twice as long and none of the glamour,"Formula 1’s latest venue might be fun to drive, but the race was processional and dull.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2295049430-1152x648.jpg,https://arstechnica.com/cars/2026/09/f1-in-madrid-like-monaco-but-twice-as-long-and-none-of-the-glamour/,https://arstechnica.com/feed/,2026-09-14T14:32:35Z,0,Tech
+Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026,"Not long ago, bringing an extinct species back to life belonged to science fiction. Today, it’s the mission of a billion-dollar startup. Advances in artificial intelligence, genetics, and computational biology are changing what’s possible in conservation research, raising questions that extend far beyond the laboratory. If technology can help revive extinct species, should it? And […]",,https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-14T14:30:00Z,13,Tech
+Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development,"China’s Ministry of Foreign Affairs responded to a question about Amodei’s essay by saying that all parties should work together on AI.
+The post Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development appeared first on SecurityWeek.
+",,https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/,https://www.securityweek.com/feed/,2026-09-14T14:28:26Z,1,Cybersecurity
+"Why Patch Automation Needs Brakes, Not Just an Accelerator","Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",,https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/,https://www.bleepingcomputer.com/feed/,2026-09-14T14:01:11Z,1,Cybersecurity
+5 days left to exhibit at TechCrunch Disrupt 2026,"The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",,https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/,https://techcrunch.com/feed/,2026-09-14T14:00:00Z,1,Tech
+A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps,Former Spotify exec&#39;s company releases experimental &#34;singles&#34; that involves users in music making.,,https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/,https://techcrunch.com/feed/,2026-09-14T13:55:00Z,4,Tech
+A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting,Former Spotify exec&#39;s company releases experimental &#34;singles&#34; that involves users in music making.,,https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting/,https://techcrunch.com/feed/,2026-09-14T13:55:00Z,9,Tech
+The four-hour-long Elon Musk documentary might be preaching to the choir,"It makes sense that Musk is a long film. The latest from Alex Gibney, who has previously directed documentaries about Theranos and Steve Jobs, is an impressively thorough retelling of the story of Elon Musk, from his early days as a dot-com millionaire to &#34;taking a wood chipper&#34; to vital US government departments. In order […]",,https://www.theverge.com/entertainment/994596/musk-documentary-review-tiff-2026,https://www.theverge.com/rss/index.xml,2026-09-14T13:50:00Z,5,Tech
+New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate,"Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims.
+The post New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate appeared first on SecurityWeek.
+",,https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/,https://www.securityweek.com/feed/,2026-09-14T13:31:15Z,7,Cybersecurity
+"Personal, Financial Info Exposed in Revolut Data Breach","The company unintentionally disclosed users’ information to a third party impersonating a government agency.
+The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/,https://www.securityweek.com/feed/,2026-09-14T13:03:35Z,5,Cybersecurity
+The Race to Control AI and Protect What Makes Us Human,"As researchers warn that misaligned AI could threaten human survival, even beneficial systems may erode the critical thinking that defines our humanity.
+The post The Race to Control AI and Protect What Makes Us Human appeared first on SecurityWeek.
+",,https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/,https://www.securityweek.com/feed/,2026-09-14T13:00:00Z,4,Cybersecurity
+Microsoft says ‘people matter more than AI’ following safety concerns,"Microsoft is publishing a 37-page &#34;humanist AI code of conduct&#34; today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify […]",,https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct,https://www.theverge.com/rss/index.xml,2026-09-14T13:00:00Z,5,Tech
+Webinar: How malicious OAuth apps can lead to Google Workspace breaches,Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...],,https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/,https://www.bleepingcomputer.com/feed/,2026-09-14T12:15:23Z,8,Cybersecurity
+AI Changed the Exposure Problem. Validation Needs to Change With It.,"There&#39;s a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action.
+
+In the first half of 2026, a whopping 35,853 CVEs were published, roughly 49% more than in the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid_ratIPK3F0IGyzyDTTPaV26Nnh4gQoFjS0ejR49J_tbGb92GgukT-Mnr9xv9mK7h0QSdeXujxiEtD0AqVKNmrKoG9BMEuut7CB1368iyt3Gr6Xu5mAdkDsUQC86K9GZ-Uw6qfPvYYr9BUvHzn014_rzQeMS5dCVXEwkRLs3eViylo5ChmZs6QQygxE4/s1600/picus-main.jpg,https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T11:58:00Z,5,Cybersecurity
+Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution,"The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely.
+The post Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution appeared first on SecurityWeek.
+",,https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/,https://www.securityweek.com/feed/,2026-09-14T11:51:29Z,7,Cybersecurity
+Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe,An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.,,https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/,https://www.wired.com/feed/category/security/latest/rss,2026-09-14T11:00:00Z,0,Cybersecurity
+What happens after a town de-Flocks,"From Florida to Washington state, local governments across the country are canceling their contracts with Flock, the company behind the controversial AI-enabled license plate readers, in response to public outcry. But ending the contracts doesn&#39;t necessarily mean the cameras will come down immediately - or that the information they&#39;ve gathered will be deleted anytime soon. […]",,https://www.theverge.com/policy/994414/cities-ditching-flock-cameras-controversy,https://www.theverge.com/rss/index.xml,2026-09-14T11:00:00Z,6,Tech
+CISOs Race to Control AI Agents Without Destroying Their Value,"Security leaders are struggling to modernize cyber hygiene and prevent over-privileged agents from causing unintended harm.
+The post CISOs Race to Control AI Agents Without Destroying Their Value appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/,https://www.securityweek.com/feed/,2026-09-14T10:30:00Z,1,Cybersecurity
+Lockheed’s Skunk Works plans to build four more of its multirole combat drones,"The firm’s top secret research arm shared new Vectis images, but few key details.",,https://www.defenseone.com/business/2026/09/lockheeds-skunk-works-plans-build-four-more-its-multirole-combat-drones/415958/,https://www.defenseone.com/rss/all/,2026-09-14T10:00:00Z,0,Defense
+Telus Warns Customers of Account Breaches,"Stolen credentials were used in a multi-month campaign to access subscriber personal data and billing records.
+The post Telus Warns Customers of Account Breaches appeared first on SecurityWeek.
+",,https://www.securityweek.com/telus-warns-customers-of-account-breaches/,https://www.securityweek.com/feed/,2026-09-14T09:56:57Z,5,Cybersecurity
+Microsoft: September updates cause RDS failures on Windows Server,Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/,https://www.bleepingcomputer.com/feed/,2026-09-14T09:50:25Z,1,Cybersecurity
+Three JFrog Artifactory Flaws Exploited for Backdoor Deployment,"The vulnerabilities can allow attackers to bypass authentication and elevate their privileges to administrator.
+The post Three JFrog Artifactory Flaws Exploited for Backdoor Deployment appeared first on SecurityWeek.
+",,https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/,https://www.securityweek.com/feed/,2026-09-14T09:27:29Z,7,Cybersecurity
+What the 3M ChatGPT case reveals about AI governance,"
+		
+					  
+						
+
+
+
+
+One detail in the Watson Grinding explosion litigation involving 3M changed the way I think about prompt governance. An engineering expert retained by 3M had been using ChatGPT while developing his analysis, and among the conversations that later surfaced was a prompt telling the system to “show how 3M is 0% at fault.” The reporting does not establish that 3M instructed the expert to use ChatGPT or directed him to enter that prompt, and that distinction matters. What matters just as much is what happened when the underlying AI interaction itself became relevant.
+
+
+
+Plaintiffs’ attorney Will Moye described questioning the expert during his deposition after encountering material that appeared to have been generated with ChatGPT. According to Moye, the deposition went off the record while he demanded the underlying prompts. Roughly three hours later, more than 350 pages of previously unproduced ChatGPT material were provided. The issue was no longer limited to what appeared in the expert’s finished report. The conversation behind it had become part of the inquiry.
+
+
+
+That immediately felt familiar to me. I have spent much of my career working in environments where, when something goes wrong, or a decision is challenged, the final document is rarely enough to explain what happened. You reconstruct the story from the surrounding evidence: an approval, a system log, a ticket, a message that changed the direction of the work, or a process step that was supposed to happen but did not. The official artifact may tell you where the process ended, but the surrounding trail often provides the context needed to understand how it got there. AI is now adding another layer to that trail.
+
+
+
+The prompt can become part of the decision record
+
+
+
+For years, enterprise conversations about generative AI risk have focused heavily on inputs. Organizations have warned employees not to paste proprietary code into ChatGPT, upload sensitive customer information, expose personally identifiable information or enter protected intellectual property into public AI tools. Those controls are necessary, and my own experience in regulated technology environments reinforces why organizations started there. But protecting the input addresses only part of the problem. AI interactions can also preserve information about the process that produced the final answer.
+
+
+
+Consider an engineer using an AI assistant to compare two architectures and repeatedly changing assumptions until the preferred option wins. A procurement analyst could ask AI to construct the strongest rationale for a vendor that has effectively already been selected. A manager could use it to help document an employment decision after that decision has been made, while an auditor or compliance professional might continue revising prompts until a control deficiency sounds less serious. None of those scenarios requires the AI to hallucinate or malfunction. The technology could perform exactly as designed while the interaction captures assumptions, preferred outcomes, rejected alternatives and lines of inquiry that never appear in the final artifact.
+
+
+
+That does not mean a prompt proves someone’s reasoning or intent. People use AI to test arguments, play devil’s advocate, challenge their own assumptions or explore positions they may ultimately reject. A single prompt taken out of context can therefore be misleading. But that is also why the interaction history may matter: it can provide evidence or context about how an analysis developed that the polished output alone does not provide.
+
+
+
+The American Bar Association has already examined AI chat histories as an emerging source of discovery material, in part because those conversations can preserve questions, abandoned theories and lines of reasoning that never make their way into a finished work product. From an operational-governance perspective, I see something broader than a discovery issue. AI interactions can become part of the evidence surrounding a consequential decision, yet many organizations have not decided when to retain that evidence, who owns it or how to govern it.
+
+
+
+We protected the input but overlooked the lifecycle
+
+
+
+The Watson Grinding case changed one of the questions I now ask when I think about enterprise AI. I still want to know what information an organization is giving the model, but I also want to know what record is being created while people use it. That second question moves the conversation beyond acceptable-use policies and into information lifecycle management.
+
+
+
+An AI interaction does not necessarily end when the answer appears on the screen. There is the conversation itself, the generated output, how the material is shared, where it is stored, how long it remains available, who can retrieve it and what happens when someone eventually deletes it. Most organizations have spent far more time thinking about the beginning of that lifecycle than the end.
+
+
+
+Even something as ordinary as a shared conversation illustrates the problem. OpenAI’s guidance on ChatGPT shared links explains that anyone with a shared link can view the associated conversation. OpenAI removed the separate search-engine discoverability option for shared conversations in 2025, but the broader governance issue remains: information created inside what feels like an individual workspace can become accessible outside it through an ordinary product feature. Multiply that across an enterprise where employees may be using ChatGPT, Copilot, Claude, Gemini and specialized AI applications with different retention settings, administrative controls, logging capabilities and sharing options, and the challenge quickly extends beyond basic AI acceptable use.
+
+
+
+I do not think the answer is to preserve everything. One lesson I have learned from working with governance and operational processes is that more documentation does not automatically create more control. Organizations can accumulate enormous amounts of evidence and still struggle to determine what matters, who owns it or how it should be used. Saving every prompt indefinitely would create its own privacy, security, discovery and operational risks.
+
+
+
+The better approach is to let the consequence of the work drive the level of governance. An employee asking AI to make an email clearer should not be treated the same way as an engineer using AI to support a safety analysis, an auditor evaluating a control, a manager making an employment decision or an executive relying on AI to inform a major business decision. As the potential consequence increases, so does the need to understand AI’s material role in the process.
+
+
+
+For higher-risk uses, that may mean retaining enough provenance to reconstruct what happened: the material prompts and outputs, the AI system used, evidence of meaningful human review and enough context to understand how AI contributed to the final decision. The goal is not to archive every iteration of someone’s thinking. It is to preserve enough of the process to explain what happened when accountability matters.
+
+
+
+That also requires clear ownership. AI teams should not be making records-management decisions on their own, and legal or compliance teams should not discover how an AI platform retains information only after litigation or an investigation begins. CIOs need defined responsibility across technology, records management, legal, security and compliance for deciding what is retained, what intentionally expires, what can be shared, what can be recovered and how higher-risk AI interactions fit into legal holds or investigations.
+
+
+
+Those principles may sound more like information governance than prompt engineering. That is the point. As AI moves deeper into consequential enterprise work, the governance challenge is no longer confined to whether someone used an approved model or entered prohibited information. Organizations also need to understand what evidence the interaction itself can create.
+
+
+
+Could you reconstruct the decision a year later?
+
+
+
+One habit I have developed working around operational systems is to think backward from the future investigation. I do not assume that every process will fail, but asking what evidence would be needed six months or a year later forces a clearer conversation about accountability. If someone challenged a decision after the fact, could the organization establish what information was available, what role AI played, what the human accepted or rejected, and who ultimately owned the decision?
+
+
+
+The legal treatment of AI conversations is still developing, and not every prompt will automatically become discoverable evidence. Privilege, work-product protection, relevance, possession, proportionality and the circumstances of a particular case can all affect whether material must be produced. A New York court, for example, recently rejected an effort to obtain a litigant’s ChatGPT records, finding the material at issue was protected legal research. That uncertainty should not encourage organizations to ignore the issue. It should encourage them to make deliberate governance decisions before an auditor, regulator, investigator or opposing counsel forces the question.
+
+
+
+The Watson Grinding litigation did not convince me that every AI prompt is a record. It convinced me that organizations need to know when an AI interaction becomes consequential enough to treat like one.
+
+
+
+My colleague Josh Copeland, a cybersecurity professional, put the accountability risk memorably: “AI won’t testify for you; it won’t do jail time for you; it won’t pay your fines; but it will absolutely testify against you.”
+
+
+
+That leaves one question I think every organization using AI in consequential work should be able to answer: If this decision were challenged a year from now, could we reconstruct how it was actually made?
+",https://www.csoonline.com/wp-content/uploads/2026/09/4221273-0-17135800-1789376644-shutterstock_2240464447.jpg?quality=50&strip=all,https://www.csoonline.com/article/4221273/what-the-3m-chatgpt-case-reveals-about-ai-governance.html,https://www.csoonline.com/feed/,2026-09-14T09:00:00Z,5,Cybersecurity
+"Revolut discloses data breach exposing financial info, passports",Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...],,https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/,https://www.bleepingcomputer.com/feed/,2026-09-14T08:48:24Z,7,Cybersecurity
+ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks,"The flaw allows attackers to send files and execute them without authorization through an active remote session.
+The post ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/,https://www.securityweek.com/feed/,2026-09-14T08:25:14Z,11,Cybersecurity
+How to level up from security pro to security leader,"
+		
+					  
+						
+
+
+
+
+There comes a time in a cybersecurity professional’s life when being a tech expert is no longer enough. The next step may lead to management or the C-suite, but the goal demands a different kind of expertise.
+
+
+
+Technical skills will continue to serve a new CISO well, but the role demands additional capabilities built on that foundation. That may mean prioritizing investments amid tight budgets or helping business leaders weigh the security tradeoffs behind a product launch.
+
+
+
+“The strongest CSOs and CISOs are the ones who can confidently translate technical risk to business priorities,” says Chad LeMaire, CISO at ExtraHop. Without that ability, technical depth can become “a career ceiling” instead of a competitive advantage. “Presenting solely as the most technically skilled person in the room may actually hold CISOs back,” LeMaire adds.
+
+
+
+An analysis of CISO job postings found that employers value education in STEM or business fields and vendor-neutral certification, but they also want to see strong communication skills and knowledge of regulatory frameworks. In contrast, job listings placed little emphasis on mastery of particular security platforms, coding ability, or security clearances.
+
+
+
+The study also highlighted CISO responsibilities and requirements. Taken together, they portray the CISO as a business strategist and organizational leader, not the person expected to handle day-to-day technical work.
+
+
+
+The CISOs must build trust, communicate clearly, and collaborate without slipping into the “IT guy” posture, says John Harbaugh, CISO at BlueVoyant.
+
+
+
+“In my career, I’ve been very successful with the following: have a positive attitude especially under stress, assume best intent from people you’re engaging with, and always take the high road, especially when trying to collaborate on solutions,” he says. “Cheesy, but I’ve found it to be super effective across my super diverse business and mission career.”
+
+
+
+Other effective skills are knowing how to read the room, keeping an open mind, and finding a good mentor. All these can help aspiring CISOs navigate uncertainty and build trust.
+
+
+
+Show up like you deserve to be there
+
+
+
+Aspiring CISOs must enter the room as leaders helping the business goals, not as obstacles standing in the way. “Show up in every room like you deserve to be there,” says LeMaire. “The more conversations you listen in to, the more you can ladder security goals to align with overall business objectives and also align with legal, business development, employee engagement, and other departments.”
+
+
+
+That extra knowledge can also help a future CISO take ownership of problems and use their technology background to develop solutions. Then, they need to explain those solutions clearly, so others can accept them.
+
+
+
+“You want someone who looks professional and, most importantly, acts and speaks professionally,” says Ira Winkler, CEO and program director of CruiseCon. “People need to present confidently. They need to speak concisely.”
+
+
+
+But while it’s important to look professional, overdoing it can be a mistake. “I was on shift work at NSA, and one entry-level analyst always wore a suit to work,” Winkler says. “He was dressing for the role he wanted.” Most managers, though, saw it as an attempt to curry favor, while his peers found it alienating.
+
+
+
+Colleagues and friends can help an aspiring CISO spot habits and blind spots. When Winkler tried to raise venture capital for his company, he had little experience with the process, so he listened closely to his advisors.
+
+
+
+“The investment banker I was working with told me that I need to stop using the filler word honestly,” he said. “It sends people the subliminal impression that I was otherwise lying.”
+
+
+
+Be a good politician
+
+
+
+“CISOs need to be able to articulate security needs and investments in a way that will resonate with various leaders and audiences,” LeMaire says. “Leading CISOs will be the ones who explore how security and technical decisions are connected to business goals and objectives.”
+
+
+
+Harbaugh agrees. “A CISO needs to know how to be both a good politician and a good business partner,” he adds.
+
+
+
+Another skill is building relationships across departments. CISOs depend on developers, operations teams, legal, finance, and business leaders to manage risk, so influence often matters as much as authority.
+
+
+
+“You can be an exceptional security specialist, but if you cannot build trust with those groups, influence decisions, and create shared accountability, you will struggle in a CISO role,” says Anant Adya, executive vice president and head of Americas delivery at Infosys.
+
+
+
+Owning mistakes and sharing the lessons learned can help build trust. “That combination of accountability, judgment, and business maturity can actually strengthen the candidacy,” LeMaire says.
+
+
+
+In fact, he advises aspiring CISOs to avoid looking “too perfect” during an important conversation or the job interview. “There is no such thing as a perfect candidate and the strongest CISO candidates are often the ones who can clearly say what they got wrong,” LeMaire says.
+
+
+
+Never forget the importance of the business
+
+
+
+Security professionals with technical backgrounds can easily become absorbed in technical details, but the CISO role demands a broader perspective. They need to understand how the company really operates and how cybersecurity decisions impact the business.
+
+
+
+“I have become a major advocate of getting an MBA,” Winkler says. “People need to understand business. If they want to be a peer of the CFO, CIO, COO, etc., they should have the same educational base.”
+
+
+
+An MBA is not the only option for becoming business-fluent. Security leaders can also build it by managing budgets, joining complex projects, or gaining experience in product, operations, and risk roles. What matters is understanding how the company makes money.
+
+
+
+Have an open mind and keep learning
+
+
+
+Curiosity is not optional for aspiring CISOs. Technology is changing quickly, so they need to stay up to speed. “AI agents, APIs, and machine identities are growing quickly inside enterprises,” Adya says. “Knowing how to govern what they can access and do will become a valuable skill for future security leaders.”
+
+
+
+A great CISO has experience outside cybersecurity. “Spend time in data, cloud, software engineering, or operations,” Adya adds. “It may feel like a detour but understanding how technology is built and used will make you a stronger security leader.”
+
+
+
+Harbaugh seconds this. He advises aspiring CISOs to approach difficult problems without preconceived answers and to stay enthusiastic about learning new technologies and supporting the business. “Bring a passion, not just a here-for-the-paycheck mentality,” he says.
+
+
+
+Find a mentor. Or two
+
+
+
+More than three decades ago, at the start of his career, LeMaire was fortunate to meet two people who are still his mentors. “One of the biggest lessons I learned is that leaders develop leaders,” he says. “My two mentors were leaders who taught me how to lead, expected me to lead, then expected me to teach others how to lead.”
+
+
+
+Because of their mentorship, he was able to have a career as well. “I owe a debt of gratitude and can only hope I was able to do the same for others,” he says.
+
+
+
+Draft a career plan, but don’t obsess about it
+
+
+
+Ambitious security experts can easily become preoccupied with promotions and future titles. But sometimes an excessive focus on what lies ahead can create unnecessary anxiety and distract from what truly drives success: continuous learning, resilience, adaptability, and delivering meaningful outcomes.
+
+
+
+“True leadership growth comes not from meticulously scripting a long-term career path, but from excelling in the role you hold today,” Adya says. “I embraced this mindset and chose to focus on doing the right things, taking on challenges and creating impact wherever I was.”
+
+
+
+Focus on the work itself, rather than following a rigid career plan, and the right opportunity will follow. “This approach played a significant role in my growth trajectory and helped open doors to experiences and leadership opportunities I could not have planned for in advance,” Adya adds.
+
+
+
+See also:
+
+
+
+
+What the CISO role will look like in 2029
+
+
+
+CISOs reshape their roles as business risk strategists
+
+
+
+How CISOs can rise to the business resilience challenge
+
+",https://www.csoonline.com/wp-content/uploads/2026/09/4221303-0-93394300-1789374451-shutterstock_2242410175.jpg?quality=50&strip=all,https://www.csoonline.com/article/4221303/how-to-level-up-from-security-pro-to-security-leader.html,https://www.csoonline.com/feed/,2026-09-14T08:25:00Z,4,Cybersecurity
+Microsoft: September updates break audio on some Windows PCs,Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/,https://www.bleepingcomputer.com/feed/,2026-09-14T08:08:16Z,1,Cybersecurity
+"Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users","A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.
+
+The extension, named &#34;Twitch Enhanced Viewer | JeetBot,&#34; lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store -
+
+
+  Chrome -",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1600/twitch.jpg,https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html,https://feeds.feedburner.com/TheHackersNews,2026-09-14T07:24:39Z,0,Cybersecurity
 CISA: Hackers now exploit max severity GitLab flaw in attacks,The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...],,https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-09-14T07:06:27Z,11,Cybersecurity
 "Unvaccinated Pennsylvania woman died of measles complications, coroner says",The 40-year-old unvaccinated woman reportedly had underlying health conditions.,https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-930111236-1152x648.jpeg,https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/,https://arstechnica.com/feed/,2026-09-13T21:56:52Z,0,Tech
 Insight Partners’ Devin Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic,"Insight Partners&#39; Devin Parekh opens up about losing Legora to General Catalyst, why he&#39;s fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",,https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/,https://techcrunch.com/feed/,2026-09-13T21:30:00Z,5,Tech
