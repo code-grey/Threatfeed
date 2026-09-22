@@ -1,4 +1,893 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor,"Malware already running on a Mac can quietly take over Meta&#39;s Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21.
+
+It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
+
+The flaw is in",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjZLVTtI-AEbGRQqJ7aGa0tbXedD5L6P7VCEKIOGXOBZe7S3mhA-PnoHVEoZf3LBMzhcZSIX5sCTveGyZ-8qAqyAVaMXfEoxPL70OIESq-Iolqjkv8GuDjcVs1Jgh3k3SoOOGPDWFr6Lmk83avLqG1whcaiDclv5waXYhCuEqXk569wfwV8Ilrmvv3IKE/s1600/muse.jpg,https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html,https://feeds.feedburner.com/TheHackersNews,2026-09-22T06:33:57Z,7,Cybersecurity
+WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session,"A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site&#39;s server.
+
+WordPress fixed the flaw, tracked as CVE-2026-93485 and dubbed &#34;Comment2Shell,&#34; on September 17 in version 7.1.1 and told site owners to update right away. There is",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBWV1XNsTGB5ImLNRGJTygk0-82k7xTHmuOr7lTivRRDcF83ddu4jLOpdkQYMq7VB3j5SMpA9zBRvM3-SUkDLBhN5-j-Z6UltcTnVfXOxHDzfBYWiw_fRiRefAYa1XSiFu5JMzb06dwqV4PhKaZkPt3vKZFHQjdVFUgbr2B3nOEoFs_qHe6zwGayHM2I/s1600/wordpress-comment.jpg,https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html,https://feeds.feedburner.com/TheHackersNews,2026-09-22T06:03:14Z,0,Cybersecurity
+Morphotonics raises €40M to expand its display tech into data centers,"Deeptech company Morphotonics raises €40M from investors including 3M Ventures, Innovation Industries, BOM, and Invest-NL. ",,https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/,https://techcrunch.com/feed/,2026-09-22T06:00:00Z,10,Tech
+Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+
+The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9eouOxeSvnYBzl5A8tWvEQ4w_CCx94YcFmpBAXXqHWNqvFBWj4vOgeZdHYAf0MU-chY63biCpHDnzRC0pwR7s3pTdQAWwPAVI-olRZuBwG0ilgAxnIY_1KofE3cpuA8lKOE01U26EFHYE_nLrXYXOWl47G1KaoFTZ5UOO81Cw0Kb20pFSfAc1b9i9E_K/s1600/veeam.jpg,https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html,https://feeds.feedburner.com/TheHackersNews,2026-09-22T05:31:59Z,9,Cybersecurity
+"US Proposes AI Incident Alert System in Talks With China, Bessent Says","Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.
+The post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/,https://www.securityweek.com/feed/,2026-09-22T02:01:24Z,6,Cybersecurity
+"Gemini broke into 3 companies, but Google kept it quiet because ‘no damage was done’","
+		
+					  
+						
+
+
+
+
+A Google Gemini AI agent broke into three companies in July, guessing the credentials for one and discovering the credentials for the second two in a public repository, Google confirmed on Monday.
+
+
+
+But the more interesting background to the story, which was broken by The Wall Street Journal on Friday, is that the July incident stemmed from a series of cybersecurity tests performed by security research firm Irregular on behalf of four AI giants: Google, Anthropic, OpenAI and Meta. All four companies experienced agent misbehavior resulting in cybersecurity incidents, but of the four, only Google never publicly disclosed its agent’s activities. Indeed, it didn’t reveal the breaches at all until contacted by a WSJ reporter.
+
+
+
+Irregular described the incident in August, around the same time as Meta published its version and Anthropic and OpenAI revealed theirs.
+
+
+
+The Journal story noted, “the hacks occurred while the model was participating in a capture the flag exercise conducted on infrastructure belonging to Irregular to test the model’s cybersecurity capabilities. It was tasked with retrieving information from software operated by a fictional company inside the testing environment. The fictional company shared the same name as a real company. Although the model wasn’t intended to be able to get online, internet access was unintentionally made available, according to Irregular.”
+
+
+
+The three small companies whose systems were violated had, according to one source familiar with the testing, “almost no [cybersecurity] infrastructure.” In short, none of the three was in a position to put up much of a fight when the Gemini agent successfully broke in.
+
+
+
+According to a Google official, who asked to not be identified, the names of the second two victims were sufficiently similar to the name of the first company that the agent got confused when it visited a public repository and found credentials to access them. It thought that they were all for the same organization. 
+
+
+
+Most analysts and consultants focused not on the hacks themselves, but on the reasons Google gave for being silent on the successful attacks. 
+
+
+
+Google said that the agents stopped as soon as they realized the victim companies were real businesses. “No harm was caused,” the Google source said, so “there was not an issue of model misalignment.” 
+
+
+
+The source confirmed the Wall Street Journal story, which said, “Google compared the episode to a ‘bug bounty’ program in which hackers are rewarded for finding and reporting security vulnerabilities to their owners” and then quoted Heather Adkins, Google’s vice president of security engineering, saying, “In this case, the model acted appropriately.”
+
+
+
+ Define ‘harm’
+
+
+
+Analysts generally disagreed.
+
+
+
+“What does Google define as harm? Is it the same as the target company? Downtime, unauthorized access, and exfiltration of data may not result in immediate harm, but could have lasting impacts,” said Ryan O’Leary, an IDC research director. “The comparison to a bug bounty program is tenuous at best. If I broke into Google HQ and took nothing and caused no harm, it is likely I would still be prosecuted for trespassing.”
+
+
+
+Nader Henein, a Gartner VP analyst, had a similar take on the situation. 
+
+
+
+“If a member of my neighborhood watch broke into my house, walked around a little bit and then left, I’m fairly certain the authorities would not classify it as an act of civic engagement,” he said. “In this case, if the impacted sites had bug bounty programs and Google had programmed the agents to discover bugs, the rebuttal might make sense, otherwise it is quite a weak argument.”
+
+
+
+That said, he added, “Google does make an excellent point when they underlined ‘the importance of training powerful AI models to act responsibly’ and I look forward to seeing how Google plans to ensure that this doesn’t happen again.”
+
+
+
+Inappropriate behavior
+
+
+
+But Jeff Pollard, VP/principal analyst at Forrester, took exception to Google’s assertion that the Gemini model had behaved appropriately.
+
+
+
+“The model pursued an authorized objective through an unauthorized path, crossed from a simulated environment into real companies and gained access without consent,” he said. “This is another area where regulations haven’t kept up with the pace of technology change. There are two sides to this: regulations with respect to the agentic escape and intrusion, and then the regulatory issues for the victim companies in terms of their requirements for disclosure. Google is only responsible for one half of that equation.”
+
+
+
+Erik Avakian, technical counselor at Info-Tech Research Group, also noted that it’s critical that companies have rules about when to disclose unexpected and problematic model behaviors. 
+
+
+
+“I don’t think every unexpected thing an AI model does needs to become a public incident. But there should be a clear line once an autonomous system crosses an authorization or trust boundary,” he said. “If an AI system leaves a controlled environment, accesses a real third-party production system, uses credentials, retrieves data, escalates privileges, or takes some other action that was never authorized, that should, at minimum, trigger disclosure to the affected organization along with a formal incident investigation.”
+
+
+
+Even if there was no damage from the intrusion, Avakian said, public disclosure should happen “if the incident exposed a larger or repeatable problem with the controls around the model.”
+
+
+
+Independent technology consultant Steven Eric Fisher also stressed that companies need to be strict and consistent about disclosing agent mishaps. 
+
+
+
+“What I find most puzzling about these incidents is not simply that an AI system crossed a boundary,” he said. “It is the emerging posture around culpability once it does. Stopping after an authorization boundary has already been crossed is not the same thing as preventing the boundary from being crossed in the first place. I do not think ‘the AI did it’ can become an accountability boundary.”
+
+
+
+Control failure
+
+
+
+And, argued Justin Greis, CEO of consulting firm Acceligence, the absence of harm and absence of significance are not necessarily the same thing. 
+
+
+
+“An event can be consequential because of what it demonstrates about a system’s capabilities or controls, even when everyone gets lucky and nobody is damaged,” Greis said. “Gemini stopping itself after recognizing that it was inside a real company’s environment is a positive safety signal. Gemini being able to get there in the first place is a control failure. Both things can be true at the same time.”
+
+
+
+Frank Dickson, principal analyst at Dickson Research, articulated the harshest criticism of Google.
+
+
+
+“The model’s behavior is the least interesting part of this story. Google’s conduct afterward is the most damning part,” he said. “This isn’t a story about Gemini going rogue. It’s a story about one shared testing vendor’s infrastructure mistake hitting four AI labs at once, and about Google being the slowest and least forthcoming of the four in telling anyone about its own copy of that failure.”
+
+
+
+He pointed out, “Irregular notified all four labs in late July. Google didn’t go public until September 18, seven weeks later, and only after the Journal called for comment. Let’s face it: that’s not a company that judged that the incident didn’t warrant disclosure. That’s a company that watched three competitors take the reputational hit for the same underlying failure and waited to see if it could avoid its turn. It couldn’t, and the only reason we know any of this is that a reporter asked.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4224570-0-49095100-1790038954-shutterstock_2400903317.jpg?quality=50&strip=all,https://www.csoonline.com/article/4224570/gemini-broke-into-3-companies-but-google-kept-it-quiet-because-no-damage-was-done.html,https://www.csoonline.com/feed/,2026-09-22T01:02:19Z,9,Cybersecurity
+Trump floats ‘AI Force’ to boost industry,"He posted on social media that &#34;we will cherish it, help it, and watch over it, as it grows! However, we will also be looking for BAD, and we can do that...&#34;",,https://www.defenseone.com/policy/2026/09/trump-ai-force/416125/,https://www.defenseone.com/rss/all/,2026-09-22T01:00:00Z,0,Defense
+A cut cable disrupted hundreds of flights across the US,"Hundreds of flights were cancelled or delayed on Monday after construction crews in New Jersey accidentally cut a Verizon fiber cable used for air traffic control. FAA Administrator Bryan Bedford said that a circuit failure led to the discovery of the severed fiber cable, ABC News reports. The outage hammered airports across the Northeast, causing […]",,https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us,https://www.theverge.com/rss/index.xml,2026-09-21T23:48:56Z,5,Tech
+The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping,Apple Store architect Ron Johnson says Apple&#39;s secret sauce has always been its people.,,https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/,https://techcrunch.com/feed/,2026-09-21T23:44:28Z,6,Tech
+"Amazon wants to help the Colorado River, but we still don’t know how much water the company uses ","Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water supply for 40 million people in the Western US. The initiative comes as Amazon and other tech companies face mounting scrutiny over how much water their data centers use. Amazon has a goal of becoming water […]",,https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river,https://www.theverge.com/rss/index.xml,2026-09-21T23:15:32Z,0,Tech
+"Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",A simple ClickFix attack is only one way to completely hijack the new agent.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg,https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/,https://arstechnica.com/feed/,2026-09-21T22:24:38Z,5,Tech
+BigCommerce alerts merchants of data breach linked to Ribon apps,Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...],,https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/,https://www.bleepingcomputer.com/feed/,2026-09-21T21:18:49Z,12,Cybersecurity
+Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat,Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-drone-boat-machine-gun-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/,https://arstechnica.com/feed/,2026-09-21T21:07:05Z,5,Tech
+"Saudi Arabia wants a car industry, launches Ceer with two EVs",The new carmaker is a joint venture between the Saudi PIF and Foxconn.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/WhatsApp_Image_2026-09-21_at_21.24.15-1152x648.jpeg,https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/,https://arstechnica.com/feed/,2026-09-21T20:55:36Z,0,Tech
+California tightens rules on AI data center energy and water use,"California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers, while forcing them to pay for upgrades to […]",,https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills,https://www.theverge.com/rss/index.xml,2026-09-21T20:29:45Z,5,Tech
+OpenAI forms math advisory group as its AI resolves more than 100 open problems,The group won&#39;t be given leeway to slow down or redirect OpenAI&#39;s ongoing mathematical research.,,https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/,https://techcrunch.com/feed/,2026-09-21T20:15:58Z,5,Tech
+CISA alerts of active exploitation of three Linux kernel flaws,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",,https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/,https://www.bleepingcomputer.com/feed/,2026-09-21T20:12:17Z,15,Cybersecurity
+Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket,"5 days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25, 11:59 p.m. PT.",,https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-21T19:25:00Z,0,Tech
+Meta’s Muse is outpacing ChatGPT’s early mobile launch,"Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",,https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/,https://techcrunch.com/feed/,2026-09-21T19:19:21Z,6,Tech
+WordPress Click2Shell flaw lets hackers execute PHP on the server,Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed &#39;Click2Shell&#39; that affects the platform&#39;s Core component. [...],,https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/,https://www.bleepingcomputer.com/feed/,2026-09-21T18:23:11Z,6,Cybersecurity
+Kairos Power gets up to $100M from Samsung group to build nuclear reactor for Google,Future Google supplier Kairos Power inked a deal with Samsung C&amp;T to help build its first 50 megawatt nuclear power plant.,,https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/,https://techcrunch.com/feed/,2026-09-21T18:23:05Z,5,Tech
+Meta’s AI agent has been blocked from using Amazon.com,Muse isn&#39;t welcome as a shopper anymore.,,https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/,https://techcrunch.com/feed/,2026-09-21T17:55:18Z,5,Tech
+Microsoft to retire Microsoft 365 Companion apps in December,"Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/,https://www.bleepingcomputer.com/feed/,2026-09-21T17:54:49Z,0,Cybersecurity
+GM can’t ‘bring back’ Apple CarPlay because it never left,"Last week, GM announced a new software experience for its upcoming Chevy Silverado and GMC Sierra trucks, including a new look for Apple CarPlay and Android Auto, the popular phone mirroring systems that the automaker made a big deal about removing from its electric vehicles in 2023. Naturally, this led to some confusion about whether […]",,https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google,https://www.theverge.com/rss/index.xml,2026-09-21T17:47:54Z,2,Tech
+X will now tell users when governments have forced it to limit their posts,"X is expanding its “Under the Hood” transparency tool to show when posts have been downranked or withheld in response to local laws and government demands, including which country made the request.",,https://techcrunch.com/2026/09/21/x-will-now-tell-users-when-governments-have-forced-it-to-limit-their-posts/,https://techcrunch.com/feed/,2026-09-21T17:45:35Z,0,Tech
+Paramount settles lawsuit blocking $110 billion Warner Bros. merger,"Paramount has reached a settlement with California and the 11 other states that sued to block its planned $110 billion acquisition of Warner Bros. Discovery. The settlement removes a major roadblock standing in the way of the massive media merger. According to the proposed consent decree filed with the court, it includes requirements like minimum […]",,https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement,https://www.theverge.com/rss/index.xml,2026-09-21T17:42:15Z,3,Tech
+Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR,"A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.
+
+Microsoft&#39;s own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil-5ZV6QK7R23fL7Vtl-pdxgFYPAG9dT_cIIrXWgR70hLZRM705Ij3WuRpCL00VuDop9dTmVNf1t3QS60nqRGV9GCzsZ792yd7mFY_pjvgfufOK9D-oQJdxP4ZtrXiyeq08KNUBv3-mhQ_KCiCOMWIbeQpCAyF_h4lMZw54T0l9AcDdGf6aRptXAZJNcU/s1600/last.jpg,https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T17:31:01Z,1,Cybersecurity
+Google Hit With $463 Million Fine for EU Location Data Rule Breach,"Google has been fined 403 million euros ($463 million) for breaching the European Union’s strict privacy rules because it mishandled users’ location data.
+The post Google Hit With $463 Million Fine for EU Location Data Rule Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/,https://www.securityweek.com/feed/,2026-09-21T17:19:53Z,6,Cybersecurity
+"Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto","The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.
+
+The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjuVP0IzjchtSeuT6WwQHPupLynSiYhe7KinKtQVVE_EgFE5iG9SWV4HrgseuXaSUo-TaamFPzHl6SCnUPsbz29nzEo1BJeZVE4VB43KdMBmKEld7snbryRJIeIIAmiRZNEhFCJ-58klU6qGrvwg2Hn26FtkHv1s4cAj_zX9AWmdeym2-d4hScWr9dLiOY/s1600/exec.jpg,https://thehackernews.com/2026/09/contagious-interview-campaign.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T17:19:00Z,8,Cybersecurity
+Google Fined €403 Million Over GDPR Violations Tied to Location Data,"Google has been fined €403 million for breaking the EU&#39;s data protection law, the GDPR, in the way three of its features handled people&#39;s location data from May 2018 to February 2020.
+
+Ireland&#39;s Data Protection Commission (DPC), Google&#39;s lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjOPn27sYW7sjjV6-SlFPjlnnAtZ2bVGvrJRbbussed8ddYCwrRnmyIBKOsJy9p3QGdwzMuxmxhtyNvyPQD9u53V0T84o-Pi1Euo1SPlHX9DiaFzVby2cKpyfdma7mA0b4F1gqDCvjWBrk3n916K6Su1Y1TaJcOKXHsuzNn0cxOmVzlUK1NIjPtElIXM/s1600/google-location.jpg,https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T16:57:31Z,1,Cybersecurity
+Google confirms Gemini models hacked three companies in May 2026,A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg,https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/,https://arstechnica.com/feed/,2026-09-21T16:57:26Z,0,Tech
+Oura’s $2.2B IPO is mostly a payday for existing shareholders,"Forerunner Ventures plans to sell its entire stake in Oura for as much as $1.26 billion, according to Oura&#39;s latest IPO filing. ",,https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/,https://techcrunch.com/feed/,2026-09-21T16:45:47Z,0,Tech
+Russel Vought will reportedly be given veto power over all NIH grants,Pending move comes over the objections of the NIH director.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2287518863-1024x648.jpg,https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/,https://arstechnica.com/feed/,2026-09-21T16:40:26Z,0,Tech
+"With Tabby, a former accountant is using AI to make accountants obsolete","Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.",,https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/,https://techcrunch.com/feed/,2026-09-21T16:38:51Z,5,Tech
+Bungie says it’s ‘not done with Destiny’ and will bring back vaulted content,"Months after seemingly giving up on Destiny 2, Bungie now says it&#39;s planning to restore vaulted content in the game like campaigns, destinations, and raids. The decision reverses the Destiny Content Vault that Bungie created six years ago, controversially removing older content from Destiny 2 that players had paid to access. &#34;We understand that removing […]",,https://www.theverge.com/news/998317/bungie-destiny-2-unvaulted-raids-campaigns-destinations,https://www.theverge.com/rss/index.xml,2026-09-21T16:35:59Z,5,Tech
+"After spending billions, OpenAI still has gaps in its cybersecurity","
+		
+					  
+						
+
+
+
+
+Two separate reports of security flaws in OpenAI systems highlight how even a company spending billions on developing its own AI-powered cybersecurity testing tools remains vulnerable.
+
+
+
+In one incident, researchers breached OpenAI systems with the help of a rival AI developer’s tools, while another group of researchers tricked OpenAI’s Codex agent into bypassing its sandbox controls.
+
+
+
+Researchers from Hacktron chained multiple vulnerabilities to achieve remote code execution and gain access to OpenAI employee accounts and internal systems, according to a blog post detailing their findings.
+
+
+
+“On July 25, 2026, we chained two critical vulnerabilities to compromise multiple OpenAI employees’ ChatGPT accounts,” Hacktron researchers Harsh Jaiswal, Mohan Pedhapati and Rahul Maini wrote. “With these accounts, we could then access internal OpenAI repositories, and potentially many other connectors.”
+
+
+
+They said the attack began with a flaw in an image processing library that enabled remote code execution. That initial access was then used to extract authentication tokens, which allowed movement across connected systems, according to the blog.
+
+
+
+The researchers demonstrated the access by performing a benign action using an employee account and did not exfiltrate sensitive data. The work was conducted under a coordinated disclosure program, and the vulnerabilities were fixed after reporting.
+
+
+
+Hacktron used OpenAI rival Anthropic’s Claude AI to help with the operation. According to the researchers, the model was used iteratively to refine the attack path and improve the exploit chain, including in reconnaissance, vulnerability analysis and exploit development.
+
+
+
+Vibhum Dubey, a cybersecurity researcher and red teamer, said the findings reflect a shift in how AI systems are being used in attack scenarios.
+
+
+
+“The focus is moving from an AI’s vulnerability to being deceived to the degree to which the AI is allowed to act on this deception,” Dubey said. “An autonomous agent can interpret instruction, call tools, write or run code, access files, and communicate with other systems — creating a much wider attack surface than would be the case for a conventional chatbot.”
+
+
+
+He added that even minor weaknesses can have wider consequences.
+
+
+
+“One minor vulnerability in such an agent can have disproportionately negative consequences due to the agent’s potential to act autonomously, take initiative to achieve its goals, and operate across multiple systems,” Dubey said.
+
+
+
+Codex sandbox escape
+
+
+
+Researchers at another company, Accomplish, reported they were able to bypass sandbox controls in OpenAI’s Codex coding agent environment.
+
+
+
+The researchers said the agent executed actions outside its intended scope and interacted with external systems despite restrictions designed to limit its behavior.
+
+
+
+“We found two ways out of the OpenAI Codex sandbox and reported both to OpenAI on August 12, 2026. Both were fixed inside of eight days,” Accomplish principal security researcher Oren Yomtov wrote in a blog post.
+
+
+
+According to the blog, the escape was achieved through interactions between the agent, its instructions and available tools, allowing it to operate beyond intended boundaries.
+
+
+
+Dubey said enterprises should not rely on sandboxing as a standalone control.
+
+
+
+“I would avoid thinking of a sandbox as an impenetrable security barrier,” he said. “If an enterprise can read or write data or execute code from an AI agent, they should think of additional controls needed to secure the larger system if a sandbox is compromised.”
+
+
+
+Identity and access extend reach
+
+
+
+Both disclosures highlight how identity systems influenced the scope of the demonstrations.
+
+
+
+In the Hacktron case, the researchers said access to authentication tokens enabled movement across multiple systems after initial access was obtained. This allowed access to services beyond the initial entry point, according to the blog.
+
+
+
+Dubey said enterprises should treat AI agents as privileged entities in such environments.
+
+
+
+“Each AI agent should have its own identity with narrowly tailored permissions, limited, easily rotated credentials, tightly controlled network access and comprehensive logging,” he said.
+
+
+
+Such architectures are widely used in enterprise environments, where authentication tokens and integrated services manage access across applications.
+
+
+
+Dubey said the research should not be viewed as specific to a single vendor.
+
+
+
+“I would not interpret the findings as a problem exclusive to one particular vendor of AI,” he said. “The findings help identify a much broader capability gap in enterprise security posture around AI.”
+
+
+
+He added that conventional approaches may not be sufficient.
+
+
+
+“Many enterprises are looking at conventional app security approaches as a way to secure AI, but these are fundamentally different systems that require new controls to properly secure their use, data, model, and compute assets,” Dubey said.
+
+
+
+Dubey said organizations should design systems with the assumption that failures will occur.
+
+
+
+“The true test of enterprise AI security will not be around preventing all AI failures but rather ensuring that a single compromised or manipulated agent cannot lead to a wider breach of an enterprise IT infrastructure,” he said.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4224453-0-06390700-1790007860-OpenAI-shutterstock_editorial_2797310785.jpg?quality=50&strip=all,https://www.csoonline.com/article/4224453/after-spending-billions-openai-still-has-gaps-in-its-cybersecurity.html,https://www.csoonline.com/feed/,2026-09-21T16:24:03Z,15,Cybersecurity
+"California settles lawsuit against Paramount/Warner merger, angering advocates","State AGs had &#34;very strong&#34; case that merger is illegal, Lina Khan says.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/paramount-warner-bros-1152x648.jpg,https://arstechnica.com/tech-policy/2026/09/california-settles-lawsuit-against-paramount-warner-merger-angering-advocates/,https://arstechnica.com/feed/,2026-09-21T16:15:26Z,5,Tech
+"Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer","The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.
+The post Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer appeared first on SecurityWeek.
+",,https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/,https://www.securityweek.com/feed/,2026-09-21T15:46:58Z,7,Cybersecurity
+Google fined €403 million over location data privacy violations,Ireland&#39;s Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users&#39; location data. [...],,https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/,https://www.bleepingcomputer.com/feed/,2026-09-21T15:41:22Z,2,Cybersecurity
+"Trump rejects AI slowdown calls, launches ""AI Force"" instead",The president offered few details on what his proposed new AI Force would do.,https://cdn.arstechnica.net/wp-content/uploads/2025/08/trump-august-2025-1152x648-1756146125.jpg,https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/,https://arstechnica.com/feed/,2026-09-21T15:37:56Z,5,Tech
+Grab an Xbox controller and a $50 Xbox gift card together for just $80,"Newegg is hosting a bundle that includes Microsoft’s wireless Xbox controller (in black) and a $50 digital Xbox gift card together for $80. Given that this model typically sits around $50 to $60 depending on the color you want, this is a fantastic value since it essentially knocks its price down to $30. Another way […]",,https://www.theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale,https://www.theverge.com/rss/index.xml,2026-09-21T15:13:32Z,0,Tech
+From Love Letters to AI Agents: Cybersecurity’s Evolution,Discover how Cisco security solutions and the four pillars of agentic security protect organizations against autonomous AI risks and evolving threats. ,,https://blogs.cisco.com/security/from-love-letters-to-ai-agents-cybersecuritys-evolution/,https://blogs.cisco.com/security/feed,2026-09-21T15:00:07Z,6,Cybersecurity
+Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026,"Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25, 11:59 p.m. PT. Register now.",,https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-21T15:00:00Z,8,Tech
+Microsoft fixes broken Excel copy and paste for all Office users,Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/,https://www.bleepingcomputer.com/feed/,2026-09-21T14:42:37Z,1,Cybersecurity
+Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini,"Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",,https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/,https://techcrunch.com/feed/,2026-09-21T14:39:22Z,5,Tech
+CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast,"Noopur Davis never planned a career in cybersecurity. She was a developer at Intergraph, and for many years that was all she wanted to be.
+The post CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast appeared first on SecurityWeek.
+",,https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/,https://www.securityweek.com/feed/,2026-09-21T14:30:00Z,2,Cybersecurity
+From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026,From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before Sept 25.,,https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-21T14:30:00Z,0,Tech
+New npm malware finds a way around install script defenses,"
+		
+					  
+						
+
+
+
+
+Blocking suspicious install scripts may no longer be enough to mitigate threats from malicious JavaScript dependencies used in software supply-chain attacks.
+
+
+
+Security researchers at Checkmarx are warning of attackers using a malicious package called “indexed-btree” to impersonate the legitimate sorted-btree library, to spread malware hidden in the package’s normal runtime code.
+
+
+
+The campaign abandons the preinstall and postinstall scripts common in recent attacks, instead using a core package function to deliver its payload. Checkmarx said the malicious package was downloaded nearly 2 million times per week before it was flagged and removed from the registry on September 3, 2026. This was roughly 11 weeks after the first malicious version went live, according to an independent analysis by Blogspan author Alexander Baumgärtner.
+
+
+
+The discovery comes after npm introduced tighter controls around lifecycle scripts in June.
+
+
+
+Blockchain C2 combined with Slack/Telegram data theft
+
+
+
+The malicious script was embedded directly into a runtime method “BTree.prototype.set”, instead of an install hook in the package’s package.json. When the method receives a particular key value, the code launches an obfuscated first-stage loader as a detached Node.js process.
+
+
+
+Once launched, the loader fingerprints the host, collecting information including the operating system architecture, hostname, CPU, memory and uptime. The data is then exfiltrated using hardcoded Slack channel and Telegram chats.
+
+
+
+The attackers hid the command-and-control (C2) server address in a smart contract on the Sepolia Ethereum testnet blockchain.
+
+
+
+“The contract exposes getter and setter functions that the malware polls instead of requesting a plain domain,” Checkmarx researchers said. “This technique is more resilient to domain / IP takedown than traditional C2 approaches, since it uses the smart contract as a pointer to a new address whenever the old one gets taken down.
+
+
+
+Further in the chain, the malware creates cryptographic keys to establish a shared secret with a public key retrieved from the blockchain. This secret is ultimately used to unlock a second-stage payload from two encrypted chunks in the smart contract.
+
+
+
+Checkmarx did not say what the second-stage loader does, but it did point out that the malware cleans up after itself. It contains “functionality to delete the malware files and remove the trigger code from the main prototype function,” the researchers noted.
+
+
+
+Nine more packages broaden the campaign
+
+
+
+Checkmarx also identified nine other npm packages linked to the campaign, which were subsequently removed from the registry. These included ordered-kv-index, btree-leaderboard, priority-slot-queue, btree-range-store, btree-core, btree-time-index, btree-lru-cache, neighbor-key-map, and sliding-score-window.
+
+
+
+Several of these packages had hundreds of thousands of downloads, while btree-core had more than 1.9 million downloads.
+
+
+
+The operators tried making the package ecosystem look legitimate, Checkmarx noted, maintaining a GitHub repository with numerous commits while keeping the malicious code itself out of the repository. The associated GitHub account too used an AI-generated profile image.
+
+
+
+Checkmarx said the campaign is ongoing and that its findings may change as the investigation develops. It shared a list of indicators of compromise (IOCs) for security teams to use in detection and monitoring.
+
+
+
+This article first appeared on InfoWorld.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4224400-0-52306700-1790000888-Red-warning-cube-on-a-laptop-keyboard-in-darkened-room.jpg?quality=50&strip=all,https://www.csoonline.com/article/4224400/new-npm-malware-finds-a-way-around-install-script-defenses-2.html,https://www.csoonline.com/feed/,2026-09-21T14:27:49Z,16,Cybersecurity
+"⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks","A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.
+
+The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjovXeakmAmPG68i_kNoeGFJjwSSGDdpj-29aojemBxtTQVOHzR668zKtV5GGPhnJ0zyCEdlsNCc11LIT-F8n1U8Rkv3jr-3AAt6HC4YwwyfENs_Y8V-O_OlPC4_WByxrsUBq6NifTKHQpgWuSnIqnV4bg4rXVoe9BrtMtgRCo4ECfMLWHRIKOQsqjb0zEt/s1600/recap-2.jpg,https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T14:24:13Z,3,Cybersecurity
+"TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data","Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.
+
+The backdoor &#34;automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC3vJ8DX6852JxHepz1kGmunH3ZXsStcK4LINkLBCrzS8ZacBhqL-7epmGuzSNGI-jpF4GtkM-FXUsrv3croTLimjG_SBbw-rpO8NBIHf6Wvr6BMmYYSDKxEPQI-nrSFYrc9vmojcKn50LRFbc1t3h8qFA8dE_pZ3kMvelRpBFVFe2ZmCVJhPCWlMxYZpO/s1600/stomp.jpg,https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T14:15:40Z,3,Cybersecurity
+Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026,"Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by Sept 25, 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competition.",,https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-21T14:15:00Z,8,Tech
+FBI's CJIS v6.1: What Security Teams Need to Know.,"The FBI&#39;s CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",,https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/,https://www.bleepingcomputer.com/feed/,2026-09-21T14:02:12Z,5,Cybersecurity
+Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal,"The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push.
+The post Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal appeared first on SecurityWeek.
+",,https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/,https://www.securityweek.com/feed/,2026-09-21T14:00:13Z,2,Cybersecurity
+Can John Ternus find Apple’s next big thing?,"Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On.  Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was […]",,https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone,https://www.theverge.com/rss/index.xml,2026-09-21T14:00:00Z,7,Tech
+Review: Neagley is a worthy spinoff to megahit Reacher,"It&#39;s a bit uneven in execution but still delivers as fast-paced, entertaining escapist fare.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/neagley-1152x648-1789589203.jpg,https://arstechnica.com/culture/2026/09/review-neagley-is-a-worthy-spinoff-to-megahit-reacher/,https://arstechnica.com/feed/,2026-09-21T13:53:46Z,6,Tech
+iPhone owners can now submit a claim in Apple’s $250 million Siri AI lawsuit,"Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and […]",,https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement,https://www.theverge.com/rss/index.xml,2026-09-21T13:36:52Z,6,Tech
+Orchid Security Introduces AI Agent Readiness Controls Featuring Continuous Identity Monitoring and Kill-Switch Capabilities,"
+		
+					  
+						
+
+
+
+
+Readiness tagging for AI, always-on observability, and coordinated kill switches at the application layer give enterprises a defensible route to scaling agents while keeping authority in human hands.
+
+
+
+New York, London – September 15, 2026 – Orchid Security, which unlocks safe AI adoption by solving identity at its core, today unveiled a set of AI readiness controls for AI agents, spanning ongoing identity drift detection and kill switches that operate at the application level. Within seconds, an AI agent can carry an authorized task well past the privilege level it started with — and it never has to “break” a security control or a workflow guardrail to get there. What it does instead is discover and exploit the identity debt already sitting inside the enterprise: credentials hard-coded into systems, orphaned accounts, authentication paths nobody manages, and permissions granted far beyond need. The new controls are built so that organizations can expand agent use without ceding oversight.
+
+
+
+Boards Are Making AI Adoption a Governance Priority
+
+
+
+The board-level conversation has shifted. Directors are no longer debating whether to adopt AI; they want to know how fast it can be scaled across the business. Saying no has stopped functioning as a security strategy. What organizations require is a defensible program that permits adoption while holding autonomous agents within sanctioned limits.
+
+
+
+“AI transformation is exciting. Identity hygiene is not,” said Roy Katmor, co-founder and CEO of Orchid Security. “Boards are no longer asking whether AI will be adopted—they are asking why it is not moving faster, and security cannot answer with a blanket ‘no.’ Enterprises need to observe how agents act, understand when they drift, and govern them immediately, including terminating the authority through which they operate.”
+
+
+
+The problem was never how agents behave. It is what they inherit. Exceeding an intended scope requires no circumvention of controls — agents simply locate the identity debt that has piled up over years: embedded credentials, abandoned accounts, unmanaged authentication routes, and over-broad entitlements. Orchid’s Identity Gap 2026 research put 57% of enterprise identity in the unseen and unmanaged category. That identity dark matter can be turned by an agent into a live route to elevated access within seconds or minutes — a pace that periodic governance reviews cannot match, let alone contain.
+
+
+
+Governance has consequently moved from stated intent to operational proof. Approving agentic AI in a board resolution tells a CISO nothing about which applications an agent may safely touch, which service accounts carry standing privilege, or which delegation chains would hold up under regulatory scrutiny. Converting mandate into measurable control is exactly the point at which most AI programs stall.
+
+
+
+A Four-Part Operating Model for Agent Readiness
+
+
+
+Orchid delivers continuous, auditable AI readiness and defensibility through four connected stages — Observe, Understand, Govern, Prove:
+
+
+
+
+OBSERVE: Surface the AI agents in use along with the identities, applications, credentials, tools, and access paths they run through. Capture behavior as it actually occurs, not merely what was declared in the studio.
+
+
+
+UNDERSTAND: Measure runtime activity against the agent’s stated purpose and sanctioned scope. Orchid attaches AI readiness tags to applications, accounts, and access paths, surfacing identity hygiene gaps, permission excess, and environments not yet fit for agentic access.
+
+
+
+GOVERN: Should behavior or effective authority move outside policy, Orchid drives action through the identity, security, and AI infrastructure already in place. That may mean trimming permissions, revoking credentials, cutting off tools, pausing workflows, or uniquely triggering its own application-level kill switch.
+
+
+
+PROVE: Orchid produces a defensible record tying every agent action to the identity invoked, the delegation chain, the access path, business context, any drift detected, and the governance response that followed.
+
+
+
+
+Handling agent behavior monitoring as an ongoing loop — rather than a snapshot review — mirrors the way autonomous systems genuinely function. Effective authority is not locked in at deployment; it shifts whenever a tool is attached, a token is reused, or one workflow is chained into another. Continuous observability keeps that authority record current rather than backward-looking.
+
+
+
+Evidence Enterprises Need to Produce
+
+
+
+Ahead of any large-scale autonomous agent rollout, an enterprise should be in a position to show the following:
+
+
+
+
+Identity Hygiene: Orphaned, dormant, local, and over-privileged accounts are all catalogued and carry a readiness status.
+
+
+
+Authorization Guardrails: The organization can establish who or what is permitted to act, on whose behalf, toward what end, and under which conditions.
+
+
+
+Runtime Understanding: Observed agent activity is continuously checked against approved intent, granted permissions, and expected access paths.
+
+
+
+Universal Auditability: Each action maps back to an identity, delegation chain, application, access path, and business context.
+
+
+
+Enforceable Response: Authority behind a drifting agent can be curtailed or shut off on the spot.
+
+
+
+
+Regulatory expectations are landing in the same place. NIST’s draft Cyber AI Profile observes that “regardless of where organizations are on their AI journey, their cybersecurity programs need risk management approaches that support and integrate the realities of advancements in AI.” Across Europe, DORA requires financial entities to evidence control over ICT access and third-party dependencies — a duty that is not suspended simply because the actor happens to be an agent rather than a human being.
+
+
+
+Ensuring Continuous Availability
+
+
+
+Building on the agentic capabilities added to Orchid’s Identity Control Plane in May, the following are now generally available:
+
+
+
+
+AI readiness tagging spanning applications, identities, and access paths
+
+
+
+Identity hygiene and security risk findings covering orphaned, dormant, over-permissioned, and suspicious accounts
+
+
+
+Ongoing drift detection comparing an agent’s intended purpose against what it actually does
+
+
+
+Orchestrated response, including application-level kill switches that pare back permissions, revoke credentials, sever tool connections, or halt agent workflows
+
+
+
+Audit generation capturing agent activity, identity context, drift detected, and the action taken
+
+
+
+
+The company has also broadened its integration ecosystem:
+
+
+
+
+Palo Alto Networks Idira: A certified PAM integration that uncovers privileged accounts previously invisible to Idira and places them under management.
+
+
+
+Splunk Enterprise Security: A prebuilt integration feeding identity telemetry into the SOC for correlation, investigation, and incident response.
+
+
+
+
+Since these controls run through infrastructure the enterprise already owns, security teams can broaden agent governance without erecting a separate enforcement stack — a meaningful factor when kill-switch authority has to stay reachable in the middle of a live incident.
+
+
+
+Shannon Wilkinson, CIO and CISO at Findlay Automotive Group, framed the pressure from the practitioner’s chair: “The challenge is how to enable the business to move faster and realize the productivity that AI agents bring, but it honestly terrifies a lot of us. At Findlay we’re leaning heavily into AI to build a better customer experience. At the same time we must define guidelines, put guardrails in place and, above all, know what the identities are doing.”
+
+
+
+Identity dark matter broadly — and weak identity hygiene specifically — has gone unaddressed for years, which helps explain why adversaries today are far likelier to log in than to hack in. Turning AI agents loose on all that accumulated identity clutter invites disaster.
+
+
+
+For more on Orchid Security’s approach to securing autonomous identities, or to request a demo, visit https://www.orchid.security/use-case/guardrails-for-autonomous-identity.
+
+
+
+Meet Us at Gartner Security &amp; Risk Management Summit London 2026
+
+
+
+Orchid Security will exhibit at the Gartner Security &amp; Risk Management Summit, held at ExCeL London from September 22-24. Team members will be on site to talk through AI readiness and identity dark matter with security and risk leaders. Visit Booth #105 for a live platform walkthrough, or book time ahead via the form to secure a slot with the team.
+
+
+
+About Orchid Security
+
+
+
+Orchid Security sees straight into the application binary to deliver the industry’s first Identity Control Plane, transforming IAM complexity into clarity, compliance, and control. Its Identity-First Security Orchestration platform continuously discovers enterprise applications, analyzes their native authentication and authorization flows, and accelerates onboarding into governance systems, putting true identity insight in front of security leaders and practitioners, without the months of manual work traditionally required for each task or informational ask. By exposing and remediating the ‘identity dark matter’ hidden across modern environments, Orchid helps enterprises solve identity at its core; reducing risk, lowering operational costs, and achieving compliance at scale.
+
+
+
+Media Contact
+
+
+
+Chloe Amante camante@montner.com Montner Tech PR
+",https://www.csoonline.com/wp-content/uploads/2026/09/4224374-0-28414700-1789997751-Orchid-Security.png,https://www.csoonline.com/article/4224374/orchid-security-introduces-ai-agent-readiness-controls-featuring-continuous-identity-monitoring-and-kill-switch-capabilities.html,https://www.csoonline.com/feed/,2026-09-21T13:35:37Z,7,Cybersecurity
+Vivo’s X500 Pro Max has 17 stops of dynamic range and 4K240 slo-mo,"Vivo&#39;s new X500 flagship phones have arrived in China, and as usual the company&#39;s focus is firmly on photography. The X500 Pro Max - a new tier in its lineup - is the first phone to use new sensors and silicon from Sony and MediaTek that enable impressive dynamic range and slow-motion video recording. The […]",,https://www.theverge.com/gadgets/998165/vivo-x500-pro-max-launch-specs-release-date-lofic-china,https://www.theverge.com/rss/index.xml,2026-09-21T13:16:25Z,0,Tech
+Microsoft reminds admins to migrate Entra ID users to passkeys,Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/,https://www.bleepingcomputer.com/feed/,2026-09-21T13:16:20Z,3,Cybersecurity
+Corridor raises $25M seed to build a health benefits brokerage for SMBs,"Corridor focuses on SMBs, which it says traditional brokerages often overlook because small accounts generate lower commissions than larger accounts. ",,https://techcrunch.com/2026/09/21/corridor-raises-25m-seed-to-build-a-health-benefits-brokerage-for-smbs/,https://techcrunch.com/feed/,2026-09-21T13:02:46Z,5,Tech
+These are the first five Googlebook laptops,"Google and partners are finally announcing the first laptops under the new Googlebook banner. There are five models from Acer, Asus, Dell, HP, and Lenovo to kick things off. They&#39;re available for preorder starting today and arrive in stores on October 4th. Starting prices range from $899 to $1,299, putting the Googlebooks in the same […]",,https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell,https://www.theverge.com/rss/index.xml,2026-09-21T13:01:00Z,5,Tech
+Apple M6 Mac mini review: $300 price hike spoils a nice upgrade,"The M4 Mac mini was one of Apple&#39;s best values ever. This one, not so much.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/IMG_3731-1152x648.jpeg,https://arstechnica.com/gadgets/2026/09/apple-m6-mac-mini-review-300-price-hike-spoils-a-nice-upgrade/,https://arstechnica.com/feed/,2026-09-21T13:00:24Z,2,Tech
+Googlebooks launch October 4 starting at $899—here are the five models you can preorder today,"Googlebooks offer premium hardware and deep smartphone integration, but you may not like the price.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/HP-Googlebook-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/,https://arstechnica.com/feed/,2026-09-21T13:00:11Z,1,Tech
+Googlebooks feel like the first laptops built for Android owners,"There&#39;s a good chance that my next laptop will be a Googlebook. If you&#39;re an Android user like me, then yours might be too, because Google is making a compelling pitch: The Googlebook does for the Android phone what the MacBook does for the iPhone (and then some). John Maletis, Google&#39;s head of laptops and […]",,https://www.theverge.com/tech/998095/googlebook-laptop-android-continue-on-app-cast,https://www.theverge.com/rss/index.xml,2026-09-21T13:00:00Z,0,Tech
+The M5 Ultra Mac Studio tears through our benchmark tests,"The Mac Studio review unit that Apple sent us to test this year is, put simply, kind of outrageous. It has an M5 Ultra chip with a 36-core CPU and 80-core GPU, 256GB of RAM, and 4TB of storage and costs $12,299. This thing is not for your typical content creation workloads. It&#39;s for AI […]",,https://www.theverge.com/tech/998040/apple-mac-studio-m5-ultra-initial-impressions-testing-review,https://www.theverge.com/rss/index.xml,2026-09-21T13:00:00Z,7,Tech
+"The Mac Mini is still mighty, just not as cheap","There are lots of compact desktop computers out there, but none match the Mac Mini&#39;s small size and big power. 2024&#39;s redesign reduced the Mini to 0.82L, a chassis so minimal you can easily mount it behind a monitor or under a desk. I&#39;ve used gaming laptop charging bricks that are nearly as large and […]",,https://www.theverge.com/tech/998006/apple-mac-mini-m6-m5-pro-review,https://www.theverge.com/rss/index.xml,2026-09-21T13:00:00Z,0,Tech
+I got to see Google&#8217;s wild ideas about the future of laptops,"There are a few things about using a Googlebook that immediately feel just right. The hardware is polished (since it&#39;s based on current laptops). The OS is familiar (if you&#39;ve ever used a Chromebook). But most impressive, it integrates your Android phone with your PC so they feel more like one device. It&#39;s the culmination […]",,https://www.theverge.com/tech/997986/google-googlebooks-android-laptops-dell-hp-lenovo-acer-asus-price-specs,https://www.theverge.com/rss/index.xml,2026-09-21T13:00:00Z,1,Tech
+The long dream of the Googlebook,"In late 2010, an up-and-coming Google executive named Sundar Pichai took the stage in front of a bunch of reporters and explained that Google had a big new idea about laptops. In the future, he said, the only thing you&#39;d need on your computer was a web browser - that was where all your apps, […]",,https://www.theverge.com/tech/997972/googlebook-laptop-chromeos-android-history,https://www.theverge.com/rss/index.xml,2026-09-21T13:00:00Z,6,Tech
+RatHat Android Trojan Uses AI for Automation,"The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion.
+The post RatHat Android Trojan Uses AI for Automation appeared first on SecurityWeek.
+",,https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/,https://www.securityweek.com/feed/,2026-09-21T12:51:41Z,4,Cybersecurity
+Apple’s clever software solution lets iPhone batteries skirt shipping limits,"Apple has developed an unexpected workaround to prevent the iPhone 18 Pro Max from being hit by shipping restrictions on big batteries. There&#39;s a &#34;battery-firmware solution&#34; in place on the new iPhones, according to Apple&#39;s support page, which keeps capacity below the 20Wh limit for single-cell batteries set by international shipping regulations - but this […]",,https://www.theverge.com/tech/998144/apple-iphone-18-pro-max-battery-firmware-limit,https://www.theverge.com/rss/index.xml,2026-09-21T12:37:27Z,2,Tech
+Rust Team Members and Popular Crate Owners Targeted via Video Calls,"It’s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea.
+The post Rust Team Members and Popular Crate Owners Targeted via Video Calls appeared first on SecurityWeek.
+",,https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/,https://www.securityweek.com/feed/,2026-09-21T11:57:35Z,4,Cybersecurity
+Microsoft: September updates break File History backup feature,Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/,https://www.bleepingcomputer.com/feed/,2026-09-21T11:45:54Z,1,Cybersecurity
+Get a closer look at the iPhone 18 Pro’s mechanical camera,"iFixit&#39;s latest device teardown shows us the inner workings of the new variable aperture lens inside Apple&#39;s iPhone 18 Pro and 18 Pro Max, alongside some repair concerns to be mindful of. The adjustable mechanical iris opens and closes magnetically, controlling how much light should pass through to the sensor, featuring six leaf-like overlapping blades […]",,https://www.theverge.com/tech/998108/apple-iphone-18-pro-max-camera-ifixit-teardown,https://www.theverge.com/rss/index.xml,2026-09-21T10:57:27Z,6,Tech
+CrowdSec Confirms Source Code Stolen in Supply Chain Attack,"The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.
+The post CrowdSec Confirms Source Code Stolen in Supply Chain Attack appeared first on SecurityWeek.
+",,https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/,https://www.securityweek.com/feed/,2026-09-21T10:55:46Z,9,Cybersecurity
+US and China Discuss Alerting Each Other to AI National Security Threats,Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.,,https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/,https://www.wired.com/feed/category/security/latest/rss,2026-09-21T10:34:43Z,9,Cybersecurity
+UN says AI safeguards can’t wait for certainty,"Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization&#39;s first major assessment of OpenAI&#39;s hack of Hugging Face earlier this year. The report cements AI&#39;s place on the global diplomatic agenda this week as leaders gather in New York […]",,https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle,https://www.theverge.com/rss/index.xml,2026-09-21T10:18:06Z,5,Tech
+Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems,"The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. 
+The post Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems appeared first on SecurityWeek.
+",,https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/,https://www.securityweek.com/feed/,2026-09-21T10:03:44Z,4,Cybersecurity
+Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities,"Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.
+The post Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/,https://www.securityweek.com/feed/,2026-09-21T09:31:12Z,7,Cybersecurity
+Amazon doesn’t trust Meta’s Muse AI agent,"Meta&#39;s Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that &#34;continued access by an unauthorized AI agent violates Amazon&#39;s Conditions of Use, to which our customers have agreed.&#34; According to GeekWire, Meta didn&#39;t notify Amazon that […]",,https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping,https://www.theverge.com/rss/index.xml,2026-09-21T09:21:47Z,6,Tech
+Revoking the token didn’t kill the backdoor,"
+		
+					  
+						
+
+
+
+
+Every identity-compromise runbook I have written, read or inherited has the same step near the top: revoke the tokens. Reset the password, kill the sessions, invalidate the refresh tokens, then go hunting. It is the right instinct. Against adversary-in-the-middle phishing, where the whole prize is a stolen session cookie, revocation is the move that ends the incident.
+
+
+
+Then I spent a few days taking apart a backdoor where that step buys you nothing at all. The reason sits in one function, and it is the last place most of us would think to look.
+
+
+
+The sample is GraphWorm, a custom implant tied to the China-nexus APT group Webworm. One thing I found there rewrote a line in my own incident response procedure, and I think it belongs in yours.
+
+
+
+The C2 channel is somebody’s OneDrive
+
+
+
+GraphWorm has no C2 domain, no beacon to a rented VPS, no hardcoded address to block. It authenticates to Microsoft Graph as an OAuth application and uses a OneDrive account as a dead drop.
+
+
+
+The layout is simple enough to sketch on a napkin. The operator writes an encrypted task file into a job folder. The implant polls that folder, runs the task, then uploads the encrypted result into a result folder. A heartbeat file gets a fresh timestamp every interval and a fingerprint file carries the victim’s system details. The command set covers shell execution, file upload and download, sleep, kill and a key exchange pair that upgrades the deployment key to per-session keys.
+
+
+
+All of it rides graph.microsoft.com over TLS, from a host that is already talking to Microsoft 365 all day. There is no unusual destination for a firewall to flag, no freshly registered domain for a reputation engine to penalize, no odd port. The network layer has nothing to say. That is the design goal, and it is the same shift I have written about before, where operators stop building their own infrastructure and start running on somebody else’s.
+
+
+
+The credentials are all sitting in the binary in cleartext: a client ID, a client secret, a tenant ID and a refresh token more than 1,300 characters long. The operator also shipped a debug build with the full PDB path intact.
+
+
+
+One more detail matters for anyone planning a response. The implant does not identify its victims by hostname or address. It builds an identifier by hashing the network adapter’s hardware address together with CPU and disk serial numbers pulled through WMI. Rename the machine, move it to a different subnet or put it behind a new egress address, and the operator still recognizes it as the same box. Any containment plan that leans on changing the victim’s network identity is solving a problem this implant does not have.
+
+
+
+So far this is a good story but a familiar one. Cloud-hosted C2 is not new. The part I did not expect was in the tasking handler.
+
+
+
+The function that breaks the runbook
+
+
+
+Among the commands the implant accepts is one called upgrade. The flow is short, and it is worth walking through.
+
+
+
+The handler parses a configuration blob out of the incoming task. It then destroys all five credential strings held in the beacon object, copies five new ones in, rebuilds the OAuth scope structure, tests a connection against the new OneDrive account, writes the replacement configuration to disk and swaps the live API instance.
+
+
+
+One task. Entire identity replaced.
+
+
+
+Sit with the consequence for a second. Your investigation reaches the point where you have identified the application, you file with the platform and the tokens get revoked. The implant’s next poll fails. If the operator is watching, and an operator writing a heartbeat file every interval is watching, they queue an upgrade task pointing at a second OneDrive account they registered months ago. The implant collects it, rotates and resumes. Nothing on the endpoint changed. No new binary, no new persistence mechanism, no new process. Same file on disk, different identity behind it.
+
+
+
+Revocation removed a credential. It did not remove access.
+
+
+
+This does not appear in the public reporting on the family, which is not a criticism. Vendor writeups are scoped to the campaign they observed, and this is the kind of detail you only see with the decompiler open on a function nobody had a reason to prioritize. I confirmed it twice before I was willing to write it down, once from the extracted strings and once from the decompiled function itself. The credential field offsets I recovered from the strings had to line up with the offsets the constructor actually reads from, and they did, which is the difference between a finding and a guess.
+
+
+
+What I changed afterward
+
+
+
+Three things came out of this that I would put into an identity response procedure tomorrow.
+
+
+
+
+Treat revocation as a delay rather than an eviction whenever the C2 rides an application identity. The durable object is the registration, not the tokens it issues. Tokens are leaves, the registration is the root, and containment that stops at revoking has started a timer rather than closed a door. If the registration lives in a tenant, you do not control, suspension means filing a report and waiting on somebody else’s queue, so file early rather than as a last step.
+
+
+
+Assume the operator holds a spare. Credential rotation costs an attacker almost nothing and costs you an entire response cycle. That asymmetry should drive sequencing: remove the endpoint’s ability to reach the channel at the same moment you burn the credential, not afterward. Isolating the host, or blocking that specific application from authenticating in your own tenant, are both moves that do not depend on anyone else’s cooperation.
+
+
+
+Hunt on the identity plane, because the network plane is blind here. The detections that actually fire on this family are not network signatures at all. They are cloud telemetry queries: the operator’s application ID appearing in your sign-in events, authentication against an unfamiliar tenant, a non-browser HTTP library user agent hitting OneDrive, the beacon and fingerprint file names showing up in file telemetry. The application ID is a fixed string; it belongs to nobody legitimate, and a single query across your sign-in telemetry answers whether it has ever asked your tenant for a token.
+
+
+
+
+None of that needs new tooling. It needs the application registration treated as the thing you are trying to kill.
+
+
+
+The wider pattern is what stayed with me. We spent a decade learning to hunt infrastructure, and adversaries answered by not having any. When the channel is a folder in a cloud tenant, and the identity behind that folder can be swapped by remote command, the artifacts we are trained to chase are precisely the ones an operator can replace most cheaply. What they cannot replace cheaply is the code sitting on the endpoint and the behavior of that code inside your telemetry.
+
+
+
+So, I check the assumption now. Before calling an identity incident contained, I ask what specifically I killed, and whether the adversary can hand themselves a replacement without ever touching the victim’s machine. In this sample, the answer was yes, and it took one function to prove it.
+
+
+
+The full teardown and detection content from this analysis are published on GitHub.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4223975-0-99767300-1789981500-shutterstock_389659237.jpg?quality=50&strip=all,https://www.csoonline.com/article/4223975/revoking-the-token-didnt-kill-the-backdoor.html,https://www.csoonline.com/feed/,2026-09-21T09:00:00Z,6,Cybersecurity
+ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure,"Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.
+
+&#34;ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,&#34; Blackpoint Adversary Pursuit Group (APG)",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cgmwQRZh142Z19A3s7K7tpaXtsyy6Imy9cYGM7nFP1DAZoSK9gDw8T0dGXlkFWOGDFShJWMNjC7jbwoSvLokr1pX27u2B1SABpBL-aWtaXj2hYYrqVwTE7LpEDn_iIbRYCro8sH2hzAEsjHLGkpFqTjEKlFHi2o2pgacFJQvYkPDCKVEhkJgW8OWhpZA/s1600/poly.jpg,https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T08:39:38Z,3,Cybersecurity
+5 ways AI is reshaping the cybersecurity job market,"
+		
+					  
+						
+
+
+
+
+Mario Platt spent part of last year eliminating a team. As CISO for online password management service LastPass, he shut down the company’s dedicated vulnerability management function in late 2025, folding its responsibilities directly into IT and product security. AI and business intelligence tools now handle the triage and analysis that once required a standing group of specialists.
+
+
+
+It’s a concrete example of a trend that’s largely lived in the abstract: security work reorganizing itself around what AI can now do faster than people can. The pressure to rethink cybersecurity roles for this new era is profound: 87% of organizations cite AI-related vulnerabilities as their fastest-growing risk category, according to the World Economic Forum’s 2026 Global Cybersecurity Outlook. Companies are already responding. The 2026 SANS/GIAC Cybersecurity Workforce Research Report found that 74% of organizations say AI is already affecting the size of their security teams and the shape of the roles within them.
+
+
+
+Ask security leaders and staffing experts whether AI is creating new jobs, killing old ones, or just changing what the people already there do, and they’ll tell you it’s a bit of each. Here are five ways that’s playing out across companies.
+
+
+
+1. Security leadership is consolidating, not multiplying
+
+
+
+Some cyber roles were eliminated alongside consolidation at LastPass. Platt is also partway through a similar shakeup in his governance, risk, and compliance (GRC) function, automating the routine compliance work so the group can take on a higher-level risk advisory role, with staff evolving into full business information security officers aligned to specific business units.
+
+
+
+Elsewhere, entire functions are consolidating under one executive rather than splitting up among new ones. Burke Autrey, president of technology consulting and executive services firm Fortium Partners, says his firm’s standard advice to clients wrestling with AI governance comes down to one simple rule: Don’t invent another C-level title. One client recently consolidated infrastructure, information security, and AI/ML under an existing senior technology leader and promoted that person rather than recruiting a separate CISO and AI leader.
+
+
+
+Martha Heller, founder and CEO of executive search firm Heller, sees the same pattern in her practice. Clients increasingly want a single leader to run both infrastructure and cyber — particularly candidates who cut their teeth on a cloud migration. “Anybody who’s led a really successful cloud migration will know a thing or two about cyber,” she says.
+
+
+
+Most companies are still in an earlier, messier phase: piling AI governance duties onto existing security and privacy leaders without adding staff to match, says John Alford, CSO at Quant, where he leads security, compliance, and AI governance for the company’s agentic AI platform.
+
+
+
+“Companies will eventually formalize these responsibilities,” Alford says. “The current model puts too much risk into too few roles.”
+
+
+
+2. The security analyst’s job is changing from finding answers to evaluating them
+
+
+
+At Nexus Black, the AI accelerator unit within enterprise software company IFS, head of cybersecurity Robin Fewster built an automation that scans security sources daily, checks affected packages against the company’s source code, and flags exposure. That kind of capability, he says, is becoming the baseline expectation rather than a specialty. And the line between security analyst and security engineer, Fewster says, is blurring.
+
+
+
+Detection tools already handle the who, what, when, and where of an incident quite well, says Randy Gross, CISO at CompTIA; the SOC analyst’s real value now is in answering the why. “‘Why’ unlocks business impact, appropriate response, and long-term mitigations,” Gross says, “and, as a bonus, it’s also moving some senior InfoSec functions left.”
+
+
+
+That doesn’t necessarily equate to fewer jobs, though. Automating a process or enriching telemetry won’t eliminate the person who did it, says Gross; it clears space to deal with GRC debt, incident response planning, and the rest of the backlog every security team has.
+
+
+
+Today’s analysts spend less time working the queue and more time designing, tuning, and validating the systems that work the queue, says Autrey of Fortium Partners.
+
+
+
+That evolution is producing new titles that didn’t exist 18 months ago, says Heller, including one companies are now asking for by name: agent security engineer.
+
+
+
+3. Judgment, not technical knowledge, is the scarcest skill
+
+
+
+Judgment is “the hardest trait to hire for,” says Quant’s Alford. AI can produce a technically polished answer that ignores business impact or architecture, he says, and reduced cyber staffing leaves fewer experienced people around to catch it.
+
+
+
+Gross of CompTIA frames what’s happening in cyber hiring as a value shift: judgment, he says, is now in high demand.
+
+
+
+But it may also be in short supply, according to Autrey. Verifying an automated conclusion “takes more seniority than producing the finding ever did,” he says, “and that is the seat almost nobody has staffed.”
+
+
+
+That shortage is most acute for identity engineers and identity and access management (IAM) architects who understand machine and agent identity, a specialty nearly every client asks for and almost none can find, Autrey says.
+
+
+
+The mechanical work of parsing logs, correlating alerts, and first-pass triage has mostly moved to the model, says Rob T. Lee, chief AI officer and chief of research at SANS Institute. “What is left is judgment: knowing when the output is wrong, what to ask next, when to stop and escalate.”
+
+
+
+The problems compound when AI starts checking AI. Alford calls it the “AI loop”: one system drafts a policy or control, a second evaluates it, and a third produces the risk rating an executive actually sees — each layer potentially reinforcing the assumptions of the one before it.
+
+
+
+“The final report can look sophisticated even when the original assumption was wrong,” Alford says. Automation, he warns, “can fail confidently and at machine speed.” Breaking that loop still requires an experienced person to check the output against the actual architecture and business impact.
+
+
+
+4. AI fluency has become a baseline hiring filter
+
+
+
+The share of cybersecurity job postings requiring AI skills doubled year over year across G7 countries, from 14.2% to 28.5%, according to an August 2026 analysis of recruitment data from Cornerstone and Indeed by the Cisco-founded AI Workforce Consortium.
+
+
+
+But it’s no longer enough for a cybersecurity professional to be technically strong. Candidates are also being screened for how they relate to the tools they use.
+
+
+
+“No company can afford to hire a new AI skeptic,” says LastPass’ Platt, adding that outright AI evangelism isn’t the goal either, because many of these capabilities haven’t been around long enough to prove themselves. “Assessing AI enthusiasm is key.”
+
+
+
+However, the appetite for AI-fluent hires runs ahead of what most organizations actually need right now, Fortium Partners’ Autrey cautions. Many clients ask his firm for AI security talent when what they most need is asset inventory, identity hygiene, data classification, and least-privilege capabilities.
+
+
+
+“AI did not invent a new control set,” he says. “It exposed the companies that never finished implementing and automating the old one.”
+
+
+
+Even when organizations try to validate AI competence, the tools they use may be lagging, too. Certifications are now the leading way organizations validate skills, ahead of degrees, says Lee of SANS Institute. “A certification is a timestamp,” he cautions. “It tells you when someone last proved it, not whether it is still true.”
+
+
+
+5. A shrinking pipeline is becoming a security risk
+
+
+
+The same intelligent automation that’s driving cybersecurity role consolidation and boosting the importance of judgment is also closing off the paths cybersecurity pros traditionally took to develop their very human skills. Senior-titled cybersecurity postings grew 65% in the six months ending March 2026, while junior-titled postings grew just 5.9%, according to the AI Workforce Consortium.
+
+
+
+Autrey of Fortium Partners warns that Tier 1 SOC and manual control-testing work, long the apprenticeships for tomorrow’s senior analysts, are going unfilled when someone leaves.
+
+
+
+“If you automate the entry rung without replacing that learning path,” he says, “you are trading a cost reduction today for a talent shortage a few years from now.”
+
+
+
+The 2026 SANS/GIAC report confirms the pattern: the gap between the skills organizations need and the skills their teams actually have has widened from a four-percentage-point spread to 20 points in a single year, and AI is disrupting entry-level roles specifically.
+
+
+
+Skills gaps overtook headcount as organizations’ top workforce problem for the first time in 2025, according to the report, and the gap kept widening. Twenty-seven percent of organizations now tie an actual breach to a skills gap on their own team.
+
+
+
+“That is not a training request,” Lee of SANS Institute says. “That is an incident report with the training request stapled to the back.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4224019-0-74570000-1789979251-shutterstock_2287185547.jpg?quality=50&strip=all,https://www.csoonline.com/article/4224019/5-ways-ai-is-reshaping-the-cybersecurity-job-market.html,https://www.csoonline.com/feed/,2026-09-21T08:25:00Z,20,Cybersecurity
+Google Confirms Gemini AI Breached Three Firms,"Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies.
+The post Google Confirms Gemini AI Breached Three Firms appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/,https://www.securityweek.com/feed/,2026-09-21T07:20:46Z,4,Cybersecurity
 Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors,"The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based &#34;much smaller organization&#34; in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.
 
 Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-xFiujwBJLdl6_4wZSMCWdeyCgev2EqszOLkIJ5I9Kbanu6YNmQ36nM615XmLQ-sq2aqldOHfl47jaMNRtDd80RT8k5f6I7eQuszf7wsIg49sEdMW36hsEKUtVUkZabRlGvvDxn7H7COmRCV8qP2pzQm9LNo5QKRnnptxmxTlJ8BMcPxuiqdaMjn-are0/s1600/it-services.jpg,https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html,https://feeds.feedburner.com/TheHackersNews,2026-09-21T06:06:44Z,8,Cybersecurity
