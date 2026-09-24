@@ -1,7 +1,594 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Check Point hacked: The security software protecting your network has become a prime attack target,"
+		
+					  
+						
+
+
+
+
+A firewall is supposed to be the barrier between attackers and the enterprise network, but that barrier can itself become a threat actors’ tool. Check Point has revealed that attackers are actively exploiting two vulnerabilities in its Security Gateway and Security Management products.
+
+
+
+The security software provider has warned that attackers are targeting CVE-2026-85102, a remote code execution (RCE) vulnerability in its Check Point Spark small business firewall disclosed on September 9. It also discovered a zero-day pre-authentication path vulnerability, CVE-2026-93616, in its Security Management web service.
+
+
+
+Fixes are available for both vulnerabilities, and Check Point advises customers to install them immediately.
+
+
+
+“Both are rated CVSS 9.8, and both let an attacker in without a username or password, which puts them in the worst category a firewall vendor can have,” said Frank Dickson of Dickson Research.
+
+
+
+Handing attackers skeleton keys
+
+
+
+Both flaws are pre-authentication, meaning an attacker never needs a username, password, or stolen session, explained Aaron Beardslee, manager of threat research at Securonix.
+
+
+
+With CVE-2026-85102, the trigger arrives during initial VPN negotiation; the attacker need only hand the gateway a malicious certificate and the gateway does the rest. “The gateway is the front door, the lock, and the security guard all in one box,” Beardslee said.
+
+
+
+Code execution puts attackers on the trusted side of the perimeter, sitting on the very system that brokers remote access for every employee. “In plain terms, the attackers are walking through the VPN and immediately mapping the internal network,” he said. 
+
+
+
+CVE-2026-93616 could allow attackers to execute scripts from an arbitrary path and load an arbitrary Java class. Beardslee called it “arguably worse in impact,” even though exploitation so far has been narrow, because the management server is effectively the “brain” of a Check Point deployment.
+
+
+
+“It writes and pushes policy to every gateway,” he said, so an attacker who accesses it could theoretically rewrite firewall rules, open paths into the network, and harvest configuration data about the entire architecture.
+
+
+
+“You don’t need to break the firewall when you can tell it what to allow,” Beardslee said. He also pointed to the timeline: Check Point observed a few targeted attacks on July 23, but the fix didn’t ship until two months later, a huge window of zero-day exposure on “the most privileged box in the security stack.”
+
+
+
+Dickson agreed that CVE-2026-93616 is the worst of the two in a “structural sense,” because an attacker who gets into one gateway has a foothold in the system. This gives them “the keys to every gateway that server controls,” he said. “That’s the difference between picking one lock and stealing the master key to the whole building.”
+
+
+
+The security software conundrum
+
+
+
+These vulnerabilities make it clear that security products, although meant to protect, are not immune to security flaws.
+
+
+
+“Security products are software, and software has bugs,” Beardslee pointed out. Yet organizations tend to treat firewalls and their management consoles as appliances they set up and trust, not as internet facing servers that require the same scrutiny as anything else.
+
+
+
+“Attackers see it the other way,” he said. These devices are exposed by design, highly privileged, and rarely instrumented with the endpoint telemetry that is demanded on, say, a Windows server. “That combination makes them some of the most attractive targets in the enterprise,” Beardslee said. Path traversal, the class behind CVE-2026-93616, is one of the oldest web bugs around.
+
+
+
+“Seeing it pre-auth on a management service in 2026 is a reminder that simple hacks are sometimes the best hacks,” he noted.
+
+
+
+Dickson agreed that the device whose job is keeping attackers out is also, by definition, exposed to the internet and trusted by everything behind it. This “makes it the single most valuable target on the network.”
+
+
+
+Ultimately, he pointed to the speed of today’s security landscape: Check Point patched CVE-2026-85102 on September 9, and attackers were exploiting the flaw by September 12.
+
+
+
+“Three days is now a normal window for attackers to reverse-engineer a patch into a working exploit,” he said. This, he noted, means that “we’ll patch it during the next maintenance cycle” is no longer an acceptable timeline for anything sitting on the perimeter.
+
+
+
+But this isn’t an isolated occurrence, and the common thread isn’t any one vendor’s code quality. F5 access policy manager zero-days were under active attack in the same week as they were revealed, and both companies’ vulnerabilities landed on the KVE catalog on the same day. Perimeter security appliances, firewalls, VPN gateways, and management consoles are a preferred first target for serious attackers precisely because they were built to be trusted, not because they were built carelessly.
+
+
+
+“Edge security appliances are simultaneously the most trusted and the most exposed thing on a network,” he said. “That combination is exactly what makes them worth an attacker’s time.”
+
+
+
+Advice for enterprises
+
+
+
+Check Point advises customers to review logs for anomalous certificate-based Mobile Access logins and second-stage activity, such as internal port or device scans, from suspicious logged-in users.
+
+
+
+Dickson goes a step further, urging enterprises to get management off the public internet altogether if possible. “A pre-auth path traversal is only remotely exploitable if the management console is reachable to begin with,” he pointed out.
+
+
+
+Also, “hunt, don’t just patch,” he said. Search now for patterns identified by Check Point, rather than assuming a patched system was never touched. Treat the management plane’s blast radius as a design question, not an afterthought. “If one console manages fifty gateways, its compromise is fifty times worse than any one gateway’s, and that ratio is worth revisiting,” Dickson said.
+
+
+
+Further, give perimeter and security infrastructure its own patch service level agreement (SLA) measured in days, separate from that of the general IT patch cycle that measures in weeks. Keep an eye on the Known Exploited Vulnerabilities (KVE) catalog as an operational signal rather than as a compliance checkbox.
+
+
+
+“Landing on it, as both of these did on September 23, is a strong sign the exploitation is real and ongoing,” Dickson said.
+
+
+
+Beardslee emphasized that any code running pre-auth should be “treated as hostile territory.” Keep it minimal, parse in memory safe code where possible, and fuzz relentlessly, he advised. Don’t assume automatic patching covers you; verify versions and hotfix takes on every management server by hand.
+
+
+
+Also, be aware that IP blocklists won’t save you here. Attempts originate from anonymization infrastructure, including VPN services and proxies. “The indicators rotate. Behavior doesn’t,” Beardslee said.
+
+
+
+Security management web interfaces have no business being reachable from the internet, he noted. Put them behind allowlists or a dedicated admin network, and a pre-auth bug becomes far harder to reach. In the case of VPN gateways that must face the internet, the focus should shift to visibility.
+
+
+
+Also, admins should retire end-of-support versions of software and hunt on behavior, not just the indicators. A certificate login never seen before, followed by scanning from the VPN address pool, is the pattern that matters, he noted. Forward gateway and management logs to a security information and event management (SIEM) platform and actually hunt within them. Check Point has published certificate subjects seen in the attacks, but also warned that the list is not exhaustive.
+
+
+
+“Hunt backward for signs of compromise, because patching closes the door, but doesn’t evict anyone already inside, taking their time hacking through your infrastructure,” Beardslee said.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4225812-0-85247600-1790215544-cyber-security-lock-float.jpg?quality=50&strip=all,https://www.csoonline.com/article/4225812/check-point-hacked-the-security-software-protecting-your-network-has-become-a-prime-attack-target.html,https://www.csoonline.com/feed/,2026-09-24T02:05:30Z,26,Cybersecurity
+Everything new coming to Meta’s AI agent Muse,"CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It&#39;s even coming to Meta&#39;s AI glasses.
+
+",,https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/,https://techcrunch.com/feed/,2026-09-24T01:13:32Z,5,Tech
+Meta made a Tamagotchi-like wearable for its Muse AI agent,The tiny hardware device creates  another mobile home for its AI agent Muse. ,,https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/,https://techcrunch.com/feed/,2026-09-24T00:46:17Z,6,Tech
+Meta is making a standalone Muse AI gadget,"Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of his Meta Connect presentation. It looks almost like a chunky smart watch without the strap - just a big screen, plus a little lanyard […]",,https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware,https://www.theverge.com/rss/index.xml,2026-09-24T00:15:20Z,7,Tech
+Meta Connect 2026: The 7 biggest announcements,"Meta announced a slate of new wearables during its annual Meta Connect showcase on Wednesday. The star of the event was the new Meta VR Glasses, which pack virtual reality tech into a lightweight smart glasses-style frame with a tethered puck. Meta also announced new pairs of screen-free smart glasses, along with some new AI […]",,https://www.theverge.com/tech/999593/meta-connect-2026-everything-announced,https://www.theverge.com/rss/index.xml,2026-09-24T00:00:33Z,5,Tech
+"Meta is trying VR glasses (again), this time with more IMAX",Meta&#39;s return to the VR glasses realm comes with a promising combination of light weight form factor and enhanced entertainment options. ,,https://techcrunch.com/2026/09/23/meta-is-trying-vr-glasses-again-this-time-with-more-imax/,https://techcrunch.com/feed/,2026-09-23T23:47:35Z,5,Tech
+Meta’s next VR device isn’t a headset — it’s glasses,"Meta is launching new VR hardware: a pair of glasses. The new Meta VR Glasses sit on your ears like a typical pair of glasses instead of being strapped over your head, but they still have immersive displays for watching movies, playing games, and getting work done. Imagine a pair of hefty black sunglasses with […]",,https://www.theverge.com/tech/999517/meta-vr-glasses-connect-2026-hands-on,https://www.theverge.com/rss/index.xml,2026-09-23T23:42:10Z,7,Tech
+Muse is coming to Meta smart glasses,"Just a couple of weeks after launching Muse, Meta announced that it&#39;s &#34;working on&#34; bringing the agent to its smart glasses, including the new glasses it unveiled at Meta Connect. Users will be able to activate Muse from their glasses by saying its name and ask it to handle tasks like guiding a workout, logging […]",,https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features,https://www.theverge.com/rss/index.xml,2026-09-23T23:40:56Z,0,Tech
+Meta introduces camera-free AI glasses,Meta says the camera-free glasses will be lighter and have up to 12 hours battery life. ,,https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/,https://techcrunch.com/feed/,2026-09-23T23:39:44Z,5,Tech
+Meta ditches the camera on its newest smart glasses,"Walking around Meta Connect 2026, everyone&#39;s sporting smart glasses in all sorts of shapes, colors, and sizes. It&#39;s a marked difference here, a tech bubble where &#34;pervert glasses&#34; are not a concern. Outside Connect, the public backlash against wearable surveillance tech - a catchall term that encompasses not just smart glasses, but also smartwatches and […]",,https://www.theverge.com/tech/999281/ray-ban-meta-audio-glasses-meta-connect-2026,https://www.theverge.com/rss/index.xml,2026-09-23T23:37:17Z,5,Tech
+"Vogue sent robots down the runway at Vogue World, and people were not impressed","Nothing says Italian craftsmanship like a Chinese robot doing a lasso to &#34;L&#39;Amour Toujours.&#34;
+",,https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/,https://techcrunch.com/feed/,2026-09-23T23:33:22Z,0,Tech
+"Meta is making Muse more powerful and will let you video chat with it, too","Meta is quickly iterating on its new Muse AI agent, announcing a bunch of updates today that make the bot more capable and able to chat with you in more ways. Muse agents are getting their own email addresses that they can use for accomplishing tasks. You&#39;ll also be able to communicate with your Muse […]",,https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026,https://www.theverge.com/rss/index.xml,2026-09-23T23:19:42Z,6,Tech
+Placeholder domain used in dev docs now serves ClickFix attacks,"The &#34;third-party.com&#34; domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",,https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/,https://www.bleepingcomputer.com/feed/,2026-09-23T22:46:01Z,3,Cybersecurity
+Meta Connect 2026: The biggest news and announcements,"It’s about time for Meta Connect, the company’s annual product launch event. This year, given the company’s major focus on AI and wearables like smart glasses, it seems likely that we’ll see updates from CEO Mark Zuckerberg and his team on those categories. The company has been facing significant scrutiny because of how some users […]",,https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements,https://www.theverge.com/rss/index.xml,2026-09-23T22:45:00Z,6,Tech
+Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch,"It&#39;s time once again for Meta&#39;s annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live. Meta says that today&#39;s keynote by Mark Zuckerberg will be about how &#34;Meta is building a future for everyone&#34; - something he wrote at length about in a recent […]",,https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote,https://www.theverge.com/rss/index.xml,2026-09-23T22:30:00Z,5,Tech
+Anthropic says its biology lab has already found something big,"But maybe the biggest reveal is that Anthropic has not let Claude run lose in its biology lab. Humans are still, so far, in the loop.",,https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/,https://techcrunch.com/feed/,2026-09-23T22:17:39Z,0,Tech
+"RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",US health deptartment said it wants to ensure the vaccine orders are &#34;appropriate.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2022/12/GettyImages-1241447966-1152x648.jpeg,https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/,https://arstechnica.com/feed/,2026-09-23T22:17:25Z,6,Tech
+FBI rushes to investigate if ShinyHunters hack of thousands of employees is real,It&#39;s unclear what will happen if FBI misses ShinyHunters&#39; deadline.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2294919440-1024x648.jpg,https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/,https://arstechnica.com/feed/,2026-09-23T21:46:36Z,1,Tech
+New RemControl Android banking malware targets users in Europe and Canada,A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...],,https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/,https://www.bleepingcomputer.com/feed/,2026-09-23T21:25:13Z,3,Cybersecurity
+"If Amazon doesn’t know how to eliminate carbon emissions, then who does?",Amazon is one of the largest companies in the world. How much responsibility does it have to meet its net zero pledge?,,https://techcrunch.com/2026/09/23/if-amazon-doesnt-know-how-to-eliminate-carbon-emissions-then-who-does/,https://techcrunch.com/feed/,2026-09-23T21:21:33Z,0,Tech
+Disney+ and Hulu raise prices by up to 13 percent after doubling profits,The Disney+ ad-free plan is now more expensive than Netflix&#39;s. ,https://cdn.arstechnica.net/wp-content/uploads/2022/12/The-Mandalorian-Season-3-1152x648.jpeg,https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/,https://arstechnica.com/feed/,2026-09-23T21:18:53Z,5,Tech
+"Here's the Torcal, the first fully electric Bentley","It sounds like a V8, rides like a Flying Spur, but handles like a Continental GT. ",https://cdn.arstechnica.net/wp-content/uploads/2026/09/ELECTRUM_EXT_22-1152x648.jpg,https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/,https://arstechnica.com/feed/,2026-09-23T21:06:07Z,0,Tech
+China silent as US touts plan for AI safety alerts that omits tech experts,Trump focus on winning “AI race” may deter China from sharing safety intel.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/china-vs-us-ai-race-1152x648.jpg,https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/,https://arstechnica.com/feed/,2026-09-23T20:52:28Z,5,Tech
+F5 fixes actively exploited zero-day flaw in BIG-IP APM,"
+		
+					  
+						
+
+
+
+
+Technology company F5 fixed a critical remote code execution vulnerability in its BIG-IP Access Policy Manager (APM) platform on Tuesday. The flaw impacts deployments configured as OAuth authorization servers and was already under active exploitation in the wild before the patch became available.
+
+
+
+BIG-IP APM is a software component in F5’s BIG-IP hardware platform that enables companies to control access to internal network resources. APM performs various client-side checks and handles authorization and authentication, along with providing VPN connectivity for remote users.
+
+
+
+The flaw, tracked as CVE-2026-94127, is described as a heap-based buffer overflow and is rated 9.8 on the CVSS scale. The vulnerability impacts the BIG-IP system when configured in appliance mode as well but can be exploited only when both APM and an OAuth authorization server profile are configured.
+
+
+
+Deployments using APM only as an OAuth client or resource server are not affected, F5 said in its advisory. The company advises users to apply Hotfix-BIGIP-21.1.0.2.0.30.22-ENG.iso for the 21.x for the 21.x release branch and Hotfix-BIGIP-17.5.1.9.0.160.12-ENG.iso or Hotfix-BIGIP 17.1.3.5.0.41.14-ENG.iso for the still supported 17.5.x and 17.1.x branches.
+
+
+
+In addition to the fixes, F5 also released an iRule that can be obtained from the support portal and can be deployed as mitigation until the patch gets applied.
+
+
+
+Check for OAuth failures
+
+
+
+The US Cybersecurity and Infrastructure Security Agency (CISA) added this vulnerability to its Known Exploited Vulnerabilities (KEV) catalog on Tuesday, signaling confirmed active exploitation in the wild. The Shadowserver Foundation tracks more than 15,000 BIG-IP APM deployments exposed to the internet, with North America and Europe accounting for around 5,000 each.
+
+
+
+F5 advises customers to check installations for several indicators of compromise that require correlation as the presence of just one is not necessarily a sign of exploitation.
+
+
+
+“At a high level, multiple OAuth authentication failures, followed by suspicious commands, shortly followed by a TMM SIGABRT is the combination that should lead to human review of the system,” the company said.
+
+
+
+OAuth authentication failures are not unusual, but a repetition of more than 10 such messages in the logs, especially originating from the same IP address, should be reason for further investigation. The following command can reveal the number of authentication failures: tmctl global_oauth_stat -s total_requests,total_userinfo_requests,total_failed
+
+
+
+If suspicious counts of OAuth messages are noticed, administrators should review the information recorded around those timestamps in /var/log/audit, as well as the presence of TMM core files because exploitation can cause the TMM to enter a loop and crash, generating such files.
+
+
+
+BIG-IP APM and other F5 devices and appliances have been targeted by attackers over the past few years as part of a larger trend of compromising network edge devices and VPN gateways as an entry point into corporate networks. Just earlier this month, security researchers uncovered a Linux rootkit implant specifically designed for BIG-IP APM systems that was linked to exploitation of an older vulnerability, CVE-2025-5352.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4225721-0-77271200-1790196282-f5-logo-on-office-building.jpg?quality=50&strip=all,https://www.csoonline.com/article/4225721/f5-fixes-actively-exploited-zero-day-flaw-in-big-ip-apm.html,https://www.csoonline.com/feed/,2026-09-23T20:44:25Z,20,Cybersecurity
+VC firm Bessemer now has another $5.75B to invest in (what else?) AI,"The VC firm says that AI-native companies are growing faster than any technology, ever. ",,https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/,https://techcrunch.com/feed/,2026-09-23T20:35:17Z,5,Tech
+Microsoft’s new Surface Mouse has haptic feedback and a customizable action button,"Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Surface Mouse also has a customizable action button for the first time, which is primarily designed for quick access to Copilot (of course), but can be configured to work with other shortcuts from the Surface app. &#34;Its […]",,https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback,https://www.theverge.com/rss/index.xml,2026-09-23T20:30:00Z,1,Tech
+Microsoft refreshes its smaller Surface Pro and Laptop with Qualcomm’s X2 Plus,"Microsoft is refreshing its Surface Pro 12-inch and Surface Laptop 13-inch devices with Qualcomm&#39;s latest Snapdragon X2 Plus chips. The smaller Surface devices retain the same design and hardware features from last year, with faster and more capable chips inside and higher price tags (thanks RAMageddon!). While the 12-inch Surface Pro started at $799.99 last […]",,https://www.theverge.com/news/999195/microsoft-surface-pro-12-inch-surface-laptop-13-inch-qualcomm-x2-plus,https://www.theverge.com/rss/index.xml,2026-09-23T20:30:00Z,6,Tech
+XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them,$11M competition showed wildfire detection is still easier than stopping fires.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Andurils-fire-retardant-balls-explode-on-fire-target-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/,https://arstechnica.com/feed/,2026-09-23T20:28:42Z,0,Tech
+Discord age verification rolls out today with changes spurred by user backlash,"Discord will try to automatically estimate ages, require verification when it can&#39;t.",https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2195918304-1152x648-1749154130.jpg,https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash/,https://arstechnica.com/feed/,2026-09-23T20:05:13Z,0,Tech
+Check Point warns of hackers exploiting Security Gateway VPN RCE flaw,"Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",,https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/,https://www.bleepingcomputer.com/feed/,2026-09-23T19:53:54Z,8,Cybersecurity
+YouTube promises custom feeds and a lot more AI later this year,YouTube&#39;s next year could change the content you see with a big focus on AI and live streams.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/made-on-youtube-2026.png,https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/,https://arstechnica.com/feed/,2026-09-23T19:35:53Z,5,Tech
+IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin,"IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction.
+The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on SecurityWeek.
+",,https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/,https://www.securityweek.com/feed/,2026-09-23T19:32:49Z,1,Cybersecurity
+Enveda secures $311M to bring more nature-derived AI drugs into clinical trials,The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.,,https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/,https://techcrunch.com/feed/,2026-09-23T19:31:28Z,5,Tech
+Modal Motors is trying to cut China out of electric motors entirely,"The startup is working on small, light motors with no rare earth magnets that are suited for drones, fans, and robots.",,https://techcrunch.com/2026/09/23/modal-motors-is-trying-to-cut-china-out-of-electric-motors-entirely/,https://techcrunch.com/feed/,2026-09-23T19:05:00Z,3,Tech
+Meta’s AI agent is a cute little guy who’s great at spending my money,"Modern life comes with an unending, auto-populating to-do list. It never ceases to amaze me how I can be doing nothing at all, minding my own business, and suddenly something needs to be taken care of. You&#39;re telling me a tree branch fell in the backyard and now I have to figure out what to […]",,https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping,https://www.theverge.com/rss/index.xml,2026-09-23T19:00:00Z,5,Tech
+"Contrary to some reports, you don't have two brains",A bad press release makes a good excuse to look at how developmental biology works.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2230128500-1152x648.jpg,https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/,https://arstechnica.com/feed/,2026-09-23T18:47:36Z,5,Tech
+Hackers start exploiting critical WordPress flaw for code execution,Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...],,https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/,https://www.bleepingcomputer.com/feed/,2026-09-23T18:31:22Z,6,Cybersecurity
+Rendering huge pull requests in the GitHub Copilot app,"How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.
+The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog.
+",,https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/,https://githubengineering.com/atom.xml,2026-09-23T18:29:49Z,0,General
+Netflix releases trailer for Brad Bird's Ray Gunn,"&#34;It’s film noir and a hard-boiled detective story, but it’s got a lot more comedy and a lot more action.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/09/raygunn1-1152x648.jpg,https://arstechnica.com/culture/2026/09/netflix-drops-trailer-for-brad-birds-ray-gunn/,https://arstechnica.com/feed/,2026-09-23T18:26:50Z,5,Tech
+"Data centers are black boxes, but California wants to change that ","California Gov. Gavin Newsom signed a slate of bills on Monday that could finally give communities better data - and more say - on how data centers impact their electricity bills and water supply. As data centers invade a growing number of communities across the US, they&#39;ve triggered protests over how the infrastructure underpinning AI […]",,https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills,https://www.theverge.com/rss/index.xml,2026-09-23T18:22:57Z,5,Tech
+Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry,"Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.
+
+According to Aikido, the list of Terraform providers and Go modules is below -
+
+
+  gocommunity-io/dockerd (222 downloads)
+  kreuzwenker/",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8VNxKl5_NBWXcUoDi3VxoksbOSAixGFGd8EmIaZmKRQpsGhOj6SLg8fmHktJbtvR7wofZNG1AFIzSGnVFq8OJHgq27dhqNtc0cz457ZqqQQ6INHwnExfLu3xKERaNt0GmOpxJ6WR6oxp5FZTT-q3Q5YWAnVawXYfY51GRl09ovsDkhM3U8tRUTR4ClSfj/s1600/terraform.jpg,https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T18:06:30Z,11,Cybersecurity
+Disney+ and Hulu add to the growing trend of streaming inflation,Disney is raising the prices of Disney+ and Hulu as streaming costs continue to rise across the industry.,,https://techcrunch.com/2026/09/23/disney-and-hulu-add-to-the-growing-trend-of-streaming-inflation/,https://techcrunch.com/feed/,2026-09-23T18:06:27Z,5,Tech
+Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios,"The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts.
+The post Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios appeared first on SecurityWeek.
+",,https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/,https://www.securityweek.com/feed/,2026-09-23T18:05:58Z,1,Cybersecurity
+Anthropic&#8217;s biolab made a discovery it&#8217;s comparing to Crispr,Anthropic says its AI Claude has &#34;autonomously discovered&#34; a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr. It&#39;s the first result from Anthropic&#39;s newly-launched wet lab and an early test of Claude&#39;s usefulness for science as the company prepares to go public. The company says Claude found the enzyme system after […],,https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr,https://www.theverge.com/rss/index.xml,2026-09-23T18:00:00Z,5,Tech
+The old cybersecurity model is breaking,"As concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the next generation of security for an AI-native world. We’re even seeing companies like Instinct and Simile bring in nine-figure checks and valuations that wouldn’t have made sense a […]",,https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking/,https://techcrunch.com/feed/,2026-09-23T17:44:02Z,8,Tech
+Owners mourn spoiled food after firmware update bricks Samsung smart fridges,&#34;So absurd and embarrassing ...&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Samsung-Bespoke-AI-3-Door-Refrigerator-AutoView-950x534-1-1152x648-1790182604.jpg,https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/,https://arstechnica.com/feed/,2026-09-23T17:39:39Z,1,Tech
+Zoox grounds Atlanta test fleet after workers report toxic gas exposure symptoms,The Amazon-owned company launched an investigation after a worker submitted an OSHA complaint. ,,https://techcrunch.com/2026/09/23/zoox-grounds-atlanta-test-fleet-after-workers-report-toxic-gas-exposure-symptoms/,https://techcrunch.com/feed/,2026-09-23T17:28:38Z,5,Tech
+"Former NASA chief sounds alarm on China's lunar ""exploration"" plans",&#34;Beijing&#39;s intended strategy is to dominate the high ground of the twenty-first century.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2022/03/BillNelsonHappy-CROPPED-1152x648.jpeg,https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans/,https://arstechnica.com/feed/,2026-09-23T17:10:58Z,0,Tech
+ChatGPT mobile app gets voice-based agentic features,Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.,,https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/,https://techcrunch.com/feed/,2026-09-23T17:00:00Z,1,Tech
+A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You,"The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.
+
+GitLab shows each user this address behind a button labeled &#34;Email work item to this project.&#34; Mail sent to it opens an issue in that project, authored",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaHKzSxkk0R4wjlziQHsR5vS1s1mTJovZkES9XL9nn5VLYiM55XuJoiGP9cugwNUOBMEMG3NrW3iBL9cVOqfp0F-9roYS7K7R5w8t3_NJr61_2_XgRNltvjXBFoGLfQPQFhUk0ju_mMCRCqJHjr76BrbngafAtElKkD-LZWZ7uUcY82i8PAMKh0ljHJQI/s1600/gitlab-email.jpg,https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T16:53:10Z,1,Cybersecurity
+Even Americans who use AI every day are worried about it,"The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",,https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/,https://techcrunch.com/feed/,2026-09-23T16:49:58Z,5,Tech
+Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison,"Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the &#34;destruction or disempowerment of humanity,&#34; including by overthrowing the government. Under the Ban Artificial Superintelligence Act, AI leaders would face up to 20 years […]",,https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act,https://www.theverge.com/rss/index.xml,2026-09-23T16:23:05Z,5,Tech
+"Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers","A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",,https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/,https://www.bleepingcomputer.com/feed/,2026-09-23T16:20:54Z,6,Cybersecurity
+MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key,"Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.
+
+The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjudzrtqX93WzCbZQoGI06WzKFtFpQsZaQB7GUao4yzBncGN3nxn0GzmYNybpL9SeKFttznMsVCZpQEQ_fD5kP_0nJRL4ZN6ZgHrXR2c33bpZN33gEyIkk6aBtx0k7znzalUe6epmrCO5VSCCH6beY_chvz9Pl0t5BbBtCLntTnNMwi3cFPXFd0p09FxA4/s1600/microtik.jpg,https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T16:06:41Z,3,Cybersecurity
+YouTube is making comments more fun — and fandom more lucrative for creators,"YouTube is rolling out GIF replies, voice-powered TV comments, personalized moderation, paid members-only communities, and new ways for fans to support their favorite creators.",,https://techcrunch.com/2026/09/23/youtube-is-making-comments-more-fun-and-fandom-more-lucrative-for-creators/,https://techcrunch.com/feed/,2026-09-23T16:03:44Z,5,Tech
+Logitech’s new Blue Yeti 2 mic adjusts itself to where you are,"The original Blue Yeti has been one of the most recognizable go-to USB microphones for content creators since it launched in 2009, and now it finally has a successor. Launching today under Logitech G, the Blue Yeti 2 adds some modern upgrades, including an interactive LED display, AI de-noising, and a proximity based voice sensor […]",,https://www.theverge.com/gadgets/999406/blue-yeti-2-usb-microphone-price-availability,https://www.theverge.com/rss/index.xml,2026-09-23T16:01:45Z,5,Tech
+Logitech’s new haptics-based gaming mouse is a little better and $20 more,"The G Pro Superstrike mouse is one of Logitech&#39;s most interesting products. Unlike other gaming mice, it has haptic actuators beneath its two main buttons instead of mechanical switches, which decreases latency and allows for a custom click feel (the click can be super subtle, more jolty, or turned off entirely). The tech debuted in […]",,https://www.theverge.com/news/998266/logitech-x3-pro-superstrike-specs-price,https://www.theverge.com/rss/index.xml,2026-09-23T16:00:00Z,5,Tech
+YouTube’s conversational video editing tool lets creators make edits in natural language,Creators will be able to use AI in a conversational chat interface to help them edit videos.,,https://techcrunch.com/2026/09/23/youtubes-conversational-video-editing-tool-lets-creators-make-edits-in-natural-language/,https://techcrunch.com/feed/,2026-09-23T15:46:57Z,5,Tech
+Xbox’s Mythic achievements sound like PlayStation’s Platinum trophy,"Xbox appears to be ready to launch its own version of PlayStation&#39;s platinum trophies. A new update to the Xbox PC app has revealed Mythic achievements, which according to data in the app will appear once a player completes all the achievements in a game. Mythic achievements appear on screen with a unique unlock sound, […]",,https://www.theverge.com/news/999404/xbox-mythic-achievement-feature,https://www.theverge.com/rss/index.xml,2026-09-23T15:45:11Z,2,Tech
+YouTube Music gets more conversational with new AI features,"YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podcasts, and “Your Podcast Lineup,” a personalized […]",,https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/,https://techcrunch.com/feed/,2026-09-23T15:19:30Z,6,Tech
+GitHub App keys can still enable takeovers long after they are forgotten,"
+		
+					  
+						
+
+
+
+
+GitHub allows organizations to install GitHub Apps that automate and extend certain functionality on the platform and have access to selected repositories and permissions. But the private keys these applications use to authenticate themselves can remain valid for years unless manually revoked.
+
+
+
+If leaked, those keys can potentially give attackers administrative control over an organization’s GitHub account, says GitGuardian, which found 474 still-valid GitHub App private keys among 4802 publicly exposed ones it has collected since 2019.
+
+
+
+In testing the keys for validity, it was also able to determine what access rights they provided, finding that “72% of the compromised Apps could read private repository content, and 207 could write to it, turning one leaked key into an organization takeover,” GitGuardian researcher Gaetan Ferry said in a blog post.
+
+
+
+Among the GitHub Apps affected by the leaked keys was “Access Tokens for GitHub Actions,” an application used to manage access for GitHub Actions workflows. Its private key was exposed in January 2024 after being accidentally committed to a repository, potentially affecting 300 organizations where the app was installed, including Civica and Sierra Nevada Corp.
+
+
+
+BuildBuddy, Crusher.dev, and a private application associated with the US Centers for Disease Control and Prevention were among the other GitHub Apps for which GitGuardian found exposed keys.
+
+
+
+Agnidipta Sarkar, chief evangelist at security software vendor ColorTokens, said the initial abuse is “trivially straightforward” and an attacker can achieve that with a valid private key and the corresponding App ID. For maximum impact, he said, attackers could chain the abuse by “injecting malicious code into the repository and when the code is built or deployed, it can compromise downstream users or production environments.”
+
+
+
+An attacker might also be able to modify CI/CD runner configurations to execute arbitrary code on the organization’s internal network infrastructure, Sarkar added.
+
+
+
+GitGuardian said it notified all affected application owners about the exposed keys and noted that its own secret-scanning service uses a GitHub App to monitor repositories for leaked credentials.
+
+
+
+Leaked keys had varied access
+
+
+
+When an organization installs a GitHub App, it decides which repositories the application can access and what it can do there. GitGuardian found that 40 affected Apps could administer self-hosted runners, 98 could control workflows, and 44 had organization-administration privileges.
+
+
+
+For the Apps with organization administration privileges, “An attacker could add themselves as an owner, lock out legitimate admins, and completely hijack the GitHub organization,” Sarkar said.
+
+
+
+One of the exposed Apps had 303 installations, some had none, and 59% of them had just one installation, pointing to private use.
+
+
+
+Commenting on these internal, single-installation Apps, Ferry said, “Those are internal automation, CI bots, and one-off tooling that can easily be forgotten, even if no longer used.” Such Apps can keep running and the keys can keep working indefinitely without anybody noticing.
+
+
+
+GitGuardian also found 156 cases where the leaked private key appeared in an unrelated repository, making the credential harder to associate with the GitHub App that owned it.
+
+
+
+“The blast radius does not stop at the App’s owner,” Ferry said. “It extends to every organization that installed the App, and, through supply-chain dependencies, to every downstream user of the code that App touches.”
+
+
+
+Key rotation is the only way
+
+
+
+Even though GitHub warns in its official documentation that the private keys do not expire on their own and must be manually revoked or deleted, organizations may not be doing so because of incorrect security assumptions about how they work.
+
+
+
+The private keys are generated in the App’s configuration and are used to sign a short-lived JSON Web Token (JWT), which GitHub accepts and issues an installation access token for. The installation token carries the permissions granted to the App when an organization installed it.
+
+
+
+The JWT expires within minutes and installation tokens are only valid for an hour, making their abuse window really short and giving an impression that losing control of a key present a limited risk.
+
+
+
+However, anyone who holds the private key can generate countless JWTs and authenticate as the GitHub App, getting GitHub to generate fresh installation tokens for as long as the private key remains valid.
+
+
+
+“It is possibly an intentional design trade-off, not an oversight,” Sarkar said, commenting on the implementation of short-lived tokens alongside a permanent key. “This is how machine-to-machine authentication traditionally works and it prevents unexpected downtime.” The “forever” design prioritizes operational simplicity and continuity; the security burden of rotation falls entirely on App owners, he added.
+
+
+
+GitGuardian recommends regularly rotating or revoking the private keys because they can outlive both the people who created them and the reason they did it, said Ferry. “A key committed by mistake in 2020 can still authenticate today, long after the mistake is forgotten,” he said.
+
+
+
+Sarkar said that manual revocation is extremely rare and almost always reactive, though. “Most IT service management manuals mention its necessity, but rarely demonstrate it unless a security incident, an audit, or a specific change requires it,” he explained.
+
+
+
+This article first appeared on InfoWorld.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4225633-0-54984000-1790176385-old_keys.jpg?quality=50&strip=all,https://www.csoonline.com/article/4225633/github-app-keys-can-still-enable-takeovers-long-after-they-are-forgotten-2.html,https://www.csoonline.com/feed/,2026-09-23T15:12:48Z,5,Cybersecurity
+One of the best Metroid games for the Switch is 30 percent off,"Nintendo’s “Customer Appreciation” sale continues through September 26th. It includes discounts on Switch games and accessories, and I thought I’d call out one of my favorite games that’s cheaper than ever. Metroid Prime Remastered is down to $27.99 in digital format for the Switch and Switch 2, and it’s among the best remasters I’ve played […]",,https://www.theverge.com/gadgets/999329/metroid-prime-remastered-nintendo-flow-usbc-apple-deal-sale,https://www.theverge.com/rss/index.xml,2026-09-23T15:01:50Z,1,Tech
+"This $199 GPS sports watch is repairable, modular, and open-source","The Una Watch costs less than most Garmin watches now that its price has been lowered from the Kickstarter offer of $350 to $199, but its modular, repairable design grabbed my attention first. It features a 1.2-inch MIP LCD display and up to 10 days of battery life, similar to the Garmin Forerunner 70 or […]",,https://www.theverge.com/gadgets/999380/una-watch-sports-gps-modular,https://www.theverge.com/rss/index.xml,2026-09-23T15:01:16Z,5,Tech
+"Eight Sleep’s new Pod 6 comes in smaller and solo sizes, starting at $1,999",Eight Sleep said the new pod is now 20% faster than the previous generation,,https://techcrunch.com/2026/09/23/eight-sleeps-new-pod-6-comes-in-smaller-and-solo-sizes-starting-at-1999/,https://techcrunch.com/feed/,2026-09-23T14:45:00Z,5,Tech
+InfraTrust report warns network management systems under attack,"Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",,https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/,https://www.bleepingcomputer.com/feed/,2026-09-23T14:35:26Z,6,Cybersecurity
+YouTube doubles down on video shopping with AI-powered ‘Ask YouTube’ feature,YouTube&#39;s AI feature can now help you compare products as you shop. ,,https://techcrunch.com/2026/09/23/youtube-doubles-down-on-video-shopping-with-ai-powered-ask-youtube-feature/,https://techcrunch.com/feed/,2026-09-23T14:30:00Z,5,Tech
+YouTube will let you build your own algorithm with AI,"ouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.",,https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/,https://techcrunch.com/feed/,2026-09-23T14:30:00Z,5,Tech
+StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital,"StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join this exclusive session. Save $200 before September 25, 11:59 p.m. PT.",,https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/,https://techcrunch.com/feed/,2026-09-23T14:30:00Z,5,Tech
+"YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",Many of these tools hinge on using generative AI to try out a variety of different tactics on a video to find what works best.,,https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing/,https://techcrunch.com/feed/,2026-09-23T14:30:00Z,5,Tech
+YouTube’s new ‘Short Series’ feature brings episodic viewing to Shorts,"As microdrama apps gain traction, YouTube is clearly betting that episodic short-form storytelling will stick around. And that the format belongs on Shorts. At its Made On YouTube event on Wednesday, the company announced “Shorts Series,” a new tool that lets creators organize their Shorts into TV-style seasons and episodes. The feature brings a more […]",,https://techcrunch.com/2026/09/23/youtubes-new-short-series-feature-brings-episodic-viewing-to-shorts/,https://techcrunch.com/feed/,2026-09-23T14:30:00Z,6,Tech
+YouTube releases new AI features for creators within its Studio app,YouTube is adding new features to generate ideas and monitor the performance of thumbnails.,,https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/,https://techcrunch.com/feed/,2026-09-23T14:30:00Z,6,Tech
+YouTube is building AI creator tools that do almost everything for them,"Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Made on YouTube […]",,https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests,https://www.theverge.com/rss/index.xml,2026-09-23T14:30:00Z,5,Tech
+Discord will now automatically estimate your age,"Discord is rolling out a new global age assurance system, seven months after pausing its previous verification measures following backlash from users. Starting today in every country except Australia and the UK, Discord will automatically assign users to an estimated age group based on &#34;multiple account signals,&#34; with account restrictions placed on users believed to […]",,https://www.theverge.com/tech/999305/discord-updated-age-assurance-global-rollout,https://www.theverge.com/rss/index.xml,2026-09-23T14:27:49Z,0,Tech
+"Here’s the trailer for Nathan Fielder’s Elizabeth Holmes documentary, in theaters October 16","In this cursed timeline, we have been gifted with something so unfathomable that we could never have imagined it.",,https://techcrunch.com/2026/09/23/heres-the-trailer-for-nathan-fielders-elizabeth-holmes-documentary-in-theaters-october-16/,https://techcrunch.com/feed/,2026-09-23T14:21:41Z,5,Tech
+Aftermarket driver assist under federal probe following fatal crashes,Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1572803728-1152x648.jpg,https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/,https://arstechnica.com/feed/,2026-09-23T14:20:23Z,5,Tech
+This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move,"A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker&#39;s server, Cisco Talos said on September 22.
+
+The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZdSpi6aqUlY2q-T-3eJ4YCn7G3jYa9Exo6BMffjdRLuqg9Gdn4ImZXKjcYX8s5Swz3W_WhxMZ_Z7qbu0Z60KrCk8EUhRV8bJ7l1mXOoDCo-XAXyq69_rtFDoVhvAiuJP1rCdSf9KixTqgAA52iwqWsqB5T0uJaRGFz1hpBcpfQuvPMYd17UcrfrnUV0c/s1600/closed.jpg,https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T14:17:58Z,7,Cybersecurity
+How One Kubernetes YAML Can Hand Over a GCP Organization,A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...],,https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/,https://www.bleepingcomputer.com/feed/,2026-09-23T14:01:11Z,3,Cybersecurity
+3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026,"3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second. Make impactful connections with 10,000+ tech leaders. Last day to save is September 25, 11:59 p.m. PT. Register here.",,https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-23T14:00:00Z,0,Tech
+Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI,"Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.
+
+According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -
+
+
+  @memtensor/memos-cloud-openclaw-plugin versions",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFThFSFsti-2SIka75bNuMKpyJHtOW2ZPrZtcSjbjFQ64GCNn0WtdssYuWlVTbhaLB5cAJ0vu8FgyNmNsDa8g0Ijy-D1zP4FW7ihVfAjk9xWMYDMMdfZPICGyVdjeDwH3-jyKLHOUnjfaXBJIMxGn_3ngeXFsbb4CLnOibRd4fbwXHYpBkMQTcBQAf0edq/s1600/npm-pypi.jpg,https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T13:52:46Z,4,Cybersecurity
+McDonald’s is testing ads on its drive-thru menus,"McDonald&#39;s is putting ads on its drive-thru menu as part of a &#34;limited&#34; pilot at company-owned restaurants, according to a report from Bloomberg. Drive-thru locations included in the test will show ads from other brands on digital menu boards after a customer places their order, which they&#39;ll see while they wait for their meal. In […]",,https://www.theverge.com/tech/999295/mcdonalds-drive-thru-menu-ads,https://www.theverge.com/rss/index.xml,2026-09-23T13:52:39Z,5,Tech
+Nobody does it like Remedy,"Video games have given us plenty of ways to traverse huge open worlds, but none have felt quite as oddly exhilarating as manipulating gravity in Control Resonant&#39;s twisted version of New York City. It&#39;s a game that lets you flip, twist, and fly through the air, while exploring settings that look ripped out of Inception. […]",,https://www.theverge.com/games/999268/control-resonant-review-ps5-xbox,https://www.theverge.com/rss/index.xml,2026-09-23T13:45:00Z,5,Tech
+How the US handed China control of the rare-earth supply chain,Decades of cheaper imports left US dependent on China for crucial rare-earth processing.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/mpmaterials-1152x648-1790170607.jpg,https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/,https://arstechnica.com/feed/,2026-09-23T13:37:05Z,5,Tech
+PitPro’s first tire-changing robot goes live in Canada,The startup says its automated system can change four tires in under 15 minutes.,,https://techcrunch.com/2026/09/23/pitpros-first-tire-changing-robot-goes-live-in-canada/,https://techcrunch.com/feed/,2026-09-23T13:00:00Z,3,Tech
+LinkedIn adds new tools to fight fake profiles and bogus work histories,LinkedIn is rolling out new verification tools that let members vouch for colleagues’ work experience and give companies more control over accounts that falsely claim to employ them.,,https://techcrunch.com/2026/09/23/linkedin-adds-new-tools-to-fight-fake-profiles-and-bogus-work-histories/,https://techcrunch.com/feed/,2026-09-23T13:00:00Z,5,Tech
+Spotify’s is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’,"Spotify is rolling out Taste Profile to Premium users in the U.S., letting listeners see how the streamer understands their tastes and use natural language to reshape their recommendations",,https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/,https://techcrunch.com/feed/,2026-09-23T13:00:00Z,0,Tech
+Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw,"Meta says it issued a fix for the Muse zero-day vulnerability that would have let attackers do “whatever” they wanted on a victim’s Mac, highlighting the inherent dangers of AI helpers.",,https://www.wired.com/story/metas-muse-ai-agent-zero-day/,https://www.wired.com/feed/category/security/latest/rss,2026-09-23T12:54:58Z,12,Cybersecurity
+Arista patches actively exploited VeloCloud Orchestrator zero-day,Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...],,https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/,https://www.bleepingcomputer.com/feed/,2026-09-23T12:29:53Z,10,Cybersecurity
+"Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare","Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature.
+The post Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare appeared first on SecurityWeek.
+",,https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/,https://www.securityweek.com/feed/,2026-09-23T12:17:28Z,1,Cybersecurity
+"New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control","A flaw in cPanel&#39;s CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take &#34;full control of the server,&#34; the company said on September 22.
+
+A second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts.
+
+cPanel has released fixed versions for both,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT5quc0dmRWhh6WOC80Gx9QoHTMYyq5srnXBXjybOKZk_qoUn1Q2nKLE9MifqCEyRIha_NFvRsyr8Nx5EyxGIREXaTb5Fh59cz4Ln8yZj9Zv7piqM49wmm7rfmchW1cVlss1wn47qNypaYarZUVNHBO8rzXaYTvRMi9u1phgfXVd8OZx8_Vjxm34684BE/s1600/cpanel-0day.jpg,https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T12:16:00Z,1,Cybersecurity
+Comma’s hands-off driving tech under investigation after 2 fatal crashes,The investigation involves at least some crashes where it appears drivers were using &#34;forked&#34; versions of Comma&#39;s software. ,,https://techcrunch.com/2026/09/23/commas-hands-off-driving-tech-under-investigation-after-2-fatal-crashes/,https://techcrunch.com/feed/,2026-09-23T12:12:39Z,2,Tech
+Xiaomi’s new 18 Pro phones improve on Samsung’s privacy display,"Xiaomi&#39;s new 18 Pro and 18 Pro Max launched in China today, and feature a more flexible take on the privacy display tech introduced this year on Samsung&#39;s Galaxy S26 Ultra. They combine it with returning rear screens, two 200-megapixel cameras, and both of Qualcomm&#39;s new Snapdragon 8 Elite Gen 6 chips. A global launch […]",,https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china,https://www.theverge.com/rss/index.xml,2026-09-23T12:04:45Z,0,Tech
+Ema raises $77M as AI starts eating into enterprise software and services,"Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",,https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/,https://techcrunch.com/feed/,2026-09-23T12:00:00Z,6,Tech
+545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent,"Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio2c14ELRJEhvTuDrxQmhUG4G9aGoVRrooBMMfuK7LyHPKW6HuJbI9PkKF-WG_5HlEz8NKcuj08XRmv1jNqfBtiDwXmC7e9P9lxoSHK5nUz023YCgoLQuo0BI_9hX4U9Vv97bGJejb4W0jvgv_3btkfj6BWnXwalfyI3k34wveC6n3k47ZdoGq2P0Yaw0/s1600/main.png,https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T11:47:19Z,1,Cybersecurity
+Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests,"Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.
+
+Opus 5.5, per Anthropic, is a &#34;major step up from Opus 5,&#34; and &#34;achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_ytuRh_WTu4R3TBnroGXO6IUgATMIi9vgx8DA7j0JJ0e_cTfAjlUIS6zAjb2q9EPdTI8gLwby7r2fijYkH83j2SwisKf-ANFKr6YTdwAHeds99dYrng0QN3nmkqDtIvSHoK8m47e_V0x01B0PuzIezcqtnc2VZlUCVYErOkaKQF7pbk0l35uLwmTl8Is1/s1600/CLAUDE-CHATGPT.jpg,https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T11:47:13Z,1,Cybersecurity
+"Adobe Patches Critical Flaws in Connect, AEM Forms","The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.
+The post Adobe Patches Critical Flaws in Connect, AEM Forms appeared first on SecurityWeek.
+",,https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/,https://www.securityweek.com/feed/,2026-09-23T11:40:59Z,5,Cybersecurity
+AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft,"The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets.
+The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/,https://www.securityweek.com/feed/,2026-09-23T11:23:30Z,7,Cybersecurity
+Microsoft: September Windows updates break Always On VPN connections,Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/,https://www.bleepingcomputer.com/feed/,2026-09-23T11:18:13Z,1,Cybersecurity
+Small undersea volcanoes may unleash outsized tsunamis,Post-eruption imaging of the Hunga caldera gives new details of its collapse.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1248375228-1024x648.jpg,https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/,https://arstechnica.com/feed/,2026-09-23T11:15:30Z,5,Tech
+Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape,"A use-after-free in the Linux kernel&#39;s AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22.
+
+The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst ",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZjw_aCdQxMfwTv_-KFLK5KRCd96MoivCQPTAZcAWJal5_84FgCny9Um8csMgDDqta40CUGMPDO14hdbUo9CRk-FMJwY70MsDfV25AC8VmL-8_yDO_UWHYXbmeJ9jZANptIeHqJX9axqzxxn68AHEj8zFhYbh8coIbxWAVC9XbtG9CjxMBpQqclG14QuM/s1600/linux.gif,https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T11:12:18Z,5,Cybersecurity
+OpenAI nabs key Patreon execs ahead of upcoming announcement,"OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, co-founder and technology chief Sam Yam announced on X that he&#39;s joining OpenAI to lead Creator Product. He&#39;s also bringing Patreon&#39;s former product head Drew Rowny and engineering head Shannon Ma with […]",,https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam,https://www.theverge.com/rss/index.xml,2026-09-23T11:02:39Z,5,Tech
+"There are now 17,000 satellites in orbit—and growing. Should we be concerned?",&#34;I think we are going to lose the ability to use certain orbits.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2023/08/debris-1152x648.jpg,https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/,https://arstechnica.com/feed/,2026-09-23T11:00:17Z,5,Tech
+Eight Sleep’s new cooling hub is small enough to hide under your bed,"Eight Sleep announced the next version of its &#34;intelligent sleep system&#34; designed to regulate the temperature of your bed in response to tracked health and sleep metrics like breathing and heart rate. The company calls its new Pod 6 system its &#34;most significant hardware launch to date,&#34; and it&#39;s centered around a redesigned cooling hub […]",,https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking,https://www.theverge.com/rss/index.xml,2026-09-23T11:00:00Z,1,Tech
+Chrome 154 Patches 108 Vulnerabilities,"The browser update resolves several critical-severity memory safety and memory corruption flaws.
+The post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/,https://www.securityweek.com/feed/,2026-09-23T10:36:07Z,2,Cybersecurity
+A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk,"Debates over the plausibility of these doomsday scenarios have heated up since several executives endorsed slowing the technology’s development for safety reasons.
+The post A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk appeared first on SecurityWeek.
+",,https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/,https://www.securityweek.com/feed/,2026-09-23T10:20:36Z,2,Cybersecurity
+Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm,"Emerging from stealth with $16 million in pre-seed funding, Outerlimit offers a decentralized authorization layer designed to discover, observe, and block harmful autonomous AI actions.
+The post Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm appeared first on SecurityWeek.
+",,https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/,https://www.securityweek.com/feed/,2026-09-23T10:00:00Z,1,Cybersecurity
+Arista Urges Immediate Patching of Exploited VCO Zero-Day,"Remote attackers could trigger the critical-severity flaw to access privileged internal functionality.
+The post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/,https://www.securityweek.com/feed/,2026-09-23T08:33:06Z,13,Cybersecurity
+F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers,"Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.
+
+The flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in an advisory on September 22 and has released engineering hotfixes.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_ZqCwuuKS7TqNWQ7GpeE07JLzHNn4Jdb2O6iQAlY34SiP2it2VwgmeVm5OjAzoAEHFQRVJENdDNGQL94ibPy1AiB9qkpNxZ3ILA89tYlwqm2OO9tEOH_BZ9HZzObw0nrzszQoKnaCQ-Q8ez5DPsnrKjq40qhm2tu_DhMSFunkVRsHeEIc0IA2NL-yZ5g/s1600/f5-zero-day.jpg,https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T08:29:48Z,15,Cybersecurity
+Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware,"A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.
+
+The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikVEmuPJKZAlboodZWejG4dGZXXejOLThyXPoOnycqTY8lznAewTW5ovv8XFJzhyjPRMXT-njudYOVWFEYCLvmEPDyUrfDTZzAmp1S4KE4DuzsDFxt8R-biL2puZZBWG36_dkhfzvpeigcPb9WJNy31oIXo6Oh3zMUzL3JG6MEr4OaGE4Yi_k5JCpohVrZ/s1600/windows-china.jpg,https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T08:29:24Z,17,Cybersecurity
+"Okta bets on identity to control AI agents, but is identity enough?","
+		
+					  
+						
+
+
+
+
+Concerns over agentic risks are rising, and identity and access management (IAM) giant Okta believes it’s making the moves of a would-be leader in this emerging cyber market.
+
+
+
+“Identity is the primary control plane for securing AI,” said Okta CEO and co-founder Todd McKinnon in an earnings call in late August, telling investment analysts that the company’s customers see Okta as well-positioned to secure this agentic future. “And so we’re going after that on all fronts.”
+
+
+
+“We think that being the system of record for agents in the enterprise and being the system of record for agent identity, in the fullness of time, could be the biggest category of cyber,” he added.
+
+
+
+At the center of that strategy is Okta for AI Agents, an identity management and security platform for tracking and controlling agentic entities and activity.
+
+
+
+The company is billing the solution as a blueprint for securing the agentic enterprise, and has kicked off its annual Oktane conference with a slew of enhancements aimed at managing agentic risk, including the expansion of its Agent SSO identity model, the ability to set rules for agent-to-agent interactions, and added policy and logging enforcement for interactions at runtime.
+
+
+
+But even fully authenticated AI agents can go rogue and do harm, and there are other challenges ahead for the identity management company, experts say.
+
+
+
+“Identity in itself is not the largest problem in the agentic world,” says Aisling Dawson, an analyst at ABI Research. “Authentication is only the first stage.”
+
+
+
+Moreover, moving from human to agentic identities is also a challenge, given that AI agents operate at a very different scale than humans, Dawson notes. Vendors coming from the machine identity market already know how to handle this, she says.
+
+
+
+That may put competitors from the non-human identity (NHI) side of the ledger in a better position for CISO budget in this area, especially as agentic identity also has agent-specific challenges, such as multi-hop delegation, she says.
+
+
+
+The latest Hugging Face hack, for example, shows that runtime governance, behavioral monitoring, and excessive permissions are all rising threats, she says.
+
+
+
+But Hugging Face would have been a much smaller event had there been better security practices in place, Ric Smith, president of products and technology at Okta, said in a media briefing last week. “There’s just basic primitives in security that were missed that allowed a lot of this to happen.”
+
+
+
+That includes identity-related practices, such as the elimination of standing credentials, he said.
+
+
+
+“Agentic AI is very interesting, and in some ways, the complexity of it makes us forget about the basic principles that we have to put in place to run a secure enterprise,” he said.
+
+
+
+In addition, Okta’s new agentic gateway would have addressed some of the other issues that made the attack possible, he noted.
+
+
+
+The agentic security space is a free-for-all
+
+
+
+Gartner predicts that the average global Fortune 500 company will have more than 150,000 agents in use by 2028 — up from under 15 in 2025.
+
+
+
+And security is not an afterthought. Headlines are rife with AI agents being used by attackers, being compromised, or going rogue and hacking other companies. OpenAI, Anthropic, and, most recently, Google, have all admitted that their AI agents have gone rogue and hacked other companies.
+
+
+
+Gartner predicts that the market for securing AI will hit $2.8 billion this year, up 83% from 2025 — and grow to $4.8 billion in 2027 and $7.7 billion in 2028.
+
+
+
+The identity security market, by comparison, is much larger and more mature. According to IDC, it was $29 billion in 2025 and is expected to grow to $56 billion by 2029.
+
+
+
+The intersection of the two promises to be a hotly contested area.
+
+
+
+Hyperscalers and third-party agentic development platforms have agentic security as part of their offerings. Identity and access management vendors, including Okta, Microsoft, and Ping, are expanding beyond human identities to AI agents.
+
+
+
+Other companies are buying their way in — this year alone, Palo Alto bought CyberArk, CrowdStrike bought SGNL, and Zscaler bought Symmetry Systems.
+
+
+
+“Everyone wants to own the traffic system of the agent economy,” says IDC analyst Emanuel Figueroa. “Identity vendors, cloud providers, AI platforms, and cybersecurity vendors all see an opportunity to become the control plane for autonomous actors.”
+
+
+
+Identity providers are positioned well, he says, because agents operate through credentials, permissions, delegated access, and trust relationships. “The question is which layer enterprises ultimately trust to coordinate agent activity at scale.”
+
+
+
+Okta could have an edge over Microsoft, says ABI’s Dawson, because it offers a more agnostic identity platform.
+
+
+
+“Limiting vendor lock-in is increasingly a buy-side demand,” she says.
+
+
+
+That’s partly due to sovereignty requirements, she adds, and is “bolstering the market positioning of players like Okta when compared to hyperscalers and agent provisioners like Microsoft.”
+
+
+
+“Most enterprises are not looking for another dashboard,” says Figueroa. “They’re looking for fewer of them.”
+
+
+
+Okta is in a unique position because of their focus on IAM and their broader platform independence, says Forrester analyst Geoff Cairns. “But the competitive landscape is getting more challenging.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4225230-0-06442500-1790152008-shutterstock_1488607697.jpg?quality=50&strip=all,https://www.csoonline.com/article/4225230/okta-bets-on-identity-to-control-ai-agents-but-is-identity-alone-enough.html,https://www.csoonline.com/feed/,2026-09-23T08:25:00Z,9,Cybersecurity
+Ryuk ransomware member sentenced to 24 months in prison,An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...],,https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/,https://www.bleepingcomputer.com/feed/,2026-09-23T08:20:05Z,11,Cybersecurity
+Critical F5 BIG-IP Vulnerability Exploited as Zero-Day,"Unauthenticated attackers could send malicious traffic to BIG-IP to achieve remote code execution.
+The post Critical F5 BIG-IP Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/,https://www.securityweek.com/feed/,2026-09-23T07:34:18Z,15,Cybersecurity
+F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks,F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...],,https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-09-23T07:17:23Z,16,Cybersecurity
+"ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report","The cybercrime group is unhappy with its description in an FBI report and threatens to leak stolen information. 
+The post ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report appeared first on SecurityWeek.
+",,https://www.securityweek.com/shinyhunters-claims-fbi-hack-demands-retraction-of-threat-report/,https://www.securityweek.com/feed/,2026-09-23T07:13:49Z,4,Cybersecurity
+Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input,"A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.
+
+The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js, fixed the flaw on September 22 in version",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBxfEfPNHZcocTp156lW-VbOENuCxmLM_7xUUY5QWEppPDsL04KhbN7yaT52b_XTCXW6ensPqjF8QBXuQWUgna8jerFExtxAfkCd4NqOGcQwUn8088DU87PMD7cgYhQ-dY2_xFdwPyaKU-kD9HBx_YcjAzvzwEQzLoKUu1cRRpOT5A1luhBCE6e6ChORw/s1600/next.jpg,https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T07:04:40Z,8,Cybersecurity
 Check Point Patches Exploited Management Server Zero-Day,"The critical-severity flaw could allow unauthenticated attackers to upload and execute arbitrary scripts.
 The post Check Point Patches Exploited Management Server Zero-Day appeared first on SecurityWeek.
 ",,https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/,https://www.securityweek.com/feed/,2026-09-23T06:14:03Z,13,Cybersecurity
+"ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants","The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.
+
+&#34;We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job,&#34; the group said in a statement posted on their dark",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBUSHHkVbK1vPy2WO_E9jEZ2NEd8UcPTpCFgCYTkbSPiSzDEpXRe6HRXan3z9Xg1huRk3-47hZbveFeG06vkRhAmGuL73zdPFjQEkVb6LISZIcHpPugYCMKQPtsEIihip_T7F1GWczJNWNTikwbM-SzC_UNeQsUjrg6AIeHYBwOnpOUlSOWyimHb07TzWz/s1600/shinyhunters.png,https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html,https://feeds.feedburner.com/TheHackersNews,2026-09-23T05:30:09Z,4,Cybersecurity
 “We’re already fighting yesterday’s battle”: Greece’s prime minister gets candid about AI,"Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.
 ",,https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/,https://techcrunch.com/feed/,2026-09-23T04:59:08Z,5,Tech
 "Discord’s age verification era is upon us, despite community backlash","According to Discord, 90% of users will not have to verify their age.",,https://techcrunch.com/2026/09/22/discords-age-verification-era-is-upon-us-despite-community-backlash/,https://techcrunch.com/feed/,2026-09-23T03:31:12Z,0,Tech
