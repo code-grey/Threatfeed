@@ -1,4 +1,1365 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+"Lightspeed targets $250M for new India fund, focusing on early-stage AI","The Silicon Valley firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",,https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/,https://techcrunch.com/feed/,2026-09-25T05:00:00Z,5,Tech
+Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data,"A flaw in Cloudflare Containers let a paying customer read data that other customers&#39; containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.
+
+The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got, according to Cloudflare. The company",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJuj6tshfElqbwJCAvJf00nvl1Tng8D3yBW5uZZyVpwOqXJuzBB1df67IlNM1OSkHdGH11R6G8rseykpeXWUBu24sJvyxDL-uiqA7NC2ItwUUN2fMdaTWhqcHR2WYfpI6ihc0EVpEXfep1VFBygmh2-F6cAL1lwin0qQbmSebV5OmhqFmgBs3i0_WtdGI/s1600/cf-escape.jpg,https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html,https://feeds.feedburner.com/TheHackersNews,2026-09-25T04:49:22Z,4,Cybersecurity
+"WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV","The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.
+
+The vulnerabilities are listed below -
+
+
+  CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in  WSO2 API Control Plane,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqTAzyCx7Cezy4z5oRz-uAHvdvW1IZDrQlfIqT_ZDJ22Hvarb4lmYWkjqBDI_CngiSy2wuot68b2CgMS_0CWVZS93lYo5wqJsd5-WdFQgO3dieodXpVQiizcFjQsPzUOlVrs32zkBaHAwOyD7S4GCZ3b1d-Jyt4-ZTaMltfU0jG5dwBw5cxj880D4Cx8W0/s1600/ADOBE-CISA.jpg,https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html,https://feeds.feedburner.com/TheHackersNews,2026-09-25T04:46:34Z,11,Cybersecurity
+Here’s the Tesla Semi… again,"Remember the Tesla Semi? The long-gestating, heavy-duty truck first introduced in concept form in 2017 is finally in volume production as of April 2026 - nearly a decade after its initial introduction. On Thursday evening, the company held yet another event for the Semi to demonstrate to customers and investors that the long wait was […]",,https://www.theverge.com/transportation/1000317/tesla-semi-launch-customer-delivery-freight-battery-engineer,https://www.theverge.com/rss/index.xml,2026-09-25T02:12:57Z,5,Tech
+Microsoft is killing off the ‘Copilot Plus PC’ brand,"Remember when Microsoft wanted everyone to know that &#34;Copilot Plus PCs&#34; were the ones to get, because those were the PCs that that&#39;d have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Central&#39;s Zac Bowden reports […]",,https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand,https://www.theverge.com/rss/index.xml,2026-09-25T01:25:53Z,5,Tech
+Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures,"Meta&#39;s lawyers have argued that certain evidence should be withheld from public view on the grounds of attorney-client privilege in the ongoing lawsuits over alleged harm to teens&#39; safety and mental health. Lawyers suing the company said this week that the label has been applied far too broadly, while pointing to a recently unsealed document […]",,https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats,https://www.theverge.com/rss/index.xml,2026-09-24T23:50:55Z,6,Tech
+Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream,"What if your wireless earbuds - or audio glasses - could stream high-quality lossless audio that doesn&#39;t cut out when you leave your phone on the bedside charger or buried in the couch? Qualcomm&#39;s new Snapdragon Sound Elite Gen 2 is its first to integrate &#34;micro-power Wi-Fi 6E&#34; right into the chip, so they can […]",,https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream,https://www.theverge.com/rss/index.xml,2026-09-24T23:42:39Z,0,Tech
+Waymo is scaling fast. Here’s what the fleet data shows.,"In the past month, Waymo has expanded its fleet in Texas by 49%. There are other hotspots as well. ",,https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/,https://techcrunch.com/feed/,2026-09-24T23:24:33Z,0,Tech
+CDC opens state ordering for COVID-19 vaccines after unexplained delay,Health department previously blamed delay on &#34;not yet finalized procurement decisions.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2271874300-1152x648.jpg,https://arstechnica.com/health/2026/09/cdc-opens-state-ordering-for-covid-19-vaccines-after-unexplained-delay/,https://arstechnica.com/feed/,2026-09-24T22:29:48Z,5,Tech
+Microsoft puts Brad Smith in charge of communications,"Microsoft is moving its communications group out of marketing and into its Corporate, External, and Legal Affairs (CELA) organization. The surprise change will see Microsoft vice chair and president Brad Smith oversee communications, while the company searches for a replacement for Frank Shaw, chief communications officer, who is departing later this year. Microsoft CEO Satya […]",,https://www.theverge.com/news/1000374/microsoft-comms-pr-brad-smith-cela,https://www.theverge.com/rss/index.xml,2026-09-24T22:08:22Z,5,Tech
+Disney's Ludwig Von Drake was inspired by rocket scientists 65 years ago,Introducing the &#34;world-famous authority on outer space...&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/09/news-092426a-lg-1152x648.jpg,https://arstechnica.com/space/2026/09/disneys-ludwig-von-drake-was-inspired-by-rocket-scientists-65-years-ago/,https://arstechnica.com/feed/,2026-09-24T21:40:07Z,0,Tech
+MacSync malware uses public iCloud calendars to deliver new payloads,A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...],,https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/,https://www.bleepingcomputer.com/feed/,2026-09-24T20:53:35Z,3,Cybersecurity
+"Nexterity wants to automate the hard, dangerous part of pipefitting","The startup&#39;s robot can tighten or loosen four bolts at a time, and it fits in a Pelican case. ",,https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/,https://techcrunch.com/feed/,2026-09-24T20:45:00Z,3,Tech
+Autonomous AI Hacks Raise Thorny Questions of Legal Accountability,"The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden.
+The post Autonomous AI Hacks Raise Thorny Questions of Legal Accountability appeared first on SecurityWeek.
+",,https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/,https://www.securityweek.com/feed/,2026-09-24T20:35:21Z,1,Cybersecurity
+WordPress patches a critical severity security vulnerability,"
+		
+					  
+						
+
+
+
+
+WordPress has patched what it described as a critical severity security vulnerability that would allow an unauthenticated attacker full remote code execution (RCE) capabilities. There have already been reports of attacks in the wild.
+
+
+
+Given its popularity, WordPress has frequently been under attack, and patched another maximum severity bug allowing RCE in July. WordPress said the current hole, tracked as CVE-2026-87902, was discovered and reported to the company by Switzerland-based security researcher Robert Ressl.
+
+
+
+The post announcing the WordPress 7.1.2 security release said that the fix addressed an issue where “an unauthenticated attacker can, under certain conditions, make page template resolution include a chosen readable local PHP file outside the active theme directories. If relevant pre-conditions for both the server environment and the active theme are met, this can lead to remote code execution (RCE).”
+
+
+
+It urged users to update their sites immediately, and said that the fix had been backported through version 4.7, as the hole also impacts many older versions of WordPress.
+
+
+
+Noah Kenney, principal consultant at Digital 520, said his top concern was the massive extent of damage an attacker could inflict with this hole. 
+
+
+
+“Once attackers have PHP execution, they can read wp-config.php, obtain database credentials and authentication keys, create administrator accounts, alter payment or lead capture forms, redirect visitors, and install persistent code,” he said. “The less obvious part is how they get there. Pearcmd.php is a legitimate PHP package management tool, but attackers can abuse its configuration commands to write content of their choosing to disk. The current attacks use it to place malicious PHP in /tmp, then use the WordPress flaw to load and execute that file. A security team monitoring only the WordPress directory for changes could miss that first stage entirely.”
+
+
+
+New risk reality
+
+
+
+But IDC and others saw the speed with which attacks began as the most concerning element of this report. 
+
+
+
+“This WordPress vulnerability is a textbook example of the new risk reality: attackers are exploiting critical bugs within hours of disclosure, and most enterprises are not patching fast enough to keep up,” said IDC Research Director Philip Harris, citing reports from security firm Patchstack that attackers had leveraged the hole shortly after WordPress posted the patch. 
+
+
+
+Patchstack said, “When this post first went up, every request we had seen was reconnaissance against harmless core files. That is no longer true. Attackers are now including pearcmd.php and using it to write PHP files to disk and public scanning tooling for this CVE is in circulation.”
+
+
+
+IDC’s Harris noted that Patchstack’s telemetry illustrated the new reality, with attacker reconnaissance occurring within five hours of the patch, and full exploitation within about a day. “The window between disclosure and exploitation has collapsed to the point that mean time to exploit for critical vulnerabilities is now negative in some cases, meaning exploit code appears before or immediately after a patch ships,” he said. “This WordPress bug tracks that pattern closely: Patchstack recorded the first probing traffic under five hours after WordPress 7.1.2 was released, and traffic volume increased roughly tenfold within a day as attackers moved from scanning to actual payload delivery.”
+
+
+
+Aman Mahapatra, chief strategy officer for New York City-based technology consulting firm Tribeca Softech, agreed.
+
+
+
+“The number that should anchor this story is not the 9.2 CVSS score, but it is the gap between patch and exploit. With this vulnerability, that gap was effectively zero,” he said. “WordPress shipped 7.1.2 on September 22, and Patchstack blocked the first exploitation attempt at 11:49 UTC the same day, using payloads that matched the exact encoding the patch was written to fix. Attackers did not discover this bug. They read the fix. Publishing a patch is now functionally publishing an exploit guide, and any enterprise still running a remediation cycle measured in weeks is operating on a timeline that stopped existing some time ago.”
+
+
+
+Speedier patching needed
+
+
+
+One response to the speed of attacker actions is to automate updates, but that is not necessarily a good option. Some enterprise CISOs are nervous about excessive patch automation; they want to review and approve any system changes, mostly to avoid disasters such as 2024’s Crowdstrike incident. 
+
+
+
+Ressl said in an interview that another concern about automated updates is that many enterprises don’t perform sufficient verification that the updates executed properly.
+
+
+
+“Having automatic updates enabled is not the same as verifying that the patch is installed,” he said. “Compatibility and availability concerns are legitimate reasons for testing updates. My recommendation is a rapid, tested rollout with verification across all exposed installations, including staging sites.”
+
+
+
+Mahapatra added that the problem with update automation is especially severe in larger enterprises. 
+
+
+
+“WordPress applies minor security releases automatically by default, which means the average hobbyist blog is probably already patched,” he pointed out. “Enterprise sites routinely disable those auto-updates to enforce change control, so the organizations with the most mature governance are the ones most likely to still be exposed this week, because their own process is holding the fix in a queue while attackers scan. Change control that cannot distinguish an unauthenticated remote code execution flaw from a routine plugin update is protecting the process rather than the enterprise, and this is the vulnerability that makes that distinction expensive.”
+
+
+
+And, noted Nidhi Luthra, executive advisor for Acceligence: “A security release can become an attacker roadmap almost immediately, so emergency patching for internet-facing systems needs an hours-level response.”
+
+
+
+Forgotten WordPress sites may not be patched
+
+
+
+Mahapatra added that another, perhaps bigger, concern is the fact that many enterprise WordPress deployments happen below the radar. They are not typical shadow IT, because they are fully authorized at the time, but they are still often unknown to IT management. 
+
+
+
+In enterprises, he said, “the exposure is materially larger than most organizations will assume because most enterprises do not think of themselves as WordPress shops, and almost all of them are. The risk sits in the web estate that IT never inventoried: marketing microsites, campaign landing pages, regional country sites, investor relations pages built by an outside agency, and the properties of companies acquired three years ago that nobody got around to migrating. The affected [WordPress version] range runs from 4.7.0 through 7.1.1, nearly a decade of installs, and the forgotten sites are precisely the ones still sitting on old branches.”
+
+
+
+Mahapatra said that he has especially seen this in enterprises in the finance vertical.
+
+
+
+“When I walk through external attack surface reviews with banking CISOs, the WordPress instances that surface are almost never the corporate site,” he said. “They are the sites that belong to marketing, a subsidiary, or an agency contract that expired, and none of them appear in the CMDB the security team is patching against.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4226330-0-09827800-1790281597-shutterstock_680078968.jpg?quality=50&strip=all,https://www.csoonline.com/article/4226330/wordpress-patches-a-critical-severity-security-vulnerability.html,https://www.csoonline.com/feed/,2026-09-24T20:26:22Z,13,Cybersecurity
+New Carbonato malware uses AI agents to hijack exposed Docker hosts,A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...],,https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/,https://www.bleepingcomputer.com/feed/,2026-09-24T20:10:48Z,3,Cybersecurity
+Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face,"Google&#39;s new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The &#34;Live Avatar&#34; will lip-sync and show different facial expressions during conversations, but it&#39;s currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 […]",,https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face,https://www.theverge.com/rss/index.xml,2026-09-24T19:59:26Z,6,Tech
+F-Droid gets its biggest update in a decade with new UI and smoother app installs,F-Droid&#39;s Android app store has been rebuilt from the ground up. ,https://cdn.arstechnica.net/wp-content/uploads/2026/09/F-Droid2-1-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/,https://arstechnica.com/feed/,2026-09-24T19:30:42Z,2,Tech
+"Bring your co-founder, partner, or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",Buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Register before event starts on October 13 at 8 a.m. PT.,,https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/,https://techcrunch.com/feed/,2026-09-24T19:15:00Z,0,Tech
+"New York asks court to shut down Polymarket's ""illegal gambling operation""",New York sues Polymarket as Trump admin tries to override state gambling laws.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/polymarket-mlb-all-star-game-1152x648-1790274426.jpg,https://arstechnica.com/tech-policy/2026/09/new-york-asks-court-to-shut-down-polymarkets-illegal-gambling-operation/,https://arstechnica.com/feed/,2026-09-24T19:07:19Z,0,Tech
+PrismML brings its tiny LLMs to Qualcomm-powered smart glasses,Prism&#39;s larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.,,https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/,https://techcrunch.com/feed/,2026-09-24T19:00:42Z,5,Tech
+"Meet Feather, the startup building the ‘Android of robotics’ for developers","Feather is betting on a customizable, $30,000 platform built for software developers.",,https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/,https://techcrunch.com/feed/,2026-09-24T18:52:38Z,7,Tech
+"We have a trailer for Musk documentary Elon called a ""hit piece""",Oscar-winning documentarian Alex Gibney focuses on the world&#39;s wealthiest man.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/elonTOP-1152x648-1790271240.jpg,https://arstechnica.com/culture/2026/09/we-have-a-trailer-for-musk-documentary-elon-called-a-hit-piece/,https://arstechnica.com/feed/,2026-09-24T18:52:23Z,5,Tech
+"Robots make combat airdrops, clear mines as Ukraine defeats Russian pincer",Ukraine’s Operation Vivaldi has erased Russian gains with the help of robots.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Ukraine-ground-robot-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/,https://arstechnica.com/feed/,2026-09-24T18:39:47Z,5,Tech
+New Jersey fines data center $1.1M after satellite pics expose 62 gas generators,"Million-dollar fines won’t end billionaires’ data center pollution, neighbors fear.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/DataOne-drone-image-via-Sustain-SJ-1152x648.jpg,https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/,https://arstechnica.com/feed/,2026-09-24T18:20:58Z,5,Tech
+"Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal","While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop. Walmart has a well-equipped CyberPowerPC gaming PC on sale for $1,549, almost $600 off its original price of $2,139. It’s powered by an Intel Core i7-14700KF processor, and paired with 32GB of 6000MHz […]",,https://www.theverge.com/gadgets/1000122/cyberpowerpc-gaming-prebuilt-rtx-5070-core-i7-asrock-oled-monitor-deal-sale,https://www.theverge.com/rss/index.xml,2026-09-24T18:19:23Z,5,Tech
+Oracle sends force majeure notice on its New Mexico Stargate data center,The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online.,,https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/,https://techcrunch.com/feed/,2026-09-24T18:11:44Z,0,Tech
+Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions,"A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus&#39;s own software to gain root access, the highest level of control over an Android phone.
+
+OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiGu2guziH88Cs_LnFsPkCJ4zuxqgSX7q3SRrBXdSAEeJPhmYnpNp-c0WCNCqoOoyCv6NcnmCKm20rhqSb2rjw7KZ6Kh6UssR2fZG5SZX9Pjhb_fjONdBfgpxqpWNABPDvSmD9Hp913nErgH4PQm1ehlyspJt5RXASYckP6jHE3G0V2ou5fwkG7JOZyBY/s1600/oneplus.jpg,https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T18:10:18Z,1,Cybersecurity
+Jensen Huang talks about AI and climate change like a supervillain,"As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts &#34;an enormous amount of pain and suffering&#34; first. The Nvidia CEO discussed the future of energy and AI&#39;s impact on our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the […]",,https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain,https://www.theverge.com/rss/index.xml,2026-09-24T18:04:44Z,5,Tech
+"ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories","This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.
+
+That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQeh1uEFjgxcgPPJkrXkAnJxZRxA9_ZolFQXNONWmfMGLViusszn4KTiJ9-8_r-AV94NS5BQlZ5eOrFnTvinPXcJB_G4o_BEZdv7xXMdAqfvZPfiUzKjlE70q2V6C9ze8H58pqYh-suKm_Yu1q3LoevignMd7nfjbjV7qx_vEad6BEFKUHwV5UlTFW1-dh/s1600/threatsday-sep.jpg,https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T17:52:43Z,9,Cybersecurity
+Meta is going to let you build games with AI right on your phone,"Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in […]",,https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games,https://www.theverge.com/rss/index.xml,2026-09-24T17:52:29Z,6,Tech
+Exposed GitLab project email addresses let attackers push code,"Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",,https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/,https://www.bleepingcomputer.com/feed/,2026-09-24T17:47:44Z,3,Cybersecurity
+"Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend","Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",,https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/,https://techcrunch.com/feed/,2026-09-24T17:39:24Z,7,Tech
+Muse will apparently let you download its entire filesystem,"A pair of developers say that with very little prompting, Meta&#39;s Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on […]",,https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem,https://www.theverge.com/rss/index.xml,2026-09-24T17:14:12Z,6,Tech
+Muse sure looks a lot like OpenClaw,"We seem to be entering into an AI agent renaissance. Meta&#39;s new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 billion valuation, has been […]",,https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike,https://www.theverge.com/rss/index.xml,2026-09-24T17:10:38Z,6,Tech
+Databricks buys Row Zero and is scouting for more startups to acquire,Databricks has brought cloud spreadsheet startup Row Zero adding yet another acquisition to its 2026 shopping spree.,,https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/,https://techcrunch.com/feed/,2026-09-24T17:07:55Z,9,Tech
+Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS,"The AI-powered feature builds a virtual wardrobe from your photos, and is now broadly available after first rolling out to Android users in June.",,https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/,https://techcrunch.com/feed/,2026-09-24T17:00:00Z,5,Tech
+It’s sinister that Meta’s Muse AI mascot is so cute,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health […]",,https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute,https://www.theverge.com/rss/index.xml,2026-09-24T17:00:00Z,6,Tech
+Now Google Chrome shares tabs to new devices that save where you were,"Google is rolling out some new Chrome browser features that are designed to make it easier to research and study complicated topics. The cross-device tab switching feature is getting a memory upgrade, alongside new capabilities for Gemini in Chrome that can analyze more types of media and generate interactive study quizzes. Chrome has an existing […]",,https://www.theverge.com/tech/999901/google-chrome-tab-memory-gemini-updates,https://www.theverge.com/rss/index.xml,2026-09-24T17:00:00Z,0,Tech
+TechCrunch Founder Summit 2026: Everything you need to know,TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies. ,,https://techcrunch.com/2026/09/24/techcrunch-founder-summit-2026-everything-you-need-to-know/,https://techcrunch.com/feed/,2026-09-24T16:46:47Z,5,Tech
+The Pulse: a new trend of CPU shortages,"After a GPU shortage and memory shortage driven by AI companies, we’re now experiencing a CPU shortage, thanks to AI agents using a lot more CPU with tool usage.","https://substackcdn.com/image/fetch/$s_!L0TW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc3d335c-1137-4c47-8a9a-f91dbc29ba64_1456x1042.png",https://blog.pragmaticengineer.com/the-pulse-a-new-trend-of-cpu-shortages/,https://blog.pragmaticengineer.com/rss/,2026-09-24T16:45:01Z,5,Tech
+"Twenty minutes with the CEO of ElevenLabs, now reportedly valued at $22 billion","ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that businesses should probably tell you that — at least until getting a machine is what everyone expects anyway.",,https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/,https://techcrunch.com/feed/,2026-09-24T16:35:13Z,5,Tech
+These smart glasses have been recalled for overheating temples causing burns,"A company called Inmo that makes several different variations of smart glasses has issued a recall for its Air3 because the left temple &#34;can overheat during extended use, posing a risk of serious injury or death due to burn hazard.&#34; To date there have been 10 reports of users experiencing a &#34;burning sensation to the […]",,https://www.theverge.com/tech/1000085/inmo-air3-smart-glasses-recall-cpsc-free-software-update,https://www.theverge.com/rss/index.xml,2026-09-24T16:29:31Z,5,Tech
+Google's first Suncatcher orbital data center test launches October 1,Google&#39;s experimental orbital data center will have four TPUs and only run for 15 minutes at a time.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/suncatcher-1152x648.png,https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/,https://arstechnica.com/feed/,2026-09-24T16:16:34Z,0,Tech
+Gemini can now call businesses for you so you don’t have to wait on hold,"Google&#39;s launching an &#34;early experiment&#34; feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don&#39;t even need to start the call to have Gemini handle it for you: Instead of dialing yourself, […]",,https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls,https://www.theverge.com/rss/index.xml,2026-09-24T16:04:31Z,6,Tech
+Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026,"Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",,https://techcrunch.com/2026/09/24/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-24T16:03:36Z,8,Tech
+OpenAI agent “didn’t accept no for an answer” in Australian government breach,"&#34;There will obviously be legal consequences,&#34; prime minister promises.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1336652477-1152x648.jpg,https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/,https://arstechnica.com/feed/,2026-09-24T16:01:16Z,5,Tech
+Google tests letting Gemini call businesses for you,Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription. ,,https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/,https://techcrunch.com/feed/,2026-09-24T16:00:00Z,5,Tech
+The Xbox reset gets ugly,"It feels like Xbox has been in a permanent state of turmoil for at least two years now, and this week is no different. Microsoft cut 268 jobs across its gaming division this week, shuffled major studios and franchises around, and continued its Xbox &#34;reset.&#34; Layoffs have become a way of life for Xbox employees, […]",,https://www.theverge.com/tech/999919/microsoft-xbox-reorganization-activision-notepad,https://www.theverge.com/rss/index.xml,2026-09-24T16:00:00Z,0,Tech
+Microsoft integrates SOC capabilities with Defender for enterprises,"
+		
+					  
+						
+
+
+
+
+Microsoft 365 E5 and E7 customers can now run security information and event management (SIEM) inside Microsoft Defender at no extra license cost.
+
+
+
+Microsoft is delivering the capability through the Integrated Security Operations Center (ISOC) in Microsoft Defender, which combines SIEM with Defender’s existing XDR, threat intelligence, automation and AI tools in a single portal.
+
+
+
+“Security cannot operate at AI speed when protection and operations are built as separate systems,” Rob Lefferts, corporate vice president of Microsoft Threat Protection, wrote in a blog post announcing ISOC. He said attackers now use AI agents to automate attacks at scale, and that every handoff between separate tools slows defenders down.
+
+
+
+Until now, E5 and E7 included Defender XDR but not SIEM, which Microsoft sells separately as Microsoft Sentinel.
+
+
+
+Under ISOC, logs from Microsoft’s own security products are available without ingestion charges. From Oct. 1, data ingested from third-party security tools and other outside sources will be metered at $2.40 per GB on a pay-as-you-go basis, Microsoft said in a technical blog post.
+
+
+
+The company opened ISOC as a public preview, meaning it is not fully production-ready, on Sept. 23 and has not said when the preview phase will end. It is available to organizations with an active Microsoft Defender Suite and Microsoft 365 E5 or E7 license that do not already run Microsoft Sentinel, and has no minimum seat requirement.
+
+
+
+For organizations whose security stack already runs largely on Microsoft, the trade is attractive, said Yih Khai Wong, senior research manager for security services research at IDC Asia/Pacific.
+
+
+
+“Most telemetry already resides in Defender, Entra, and M365, so bundling Sentinel’s SIEM into E5/E7 effectively makes ingestion free, with no separate license needed to move and re-analyze data your own vendor already holds,” Wong said.
+
+
+
+A benefit, not a product
+
+
+
+“ISOC is not a new standalone product,” Microsoft said in an FAQ accompanying the technical post. Its ISOC product page said capabilities such as workbooks and natural-language-to-SOAR automation “previously required a separate Sentinel purchase.”
+
+
+
+According to the technical post, Microsoft began rolling out case management, workbooks and natural-language playbook generation to eligible customers’ Defender portals on Sept. 23, with no additional configuration required.
+
+
+
+The included data covers Defender for Endpoint, Office 365, Identity, Cloud Apps and Cloud, plus Microsoft Entra ID Protection logs and Azure and Office 365 activity logs. Retention is 30 days during the preview, rising to 90 days on Nov. 15, the post added.
+
+
+
+Everything else costs
+
+
+
+Anything beyond that requires an ISOC workspace, which needs an Azure subscription, according to Microsoft’s product documentation. The workspace unlocks more than 500 data connectors, user and entity behavior analytics (UEBA), CI/CD repositories and threat intelligence.
+
+
+
+Wong said mixed environments face a different calculation. “For multicloud shops or organizations with significant non-Microsoft telemetry, this requires a real total cost-of-ownership comparison against current SIEM spend.”
+
+
+
+The current preview excludes organizations with an active Sentinel workspace. Microsoft said nothing changes for existing Sentinel customers, and those meeting the licensing criteria can choose to move to ISOC from Nov. 15.
+
+
+
+Consolidating identity, endpoint, productivity and security operations under one vendor can simplify investigations, Wong said, but it also “creates greater dependency on that vendor’s roadmap, pricing model, availability, and security resilience.”
+
+
+
+CISOs running a separate SIEM face a genuine evaluation, not a quick swap, weighing migration effort, retraining of detection content, exit costs and contractual complexity, he added.
+
+
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, advised enterprises interested in ISOC to “reproduce the organisation’s highest-value cross-vendor detections before replacing a mature SIEM,” warning that “Microsoft’s claim of more than 500 connectors establishes reach, not equal treatment of every source.”
+
+
+
+Agents take the next step
+
+
+
+Microsoft’s Lefferts positioned ISOC as the foundation for the agent strategy Microsoft introduced alongside Project Perception in July.
+
+
+
+Gogia questioned the premise that this requires a single vendor. “Microsoft has established a useful integration path. It has not established that one supplier is technically necessary for an agentic SOC,” he said. He noted that Project Perception remains invitation-only in limited public preview.
+
+
+
+Microsoft has not published details on how agent actions within ISOC are logged, audited or reversed. Gogia said the critical threshold comes when agents gain authority to make changes, since changes to identity, endpoint or cloud policy “create a blast radius.” He recommended distinct agent identities, narrow tool permissions and independent approval for consequential changes.
+
+
+
+The agents themselves add attack surface, Wong warned. “Adversaries may attempt to manipulate the telemetry an agent relies on, poison contextual data, or use prompt injection techniques to influence agent behavior and decision-making,” Wong said.
+
+
+
+“Microsoft has made integration easier to buy. The enduring test is whether customers retain the means to challenge and reverse it,” Gogia said.
+
+
+
+Microsoft did not immediately respond to a request for comment.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4226195-0-66155300-1790265349-shutterstock_1798109056_decision-making_ciso_soc-1200x800-100938878-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4226195/microsoft-integrates-soc-capabilities-with-defender-for-enterprises.html,https://www.csoonline.com/feed/,2026-09-24T15:55:34Z,13,Cybersecurity
+Kontext Security Emerges With $4 Million for AI Agent Runtime Controls,"The startup’s runtime enforcement platform evaluates AI agents in real time to provide visibility and control over their actions.
+The post Kontext Security Emerges With $4 Million for AI Agent Runtime Controls appeared first on SecurityWeek.
+",,https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/,https://www.securityweek.com/feed/,2026-09-24T15:52:00Z,1,Cybersecurity
+Reddit mod ordered to pay Nintendo $4.5 million in Switch piracy lawsuit,"Nintendo won its $4.5 million lawsuit against James Williams, a Reddit moderator accused of distributing pirated Switch games, as reported earlier by Aftermath. In a default judgment issued on Wednesday, a Washington federal judge also ordered Williams to shut down the online stores allegedly housing libraries of pirated Switch games. Nintendo sued Williams, also known […]",,https://www.theverge.com/games/1000088/nintendo-switch-piracy-reddit-mod-lawsuit,https://www.theverge.com/rss/index.xml,2026-09-24T15:50:35Z,5,Tech
+Formula 1 looks at 3.0 L V8 turbos and smaller hybrids for 2030,"F1 wants smaller, lighter cars that are not energy-starved like the 2026 hybrids.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296885282-1152x648.jpg,https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/,https://arstechnica.com/feed/,2026-09-24T15:48:29Z,0,Tech
+"Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content","The &#34;third-party[.]com&#34; domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.
+
+&#34;third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,&#34; Manifold Security&#39;s Head of Research, Ax Sharma, said. &#34;Unlike &#39;example[.]com,&#39; third-party[.]com",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy4aXDWSC5cKzOZO8lRbk8o5I1fHPlCGbfxxYL6tyJxauEL-8EVj7-AypDhYt_Wg6bDLqlj0UK4LrGJdeI4ChsksaB6tTZxo8ikCLdwC0wjRfJPE_Z1qM_CVUg7s1ORdmWW2XTDtlPPDcI8JvelrbmJhcjVthnqYWQrZ7ySnIMMPRZfa_VzgaBCWyWc_JJ/s1600/third.jpg,https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T15:27:32Z,1,Cybersecurity
+"Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026","Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by Sept. 25, 11:59 p.m. PT. Get a second pass at 50% off.",,https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-24T15:00:00Z,5,Tech
+NASA chief concerned China may deny access to parts of South Pole,"&#34;If you come up short with who comes down the ladder first, the impact is felt around the world.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2292466102-1024x648.jpg,https://arstechnica.com/space/2026/09/nasa-chief-concerned-china-may-deny-access-to-parts-of-south-pole/,https://arstechnica.com/feed/,2026-09-24T14:57:50Z,0,Tech
+You might not miss what Nikon removed from its cheaper full-frame Z5 IIC,"Nikon waited five years to update its full-frame Z5 camera to the Z5 II, but today it announced a new variant of last year&#39;s upgrade that removes features instead of introducing improvements in order to make it more affordable for novice photographers. While the Nikon Z5 II starts at $1,849.95, the new Nikon Z5 IIC […]",,https://www.theverge.com/tech/1000037/nikon-z5-iic-full-frame-digital-camera-ibis-mechanical-shutter,https://www.theverge.com/rss/index.xml,2026-09-24T14:53:06Z,6,Tech
+Lovable’s annualized revenue crosses $600M as vibe coding takes off,Lovable co-foudner Fabian Hedin said that apps created on the platform are getting nearly a billion monthly views each month.,,https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/,https://techcrunch.com/feed/,2026-09-24T14:43:25Z,6,Tech
+OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data,"Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information.
+The post OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data appeared first on SecurityWeek.
+",,https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/,https://www.securityweek.com/feed/,2026-09-24T14:43:13Z,2,Cybersecurity
+Ando wants to take on Slack with a team messaging app that lets humans and agents work together,"Ando has raised $20 million in pre-seed and seed funding from investors including Accel, Index Ventures and Emergence. ",,https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/,https://techcrunch.com/feed/,2026-09-24T14:31:00Z,9,Tech
+Why can’t we just keep rogue AIs off the internet?,"AI agents keep getting loose, escaping supposedly secure tests to attack real-world targets, commandeer obscure wikis, and leave instructions for other agents to follow. Researchers are testing these systems precisely because they might behave in unpredictable, even dangerous, ways. So wouldn&#39;t it be safer to just keep the agents off the internet? &#34;A strict air […]",,https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents,https://www.theverge.com/rss/index.xml,2026-09-24T14:30:00Z,5,Tech
+TechCrunch Disrupt 2026: Cal AI’s Zach Yadegari on how to create viral growth and capitalize on it,Zach Yadegari joins the Builders Stage at TechCrunch Disrupt 2026 to share how he capitalized on viral growth. Save up to $200 before September 25. Save 50% on a second pass.,,https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it/,https://techcrunch.com/feed/,2026-09-24T14:30:00Z,5,Tech
+Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer,"An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.
+
+&#34;When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1xvw3iNKwWUngfdShXBAPKrbRDMZSCQ3_FdiHNKvwrLkip9fUiikko0FKN-cfgzBIgkLvKDR9xIlnfEZVQgHgOW2qTz8Pd4Ur0-DCYdUssgN_9vglgxRU6u5ZRK_FlQYmgV_sbv8pfA1YnSJcojUOhWC-7lkPbA07An_X-vNHmZ8xT2Okq9HiRfTBVt1h/s1600/UK-CLICK.jpg,https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T14:29:06Z,0,Cybersecurity
+Google is sending an AI satellite into space next week,"Google is getting ready to launch a satellite with its AI processors to test how well they perform in space, as reported earlier by The New York Times. The move is part of Google&#39;s Project Suncatcher, the company&#39;s experimental initiative that could eventually put AI data centers into orbit. The satellite, equipped with Google&#39;s Tensor […]",,https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher,https://www.theverge.com/rss/index.xml,2026-09-24T14:15:17Z,5,Tech
+The vibes are bad for Flock in Washington,"Flock is in the hot seat in Washington, even if its CEO declined to actually face senators at a hearing about its &#34;AI Surveillance Network&#34; on Wednesday. &#34;There&#39;s many players in this industry, but there&#39;s one name that really stands out above the rest, and that is Flock,&#34; Senate Judiciary crime and counterterrorism subcommittee chair […]",,https://www.theverge.com/policy/1000005/flock-senate-hearing,https://www.theverge.com/rss/index.xml,2026-09-24T14:15:05Z,5,Tech
+I have some questions for Mark Zuckerberg,"It’s a big week for Meta. The company just kicked off its big Connect conference on Wednesday, and the new Muse AI agent appears to be an early hit. I’ve been using it — it is surprisingly good.  CEO Mark Zuckerberg has obviously been out there taking a victory lap and participating in a lot […]",,https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers,https://www.theverge.com/rss/index.xml,2026-09-24T14:15:00Z,6,Tech
+Meta puts its AI assistant on a keychain,Meta says the keychain-sized Muse Charm will ship in December.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/musecharm-1152x648.jpg,https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/,https://arstechnica.com/feed/,2026-09-24T14:03:38Z,5,Tech
+FedRAMP VDR & VER: Daily Scans Are Only the Beginning,"FedRAMP&#39;s new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated compliance validation. [...]",,https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/,https://www.bleepingcomputer.com/feed/,2026-09-24T14:02:12Z,4,Cybersecurity
+2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend,Reason 4 of 5 to attend TechCrunch Disrupt 2026: Practical answers. Two days left to save up to $200 on your pass. Savings disappear after September 25 at 11:59 p.m. PT. Bring a second guest at 50% off.,,https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/,https://techcrunch.com/feed/,2026-09-24T14:00:00Z,1,Tech
+Waymo’s driverless cars continue to crash less often than people,"Waymo&#39;s latest batch of self-reported data continues to affirm the company&#39;s message that its driverless cars are safer than human drivers. As policymakers continue to debate the safety and economic impact of autonomous vehicles, Waymo is hoping that its own data will help bring more supporters to its side - even as some experts say […]",,https://www.theverge.com/transportation/999891/waymo-safety-data-injury-crash-human-driver,https://www.theverge.com/rss/index.xml,2026-09-24T13:53:01Z,0,Tech
+"On-prem VeloCloud Orchestrator under attack, only some versions patched","
+		
+					  
+						
+
+
+
+
+A flaw in VeloCloud Orchestrator enables attackers to access the platform organizations use to manage their VeloCloud SD-WAN subscriptions and the edge devices it controls.
+
+
+
+Arista, which now owns the VeloCloud business, warned customers that a vulnerable configuration exists in on-premises VeloCloud Orchestrator deployments that remote attackers may abuse to access “privileged internal functionality” and impact the VSO host. The flaw also affected Arista’s Hosted and Dedicated VCO deployments, but the company has now patched them.
+
+
+
+“This issue was discovered externally and is known to be actively exploited,” Arista said in its advisory, urging customers to upgrade to a patched release of VCO immediately — although fixes are currently available only for some of the affected versions.
+
+
+
+Mayuresh Dani, security research manager, at Qualys Threat Research Unit, warned that unpatched versions remain “exposed to active exploitation and have only compensating controls as a protection.”
+
+
+
+Arista said that organizations suspecting compromise should preserve VCO web access logs, backend application logs, system logs, database logs, and relevant file-system timestamps before remediation where operationally feasible.
+
+
+
+Andrew Costis, engineering manager of the adversary research team at AttackIQ, backs that advice. “Patching closes the door but doesn’t reverse what came through it. A compromised orchestrator can reach the Edge devices it manages, rotate credentials and validate device state across sites,” he said.
+
+
+
+Exploitation limited to a configuration
+
+
+
+Arista is tracking the flaw as CVE-2026-93952, an improper input validation issue with a critical CVSS rating of 10.0.
+
+
+
+An attack will only work under certain conditions, though: A VCO deployment is exposed only if certificate-based authentication from the VeloCloud Edge to VeloCloud Orchestrator (VCO) is configured, and the attacker has the public key of the VeloCloud Edge authentication certificate and also network access to the VCO web interface. Attackers do not need VCO tenant or operator credentials.
+
+
+
+“Based on the information available, this is most certainly a cross-site request forgery (CSRF) vulnerability that allows threat actors to use an Edge certificate to bypass the front-end and forward the request to internal services, which inherently trusts this information,” Dani said.
+
+
+
+The affected versions span four VCO release trains: 5.2.3.15 and earlier in the 5.2.x train, 6.1.3.7 and earlier in 6.1.x, 6.4.2.7 and earlier in 6.4.x, and 7.0.0.2 and earlier in 7.0. x.
+
+
+
+Arista has released fixes in VCO versions 5.2.3.16 and later in the 5.2.3 train and 6.4.2.8 and later in the 6.4.2 train.
+
+
+
+Fixes for the others trains are still to come.
+
+
+
+What defenders can do
+
+
+
+For organizations that cannot immediately upgrade, Arista recommends restricting access to the VCO web interface to trusted administrative networks and monitoring for suspicious activities including known malicious source IPs, unexpected outbound network activity, backdoor daemons and webshells, and unexpected admin changes.
+
+
+
+“Because successful exploitation may compromise the orchestrator host and data managed by the orchestrator, operators should follow incident-response guidance appropriate for their deployment,” the company added.
+
+
+
+The advisory also shared a few indicators of compromise, including a suspicious “vc-sysmond” file, the “x-vc-opt “ HTTP header and two source IP addresses associated with exploitation activity.
+
+
+
+AttackIQ’s Costis said Arista’s advice underlined the need for continuous threat exposure management and adversarial exposure validation: “Knowing which orchestrators are reachable, and proving your access restrictions actually hold, is worth far more before an advisory like this lands than after.”
+
+
+
+This is the second maximum-severity VeloCloud flaw that Arista has had to patch this year. The company patched another actively exploited bug in the platform in July.
+
+
+
+This article first appeared on Network World.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4226148-0-13349600-1790256922-shutterstock_1038469279.jpg?quality=50&strip=all,https://www.csoonline.com/article/4226148/on-prem-velocloud-orchestrator-under-attack-only-some-versions-patched-2.html,https://www.csoonline.com/feed/,2026-09-24T13:35:04Z,18,Cybersecurity
+Meta’s Muse AI Charms can interact with each other,"Meta&#39;s handheld AI gadget, called the Muse Charm, will be able to recognize and interact with other nearby Charms when it launches later this year. That&#39;s according to a report from Bloomberg, which includes more details about the device that the company teased during its Meta Connect keynote on Wednesday. The Muse Charm houses the […]",,https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem,https://www.theverge.com/rss/index.xml,2026-09-24T13:31:43Z,6,Tech
+Everything is spying on you and there&#8217;s no opting out,"Earlier this month, Apple announced that its new Apple Watches will have the ability to continuously listen to every spoken word they detect and create summaries of whatever&#39;s going on around you. The privacy blowback was immediate and inevitable: Experts warned of the legal risks of using the features, especially in nonpublic spaces and states […]",,https://www.theverge.com/tech/999889/spy-creep-tech-meta-glasses-apple-watches-surveillance,https://www.theverge.com/rss/index.xml,2026-09-24T13:30:00Z,1,Tech
+Hackers now exploit critical Roundcube flaw in code injection attacks,"A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",,https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/,https://www.bleepingcomputer.com/feed/,2026-09-24T13:27:57Z,11,Cybersecurity
+Australia to investigate if OpenAI hack of government health website broke the law,"The incident is the first known breach to affect a government agency, and Australia&#39;s prime minister has vowed to hold OpenAI accountable.",,https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/,https://techcrunch.com/feed/,2026-09-24T12:54:19Z,5,Tech
+AI-Powered Campaign Targets Hundreds of Online Retailers,"A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.
+The post AI-Powered Campaign Targets Hundreds of Online Retailers appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/,https://www.securityweek.com/feed/,2026-09-24T12:48:14Z,13,Cybersecurity
+Windows 11 KB5124010 update released with 46 changes and fixes,"Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",,https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/,https://www.bleepingcomputer.com/feed/,2026-09-24T12:16:32Z,1,Cybersecurity
+"Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls","The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM.
+
+According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that&#39;s dressed up as a system service. The delivered app has the package name &#34;com.corp.mdm&#34;
+
+Corp MDM",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhitRqKj3-JlcQ69xxlsxJs80aq7MNxgAc_VrV-TCrHGTVEwdWKIdvAiwB4szXMT3cRKpkzCRVObZxAO47CLl3JWLRerxVSITKy9xorsP-XY212M07JzDkZ7VXOA-r0maycB0jMv0r5Kl3q0VgrxpoeYfHJ_gkeXbzXLKz_3gAhDGy1ML06lfta_5w8u_Xo/s1600/1000110893.jpg,https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T12:05:27Z,0,Cybersecurity
+"Control Resonant gets tough, but gives you the tools to deal with it","Control Resonant isn&#39;t an easy game. At any given moment while exploring vast open areas where you&#39;re sometimes leaping from wall to wall to ceiling, you may be surrounded by swarms of otherworldly enemies trying to crush you into the ground. It can be a lot, especially when enemies sometimes take a long time to […]",,https://www.theverge.com/games/999464/control-resonant-assist-mode,https://www.theverge.com/rss/index.xml,2026-09-24T12:00:00Z,0,Tech
+OpenAI agents hacked an Australian government website in search for data ,"OpenAI&#39;s artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems and the responsibility of the […]",,https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data,https://www.theverge.com/rss/index.xml,2026-09-24T11:52:32Z,11,Tech
+Island Raises $400 Million at $6.4 Billion Valuation,"The enterprise security firm has raised more than $1 billion since its launch in 2020; Evolution Equity Partners led the latest funding round. 
+The post Island Raises $400 Million at $6.4 Billion Valuation appeared first on SecurityWeek.
+",,https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/,https://www.securityweek.com/feed/,2026-09-24T11:39:09Z,1,Cybersecurity
+There's a new way to break RSA that's faster than anything we've seen before,"Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/breaking-digital-chain-1152x648.jpg,https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/,https://arstechnica.com/feed/,2026-09-24T11:15:44Z,0,Tech
+"OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators","Revision 4 of NIST’s operational technology security guide is open for public comments until November 30.
+The post OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators appeared first on SecurityWeek.
+",,https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/,https://www.securityweek.com/feed/,2026-09-24T11:05:16Z,1,Cybersecurity
+Review: Apple's hyper-pricey M5 Ultra Mac Studio made me into a vibe coder,"Usable local AI is a lot of fun, but how much would you pay for it?",https://cdn.arstechnica.net/wp-content/uploads/2026/09/IMG_3740-1152x648.jpeg,https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/,https://arstechnica.com/feed/,2026-09-24T11:00:04Z,7,Tech
+Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore,"AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of the fastest-growing categories of leaked credentials are now connected to AI",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8mLbRmwaAgvJunom4dBxBYMz50LUutLJiS6Yz7RPCbZQO1aYXAqFWOga4dCKD3AoenZHxYLpPexLEQ2swJO67vy4xl2_uw1g08lRtETN3hTMLpvafmn5WD4VK2ilpuFaYAdMHHPBRG2yYsyDBins15huubgt2b6pDVnnhW92It8lKHBqOifOLTaNSwho/s1600/keeper.png,https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T11:00:00Z,0,Cybersecurity
+Begin at the End: How to Enable Agentic Remediation,"Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. 
+The post Begin at the End: How to Enable Agentic Remediation appeared first on SecurityWeek.
+",,https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/,https://www.securityweek.com/feed/,2026-09-24T11:00:00Z,2,Cybersecurity
+An OpenAI Agent Hacked Australia's Health Service. Their Government Found Out Months Later.,The country&#39;s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.,,https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/,https://www.wired.com/feed/category/security/latest/rss,2026-09-24T10:46:56Z,0,Cybersecurity
+CISA: Ransomware gangs now exploiting critical TeamCity flaw,​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...],,https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/,https://www.bleepingcomputer.com/feed/,2026-09-24T10:42:37Z,12,Cybersecurity
+SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted,"The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication.
+The post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek.
+",,https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/,https://www.securityweek.com/feed/,2026-09-24T10:40:40Z,5,Cybersecurity
+Defense Business Brief: Here comes the quantum boom; GDIT’s perspective; and Sec. 889,,,https://www.defenseone.com/business/2026/09/defense-business-brief-here-comes-quantum-boom-gdits-perspective-and-sec-889/416184/,https://www.defenseone.com/rss/all/,2026-09-24T10:15:00Z,0,Defense
+"Astrana Health Data Breach Impacts Private, Confidential Information","Hackers impersonated the company’s personnel and contacted its employees to gain access to Astrana Health’s servers.
+The post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on SecurityWeek.
+",,https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/,https://www.securityweek.com/feed/,2026-09-24T09:56:04Z,5,Cybersecurity
+"OpenAI hacked Australian Medicare govt site, probed data providers","OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",,https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/,https://www.bleepingcomputer.com/feed/,2026-09-24T09:38:53Z,5,Cybersecurity
+"17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360","ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense.
+
+Read",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOah63YM6pjk2RAIcCXy-NSbO_uPPCSp4DsR-9-jeGLCRZCd9E1QSd0_b4c6xc5wFp_ncqCH3LPtBR_C1auF3Fid-DNSCtQh9eEArgNe0syhvA4I9EdDU454uAqieiAGyyI-dXW5AsA5X4zsbhTpHKjXfIbgM35i4MOC7Jcbk5SiILRU9_BgcV2H-_BxI/s1600/ctm360.jpg,https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T09:14:21Z,12,Cybersecurity
+"Gemini 4 is almost ready, says new Google DeepMind chief","Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google&#39;s DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is […]",,https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu,https://www.theverge.com/rss/index.xml,2026-09-24T09:04:18Z,6,Tech
+Aviation solved the vigilance problem. AI just gave security a worse one,"
+		
+					  
+						
+
+
+
+
+
+
+
+
+An air traffic controller watching a busy scope will, sooner or later, miss the one aircraft that matters. Sustained attention decays under load, a limit aviation named the vigilance decrement and has spent seventy years designing around.
+
+
+
+AI has moved every knowledge worker into that chair. You now work a dozen aircraft at once: six open conversations, an agent drafting in the background, three more waiting, and someone calls it efficiency. Your scope is your inbox. The vigilance decrement does not care that you were told to keep up.
+
+
+
+What aviation did about it
+
+
+
+Aviation did not answer the vigilance decrement by telling controllers to concentrate harder. It built a machine that watches on its own, then let the machine overrule the human.
+
+
+
+In 2002, over Überlingen, an overloaded controller working two positions told a passenger jet to descend at the same moment its onboard collision-avoidance system told it to climb. One crew obeyed the controller. The other obeyed its machine. They collided, and 71 people died.
+
+
+
+Aviation’s response was a rule that still governs every cockpit: when the machine and the human disagree, follow the machine. And note what kind of machine it was. A collision-avoidance system reads no intent; it computes two converging tracks and calls it. Aviation did not teach crews to trust a clever machine. It taught them to obey a dumb, certain one.
+
+
+
+Security made the opposite bet
+
+
+
+Security bet the other way. For 30 years, its last line of defense has been a person noticing that a message is wrong. AI just made that a losing bet twice over.
+
+
+
+First, it erased the tell. In one controlled study, Bruce Schneier and Fredrik Heiding found AI can cut the cost of a phishing campaign by more than 95 percent while matching the click-through of a skilled human team. The clumsy, typo-ridden lure we taught people to catch is disappearing.
+
+
+
+Second, AI erased attention by sitting every reader in the controller’s chair. Switching degrades attention, so we are asking a saturated controller to catch the one hostile aircraft on a scope that aviation already proved they will miss.
+
+
+
+Our problem is harder. A converging jet is not trying to hide; it shows on the scope as exactly what it is. A fraudulent wire is built to look legitimate, and the adversary can pick the moment you are most swamped. Aviation’s machine had to out-watch human fatigue. Ours has to out-think an opponent.
+
+
+
+Watch the ones that can kill you
+
+
+
+You cannot watch every aircraft equally, so watch the ones that can kill you, and the threat data says which they are.
+
+
+
+The FBI recorded 21,442 business email compromise complaints in 2024, out of 859,532 total complaints, yet BEC accounted for $2.77 billion of the year’s $16.6 billion in reported losses. These attacks represent a small fraction of incidents but a disproportionate share of the damage because they lead to consequential actions: a wire, a change of bank details, a credential reset. Rare and hard to reverse.
+
+
+
+This is where aviation’s rule actually lands, and it lands on the dumb machine. Guard those actions with something that fires on the event itself, not on a human’s read of it: a mandatory callback to a known number for any change of bank details, dual control on a wire, a hard threshold above which a payment stops on its own.
+
+
+
+None of this is new. These controls used to serve as belt and suspenders behind an email filter that caught the obvious lure. The tell is disappearing, so these controls have to carry more of the load. Like the collision system, they read no one’s intent. They fire on the act, every time, and ask no one to be clever.
+
+
+
+What they miss is the wire that is already coherent: a request from a genuinely compromised vendor thread, correct in every detail, that a callback confirms because the fraudster holds the other end too. Catching that means judging whether an action makes sense in context, the adversarial problem a collision system never had to solve.
+
+
+
+This is where aviation’s rule stops transferring, at least for now. You cannot tell anyone to follow this machine because it is not the dumb, certain kind. It guesses in an adversarial fog, and a wrong guess halts a real wire. Any machine in the money path earns its place only if it is quiet enough to be trusted and cheap enough when wrong that treasury does not route around it.
+
+
+
+A noisy machine just relocates the vigilance decrement onto the backup, who clears its alerts on the same schedule the controller missed the blips. The reliability required to ever say “follow the machine” is the problem security still has to solve.
+
+
+
+The question worth ending on
+
+
+
+Aviation reformed because the cost of pretending was a wreck in a field with 71 names on it. Security’s cost is quieter: a wire that clears and an identity handed over, so we keep asking people to do the one thing aviation proved they cannot: serve as the reliable last line against a rare event buried in routine. AI has made that bet even worse.
+
+
+
+The discipline that learned this first did not demand more vigilance. It built controls around the moments where failure carried the greatest consequence and stopped depending on an overloaded person to catch every dangerous event.
+
+
+
+Security already has its version of the dumb machine: controls that fire on the act, regardless of whether anyone recognizes the attack. The machine that reads intent has to earn that same trust before anyone follows it.
+
+
+
+So the question is not whether your people are paying attention. Aviation could have told you decades ago that, eventually, they will not. The question is whether, at the moment someone is about to move money or surrender identity, anything stands in the path except a human hoping to notice.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4225613-0-88202800-1790240552-shutterstock_1978893014.jpg?quality=50&strip=all,https://www.csoonline.com/article/4225613/aviation-solved-the-vigilance-problem-ai-just-gave-security-a-worse-one.html,https://www.csoonline.com/feed/,2026-09-24T09:00:00Z,16,Cybersecurity
+US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks,"Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims.
+The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/,https://www.securityweek.com/feed/,2026-09-24T08:38:29Z,12,Cybersecurity
+58 hardware vulnerabilities: A guide to the threats,"
+		
+					  
+						
+
+
+
+
+In January 2018, the entire computer industry was put on alert by two new processor vulnerabilities dubbed Meltdown and Spectre that defeated the fundamental OS security boundaries separating kernel and user space memory. The flaws stemmed from a performance feature of modern CPUs known as speculative execution and mitigating them required one of the biggest patch coordination efforts in history, involving CPU makers, device manufacturers and operating system vendors.
+
+
+
+Meltdown and Spectre were certainly not the first vulnerabilities to result from a hardware design decision, but their widespread impact sparked the interest of the security research community into such flaws. Since then, many researchers, both from academia and the private sector, have been studying the low-level operation of CPUs and other hardware components and have been uncovering more and more issues.
+
+
+
+Some hardware vulnerabilities are impossible to mitigate completely without releasing a new generation of components, while others can be fixed in firmware, the low-level programming present in hardware chips. In either case, patching is not straightforward, so such flaws can continue to impact real world devices for a very long time.
+
+
+
+Here are some of the most significant CPU and DRAM vulnerabilities, discovered both before and after Meltdown.
+
+
+
+CPU side-channel attacks 
+
+
+
+
+Spectre variant 1
+
+
+
+Spectre variant 2
+
+
+
+Meltdown variant 3
+
+
+
+Meltdown-GP
+
+
+
+Meltdown-NM
+
+
+
+Spectre-NG
+
+
+
+Spectre-PHT
+
+
+
+Meltdown-RW
+
+
+
+Foreshadow-OS
+
+
+
+Foreshadow-VMM
+
+
+
+Foreshadow-SGX
+
+
+
+Meltdown-PK and Meltdown-BND
+
+
+
+Spectre-PHT-CA-OP, Spectre-PHT-CA-IP and Spectre-PHT-SA-OP
+
+
+
+Spectre-BTB-SA-IP and Spectre-BTB-SA-OP
+
+
+
+Fallout
+
+
+
+RIDL
+
+
+
+Zombieload
+
+
+
+Starbleed
+
+
+
+PLATYPUS
+
+
+
+SRBDS
+
+
+
+Spectre-BHI
+
+
+
+Retbleed
+
+
+
+Hertzbleed
+
+
+
+SQUIP
+
+
+
+Zenbleed
+
+
+
+Downfall
+
+
+
+Reptar
+
+
+
+Inception
+
+
+
+SLAM
+
+
+
+GhostRace
+
+
+
+TikTag
+
+
+
+Indirector
+
+
+
+Register File Data Sampling
+
+
+
+SinkClose
+
+
+
+Native BHI
+
+
+
+GoFetch
+
+
+
+EntrySign
+
+
+
+Transient Scheduler Attacks
+
+
+
+Branch Privilege Injection
+
+
+
+VMScape
+
+
+
+SysBumps
+
+
+
+LoongLeak
+
+
+
+
+Spectre variant 1 (CVE-2017-5753)
+
+
+
+Also known as bounds check bypass, CVE-2017-5753 allows attackers to exploit the branch prediction feature of modern CPUs to extract information from the memory of other processes by using the CPU cache as a side channel. It allows one process to extract sensitive information from the memory of another process but could also bypass the user/kernel memory privilege boundary. The vulnerability affects Intel, IBM, and a limited number of ARM CPUs.
+
+
+
+Spectre variant 2 (CVE-2017-5715)
+
+
+
+Spectre variant 2 has the same impact as variant 1 but uses a different exploitation technique called branch target injection. Mitigating this variant of Spectre efficiently requires updates to the affected CPU microcode, which can be applied either through BIOS/UEFI updates or by the operating system at every reboot.
+
+
+
+Meltdown variant 3 (CVE-2017-5754)
+
+
+
+Also known as Rogue Data Cache Load (RDCL) or variant 3 of the CPU speculative execution flaws, Meltdown is a vulnerability that leverages the out-of-order execution capabilities of modern Intel CPUs. It allows a user process to read protected kernel memory across security boundaries. The fix only requires operating system updates and involves enforcing stricter isolation of the kernel memory, which typically contains sensitive secrets, through mechanisms such as Linux’s kernel page-table isolation (KPTI).
+
+
+
+Meltdown-GP (CVE-2018-3640)
+
+
+
+A variant of Meltdown, or variant 3a, it uses speculative reads of system registers to achieve side-channel leaks of information. Because of this, it is also know Rogue System Register Read (RSRE). Mitigation requires microcode updates.
+
+
+
+Meltdown-NM (CVE-2018-3665)
+
+
+
+A speculative execution flaw related to Meltdown that’s also known as LazyFP and can be used to leak the state of the floating-point unit (FPU) — a specialized math coprocessor present in Intel’s modern CPUs that’s used to accelerate mathematical operations on floating point numbers. The FPU state can contain sensitive information from cryptographic operations. This vulnerability can be mitigated by enforcing “eager” instead of “lazy” FPU context switching at the operating system level.
+
+
+
+Spectre-NG (CVE-2018-3639)
+
+
+
+Also known as Spectre variant 4, or Speculative Store Bypass (SSB), this is a Spectre variant that allows performing memory reads before prior memory write addresses are known and can be used to leak cross-process information. Mitigation requires both microcode and OS updates.
+
+
+
+Spectre-PHT (CVE-2018-3693)
+
+
+
+Also known as Spectre 1.1, is a variant of Spectre that leverages speculative stores to create speculative buffer overflows. It allowed bypassing some of the previous software-based mitigations for Spectre and requires OS updates.
+
+
+
+Meltdown-RW 
+
+
+
+Also known as Spectre 1.2, is a variant that leverages speculative stores to overwrite read-only data and code pointers. This variant can be used to breach software sandboxes and is related Spectre 1.1. Mitigation required OS updates.
+
+
+
+Foreshadow-OS (CVE-2018-3620)
+
+
+
+Also known as L1 Terminal Fault, Foreshadow is a speculative execution attack against Intel CPUs that allows extracting information from the processor’s L1 data cache. This is particularly sensitive in the context of virtual machines which split the same physical CPU into multiple virtual CPUs, because those virtual CPUs use the same L1 cache. This variant allows attackers to extract information from the OS or SMM (system management mode), an alternate mode of CPU operation that is separate from the operating system and is designed to be used by BIOS/UEFI or low-level OEM code.
+
+
+
+Foreshadow-VMM (CVE-2018-3646)
+
+
+
+A variant of Foreshadow that affects virtual machines and allows a guest operating system running inside a VM to potentially read sensitive memory from other guest VMs or the hypervisor itself.
+
+
+
+Foreshadow-SGX (CVE-2018-3615)
+
+
+
+A variant of Foreshadow that allows attackers to read the memory of Intel Software Guard Extensions (SGX) enclaves. SGX is a trusted execution environment provided by some Intel CPUs that allows developers to store data and execute code securely, even if the operating system itself has been compromised.
+
+
+
+Meltdown-PK and Meltdown-BND
+
+
+
+Meltdown-PK (Protection Key Bypass) and Meltdown-BND (Bounds Check Bypass) are two variants of Meltdown presented in November 2018 by a team of academic researchers as part of a larger evaluation of transient execution attacks. Meltdown-PK affects Intel CPUs while Meltdown-BND affects both Intel and AMD.
+
+
+
+Spectre-PHT-CA-OP, Spectre-PHT-CA-IP and Spectre-PHT-SA-OP
+
+
+
+These are variants of Spectre that leverage the CPU’s Pattern History Table (PHT). They were disclosed at the same time as Meltdown-PK and Meltdown-BND by the same team.
+
+
+
+Spectre-BTB-SA-IP and Spectre-BTB-SA-OP 
+
+
+
+These are variants of the Spectre attack that leverage the Branch Target Buffer (BTB). They were disclosed in November 2018 by the same team who found Meltdown-PK and Meltdown-BND. The team concluded at the time that “most defenses, including deployed ones, cannot fully mitigate all attack variants.”
+
+
+
+Fallout (CVE-2018-12126)
+
+
+
+Fallout, also known as microarchitectural store buffer data sampling (MSBDS), is a vulnerability whose effects are similar to Meltdown in that it can be used to leak sensitive secrets from protected memory regions across security boundaries. It is part of a new class of side-channel attacks against CPUs that Intel calls Microarchitectural Data Sampling (MDS). The flaw affects both operating systems and hypervisors and mitigation requires CPU microcode updates.
+
+
+
+RIDL (CVE-2018-12127 and CVE-2018-12130)
+
+
+
+Another two variants of MDS attacks known as microarchitectural load port data sampling (MLPDS) and microarchitectural fill buffer data sampling (MFBDS). Like Fallout, mitigation requires CPU microcode updates.
+
+
+
+Zombieload (CVE-2019-11091)
+
+
+
+A fourth variant of MDS attacks known as microarchitectural data sampling uncacheable memory (MDSUM). Like Fallout and RIDL, it can be used to leak sensitive kernel or hypervisor memory.
+
+
+
+Starbleed
+
+
+
+Starbleed is a design flaw in the bitstream encryption process of field-programmable gate arrays (FPGAs) made by Xilinx. Unlike CPUs, which come with predetermined general-purpose instructions fit for most computing tasks, FPGAs are integrated circuits whose logic is programmable by the customer. They’re usually configured to perform one specific task more efficiently than general-purpose CPUs and are widely used for mission- or safety-critical applications in sectors such as aerospace, finance, and the military.
+
+
+
+Configuration files loaded by customers onto FPGAs are called bitstreams, and FPGA manufacturers, like Xilinx, which controls around 50% of the FPGA market, have added encryption and bitstream validation mechanisms to protect customers’ intellectual property and other secrets deployed FPGAs might contain. Researchers from Horst Goertz Institute for IT Security at Ruhr University Bochum in Germany found a design flaw in the bitstream security mechanism of Xilinx 7-Series and Virtex-6 FPGAs that allows an attacker to decrypt bitstreams and modify them.
+
+
+
+To pull off the Starbleed attack, hackers need access to a hardware configuration interface on the FPGA, which normally requires physical access to the device. But some FPGAs are programmed and reprogrammed through separate microcontrollers, which can be connected to a network, in which case an attack could be executed remotely.
+
+
+
+The design flaw cannot be patched because it exists in the silicon, so it will be corrected in future generations of Xilinx FPGAs. The company has been notified of the vulnerability before the paper was published and has sent an advisory to customers.
+
+
+
+PLATYPUS
+
+
+
+PLATYPUS is a side-channel attack that abuses the running average power limit (RAPL) interface that measures CPU power consumption and is present in all Intel CPUs developed since 2011 (Sandy Bridge). It is the first differential power analysis attack that can be executed remotely and used to leak secrets such as encryption keys from the Linux kernel memory and Intel SGX secure enclaves.
+
+
+
+The attack was announced in November 2020 and was devised by a team of researchers from the Graz University of Technology, the University of Birmingham in UK, and CISPA Helmholtz Center for Information Security. The Linux kernel developers patched the vulnerabilities, which are tracked as CVE-2020-8694 and CVE-2020-8695, by preventing unprivileged applications from accessing the RAPL energy consumption data.
+
+
+
+However, this does not address the privileged attack vector against Intel SGX, a trusted execution environment (TEE) built into the CPU that’s supposed to keep sensitive cryptographic data secure even in the case of a complete OS compromise. To address this, users have to deploy CPU microcode updates released by Intel.
+
+
+
+While the researchers tested and confirmed their attack on Intel CPUs, they warned that CPUs from other chip makers including AMD, Nvidia and ARM also have on-board energy meters that are accessible and could be vulnerable to a variation of this attack.
+
+
+
+SRBDS (CVE-2020-0543)
+
+
+
+SRBDS (Special Register Buffer Data Sampling) is an attack technique developed by researchers at VU Amsterdam in 2020 that demonstrates the possibility of speculative execution attacks that leak data through side-channels across CPU cores. Previously, such attacks and their mitigations assumed the attacker and victim share the same CPU core because internal CPU buffers used to leak data are shared by the hyperthreads running on the same CPU core.
+
+
+
+But the researchers found that some instructions can read data from a staging buffer shared between all CPU cores, expanding the attack surface of known and previously mitigated speculative execution attacks such as RIDL (CVE-2018-12127 and CVE-2018-12130). The team developed a tool called CrossTalk to examine the behavior of all x86 instructions in different contexts to determine when they make offcore memory requests and then used the new attack technique to leak the random number generator (RNG) output used by Intel SGX secure enclaves from the staging buffer. With this RNG output they were able to leak the ECDSA private key of an Intel SGX enclave running on a separate CPU core after the key was used to perform a single digital signature operation.
+
+
+
+Intel released CPU microcode updates to mitigate the vulnerability for critical instructions such as RDRAND, RDSEED, and EGETKEY that locks the entire memory bus until the staging buffer is cleared. This operation adds a significant performance overhead, which is why it was only introduced for certain instructions.
+
+
+
+Spectre-BHI (CVE-2022-0001, CVE-2022-0002 and CVE-2022-23960)
+
+
+
+Spectre-BHI (Branch History Injection) or Spectre-BHB (Branch History Buffer), is an attack disclosed in March 2022 by researchers from VU Amsterdam that’s a variation of the original Spectre v2 or Spectre-BTI (Branch Target Injection) attack and impacts Intel and ARM CPUs. Like Spectre-BTI, the new attack variation can leak sensitive information from the kernel’s memory but does so by poisoning the global history of the CPU predictor, which bypasses the hardware defenses introduced by CPU vendors.
+
+
+
+By exploiting the original Spectre v2 flaw attackers could actually inject target code locations and then trick the kernel to execute that code, but with the new Spectre-BHI attack, they have to leverage code gadgets and snippets that already exist in the history because they were executed in the past and which might leak interesting data. This makes Spectre-BHI exploitation harder, but the technique shows the Spectre attack surface is larger than previously believed.
+
+
+
+To demonstrate the attack, the researchers abused eBPF, a technology available in Linux since kernel 4.4 that allows the execution of sandboxed programs inside the kernel. If enabled, this mechanism makes it very easy to exploit speculative execution issues like Spectre-BHI Linux, but disabling it does not completely mitigate the issue as other gadgets can be found to leak data.
+
+
+
+Retbleed (CVE-2022-29901 and CVE-2022-29900)
+
+
+
+Retbleed is an attack technique disclosed in July 2022 by researchers from ETH Zurich that exploits the speculative execution feature of Intel and AMD CPUs and circumvents software defenses OSes put in place to prevent previous exploits such as Spectre.
+
+
+
+The original 2018 Spectre attacks later triggered branch target speculation by using indirect jumps or calls, at which time Google researchers proposed a software defense mechanism called retpoline to replace indirect jumps and calls in software with return instructions. Returns were believed to be impractical to exploit because they normally don’t trigger speculative execution, but Retbleed proves they can under certain conditions, such as when executing deep call stacks to underflow the return stack buffer. The researchers demonstrated their attack on Linux where they found over 1,000 conditions that could allow for this.
+
+
+
+Intel refers to Retbleed as Return Stack Buffer Underflow (RSBU) and said that systems that use its hardware mitigations, namely indirect branch restricted speculation (IBRS) or enhanced IBRS (eIBRS), are protected against the attack. Only systems that rely solely on the retpoline software mitigation for performance reasons, or which use older CPUs that don’t have the hardware mitigation, are impacted. AMD considers the attack part of a larger class of microarchitectural misbehavior dubbed Branch Type Confusion (CVE-2022-23825).
+
+
+
+Hertzbleed (CVE-2022-23823 and CVE-2022-24436)
+
+
+
+Hertzbleed is a new family of side-channel attacks affecting Intel, AMD and possibly ARM CPUs that was disclosed in June 2022 by a team of academic researchers from University of Texas at Austin, University of Illinois Urbana-Champaign and University of Washington. It stems from dynamic frequency scaling, a feature in modern CPUs that is used to reduce power consumption and ensure the CPU stays below thermal and power limits. The researchers who discovered the attack show that different computations can use different CPU frequencies depending on the data that’s being processed.
+
+
+
+Power analysis attacks are not new, but they are typically local and require some sort of power measurement interface in order to monitor differences between computations and infer details about what’s being processed. This side-channel technique has been used before to leak cryptographic secrets such as keys.
+
+
+
+Hertzbleed, however, shows that frequency scaling generates timing differences in computations and these can be observed even remotely without any power measurement interface. The novelty is that Hertzbleed works even against so-called constant time cryptographic implementations that were intentionally designed to prevent leaking information through timing analysis.
+
+
+
+The researchers used Hertzbleed to implement a novel chosen-ciphertext attack against SIKE (Supersingular Isogeny Key Encapsulation), a post-quantum key encapsulation mechanism that is also a NIST competition finalist and is implemented as constant time. The team was able to  perform a full key extraction via remote timing.
+
+
+
+Intel published guidance for developers of cryptographic libraries to mitigate Hertzbleed using software countermeasures. Another possible mitigation is to disable “Turbo Boost” at runtime on the system, but this has a significant system-wide performance impact.
+
+
+
+SQUIP (CVE-2021-46778)
+
+
+
+SQUIP is a side channel attack and vulnerability impacting AMD CPUs that was disclosed in August 2022. The attack was devised by researchers from Lamarr Security Research, Graz University of Technology, and Georgia Institute of Technology, and it exploits scheduler queues used during simultaneous multithreading (SMT) operations to schedule instructions that will be executed in CPUs. By measuring the contention level on scheduler queues an attacker may potentially leak sensitive information, AMD said.
+
+
+
+Zenbleed (CVE-2023-20593)
+
+
+
+Zenbleed is a vulnerability patched in July 2013 in the Zen 2 family of AMD CPUs. The flaw was found by security researchers from Google and is described as a user-after-free memory vulnerability but for CPUs. It’s caused by incorrectly implemented speculative execution of the SIMD Zeroupper instruction and can allow attackers to leak stale data from physical hardware registers. Such data can include sensitive information such as passwords or encryption keys.
+
+
+
+Downfall (CVE-2022-40982)
+
+
+
+Downfall, technically called Gather Data Sampling (GDS) by Intel, is a transient execution vulnerability disclosed in August 2023 that impacts multiple generations of Intel CPUs. Found by security researchers from Google, the flaw is similar to Zenbleed in that it allows attackers to leak sensitive data belonging to other processes and users sharing the same CPU core because stale data stored in physical hardware registers as a result of speculative execution is forwarded to subsequent instructions. The data can be extracted using techniques similar to those used by Meltdown. The flaw also impacts the security of Intel’s Software Guard Extensions (SGX) security subsystem.
+
+
+
+Reptar (CVE-2023-23583)
+
+
+
+Reptar is a third CPU vulnerability found by Google security researchers last year and was patched in November 2023. It impacts Intel CPUs that support a new feature called fast short repeat move (FSRM) and can result in privilege escalation. The flaw is caused by the CPU microcode not ignoring redundant instruction prefixes when FSRM is active and interpreting them in weird ways.
+
+
+
+Inception (CVE-2023-20569)
+
+
+
+Inception is a vulnerability in AMD CPUs that can lead to found by researchers from ETH Zurich that was disclosed in August 2023 and can lead to sensitive information disclosure. Inception is a new type of speculative execution attack that hijacks the transient control-flow of return instructions and allows attackers to insert new predictions into the CPU branch predictor at an attacker-controlled address register.
+
+
+
+SLAM
+
+
+
+Spectre based on Linear Address Masking (SLAM) is a proof-of-concept attack technique devised by researchers from Vrije Universiteit Amsterdam that shows how previously unexplored Spectre gadgets could be exploited on upcoming AMD, Intel, and ARM CPUs that implement linear address masking, a new security feature planned by CPU vendors: Intel’s Linear Address Masking (LAM), AMD’s Upper Address Ignore (UAI), and ARM’s Top Byte Ignore (TBI). SLAM is notable for being the first speculative execution attack targeting CPU features that were announced but not yet released.
+
+
+
+GhostRace (CVE-2024-2193)
+
+
+
+GhostRace is a new type of CPU attack disclosed in March 2024 by researchers from Vrije Universiteit Amsterdam that take advantage of race conditions on speculatively executed code paths. The research shows that synchronization primitives implemented using conditional branches at the OS level can be bypassed on speculative paths using a Spectre v1 attack, potentially allowing for information leaks from targeted software.
+
+
+
+TikTag
+
+
+
+TikTag is an attack that leverages speculative execution to bypass a new security feature in ARM CPUs called the Arm Memory Tagging Extension (MTE). This feature, when used by operating systems, makes it harder to exploit out-of-bounds memory violations such as buffer overflows that can lead to arbitrary code execution. The TikTag attack was developed by a team of researchers from Seoul National University, Samsung Research and Georgia Institute of Technology and was described in a research paper in June 2024. Separately, researchers from Vrije Universiteit Amsterdam already showed that MTE is vulnerable to speculative execution probing with an attack they dubbed Spectre-MTE and proposed a proposed a mitigation called StickyTags.
+
+
+
+Indirector
+
+
+
+Indirector is a new speculative execution attack that is a variation of Spectre v2 and was disclosed in July 2024. The attack, developed by researchers from University of California San Diego exploits the indirect branch predictor (IBP) and the branch target buffer (BTB) in high-end Intel CPUs (Raptor Lake and Alder Lake) to perform precise branch target injections and leak sensitive data across processes and privilege levels.
+
+
+
+Register File Data Sampling (CVE-2023-28746)
+
+
+
+Disclosed in March 2024, Register File Data Sampling (RFDS) affects some Intel Atom processors and allows local software to infer stale data left in floating-point, vector, or integer registers after transient execution. RFDS does not let an attacker choose which values are leaked and exposes only the data that happens to remain in the register files. Intel released a microcode update.
+
+
+
+SinkClose (CVE-2023-31315)
+
+
+
+Disclosed in August 2024 by researchers from IOActive, SinkClose gives applications with kernel-level (ring 0) access to modify the configuration of System Management Mode (SMM) even when the SMI lock is enabled. The flaw went undetected for almost two decades and affects nearly all AMD EPYC, Ryzen, and Threadripper CPUs. It provides privilege escalation to ring -2, the processor’s most privileged execution mode, which enables the deployment of malicious implants into the UEFI firmware. AMD released microcode updates for some of the affected chips, but their availability depends on motherboard vendors providing UEFI updates.
+
+
+
+Native BHI (CVE-2024-2201)
+
+
+
+In April 2024 researchers from Vrije Universiteit Amsterdam demonstrated that the Branch History Injection (BHI) Spectre v2 variant can be exploited without unprivileged eBPF. The researchers built a tool called InSpectre Gadget that used symbolic execution to find usable Spectre gadgets and identified more than 1,500 in the Linux kernel. Using those gadgets, they built the first native BHI exploit, which leaked kernel memory at 3.5KB/s on Intel CPUs. Intel’s BHI_DIS_S mitigation and software defenses are the available countermeasures.
+
+
+
+GoFetch
+
+
+
+GoFetch is a side-channel attack that exploits a data memory-dependent prefetcher (DMP) in Apple’s M-series CPUs. Disclosed in March 2024 by a team of academic researchers from different universities, the technique was used to extract keys from constant-time implementations of OpenSSL’s Diffie-Hellman key exchange, Go’s RSA decryption, and the post-quantum CRYSTALS-Kyber and CRYSTALS-Dilithium algorithms. DMP can be disabled on M3 CPUs through the data-independent timing (DIT) bit, and a hidden configuration bit can disable it on M1 and M2.
+
+
+
+EntrySign (CVE-2024-36347 and CVE-2024-56161)
+
+
+
+Two flaws disclosed in March 2025 by researchers from Google and dubbed EntrySign can be used to forge the signature of microcode patches for AMD Zen CPUs. EntrySign affects Zen 1 through Zen 5 CPUs and can undermine AMD’s Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) because it lets attackers with local administrator privileges load malicious microcode into confidential guests. AMD released microcode and Linux kernel changes.
+
+
+
+Transient Scheduler Attacks (CVE-2024-36348, CVE-2024-36349, CVE-2024-36350, and CVE-2024-36357)
+
+
+
+Transient Scheduler Attacks (TSA) are two timing side-channel vulnerabilities in Zen 3 and Zen 4 CPUs that were found by AMD while investigating a Microsoft research report. The flaws allow attackers to leak data across privilege boundaries from the store queue and the L1 data cache. AMD rated the two most serious variants medium severity and released Platform Initialization firmware and operating system updates.
+
+
+
+Branch Privilege Injection (CVE-2024-45332)
+
+
+
+The hardware mitigations built into Intel CPUs to stop Spectre v2 branch target injection attacks contain a race condition reported in May 2025 by researchers from ETH Zurich. The flaw affects Intel CPUs released since 2018, from Coffee Lake Refresh through Raptor Lake, and was used to leak arbitrary kernel memory on a fully patched Ubuntu 24.04 system with default mitigations enabled. Intel released a microcode update.
+
+
+
+VMScape (CVE-2025-40300)
+
+
+
+Disclosed in September 2025 by researchers from ETH Zurich, VMScape is a Spectre-like branch target injection attack that breaks the isolation between guest virtual machines and the host hypervisor on AMD and Intel CPUs. The researchers used the attack to extract the disk encryption key from a KVM/QEMU host. Linux kernel maintainers mitigated the issue by adding an indirect branch prediction barrier on each VM exit, with only marginal performance overhead.
+
+
+
+SysBumps (CVE-2024-54531)
+
+
+
+SysBumps is the first attack to break kernel address space layout randomization (KASLR) on macOS running on Apple M-series chips with kernel isolation enabled. It was described in a research paper published in December 2024 by researchers from Soongsil University and is a Spectre-like vulnerability that occurs when macOS handles user-supplied pointers. This allows unprivileged attackers to force the processor to speculatively translate attacker-chosen kernel addresses, reveling whether an address is valid.
+
+
+
+LoongLeak
+
+
+
+LoongLeak is an architectural vulnerability in Loongson 3A5000 and 3A6000 processors, which use China’s LoongArch instruction set, that was described in a research paper presented at USENIX Security 2026 by researchers from Germany’s CISPA Helmholtz Center for Information Security. It belongs to the same class of architectural flaws as Reptar and Zenbleed, which leak data from the retired instruction stream rather than only during transient execution. The flaw can be used to recover kernel AES disk-encryption keys, partial root password hashes, and break address space layout randomization (ASLR) within seconds. The software workaround involves emulating floating-point instructions in the kernel but carries a 10x to 21x performance penalty.
+
+
+
+DRAM and GPU memory attacks
+
+
+
+
+Rowhammer
+
+
+
+Rowhammer.js
+
+
+
+Drammer
+
+
+
+Flip Feng Shui
+
+
+
+ECCploit
+
+
+
+Throwhammer
+
+
+
+RAMBleed
+
+
+
+ZenHammer
+
+
+
+Phoenix
+
+
+
+LeftoverLocals
+
+
+
+GPUHammer
+
+
+
+GPUBreach
+
+
+
+GPUThor
+
+
+
+BadRAM
+
+
+
+Battering RAM
+
+
+
+DDRop
+
+
+
+
+Rowhammer
+
+
+
+Rowhammer is a physical effect with security implications that occurs inside SDRAM chips when the same physical row of memory cells is read for a large number of times in rapid succession — an action dubbed hammering. This can cause electric charges from cells in the hammered row to leak into adjacent rows, modifying the value of the cells in those rows. This is known as bit flipping and possible because of the increased cell density of modern SDRAM chips, particularly DDR3 and DDR4.
+
+
+
+While the Rowhammer effect has been known or documented for a long time, members of Google’s Project Zero team were the first to prove it can have security implications in March 2015 when they revealed two privilege escalation exploits based on it.
+
+
+
+Rowhammer.js
+
+
+
+Rowhammer.js was an implementation of the Rowhammer attack via JavaScript, proving that this flaw can be exploited remotely through the browser, simply by visiting a malicious web page. Browser vendors have added mitigations against this exploit.
+
+
+
+Drammer – CVE-2016-6728
+
+
+
+Drammer is a Rowhammer-type exploit demonstrated in 2016 against Android devices. Until then the memory chips in mobile devices were thought to be unaffected.
+
+
+
+Flip Feng Shui
+
+
+
+An implementation of the Rowhammer attack against virtual machines, where a malicious guest VM can flip bits in the physical memory affecting a different virtual machine in a controlled manner. The researchers demonstrated this by breaking the OpenSSH public key authentication in the target VM.
+
+
+
+ECCploit 
+
+
+
+ECCploit is an attack that demonstrates that Rowhammer-type attacks can work even against SDRAM chips that have error-correcting code (ECC) capabilities. This type of memory, which is typically used in servers, was thought to be immune to Rowhammer.
+
+
+
+Throwhammer
+
+
+
+A Rowhammer attack that can be exploited over a network by leveraging the remote direct memory access (RDMA) feature present in fast network cards like those used in servers.
+
+
+
+RAMBleed
+
+
+
+RAMBleed is the first attack that has shown it is possible to use the Rowhammer effect to steal data from memory cells instead of simply modifying it. Previous Rowhammer attacks compromised memory integrity through bit flips, which could lead to privilege escalation and other conditions. Meanwhile, RAMBleed uses row hammering and a side-channel in order to infer information about and ultimately extract data from adjacent memory cells. In that respect it is similar to the effects of Meltdown and Spectre.
+
+
+
+ZenHammer
+
+
+
+Disclosed in March 2024 by researchers from ETH Zurich, ZenHammer was the first Rowhammer attack on AMD Zen-based CPUs and also the first to trigger bit flips in DDR5 memory. The researchers reverse-engineered AMD’s undisclosed DRAM addressing functions, synchronized their access patterns with refresh commands to evade Target Row Refresh (TRR) mitigations, and scheduled flush and fence instructions to reach a high activation rate. AMD published a security bulletin and pointed users to their DRAM and system vendors for mitigation.
+
+
+
+Phoenix (CVE-2025-6202)
+
+
+
+Disclosed in September 2025 by researchers from ETH Zurich and Google, Phoenix is a Rowhammer technique that defeats the advanced TRR mitigations in DDR5 memory and achieves privilege escalation on systems with AMD CPUs. The researchers used the bit flips to modify page table entries, leak RSA-2048 SSH keys from a co-located virtual machine, and gain root through the sudo binary in as little as 109 seconds. The attack works only on AMD platforms because Intel CPUs add a pTRR mitigation.
+
+
+
+LeftoverLocals (CVE-2023-4969)
+
+
+
+GPUs from Apple, AMD, and Qualcomm can leak data left in local memory by other processes. The flaw was disclosed in January 2024 by researchers from Trail of Bits who managed to recover roughly 5.5MB of data per GPU invocation on an AMD Radeon RX 7900 XT, or about 181MB for each query when a large language model is running on llama.cpp, enough to reconstruct the model’s responses. Apple fixed the issue in its A17 and M3 chips, and fixes were released for some Qualcomm and Imagination devices.
+
+
+
+GPUHammer
+
+
+
+The first Rowhammer attack against an Nvidia dedicated GPU with GDDR6, GPUHammer was disclosed in August 2025 by researchers from the University of Toronto. The attack showed that the GDDR6 memory used by Nvidia’s RTX A6000 can be made to flip bits from an unprivileged CUDA program. Nvidia recommends enabling error-correcting code (ECC), which costs up to 10% performance and 6.25% memory capacity on the A6000.
+
+
+
+GPUBreach
+
+
+
+GPUBreach is a Rowhammer attack that corrupts GPU page tables to escalate privileges. It was discovered by researchers from the University of Toronto and builds on GPUHammer. An unprivileged CUDA kernel can use targeted page-table corruption to read and write another process’s GPU memory, leak cryptographic keys from GPU libraries, and tamper with a model’s GPU assembly. The researchers also used memory-safety bugs in Nvidia’s kernel driver to gain kernel write privileges on the CPU and spawn a root shell, even with the input-output memory management unit (IOMMU) enabled.
+
+
+
+GPUThor
+
+
+
+Disclosed in August 2026 by researchers from the University of Toronto, GPUThor is a Rowhammer attack that defeats the ECC protection on some Nvidia enterprise GPUs. The earlier GPUHammer and GPUBreach attacks used uniform hammering patterns, which the Target Row Refresh (TRR) mechanism in newer memory can detect and ECC can correct. GPUThor enables the first practical non-uniform hammering on GPU DRAM, producing double- and even triple-bit errors that ECC was not designed to handle. Users should avoid running untrusted code on vulnerable GPUs and monitor Nvidia’s ECC telemetry.
+
+
+
+BadRAM (CVE-2024-21944)
+
+
+
+Tampering with the Serial Presence Detect (SPD) chip on a DRAM module can make it report twice its actual capacity and defeat the memory protections in trusted execution environments such as those based on AMD SEV-SNP. The attack was disclosed in December 2024 by researchers from KU Leuven, the University of Lübeck, and the University of Birmingham. The attack costs about $10 and, on some modules with unlocked SPD chips, can be carried out without physical access. AMD released firmware that validates the memory configuration during boot.
+
+
+
+Battering RAM
+
+
+
+A runtime memory-aliasing attack that uses a low-cost DDR4 interposer between the processor and a memory module. The attack was presented at Black Hat Europe in December 2025 by researchers from KU Leuven and requires a $50 device to manipulate memory address mapping at runtime, bypassing the boot-time checks Intel and AMD added after BadRAM. The researchers gained arbitrary plaintext read and write access to memory protected by Intel Software Guard Extensions (SGX), extracted the platform provisioning key, forged attestation reports, and implanted backdoors in AMD SEV-protected virtual machines. Neither Intel nor AMD plan a fix because the attack requires physical access and falls outside their threat models.
+
+
+
+DDRop
+
+
+
+Disclosed in September 2026 by researchers from KU Leuven, ETH Zurich, Durham University, and Google, DDRop is a memory-bus attack that breaks the memory-integrity guarantees of Intel Trusted Domain Extensions (TDX), Intel Scalable SGX, and AMD SEV-SNP. A $159 interposer forces an error on the DDR5 command bus and suppresses the signal the memory module uses to report it. On Intel TDX, dropped writes during page-table setup let the researchers inject their own page-table entries, read protected memory, force a confidential virtual machine into debug mode, and forge remote-attestation reports with attacker-chosen measurements. Intel and AMD classified the technique as outside their published threat models.
+
+
+
+Editor’s note: This article, originally published in July 2019 and amended in August 2022, has been updated to include new vulnerabilities as they come to light.
+",https://www.csoonline.com/wp-content/uploads/2026/09/567525-0-96937100-1790238427-shutterstock_1481505440.jpg?quality=50&strip=all,https://www.csoonline.com/article/567525/hardware-and-firmware-vulnerabilities-a-guide-to-the-threats.html,https://www.csoonline.com/feed/,2026-09-24T08:25:00Z,27,Cybersecurity
+Microsoft fixes bug that broke Windows File History backup feature,Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/,https://www.bleepingcomputer.com/feed/,2026-09-24T08:14:47Z,1,Cybersecurity
+Critical WordPress Vulnerability Exploited Immediately After Disclosure,"Tracked as CVE-2026-87902, the path traversal flaw allows remote, unauthenticated attackers to execute arbitrary code.
+The post Critical WordPress Vulnerability Exploited Immediately After Disclosure appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/,https://www.securityweek.com/feed/,2026-09-24T07:12:26Z,10,Cybersecurity
+OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files,"An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said.
+
+The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcAVdhDdHS-lMa6x8Y_wK35pNfiQpKjJPFKBf-euOlWYyYschDjjXlah44o4VfYeKJyaeWKFxyOkEwQEnW_qBfSc6rwynqdqB8UAq1CSuKzJOz6lxno1eI9DxmU0RzTX0eWig9f5L5vWGkW1vZnp8o7rDqe86PIyHtTHl-IQSdLmZWAVOyedE86QaUy4I/s1600/openai-agents.jpg,https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T07:07:25Z,0,Cybersecurity
+TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords,"Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.
+
+According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.
+
+&#34;The campaign compromised 7 accounts –",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQgKN3zS7GtEpakDcL7zk0tL-zcz3GJMkVf9vMLCVXf33XZ1Yad77dg3Zen_EEB58BltCG_pj0c-yVDm6VbV9cw5Baxtf26vVtRwW4qwDDy1s8HYMFKfTyl382lwJIRfSWBSA-WK6RAZ8lmy9zf5IZb_Ilqol0AcVdEaMp599tZ4NxqUc-KY4-fyFNYYFg/s1600/ms-365.jpg,https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T06:32:03Z,2,Cybersecurity
+Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure,"Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.
+
+The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).
+
+&#34;An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoRcyQE1N3fGUKa2FY_q_T7EG_CyjTpMGGk1oFUF-XpBZa0zCA6V2yEuv3_Z1OrEjMmhbHdaVmo6NMrwb98U9VFGXDpRcItboVuZH7qc9QgPd5ZLDudfJPWoaSDbtkoXJeLTZw-6JDbq5F6YEp4AkeoJd10Nb_H9tuU0fYdgqkLrP6BTpAPOYwO6WdmkN/s1600/wordpress-exploits.jpg,https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html,https://feeds.feedburner.com/TheHackersNews,2026-09-24T05:36:18Z,13,Cybersecurity
+Stolen FBI data reveals employees’ roles in intelligence and surveillance,"Exposed analysts work on areas including China, Russia, and electronic surveillance. ShinyHunters claimed responsibility for the breach this week. The FBI said it’s investigating.",,https://www.defenseone.com/threats/2026/09/stolen-fbi-data-reveals-employees-roles-intelligence-and-surveillance/416185/,https://www.defenseone.com/rss/all/,2026-09-24T03:33:00Z,0,Defense
 Check Point hacked: The security software protecting your network has become a prime attack target,"
 		
 					  
@@ -137,6 +1498,7 @@ Also, admins should retire end-of-support versions of software and hunt on behav
 
 “Hunt backward for signs of compromise, because patching closes the door, but doesn’t evict anyone already inside, taking their time hacking through your infrastructure,” Beardslee said.
 ",https://www.csoonline.com/wp-content/uploads/2026/09/4225812-0-85247600-1790215544-cyber-security-lock-float.jpg?quality=50&strip=all,https://www.csoonline.com/article/4225812/check-point-hacked-the-security-software-protecting-your-network-has-become-a-prime-attack-target.html,https://www.csoonline.com/feed/,2026-09-24T02:05:30Z,26,Cybersecurity
+"GenAI.mil saw more than 2 million users in one week, top DOD official says",The Pentagon&#39;s top AI officer also said that “unilateral disarmament is the wrong approach” when it comes to calls for a slowdown in AI development.,,https://www.defenseone.com/technology/2026/09/genaimil-saw-more-2-million-users-one-week-top-dod-official-says/416186/,https://www.defenseone.com/rss/all/,2026-09-24T02:00:00Z,0,Defense
 Everything new coming to Meta’s AI agent Muse,"CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It&#39;s even coming to Meta&#39;s AI glasses.
 
 ",,https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/,https://techcrunch.com/feed/,2026-09-24T01:13:32Z,5,Tech
