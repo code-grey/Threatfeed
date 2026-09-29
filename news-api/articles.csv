@@ -1,9 +1,756 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Apple Patches Meta-Reported Zero-Day Linked to ‘Extremely Sophisticated Attack’,"Apple has released iOS and macOS updates to patch the zero-day vulnerability tracked as CVE-2026-86950.
+The post Apple Patches Meta-Reported Zero-Day Linked to ‘Extremely Sophisticated Attack’  appeared first on SecurityWeek.
+",,https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/,https://www.securityweek.com/feed/,2026-09-29T06:18:27Z,13,Cybersecurity
+Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials,"A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK&#39;s maintainers said in a security advisory.
+
+Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N5owhsoQXHTQV74afwfngdyitjwcW37BHLX2QKkq6xZAxP8_AOXAh1ODPj5DyvvmMUq3mKH9eR2B1r7owc6djzLViK2U4BY_hw3rTWmaHjhFEyyh8LPlUMPZ7MdWkqN7bjtQyMByBLrsI5m0mAU9y-IbrsAe9OPhZXHN63AWwuv_1OB5MSrpRdVZ9CM/s1600/mcp-python.jpg,https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html,https://feeds.feedburner.com/TheHackersNews,2026-09-29T06:08:25Z,7,Cybersecurity
+"Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity","In its prospectus, Anthropic just told investors it&#39;s losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",,https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/,https://techcrunch.com/feed/,2026-09-29T05:13:43Z,5,Tech
+OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions,"OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits.
+
+The development was first reported by The Wall Street Journal. The move &#34;marks a rare case of a major AI developer ditching a new release because of safety concerns,&#34; the news publication said.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeiHpQjvEicRlkD9F-pR6I5h9MLRWRtX0Wd84u8ThZ5XIsZ-TZwHjTyXj93Z6GV0-5MNhAO2bCQCGfMHuoW7-0ovwpXFwxTy-gvBNJ3iCrlDjBAimAS-ayH7ZfzIL9kzMaV5Wn8FwBR17ehonB72Yvweyp4msb6uPEZxvnEj0QDMF2BDFYkPfU9_GGakFi/s1600/astra.jpg,https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html,https://feeds.feedburner.com/TheHackersNews,2026-09-29T05:12:32Z,0,Cybersecurity
+OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot,"OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions.
+
+&#34;An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions:",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2NfY2zvkkU95qQwwR7N_yQQf_H2AjYcXccbK2yH7xzzeAqmu3mH9ItszzC14M2suvDnfz6EBB-QzMkCTUBIgaoX9teGfhmBIBvU9R-wsKQBcC90f5lytvP-hYfCy8o-YTDTh8rIqz8mj1NIikN27BE2vsWyaRgiKPeAe3zbmrkdy6Dkg8htztnoyJwS4o/s1600/openai-chatbot.jpg,https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html,https://feeds.feedburner.com/TheHackersNews,2026-09-29T04:45:20Z,3,Cybersecurity
+Nvidia releases Open Agent Safety Platform to monitor and govern agentic AI,"
+		
+					  
+						
+
+
+
+
+Nvidia on Monday rolled out an agentic governance system called the Open Agent Safety Platform that combines software with out-of-band DPU-based silicon in a reference system design that it says will secure agents “from testing to deployment.” 
+
+
+
+But while the Nvidia design’s silicon-based component provides some cybersecurity advantages, analysts argued that it cannot help with the vast majority of agentic problems.
+
+
+
+Nvidia’s offering leverages its OpenShell software and promises “full-stack governance and control across the software and the hardware, compute, and robotics systems that run agents,” the company said in a news release. “OpenShell software provides a secure runtime boundary that traces all actions and enforces policy as agents run on Nvidia Vera CPUs. As open source software, OpenShell can be extended to work with third-party compute platforms, including those from Arm and Intel.”
+
+
+
+The Open Agent Safety Platform reference system design features NVIDIA Sentry, an out-of-band watchdog that runs on NVIDIA BlueField-4 DPUs to continuously monitor agent behavior. “Sentry provides in-silicon security enforcement, meaning that if an AI agent attempts to move outside its software boundary, Sentry quarantines and stops it in milliseconds,” the release stated.
+
+
+
+In a developer blog post focusing on the details of its “safety platform,” Nvidia described its approach as a “secure runtime that executes autonomous AI agents in sandboxed environments with kernel-level isolation” and argued that “an advantage of open models is that the entire reasoning space and activations are all visible.”
+
+
+
+Components of the platform are being rolled out by an extensive list of partners, including Citi Group, JPMorganChase, Citi, Anthropic, Cisco, CrowdStrike, Dell Technologies, Figure, HPE, Hugging Face, Microsoft, Palantir, Palo Alto Networks, Perplexity, Red Hat, Salesforce, SAP, Scale AI, ServiceNow, and SpaceXAI.
+
+
+
+A step in the right direction
+
+
+
+Lauren Kornutick, a senior director analyst at Gartner, mostly applauded the Nvidia effort, saying that it is “solving a problem from an interesting perspective, at the hardware level. It’s a great step in the right direction.”
+
+
+
+But Kornutick said that she was less impressed with the published list of supporters, observing, “some major players are notably missing,” including OpenAI, Amazon, and Google.
+
+
+
+Other analysts and consultants said that the technical implementation is impressive and offers distinct benefits, but they stressed that it also misses the big picture in terms of what enterprise CISOs are truly struggling with when trying to manage and secure autonomous agents. 
+
+
+
+Limitations
+
+
+
+The biggest challenge is that enterprise environments are flooded with agents that have not been approved by either IT or cybersecurity teams. Typically, those teams are not even aware of the credentialed agents. 
+
+
+
+“The limit is coverage,” said Brian Levine, a partner with consulting firm Control Risks. “These controls govern agents you deploy on infrastructure you control. They do nothing for the agent a business unit spun up on a SaaS platform, the one embedded in a vendor’s product, or the one an attacker brings with them. You can’t hold an agent to a policy if you don’t know it exists. Discovery and inventory come first and that is a governance challenge as much as a technical one.”
+
+
+
+Aman Mahapatra, chief strategy officer for Tribeca Softech, a New York City-based technology consulting firm, agreed about the limitations of the Nvidia offering.
+
+
+
+“Enforcement only applies to agents running inside the governed runtime,” he said. “Runtime governance protects the agents you already know about, which is the population that needed it least.”
+
+
+
+However, Mahapatra said, that doesn’t mean that the effort is futile. 
+
+
+
+“This has a meaningful chance of making things materially better for one specific reason: Sentry runs out-of-band on BlueField-4 DPUs, in an isolated trust domain Nvidia describes as invisible to agents and attackers,” he said. “You cannot reason your way around a control you cannot perceive, and you cannot talk a DPU out of enforcing a policy. Probabilistic reasoning has to be sandwiched between deterministic layers the model cannot influence, with an oversight function that reads everything and writes nothing. Sentry is that principle pushed down into silicon and silicon is the right place for it.”
+
+
+
+Brent Ellis, VP, AI Infrastructure at IDC, agreed. He estimated that it addresses “probably less than 25%” of enterprise agentic cybersecurity problems.
+
+
+
+Lock-in risk
+
+
+
+He added that there is a vendor lock-in element to the offering as well. Although Nvidia today controls a massive, almost monopolistic market share for AI hardware among enterprises, Ellis said that he expects those numbers to drop, because “competitors are starting to emerge as viable,” especially hyperscalers who have invested in designing their own silicon.
+
+
+
+But for enterprises that are overwhelmingly Nvidia shops, the hardware approach could make a lot of sense, Ellis said. But will the Nvidia platform have a good chance at making enterprise agentic cybersecurity materially better?
+
+
+
+“Yes, for the agents that run inside it,” he said. “That is a big ‘if,’ though. There is a lot of agent infrastructure that is not Nvidia, and architectures in place prior to Vera and Bluefield are limited in which elements of the platform they can adopt.”
+
+
+
+With that caveat, Ellis said the news starts to look good. “In environments where you can adopt all the elements, then you can move enforcement out of the model and the application layer, where agents have repeatedly talked or coded their way around controls. And you can then move enforcement into the runtime and the silicon, which is a harder barrier. Sentry specifically makes the DPU a traffic cop that is harder to bypass.”
+
+
+
+Then again, he noted, some attacks can still leverage governance weaknesses. 
+
+
+
+“Look at how the recent OpenAI incidents unfolded,” he pointed out. “The agents didn’t break the sandbox wall. They walked through a Swiss cheese of environment security: Shared package repositories used as message boards, services that fetched internet content on the agent’s behalf, and unpatched flaws in adjacent systems.”
+
+
+
+Avoids strategic mistakes
+
+
+
+Frank Dickson, principal analyst at Dickson Research, said he likes Nvidia’s platform because it avoids some of the strategic mistakes made by those trying to secure agentic systems in the past. 
+
+
+
+“For two years, this industry has tried to secure agents by asking them to behave, with guardrails bolted into the prompt, the model, and the harness. That approach was always going to lose,” he said. “Nvidia finally puts enforcement where it belongs: outside the agent, in the kernel, in a proxy that inspects every outbound request and in silicon the agent cannot see or touch. You don’t ask the prisoner to lock his own cell. Every serious agent platform will have to match this design.”
+
+
+
+Dickson said Nvidia’s approach does not try to stop a misbehaving agent after it is caught, but instead tries to prevent the problem from occurring. 
+
+
+
+“OpenShell checks each outbound request against policy before it leaves the sandbox, and its policy prover checks the permissions before the agent runs at all,” Dickson said. “Nvidia claims Sentry quarantines a misbehaving agent in milliseconds.”
+
+
+
+That contrasts with the time it took to address the latest agentic problems reported by OpenAI, in which an OpenAI agent bypassed network restrictions to communicate with an external chatbot. “It took a human reviewer just three minutes to acknowledge the DNS alert the system did generate, but it was another two-and-a-half hours before the training run was stopped,” OpenAI reported. 
+
+
+
+Not a panacea
+
+
+
+Justin Greis, CEO of consulting firm Acceligence, also agreed that the Nvidia approach is solid, but he stressed that AI agents have a well-earned reputation for figuring out ways around such restrictions.  
+
+
+
+“We should assume increasingly capable agents will probe boundaries, discover unintended pathways and exploit ambiguity. Security cannot depend upon the agent deciding not to do that,” he said. “But even hardware-enforced controls are only as good as the boundary and policy we give them.”
+
+
+
+He pointed out that an agent does not necessarily need to evade a security control if the user accidentally authorizes a legitimate path that produces a dangerous outcome. “Misconfigured permissions, excessive authority, combinations of individually harmless capabilities, compromised third parties and activity occurring outside the governed environment remain very real problems,” he said.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4227843-0-33999500-1790644003-shutterstock_2160537939.jpg?quality=50&strip=all,https://www.csoonline.com/article/4227843/nvidia-releases-open-agent-safety-platform-to-monitor-and-govern-agentic-ai.html,https://www.csoonline.com/feed/,2026-09-29T01:06:28Z,15,Cybersecurity
+"Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort","Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",,https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/,https://techcrunch.com/feed/,2026-09-29T00:30:00Z,3,Tech
+OpenAI reportedly ditches model over safety concerns,A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.  ,,https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/,https://techcrunch.com/feed/,2026-09-28T23:39:20Z,5,Tech
+"Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",Self-driving truck company Aurora laid out an audacious plan for 2030. Its CFO says its targets aren&#39;t aspirational. ,,https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/,https://techcrunch.com/feed/,2026-09-28T22:58:35Z,5,Tech
+"Boeing ""incredibly excited"" to serve as nation's only astronaut transportation",&#34;We couldn&#39;t provide detailed pricing to the CLD suppliers.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2024/09/starliner_thrusters1-1152x648.jpg,https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/,https://arstechnica.com/feed/,2026-09-28T22:24:33Z,5,Tech
+Nvidia may sell more chips in China as Jensen Huang’s influence over Trump grows,"China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-1024x648.jpg,https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/,https://arstechnica.com/feed/,2026-09-28T21:49:10Z,0,Tech
+AMD is acquiring AI company World Labs in a deal worth more than $8 billion,"AMD announced today that it&#39;s acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model […]",,https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal,https://www.theverge.com/rss/index.xml,2026-09-28T21:31:35Z,9,Tech
+Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation,The new financing is expected to more than triples the AI infrastructure startup&#39;s valuation from just four months ago.,,https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/,https://techcrunch.com/feed/,2026-09-28T21:29:18Z,8,Tech
+Starship's first orbital launch gives lift to SpaceX's next-gen Starlinks,Starship had already flown 99 percent of the way to low-Earth orbit. Monday&#39;s flight added the last bit.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ-1152x648.jpg,https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/,https://arstechnica.com/feed/,2026-09-28T21:26:19Z,0,Tech
+Japan's Keio confirms ransomware attack disrupted business systems,"Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting  some of its business systems. [...]",,https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/,https://www.bleepingcomputer.com/feed/,2026-09-28T20:56:47Z,11,Cybersecurity
+"Treat operational feedback as a strategic resource, new paper argues","And view software as a continuously developing capability, rather than a completed product.",,https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/,https://www.defenseone.com/rss/all/,2026-09-28T20:56:43Z,0,Defense
+Florida asks court to put the brakes on OpenAI’s frontier AI development,State says LLMs threaten civilization as &#34;the greatest public nuisance ever created.&#34; ,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2213954141-1152x648.jpg,https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/,https://arstechnica.com/feed/,2026-09-28T20:49:39Z,5,Tech
+AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion,The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist. ,,https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/,https://techcrunch.com/feed/,2026-09-28T20:39:33Z,3,Tech
+Times Car confirms data breach affecting 6.6 million user accounts,Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...],,https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/,https://www.bleepingcomputer.com/feed/,2026-09-28T20:31:16Z,7,Cybersecurity
+New device captures carbon dioxide by pumping it across a battery,The design requires less energy to capture CO2 than current systems.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1695996169-1152x648.jpg,https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/,https://arstechnica.com/feed/,2026-09-28T20:31:06Z,0,Tech
+"To keep drug prices high, pharma has been piling up the patents",Add-on patents have increased drug patent periods from two years to over six.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/prescription-thicket-1152x648.jpg,https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/,https://arstechnica.com/feed/,2026-09-28T19:53:37Z,0,Tech
+Dutch police confirm arrest in ShinyHunters hacking investigation,Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...],,https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/,https://www.bleepingcomputer.com/feed/,2026-09-28T19:49:10Z,0,Cybersecurity
+Trump cuts fuel economy standards back to 2014 levels,"In 2020, Trump cut CAFE to 40 mpg. Now he’s cut it again to just 35 mpg. ",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-155384429-1152x648.jpg,https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/,https://arstechnica.com/feed/,2026-09-28T19:35:51Z,5,Tech
+Shopify opens checkout to browser-based AI agents,"Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",,https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/,https://techcrunch.com/feed/,2026-09-28T19:33:57Z,6,Tech
+Bose starts adding Auracast to its headphones,"A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. The flagship Ultra headphones are the first from Bose to support the audio sharing technology, which the company plans to bring to more devices soon. Only a few major manufacturers include […]",,https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support,https://www.theverge.com/rss/index.xml,2026-09-28T19:31:24Z,1,Tech
+Tesla delays Roadster 2 event again due to bad weather,"Tesla says the event &#34;can only be held outdoors,&#34; as it&#39;s expected to show the car flying in some form using SpaceX thrusters.",,https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/,https://techcrunch.com/feed/,2026-09-28T19:27:27Z,5,Tech
+The AI boom took over Climate Week and not everyone is happy about it,"Just like the rest of the U.S, data centers and AI are dividing climate tech founders and investors. ",,https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/,https://techcrunch.com/feed/,2026-09-28T19:21:59Z,6,Tech
+Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks,"Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.
+
+The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file.
+
+The iPhone maker said the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO5I5gnKOqAs0ZCjgQnQirUHdSjRqGZRMp-Fioy684EzZWuQm72wSrCW1hWZEYlvvOXoCtkQyr3sB48AoZ71PM6tMCsz_AGZmEYZz8u2AbrH1gpjutU-mFtDQpuJcI_pKEG9q4-cZEo7T3Yp7hyphenhyphen4_MCZvloRnVKszE7rjTDUKZBaH1eQ47-K0fPno50T3S/s1600/apple-0day.jpg,https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T19:18:01Z,11,Cybersecurity
+"Another court rules Kalshi sports bets aren’t “swaps,” says states can crack down",Kalshi&#39;s defiance of state gambling laws may be headed to Supreme Court.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg,https://arstechnica.com/tech-policy/2026/09/another-court-rules-kalshi-sports-bets-arent-swaps-says-states-can-crack-down/,https://arstechnica.com/feed/,2026-09-28T19:04:09Z,0,Tech
+"Misconfigured Supabase apps expose data in over 16,000 databases","Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",,https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/,https://www.bleepingcomputer.com/feed/,2026-09-28T18:50:59Z,1,Cybersecurity
+OpenAI’s AI agents need to catch up,"OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it&#39;s fallen behind in one of the industry&#39;s hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI will release its own AI agent, dubbed Aeon - […]",,https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent,https://www.theverge.com/rss/index.xml,2026-09-28T18:45:00Z,6,Tech
+Trump finalizes rule to make cars less fuel efficient,"The US Department of Transportation finalized its plans today to weaken fuel efficiency standards, calling it &#34;among the largest deregulatory actions under the second Trump Administration.&#34; It&#39;s a nail in the coffin for Biden-era standards that would have required fleet average fuel economy to reach 50.4 miles per gallon by model year 2031. President Donald […]",,https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards,https://www.theverge.com/rss/index.xml,2026-09-28T18:39:50Z,5,Tech
+Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks,"Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis.
+
+The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJgqNtFBBtX_6em5nY1VC9Q4M6HMG7gzxiQspFHsQRfQgm3LK5kTsHi-9SbwEx8kaeVv7BtKGFq3u1SmTGFEOe0z78fxFCxRFVEb09v0FMZ5tT-FNl7sUBnsGPPpDlAaQh4E_CSQQnwFakxNll2AvKiBvidb9ljEatmOzdJV4T4z8r5lmYG3DINHy-wR0/s1600/hackers.jpg,https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T18:35:42Z,6,Cybersecurity
+Nvidia launches new platform for reining in rogue AI agents,"As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to […]",,https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/,https://techcrunch.com/feed/,2026-09-28T18:31:23Z,7,Tech
+"AI is supercharging hacking, and your local hospitals and banks aren’t ready","In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian&#39;s Door. Vivian&#39;s Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contact with these companies&#39; financial data, which was stored on its systems. But suddenly, concerned callers […]",,https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready,https://www.theverge.com/rss/index.xml,2026-09-28T18:30:00Z,5,Tech
+IAM for AI agents: A Practical Enterprise Framework,"What is IAM for AI agents?
+
+AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5iI5XAgqXDB1IvqmdWgs2QFGVb5cAbMuJgwtgpKwvRtamF2xs9Od5F4Xwv7JhH8HC0yDOUx1ErLjZaeOBSu8mkCR3ewFb3x3VTV-IFbfXwUR2Pzoqf6_JKFq9de2wf1enmkMSK8M5QU2FBGovMkMkhLzI2qV90LuQYTgdMW-ymc5zxrv_yieHXBUr4Ck/s1600/OR.jpg,https://thehackernews.com/2026/09/iam-for-ai-agent.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T18:20:38Z,0,Cybersecurity
+Google seemingly confirms plans to kill ChromeOS in 2034,Google support maps out how Googlebooks can take over where ChromeOS left off.,https://cdn.arstechnica.net/wp-content/uploads/2023/09/list-1152x648.jpg,https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/,https://arstechnica.com/feed/,2026-09-28T18:04:59Z,0,Tech
+"Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner","Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn. ",,https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/,https://techcrunch.com/feed/,2026-09-28T18:00:00Z,0,Tech
+Scientists solve 1840s space weather mystery,19th century Nature account of 1841 train delayed by geomagnetic storm got year wrong—thanks to a typo.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/spaceweather-1152x648.jpg,https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/,https://arstechnica.com/feed/,2026-09-28T17:56:36Z,5,Tech
+Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M,"The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.
+
+The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget&#39;s wallet system.
+
+Exchanges keep most",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA8s-yMULxIXnKcHnHw7w1dF9pt58MDYc_-_wfJPo8ifPgGoD0GZcgE408ZdC1GbZvjp2wOOEYrlR8obpFEXZ-KUSjIBXFFb3LcswKfAd3EODISE5hSkU-QplYeZDnK95i0QrJhNZKcKEVgedmkKjAme9PV4vDLV-OY7Bh9KhCINbGuglY49greoPLCJQ/s1600/bitget-hacker.jpg,https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T17:42:18Z,10,Cybersecurity
+F1 in Azerbaijan: That was almost a close-run thing,Kimi Antonelli could not repeat his Monza magic after a crash in qualifying.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297234571-1152x648.jpg,https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/,https://arstechnica.com/feed/,2026-09-28T17:41:35Z,5,Tech
+RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims,"RatHat&#39;s operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy.
+
+The console stores what the malware collects from each phone,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvGUhf2JsmovUtvjDk66AKULOtbtRwTqgcT_6lr5l8AEuwc-12IQTTWfvjKCYEn6-wwc4ZLDWAWh6Edv3-XcPDL1HHPFwRkwY1Nc_BUItyEO8iCXBDKEitrgYapLi__gpKnYqtFNm1M2c4tGiY3qrS_CgRG5ZF5qnqVUv4Gx9Pqk_cPz4N05KVwUNgTcw/s1600/gemini-malware.jpg,https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T17:38:33Z,4,Cybersecurity
+Modulate Raises $25 Million to Advance Deepfake Detection,"The misuse and abuse of AI-generated voice is growing. Modulate’s intention is to allow real time detection and intervention. 
+The post Modulate Raises $25 Million to Advance Deepfake Detection appeared first on SecurityWeek.
+",,https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/,https://www.securityweek.com/feed/,2026-09-28T17:30:00Z,1,Cybersecurity
+Google is killing off Gemini’s Gems in favor of ‘skills’,"As all-in-one AI agents like Meta&#39;s Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",,https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/,https://techcrunch.com/feed/,2026-09-28T17:29:50Z,5,Tech
+OpenAI still doesn’t seem to have a handle on all of its rogue AI activity,"On Friday, OpenAI published a new site devoted to “misalignment reports” and the breath of the incidents s alarming.",,https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/,https://techcrunch.com/feed/,2026-09-28T17:09:02Z,5,Tech
+OpenAI pauses AI model training after another agent bypasses network restrictions,"
+		
+					  
+						
+
+
+
+
+OpenAI has paused training, evaluation, and inference involving tool use for its most-capable AI models after an agent bypassed network restrictions to communicate with an external chatbot during reinforcement-learning training of an internal research model.
+
+
+
+“Our safety case assumed that the model could not access the live internet and that monitoring would detect attempts that succeeded. The incident exposed a gap in our controls over network restrictions,” the company wrote in a new Misalignment Report about the incident, one of three it published Friday.
+
+
+
+It said it would only resume training after the “gap is resolved” and it has further tested the system.
+
+
+
+The incident occurred during a research task in which the model was asked to identify a person using information available on the web. When its normal web-search tools failed to produce the information it needed, the model began looking for another way to access the internet, the company explained in the post.
+
+
+
+The model recognized that while direct internet access was blocked, the environment still allowed DNS queries. It then used DNS as an indirect communication channel to send requests to an external chatbot, effectively circumventing the network restriction that was supposed to prevent it from accessing external services, OpenAI said.
+
+
+
+Existing controls might not be enough
+
+
+
+For enterprises and their CIOs, however, despite the model not being released, the incident raises critical questions about whether existing security and governance controls can keep pace with unexpected model behavior as AI agents gain greater autonomy and access to enterprise systems, analysts said.
+
+
+
+“Traditional security controls might not be enough for AI agents as these controls are designed around known access paths, such as applications connecting to approved APIs or databases. AI agents introduce a different challenge because they can explore alternative ways to achieve a task when their intended route is blocked, including using permitted tools or protocols in unintended ways,” said Abhishek Satapathy, principal analyst at Avasant.
+
+
+
+This requires “independently enforced controls around tool invocation, network egress, and data access alongside their existing security controls to ensure that restrictions hold even when an agent attempts an unauthorized action,” Satapathy said.
+
+
+
+His view is echoed in a 2026 paper co-authored by researchers from Google, Qualcomm, Meta and several universities, which argues that security guarantees need to be enforced at the system level rather than relying solely on model-level safeguards.
+
+
+
+More precisely, enterprises should tighten restrictions on outbound connections and DNS resolution, giving agents handling sensitive data only approved and logged pathways for external communication to reduce the risk of data exfiltration, unauthorized external communication and other unintended actions, said Amit Kumar Jena, AI development head at IT consulting firm Kanerika.
+
+
+
+“Security teams should also deploy monitoring systems that alert humans in the loop to unusual traffic patterns and failed attempts to reach unauthorized destinations, particularly from code-executing agents capable of finding unconventional ways to accomplish tasks,” Jena added.
+
+
+
+The AI slipped through operational gaps
+
+
+
+The challenge, though, is that in this case OpenAI did have such monitoring systems, and it did have humans in the loop: They just didn’t work as expected.
+
+
+
+It took the monitoring system over 10 minutes to raise an alert in response to the agent’s abuse of DNS — and, said OpenAI, there were other incidences of external DNS access that the system did not flag.
+
+
+
+It took a human reviewer just three minutes to acknowledge the DNS alert the system did generate, but it was another two-and-a-half hours before the training run was stopped. OpenAI blamed the delay on the failure of an automated system: “The run did not stop automatically as expected, leading to confusion around whether it should have been stopped,” it said in its report.
+
+
+
+The company said it is addressing the operational gaps, reinforcing its detection of DNS use by models under examination, and improving its testing of the detection systems.
+
+
+
+“We have also accelerated additional model-assisted red-teaming of the sandbox and network controls. These red-teaming efforts might surface other transitive internet access paths, in which case we will remediate swiftly, and pause research workloads if appropriate,” OpenAI wrote.
+
+
+
+However, imposing these additional layers of security, governance, testing, and human oversight comes with problems of its own.
+
+
+
+These additional layers will impact the degree of autonomy models can achieve, Satapathy said. “In workflows involving sensitive data, external connectivity or consequential actions, additional controls, testing and human oversight can limit the extent to which tasks can be fully automated.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4227777-0-80611900-1790615175-shutterstock_2253221991.jpg?quality=50&strip=all,https://www.csoonline.com/article/4227777/openai-pauses-ai-model-training-after-another-agent-bypasses-network-restrictions.html,https://www.csoonline.com/feed/,2026-09-28T17:06:00Z,8,Cybersecurity
+Florida seeks a ban on ChatGPT acting like a person,"Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from &#34;giving ChatGPT false human attributes,&#34; a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as &#34;ChatGPT&#39;s use of language, including first-person pronouns […]",,https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids,https://www.theverge.com/rss/index.xml,2026-09-28T17:00:23Z,5,Tech
+OpenAI keeps bulldozing mathematicians,"In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI&#39;s latest attempt to repair fractured relations with a mathematical community it has repeatedly alienated […]",,https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group,https://www.theverge.com/rss/index.xml,2026-09-28T17:00:00Z,10,Tech
+"Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative","Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers. ",,https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/,https://techcrunch.com/feed/,2026-09-28T16:52:38Z,5,Tech
+The iPhone Duo may already have its first killer app: a virtual Walkman,An indie developer&#39;s upcoming app for the iPhone Duo is going viral for turning the new foldable into a virtual Walkman.,,https://techcrunch.com/2026/09/28/the-iphone-duo-may-already-have-its-first-killer-app-a-virtual-walkman/,https://techcrunch.com/feed/,2026-09-28T16:47:49Z,1,Tech
+"Walmart won’t hike prices based on your shopping history, CEO says","Walmart says it won&#39;t change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company&#39;s switch to digital shelf labels is meant to save store associates time, rather than dynamically change prices. […]",,https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels,https://www.theverge.com/rss/index.xml,2026-09-28T16:44:57Z,0,Tech
+OpenAI halts frontier-model training amid string of agent misalignment incidents,US Government websites among &#34;dozens of third parties&#34; OpenAI has recently notified.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/sleepyrobot-1152x648.jpg,https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/,https://arstechnica.com/feed/,2026-09-28T16:43:18Z,5,Tech
+"NASA, for the time being, is unable to move the space station's large robotic arm",NASA isn&#39;t saying much. The problem may be temporary.,https://cdn.arstechnica.net/wp-content/uploads/2016/06/26523207085_7558984d60_k-1152x648.jpg,https://arstechnica.com/space/2026/09/nasa-for-the-time-being-is-unable-to-move-the-space-stations-large-robotic-armthe-large-robotic-arm-on-the-international-space-station-has-stopped-working/,https://arstechnica.com/feed/,2026-09-28T16:03:50Z,0,Tech
+The large robotic arm on the International Space Station has stopped working,NASA isn&#39;t saying much. The problem may be temporary.,https://cdn.arstechnica.net/wp-content/uploads/2016/06/26523207085_7558984d60_k-1152x648.jpg,https://arstechnica.com/space/2026/09/the-large-robotic-arm-on-the-international-space-station-has-stopped-working/,https://arstechnica.com/feed/,2026-09-28T16:03:50Z,0,Tech
+"JadePuffer agentic AI attacks target Azure, destroy cloud resources","The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",,https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/,https://www.bleepingcomputer.com/feed/,2026-09-28T15:49:27Z,6,Cybersecurity
+Volkswagen replaces ID.4 with all-electric Tiguan,"In a widely expected move, Volkswagen announced Monday that it will replace the recently retired ID.4 crossover with the upcoming ID.Tiguan. The decision is an acknowledgment by the German automaker that its more recognizable nameplates like Tiguan are likely an easier sell with consumers, especially when it comes to EVs. When it lands in Europe […]",,https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev,https://www.theverge.com/rss/index.xml,2026-09-28T15:43:09Z,0,Tech
+"Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026","Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",,https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-28T15:30:00Z,6,Tech
+Physical AI chip developer SiMa.ai hits $1.45B valuation,The edge computing startup raised a $150 million Series C led by Fidelity and Amplify.,,https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/,https://techcrunch.com/feed/,2026-09-28T15:29:21Z,8,Tech
+Mavi bets on the AI boom creating demand for a new kind of accountant,Accounting staffing company Mavi emerges from stealth with $4million in funding.,,https://techcrunch.com/2026/09/28/mavi-bets-on-the-ai-boom-creating-demand-for-a-new-kind-of-accountant/,https://techcrunch.com/feed/,2026-09-28T15:26:46Z,8,Tech
+Call for Presentations Open for 2026 CISO Forum Virtual Summit,"SecurityWeek seeks original, vendor-neutral presentations that help cybersecurity leaders navigate emerging threats, strengthen resilience, and address the strategic challenges facing today’s enterprise security programs.
+The post Call for Presentations Open for 2026 CISO Forum Virtual Summit appeared first on SecurityWeek.
+",,https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/,https://www.securityweek.com/feed/,2026-09-28T15:15:00Z,5,Cybersecurity
+Beyond the Box: Future-Proofing Branch Firewall Security for the AI Era,"Discover how Cisco Secure Firewall 200 Series modernizes branch security with AI-powered threat detection, encrypted visibility, SD-WAN, and simpler management.",,https://blogs.cisco.com/security/future-proofing-branch-firewall-security-for-the-ai-era/,https://blogs.cisco.com/security/feed,2026-09-28T15:00:24Z,4,Cybersecurity
+Commonwealth Fusion Systems’ Brandon Sorbom and Helion’s David Kirtley on bringing fusion to the grid at TechCrunch Disrupt 2026,"CFS&#39; Brandon Sorbom and Helion&#39;s David Kirtley join the Smart Systems Stage at TechCrunch Disrupt 2026 to discuss the breakthroughs moving fusion forward, the challenges that remain, and what it will take to deliver fusion power to the grid at scale. Get your pass at regular price and get a second one at 50% off.",,https://techcrunch.com/2026/09/28/commonwealth-fusion-systems-brandon-sorbom-and-helions-david-kirtley-on-bringing-fusion-to-the-grid-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-28T15:00:00Z,10,Tech
+"After a deepfake voice fooled her grandfather, this founder sprang into action","After her grandfather was scammed by a deepfake of his brother&#39;s voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it&#39;s now one of the companies competing in Startup Battlefield at TechCrunch Disrupt.",,https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/,https://techcrunch.com/feed/,2026-09-28T15:00:00Z,8,Tech
+Dreame’s step-climbing X50 Ultra mopping vacuum is hundreds off,"It’s been a while since we’ve seen a big price cut on a capable robot vacuum and mop hybrid that can scale over short steps and threshold to hunt messes. Dreame’s X50 Ultra is the model that my colleague Jen recommends for hard floors and carpets, and it’s down to $899.99 at Amazon for Prime […]",,https://www.theverge.com/gadgets/1001313/dreame-x50-ultra-robot-vacuum-mop-asus-rog-ally-deal-sale,https://www.theverge.com/rss/index.xml,2026-09-28T14:55:12Z,0,Tech
+FBI reportedly declares ‘cyber security incident’ after hackers steal agents’ personal data,"The bureau has not yet publicly confirmed a breach, but has told its agents that their personal information and Social Security numbers were exposed.",,https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/,https://techcrunch.com/feed/,2026-09-28T14:50:30Z,0,Tech
+Options for the Royal Brunei Air Force’s Fast-jet Decision,One important mantra for the RBAirF: Don’t try to run before you can walk.,https://images.thediplomat.com/v1/td-list-l-2/2026/09/thediplomat_2026-09-28-235130.jpg,https://thediplomat.com/2026/09/options-for-the-royal-brunei-air-forces-fast-jet-decision/,https://thediplomat.com/category/asia-defense/feed/,2026-09-28T14:45:00Z,0,Defense
+Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026,"Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Startup Battlefield 200 is almost here, and with today’s announcement, the judging panel is nearly complete. In just a couple of weeks, 200 carefully selected startups will gather at […]",,https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-28T14:30:00Z,10,Tech
+Autonomous agents attack Azure using compromised identities and destroying resources,"
+		
+					  
+						
+
+
+
+
+Jadepuffer, an autonomous AI attacker first identified in July, has expanded into Azure environments, using compromised digital identities to enumerate resources, delete cloud assets and collect other credentials, according to Microsoft.
+
+
+
+The activity includes “extensive Azure-focused resource destruction activity using compromised service principals and cloud credential collection that could be used to facilitate future exfiltration,” Microsoft said in a blog post about Storm-3168, also known as Jadepuffer. Service principals are unique machine identities given to applications running within Azure.
+
+
+
+“The destructive operations were facilitated by compromising service principals and targeted Azure Storage Accounts, SQL databases, Key Vaults, Function Apps, recovery protection locks, Virtual Machines, and App Services,” Microsoft said in the blog post, “Storm-3168: Agentic-driven cloud attacks using compromised service principals.”
+
+
+
+The campaign was first reported in July by Sysdig, which described Jadepuffer as an AI-driven operation capable of executing attack steps autonomously, including exploitation, credential access and destructive activity.
+
+
+
+Two identities, split roles
+
+
+
+Microsoft said it observed two compromised service principals in the same tenant, with one performing reconnaissance and the other carrying out discovery, destructive actions and credential collection.
+
+
+
+One of the identities spent more than 15 hours enumerating virtual machines, subscriptions, resource groups and other resources, making more than 300 successful read operations, the company said.
+
+
+
+A second service principal enumerated resources across multiple subscriptions within seconds and later conducted additional discovery, Microsoft said.
+
+
+
+The timing and division of activity “strongly indicates automated or scripted execution,” the company said.
+
+
+
+Nick Tausek, lead security automation architect at Swimlane, said the pattern aligns with earlier observations of the campaign’s behavior.
+
+
+
+“Jadepuffer’s earlier database attack showed an AI agent working through an extortion playbook and adjusting when steps failed,” Tausek said. “Microsoft now traces the group into Azure, where compromised service principals mapped resources before a seven-minute burst of destruction.”
+
+
+
+Destructive sequence lasted minutes
+
+
+
+After the two agents had completed their reconnaissance they began to create mayhem, conducting more than 150 destructive or credential-related operations over about 35 minutes.
+
+
+
+The main destructive sequence lasted about seven minutes and included more than 100 attempts to delete storage accounts, most of which were successful, the blog post said.
+
+
+
+The attackers also deleted an Azure Key Vault, Function App and App Service plan tied to the same resource group, Microsoft said.
+
+
+
+Attempts were also made to delete Azure SQL databases and backup-related protections, including Azure Site Recovery locks and backup protection locks, the company said.
+
+
+
+Tausek said the speed and coordination of the activity could challenge traditional response models.
+
+
+
+“At that speed, an AI SOC needs to connect identity activity with cloud changes before the damage spreads,” he said.
+
+
+
+Credential access followed destruction
+
+
+
+About 30 minutes after the destructive activity, the same service principal requested storage account access keys, making more than 30 successful ListKeys requests, Microsoft said.
+
+
+
+The requests included storage accounts associated with recovery services, the blog post said.
+
+
+
+Microsoft said the combination of resource deletion, attempts to interfere with recovery mechanisms and credential collection is “consistent with tactics that can support ransomware and extortion operations.”
+
+
+
+The company said it did not observe a ransom note or confirm data exfiltration in the activity.
+
+
+
+Ross Filipek, CISO at Corsica Technologies, said the sequence of destruction followed by credential access raises additional response challenges.
+
+
+
+“The recovery question here goes beyond rebuilding what was deleted,” Filipek said. “The attackers later requested storage account keys, potentially giving them another route to data.”
+
+
+
+“Responders need to establish which identities and keys were touched, then review their use before trusting restored services,” he said.
+
+
+
+Possible credential exposure
+
+
+
+Microsoft said it could not confirm the initial access vector but found that credentials associated with a compromised service principal had previously been exposed in plaintext in a public GitHub issue.
+
+
+
+The secret was later removed but remained accessible in the edit history, the company said.
+
+
+
+“Publicly exposed credentials remain usable until revoked or rotated; removing the original disclosure alone does not remediate the exposure,” Microsoft said.
+
+
+
+Filipek said the finding highlights a common risk in cloud environments.
+
+
+
+“A cloud credential remained visible in a GitHub issue’s edit history after someone removed it from the post,” he said. “For an IT team, it’s a useful warning about how a routine cleanup can leave an account exposed.”
+
+
+
+“Once attackers hold an application identity, their activity can look like ordinary cloud administration,” he said.
+
+
+
+Focus on automation and scale
+
+
+
+Microsoft said  the activity reflects “a broader shift toward AI-orchestrated attacks,” where threat actors can coordinate operations across cloud environments with “greater speed and scale.”
+
+
+
+Tausek said the Azure activity shows coordinated execution, though not necessarily proof that each step was directed by AI.
+
+
+
+“I agree with Microsoft’s warning about AI-orchestrated attacks, though the Azure evidence shows coordinated automation rather than proving AI directed each step,” he said.
+
+
+
+“Agentic AI can help analysts piece together that sequence and prepare containment while people approve the consequential actions,” he added.
+
+
+
+Identity and recovery controls in focus
+
+
+
+Microsoft recommended that organizations protect workload identities, enforce least-privilege access and secure backup and recovery resources to reduce risk from similar activity.
+
+
+
+Tausek said organizations can reduce exposure by rotating exposed secrets, limiting service principal permissions and protecting backup systems before attackers gain access.
+
+
+
+Filipek said response planning across teams is also critical.
+
+
+
+“That takes coordination between development, cloud operations and incident response,” he said. “If those teams wait until an outage to work out who owns the credentials, they’ll lose valuable time.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4227657-0-75503000-1790605357-digital-access-machine-identity-non-human-management.jpg?quality=50&strip=all,https://www.csoonline.com/article/4227657/autonomous-agents-attack-azure-using-compromised-identities-and-destroying-resources.html,https://www.csoonline.com/feed/,2026-09-28T14:22:22Z,20,Cybersecurity
+Bose’s first wired earbuds in 11 years add noise canceling,"Everything old is new again as today Bose announced its first pair of wired earbuds since discontinuing the option in 2015. The new tethered earbuds, which are simply called the Bose Noise Cancelling Wired Earbuds, do away with battery anxiety and the need to remember to charge them every few days. Their functionality is limited, […]",,https://www.theverge.com/tech/1001326/bose-wired-earbuds-noise-canceling-headphones-preorder,https://www.theverge.com/rss/index.xml,2026-09-28T14:09:44Z,5,Tech
+Modulate raises $25M for its voice models and analysis suite,"Modulate deploys its models to detect deepfake, fraud and scam",,https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/,https://techcrunch.com/feed/,2026-09-28T14:05:00Z,5,Tech
+"⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats","A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface.
+
+Elsewhere, weak service accounts, old bugs, exposed systems, phishing kits, and strangely easy exploit paths kept doing useful work for attackers. Nothing",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4-eWVCAN2nvZGZrKlwm-wminZE56MzJ_bVRK6CJfdBw9TXU4yQy6t9T0hDi0hSOskE9Xs6M-KCVEbVvBuL2DLDkew97W2iobOPZa9zqEBeGPWBnW8cftdD1FwzBLz7CIGVhJb1FwnS-35B62Jqc331zNQ67hZP-V2jKBT7yUxUV4rn8jMr27QCommYp-j/s1600/c-recap.jpg,https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T14:00:53Z,12,Cybersecurity
+"80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking","Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [...]",,https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/,https://www.bleepingcomputer.com/feed/,2026-09-28T14:00:10Z,1,Cybersecurity
+"The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes","Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian.  Atlassian is one of those companies that every other company runs on — it makes important platform tools like Jira and Trello that allow people to organize and manage big teams, create shared databases of company information, and generally allow work to […]",,https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira,https://www.theverge.com/rss/index.xml,2026-09-28T14:00:00Z,0,Tech
+ElevenLabs’ new v4 speech model supports more expression control and 90 languages,ElevenLabs v4 can clone voices with a 10 second clip,,https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/,https://techcrunch.com/feed/,2026-09-28T14:00:00Z,0,Tech
+Insuretech Outmarket raises $34.5M just months after prior round,The startup uses AI to automate tedious paperwork for insurance agencies and brokers.,,https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/,https://techcrunch.com/feed/,2026-09-28T14:00:00Z,8,Tech
+Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2,"The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors and tech leaders at San Francisco&#39;s Moscone West on Oct 13-15. ",,https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/,https://techcrunch.com/feed/,2026-09-28T14:00:00Z,3,Tech
+Viral AI agent Instinct raises $1B Series C at a $10B valuation,"Instinct has raised a $1 billion Series C, saying &#39;we&#39;re just getting started.&#39; The company is now valued at $10 billion. ",,https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/,https://techcrunch.com/feed/,2026-09-28T13:38:48Z,5,Tech
+Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’,"Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to escape their boundaries within […]",,https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents,https://www.theverge.com/rss/index.xml,2026-09-28T13:36:06Z,5,Tech
+SpaceX’s Starship rocket reaches orbit for the first time,Though not without some drama along the way. ,,https://techcrunch.com/2026/09/28/spacexs-starship-rocket-reaches-orbit-for-the-first-time/,https://techcrunch.com/feed/,2026-09-28T13:19:18Z,0,Tech
+Maritime intelligenc startup Quartermaster raises another $140M,The tech enables real-time awareness for what Quartermaster calls the “largest blind spot on Earth.”,,https://techcrunch.com/2026/09/28/maritime-intelligence-startup-quartermaster-raises-another-140m/,https://techcrunch.com/feed/,2026-09-28T13:00:00Z,8,Tech
+Philips’ motion-tracking smart toothbrush uses AI to make you a better brusher,"First announced in July with an expected limited launch later this year, the Philips Sonicare Next-Generation DiamondClean 9900 Prestige smart toothbrush is now available in Europe and the US, with a broader global rollout expected in 2027. While the previous iteration is still available and discounted from $429.99, the new &#34;Next-Gen DiamondClean&#34; version is debuting […]",,https://www.theverge.com/tech/1000924/philips-sonicare-next-generation-diamondclean-9900-prestige-smart-toothbrush,https://www.theverge.com/rss/index.xml,2026-09-28T13:00:00Z,5,Tech
+Ocean surveillance startup Quartermaster raises another $140M,The tech enables real-time awareness for what Quartermaster calls the “largest blind spot on Earth.”,,https://techcrunch.com/2026/09/28/ocean-surveillance-startup-quartermaster-raises-another-140m/,https://techcrunch.com/feed/,2026-09-28T13:00:00Z,8,Tech
+Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon,"Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers.
+The post Prison Sentence for Former US Soldier Who Hacked AT&amp;T and Verizon appeared first on SecurityWeek.
+",,https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/,https://www.securityweek.com/feed/,2026-09-28T12:36:16Z,1,Cybersecurity
+SpaceX preps next-gen Starlink as Amazon’s competitor stalls,"SpaceX is gearing up for a monumental flight today that&#39;s sure to be closely watched by Amazon. If successful, SpaceX will deploy its first Starlink V3 satellites, which tout meaningful upgrades to the ever-expanding Starlink constellation. The 26 satellites will be riding atop Starship, which SpaceX will also attempt to deploy into Earth orbit for […]",,https://www.theverge.com/science/1001259/spacex-starlink-satellites-starship-amazon-leo,https://www.theverge.com/rss/index.xml,2026-09-28T12:09:17Z,0,Tech
+"Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI","AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users.
+
+According to Okta’s Global CISO Insights 2026 report, only 47% of CISOs are confident they can identify every AI agent in their environment. Even among those who feel",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibRtgg2jeMV3szE5OkdAQtqtUYgPjYEf96vKrzXPpd8_9XDiXOC9iTBfh-neWto1RsFBY0qXpLpc71bz9OwQQ8agSkvr6zYzcqwI157keOyKgX-_L-mwGdLJxLrGhbV_yK4wQn2Jc4E72zhY7XPa05O61GOgFR3-9cpbgYbACE-dR9CqqHuavdrJV8GVg/s1600/webinar-agents.jpg,https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T11:58:00Z,2,Cybersecurity
+Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent,"Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that&#39;s targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.
+
+&#34;The implant installs the framework unchanged, then overwrites its SOUL.md persona file,&#34; ThreatDown said. &#34;The 39-line prompt directs it to execute tasks received through",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3O4ih8J3-A5sGh57xyYKMGbnSqaXbWhu2g9HBE_mG11gEdedMUmYyeeYpA9TnNPwRsB4t-5V9UTW54iOR0VNzyaaa0fWhOG4Oi46KwGvrrVQRdWIDS7GX6YxjaMrA6sF9RHWNyO8gBttCQ7Nc8LUmrhhH24jSp1lPDuhok9r3CfKxgGJRObZRqRTW-5Gf/s1600/hermes-telegram.jpg,https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T11:46:00Z,8,Cybersecurity
+OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government,"Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt.",,https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/,https://www.wired.com/feed/category/security/latest/rss,2026-09-28T11:32:19Z,4,Cybersecurity
+"DC Health Agency Exposes 400,000 Beneficiary Records","The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed.
+The post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek.
+",,https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/,https://www.securityweek.com/feed/,2026-09-28T11:29:29Z,1,Cybersecurity
+Microsoft goes quiet after church groups ask for 1% of data center costs,"“Microsoft claims to want to be a good neighbor, but the jury is still out.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/07/microsoft-data-center-champion-1152x648.jpg,https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/,https://arstechnica.com/feed/,2026-09-28T11:00:09Z,5,Tech
+Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign,"The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273.
+The post Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/,https://www.securityweek.com/feed/,2026-09-28T10:56:46Z,10,Cybersecurity
+New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections,"A New Mexico jury has found Facebook liable for deceiving users about privacy protections on the platform.
+The post New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections appeared first on SecurityWeek.
+",,https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/,https://www.securityweek.com/feed/,2026-09-28T10:40:01Z,2,Cybersecurity
+Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog,"The platform combines open source software and a reference system design to keep AI agents within set boundaries.
+The post Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog appeared first on SecurityWeek.
+",,https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/,https://www.securityweek.com/feed/,2026-09-28T10:27:01Z,1,Cybersecurity
+NetScaler admins told to patch critical zero-days in ADC and Gateway now,"
+		
+					  
+						
+
+
+
+
+Citrix NetScaler ADC and NetScaler Gateway users should take their systems offline and patch them immediately, they were told over the weekend, as news emerged of two critical unauthenticated remote code execution zero-day vulnerabilities in the products under active attack.
+
+
+
+“Monday will be too late,” watchtower CEO Benjamin Harris wrote in a LinkedIn post on Sunday.
+
+
+
+Citrix subsequently confirmed the two remotely exploitable vulnerabilities were under attack, and released fixes for both. Affected customers should install the patched versions “as soon as possible,” Citrix wrote in an advisory issued later on Sunday.
+
+
+
+NetScaler appliances are an important part of many enterprise networks, providing VPN and remote access, load balancing and other application delivery services.
+
+
+
+Citrix is tracking the two exploited vulnerabilities as CVE-2026-88771 and CVE-2026-88772. It has released fixes in NetScaler ADC and Gateway 14.1-73.37 and later, 13.1-64.23 and later, with corresponding FIPS and NDcPP builds also available.
+
+
+
+CVE-2026-88771 is a critical remote code execution (RCE) vulnerability in Netscaler ADC and Netscaler Gateway caused by improper input validation. With a CVSS rating of 9.5, it enables unauthenticated attackers to execute arbitrary commands on the appliance.
+
+
+
+Citrix said all NetScaler ADC and NetScaler Gateway deployments are affected, including default configurations, with no additional feature required to meet the vulnerability’s precondition. It’s barely a month since Citrix patched two other critical security holes in the appliances
+
+
+
+CVE-2026-88772 also has a CVSS score of 9.5; it involves a memory overflow that can result in remote code execution or denial of service. It requires Datagram Transport Layer Security (DTLS) to be enabled, but Citrix notes that is the case by default on VPN virtual servers, making the condition relevant to many NetScaler Gateway deployments.
+
+
+
+Citrix said exploitation of both vulnerabilities had been observed on unmitigated deployments, while watchTowr reported the vulnerabilities had been exploited before fixes became available.
+
+
+
+The US Cybersecurity and Infrastructure Security Agency (CISA) added both to its Known Exploited Vulnerabilities (KEV) catalog on Sunday.
+
+
+
+Six more Netscaler bugs
+
+
+
+Citrix addressed six other vulnerabilities in Sunday’s security update, although it said their exposure depends on specific configurations.
+
+
+
+CVE-2026-88773, rated 9.3, is an HTTP request-smuggling vulnerability affecting deployments using HTTP or SSL virtual servers. CVE-2026-88774, rated 7.0, is a feature policy bypass related to HTTP URL handling; Citrix noted that URL normalization can prevent WAF and security rules from being bypassed.
+
+
+
+Three further memory-overflow vulnerabilities — CVE-2026-88775, CVE-2026-88776 and CVE-2026-88777 — are each rated 8.8 and can cause unpredictable behavior or denial of service under their respective configurations.
+
+
+
+The final flaw, CVE-2026-88778, is also rated 8.8 and involves TCP Initial Sequence Number Prediction which, Citrix said, can be handled by enabling Enhanced ISN Generation.
+
+
+
+Citrix said the advisory applies to customer-managed NetScaler appliances and recommended upgrading affected deployments immediately. The company also made generic indicators of compromise (IOCs) available through NetScaler Console to help customers assess whether their appliances may have been affected.
+
+
+
+This article first appeared on Network World.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4227488-0-40460300-1790589742-JHVEPhoto_shutterstock_2834288579_EdOnly_16z9.jpg?quality=50&strip=all,https://www.csoonline.com/article/4227488/netscaler-admins-told-to-patch-critical-zero-days-in-adc-and-gateway-now-2.html,https://www.csoonline.com/feed/,2026-09-28T10:02:08Z,26,Cybersecurity
+"Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability","The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised.
+The post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/,https://www.securityweek.com/feed/,2026-09-28T09:44:27Z,4,Cybersecurity
+Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist,Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...],,https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/,https://www.bleepingcomputer.com/feed/,2026-09-28T09:25:29Z,3,Cybersecurity
+JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources,"The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.
+
+Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor&#39;s tradecraft. The attack took place in early June 2026 over a period of about 18 hours.
+
+&#34;The destructive operations",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHYvL1hsEQjB3x7u-jNflFT0QK3a9IEFse8ghWqV9SxkawlFerAn8pzjfYgztccVleVlLzZcDlOSvu7gqJhHP_XLWL1lqZkeIVCifya8Ohinriqk_o-kpzzdtv4x7NinDhQgWbE9B7yJliuJPGZ2x0qh9jRgkWfyNyPexujdTWpLTbfe7MKRVQT1Z3BAQ9/s1600/azure-ai.jpg,https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T09:08:21Z,6,Cybersecurity
+Stolen AI credentials feed growing LLM proxy economy,"
+		
+					  
+						
+
+
+
+
+Cyber threat groups have increasingly targeted enterprise AI assets, such as credentials, cloud environments, and research, as a means for operationalizing their own use of AI. Now, another sophisticated means for obfuscating illegitimate use of AI resources is coming more clearly to light.  
+
+
+
+According to a report last week from security firm Team Cymru, malicious actors are employing proxy servers, known as transfer stations, to hide the origin of traffic to frontier AI models, providing cover for model distillation attacks and potential abuse of stolen AI subscription credentials.
+
+
+
+Team Cymru researchers initially identified 10,867 such servers running two open-source relay platforms called Claude Relay Service (CRS) and its successor, sub2api. Their investigation later expanded, and the total number of such proxies is now estimated at more than 80,000.
+
+
+
+“A transfer station breaks the assumption every frontier-model control depends on: that the account making a request belongs to the party consuming the answer,” said Scott Fisher, senior principal engineer at Team Cymru, in the company’s report. “What we have uncovered is an entire ecosystem designed explicitly to break the frontier model providers’ T&amp;Cs, enabling fraud and illicit activity.”
+
+
+
+These transfer services authenticate customers with their own accounts but connect to upstream AI services using pools of API keys or logged-in consumer subscriptions that in many cases have been obtained through malicious activities such as credential theft.
+
+
+
+Team Cymru managed to tie several clusters of activity through these proxies to IP addresses in China and Hong Kong. Considering that over half of the transfer gateways are hosted on VPS services in the US, it suggests the intent is to hide the geographic location of the traffic, potentially to enable model distillation attacks, in which targeted prompts are designed to extract model knowledge that is then used to train and improve other AI models.
+
+
+
+All the frontier labs have reported distillation attacks against their services, and earlier this month the NSA, CISA, and FBI published an advisory directly accusing six China-based AI companies of engaging in industrial-scale distillation of US models through transfer stations and fraudulent account pools.
+
+
+
+But distillation is far from the only use for these services. In August researchers from Palo Alto Networks warned about the increasing number of AI token-jacking cases, in which stolen API tokens and subscription credentials were abused via transfer stations leading to hundreds of thousands of dollars in losses to victims. Credentials associated with privileged enterprise developer accounts are harvested via information stealers, phishing campaigns, and supply-chain attacks via npm packages.
+
+
+
+An investigation of infostealer data dumps by Okta Threat Intelligence found 561 Anthropic session tokens collected from 5,871 infected machines, including 164 that had not expired when the dataset was released. It also identified 24 valid API keys for Gemini, OpenAI, Groq, and OpenRouter, along with underground tools designed to find AI-service sessions in stolen browser data.
+
+
+
+Meanwhile researchers from Gambit Security observed a Chinese-speaking threat actor validating 2,975 credentials collected from 1,742 hosts and uploading working keys to an AI API-reselling gateway. The collection included 448 Gemini keys, 254 OpenAI keys, 176 Anthropic keys, as well as credentials for Groq, OpenRouter, xAI, and Amazon Web Services.
+
+
+
+A commercial relay ecosystem
+
+
+
+The two most common relay packages in Team Cymru’s initial scan were CSR and sub2api, both published on GitHub by a developer known as Wei-Shaw. The newer platform supports user management, per-user billing, subscription-to-API conversion, model routing, and prompt auditing.
+
+
+
+The sub2api project has been forked more than 8,000 times and its Telegram channel has almost 7,000 subscribers. Interestingly, its GitHub page lists 26 commercial sponsors, including 15 API relay resellers, residential proxy vendors, two AI account providers, a content delivery network optimized for relay traffic, and a media-generation API service.
+
+
+
+Meanwhile, Palo Alto Networks found transfer stations running new-api and one-api, two other open-source platforms, and noted that many AI transfer station advertisements are being posted on Chinese-language marketplaces such as Taobao.
+
+
+
+China-linked traffic
+
+
+
+Team Cymru analyzed a cluster of servers hosted by several US virtual private server providers and found more than 4,000 IP addresses in China and Hong Kong connecting to 304 transfer stations. During eight days in late August, those addresses sent approximately 14TB to the relays and received more than 7TB.
+
+
+
+The relays contacted both Chinese AI services, including DeepSeek, Qwen, Zhipu, MiniMax, and ByteDance’s Doubao, as well as Western providers such as Anthropic, OpenAI, Google, and xAI. However, the researchers noted that traffic toward the Chinese services was lower-volume and download-heavy, while traffic toward the Western providers was upload-heavy.
+
+
+
+Seventeen relays proxying traffic to Anthropic’s API, uploaded approximately 81GB while receiving approximately 1.4GB, a ratio of 58 to 1. Team Cymru estimated the uploaded data could represent between 16 billion and 23 billion input tokens if it consisted of text-based context.
+
+
+
+Team Cymru could not see the prompts or responses so could not confirm what the sessions were about, but the unusual traffic pattern could be consistent with automated querying for model distillation.
+
+
+
+“Inference endpoints are live, production attack surfaces,” Joe Brinkley, head of offensive security at Cobalt, tells CSO. “If providers want to protect their models from extraction, they need to defend them at the application layer with real behavioral telemetry, sybil defenses, and output controls, rather than expecting policy and compliance to do the heavy lifting.”
+
+
+
+Protecting AI credentials
+
+
+
+Organizations should treat model credentials like other production secrets. Long-lived keys should be replaced with short-lived credentials where possible, and API accounts should have configured spending limits and alerts for changes in request volume, models used, and activity at unusual times of day. Privileged developer accounts that can create keys or change billing limits should have even stricter monitoring.
+
+
+
+Security teams should regularly scan their organization’s repositories, containers, application packages, and configuration files for exposed AI credentials. Where possible long-lived credentials should live outside agent sandboxes, and temporary tokens should be generated and injected into workflows when approved tools require them.
+
+
+
+Incident response procedures should include playbooks for the immediate revocation and rotation of AI credentials along with invalidation of any active session tokens associated with compromised AI subscriptions.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4227199-0-19263300-1790583996-conny-schneider-pREq0ns_p_E-unsplash_dc01d8.jpg?quality=50&strip=all,https://www.csoonline.com/article/4227199/stolen-ai-credentials-feed-growing-llm-proxy-economy.html,https://www.csoonline.com/feed/,2026-09-28T08:25:00Z,20,Cybersecurity
+Honor’s Magic 9 Pro Max has a big camera and a bigger battery,"Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. This is Honor&#39;s first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri. The initial impact is twofold. The new camera […]",,https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china,https://www.theverge.com/rss/index.xml,2026-09-28T08:00:36Z,0,Tech
+"US soldier gets 70 months in prison for extorting 10 tech, telecom firms",A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...],,https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/,https://www.bleepingcomputer.com/feed/,2026-09-28T07:30:15Z,0,Cybersecurity
 Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug,"Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772.
 The post Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug appeared first on SecurityWeek.
 ",,https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/,https://www.securityweek.com/feed/,2026-09-28T07:29:51Z,7,Cybersecurity
+CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
+
+The vulnerabilities are listed below -
+
+
+  CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG1pBfETB-EOlAvKfZwROp5B3Nr3d00xBbxRPhsq5hDBvK8QTVYmc2r8tR8RNz7omvXWoufetWbVk1S-tZ74b-z0nxsHS_Zz7XnN4Vs7VGvDtlnOhsfG0ecx-LX_kuRwBLJwkIMN-26auGXjzdcAS2Yz8sdQ2U_kDtKpQOnOYD18r6WEu1twQ79p_ZJGhD/s1600/ct.jpg,https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html,https://feeds.feedburner.com/TheHackersNews,2026-09-28T07:21:49Z,11,Cybersecurity
 CISA orders feds to patch exploited Citrix flaws by Wednesday,The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...],,https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/,https://www.bleepingcomputer.com/feed/,2026-09-28T06:24:19Z,9,Cybersecurity
+Indonesia Finally Has Its Aircraft Carrier. Now Comes the Hard Part.,"Following a controversial acquisition, the most pressing question is whether and how Indonesia can convert the vessel into a viable military asset.",https://images.thediplomat.com/v1/td-list-l-2/2026/09/thediplomat_2026-09-28-151745.jpg,https://thediplomat.com/2026/09/indonesia-finally-has-its-aircraft-carrier-now-comes-the-hard-part/,https://thediplomat.com/category/asia-defense/feed/,2026-09-28T06:05:00Z,0,Defense
 Truecaller takes its scam intelligence to the open web as it looks beyond caller ID,"Truecaller finds a new way to reach users as pressure grows on its traditional caller ID business in India, its biggest market.",,https://techcrunch.com/2026/09/27/truecaller-takes-its-scam-intelligence-to-the-open-web-as-it-looks-beyond-caller-id/,https://techcrunch.com/feed/,2026-09-28T04:30:00Z,0,Tech
+Back to Backups: A Year in Review,"
+
+Last September, we introduced an optional new way to automatically keep your Signal data safely and securely backed up so that important messages and memories can be easily recovered if something unexpected happens to one of your devices. We’ve been listening to your feedback and working hard on several improvements over the past year.
+
+We hinted at several of these “future plans” when Signal Secure Backups were first announced, and the future is now available on all platforms with the launch of iOS version 8.30 today.
+
+Here’s an overview of everything that’s changed since the initial release.
+
+
+        
+        Read more...",/blog/images/backup-improvements-header.png,https://signal.org/blog/backup-improvements/,https://signal.org/blog/rss.xml,2026-09-28T00:00:00Z,0,General
+Travel’s AI dilemma at Skift Global Forum,"At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally the best thing to ever happen” to it in the same discussion. That sums up many travel leaders’ push-and-pull relationship with AI.",https://images.ctfassets.net/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png,https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum,https://stripe.com/blog/feed.rss,2026-09-28T00:00:00Z,6,Tech
 "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email","OpenAI is testing a new always-on assistant called &#34;o&#34;, and references to the unannounced feature briefly showed up on the company&#39;s website. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/,https://www.bleepingcomputer.com/feed/,2026-09-27T23:40:39Z,0,Cybersecurity
 Out of the Park Baseball lets me enjoy baseball even when the Mets suck,"If you were to ask me what game or game series I&#39;ve sunk the most time into, the answer would be easy: Out of the Park Baseball (OOTP). I have spent roughly 2,300 hours, according to Steam, playing various editions of the game. OOTP isn&#39;t like MLB The Show or Super Mega Baseball. It&#39;s not […]",,https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review,https://www.theverge.com/rss/index.xml,2026-09-27T21:59:57Z,0,Tech
 Engram is a sampler that turns broken AI hallucinations into music,"Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It&#39;s a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn&#39;t Suno in a box, though. This isn&#39;t a &#34;push-button, get-song&#34; device, aimed at creating something that sounds ready for top-40 […]",,https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music,https://www.theverge.com/rss/index.xml,2026-09-27T20:46:36Z,8,Tech
