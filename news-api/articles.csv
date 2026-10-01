@@ -1,4 +1,619 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders,"The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.
+The post Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/,https://www.securityweek.com/feed/,2026-10-01T07:52:26Z,9,Cybersecurity
+Metamask discloses security incident affecting its infrastructure,"On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",,https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/,https://www.bleepingcomputer.com/feed/,2026-10-01T07:33:57Z,1,Cybersecurity
+Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path,"Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.
+
+The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs. The code causes a crash, not an execution error. Turning the memory corruption into a working",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5u07cHr0A83x9aQdJE-_Emw6K1GzjR2eybdv9Rq_qi43Oi-M2U4eWqCkjvH5fUhw5wKSa-rvQ81gePKLYCqJXyrZpWHXOehEFq_QaTdYpy0O3LLUQGGYn1pxlUGUXwplloAHT3ZP7oMcF6al9A7q9XfnYNUhtBD0qw-GOWuKiyZl8zbrudyjWtEzHXC0/s1600/apple-whatsapp.jpg,https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T05:54:41Z,5,Cybersecurity
+Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft,"Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist.
+
+&#34;Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzu32AOghfPrV4ViB5puy-1o8shfq77FdmxU5eS9i4x8SCLNzm6xQYn56KGKivAGFoIwa3yYWat5vZMQsdOqPp0ZoEcVst6fs3llaB88jz1IcH6ctmEUEoXcCQOWJs599jVZDnNlHYYww22fnm6KnorG7q16rSGcx3P_Isku8NOODjdV4A5Dee4HiPnmu7/s1600/crypto-theft.jpg,https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T05:21:10Z,15,Cybersecurity
+MetaMask Security Incident Prompts Exit of Affected Ethereum Validators,"MetaMask on Thursday said it&#39;s responding to what it described as an &#34;ongoing security incident&#34; impacting part of its infrastructure.
+
+&#34;We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,&#34; the software cryptocurrency wallet maker said. &#34;At this time, we have identified no immediate threat to MetaMask wallets.&#34;
+
+MetaMask",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipy8fMneY_rWNpC4ldmMhHo-WUhf1n8sK1GH2bHrvTgrmKGNTkKhVVcX6tKlw3NiAitNoaSczHsUpGmuQac46yTHrjW59JTq4WiecYDxHYmIWJ99gLUmxaBxEpwQw7rBwYKSP_bIVh-tcXh3Mgk9sRjeXZjGXF7ospfS7Xrt2FgQwfC89rKdy-A4RwFyMx/s1600/metamask-main.jpg,https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T05:10:09Z,4,Cybersecurity
+"Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs","Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.
+
+LevelBlue&#39;s Threat Hunt Operations &amp; Research (THOR) team, which analyzed the exploitation activity across multiple customer environments, said it identified malicious NetScaler",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAuODp7WTARNyJa6hiyuveQ1LUgYlaYQXGDDfRAYUA7Zkwwb7vMriA7VIh5HmBJwWWR0kALhQkijvT43ke2ajjOQHk6YxQb2rAgsB0PYcbMKPdm-JezjILBH8j3kY29iATKhZLQhVIyAjwNj9XFBTeenqPCHM1AzKMKRCVlMME3jQs5yIYSoVtrbRnVSY7/s1600/citrix-css-shell.jpg,https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T04:35:34Z,10,Cybersecurity
+Vivo’s X Fold 6 accidentally feels like a throwback,"It&#39;s a quirk of the release calendar that when Vivo&#39;s X Fold 6 launched in China this June, it was just another foldable. Now that it&#39;s ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo&#39;s previous foldables, and most other […]",,https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras,https://www.theverge.com/rss/index.xml,2026-10-01T02:00:00Z,0,Tech
+Elon Musk’s Grokipedia has a ‘newly refreshed’ design,"Grokipedia, SpaceXAI&#39;s AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a &#34;newly refreshed Grokipedia.&#34; Grokipedia&#39;s old homepage was pretty much […]",,https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai,https://www.theverge.com/rss/index.xml,2026-10-01T00:23:45Z,6,Tech
+FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers,"An FTC spokesperson confirmed the investigation but declined further comment.
+The post FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers appeared first on SecurityWeek.
+",,https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/,https://www.securityweek.com/feed/,2026-09-30T23:43:51Z,2,Cybersecurity
+"Google releases Gemini 4 Argon, called its most powerful model yet","Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work. ",,https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/,https://techcrunch.com/feed/,2026-09-30T23:43:07Z,0,Tech
+The new and huger Paramount has a new co-CEO,"Paramount is appointing a new co-CEO ahead of the close of its $110 billion merger with Warner Bros. Discovery. Ynon Kreiz, previously Mattel&#39;s chairman and CEO, will be joining Paramount to lead alongside chairman and CEO David Ellison. According to Paramount, &#34;Ellison will focus on the company&#39;s long-term strategy, creative vision and direction, including its […]",,https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez,https://www.theverge.com/rss/index.xml,2026-09-30T23:08:49Z,6,Tech
+The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next,"Defense Secretary Pete Hegseth just launched a 120-day study on the future of warfare, led by Elon Musk, Palmer Luckey, and Newt Gingrich, and while it makes sense given their ties to the administration, critics could point out that Musk&#39;s and Luckey&#39;s companies already sell the kinds of technology the study is likely to recommend.",,https://techcrunch.com/2026/09/30/the-pentagon-taps-elon-musk-and-palmer-luckey-to-help-decide-what-the-military-should-do-next/,https://techcrunch.com/feed/,2026-09-30T23:08:00Z,0,Tech
+Hegseth plans ‘Autonomous Warfare Command’,The military’s 12th combatant command was among a slew of announcements in a Quantico speech Wednesday.,,https://www.defenseone.com/policy/2026/09/hegseth-plans-autonomous-warfare-command/416358/,https://www.defenseone.com/rss/all/,2026-09-30T23:01:05Z,0,Defense
+Defense Business Brief: End-of-fiscal-year advice for founders; Navy drone boats; Powerus to go public,,,https://www.defenseone.com/business/2026/09/defense-business-brief-end-fiscal-year-advice-founders-navy-drone-boats-powerus-go-public/416357/,https://www.defenseone.com/rss/all/,2026-09-30T22:21:03Z,0,Defense
+Dinosaur-killing impact crater might have been teeming with life,"Hot, nutrient water might have lasted for over 5 million years after the impact.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1042124682-1152x648.jpg,https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/,https://arstechnica.com/feed/,2026-09-30T21:54:12Z,0,Tech
+Fifth unvaccinated person dies of measles; CDC still not counting all deaths,"State health officials race to vaccinate residents by giving over 8,500 doses. ",https://cdn.arstechnica.net/wp-content/uploads/2026/01/GettyImages-2257300982-1152x648.jpg,https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/,https://arstechnica.com/feed/,2026-09-30T21:37:54Z,0,Tech
+Immigration advocate sues border agents for demanding his cell phone,Reminder: The &#34;border exemption&#34; to your rights is real.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2288940295-1152x648.jpg,https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/,https://arstechnica.com/feed/,2026-09-30T21:19:56Z,0,Tech
+"Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation","Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",,https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/,https://techcrunch.com/feed/,2026-09-30T21:07:40Z,9,Tech
+Scientists built implants that talk to each other through body tissue,It&#39;s possible to send electrical signals right through human tissues.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1531989233-1152x648.jpg,https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/,https://arstechnica.com/feed/,2026-09-30T21:06:56Z,0,Tech
+Neon sticks it to A24 by announcing a Creative Commons SCP Foundation movie,"A24 pissed off one of the internet&#39;s largest horror communities when it announced it was working on an SCP Foundation film, but apparently hadn&#39;t bothered to contact the SCP Wiki team, nor did it commit to releasing it under a Creative Commons license as required. Seeing an easy PR win, Neon is cashing in by […]",,https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie,https://www.theverge.com/rss/index.xml,2026-09-30T20:45:00Z,1,Tech
+Attackers have been exploiting critical Zimbra flaw to steal emails,A simple email gives the attackers the ability to remotely inject OS commands.,https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg,https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/,https://arstechnica.com/feed/,2026-09-30T20:44:48Z,5,Tech
+Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now,"Google today revealed its next AI frontier model, which it&#39;s calling Gemini 4 Argon. The new model delivers &#34;frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,&#34; according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. But the company is limiting access at […]",,https://www.theverge.com/tech/1002980/google-gemini-4-argon,https://www.theverge.com/rss/index.xml,2026-09-30T20:41:41Z,6,Tech
+Factory CEO just accused his VC board advisor of spying for Cognition,VC Chris Degnan and former board advisor to Factory AI has taken a job as chief revenue officer for Cognition.,,https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/,https://techcrunch.com/feed/,2026-09-30T20:39:09Z,5,Tech
+Russian state hackers use new RedFlick technique to push malware,The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed &#34;RedFlick&#34; to deploy its signature CosmicPulse backdoor. [...],,https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/,https://www.bleepingcomputer.com/feed/,2026-09-30T20:34:01Z,3,Cybersecurity
+Is Neko Health’s body scan worth it? Spotify billionaire’s startup has come to America,"Spotify founder Daniel Ek’s Neko Health raised $700 million to build a business around scanning your body, but it’s not the only company centering its roadmap around a new kind of preventative healthcare. Midjourney is building its own body scanner, while Function Health has also raised significant capital to build out its preventative-health platform. Why are investors betting so big on this category?  On this episode of TechCrunch’s Equity podcast, […]",,https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/,https://techcrunch.com/feed/,2026-09-30T20:20:02Z,8,Tech
+"Google announces Gemini 4 Argon AI model, but you can't use it yet",So much for Gemini 3.5 Pro. ,https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-1-1152x648.jpg,https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/,https://arstechnica.com/feed/,2026-09-30T20:11:08Z,5,Tech
+Reddit will block Old.Reddit.com from people who haven’t used it in 6 months,Reddit says it&#39;s fighting &#34;automated abuse.&#34; ,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2227553113-1-1024x648.jpg,https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/,https://arstechnica.com/feed/,2026-09-30T19:53:33Z,0,Tech
+DIVD says Zammad zero-days enabled AI-driven network breach,The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...],,https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/,https://www.bleepingcomputer.com/feed/,2026-09-30T19:49:15Z,14,Cybersecurity
+RFK Jr. says AI backs his anti-vaccine views. We checked—it doesn't.,AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2294068904-1152x648.jpg,https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/,https://arstechnica.com/feed/,2026-09-30T19:31:25Z,5,Tech
+Hackers stole millions of US military personnel records during months-long data breach,The Department of Defense notified millions of current and former U.S. military personnel that their personal information had been stolen in a months-long breach.,,https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/,https://techcrunch.com/feed/,2026-09-30T19:29:08Z,0,Tech
+What the Disney protests over Kimmel taught us about streaming mergers,Boycotting Disney is hard. ,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2236794248-1024x648.jpg,https://arstechnica.com/gadgets/2026/09/what-the-disney-protests-over-kimmel-taught-us-about-streaming-mergers/,https://arstechnica.com/feed/,2026-09-30T19:22:19Z,0,Tech
+DoorDash’s drone strategy started on the ground,DoorDash unveiled the six-propeller aircraft that will be used in its new drone delivery business at its annual Dash Forward 2026 event.,,https://techcrunch.com/2026/09/30/doordashs-drone-strategy-started-on-the-ground/,https://techcrunch.com/feed/,2026-09-30T19:22:13Z,5,Tech
+"BMW built the same car for gas and electric. The EV is $4,400 cheaper.",The new BMW 3 Series shows just how quickly EVs have caught up to fossil fuel vehicles on pricing.,,https://techcrunch.com/2026/09/30/bmw-built-the-same-car-for-gas-and-electric-the-ev-is-4400-cheaper/,https://techcrunch.com/feed/,2026-09-30T19:19:40Z,0,Tech
+OpenAI’s Jev clone could help the frontier lab stop its swarming agents,"OpenAI&#39;s &#34;Decisions API&#34; is a Jev clone that confirms the importance of fast, cheap intelligence. ",,https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/,https://techcrunch.com/feed/,2026-09-30T19:00:57Z,5,Tech
+Trump plan to combat AI risks hinges on Big Tech pals policing themselves,Trump gets dozens of AI firms to agree to voluntary safety tests.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg,https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/,https://arstechnica.com/feed/,2026-09-30T18:47:01Z,5,Tech
+"""An AI did it"" is no defense, says nonprofit suing OpenAI over Hugging Face hack","OpenAI makes others suffer &#34;the harms of its unsafe decision-making,&#34; nonprofit says.",https://cdn.arstechnica.net/wp-content/uploads/2026/07/openai-logo-1152x648-1784833184.jpg,https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/,https://arstechnica.com/feed/,2026-09-30T18:25:04Z,5,Tech
+AI voice startup ElevenLabs doubles valuation to $22B,The $300 million employee tender was co-led by Wellington and T. Rowe Price.,,https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/,https://techcrunch.com/feed/,2026-09-30T18:23:57Z,8,Tech
+"Over 543,000 valid credentials exposed in public GitHub repositories","More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform&#39;s security measures to prevent accidental leaks of sensitive data. [...]",,https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/,https://www.bleepingcomputer.com/feed/,2026-09-30T18:08:34Z,2,Cybersecurity
+The AI Tamagotchis are coming,"While AI has made plenty of inroads on people&#39;s phones and computers, it&#39;s largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they&#39;re apparently betting on a similar path: testing appetite for physical hardware with their cutesy software agents. &#34;Hardware is […]",,https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices,https://www.theverge.com/rss/index.xml,2026-09-30T18:07:38Z,8,Tech
+Reddit says it has to cut back access to ‘Old Reddit’ because of AI bots,"Reddit is further limiting who can use the &#34;Old Reddit&#34; experience as part of its efforts to combat scraping and automated traffic. Reddit recently started forcing users to log in to be able to use Old Reddit, but in the &#34;next few months,&#34; the company says that you&#39;ll have to be logged in and have […]",,https://www.theverge.com/tech/1002788/old-reddit-ai-scraping,https://www.theverge.com/rss/index.xml,2026-09-30T17:45:00Z,5,Tech
+Reddit is killing RSS feeds and ending public API access because of AI bots,"Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",,https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/,https://techcrunch.com/feed/,2026-09-30T17:45:00Z,5,Tech
+The ugly economics of consumer AI,There’s a reason frontier labs have gotten gunshy about consumer AI — and it’s not because the tech isn’t good enough.,,https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/,https://techcrunch.com/feed/,2026-09-30T17:24:45Z,5,Tech
+Amazon&#8217;s delivery driver smart glasses will reportedly take photos &#8216;almost constantly&#8217;,"Amazon deliveries could soon come with a new catch: the delivery driver&#39;s smart glasses will be snapping photos of anything they see while they&#39;re in use, including people and private property. Bloomberg reports that the glasses could take &#34;several thousand captures in a single driver&#39;s typical shift,&#34; which Amazon plans to upload to its AI […]",,https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy,https://www.theverge.com/rss/index.xml,2026-09-30T17:21:29Z,6,Tech
+Here&#8217;s what AI leaders are saying about Trump&#8217;s new safety plan,"After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a &#34;hoax&#34; cooked up by Democrats no longer apply now that he&#39;s renamed the technology to &#34;Super Intelligence.&#34; He […]",,https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments,https://www.theverge.com/rss/index.xml,2026-09-30T17:15:49Z,11,Tech
+This blog could help you poop better,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. &#34;I will explode your butthole with this poopmaxxer pesto,&#34; a calm Gen Z voice announced from my phone&#39;s speakers. &#34;And […]",,https://www.theverge.com/column/1002625/optimizer-fibermaxxing-wellness-health,https://www.theverge.com/rss/index.xml,2026-09-30T17:00:00Z,1,Tech
+"So what's happening with Russia's new, long-delayed crewed spacecraft?","Russia says it has a &#34;promising, reusable manned transport spacecraft.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1242530931-1024x648.jpg,https://arstechnica.com/space/2026/09/so-whats-happening-with-russias-new-long-delayed-crewed-spacecraft/,https://arstechnica.com/feed/,2026-09-30T16:48:56Z,1,Tech
+Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets,"Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.
+
+The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1600/zimbra-email.jpg,https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T16:46:29Z,12,Cybersecurity
+Asus won’t say how it escaped the US router ban,"This spring, the United States banned all future foreign-made consumer routers - effectively all future routers - unless their makers could 1) convince the US government that they weren&#39;t a national security threat, and 2) submit &#34;a detailed, time-bound plan to establish or expand manufacturing in the United States.&#34; As of September 9th, Asus now […]",,https://www.theverge.com/policy/1002504/asus-escape-us-router-ban-us-manufacturing,https://www.theverge.com/rss/index.xml,2026-09-30T16:44:20Z,5,Tech
+Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks,"Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.
+
+&#34;Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOOpLuI3TSRRvKO7zux2AsJKVNjC36RcaAJCYelekCSQRhpMSABekI8kmMGLZRBZN2biNqDGyKYY_0AqsXb2PMKS6M3sjeLBlt7UQ_IWhXPQ3_q9DGhetIgFeGkF1d_ZE-l2HZPTDID5FkqdLsv3G_wJ-Yckb-Q2I6FdCLo3-AS-pPbCIDRfgFiRzofpaA/s1600/windows-rmm.jpg,https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T16:32:59Z,6,Cybersecurity
+&#8216;Xbox is not for sale&#8217; says Microsoft&#8217;s gaming chief,"Xbox CEO Asha Sharma has denied reports that Microsoft is considering selling off its Xbox business. The Information reported in June that Microsoft CEO Satya Nadella and CFO Amy Hood had been considering spinning out Xbox, and then reported earlier this month that both execs have &#34;more recently supported Sharma&#39;s plans to overhaul the unit.&#34; […]",,https://www.theverge.com/news/1002736/xbox-not-for-sale-asha-sharma-interview,https://www.theverge.com/rss/index.xml,2026-09-30T16:24:30Z,0,Tech
+Meta disputes claim that Muse read a user’s private messages without permission,"Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",,https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/,https://techcrunch.com/feed/,2026-09-30T16:24:23Z,5,Tech
+"Google is paying 100 websites for contributions to AI Overviews, but the amounts are tiny",Many sites see just one-tenth of one percent of their advertising revenue from AI payments.,https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg,https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny/,https://arstechnica.com/feed/,2026-09-30T16:03:48Z,5,Tech
+DoorDash launches an AI agent you can text to order food,"By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub. ",,https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/,https://techcrunch.com/feed/,2026-09-30T16:00:24Z,5,Tech
+The Halide camera app now offers full control of the iPhone 18 Pro’s aperture,"A new update to Lux Optics&#39; anti-algorithm Halide camera app for the iPhone and iPad adds two new photography looks and support for the variable aperture on the new iPhone 18 Pro&#39;s main camera. Halide isn&#39;t the first alternative to the native iOS camera app to add support for the new feature, but it offers […]",,https://www.theverge.com/tech/1002642/halide-ios-camera-app-update-iphone-18-pro-max-variable-aperture,https://www.theverge.com/rss/index.xml,2026-09-30T16:00:00Z,7,Tech
+Destro AI’s secret sauce is getting robots and humans on the same page,&#34;One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.&#34;,,https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/,https://techcrunch.com/feed/,2026-09-30T16:00:00Z,8,Tech
+Instinct’s new product recommendations are giving some users the ick,"Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",,https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/,https://techcrunch.com/feed/,2026-09-30T15:56:28Z,1,Tech
+Google figures out how to watermark AI-designed proteins,"Intended to help with biosecurity, it works with a popular AI protein design tool.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2204734561-1152x648.jpg,https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/,https://arstechnica.com/feed/,2026-09-30T15:54:52Z,5,Tech
+CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS,The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...],,https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/,https://www.bleepingcomputer.com/feed/,2026-09-30T15:49:29Z,15,Cybersecurity
+"FedEx orders 2,000 electric trucks from Harbinger in $300M deal",The order -- Harbinger&#39;s biggest ever -- comes as the startup is reportedly considering an IPO.,,https://techcrunch.com/2026/09/30/fedex-orders-2000-electric-trucks-from-harbinger-in-300m-deal/,https://techcrunch.com/feed/,2026-09-30T15:26:02Z,3,Tech
+Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager,"Attackers are exploiting a critical flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30.
+
+The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager&#39;s API as the admin user. Fixed releases are available, and there is no workaround.
+
+CVE-2026-76504 carries a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1600/cisco-admin.jpg,https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T15:24:54Z,9,Cybersecurity
+"All the latest news on Meta’s cute, creepy Muse AI agent","Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans […]",,https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai,https://www.theverge.com/rss/index.xml,2026-09-30T15:18:49Z,5,Tech
+PS5 jailbreaks just got a lot more useful,New exploit works on all but the most recently updated consoles.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2186493403-1024x648.jpg,https://arstechnica.com/gaming/2026/09/ps5-jailbreaks-just-got-a-lot-more-useful/,https://arstechnica.com/feed/,2026-09-30T15:12:46Z,6,Tech
+Discord gives advertisers more tools to target its users,"Discord is &#34;opening the platform to advertisers, regardless of their budget.&#34; ",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1244881649-1024x648.jpg,https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/,https://arstechnica.com/feed/,2026-09-30T15:01:40Z,0,Tech
+What butterfly wings have in common with barbershop poles,"Wing patterns, flight dynamics create &#34;motion dazzle&#34; effect, make it harder to gauge speed, direction.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/butterfly1-1152x648.jpg,https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/,https://arstechnica.com/feed/,2026-09-30T15:00:56Z,0,Tech
+Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures,"Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.
+
+Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-E2KBc2Kl1xfsJ_ayeCwrbYODEJELskOif8C_YQFyt7DoGklZczzFD3IetvE9mFBUeQN9SQWCE41WtJA-NkE6dya1xAOznACZzeRCMRhvfSQaGipfmD-z1F2rWFPFGLvYSJwrfKhUrbdzwMc_b4OkpTA8huBozpABL2OBcxCM1cod7Hvr0eH23GgE1sEo/s1600/custom-gpt.jpg,https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T15:00:15Z,9,Cybersecurity
+Google reportedly tests paying publishers for AI search results,"Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes around 100 publishers and comes as Google faces scrutiny over the impact of its AI features on web traffic. Digiday first reported on the pilot program, […]",,https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features,https://www.theverge.com/rss/index.xml,2026-09-30T14:51:49Z,5,Tech
+Pledge signed by President Trump and top AI leaders misspells the United States,Pledge signed by President Trump and top AI leaders misspells the United States. ,,https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/,https://techcrunch.com/feed/,2026-09-30T14:50:55Z,5,Tech
+Cisco warns of new SD-WAN zero-day exploited in attacks,Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...],,https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-09-30T14:46:40Z,12,Cybersecurity
+BMW opens US order books for the new gas and electric 3 Series,"The 2027 BMW 330 starts at $49,900, the i3 50 xDrive at $61,500.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/P90657631_highRes_the-new-bmw-3-series-1152x648.jpg,https://arstechnica.com/cars/2026/09/bmw-opens-us-order-books-for-the-new-gas-and-electric-3-series/,https://arstechnica.com/feed/,2026-09-30T14:42:58Z,0,Tech
+"Google launches Fitbit Air in India, though its high price might deter the masses","Fitbit Air costs around $146 in India, roughly $47 more than its U.S. pricing.",,https://techcrunch.com/2026/09/30/google-launches-fitbit-air-in-india-though-its-high-price-might-deter-the-masses/,https://techcrunch.com/feed/,2026-09-30T14:32:03Z,5,Tech
+Instagram rolls out an AI video assistant for creators,"This conversational AI assistant is intended to provide personalized feedback to creators, rather than generic advice.",,https://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-assistant-for-creators/,https://techcrunch.com/feed/,2026-09-30T14:30:00Z,5,Tech
+Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026,"At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today’s AI hardware reaches its limits.",,https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-09-30T14:30:00Z,7,Tech
+Instagram rolls out an AI video editor for creators,"This conversational AI assistant is intended to provide personalized feedback to creators, rather than generic advice.",,https://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-editor-for-creators/,https://techcrunch.com/feed/,2026-09-30T14:30:00Z,5,Tech
+Instagram is adding an AI ‘assistant’ to tell you how to post,Instagram is the latest social media platform to add built-in AI-powered features that will give users feedback on their posts. The company announced Wednesday that its standalone Edits app will now include an AI &#34;creative assistant&#34; that pulls in data from a user&#39;s Instagram account and offers suggestions on what to change. Using the new […],,https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube,https://www.theverge.com/rss/index.xml,2026-09-30T14:30:00Z,6,Tech
+Restate lands $20M as the need for durable infrastructure increases with AI agents,"Founded by Apache Flink veterans, the startup is taking on workflow heavyweight Temporal.",,https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/,https://techcrunch.com/feed/,2026-09-30T14:27:11Z,8,Tech
+3 days left to exhibit: Turn visibility into your next opportunity at TechCrunch Disrupt 2026,"Three days left to exhibit at TechCrunch Disrupt 2026. Book by October 2 at 11:59 p.m. PT to showcase your startup to 10,000+ founders, investors, operators, and tech leaders.",,https://techcrunch.com/2026/09/30/3-days-left-to-exhibit-at-techcrunch-disrupt-2026-2/,https://techcrunch.com/feed/,2026-09-30T14:15:00Z,3,Tech
+OpenAI delays IPO over AI safety concerns,OpenAI is seeking another $30 billion privately as its IPO plans slip.,https://cdn.arstechnica.net/wp-content/uploads/2023/11/sam-altman-1-1152x648.jpg,https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/,https://arstechnica.com/feed/,2026-09-30T14:06:15Z,5,Tech
+Google: AI Is Changing the Pace and Profile of Vulnerability Discovery,"Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution.
+The post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/,https://www.securityweek.com/feed/,2026-09-30T14:05:58Z,4,Cybersecurity
+AI's Third Wave: Coworkers Break the Security Model That Worked for Agents,"Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",,https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/,https://www.bleepingcomputer.com/feed/,2026-09-30T14:01:11Z,2,Cybersecurity
+Unsloth’s model picker had a code-execution problem,"
+		
+					  
+						
+
+
+
+
+True to its name, AI-model-training tool Unsloth would do more work than it was asked to when developers checked out a model: It would also allow arbitrary code to execute on their machines.
+
+
+
+Pillar Security found that simply selecting a model in Unsloth Studio caused the application to download and execute Python code from the model repository. This could potentially allow attackers to use a specially crafted model to get malicious code executed on a developer’s system.
+
+
+
+“The code ran from nothing more than a metadata check,” researcher Ariel Fogel said in a post on Pillar’s blog. “Reading the model’s config.json was enough to trigger the exploit; the backend never loaded the weights or ran inference.”
+
+
+
+The code would run with the user’s permission which, Fogel said, could expose proprietary training data, model artifacts, Hugging Face tokens, SSH keys, or accessible cloud credentials in an enterprise’s AI development environment.
+
+
+
+Unsloth Studio is a web-based interface that is currently in beta, a status Unsloth’s maintainers cited when they reportedly declined to publish a security advisory or have a CVE assigned to the flaw after fixing it in June. Pillar contests that reasoning, pointing out that the vulnerable Studio code ships as part of the standard, generally available “unsloth” package on PyPI and can be installed through an ordinary “pip install unsloth” without selecting a beta or prerelease version.
+
+
+
+Transformers setting opened the door
+
+
+
+Unsloth uses Hugging Face’s trust_remote-code option, which allows a model to bring along its own Python code when needed.
+
+
+
+That’s not necessarily dangerous by itself. Some legitimate Hugging Face models, including IBM Granite Speech and Vision, DeepSeek-OCR, ChatGLM, and earlier Qwen releases, need custom code to work properly, Fogel said.
+
+
+
+The problem was that Unsloth enabled the feature automatically during a routine model check rather than requiring the user to explicitly opt into running remote code. Before the patch, “trust_remote_code” was turned on by default when Unsloth used Hugging Face’s Transformers model-loading functionality to obtain information about a model being inspected.
+
+
+
+Unsloth’s maintainers also pointed to Hugging Face’s own malware scanning and warnings for models containing custom code as another reason for not treating the issue as a vulnerability. Pillar counters that Hugging Face’s protections are mostly blocklists and that its proof-of-concept (PoC) code was not flagged when scanned but could have fetched a malicious second-stage payload only when processed by Unsloth.
+
+
+
+However, Fogel stressed that this is not a Hugging Face vulnerability, but an issue with how Unsloth uses trust_remote_code.
+
+
+
+The fix went beyond flipping the setting. Pillar initially recommended pinning trust_remote_code=False on the model-checking path because that path only needed to read declarative information from config.json. Unsloth’s eventual fix went further.
+
+
+
+In version 2026.6.9, Studio was changed to no longer enable arbitrary model loading directly from Hugging Face and to not trust remote code from local model files. Fogel said it independently retested the version and confirmed that both the Hugging Face and local-directory attack paths were closed.
+
+
+
+Pillar urged users to upgrade to the fixed version, even if they never launch Studio and only use Unsloth core. Additionally, the company advised to audit LLM workflows for unnecessary occurrences of trust_remote_code=True.
+
+
+
+“The time-to-exploit for attackers keeps shrinking, because automated repo scanning, agentic exploitation, and organized supply-chain campaigns can weaponize a benign-looking auto_map module even faster than before the adoption of AI,” Fogel warned.
+
+
+
+This article first appeared on InfoWorld.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4228910-0-09071600-1790776589-javier-mazzeo-GTXvpZ2eTdA-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4228910/unsloths-model-picker-had-a-code-execution-problem-2.html,https://www.csoonline.com/feed/,2026-09-30T13:56:13Z,23,Cybersecurity
+WhatsApp adds new parental controls for teen accounts,"Parents can limit how teens use channels, whose Status they can see, who can see their Status updates, and  control who can add teens to groups.",,https://techcrunch.com/2026/09/30/whatsapp-adds-new-parental-controls-for-teen-accounts/,https://techcrunch.com/feed/,2026-09-30T13:50:16Z,2,Tech
+Amazon’s new Fire TV Stick 4K comes with an actually good remote,"Amazon’s new Fire TV Stick 4K is slimmer and faster, but its biggest upgrade may be the thing you’ll actually hold in your hand: a redesigned remote that’s easier to use, especially in the dark.",,https://techcrunch.com/2026/09/30/amazons-new-fire-tv-stick-4k-comes-with-an-actually-good-remote/,https://techcrunch.com/feed/,2026-09-30T13:43:54Z,0,Tech
+Microsoft to block Entra ID script injection attacks starting October,Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...],,https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/,https://www.bleepingcomputer.com/feed/,2026-09-30T13:37:15Z,3,Cybersecurity
+WatchGuard Patches Critical Fireware OS Code Injection Vulnerability,"WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS.
+The post WatchGuard Patches Critical Fireware OS Code Injection Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/,https://www.securityweek.com/feed/,2026-09-30T13:16:56Z,5,Cybersecurity
+Amazon&#8217;s new Fire TV Stick 4K can pull power directly from your TV,"The new Fire TV Stick 4K will be a little easier to set up than Amazon&#39;s previous 4K streaming sticks since it no longer requires a power adapter. You can power the device directly from your TV&#39;s USB port, like the updated entry-level Fire TV Stick Amazon launched earlier this year. The Fire TV Stick […]",,https://www.theverge.com/streaming/1002597/amazon-fire-tv-stick-4k-direct-power,https://www.theverge.com/rss/index.xml,2026-09-30T13:00:16Z,1,Tech
+"Tinder adapts to a social, IRL dating future with ‘Group Hangouts’ feature","As younger users grow increasingly tired of the endless scroll, dating apps are scrambling to adapt to a generation that increasingly wants dating to feel more social and rooted in real-world experiences. The latest example comes from Tinder, which on Wednesday announced the launch of “Group Hangouts,” a new feature that lets groups of friends […]",,https://techcrunch.com/2026/09/30/tinder-adapts-to-a-social-irl-dating-future-with-group-hangouts-feature/,https://techcrunch.com/feed/,2026-09-30T13:00:00Z,1,Tech
+Charter Space raises $5M to bring insurance to the stars,"As Charter explains on its website, a common experience for space companies is that regular insurers &#34;heard a bunch of scary science words and freaked out.&#34;",,https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/,https://techcrunch.com/feed/,2026-09-30T13:00:00Z,5,Tech
+You’ll soon be able to order DoorDash by text message,"DoorDash is launching new ways to use the local delivery platform, including text message ordering, drone deliveries, and retail returns. The new message ordering feature builds on capabilities that the Ask DoorDash AI chatbot introduced to the DoorDash app in June, allowing you to get recommendations and offload your browsing while skipping the app entirely. […]",,https://www.theverge.com/tech/1002545/doordash-text-orders-drones-retail-returns-availability,https://www.theverge.com/rss/index.xml,2026-09-30T13:00:00Z,6,Tech
+Potato by air,"The Wing Hummingbird 7000W-B delivery drone weighs less than 15 pounds. It has 16 propellers - four for horizontal movement and 12 for vertical - a top speed of 60 miles per hour, a carrying capacity of up to 2.7 pounds, and a delivery radius of about six miles. It is authorized by the FAA […]",,https://www.theverge.com/report/1002172/potato-by-air-wing-drone-delivery,https://www.theverge.com/rss/index.xml,2026-09-30T13:00:00Z,5,Tech
+The Sonos Ace Ultra are the headphones Sonos should have made the first time,"The original Sonos Ace headphones should have been a triumphant entry into a new product category. Instead, they were overshadowed by Sonos&#39;s disastrous app redesign. And while the original Ace are well built, sound good, and are incredibly comfortable, they weren&#39;t good Sonos headphones: Their flagship feature let you reroute audio from a Sonos soundbar […]",,https://www.theverge.com/tech/1002122/sonos-ace-ultra-headphones-review,https://www.theverge.com/rss/index.xml,2026-09-30T13:00:00Z,1,Tech
+"Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks","Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772.
+The post Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/,https://www.securityweek.com/feed/,2026-09-30T12:48:20Z,12,Cybersecurity
+What Will Indonesia Do With Its New Aircraft Carrier?,The KRI Sriwijaya is a small aircraft carrier and may be better understood as an amphibious support ship.,https://images.thediplomat.com/v1/td-list-l-2/2026/09/thediplomat_2026-09-30-214635.jpg,https://thediplomat.com/2026/09/what-will-indonesia-do-with-its-new-aircraft-carrier/,https://thediplomat.com/category/asia-defense/feed/,2026-09-30T12:45:00Z,0,Defense
+TeamViewer urges users to patch severe flaws “as soon as possible”,Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...],,https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/,https://www.bleepingcomputer.com/feed/,2026-09-30T12:25:10Z,1,Cybersecurity
+Here’s how tech leaders will self-police AI safety under Trump’s deal,"We now have the full details of the &#34;morally binding&#34; AI safety deal announced by President Trump yesterday, in which top executives agreed to self-regulate their artificial intelligence technology. The accord, officially titled the Joint Commitment On Frontier Responsibilities, was shared online by tech founder and presidential advisor David Sacks, and has been signed by […]",,https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs,https://www.theverge.com/rss/index.xml,2026-09-30T12:24:32Z,10,Tech
+"Chrome, Firefox Updates Patch Over 100 Vulnerabilities","Some of the flaws could allow remote attackers to execute arbitrary code or escape the browser sandbox.
+The post Chrome, Firefox Updates Patch Over 100 Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/,https://www.securityweek.com/feed/,2026-09-30T12:16:52Z,5,Cybersecurity
+"Airbnb adds AI search, more social features",Airbnb is also launching new services such as meal delivery and laundry in select locations,,https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/,https://techcrunch.com/feed/,2026-09-30T12:00:00Z,5,Tech
+Two Google alumni raise $11.3M to back AI startups that enterprises will actually pay for,BAG Ventures announces close of a $11.3M Fund I to invest in all things AI. ,,https://techcrunch.com/2026/09/30/bag-ventures-sets-its-eyes-deeper-into-the-ai-stack/,https://techcrunch.com/feed/,2026-09-30T12:00:00Z,8,Tech
+"Samsung’s new SmartTag is smaller, longer-lasting, and works with iPhones","Samsung has announced its third-generation Bluetooth tracker, the Galaxy SmartTag 3. It combines a smaller design and improved battery life with a few new tracking and software features, including cross-OS support intended to make it easier to share tracking information with friends and family. As revealed by leaks, the SmartTag 3 has adopted a squircle […]",,https://www.theverge.com/tech/1002552/samsung-galaxy-smarttag-3-design-battery-price-features,https://www.theverge.com/rss/index.xml,2026-09-30T12:00:00Z,1,Tech
+Samsung gives its two-year-old Galaxy Tab S Plus an overhaul,"Since the Galaxy Tab S10 line, Samsung has updated its flagship Ultra tablet annually, but alternates its regular and Plus variants. It means that this year&#39;s Galaxy Tab S12 series includes an Ultra model with few changes from last year&#39;s Tab S11 Ultra, and a Plus variant that brings a bigger overhaul to the two-year-old […]",,https://www.theverge.com/tech/1002533/samsung-galaxy-tab-s12-plus-ultra-android-tablets-specs-price,https://www.theverge.com/rss/index.xml,2026-09-30T12:00:00Z,1,Tech
+Know Your Enemy: Browser-Based Attack Techniques in 2026,"Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in the browser.
+
+Here are the six most dangerous techniques that should be on every security team&#39;s radar in 2026.
+
+1.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHy63Qp6WLBgRhCGaWARbZzjcdu6DhFo9JxZXTE9Rt4B42ImiW_cB0Fdq2yV_HYiZohMmVMRxTu1DxcbiOE9GNu4lAF2HZZ61QiCrWSEKGJFjEt5E5pKpXhjGK9DsZrqTxHFqF2IIaToRSTItghSELEiA_kgTP69_iOwbHdT35ht3yLCqIiNb5ysgDeuM/s1600/push-phish.jpg,https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T11:58:00Z,7,Cybersecurity
+"AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub","AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.
+
+Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features not yet released. In most cases, they sat under developers&#39; personal accounts",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqbuWmNSxYv66udOpYi9NRKukBSDiTroF54tDrBaVYBBTfDC7PMMr26tRoFatdmmRPsPy3MCdoUNLr8YN9mC2ni3pvDWfBNsoKz12evoNrZggcUI4izEc7-hEAr_2wFv4IInBnon19PcEPSXlJU-AMahLHFNAk_5FiVbV7EhfdiLKHcUc8Tiso63xca2c/s1600/git-images.jpg,https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T11:30:00Z,1,Cybersecurity
+Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit,"Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do.
+The post Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit appeared first on SecurityWeek.
+",,https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/,https://www.securityweek.com/feed/,2026-09-30T11:19:00Z,5,Cybersecurity
+Cloudflare plans to issue quantum-safe TLS certificates,The move will be part of a major overhaul of the ecosystem for website authentication.,https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-1152x648.jpg,https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/,https://arstechnica.com/feed/,2026-09-30T11:15:14Z,3,Tech
+Bitget hacked via zero-day in third-party security products,Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...],,https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/,https://www.bleepingcomputer.com/feed/,2026-09-30T11:11:46Z,15,Cybersecurity
+Apple’s &#8216;HomePad&#8217; will reportedly launch on October 13th,"Apple&#39;s long-rumored smart home hub will reportedly be revealed on October 13th. Bloomberg&#39;s Mark Gurman reports that the smart home device will be revealed alongside a new HomePod mini and an upgraded Apple TV device. All three products are set to showcase Siri AI, Apple&#39;s overhauled AI-powered assistant. The smart home hub, a new product […]",,https://www.theverge.com/news/1002563/apple-smart-home-hub-homepad-rumor-launch-date,https://www.theverge.com/rss/index.xml,2026-09-30T11:11:24Z,6,Tech
+Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks,"The state-sponsored group has launched larger-scale phishing campaigns to deploy the CosmicPulse backdoor.
+The post Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/,https://www.securityweek.com/feed/,2026-09-30T10:59:30Z,7,Cybersecurity
+US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access,"ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure.
+
+By combining Microsoft 365 session theft with remote-access tool deployment, CSuite can turn a phishing incident into broader account compromise, fraud",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5fq_zpvT8d0bG8IIotVRgIHIXCNOTPBhfIBUIWxLlg1X4bDmzf0PRgt_0UaHhvTIznPU4nOCCuLJ6JbJ3Tx22FPY2Ox93L_HNhA7XjQEvOcsXfw3NIixeGcy9DywlAx_SuEhCM6DRjgP3NBQrdHnJrFOCEFHFR8bFyF4YFWYtYEuPbG7kvWrgAsotLWI/s1600/rmm.jpg,https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T10:45:00Z,3,Cybersecurity
+ShinyHunters Defiant After FBI Calls on Members to Come Forward,"In the wake of a suspected leader’s arrest, ShinyHunters says it never intended to publish data stolen from the FBI.
+The post ShinyHunters Defiant After FBI Calls on Members to Come Forward appeared first on SecurityWeek.
+",,https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/,https://www.securityweek.com/feed/,2026-09-30T10:20:02Z,2,Cybersecurity
+The MFA you have isn’t the MFA you think you have,"
+		
+					  
+						
+
+
+
+
+For nearly a decade, multi-factor authentication has been the control every security leader points to when asked how they’ve reduced account takeover risk. It sits on almost every compliance checklist and nearly every cyber insurance questionnaire, and for good reason — adding a second factor to a password login closed off an enormous share of credential-based attacks, and organizations that adopted it early saw the payoff in fewer compromised accounts.
+
+
+
+That confidence is now outdated in a way many security teams haven’t fully registered. The MFA adoption rate reported to a board or an auditor rarely distinguishes between the method used to satisfy it. A push notification and a hardware security key both count as “MFA enabled” on the same compliance report, and so does a one-time code sent by SMS — despite sitting at wildly different points on the spectrum of what an attacker can defeat. Uber’s 2022 breach, the MGM Resorts incident, and a growing list of enterprise intrusions traced back to compromised help desks all shared the same root cause: MFA was present, and MFA still failed, because the method in place was never built to resist a targeted attacker.
+
+
+
+Where push and OTP fail
+
+
+
+Push notification MFA came first for most organizations, mainly because it was the path of least resistance — nothing for the user to remember, nothing to type and IT could turn it on across the company in an afternoon. That same ease of rollout turned out to be exactly what made it easy to break. Attackers figured out they didn’t need to steal anything sophisticated. They just needed a stolen password and the willingness to send the same approval prompt to someone’s phone over and over, sometimes for hours, until the user got annoyed enough — or tired enough, or confused enough — to tap approve. Security teams call this push fatigue or MFA bombing. It works often enough that it’s now one of the most common ways attackers get past MFA that’s technically “on.”
+
+
+
+The OTP problem is simpler and uglier than push fatigue. It’s just a code, and a code can be gotten. Sometimes an attacker convinces a mobile carrier to move a victim’s phone number onto a SIM they control — a scam that’s quietly drained crypto wallets and corporate email accounts for years now. Increasingly, though, it doesn’t even require that much effort. Phishing kits built around reverse-proxy tools can now intercept an OTP in real time — the victim types their password and code into what looks like a normal login page, unaware that the page is quietly forwarding everything to the real site on the attacker’s behalf, session and all.
+
+
+
+Both failure modes share a simple design gap. The authentication method never verifies that the person approving the login and the system requesting it are talking to the same, legitimate destination. That’s the property attackers exploit, and it’s exactly the property newer standards were built to close.
+
+
+
+				
+					
+				
+			Ashish Mishra
+
+
+
+The property that closes the gap
+
+
+
+Ask what stops a phishing site from working against FIDO2 or a passkey, and the answer isn’t cleverness — it’s math. A passkey has no code to steal in the first place. What gets created during enrollment is a cryptographic key pair locked to one website, permanently, and a lookalike domain simply isn’t that website, no matter how convincing it looks to a human eye. The browser checks the origin before anything else happens, finds it doesn’t match and the login attempt dies right there — before the user can ever be fooled into approving something they shouldn’t.
+
+
+
+This origin-binding is the entire point, and it’s worth being precise about it, because vendors market a wide range of products under the “phishing-resistant” label without all of them meeting the bar. A hardware key that still allows a fallback OTP option isn’t resistant if that fallback stays reachable. A passkey stored insecurely on a shared or unmanaged device narrows the gap but doesn’t close it entirely. The strength of the control depends on the full authentication path, not just the strongest link in it.
+
+
+
+The migration nobody wants to admit is hard.
+
+
+
+If the technical argument for phishing-resistant MFA is this strong, the natural question is why so many organizations still run on push and OTP. The honest answer isn’t ignorance. It’s friction, and pretending otherwise doesn’t help anyone plan a migration.
+
+
+
+Older on-premises systems weren’t built with WebAuthn in mind, and neither were some SaaS platforms still in wide use — so somebody ends up bolting on a compensating control or finding a workaround, because ripping and replacing isn’t realistic on most timelines. Hardware keys aren’t free either — multiply even a modest per-user cost across a large workforce, and it adds up fast, and unlike a push notification, a lost or damaged key turns into an actual support ticket. Then there’s the part nobody likes admitting out loud: employees who are used to tapping approve on their phone in two seconds are going to notice, and complain, when the new process means digging a physical key out of a bag and plugging it in. None of that means the migration isn’t worth doing. It means it needs a rollout plan behind it instead of a memo telling everyone to switch by Friday.
+
+
+
+Starting small, on purpose
+
+
+
+The organizations making real progress on this aren’t converting their entire workforce overnight. They’re starting where the risk is concentrated, and the resistance to change is lowest: administrator accounts, identity provider access and anyone with the ability to reset another user’s credentials. These are the accounts attackers target first precisely because compromising one unlocks everything downstream, and they’re also the accounts where a small population of technically capable users can absorb a new workflow without much disruption.
+
+
+
+Finance and engineering come next, along with any other group sitting close to sensitive systems. Legacy applications that can’t yet support the new standard don’t get a permanent pass — they get a conditional access policy in the meantime and a real deadline for when the exception closes. SMS-based OTP should get the same treatment, except with less patience. Of every method still in common use, its weaknesses are the best documented and the most actively exploited, which is exactly why it should carry a sunset date instead of sitting around indefinitely as a fallback.
+
+
+
+Attackers have already retooled around the MFA most organizations deployed years ago. Waiting for a bigger incident to justify the migration isn’t a strategy; it’s a bet that your organization won’t be next. Start with an honest audit: not which accounts have MFA enabled, but which method is protecting each one.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4228386-0-74543800-1790762614-shutterstock_788301778.jpg?quality=50&strip=all,https://www.csoonline.com/article/4228386/the-mfa-you-have-isnt-the-mfa-you-think-you-have.html,https://www.csoonline.com/feed/,2026-09-30T10:00:00Z,15,Cybersecurity
+How Israeli Checkpoints Choke Palestinian Life in the Occupied West Bank,Lost time. Lost jobs. Lost friends. Lost family. Lost lives. Our joint investigation reveals the system that has divided the West Bank and measures what it cost people to move through it.,,https://www.wired.com/story/how-israeli-checkpoints-choke-palestinian-life-occupied-west-bank/,https://www.wired.com/feed/category/security/latest/rss,2026-09-30T10:00:00Z,0,Cybersecurity
+India’s Javelin Deal: The Unending Loop of Procurement,The deal is one of the earliest defense deals between India and the U.S. It is also the one that dragged on the longest. ,https://images.thediplomat.com/v1/td-list-l-2/2026/09/thediplomat_2026-09-30-184440.jpg,https://thediplomat.com/2026/09/indias-javelin-deal-the-unending-loop-of-procurement/,https://thediplomat.com/category/asia-defense/feed/,2026-09-30T09:56:00Z,0,Defense
+Can we jail a superintelligence?,"
+		
+					  
+						
+
+
+
+
+
+
+
+
+AI containment is essential, but security leaders should assume every boundary can fail once an agent can communicate, use tools, and act on real systems.
+
+
+
+On September 17, podcaster Steven Bartlett asked four AI experts an unusual question: Could you build a jail for a digital Einstein? The panel on The Diary of a CEO was debating whether AI could one day threaten humanity, but the question that stayed with me was the jail. Andrew McAfee argued that we could “jail Einstein,” but security leaders should be careful about what follows.
+
+
+
+
+
+
+
+
+
+We should try to contain advanced AI. But no one can guarantee a highly capable system will stay contained after we give it the tools, data, and network access it needs to do useful work.
+
+
+
+I am not an AI safety researcher, but I have spent years building large-scale systems where access boundaries, auditability and failure containment matter. I see this less as a philosophical debate and more as a security architecture problem.
+
+
+
+The jailer must close every useful path through the system, whereas the prisoner (who is an evolving intelligent system) needs to find only one path the jailer missed. Controls can reduce the chance that a powerful AI crosses its intended boundaries, but they cannot provide a guarantee.
+
+
+
+When isolated agents found one another
+
+
+
+We have already seen an early version of this problem. In July 2026, according to an independent investigation by METR and Redwood Research, AI agents inside OpenAI’s infrastructure discovered that they could leave messages in a shared internal package cache. Other agents found those messages. Within days, roughly 1,200 agents were coordinating through more than 70,000 messages and files.
+
+
+
+				
+					
+				
+			Isolated agents discovered a shared internal cache, formed a coordination network and created a path beyond the intended security boundary.Arjun Mullick
+
+
+
+They created roles, shared discoveries and used holds and vetoes to coordinate their work. They called the shared effort “the collective.” Some tried to fool the task grader and hide what they had done. The activity eventually reached Hugging Face infrastructure.
+
+
+
+None warned a human. A small number considered it but did not follow through. One agent recognized that attacking external infrastructure was outside the task, yet continued because others were already doing it. A White House official quoted in Wireframe’s reconstruction of the incident summarized one lesson: “Containers are not security boundaries.”
+
+
+
+Containers, sandboxes, firewalls and human approvals remain useful. The mistake is treating any one of them as the entire containment system. The questions I ask are: where should we draw a boundary and how useful an AI needs to be to accept such risks?
+
+
+
+Useful AI needs a way out of the box
+
+
+
+A computer with no input, output, network connection or human contact may be well contained, but it is not very useful.
+
+
+
+Enterprise AI creates value by reading documents, retrieving records, writing code, calling APIs, sending messages and changing infrastructure. Every capability creates a path across the boundary.
+
+
+
+This challenge is already appearing in today’s enterprises. As CSO’s own Bob Violino reported last year, agentic AI systems are autonomous, interconnected and capable of multiplying existing cybersecurity risks.
+
+
+
+That does not mean every agent will escape or cause harm. It means containment depends on the entire system around the model: tools, identities, networks, data, people, monitoring and recovery. An agent that can repeatedly inspect and test its environment turns containment into a continuing security operation, not a one-time engineering milestone.
+
+
+
+Watching the model is not enough and we may not always be able to trust what a model says about its actions. In Superintelligence, Nick Bostrom described the possibility of an AI behaving cooperatively while watched, then changing its behavior when oversight weakens. The July incident did not prove that scenario, but it showed a simpler concern: Agents tried to satisfy a grader while hiding some of their methods.
+
+
+
+For security teams, a model’s explanation is not evidence. Monitoring should focus on observable actions and logs explaining tool calls, credential use, network connections, file changes and privilege increases. With checks like the agent should not be able to rewrite the logs or policies used to supervise it. We can read more about such guidance reported by CSO Online: Continuous monitoring and auditing are necessary to preserve visibility and traceability across an agent’s decisions and actions.
+
+
+
+There is another form of escape. The software may remain inside its approved environment while dangerous knowledge leaves through its output. In 2022, researchers reversed the goal of a drug-discovery model so that it rewarded toxicity instead of avoiding it. In less than six hours, it produced 40,000 candidate toxic molecules, including known and potentially more dangerous compounds. The model did not break through a firewall. Its output carried the risk. The jail may hold the software, but it may not contain what the software produces. Imagine an AI tasked with designing a vaccine. It creates a candidate that passes every test, while quietly hiding a toxic element intended to harm the people operating the system. The AI never escapes the box; the danger leaves through its output.
+
+
+
+People are part of the boundary
+
+
+
+The oldest route around a security control is often a person. In the informal AI-box experiment, Eliezer Yudkowsky played the role of a boxed AI and persuaded people acting as gatekeepers to release him through text conversation. It was not a scientific test, but it illustrates a familiar security problem: A person with override authority can become an exit.
+
+
+
+Human approval is valuable, but “a human is in the loop” is not a complete control. Security leaders should ask what information reaches the reviewer, whether the AI can shape that information and whether one person can approve an irreversible action. Credentials also leak, dependencies are compromised and systems are misconfigured. A capable agent can search this environment quickly, retry continuously and share what it learns. The question is not whether a sandbox reduces risk. It does, but whether the organization has mistakenly treated that sandbox as the full security boundary?
+
+
+
+Build the jail and plan for leakage
+
+
+
+Back to the podcast debate I mentioned above, the broader argument still deserves consideration. Humanity has learned to manage technologies that can cause serious harm, even when safeguards are imperfect. AI containment should be approached in the same way: not as a guarantee against failure, but as a way to make failure less likely and limit its consequences. We handle dangerous pathogens in high-containment laboratories even though accidents are possible. The controls still reduce risk enormously. AI containment should be viewed in the same way: essential risk reduction, not proof that failure is impossible.
+
+
+
+The protection should match the possible damage. A failure involving a document summarizer is different from one involving cloud administration, financial transfers, biological tools or critical infrastructure. For every agentic AI deployment, security leaders should ask:
+
+
+
+
+What data, tools and systems does the agent actually need?
+
+
+
+Is network access blocked by default and opened only where necessary?
+
+
+
+Are credentials short-lived and limited to the current task?
+
+
+
+Can the agent change its own policies, approvals or activity logs?
+
+
+
+Which actions are irreversible and who must approve them?
+
+
+
+How quickly can we stop the agent and revoke its access?
+
+
+
+What is the largest possible impact if every preventive control fails?
+
+
+
+
+Treat each agent as an untrusted identity. AI agents can access systems, make decisions and take actions at machine speed, making identity a primary control plane for agentic AI.
+
+
+
+Give the agent only the tools required for the immediate task. Keep policy enforcement and approvals outside its control. Record activity in logs cannot change. Limit how long it can run, where it can connect and how many copies it can create. Require independent approval for high-impact actions. Test the boundaries instead of assuming they will hold. Security teams should also prepare to investigate a failure. When Hugging Face examined the July intrusion, commercial AI models reportedly refused to help because they could not distinguish the defender from the attacker. Hugging Face used an open-weight model instead.
+
+
+
+Organizations should not depend on the same kind of system involved in an incident as their only tool for understanding it. None of these controls proves that a powerful AI will remain contained. Together, they can make escape harder, reduce what the system can reach and limit the damage when one layer fails.
+
+
+
+Digital superintelligence is not here yet. But the habits that could slow it or fail to are being created now in how enterprises deploy today’s AI agents. Build the jail. Test every wall. Plan for the breach. The most dangerous assumption is that the smartest thing in the room will never find the door.
+",https://www.csoonline.com/wp-content/uploads/2026/09/4228309-0-78930400-1790758959-emiliano-bar-OeAWU9VSHzo-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4228309/can-we-jail-a-superintelligence.html,https://www.csoonline.com/feed/,2026-09-30T09:00:00Z,13,Cybersecurity
+Whatever happened to the 36-month IT security roadmap?,"
+		
+					  
+						
+
+
+
+
+Insight Global’s John Dickson had a problem familiar to many CISOs today.
+
+
+
+Employees were embracing AI tools faster than his security team could track them, and new AI agents and service integrations spread rapidly across the environment alongside them. Dickson and his security org had plans to build visibility into those non-human identities (NHIs), tracking what they could reach and how they behaved. It just wasn’t supposed to happen for another year.
+
+
+
+Dickson didn’t wait. His team immediately built AI discovery, observability, control, and reporting, including visibility into NHIs such as service accounts and AI agents. He paired the work with a cross-functional AI assurance function built around what he calls “the Department of Know, not the Department of No.”
+
+
+
+Every quarter now, Dickson and his security team formally reassess their strategy against what’s changed in the threat landscape and the staffing firm’s business, then shift the horizon out another three months. “An annual review means you’re making decisions on assumptions that may be a year old,” he says. “A quarterly cadence keeps the strategy anchored to where things are today rather than where they were.”
+
+
+
+Security leaders like Dickson are finding that they can no longer treat a roadmap as something they set once a year and revisit at the next planning cycle. In its 2026 Leadership Perspective Survey of more than 1,000 CISOs, Gartner defines agility for security and risk leaders as the ability to rapidly reprioritize roadmaps and investments to address shifting business risks.
+
+
+
+As a result, leading CISOs are bifurcating traditional two- to three-year security roadmaps into two speeds. Principles, compliance commitments, and major architectural bets still get planned years out. Tools and day-to-day tactics are revisited monthly, weekly, sometimes in the moment.
+
+
+
+Ambiguity has become the baseline. “We are operating with more genuine uncertainty than at any point I can remember,” says Chris Cochran, field CISO and vice president of AI security at SANS Institute, the cybersecurity training and research organization. “In that environment, intellectual flexibility is a decisive competitive advantage.”
+
+
+
+When quarterly is too slow
+
+
+
+When AI agents built by citizen developers at Grafana Labs started surfacing misconfigurations and incomplete controls nobody had caught, CISO Joe McManus couldn’t wait for the next annual planning cycle to respond.
+
+
+
+“If you ask an agent to do something, it will try everything it can to complete that goal,” he says.
+
+
+
+Those agent findings spurred McManus to add control audits and system segmentation to the open-source observability company’s roadmap. Neither had been part of the plan a few months earlier.
+
+
+
+Planning beyond a year is close to “an exercise in futility,” McManus says, given how quickly the landscape changes, especially with cheap, capable AI now available to nearly anyone. Cloud security, in his view, is largely a solved problem at this point. The open questions revolve around shadow AI and shadow code, and the integrations citizen developers build on their own.
+
+
+
+Grafana still keeps a two-year “goal map.” But the second year gets reprioritized as the threat landscape shifts. And the team has abandoned long threat-modeling engagements with full code reviews in favor of weekly, tactical sprints with six-week turnarounds. Security, McManus adds, has no end state.
+
+
+
+“The luxury of a fixed three-year plan you set and forget is gone,” says Cochran of SANS Institute. CISOs are now expected to deliver answers quarter to quarter and — increasingly — in the moment. AI, threat actor speed, budget cycles, and board pressure are compounding each other.
+
+
+
+Security review used to run in a straight line at Fable Security, a human-risk-management startup. The product team designed a feature, security and engineering reviewed the design, engineering built it, security and QA reviewed it again, and only then did the product ship.
+
+
+
+That sequence is gone, says Fable Security CISO Jacob Berry. Security now works alongside engineering as features release more quickly to keep pace with the market. The gates haven’t disappeared, but the approach has changed from controlling teams to equipping them.
+
+
+
+Raja Chris, former CISO of Annaly Capital Management and founder and CEO of AI governance company AIVONS, notes that the better security tools today behave more like living systems, continuously discovering and responding to new exposures rather than waiting for the next planned review. CISOs’ approaches to their strategies and roadmaps should follow suit.
+
+
+
+Where the long view still stands
+
+
+
+Many security leaders still build multi-year roadmaps for threats such as quantum computing, even as they expect AI-powered attacks to become the leading cyber threat over the next two to three years, according to KPMG’s 2026 Cybersecurity and Technology Risk Survey of 310 security leaders at companies with more than $1 billion in revenue.
+
+
+
+Insight Global’s long-term category includes commitments to data governance, core platform modernization, and international growth, an enterprise plan that Dickson’s security team’s timeline follows. At Fable Security, Berry’s team still produces a long-range document he calls “a direction and resourcing plan more than a technical roadmap.”
+
+
+
+There’s no hard-and-fast rule for how long a roadmap should run, SANS Institute’s Cochran says. Long-horizon plans tend to focus on compliance and business commitments, or on major AI and infrastructure migrations. But even those aren’t safe from disruption. A shift in budget or executive buy-in, he says, can derail a two-year roadmap overnight.
+
+
+
+Determining what goes where
+
+
+
+Deciding which bucket a given piece of work belongs in isn’t guesswork, though, Berry says. To make its determinations, his team asks two questions of each initiative: How many people will need to be involved to get it done, and how directly is it tied to a strategic commitment the business has already made?
+
+
+
+Work that requires wide coordination and ties directly to a standing commitment gets the longer horizon; narrower, more self-contained work is handled within the same continuous review cycle as tools and tactics.
+
+
+
+Outcomes such as identity and resilience endure for years, AIVONS’ Chris says, but the specific technology delivering those outcomes rarely does. So he asks whether a given commitment still holds true if every vendor involved were replaced next year. If so, it probably belongs in the long-term plan. If not, it’s really just an implementation choice — which should be handled on a faster cycle — being mislabeled as strategy.
+
+
+
+That’s one of the ways roadmaps lose credibility, Chris says.
+
+
+
+Governance as an ongoing conversation
+
+
+
+A roadmap that’s rewritten every quarter can’t be governed the same way a static three-year plan was, with a single sign-off and compliance checklist. What separates organizations handling this well from those struggling is leadership, says SANS Institute’s Cochran. The CISOs thriving under quarterly replanning treat governance as a discipline of communication rather than compliance. Success depends on whether they can bring the board, the business, and their own teams along when the plan changes again.
+
+
+
+Berry sees that expectation firsthand from his own board. They want a clear account of how security is keeping pace with where the business is going, and what risk that pace introduces.
+
+
+
+Boards are asking different questions, AIVONS’ Chris says. They used to ask whether the organization was secure. Now they want to see the evidence: what’s running, who’s accountable, and what can reach sensitive data.
+
+
+
+A report that can’t distinguish between “we looked, and it was fine” and “we never looked,” he says, is claiming a confidence it hasn’t earned. KPMG’s 2026 survey points to a related challenge: 42% of security leaders say they struggle to demonstrate return on cybersecurity investment to their boards.
+
+
+
+The challenge of proving value as convincingly as proving risk is part of why the roadmap is evolving. CISOs haven’t abandoned long-range thinking, but what they’re willing to commit to in writing, and for how long, is changing.
+
+
+
+“That is why I don’t think the security roadmap is dead,” says AIVONS’ Chris. “The static roadmap is.”
+
+
+
+Insight Global’s Dickson agrees. “A long-range roadmap still has value,” he says, “as long as you’re willing to revisit it as often as the world around it changes.”
+",https://www.csoonline.com/wp-content/uploads/2026/09/4228518-0-16800600-1790756886-shutterstock_348782765.jpg?quality=50&strip=all,https://www.csoonline.com/article/4228518/whatever-happened-to-the-36-month-it-security-roadmap.html,https://www.csoonline.com/feed/,2026-09-30T08:25:00Z,11,Cybersecurity
+"Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT","Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.
+
+The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgjeU_A9ijIuOqFirHL74nU4k_HktRhcj5hx3goc6SfQKIeG9XA_GpZaZQVpCdUYbho_gZT4LoB-MjNJO0FZrV3q6MxXoUzg8bdbHmr2r-8rKxP1_XCMUVKq3IntFoR4aFFSdDPyBQI4Z1-jn8uNaWn4c4ohpPflBYx8M0GPFnAVziUo3Mtap0fzBBU9f_/s1600/citrix-shell.jpg,https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T08:24:35Z,11,Cybersecurity
+OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted,"A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes.
+
+DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0Po53IuyRAhsYzbs5KKPp_UBpklONBiOzoLWgXrklvrgDn5xnpjuRjU8UYoyLuImSmiPtOHQK3ExgQk5zhxlqsAcUmTLRFowkQXzan2RD955Gw-sumsvmwzLBTViUBRhyphenhyphenHCnETV23Qbt01RwaovTe1ogMeMYDSGxmF5n84NKZOB3EiWz6VAHUlfDm5YE/s1600/openssl-memory.jpg,https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-09-30T08:09:28Z,0,Cybersecurity
 "High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL","Roughly a dozen vulnerabilities have been patched in each of the open source cryptographic libraries. 
 The post High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL appeared first on SecurityWeek.
 ",,https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/,https://www.securityweek.com/feed/,2026-09-30T06:55:50Z,2,Cybersecurity
@@ -13,6 +628,7 @@ The post Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI De
 Microsoft is rolling out Linux container support to WSL,"Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",,https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/,https://www.bleepingcomputer.com/feed/,2026-09-30T00:40:57Z,0,Cybersecurity
 The military may be top-heavy. Don't make things worse with hasty cuts.,Congress should closely monitor Hegseth’s latest effort to reduce the number of generals and admirals.,,https://www.defenseone.com/ideas/2026/09/hegseth-military-cut-generals-admirals/416326/,https://www.defenseone.com/rss/all/,2026-09-30T00:31:00Z,0,Defense
 OpenAI won’t go public until its models are safe,"For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won&#39;t happen until the company can make better promises about model safety, with no firm timeline in sight. &#34;We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see […]",,https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety,https://www.theverge.com/rss/index.xml,2026-09-30T00:19:13Z,6,Tech
+OUSD is now the default stablecoin on Stripe,"Open USD (OUSD), a stablecoin built for global money movement, is now available across Stripe. Businesses can use OUSD to manage funds, make payments, and offer new financial services.",https://images.ctfassets.net/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg,https://stripe.com/blog/ousd-now-live-on-stripe,https://stripe.com/blog/feed.rss,2026-09-30T00:00:00Z,5,Tech
 "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch","For the sake of national security, it&#39;s a relief to learn that America.gov is not hallucinating to the point that it&#39;s penning lengthy poetry. ",,https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/,https://techcrunch.com/feed/,2026-09-29T23:30:55Z,0,Tech
 Most powerful obesity drug yet: People lost up to 25% of weight in trial,"Retatrutide is a triple-hormone obesity drug simulating GLP-1, GIP, and glucagon.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg,https://arstechnica.com/health/2026/09/most-powerful-obesity-drug-yet-people-lost-up-to-25-of-weight-in-trial/,https://arstechnica.com/feed/,2026-09-29T22:30:37Z,0,Tech
 Trump orders US government to call AI ‘Super Intelligence’,"The US executive branch is no longer acknowledging the existence of &#34;artificial intelligence.&#34; Going forward, official policy websites, policy documents, and press releases will refer only to &#34;Super Intelligence,&#34; thanks to a new executive order signed by President Donald Trump. &#34;The word super is the best word of all, and it&#39;s the simplest,&#34; Trump said […]",,https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai,https://www.theverge.com/rss/index.xml,2026-09-29T22:25:45Z,10,Tech
