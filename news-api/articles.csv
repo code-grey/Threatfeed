@@ -1,7 +1,408 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
+
+The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system.
+
+&#34;An improper",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhcZguz-U3FsSD6t4YQ45EeFbgnWAy9lM28OAFydsLXZYzOS00aOD7pxUZcgvLMfMAO3SJV_Amu9SoNezLNQOvx823Z92CpqC5ow9XO3d7HJhEKZlwQt4H4Z7kirDwGcSrUyi1ONs_PuULNYjEjzae2c1mncDviOT9iqxD-PhmXCYpulTUNO2rtW5c9AAx/s1600/fortimail.jpg,https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-10-02T05:49:50Z,16,Cybersecurity
+Robotaxi operators will face fines for blocking first responders,A new California law places new rules on autonomous vehicles operators,,https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/,https://techcrunch.com/feed/,2026-10-02T00:57:57Z,0,Tech
+The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know,TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.,,https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/,https://techcrunch.com/feed/,2026-10-02T00:03:23Z,6,Tech
+Apple’s reportedly developing a smart home camera that doesn’t record video,"Apple&#39;s rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of &#34;a new Apple smart home ecosystem,&#34; alongside Apple&#39;s rumored smart home […]",,https://www.theverge.com/tech/1003877/apple-security-camera-no-video,https://www.theverge.com/rss/index.xml,2026-10-01T22:51:36Z,6,Tech
+Fortinet warns of critical FortiMail flaw exploited in zero-day attacks,"Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",,https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/,https://www.bleepingcomputer.com/feed/,2026-10-01T22:42:49Z,19,Cybersecurity
+Venus' mysterious haze is actually cosmic dust,A physical model show that iron dust and sulfuric acid create the right properties.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-1152x510.jpeg,https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/,https://arstechnica.com/feed/,2026-10-01T22:27:04Z,0,Tech
+SpaceX describes surgical intervention before launch of latest crew mission,"With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/crewdragon1crew13-1152x648.jpg,https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/,https://arstechnica.com/feed/,2026-10-01T22:07:33Z,0,Tech
+Lyft is paying $272.5M to settle lawsuit over how it classified drivers,"Today, gig economy drivers are classified as contractors. This settlement clears up a lingering lawsuit from 2020 when that was still an unanswered issue.",,https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/,https://techcrunch.com/feed/,2026-10-01T21:57:08Z,0,Tech
+Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation,"Kevin Mandia, best known as the founder of Mandiant, has a new startup that is using agent swarms to test and protect enterprises.",,https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/,https://techcrunch.com/feed/,2026-10-01T21:55:22Z,8,Tech
+Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president,President Trump reportedly asked for Grok&#39;s opinion before invading Venezuela and capturing Nicolás Maduro.,,https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/,https://techcrunch.com/feed/,2026-10-01T21:08:11Z,5,Tech
+"Autonomous AI agents tried to hack US, Canadian government websites",Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...],,https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/,https://www.bleepingcomputer.com/feed/,2026-10-01T20:52:50Z,0,Cybersecurity
+Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data,It has been a bad month for federal government cybersecurity.,https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-1000x648.jpeg,https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/,https://arstechnica.com/feed/,2026-10-01T20:28:45Z,0,Tech
+Antitrust lawsuits targeting Google AI search dismissed by federal judge,"The court acknowledges AI search comes with consequences, but it&#39;s not an antitrust issue.",https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg,https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/,https://arstechnica.com/feed/,2026-10-01T20:11:55Z,5,Tech
+Google’s new Guided Vision feature can help you read the fine print,"Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone&#39;s camera at. By sharing your camera in Gemini Live, you can have Google&#39;s AI help with things like reading small text, describing your surroundings, finding or identifying objects around […]",,https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision,https://www.theverge.com/rss/index.xml,2026-10-01T19:47:51Z,6,Tech
+Microsoft says threat actors are ahead in the early AI race,"Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams struggle to keep pace. [...]",,https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/,https://www.bleepingcomputer.com/feed/,2026-10-01T19:32:47Z,13,Cybersecurity
+ChatGPT can now virtually try on clothes for you,OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.,,https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/,https://techcrunch.com/feed/,2026-10-01T19:21:53Z,5,Tech
+Android Central &#8216;will continue&#8217; despite laying off its staff,"Android Central, a blog focused on the Android ecosystem, laid off its staff yesterday, but owner Future confirms to The Verge that the site will continue publishing. Yesterday, four of the six staffers on Android Central&#39;s staff page posted publicly about the layoffs, including Shruti Shekar, Derrek Lee, Harish Jonnalagadda, and Nicholas Sutrich, and former […]",,https://www.theverge.com/tech/1003735/android-central-layoffs,https://www.theverge.com/rss/index.xml,2026-10-01T19:20:29Z,5,Tech
+Can good design stop content creators from having sex in robotaxis?,Autonomous vehicle designers have to worry about riders getting frisky in public.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-boink-taxi-1152x648.jpg,https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/,https://arstechnica.com/feed/,2026-10-01T19:19:42Z,0,Tech
+"Google thinks SpaceX’s Starship has to launch 1,600 times before space data centers get off the ground",Google launched its first advanced chip into orbit to pave the way for space data centers. ,,https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/,https://techcrunch.com/feed/,2026-10-01T19:18:03Z,0,Tech
+Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?,"The Steam Deck is four and a half years old, and handheld gamers are eagerly awaiting a Steam Deck 2 - but Valve has consistently said it needs a new chip with a &#34;generational leap&#34; in performance and efficiency before building the sequel. There&#39;s some reason to believe that chip has now broken cover: AMD […]",,https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for,https://www.theverge.com/rss/index.xml,2026-10-01T18:52:58Z,10,Tech
+World’s first enhanced geothermal power plant completed in just 23 months,Fervo Energy completed its first power plant in less than two years. The next phases promise to connect to the grid even quicker.,,https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/,https://techcrunch.com/feed/,2026-10-01T18:35:55Z,0,Tech
+"OpenAI cuts ties with three safety researchers, WSJ reports","OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",,https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/,https://techcrunch.com/feed/,2026-10-01T18:14:42Z,5,Tech
+Marvel releases one last VisionQuest trailer,"&#34;This is a fight I likely won&#39;t win. We have said goodbye before. But remember, family is forever.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/10/vision3-1152x638.jpg,https://arstechnica.com/culture/2026/10/marvel-releases-one-last-visionquest-trailer/,https://arstechnica.com/feed/,2026-10-01T18:04:48Z,5,Tech
+Experience What It’s Like to Travel in the Occupied West Bank,Traverse barriers and checkpoints in the occupied West Bank—your choices reflect the reality of nearly 3.5 million Palestinians who live there.,,https://www.wired.com/story/experience-what-its-like-to-travel-in-the-occupied-west-bank/,https://www.wired.com/feed/category/security/latest/rss,2026-10-01T18:00:00Z,0,Cybersecurity
+Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks,"Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right.
+The post Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/,https://www.securityweek.com/feed/,2026-10-01T18:00:00Z,4,Cybersecurity
+Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells),"Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",,https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/,https://techcrunch.com/feed/,2026-10-01T17:50:19Z,5,Tech
+"Memory supplies are “only getting tighter,” Micron CEO says",Prices for memory sold for 2027 &#34;are much higher than 2026 prices.&#34; ,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-1024x648.jpg,https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/,https://arstechnica.com/feed/,2026-10-01T17:49:56Z,0,Tech
+"Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains","Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures.
+The post Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains appeared first on SecurityWeek.
+",,https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/,https://www.securityweek.com/feed/,2026-10-01T17:16:41Z,2,Cybersecurity
+Judge dismisses antitrust lawsuits over Google’s AI Overviews,"A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google&#39;s side in a ruling on Wednesday, writing that PMC […]",,https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed,https://www.theverge.com/rss/index.xml,2026-10-01T17:12:21Z,5,Tech
+This startup wants to turn idle car inventory into rental revenue,"When Igor Dobrianskyi looks at a car dealership lot, he doesn&#39;t see rows of cars — he sees millions of dollars just sitting there, depreciating. Come see MyMonthlyCar in the Startup Battlefield 200 at TechCrunch Disrupt, taking place October 13 to 15 in San Francisco.",,https://techcrunch.com/2026/10/01/this-startup-wants-to-turn-idle-car-inventory-into-rental-revenue/,https://techcrunch.com/feed/,2026-10-01T17:09:00Z,3,Tech
+This startup wants to turn idle user car inventory into rental revenue,"When Igor Dobrianskyi looks at a car dealership lot, he doesn&#39;t see rows of cars — he sees millions of dollars just sitting there, depreciating, while people who only need a car for a few months are stuck paying too much for too little choice, so he built MyMonthlyCar, a platform that lets dealers rent out their idle used cars month to month (with an option to buy), and it&#39;s now one of the startups showing off at this year&#39;s TechCrunch Disrupt, running October 13 to 15 in San Francisco.",,https://techcrunch.com/2026/10/01/this-startup-wants-to-turn-idle-user-car-inventory-into-rental-revenue/,https://techcrunch.com/feed/,2026-10-01T17:09:00Z,3,Tech
+"Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers","Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.
+
+The 16-year-old was one of 3 people arrested on September 30, when police also took control of that site.
+
+Investigators identified him as KillSec&#39;s suspected",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy6XYYOXNZNjc51viw5FvCk49pWIXCCRS6yr_hl0ZKdwhBWRfYrCQ7bM6AJZJdmI_W3AEz1V3X0DAP6k39KfgjlKFfB5JcFaKN9zzIl1-7c49Vnuaz55yhRXjdmY5K2kIPuY_-7624KyVHqkHzikJIi11iClljnXv_3i2X21JiRCMU8ElmiHiZdHVQ7ws/s1600/killsec-ransomware.jpg,https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T16:55:57Z,7,Cybersecurity
+Sony brings AI graphics upscaling to the regular PS5,"Sony is launching a new AI upscaling technology specifically for the regular PS5. The new tech, called Quick Spectral Super Resolution (QSSR), is a &#34;new performance tier of AI upscaling&#34; that&#39;s a result of Sony&#39;s Project Amethyst work with AMD, according to a blog post. Sony says that PlayStation Spectral Super Resolution (PSSR), which is […]",,https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr,https://www.theverge.com/rss/index.xml,2026-10-01T16:53:39Z,5,Tech
+Florida cops say they don't know who owns 11 unpermitted Flock cameras,Floridians alarmed by 14 mysterious Flock cameras; 11 have no clear owner.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264289119-1152x648-1790870168.jpg,https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/,https://arstechnica.com/feed/,2026-10-01T16:49:33Z,0,Tech
+Amazon releases its own Jev clone as decision models flood the web,"Amazon Web Services&#39; Strand Labs has released the latest Jevalike decision model, Strands Decider 2B.",,https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/,https://techcrunch.com/feed/,2026-10-01T16:49:22Z,0,Tech
+"ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories","This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years.
+
+That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZPv0LS8-qPBgL_d1m8BLNikw8psPt9qtB_HiFNoYnVwBacYvwz4DdEixukdlHcy7IXmUB9dI9E_Hcx48HJIL7sQzmDeextP-Y_tHO9SX51i_SditMkVsRgWxyMekufW3yZFn2jI9nf29y3JEM2a_yFv8iTLDb6d3r1roNsea_Yk5TWCiMcvkmE5ZbP6B/s1600/oct-threatsday.jpg,https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T16:45:38Z,11,Cybersecurity
+"Shopify debuts Canvas, a way to build online stores by chatting with AI","Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",,https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/,https://techcrunch.com/feed/,2026-10-01T16:44:35Z,6,Tech
+The Pulse: RoR creator sparks new “death of coding by hand” debate,"In his Rails World keynote, David Heinemeier Hansson (DHH) declared the end for writing code by hand for professional work – at 37signals at least. Is this change now unstoppable?","https://substackcdn.com/image/fetch/$s_!7sIY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b1f3030-db5b-4563-9948-4652537fe20d_1456x831.png",https://blog.pragmaticengineer.com/the-pulse-ror-creator-sparks-new-death-of-coding-by-hand-debate/,https://blog.pragmaticengineer.com/rss/,2026-10-01T16:44:13Z,5,Tech
+California governor vetoes bill banning use of ‘pervert glasses’ to secretly record people,The California state bill would have penalized people who secretly recorded people in public with wearables equipped with cameras and microphones.,,https://techcrunch.com/2026/10/01/california-governor-vetoes-bill-banning-use-of-pervert-glasses-to-secretly-record-people/,https://techcrunch.com/feed/,2026-10-01T16:35:25Z,0,Tech
+AI finally beat the best Stratego player in history—and did it on a budget,Adding in a second neural network that guesses the identity of hidden pieces was key.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg,https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/,https://arstechnica.com/feed/,2026-10-01T16:28:04Z,5,Tech
+Can VR glasses save VR?,"I&#39;m pretty sure I won&#39;t be buying the $1,299 Meta VR Glasses. That&#39;s too rich for my blood in today&#39;s economy, and my feelings about Meta are… conflicted. But I want you to understand that Meta just changed the game. We&#39;ve had glasses, but we&#39;ve never had glasses like this. The Meta VR Glasses are […]",,https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality,https://www.theverge.com/rss/index.xml,2026-10-01T16:10:32Z,0,Tech
+Microsoft’s Office and Teams chief is leaving,"After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky is leaving the company. Roslansky, who until recently was the CEO of LinkedIn, was promoted to the head of Office last year and then took control of Microsoft Teams earlier this year. Roslansky&#39;s departure has triggered another leadership shuffle inside Microsoft. &#34;Ryan leaves the organization […]",,https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving,https://www.theverge.com/rss/index.xml,2026-10-01T16:02:37Z,0,Tech
+Inside Microsoft’s big Copilot rethink,"Last week, Microsoft CEO Satya Nadella hosted an intimate, invite-only event for leaders from some of its key enterprise customers. Instead of a flashy media event, Nadella outlined the future of Copilot directly to the customers Microsoft really cares about, pitching its latest rethink of the AI assistant as the &#34;OS for work.&#34; Microsoft is […]",,https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad,https://www.theverge.com/rss/index.xml,2026-10-01T16:00:00Z,5,Tech
+"One year later, Tesla and Musk are still don’t have a good definition of ‘abundance’",The CEO promised to get more specific about his vision. But the details are still absent. ,,https://techcrunch.com/2026/10/01/one-year-later-tesla-and-musk-are-still-dont-have-a-good-definition-of-abundance/,https://techcrunch.com/feed/,2026-10-01T15:50:10Z,5,Tech
+"As US relations fray, Canada gets serious about its own launch industry",The Canada Rocket Company gets serious about medium-lift launch.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket-1152x648.jpg,https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/,https://arstechnica.com/feed/,2026-10-01T15:30:49Z,0,Tech
+Brian Chesky interview: AI agents need their own operating system,"Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",,https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/,https://techcrunch.com/feed/,2026-10-01T15:12:00Z,5,Tech
+NYC is now the first city in America that bans sketchy subscriptions,"New York City residents struggling to get out of recurring subscription fees can now submit complaints to the city government. As of Thursday, the city&#39;s click-to-cancel rule has taken effect, which requires businesses to make it as easy to cancel a subscription as it is to sign up. That means a gym that lets you […]",,https://www.theverge.com/policy/1003426/nyc-click-to-cancel-subscriptions-rule,https://www.theverge.com/rss/index.xml,2026-10-01T14:49:25Z,5,Tech
+"WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory","Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.
+
+The backdoor has been codenamed SC after the &#34;SC_&#34; markers present in the injected content. Sucuri has described the malware as a &#34;self-healing mesh&#34; that&#39;s",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbdAzWwJ7WC6PL7vtBZDUWfVyYu9iIBlT3X5gZn-Yl9aRuZAEeW3RjEU81RQWsvH_7og6v7-somVgG-fR35drKy6bxLMcHdpJQAi6ydXw-m3oMxZ1hlDC7kr8Wsu0dOfRt6ZLEasAsYNGq-pzmQiBNWMbEBzqa9zYdAu16NtgIfDe3PpOvCVzGj6yFqmet/s1600/wordpress-exploit.jpg,https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T14:37:35Z,9,Cybersecurity
+OpenAI’s new agent is a shot at Meta — but can it compete with free?,"At OpenAI&#39;s annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a &#34;real-deal AI&#34; agent powered by GPT-6 Astra, &#34;inspired by the cool agents that we […]",,https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle,https://www.theverge.com/rss/index.xml,2026-10-01T14:36:50Z,5,Tech
+"Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says","PwC’s survey found that only 22% of leaders would use fully autonomous AI for cyber defense, while just 21% are implementing quantum-resistant security measures.
+The post Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says appeared first on SecurityWeek.
+",,https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/,https://www.securityweek.com/feed/,2026-10-01T14:30:00Z,4,Cybersecurity
+"Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass","Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? “Unequivocally yes,” he says.
+The post Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass appeared first on SecurityWeek.
+",,https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/,https://www.securityweek.com/feed/,2026-10-01T14:30:00Z,1,Cybersecurity
+Police dismantle KillSec ransomware gang allegedly led by 16-year-old,"An international law enforcement operation dubbed &#34;Operation KillSwitch&#34; seized the KillSec ransomware gang&#39;s data leak site and servers, led to three arrests, and identified a 16-year-old as the group&#39;s alleged administrator. [...]",,https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/,https://www.bleepingcomputer.com/feed/,2026-10-01T14:25:14Z,4,Cybersecurity
+"Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader","Police took control of KillSec’s leak site and secured at least 110 terabytes of data stolen from victims.
+The post Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader appeared first on SecurityWeek.
+",,https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/,https://www.securityweek.com/feed/,2026-10-01T14:17:07Z,5,Cybersecurity
+The Day-One Hole in Zero Trust Architecture,"Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begin before credentials, MFA methods, and access are issued. [...]",,https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/,https://www.bleepingcomputer.com/feed/,2026-10-01T14:01:11Z,0,Cybersecurity
+Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle,"Today I’m talking with Josh Dzieza, a longtime features writer here at The Verge, about Kevin O’Leary’s plans to build a massive data center in Utah.  The idea was to build the world’s biggest data center — a 40,000-acre AI campus with nine gigawatts of power, or more than double the average power usage of […]",,https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash,https://www.theverge.com/rss/index.xml,2026-10-01T14:00:00Z,5,Tech
+Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents,"The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It&#39;s a bet that consumers will increasingly use agents instead of downloading apps.",,https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/,https://techcrunch.com/feed/,2026-10-01T14:00:00Z,9,Tech
+Kiteworks patches max severity code injection vulnerability,"Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",,https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/,https://www.bleepingcomputer.com/feed/,2026-10-01T13:51:08Z,5,Cybersecurity
+Google makes Gemini 4 AI model available to a trusted few,"
+		
+					  
+						
+
+
+
+
+Google has unveiled a new frontier AI model after months of delay. Gemini 4 Argon is designed to handle complex, long-horizon workloads spanning software engineering, enterprise knowledge work such as legal and financial analysis, and cybersecurity. But only a few organizations can get their hands on it for now.
+
+
+
+Argon is “rolling out to a set of trusted cyber defenders through our Fairwind Program,” Google wrote in a blog post announcing the release. That limitation, it said, is in order to comply with the US government’s voluntary process for granting early access to models in order to test and improve their safety guardrails before making them generally available.
+
+
+
+Google DeepMind head Koray Kavukcuoglu recently said that Gemini 4 should be released “much earlier” than the end of this year.
+
+
+
+The limited launch comes after Google delayed and ultimately skipped the release of Gemini 3.5 Pro, which the company had initially promised would arrive in June.
+
+
+
+“Google took about seven months without releasing a major top-tier model. It is three to four months behind its own Gemini roadmap as Gemini 3.5 Pro, the model Google planned for June, never shipped. The delay was linked to model-development challenges, particularly around coding and reasoning,” said Pareekh Jain, CEO of EIIRTrend and Pareekh Consulting.
+
+
+
+With Argon, Google has increased the model’s token capacity, while introductory pricing is set at $2 per million input tokens and $10 per million output tokens.
+
+
+
+More tokens, no clear lead
+
+
+
+The headline change in Argon is the model’s output limit, which has been increased from 64,000 tokens in previous Gemini models to 1 million, allowing room for more reasoning and for completing long, multi-step tasks within a single trajectory.
+
+
+
+Google said Argon is designed to handle enterprise workflows spanning coding, reasoning and multimodal tasks. The company is backing those claims with examples from its internal use. It has used Argon to identify memory optimizations across its data centers that could free up more than 300 TB of memory once deployed, with estimated total savings of 500 TB to 1 PB.
+
+
+
+On benchmarks, Argon scores 68.9% on the Vals Index, ahead of Claude Opus 5.5 at 67.0%, and 77.9% on DeepSWE v1.1, compared with 74.2% for Opus 5.5. But these results do not translate into a lead across every type of workload. In PostTrainBench for ML engineering, Claude Opus 5.5 leads at 49.3% compared to 45.3% for Argon.
+
+
+
+The company is also aiming to close the gap with Anthropic and OpenAI in cyberdefence by enabling Argon to autonomously find, validate, and patch critical software vulnerabilities. On CWE-bench v1, a benchmark for vulnerability remediation, Google reports a 68% score, tied for the top position with Grok 4.7, GPT-6 Astra and Claude Opus 5.5.
+
+
+
+While Google has published a broad set of benchmark results to support its claims, Jain cautioned that the scores should be treated as hints, not proof. “Argon looks to be good and beating rivals at using automated tools to complete multi-step tasks without getting confused, and it sticks closely to real facts. Its everyday coding abilities are basically average and tied with others. It still trails others when it comes to creative writing, nuanced explanations, and running command-line computer terminals,” he said.
+
+
+
+Jain noted Argon shows that Google has regained much of the capability gap, but it has lost some momentum and developer mindshare. It is now competitive at the frontier, but not clearly ahead across all areas.
+
+
+
+Price, performance and switching
+
+
+
+Argon’s capabilities come with an introductory price of $2 per million input tokens and $10 per million output tokens, with cached input tokens priced 95% lower. Those rates will rise to $4 per million input tokens and $20 per million output tokens after the introductory period, although Google has not specified when the new rates will take effect.
+
+
+
+In comparison, Anthropic’s Claude Opus 5.5 is priced at $4 per million input tokens and $20 per million output tokens, while OpenAI’s GPT-6 Astra costs $10 per million input tokens and $50 per million output tokens.
+
+
+
+“This makes the introductory pricing very competitive. The eventual pricing is roughly comparable to other premium frontier models. Enterprises should therefore build business cases using the $4/$20 pricing, rather than assuming the introductory price will continue,” said Jain.
+
+
+
+While Argon is worth evaluating for enterprises already using competing models, it is not necessarily enough to justify switching outright. CIOs would also need to weigh the cost of migrating existing applications and developer workflows and integrations.
+
+
+
+Jain noted CIOs should evaluate models on their own workloads, focusing on task success rate, accuracy and hallucinations, agent reliability, cost per successful task, latency, security and governance, data privacy, integration with existing systems, and vendor lock-in. The key metric is not cost per token, but the cost per successful business outcome.
+
+
+
+Argon gives CIOs a strong reason to evaluate it but not switch to it automatically.
+
+
+
+The smart move, he said, is for enterprises to add Argon for the jobs it does best, like legal, finance, and long documents, and keep their current AI for things like coding. If a company already runs all its tech on Google Cloud, switching can be considered if Argon clearly wins in the tests and the costs still make sense at the full price, said Jain.
+
+
+
+This article first appeared on InfoWorld.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4229620-0-72837300-1790862535-Kriminelle-hacken-Gemini-mit-Kalendereinladungen.jpg?quality=50&strip=all,https://www.csoonline.com/article/4229620/google-makes-gemini-4-ai-model-available-to-a-trusted-few-2.html,https://www.csoonline.com/feed/,2026-10-01T13:48:43Z,8,Cybersecurity
+Cisco SD-WAN Manager hit by zero-day admin access attack,"
+		
+					  
+						
+
+
+
+
+Cisco’s SD-WAN management software has been letting some attackers walk through an authentication check without having to prove who they are. The company says it has now fixed the flaw that was allowing it.
+
+
+
+The affected platform, Cisco Catalyst SD-WAN Manager, is used to configure and operate software-defined network deployments.
+
+
+
+Cisco said in an advisory that improper handling of URI encoding in HTTP requests enabled attackers to get around an authentication control meant to restrict access to a specific API endpoint. A successful exploit could provide an attacker admin privileges to that API.
+
+
+
+The vulnerability, tracked as CVE-2026-76504, carries a critical CVSS score of 9.8. The issue has already been addressed in Cisco SD-WAN Cloud managed by the company, but customers running affected software releases 20.9 and earlier, 20.12, 20.15, 20.18, 26.1, and 26.2, will have to upgrade to their respective patched versions.
+
+
+
+“The barrier to exploitation is very low once the management interface is reachable,” said Sakshi Grover, senior research manager for cybersecurity at IDC Asia/Pacific. “The vulnerability can be exploited remotely without credentials or user interaction through a crafted HTTP request.”
+
+
+
+The bug has no workaround, although Cisco recommends restricting access to the Manager from unsecured networks until it can be upgraded.
+
+
+
+“While every configuration is affected, the practical exposure is not identical across organizations: an internet-accessible management interface presents a much more immediate risk than one isolated within a tightly controlled administrative network,” Grover said, reinforcing Cisco’s advice.
+
+
+
+Compromising the management layer can give an attacker considerably more leverage than having access to an individual edge device; Cisco’s official documentation says SD-WAN Manager clusters can support thousands of Cisco Catalyst SD-WAN devices, with supported configurations scaling to as many as 12,500 devices.
+
+
+
+The effects could reach well beyond the management servers, Grover noted. “Administrative API access could potentially allow an attacker to understand the network topology, modify templates or policies, weaken segmentation, establish persistence or distribute unauthorized configuration changes across multiple locations,” she said.
+
+
+
+Clues to hunt for attackers
+
+
+
+Cisco has also provided organizations with indicators they can use to check whether attackers have already targeted their SD-WAN Manager instances. The company recommends examining “serviceproxy-access.log” for requests to the “j_security_check” endpoint originating from unknown or unauthorized IP addresses. One example in the advisory uses “/%6a_security_check,” with the character j in the endpoint represented using URI encoding “%6a”.
+
+
+
+Cisco also recommends checking “vmanage-server.log” for encoded j_security_check requests involving usernames beginning with viptela-reserved-, which are reserved system service accounts.
+
+
+
+Additionally, the company recommended administrators to collect admin-tech files from all Catalyst SD-WAN Manager instances, including every node in a cluster and any disaster-recovery deployment, and submit them to Cisco’s Technical Assistance Centre for analysis.
+
+
+
+“Credentials, tokens, keys or certificates should be rotated where the investigation indicates that they may have been accessed or modified,” Grover advised. “Patching closes the vulnerability, but it does not remove persistence or reverse configuration changes that an attacker may already have made.”
+
+
+
+Cisco advised customers not to wait for the analysis before upgrading. The company recommends moving all affected Managers to a fixed release and then having TAC assess the collected data for indicators of compromise (IOCs). Cisco says the assessment can help determine whether further remediation is necessary.
+
+
+
+“A CVSS 9.8 tells a board that a flaw is severe, but it doesn’t tell them that the exposure may be the whole WAN,” Grover warned. “Incidents like this are what will push organizations to translate technical severity into operational and financial exposure.”
+
+
+
+This article first appeared on Network World.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4229603-0-27263300-1790861822-shutterstock_180216653.jpg?quality=50&strip=all,https://www.csoonline.com/article/4229603/cisco-sd-wan-manager-hit-by-zero-day-admin-access-attack-2.html,https://www.csoonline.com/feed/,2026-10-01T13:36:47Z,22,Cybersecurity
+What even is a ‘microdrama’?,"On Monday, Variety reported that RoseBerry Media is recutting episodes of the Australian soap opera Neighbours &#34;into microdramas.&#34; These clips will be available on Epis, a short-form vertical video streaming platform. Though Neighbours ran for 41 seasons from 1985 to 2025, at launch, RoseBerry is only recutting two storylines from the late aughts focused on […]",,https://www.theverge.com/entertainment/1003297/microdramas-neighbours-epis-roseberry-reelshort-dramabox-vertical-video,https://www.theverge.com/rss/index.xml,2026-10-01T13:30:00Z,5,Tech
+Samsung raised prices on the Galaxy S26 by $100,"The base Galaxy S26 with 256GB of storage costs nearly $1,000 after Samsung raised prices in the US by $100 or more, Phone Arena reports. The Galaxy S26 and S26 Plus were already $100 more expensive than their S25 predecessors when they launched earlier this year, which Samsung said RAM price hikes were partly to […]",,https://www.theverge.com/tech/1003328/samsung-s26-price-hikes-us,https://www.theverge.com/rss/index.xml,2026-10-01T13:17:16Z,5,Tech
+"AI Has Changed Attack Speed, Not Security Fundamentals","As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.
+The post AI Has Changed Attack Speed, Not Security Fundamentals appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/,https://www.securityweek.com/feed/,2026-10-01T13:15:00Z,11,Cybersecurity
+Hearing tech startup Legato launches its AI hearing glasses,"The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",,https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/,https://techcrunch.com/feed/,2026-10-01T13:00:00Z,8,Tech
+"Amazon introduces Kindle Click, a $35 remote for turning pages",The compact Bluetooth remote is designed to let readers turn pages without touching their Kindle.,,https://techcrunch.com/2026/10/01/amazon-introduces-kindle-click-a-35-remote-for-hands-free-reading/,https://techcrunch.com/feed/,2026-10-01T13:00:00Z,0,Tech
+"The new Kindle ditches the bezel in a push toward a smaller, lighter e-reader","The new Kindle lineup features its lightest and thinnest designs yet, with a sleek, front-flush display that eliminates bezels for good. ",,https://techcrunch.com/2026/10/01/the-new-kindle-ditches-the-bezel-in-a-push-toward-a-smaller-lighter-e-reader/,https://techcrunch.com/feed/,2026-10-01T13:00:00Z,0,Tech
+Audible’s new features let you explore book worlds — and use AI to talk to characters,"Audible is rolling out new features that help listeners keep track of characters, explore places and imagery mentioned in books, and even interact with characters using generative AI.",,https://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters/,https://techcrunch.com/feed/,2026-10-01T13:00:00Z,5,Tech
+"HP&#8217;s answer to the MacBook Neo is thinner, lighter, and comes with OLED","HP is announcing a new laptop that&#39;s squarely aimed at Apple&#39;s MacBook Neo. The 2026 HP OmniBook 5 14 starts at $699.99 with an Intel Core 5 315 &#34;Wildcat Lake&#34; processor, 8GB of RAM, and a 256GB SSD. Much of that sounds pretty familiar, being in lockstep with both Apple&#39;s Neo and its recent competition […]",,https://www.theverge.com/gadgets/1003107/hp-omnibook-5-14-intel-wildcat-lake-8gb-macbook-neo-price-specs,https://www.theverge.com/rss/index.xml,2026-10-01T13:00:00Z,6,Tech
+Amazon’s Carrie is a cyberbullying nightmare,"Do we really need a new version of Carrie? That&#39;s the question that plagues any attempt to reimagine the classic horror tale. Stephen King&#39;s 1974 novel remains one of his most iconic, and the film version from Brian De Palma and Sissy Spacek two years later remains unsurpassed, despite a handful adaptations that followed in […]",,https://www.theverge.com/entertainment/1002835/carrie-review-amazon-prime-video,https://www.theverge.com/rss/index.xml,2026-10-01T13:00:00Z,5,Tech
+Amazon is launching colorful new Kindles — and a case with physical page-turn buttons,"Kindles don&#39;t usually change much with each new version, but Amazon is launching next-generation models today that look and feel a whole lot nicer. The base Kindle, Kindle Paperwhite, and Kindle Colorsoft are a millimeter thinner and 30 percent faster at opening books, and their power buttons have moved from the bottom to the right […]",,https://www.theverge.com/tech/1002811/amazon-kindle-paperwhite-colorsoft-accessory-refresh,https://www.theverge.com/rss/index.xml,2026-10-01T13:00:00Z,0,Tech
+Gears of War: E-Day is a great game launching at a terrible time,"There are few blockbuster games that are as confident as Gears of War: E-Day. A prequel to one of Xbox&#39;s most transformative titles, E-Day knows exactly what it wants to be: a brutal, tense, and self-aware action game, one that is stronger because it doesn&#39;t deviate from that premise. Twenty years since the original Gears […]",,https://www.theverge.com/games/1002768/gears-of-war-eday-review-xbox,https://www.theverge.com/rss/index.xml,2026-10-01T13:00:00Z,0,Tech
+Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure,"Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction.
+The post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWeek.
+",,https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/,https://www.securityweek.com/feed/,2026-10-01T12:55:57Z,7,Cybersecurity
+"Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites","Satlyt wants to be the Android of orbital computing, offering open software that works on many companies&#39; satellites, versus SpaceX&#39;s closed, all-in-one iPhone-style approach.
+",,https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/,https://techcrunch.com/feed/,2026-10-01T12:00:00Z,7,Tech
+How Financial Services Companies Can Modernize Their Software Supply Chain,"Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwJsDvv_9QEV86mmDsIBPpGS2Kt2o8WPu2L6kUb9IExDqX-2lDKksEMMJp3NqFwDUqplX6JCeUpJfI_8rt_febX1CjMorRii_RpDccPPynWQHW_abdrNSWj774Ad0XH-RmiP-Lzki-Btsu6mh1cUsIffeSIOfUQ29qEJJwBTsaL-olM3GK18D2LYoxJlg/s1600/chain.png.jpg,https://thehackernews.com/2026/10/how-financial-services-companies-can.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T11:45:00Z,1,Cybersecurity
+Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation,"The Series B brings the AI-powered offensive security startup’s total funding to roughly $445 million only seven months after its public launch.
+The post Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation appeared first on SecurityWeek.
+",,https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/,https://www.securityweek.com/feed/,2026-10-01T11:40:51Z,1,Cybersecurity
+PS5 emulation is suddenly making big strides on PC,Games like Astro Bot and Demon’s Souls are running ably without a console.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/Screenshot-2026-09-30-at-8.12.38-PM-1152x648-1790813903.png,https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/,https://arstechnica.com/feed/,2026-10-01T11:30:41Z,0,Tech
+Here's why NASA is celebrating the failed mission to save the Swift observatory,"&#34;We did some really, really cool stuff. I&#39;m absolutely gutted we weren&#39;t able to get further.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/09/Testing-Link-Thermal-Vacuum-Testing-2._3382x1892-1152x648.jpg,https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/,https://arstechnica.com/feed/,2026-10-01T11:15:15Z,5,Tech
+Microsoft enables Windows settings backup by default for orgs,Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/,https://www.bleepingcomputer.com/feed/,2026-10-01T11:14:28Z,0,Cybersecurity
+Treasury Blacklists Most-Wanted ATM Malware Developer and His Network,"The US government continues its crackdown on Tren de Aragua over its ATM jackpotting scheme.
+The post Treasury Blacklists Most-Wanted ATM Malware Developer and His Network appeared first on SecurityWeek.
+",,https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/,https://www.securityweek.com/feed/,2026-10-01T10:51:39Z,4,Cybersecurity
+Zammad Zero-Days Exploited in AI-Powered DIVD Hack,"The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root.
+The post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/,https://www.securityweek.com/feed/,2026-10-01T10:42:49Z,9,Cybersecurity
+OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates,"OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.
+
+A &#34;core cluster of the activity,&#34; going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVoOullmVukPDhwbQ10zXHA-IqDVeMp55dybdLAhT-kkPDdJADbw8BETggWjHN3WF4HHpXLV8RDk4jHLVYlS9wWxZcbHMtEGGfGu-dGv2lFRzv3lJ1csgozieAguSQeE2Nhw5ZXBi1YIjaBbF5Al_kakh4wNXfjr4PJ-Q4QZxaHm4_Lha_aMxdQ3NPKRm0/s1600/moonshot.jpg,https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T10:42:36Z,0,Cybersecurity
+CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation.
+
+The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8jgm3LMY2zr1S1DmXnvVEPDiTKYR5FXHW7q_6duG1lVPhzbW2ZfJwRM9glqAJrQhBX3HAAiksz-tUpRN4pfT9VWHUksa-1SgHZmKcNUd1tJfsyFiwhtezZN_zBM_cEmqjkECI_2gfWhnqZ1ry2hgDou-qQCB21zbl1RzYN9JB0bRjqzhB2m6gBomg-ow9/s1600/cisa-wan.jpg,https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T10:33:16Z,11,Cybersecurity
+Huawei made a whole camera to attach to its latest phone,"Over the last few years, Chinese Android manufacturers have followed Vivo&#39;s example of launching add-on &#34;teleconverter&#34; lenses for their flagship phones, enabling long-distance photography that the phones on their own could never match. Today, Huawei one-upped everybody with the add-on lens for its Mate 90 Pro Max flagship, which is not only a comically huge […]",,https://www.theverge.com/gadgets/1003196/huawei-mate-90-pro-max-ruiying-z10-camera,https://www.theverge.com/rss/index.xml,2026-10-01T10:15:48Z,0,Tech
+Lemmo’s fancy e-bike is one of the first with a semi-solid state battery,"The Lemmo 3 is the first cargo bike from the respected German e-bike maker. This premium, step-through longtail is a slightly less insane take on Rivian&#39;s Also TM-B, with one major advantage: it&#39;s one of the first electric bikes to feature a semi-solid state battery. Semi-solid state batteries are far safer than traditional lithium-ion batteries. […]",,https://www.theverge.com/news/1003195/lemmos-fancy-e-bike-is-one-of-the-first-with-a-semi-solid-state-battery,https://www.theverge.com/rss/index.xml,2026-10-01T10:11:29Z,5,Tech
+The People of Utah vs. Kevin O&#8217;Leary,"On the morning of May 11th, the celebrity investor Kevin O’Leary appeared on Fox Business and announced that he was under attack by Chinese agents.  For weeks, he had been going on TV and posting online to tout his project, called Wonder Valley, after his nickname from the reality show Shark Tank, Mr. Wonderful. It […]",,https://www.theverge.com/cs/features/993343/stratos-utah-kevin-oleary-data-center-backlash,https://www.theverge.com/rss/index.xml,2026-10-01T10:00:02Z,1,Tech
+Hackers stole Pentagon personnel records of over 3 million people,The Pentagon&#39;s Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon&#39;s human resources management system in October 2025. [...],,https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/,https://www.bleepingcomputer.com/feed/,2026-10-01T09:44:28Z,4,Cybersecurity
+"500,000 Active Credentials Left Exposed on GitHub","Roughly 200,000 of the credentials were exposed after GitHub enabled push protections by default.
+The post 500,000 Active Credentials Left Exposed on GitHub appeared first on SecurityWeek.
+",,https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/,https://www.securityweek.com/feed/,2026-10-01T09:43:56Z,1,Cybersecurity
+The Secrets of the US Spyware King,"In an exclusive interview with WIRED, Paragon Solutions CEO Andrew Boyd reveals the limits of the company’s promise to keep bad actors from abusing its powerful espionage tool.",,https://www.wired.com/story/the-secrets-of-the-us-spyware-king/,https://www.wired.com/feed/category/security/latest/rss,2026-10-01T09:30:00Z,0,Cybersecurity
+"Noise from Universal&#8217;s latest ride made rich locals furious, fast","Universal Studios Hollywood has pledged to erect another sound barrier around its latest attraction after local residents complained about the bloodcurdling screams from riders. In a meeting attended by at least 350 people yesterday, park execs also promised that Fast &amp; Furious: Hollywood Drift won&#39;t operate between 8AM and 9AM for the rest of the […]",,https://www.theverge.com/entertainment/1003182/universal-hollywood-fast-and-furious-rollercoaster-noise,https://www.theverge.com/rss/index.xml,2026-10-01T09:00:04Z,5,Tech
+Why AI agents are like the dog that pushed kids into the Seine,"
+		
+					  
+						
+
+
+
+
+There is an interesting story about a French dog on the banks of the Seine river that helps us understand misbehaving AI agents. The dog is trained to save children from drowning. He succeeds and is rewarded, becoming an overnight sensation. He saves another child a week later. Not long after, someone witnesses the dog actually push a child into the river, jumping in to “save” him. The dog did not understand that it was being rewarded for keeping children safe, not for pulling them out of water. AI agent failures also live in this gap, where the focus is on the shortest path to fulfill the instruction rather than the overriding objective.
+
+
+
+Reward hacking and why agents cheat
+
+
+
+AI agents fall into this same gap between what’s rewarded and what’s actually wanted.  This is Goodhart’s Law, which says that when a measure becomes the target, it stops being a good measure. You cannot code “be helpful” or “be honest” directly into an AI system, so you train it on a proxy instead, including a score, a metric or a human ranking.  The gap between proxy and goal is where agents learn to cheat, a behavior known as reward hacking.
+
+
+
+This ‘cheating’ isn’t new. Back in 2016, OpenAI trained an AI to play CoastRunners, a boat-racing game. It got rewarded for hitting targets scattered along the course. Instead of racing, it found a lagoon full of targets that kept respawning, so it just parked there and farmed points. While it never finished the race, it still ended up with a score 20% higher than the average human player. More recently, OpenAI reported that when given a chance, its frontier reasoning models have no qualms about hacking rewards, and when penalized for cheating their own chain of thought, they learn to hide their reward-hacking.
+
+
+
+Six ways an agent gets pushed off course
+
+
+
+There are six common scenarios where AI agents can be led astray:
+
+
+
+
+Information isn’t instruction. In 2025, security researchers showed that OpenAI’s Atlas browser could be tricked into treating a disguised URL as a trusted command, letting attackers hijack the agent into deleting a user’s files.  An agent also reads web pages, documents and emails in its attempt to complete a task, but can’t always tell the difference between information and a command. That makes everything it perceives a potential way to manipulate it.
+
+
+
+Convinced to take the wrong call. As part of a test, AI was placed inside a fictional scenario where hacking was framed as an admirable activity. Inside this scenario, the AI was asked to write code to steal saved browser passwords. The AI, which should have refused, complied. It wasn’t that the AI was broken, but the fact that it was persuaded to do so by context.
+
+
+
+Manufactured version of reality. A sufficient number of maliciously crafted documents can bias a model’s output. Disinformation networks target AI with a large volume of false content to get that content picked up and repeated by AI chatbots when people ask about current events. This means what an agent treats as fact isn’t necessarily true; it can be manufactured.
+
+
+
+Authorization causes unauthorized harm. A flaw called “EchoLeak” let attackers send Microsoft 365 Copilot users a normal-looking email with hidden instructions inside. Copilot read the email, followed the hidden commands and quietly leaked the user’s files and messages using access it already had. An agent with legitimate access was manipulated into taking malicious action.
+
+
+
+One bad input, simultaneous consequences. Scenarios exist where multiple systems rely on the same data or logic. Here, a false signal can manipulate all systems at the same time. E.g., fake GPS signals rerouting traffic without hacking the system. The same thinking applies to AI agents. Just one malicious input targeting a shared data source can trigger a coordinated unwanted action across many systems simultaneously.
+
+
+
+Approval as a matter of course. We keep talking about human oversight as an integral component of safe AI use. However, constant approval requests will produce fatigue, and approval will be like a formality, given out of habit, not evaluation.
+
+
+
+
+Soft guardrails vs. hard guardrails
+
+
+
+When AI agents are pushed off course, they become a Frankenstein monster, whose reach extends across systems, which organizations find difficult to address. Implementing guardrails is important to exercise control and ensure safe AI use.
+
+
+
+Soft guardrails are safety valves written into the model itself, namely the natural language, the system prompt, reinforcement learning and general instructions like “you’re not allowed to do this or that.”
+
+
+
+But AI reads everything in a stream as it comes in, including information from an email or a webpage and can’t separate orders from data. Hidden malicious instructions can override safety instructions. Soft guardrails will try to reduce cases of agent misfires but are dependent on the agent choosing to cooperate. This is why you need hard guardrails that sit outside the model. These include least-privilege access, allow-lists, sandboxing, rate limits and mandatory human sign-off on high-impact actions. These guardrails limit the impact when something does go wrong, shrinking the blast radius.
+
+
+
+A basic risk calculation is the probability of an event multiplied by the severity of its impact. Soft guardrails lower the probability of an unwanted event; hard guardrails cap the blast radius in case something happens.
+
+
+
+In practice, this means implementing:
+
+
+
+
+Task-based access: Give the agent only the access it needs to complete the task.
+
+
+
+Not trusting everything an agent reads: Approach every webpage, email or document it pulls from with skepticism.
+
+
+
+Human sign-off for high-impact actions: Use approvals carefully, on actions that could go badly wrong.
+
+
+
+An eye for behavior and credentials: Check credentials but also watch for a mismatch between authorization and behavior.
+
+
+
+
+An agent can become a weapon proportional to its reach. That’s why the conversation needs to shift to start limiting what agents can access. Curtail reach. Monitor behavior. Enforce accountability. Until we do that, every misbehavior can potentially spread as far as its permission allows.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4228972-0-21395000-1790845360-lukas-konvica-IlHhcdWWzwg-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4228972/why-ai-agents-are-like-the-dog-that-pushed-kids-into-the-seine.html,https://www.csoonline.com/feed/,2026-10-01T09:00:00Z,6,Cybersecurity
+Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability,"The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.
+The post Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/,https://www.securityweek.com/feed/,2026-10-01T08:26:03Z,16,Cybersecurity
 Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders,"The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.
 The post Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders appeared first on SecurityWeek.
 ",,https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/,https://www.securityweek.com/feed/,2026-10-01T07:52:26Z,9,Cybersecurity
+"Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version","Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.
+
+&#34;It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,&#34; Koray Kavukcuoglu,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYk4zu5KwFghyphenhyphenGNFmUKfmtScZfRpYSwO3huCn6VYY6EiFZH7t7zWwr6Agn-AqOHA19-uc6wQMnoOHXGY3V8F2ZWfxoTNiTp8VV1ePAvDGYlW3ocD8tXLN-tPuqvzwf7YRX9CXl1_Zj2b0ZcMqbZAo_5Ut3uG3gTTEXTCVxJyyTtcUlbfwXkdqCu8PpY4l6/s1600/gemini-4.jpg,https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T07:49:36Z,2,Cybersecurity
 Metamask discloses security incident affecting its infrastructure,"On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",,https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/,https://www.bleepingcomputer.com/feed/,2026-10-01T07:33:57Z,1,Cybersecurity
 Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path,"Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.
 
@@ -18,7 +419,9 @@ MetaMask",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipy8fMneY_r
 
 LevelBlue&#39;s Threat Hunt Operations &amp; Research (THOR) team, which analyzed the exploitation activity across multiple customer environments, said it identified malicious NetScaler",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAuODp7WTARNyJa6hiyuveQ1LUgYlaYQXGDDfRAYUA7Zkwwb7vMriA7VIh5HmBJwWWR0kALhQkijvT43ke2ajjOQHk6YxQb2rAgsB0PYcbMKPdm-JezjILBH8j3kY29iATKhZLQhVIyAjwNj9XFBTeenqPCHM1AzKMKRCVlMME3jQs5yIYSoVtrbRnVSY7/s1600/citrix-css-shell.jpg,https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html,https://feeds.feedburner.com/TheHackersNews,2026-10-01T04:35:34Z,10,Cybersecurity
 Vivo’s X Fold 6 accidentally feels like a throwback,"It&#39;s a quirk of the release calendar that when Vivo&#39;s X Fold 6 launched in China this June, it was just another foldable. Now that it&#39;s ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo&#39;s previous foldables, and most other […]",,https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras,https://www.theverge.com/rss/index.xml,2026-10-01T02:00:00Z,0,Tech
+China’s Military Open New Logistics and Training Facility in Laos,"The center north of Vientiane, a counterpart to a similar naval facility in Cambodia, marks a further extension of Beijing&#39;s security presence in mainland Southeast Asia.",https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-01-101722.jpg,https://thediplomat.com/2026/10/chinas-military-open-new-logistics-and-training-facility-in-laos/,https://thediplomat.com/category/asia-defense/feed/,2026-10-01T01:08:00Z,0,Defense
 Elon Musk’s Grokipedia has a ‘newly refreshed’ design,"Grokipedia, SpaceXAI&#39;s AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a &#34;newly refreshed Grokipedia.&#34; Grokipedia&#39;s old homepage was pretty much […]",,https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai,https://www.theverge.com/rss/index.xml,2026-10-01T00:23:45Z,6,Tech
+Why I tried to kill token billing (and why we kept it),"Token billing is useful infrastructure, but usually a bad customer-facing pricing model. Your invoice should define the value your product delivers, not break down what it cost you to create it.",https://images.ctfassets.net/fzn2n1nzq965/429O97zRn17cvoY9EQIuoO/17adb35450f60d6ddd613c04cca873f4/1250x1250.jpg,https://stripe.com/blog/where-pricing-is-headed,https://stripe.com/blog/feed.rss,2026-10-01T00:00:00Z,0,Tech
 FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers,"An FTC spokesperson confirmed the investigation but declined further comment.
 The post FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers appeared first on SecurityWeek.
 ",,https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/,https://www.securityweek.com/feed/,2026-09-30T23:43:51Z,2,Cybersecurity
