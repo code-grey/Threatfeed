@@ -1,7 +1,634 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+This remote-controlled wagon is silly but so very useful,"Confession: When BougeRV told me about its remote-controlled wagon with animated lighting, I called it in for a laugh, expecting to eviscerate it in a review. It&#39;s ridiculous, to be sure. But the DuneRover also proved very capable, with enough torque to flatten hills even when carrying over 200 pounds of gear. It can also […]",,https://www.theverge.com/tech/1004820/this-remote-controlled-wagon-is-silly-but-useful,https://www.theverge.com/rss/index.xml,2026-10-06T08:00:00Z,1,Tech
+Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products,"A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product&#39;s web application root directory.
+
+The attacker must already know a file&#39;s exact name and path and cannot list what the directory holds. Atlassian disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGQge2pd9O29G6qjsswRMYKnpM66wzyEWHOnRljkIZUZpCGVGACovyKIiji1HQ4jZOsypuaveJUBxx0r7-tT-Icd3COeo_prgm0TbMWDJBYFYpWHOC3lBjb8sZo6f2qWPkzeztOAjMW1CjrE_fDe3nWBU2FEOOjUWDpNUbtY1okTyx_iFE7xcI5jxOeiQ/s1600/file.jpg,https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T06:58:56Z,4,Cybersecurity
+FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach,"The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.
+
+That&#39;s according to a report from Reuters, citing two sources familiar with the matter.
+
+&#34;To date, our review has determined that the incident occurred as the result of a security failure ​",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVB4YaCEMdO6UU6llRwDBMNe82j6s6myWlT8Y92f808ntjdWsPEFgXBpFhGxoAZdkFq5DVA4_XaQpbwvJFjpEUxrRjjRVITahCSGSxmi3qkad2fk-kZ1oXnoxKaFHNs2aRQl7LQ6r2Ljt57IZNaFvwejEQ20us7fMVpNYptJxoVCyol8BlVaXyLkkaeHQI/s1600/fbi-breach.jpg,https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T06:56:57Z,5,Cybersecurity
+Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account,"Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark&#39;s national population register, the country&#39;s digitalization ministry said on October 5.
+
+They used a private Danish company&#39;s lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-dsAiVrN_a0ie2xM1-2S8GDtnp-OYIAY1Cd_nhYhGkY3q0VeVEvEInjHAYCJTtnRYkXag2mY_iFjcEkFjeLQ7LrF6JqbTQ6eLZQM7aVzTHQsZ37a7PMIWPNkPvc8yTvHgWRLhdnoXbHZSlYfXJMAgfKkPcgSWD6JVb6kBYfzz9LB3SQPx357xqsr8o/s1600/cpr.jpg,https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T06:00:30Z,4,Cybersecurity
+ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits,"A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser&#39;s cache.
+
+&#34;Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,&#34; the Microsoft Threat Intelligence team said in a post on X.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Vjgif5jASBMNSuYjBnVZcm9vGO378mJ7VTFTNo9HRROtViKbP_Nm0F0vf626be5n4cwnfDdqgfWVzjKrKboh0BnbM8ALWzt-W7kNq4PSc_TOUbNlwps6sCQgfNyK5DhXk3FHZCuJSo8D2eMOm4r89VmhNa6l5gPpadRZSgTuB_N2yPZlwj0voYddOoVr/s1600/clickfix.jpg,https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T05:22:55Z,6,Cybersecurity
+Dell patches 18 critical flaws that could hand attackers the keys to storage and Kubernetes,"
+		
+					  
+						
+
+
+
+
+Dell’s security team has had a busy week.
+
+
+
+The company has announced a slew of Common Vulnerabilities and Exposures (CVEs) impacting its Dell Container Storage Modules (CSM) and Dell System Update (DSU).
+
+
+
+Disclosed by Dell in two security notices, these critical vulnerabilities could allow unauthenticated attackers to “completely bypass” authentication controls, gain root access, manipulate storage resources, or forge admin tokens. Two of the flaws are rated 10, the most critical severity rating on the Common Vulnerability Scoring System (CVSS) scale, and five others are rated 9 and above.
+
+
+
+Customers are advised to upgrade as soon as possible, although Dell said it has no evidence that any of the flaws are being actively exploited yet.
+
+
+
+“This advisory reads like a wish list for every ransomware group on the planet,” said David Shipley, CEO of Beauceron Security. “These are security holes in many organizations’ crown jewels: Storage and the link between storage and Kubernetes clusters.”
+
+
+
+Giving attackers full control
+
+
+
+CSM and DSU are two critical Dell offerings; CSMs are open-source software extensions that connect to Kubernetes, while the DSU is a general deployment tool for updating packages in PowerEdge servers.
+
+
+
+The 18 newly discovered CVEs could allow both local and adjacent network attackers to gain root-level access, escalate privileges, execute arbitrary code, tamper with information and role-based access control (RBAC), and perform remote code execution (RCE).
+
+
+
+Dell DSU versions prior to 2.3.0.0 are impacted; versions 2.3.0.0 or later have been remediated. Dell CSM versions prior to 1.17.0 are impacted, and version  1.18.0 or later have been remediated. There are no workarounds or mitigations; customers must update to fixed versions.
+
+
+
+Troubling flaws
+
+
+
+Many of the security flaws are quite troubling: the 10-rated CVE-2026-63688 in CSM, for instance, documents the lack of authentication for critical functions in the csm-authorization-storage gRPC server. Attackers could exploit it to gain access to backend storage administrator credentials for registered storage arrays across all five supported Dell storage product families. The vulnerability is critical because it could enable “full administrative control” over storage infrastructure, Dell reported.
+
+
+
+CVE-2026-63692 in CSM, also rated 10, similarly reports the lack of authentication controls for critical functions in the authorization proxy and tenant service. Threat actors could potentially gain “complete administrative control” over the authorization service, Dell said. The 9.9-rated CVE-2026-67269 in the CSM’s core controller system, meanwhile, could allow a low-privilege remote attacker to gain root-level access and “completely compromise all nodes” in the Kubernetes cluster.
+
+
+
+Dell has also patched 9.8-rated CVE-2026-54472 in CSM, which could allow threat actors to forge cryptographically valid administrative tokens and gain unauthorized administrative access to the CSM authorization proxy; and 9.6-rated CVE-2026-6727 in CSM, which could give attackers the ability to effectively bypass Kubernetes access controls, gain cluster-wide read access, and create cluster-scoped access controls.
+
+
+
+The 9.6-rated path traversal vulnerability CVE-2026-86360 in DSU, meanwhile, could allow threat actors to execute arbitrary code with root privileges. This would enable “complete compromise” of the vulnerable app as well as the underlying operating system, Dell said.
+
+
+
+Not seen in the wild — yet
+
+
+
+Dell said there have so far been no reports of these vulnerabilities being exploited in the wild, however, nation-state threat actors have previously targeted vulnerabilities in Dell infrastructure, noted Bob Wilson, cybersecurity advisor at Info-Tech Research Group.
+
+
+
+“I would interpret ‘not seen in the wild’ as ‘not seen in the wild yet,’” he said.
+
+
+
+While it might seem to be a lot of disclosures at once, Dell typically releases patch information in batches. And because these vulnerabilities affect infrastructure rather than a front-facing application, they tend to be deprioritized or overlooked during patch-management cycles, Wilson observed.
+
+
+
+Ultimately, organizations using Dell storage products and PowerEdge servers could be compromised by any threat actor with a remote access path to these devices, he pointed out. “Any data stored on those devices could also be exposed — potentially, nearly everything,” Wilson said.
+
+
+
+As well as patching, he advised impacted enterprises to:
+
+
+
+
+Rotate backend administrator credentials, along with CSM authorization credentials and tokens.
+
+
+
+Ensure that affected systems are on segmented networks and that traffic to them is restricted to only what is absolutely necessary.
+
+
+
+Ensure all systems using DSU are patched and addressed, including Azure Stack HCI and ESXi environments as well as standard Linux and Windows systems.
+
+
+
+
+And, he added, “remain on heightened alert for signs of intrusion.”
+
+
+
+Furthermore, Shipley advised, if your logs show anything odd, rotate credentials for good measure, because “it is only a matter of hours, at most, days, before we see working PoC exploit code.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230923-0-54371700-1791249937-shutterstock_2567631005.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230923/dell-patches-18-critical-flaws-that-could-hand-attackers-the-keys-to-storage-and-kubernetes.html,https://www.csoonline.com/feed/,2026-10-06T01:25:24Z,27,Cybersecurity
+"Despite ShinyHunters arrests after FBI jobs data breach, enterprises still have no answers about PeopleSoft risks","
+		
+					  
+						
+
+
+
+
+The theft of FBI employee data by hacking group ShinyHunters, and the subsequent shutdown of the FBI’s Peoplesoft-based jobs portal, is causing concern for enterprise users of the Oracle product, with analysts recommending extreme measures in response.
+
+
+
+Law enforcement has made some progress in its pursuit of the cyber criminals involved, but there has still been no official word from either the FBI or Oracle about Peoplesoft’s alleged involvement.
+
+
+
+On Saturday, Reuters reported that a suspected member of ShinyHunters had been arrested in Jordan and has been cooperating with law enforcement to help identify other member of the group. The arrest comes a week after the arrest of another suspected ShinyHunters member by the Dutch National Police. In a video about that arrest, an FBI official warned gang members that arrests have a way of changing who is willing to talk, concluding, “You know how to find us, and we know how to find you.” Before the arrests, the gang told The Register it had discovered a new PeopleSoft zero-day hole and leveraged it to break into an FBI system, stealing information on all FBI employees. The FBI has since confirmed the breach without providing details.
+
+
+
+This wouldn’t be the first flaw ShinyHunters had found in PeopleSoft. It discovered a PeopleSoft zero-day hole in June that resulted in a flurry of extortion attempts, long after Oracle said it had patched the bugs.
+
+
+
+Oracle did not respond to a request for comment on the alleged new vulnerability.
+
+
+
+Significant risk exposure for enterprises
+
+
+
+Analysts and consultants played up the risk exposure from the potentially new vulnerability even as they sharply played down the implications of the arrest.
+
+
+
+Frank Dickson, principal analyst at Dickson Research, recommended that PeopleSoft users take immediate action.
+
+
+
+“If it is a new flaw, the patch is necessary but not sufficient. PeopleSoft customers should pull the Environment Management Hub and the Integration Broker off the public internet,” he said. “Doing so does not break normal user sessions.”
+
+
+
+He also encouraged users to quickly implement many of the recommendations from Google unit Mandiant’s report late last month on PeopleSoft security issues, especially “hunting for the web shells and outbound traffic Mandiant describes.”
+
+
+
+“For PeopleSoft shops, the to-do list is short,” Dickson said. “Apply Oracle’s patch. Disable or remove the Environment Management Hub if you do not use it. Search your logs for encoded variants of the PSEMHUB path, not just the literal string. If you find a web shell, treat the server as compromised and rotate every credential it could read.”
+
+
+
+This is a dangerous situation, he said: “An unpatched PeopleSoft flaw is a Sword of Damocles over every PeopleSoft shop
+
+
+
+But despite the extreme risk, even after the patch was released, rather than applying it, some organizations have opted for other mitigations. “Many organizations chose to block the vulnerable endpoint with web application firewall rules rather than patch,” Dickson said. “The attackers walked past those rules by changing a single character in the web address, writing ‘%50’ in place of the letter ‘P.’”
+
+
+
+Could signal a bigger problem
+
+
+
+However, IDC Research Director Philip Harris encouraged CISOs to view the FBI’s confirmation of its breach with caution, given the attack vector was not revealed.
+
+
+
+“ShinyHunters says it used a second, previously undocumented PeopleSoft preauth RCE zero-day, distinct from the CVE-2026-35273 flaw exploited in the earlier campaign,” he said. Yet, he pointed out, “no CVE has been assigned to it, it has not appeared on CISA’s Known Exploited Vulnerabilities catalog and Oracle has not commented on it. Every outlet covering this is explicit that the zero-day claim comes only from the threat actor, not from independent forensic confirmation or from Oracle. That distinction matters.”
+
+
+
+But if the hole is as the group has suggested, Harris said it signals a much bigger problem.
+
+
+
+“Assuming it is real, this would mean PeopleSoft has a second critical, unpatched preauth RCE in the same window as CVE-2026-35273, a pattern of recurring critical exposure rather than one isolated bug,” he said. “ShinyHunters’ own claim that they are already using it against other, unnamed Fortune 500 targets would mean every PeopleSoft customer is currently exposed to an unpatchable, undisclosed flaw with no vendor guidance to act on, a meaningfully worse position than the WAF-bypass story, since there is no mitigation to attempt while waiting on Oracle to confirm something it has not acknowledged.”
+
+
+
+Jeff Valdes, a director at consulting firm Acceligence, added that Oracle’s silence is unwarranted.
+
+
+
+“I think customers reasonably want more communication from the vendor,” he said. “They want to understand whether Oracle’s original guidance remains sufficient, whether there are additional mitigations customers should implement, whether Oracle is seeing anything through its own support organization that changes the risk picture, and whether there are configurations or architectural choices that materially increase exposure. Those are operational security questions that can be addressed without discussing attribution, arrests, investigative techniques or anything else that might interfere with an FBI investigation.”
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230892-0-71093500-1791272142-FBI_HQ_shutterstock_555190222.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230892/despite-shinyhunters-arrests-after-fbi-jobs-data-breach-enterprises-still-have-no-answers-about-peoplesoft-risks.html,https://www.csoonline.com/feed/,2026-10-06T01:02:05Z,24,Cybersecurity
+ShinyHunters’ exploitation of a new PeopleSoft zero-day hole threatens to change enterprise risk dynamics,"
+		
+					  
+						
+
+
+
+
+A recent compromise of PeopleSoft by hacking group ShinyHunters is causing new concerns for enterprise users of the Oracle product, with analysts recommending extreme measures in response.
+
+
+
+Law enforcement has made some progress in its pursuit of the cyber criminals involved. On Saturday, Reuters reported that a suspected member of ShinyHunters had been arrested by the FBI and has been cooperating with law enforcement to help identify other member of the group. The arrest comes after The Register reported that the group claimed to have discovered a new PeopleSoft zero-day hole and to have leveraged it to break into an FBI system, stealing information on all FBI employees. The FBI has since confirmed the breach without providing details, and PeopleSoft has been silent about the allegedly new flaw.
+
+
+
+This isn’t the first flaw ShinyHunters has found in PeopleSoft. It discovered a PeopleSoft zero-day hole in June that resulted in a flurry of extortion attempts, long after Oracle said it had patched the bugs.  
+
+
+
+Oracle did not respond to a request for comment on the latest vulnerability.
+
+
+
+Significant risk exposure for enterprises
+
+
+
+Analysts and consultants played up the risk exposure from the potentially new vulnerability even as they sharply played down the implications of the arrest.
+
+
+
+Frank Dickson, principal analyst at Dickson Research, recommended that PeopleSoft users take immediate action.
+
+
+
+“If it is a new flaw, the patch is necessary but not sufficient. PeopleSoft customers should pull the Environment Management Hub and the Integration Broker off the public internet,” he said. “Doing so does not break normal user sessions.”
+
+
+
+He also encouraged users to quickly implement many of the recommendations from Google unit Mandiant’s report late last month on PeopleSoft security issues, especially “hunting for the web shells and outbound traffic Mandiant describes.”
+
+
+
+“For PeopleSoft shops, the to-do list is short,” Dickson said. “Apply Oracle’s patch. Disable or remove the Environment Management Hub if you do not use it. Search your logs for encoded variants of the PSEMHUB path, not just the literal string. If you find a web shell, treat the server as compromised and rotate every credential it could read.”
+
+
+
+This is a dangerous situation, he said: “An unpatched PeopleSoft flaw is a Sword of Damocles over every PeopleSoft shop and the group holding it does not stop when one member goes to jail.” 
+
+
+
+But despite the extreme risk, even after the patch was released, rather than applying it, some organizations have opted for other mitigations. “Many organizations chose to block the vulnerable endpoint with web application firewall rules rather than patch,” Dickson said. “The attackers walked past those rules by changing a single character in the web address, writing ‘%50’ in place of the letter ‘P.’”
+
+
+
+Could signal a bigger problem
+
+
+
+However, IDC Research Director Philip Harris encouraged CISOs to view the FBI’s confirmation of its breach with caution, given the attack vector was not revealed.
+
+
+
+“ShinyHunters says it used a second, previously undocumented PeopleSoft preauth RCE zero-day, distinct from the CVE-2026-35273 flaw exploited in the earlier campaign,” he said. Yet, he pointed out, “no CVE has been assigned to it, it has not appeared on CISA’s Known Exploited Vulnerabilities catalog and Oracle has not commented on it. Every outlet covering this is explicit that the zero-day claim comes only from the threat actor, not from independent forensic confirmation or from Oracle. That distinction matters.”
+
+
+
+But if the hole is as the group has suggested, Harris said it signals a much bigger problem.
+
+
+
+“Assuming it is real, this would mean PeopleSoft has a second critical, unpatched preauth RCE in the same window as CVE-2026-35273, a pattern of recurring critical exposure rather than one isolated bug,” he said. “ShinyHunters’ own claim that they are already using it against other, unnamed Fortune 500 targets would mean every PeopleSoft customer is currently exposed to an unpatchable, undisclosed flaw with no vendor guidance to act on, a meaningfully worse position than the WAF-bypass story, since there is no mitigation to attempt while waiting on Oracle to confirm something it has not acknowledged.”
+
+
+
+Jeff Valdes, a director at consulting firm Acceligence, added that Oracle’s silence is unwarranted. 
+
+
+
+“I think customers reasonably want more communication from the vendor,” he said. “They want to understand whether Oracle’s original guidance remains sufficient, whether there are additional mitigations customers should implement, whether Oracle is seeing anything through its own support organization that changes the risk picture, and whether there are configurations or architectural choices that materially increase exposure. Those are operational security questions that can be addressed without discussing attribution, arrests, investigative techniques or anything else that might interfere with an FBI investigation.”
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230892-0-91989100-1791248537-shutterstock_2533498743.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230892/shinyhunters-exploitation-of-a-new-peoplesoft-zero-day-hole-threatens-to-change-enterprise-risk-dynamics.html,https://www.csoonline.com/feed/,2026-10-06T01:02:05Z,23,Cybersecurity
+Gemini Call for Me might tell your mom you&#8217;re running late,Google may be expanding its &#34;Call for Me&#34; AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a &#34;Gemini Calling&#34; introductory screen in an APK teardown with examples that include &#34;Call Mom and tell her I will be 15 minutes late&#34; and &#34;Call […],,https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors,https://www.theverge.com/rss/index.xml,2026-10-05T23:09:55Z,5,Tech
+OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU,OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...],,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/,https://www.bleepingcomputer.com/feed/,2026-10-05T22:46:33Z,0,Cybersecurity
+Vulnerability in agents from Google and others exposes structural flaw in MCP,Trust gaps in the new protocol spread malicious prompts from one agent to another.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg,https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/,https://arstechnica.com/feed/,2026-10-05T22:26:35Z,0,Tech
+Lucid Motors’ EV output falls to lowest level in almost two years,The company is deliberately limiting production after years of struggling to find mass-market demand for its EVs.,,https://techcrunch.com/2026/10/05/lucid-motors-ev-output-falls-to-lowest-level-in-almost-two-years/,https://techcrunch.com/feed/,2026-10-05T21:54:01Z,0,Tech
+"Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports","It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding in Call of Duty? Or playing the original Halo right […]",,https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports,https://www.theverge.com/rss/index.xml,2026-10-05T21:17:45Z,2,Tech
+"The Matic is the first robovac to get an FCC ban waiver, not that it needs it","The Matic is our favorite robot vacuum and robo-mop, and it&#39;s also now the first to escape the FCC&#39;s Roomba ban. Well, sort of - because the Matic wasn&#39;t banned to begin with. Here&#39;s what&#39;s actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, and its charging dock model 4DK0008 to […]",,https://www.theverge.com/policy/1004926/matic-fcc-ban-waiver-conditional-approval,https://www.theverge.com/rss/index.xml,2026-10-05T21:15:05Z,6,Tech
+Cable lobby to sue Trump FCC over repeal of national TV ownership cap,"Cable industry to sue, says FCC can&#39;t repeal TV ownership limit set by Congress.",https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-1152x648-1771622570.jpg,https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/,https://arstechnica.com/feed/,2026-10-05T20:47:48Z,0,Tech
+OpenAI will start watermarking ChatGPT’s text in the EU,"OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",,https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/,https://techcrunch.com/feed/,2026-10-05T20:36:48Z,5,Tech
+Texas city demands $2M for public records on Flock usage,Prices of public records tracking cops&#39; use of Flock go up as backlash swells.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288945998-1024x648.jpg,https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/,https://arstechnica.com/feed/,2026-10-05T20:31:12Z,0,Tech
+"Etched fields funding offers at $40B+ valuation, sources say","Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",,https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/,https://techcrunch.com/feed/,2026-10-05T20:24:09Z,11,Tech
+Rejetto HFS servers now actively scanned for critical RCE flaw,"Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",,https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/,https://www.bleepingcomputer.com/feed/,2026-10-05T20:20:05Z,3,Cybersecurity
+This startup is issuing AI-generated acne prescriptions,"People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloomberg. The service is launching […]",,https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions,https://www.theverge.com/rss/index.xml,2026-10-05T20:14:57Z,9,Tech
+"After Factory’s public spat with Khosla, Menlo proudly invests","Days after Vinod Khosla called Factory a struggling also-ran, Menlo has shown up with a check and a glowing blog post.",,https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/,https://techcrunch.com/feed/,2026-10-05T19:38:07Z,0,Tech
+"Reflection debuts Beam, a open-weight AI model to rival Chinese models at lower compute cost","Nvidia-backed Reflection AI unveils Beam, its first open-weight model, which it says rivals GLM-5.2 on reasoning with far less inference compute. Weights are due this month.",,https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/,https://techcrunch.com/feed/,2026-10-05T19:33:53Z,5,Tech
+All the drama around AI&#8217;s takeover of mathematics,"This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]",,https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution,https://www.theverge.com/rss/index.xml,2026-10-05T19:28:59Z,10,Tech
+Command-line tool quickly removes Apple Intelligence from macOS 27,The tool can free up over 12GB of storage. ,https://cdn.arstechnica.net/wp-content/uploads/2026/03/Screenshot-2026-03-03-at-10.30.27-AM-1152x648.jpeg,https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/,https://arstechnica.com/feed/,2026-10-05T19:14:44Z,1,Tech
+Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage,"Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it &#34;can confirm that we have discovered some activity&#34; by &#34;rogue&#34; OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, &#34;unsuccessful attempts&#34; to &#34;exploit&#34; the Etherpad note-taking tool that the Wikimedia Foundation […]",,https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage,https://www.theverge.com/rss/index.xml,2026-10-05T19:05:19Z,5,Tech
+"Instinct brings its AI agent to group chats, even for friends without an account","Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",,https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/,https://techcrunch.com/feed/,2026-10-05T18:54:30Z,5,Tech
+Hyundai CEO says only a ‘level playing field’ can minimize damage from China,"There&#39;s been a lot of doom and gloom from the auto industry lately when the subject of China comes up. Automaker CEOs, in particular, warn that allowing low-cost, high-tech Chinese electric vehicles to be sold in the US would effectively spell the end of their businesses. Hyundai CEO José Muñoz is not as pessimistic as […]",,https://www.theverge.com/transportation/1004785/hyundai-ceo-china-ev-us-market-share,https://www.theverge.com/rss/index.xml,2026-10-05T18:41:48Z,5,Tech
+TikTok rolls out an AI shopping assistant and one-click checkout,TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.,,https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/,https://techcrunch.com/feed/,2026-10-05T18:29:00Z,5,Tech
+OpenAI is adding text watermarking in ChatGPT and Codex,"An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking &#34;matched or exceeded&#34; other approaches like Google DeepMind&#39;s SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic […]",,https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act,https://www.theverge.com/rss/index.xml,2026-10-05T18:08:39Z,6,Tech
+"At 19, founder raises $11 million for Ghost, maker of a $3,499 computer for personal AI",Ghost announced Monday its official emergence from stealth and an $11 billion seed round led by Andreessen Horowitz. ,,https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/,https://techcrunch.com/feed/,2026-10-05T18:07:07Z,5,Tech
+"Pentagon, FBI personnel-data breaches raise questions","The defense breach, which exposed about 3 million people, went undetected for months.",,https://www.defenseone.com/threats/2026/10/pentagon-personnel-data-breach-went-undetected-months/416421/,https://www.defenseone.com/rss/all/,2026-10-05T18:00:00Z,0,Defense
+Controlling the brain with light earns a physiology Nobel,The entire field of optogenetics traces back to light-seeking algae.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2212760356-1152x648.jpg,https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/,https://arstechnica.com/feed/,2026-10-05T17:59:27Z,5,Tech
+Hot Girl Hotline is like ‘Dear Abby’ for the AI era,"Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",,https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/,https://techcrunch.com/feed/,2026-10-05T17:29:22Z,5,Tech
+5 startups that caught VCs’ attention at the latest PearX demo day,"TechCrunch attended Pear’s latest  demo day and discovered which startups generated the most buzz, from spatial models to chips for local AI.",,https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/,https://techcrunch.com/feed/,2026-10-05T17:26:44Z,8,Tech
+Russian drones strike Ukraine’s data centers by exploiting air defense gaps,"Russian attacks on Internet, phone services threaten Ukraine’s wartime economy.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-data-center-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/,https://arstechnica.com/feed/,2026-10-05T17:21:11Z,5,Tech
+IQVIA fined $7.8 million for failing to properly anonymize health data,Italy&#39;s Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...],,https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/,https://www.bleepingcomputer.com/feed/,2026-10-05T17:19:53Z,2,Cybersecurity
+OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user&#8217;s suicide,"An OpenAI publicist tried to change the topic of CEO Sam Altman&#39;s interview with Vanity Fair&#39;s Mark Guiducci after the editor brought up a ChatGPT user&#39;s suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she&#39;d like to &#34;move on&#34; to another topic. The interruption came […]",,https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr,https://www.theverge.com/rss/index.xml,2026-10-05T16:55:42Z,5,Tech
+Sam Altman says ‘some bad things&#8217; will happen but AI is totally worth it,"Sam Altman thinks that the benefits of AI will be so great that &#34;the world should accept some bad things happening&#34; along the way. The OpenAI CEO pointed to hacks, scams, and &#34;other bad things&#34; as costs society should expect to tolerate because &#34;people will do tremendously orders of magnitude more good stuff&#34; with AI, […]",,https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff,https://www.theverge.com/rss/index.xml,2026-10-05T16:44:21Z,6,Tech
+HackerRank’s AI interviewer offers a glimpse into what job interviews could become,"HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",,https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/,https://techcrunch.com/feed/,2026-10-05T16:43:35Z,5,Tech
+Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes,"Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.
+
+The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system.
+
+&#34;Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBNa12GUjRngANug2kbws6i9X_HPN2PRVbOcxr7GtaXMKq9PloaCTD7DuYC8zZIcrg5Wa-F5pDv9y-00EMX4QWvovMz-ZWK5vNZ-gkIdEA7UiZQ1SqBCZof411VOQt6nQrvZCYxZpmzPA3hUeFia9KVP45Q1J1OPkiIH_Fhy5hoiOo9z6eYw1H16RgvKs5/s1600/ms-emails.jpg,https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T16:21:52Z,7,Cybersecurity
+F1 in Bahrain... in Malaysia: The race needed a software update to start,A software bug waylaid half the field and required a race reboot.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298078711-1152x648.jpg,https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/,https://arstechnica.com/feed/,2026-10-05T16:09:07Z,7,Tech
+Nvidia’s Shield TV Pro just got a $100 price hike,"Nvidia&#39;s Shield TV streaming boxes are the latest victims of the memory shortage that has seen prices increase dramatically for everything from digital cameras to game consoles. When the Shield TV Pro launched nearly seven years ago with an upgraded Tegra X1+ processor, 3GB of RAM, and 16GB of storage, it sold for $199.99. But […]",,https://www.theverge.com/tech/1004791/nvidia-shield-tv-pro-streaming-box-price-increase,https://www.theverge.com/rss/index.xml,2026-10-05T15:43:13Z,0,Tech
+Denmark population registry data breach affects 8.8 million people,Denmark&#39;s Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...],,https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/,https://www.bleepingcomputer.com/feed/,2026-10-05T15:21:10Z,9,Cybersecurity
+OpenAI launches visual ads that appear alongside image generation results,OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now. ,,https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/,https://techcrunch.com/feed/,2026-10-05T15:14:24Z,6,Tech
+Researcher's death from undisclosed illness sparks mass quarantine in Russia,Unconfirmed reports have suggested there was a laboratory accident.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2199370602-1152x648.jpg,https://arstechnica.com/health/2026/10/researchers-death-from-undisclosed-illness-sparks-mass-quarantine-in-russia/,https://arstechnica.com/feed/,2026-10-05T15:12:17Z,0,Tech
+Apple’s new M6 Mac Mini is over $100 off,"Really the only negative associated with the new M6-powered Mac Mini is its high price. While the last-gen model debuted at just $599, the faster, but mostly unchanged 2026 edition starts at $899 — except for right now. You can grab the base model that has 256GB of storage, 16GB RAM, and a 12-core CPU […]",,https://www.theverge.com/gadgets/1004772/apple-mac-mini-m6-deal-october-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-05T15:08:31Z,1,Tech
+US spy chief tapped as White House AI czar,Director of National Intelligence Jay Clayton will now helm broad domestic technology and economic policy discussions.,,https://www.defenseone.com/policy/2026/10/us-intel-chief-white-house-ai-czar/416416/,https://www.defenseone.com/rss/all/,2026-10-05T15:00:00Z,0,Defense
+Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026,Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.,,https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-10-05T15:00:00Z,5,Tech
+Lola Vision Systems is trying to make it easier to run AI models on chips,Lola Vision Systems is one of TechCrunch&#39;s Battlefield 200 Companies,,https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/,https://techcrunch.com/feed/,2026-10-05T15:00:00Z,5,Tech
+Hackers steal 8 million citizens’ records from Danish government database,"The Danish government said the breach of names, addresses, and state-issued ID numbers affects 8 million people, including people living abroad and the deceased.",,https://techcrunch.com/2026/10/05/hackers-steal-8-million-citizens-records-from-danish-government-database/,https://techcrunch.com/feed/,2026-10-05T14:58:42Z,5,Tech
+New Dell System Update flaw lets hackers gain root privileges,Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...],,https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/,https://www.bleepingcomputer.com/feed/,2026-10-05T14:53:06Z,9,Cybersecurity
+CNN&#8217;s boss will remain as Paramount and WBD merge into Skydance,CNN CEO Mark Thompson will remain at the head of the news network when Paramount&#39;s $110 billion Warner Bros. Discovery acquisition closes this week. Thompson wrote in a memo to employees that he believes the combined company will &#34;fully support the principle and practice of the kind of independent news that CNN has always stood […],,https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros,https://www.theverge.com/rss/index.xml,2026-10-05T14:42:34Z,8,Tech
+Researchers are tracking a Chinese AI ‘agent fleet’,"Independent researchers discovered an agent swarm that seems to be running on Tencent&#39;s infrastructure and targeting Alibaba&#39;s map service, Amap.",,https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/,https://techcrunch.com/feed/,2026-10-05T14:35:09Z,5,Tech
+"Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time","Today, I’m talking with Senator Adam Schiff, a Democrat from California. Sen. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment […]",,https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption,https://www.theverge.com/rss/index.xml,2026-10-05T14:30:00Z,5,Tech
+Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026,"Meet the final five Startup Battlefield judges who&#39;ll decide who wins the pitch competition at TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off.",,https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-10-05T14:30:00Z,3,Tech
+Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports,"Google has temporarily stopped accepting product vulnerability reports through its Open Source Software Vulnerability Reward Program (OSS VRP).
+The post Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/,https://www.securityweek.com/feed/,2026-10-05T14:26:00Z,4,Cybersecurity
+South Korea probes bank breaches amid suspected AI-powered attacks,South Korea&#39;s Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...],,https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/,https://www.bleepingcomputer.com/feed/,2026-10-05T14:22:12Z,6,Cybersecurity
+"⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests","A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.
+
+There are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbylNkbHSjWFkh2Ms0FmUT7jm2Qp-l5l9XwzA-O0LeP6LLE2WY9Z5yTiZ6AjikPfdOuId00XC9R_m_HYap_zbOAxUpLNKMK8UAVGiQHr-1zb_IOLyuhyMo_dhlqB5SM6p9b5qabPdThNFnyaHBznmq3H66qlbHxPAzCSuA_glVaWuKcJy51sOkoZp7BIuf/s1600/infosec-recap.jpg,https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T14:20:43Z,13,Cybersecurity
+The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026,"The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off.",,https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/,https://techcrunch.com/feed/,2026-10-05T14:00:00Z,0,Tech
+An open-source tool lets you delete 12GB of Apple Intelligence data on macOS,"Getting some extra storage space on your Mac could be as easy as deleting Apple&#39;s AI features with a new open-source command line tool called RemoveMacAI. There used to be a single Settings toggle for disabling Apple Intelligence, but that was removed in macOS 27. Now, the models stay on your disk, and the features […]",,https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool,https://www.theverge.com/rss/index.xml,2026-10-05T13:47:14Z,6,Tech
+Can Japan Optimize Its Record Defense Budget?,"All nine priority areas require substantial spending, and the investment needs to be sustained over many years to come.",https://images.thediplomat.com/v1/td-list-l-2/2025/05/thediplomat_2025-05-01-160858.jpg,https://thediplomat.com/2026/10/can-japan-optimize-its-record-defense-budget/,https://thediplomat.com/category/asia-defense/feed/,2026-10-05T13:46:00Z,0,Defense
+AI glasses face their first major government crackdown,Norway wants time to write permanent rules for glasses that can record bystanders.,https://cdn.arstechnica.net/wp-content/uploads/2026/03/546417470_31238681149113739_395523165946500898_n.jpg,https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/,https://arstechnica.com/feed/,2026-10-05T13:39:30Z,5,Tech
+tenfold CE: Our free Identity Governance tool just got 2 new features,tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity activity. [...],,https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/,https://www.bleepingcomputer.com/feed/,2026-10-05T13:33:42Z,0,Cybersecurity
+OpenAI is sticking more ads in ChatGPT,"OpenAI&#39;s latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will &#34;initially&#34; appear when you generate images with ChatGPT, according to an announcement on Monday. The company first brought ads to ChatGPT in February. Until now, ChatGPT&#39;s […]",,https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads,https://www.theverge.com/rss/index.xml,2026-10-05T13:09:48Z,6,Tech
+Alleged dev of Ploutus ATM malware appears in US court after arrest,"The U.S. Department of Justice has announced the arrest of the alleged developer of Ploutus malware, used to steal millions of dollars in ATM jackpotting attacks across the United States. [...]",,https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/,https://www.bleepingcomputer.com/feed/,2026-10-05T13:01:45Z,6,Cybersecurity
+"Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws","ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.
+The post Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws appeared first on SecurityWeek.
+",,https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/,https://www.securityweek.com/feed/,2026-10-05T13:00:00Z,4,Cybersecurity
+"250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms","Hackers stole patient information from Clover Health Investments and AngMar Management Services in July.
+The post 250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms appeared first on SecurityWeek.
+",,https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/,https://www.securityweek.com/feed/,2026-10-05T12:35:15Z,5,Cybersecurity
+Citrix warns of actively exploited NetScaler flaw days after zero-day patch rush,"
+		
+					  
+						
+
+
+
+
+Citrix has warned customers about another high-severity vulnerability in its NetScaler ADC and NetScaler Gateway products, just days after the company urged them to fix a separate batch of flaws that included two actively exploited zero-days.
+
+
+
+The new vulnerability, tracked as CVE-2026-88779, is a memory-overflow issue that can cause a denial-of-service (DoS) condition on affected appliances. Citrix rated it 8.7 under CVSS 4.0 and said it has observed targeted attacks against unmitigated NetScaler deployments.
+
+
+
+The company said the attacks can repeatedly trigger the condition, potentially leaving the service unavailable.
+
+
+
+“The issue affects customer-managed NetScaler deployments running affected supported versions when the required preconditions are met,” the company said in a blog post. “Customers should review their deployed versions and configurations, then install the relevant updated versions as soon as possible.”
+
+
+
+Citrix has not attributed the activity to a particular threat actor or provided technical details on how the vulnerability is being exploited.
+
+
+
+“The reality is that the focus on edge appliances as an easy access mechanism to organizations is not changing,” said watchTowr founder Benjamin Harris, who was among the first to warn about the recent Citrix zero-days. “Attackers are well aware that there is more to be found in these types of appliances in terms of vulnerabilities.”
+
+
+
+Exploitation needs a precondition
+
+
+
+The flaw is not present in every NetScaler deployment. It requires the appliance to be configured for SAML authentication, either as a SAML service provider or identity provider, with the relevant SAML functionality used alongside Gateway or AAA virtual servers.
+
+
+
+CVE-2026-88779 affects NetScaler ADC and Gateway 14.1 before 14.1-73.41 and 13.1-64.28, as well as 14.1 FIPS before 14.1-73.41 FIPS and 13.1 FIPS/NDcPP before 13.1-37.282. Citrix said Secure Private Access Hybrid deployments using NetScaler instances are affected and must be upgraded.
+
+
+
+Administrators were advised to check for “add authentication samlAction” and “add authentication samlIdPProfile” entries in their configurations to determine whether the precondition applies.
+
+
+
+“Our analysis indicates that this issue affects service availability, and we have not identified an impact on the integrity of customer data,” Citrix said.
+
+
+
+NetScaler customers may have to patch twice in a week
+
+
+
+The timing is concerning for enterprises that have just completed Citrix’s previous emergency patch cycle. Last week, Citrix disclosed eight NetScaler vulnerabilities, including CVE-20206-88771 and CVE-2026-88772, two critical flaws that the company said were already being exploited. The fixes affected 14.1 deployments to 14.1-73.37 and 13.1 deployments to 13.1-64.23.
+
+
+
+However, Citrix now says organizations that installed those releases must upgrade again if their appliances meet the SAML preconditions for CVE-2026-88779. The new fixed versions are 14.1-73.41, 13.1-64.28, 4.1-73.41 FIPS, and 13.1-37.282 for the applicable FIPS and NDcPP builds.
+
+
+
+There is a temporary mitigation for some already-patched deployments. Citrix says Global Deny List signatures can reduce exposure on NetScaler versions 14.1-73.37 through 73.40 and 13.1-64.23 through 64.27, provided the relevant virtual-patching functionality is enabled.
+
+
+
+Customers relying on this mitigation must verify if Global Deny List signatures are available on their NetScaler deployments by executing the “show appfw signatures” command. Upgrading to the fixed builds, however, remains necessary wherever possible, the company noted. CISA has added the vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, listing October 7 as the remediation deadline for US federal agencies.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230642-0-79346100-1791202462-JHVEPhoto_shutterstock_2834288579_EdOnly_16z9.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230642/citrix-warns-of-actively-exploited-netscaler-flaw-days-after-zero-day-patch-rush.html,https://www.csoonline.com/feed/,2026-10-05T12:14:09Z,19,Cybersecurity
+TCL’s paperlike OLED phone made me more excited for the iPhone Duo,"I&#39;ve spent most of the last couple weeks using an otherwise unexceptional midrange Android phone with one amazing feature: a matte OLED display. That screen is by far the best thing about the TCL P80 Ultra, and weirdly, it&#39;s made me more excited for the iPhone Duo and its matte inner display. 2023&#39;s TCL Nxtpaper […]",,https://www.theverge.com/tech/1004079/tcl-p80-ultra-nxtpaper-matte-display-iphone-duo,https://www.theverge.com/rss/index.xml,2026-10-05T12:02:41Z,0,Tech
+Can Safeworld convince people that gen AI robots won’t hurt them?,Safeworld is building digital humans to make sure robots don&#39;t hurt the real ones. ,,https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/,https://techcrunch.com/feed/,2026-10-05T12:00:00Z,5,Tech
+The Credential Layer Is Expanding Faster Than Security Teams Can See It,"Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcMENqm_uSfWzk7VlgN5LXTaqUnYGOAelJ9aFsc6s57oUV43awGRScfhyphenhyphenaOYpv1eWkCfunH00lWMH6uUS9sUav8nBmwSHh9w_e3VL1F5AvjF9tpbUeFHCu6ohHZbqOqujA75PEZo_DbtWTv1NtQOKLwaIwJvGZw8rdFDEMcCm_0DvIOfeVPzW8ITMmVwg/s1600/git.gif,https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T11:55:00Z,2,Cybersecurity
+Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2,"Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.
+
+&#34;Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel,&#34; Nozomi Networks said in a report",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeczuQyi5eCbsZFxILJKWiHZ8_JC8gnKqr2sExCgq_Dk-7879VVbd8qcA475L-uEn3X30CIyqn-iDilE7Sl9T5FM3XGFPU6LbyE7KUH8OpWTjlirCFq8EaY-MuielVGOXFuECLLpehX9R8HQrniMulUnAUd2f_uRbZ1Fget8hT0Tf19c1N-q06dtFpAZPj/s1600/botnet.jpg,https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T11:46:25Z,11,Cybersecurity
+The hows and whys of non-mechanical mechanical keyboard switches,Ars Technica&#39;s guide to new keyboard sensing technologies. ,https://cdn.arstechnica.net/wp-content/uploads/2026/08/Varmilo-EC-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/,https://arstechnica.com/feed/,2026-10-05T11:00:41Z,1,Tech
+Exploitation Hits Rejetto HFS Vulnerability Discovered by AI,"CVE-2026-61500 allows attackers to recover the session-cookie signing key and gain administrative access and RCE.
+The post Exploitation Hits Rejetto HFS Vulnerability Discovered by AI  appeared first on SecurityWeek.
+",,https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/,https://www.securityweek.com/feed/,2026-10-05T11:00:05Z,10,Cybersecurity
+Google admits not every Android app runs great on Intel Googlebooks,"Google has waited until the day its new Googlebook laptops hit the market to admit that Intel-based models may have issues running some Android apps. Before now, Google has emphasized that the Android-based Googlebooks give owners access to the &#34;entire Play Store library&#34; of apps, along with some clever interactions with Android phones and tablets. […]",,https://www.theverge.com/tech/1004643/google-android-apps-intel-googlebooks-performance,https://www.theverge.com/rss/index.xml,2026-10-05T10:58:22Z,6,Tech
+Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity,"More than 730 cyber breaches affected over 270 million Americans last year, costing an average of $10 million per breach.
+The post Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity appeared first on SecurityWeek.
+",,https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/,https://www.securityweek.com/feed/,2026-10-05T10:42:19Z,5,Cybersecurity
+Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access,"Apple has announced that it&#39;s taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.
+
+&#34;Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users&#39; full knowledge",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDBg5lUcW7uXfKt2vo4Pq5MQUxOty2Xq3pApCIyhUAuSpTzu1jR_CGkNNS2UkAKxYvqk4KCyP1Ehr0PYcW6xVolcSuSdfRPx4rSDDnkuAKaCkgBii_l7kH-s9u7oEhyK2FpvAnaTRWDV48t9XBXEv-MpUIWhBaZYIBx3CFY_zSUXxdw-3C5rB_30Y0VEtf/s1600/macos-ai.jpg,https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T10:38:50Z,3,Cybersecurity
+OpenAI will show visual ads in ChatGPT while you generate images,"OpenAI is expanding ads in ChatGPT, and one of the first new formats will show visual ads while you&#39;re generating images. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/,https://www.bleepingcomputer.com/feed/,2026-10-05T10:28:45Z,0,Cybersecurity
+Our minds aren’t equipped to handle AI,"Norbert Wiener, godfather of cybernetics, once said, &#34;The thought of every age is reflected in its technique.&#34; For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google&#39;s Demis Hassabis calls the brain &#34;a biological approximation to a Turing machine.&#34; Elon Musk puts it more bluntly, […]",,https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought,https://www.theverge.com/rss/index.xml,2026-10-05T10:00:00Z,6,Tech
+Microsoft: Windows KB5124010 update crashes some games and apps,Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the September 2026 KB5124010 Windows 11 preview update. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/,https://www.bleepingcomputer.com/feed/,2026-10-05T09:37:56Z,0,Cybersecurity
+Google halts open-source bug bounty program amid AI spam surge,Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. [...],,https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/,https://www.bleepingcomputer.com/feed/,2026-10-05T08:27:46Z,3,Cybersecurity
+Should the CISO role be split in two?,"
+		
+					  
+						
+
+
+
+
+In its roughly 30-year history, the CISO role has been reshaped by waves of new technology and rising cyber threats.
+
+
+
+In many organizations, CISOs now own risk reporting, information risk management, threat monitoring, cyber risk accountability and governance, and security strategy.
+
+
+
+And as AI and digital dependence grow, the CISO’s remit is growing beyond security controls. The latest IANS State of the CISO report finds CISOs carrying increasing executive authority to shape strategy at the organizational level.
+
+
+
+Now more than ever the CISO role is being rewritten — but can one title manage the growing list of technical with executive responsibilities?
+
+
+
+Has the CISO outgrown its technical roots?
+
+
+
+Former CISO Todd Fitzgerald, who now runs professional leadership programs and writes about the profession, says the CISO role has passed through successive phases, from technical oversight through compliance, GRC, cloud, and privacy to today’s focus on business resilience.
+
+
+
+“Increasingly, it’s been about putting a business leadership lens around the job of the CISO,” Fitzgerald says.
+
+
+
+Today’s CISO is a strategic role with a remit to reduce risk and contribute to what the business needs. “That’s not the technical person. That’s how a lot of CSOs grew up, but that’s not really what the job is,” he notes.
+
+
+
+Many companies, Fitzgerald says, are catching up with the CISO’s true remit. “I don’t feel like this is a new transformation,” he tells CSO.
+
+
+
+But according to IANS, two-thirds of CISOs still report into IT — a sign that many organizations haven’t assigned the role strategic business importance. “I think we’ve done a poor job of articulating what the CISO role really is,” says Fitzgerald, who reasons that many CISOs fall back on technical abilities because trying to change organizational processes is difficult.
+
+
+
+“They’re not addressing where the real risk may be, or they’re not doing the hard part of getting together with their business units and their stakeholders and understanding their security needs,” he says.
+
+
+
+The result can be a mismatch between how the CISO is perceived and the role they want to play. Fitzgerald says CISOs can find themselves complaining about budgets or not being listened to.
+
+
+
+CISOs may come into the room as “the techy security person” but want to be seen as something else.
+
+
+
+Splunk’s 2026 CISO Report found that 79% of CISOs say their remit has become significantly more complex, with responsibilities now spanning data privacy, regulatory compliance, and third-party cyber risk — and 96% are also now responsible for AI governance and risk management.
+
+
+
+Tim Brown, general partner and CISO in residence at Team 8, agrees the CISO needs to operate as a business leader to represent cyber risk to the organization.
+
+
+
+“They absolutely still need to manage the operational side and have appropriate people to be part of that, no question, but [organizations] need a measure of the real risk and the coverage in place,” Brown says.
+
+
+
+Without stoking fear, the CISO’s primary task is to lead the cyber risk conversations, but that doesn’t mean relying on lists of vulnerabilities, patches, and dashboard metrics. “Nobody has unlimited budget so you’ve got to build the skills necessary to be able to communicate to appropriately spend money to get things done,” Brown says.
+
+
+
+The case for redesigning the CISO role
+
+
+
+The problem many CISOs face is that the role has become that of a business leader who must retain every previous responsibility. As a result, many CISOs report that the expanding scope of the role is outpacing resources.
+
+
+
+The IANS 2026 State of the CISO Report found that 52% of CISOs believe their scope is no longer fully manageable, particularly in smaller organizations and industries with leaner security teams.
+
+
+
+Several years ago, discussions focused on whether the CISO role should be split between a business CISO and a technical CISO as a way of managing the growing set of responsibilities. It recognized that strategic risk management had become a business imperative.
+
+
+
+More recently, there have been suggestions that two separate types of security leaders will emerge — one focused on defenses and the other focused on risk and resilience. Fitzgerald is not in favor of splitting security off into IT.
+
+
+
+“I don’t know that I would have two CISOs. I still think one CISO who’s driving the strategy and is still responsible for that function” is the right way to approach the role, he says.
+
+
+
+Some larger enterprises opt to have a deputy CISO as a way to manage the workload. In this case, the CISO is responsible for strategic direction, engaging with the board and other executives, and risk management, while the deputy role handles more of the operations.
+
+
+
+Brown says a deputy is important for succession planning and continuity of day-to-day operations, while also providing a way to develop people who can eventually become CISOs. “It’s important to have that depth in the organization,” he says.
+
+
+
+Both Brown and Fitzgerald say the answer isn’t to create two CISOs. It’s one CISO with clearly defined technical, governance, and operational responsibilities.
+
+
+
+For Brown, the CISO’s primary function is to own the business risk associated with cyber, with governance and security operations supporting the role.
+
+
+
+“That doesn’t mean they own the remediation/resolution of the risk, but they should be the one thinking about it 100% of the time, communicating it, and helping to develop appropriate remediations,” he says.
+
+
+
+Security operations and defenses, the primary role of the past, are the second element and governance is the third function, but they may not all be managed personally by the CISO.
+
+
+
+“Organizations will have different reporting structures — often we see the CISO having different distinct functions underneath them,” Brown says. “Just like accounting, where there’s a CFO responsible for finance for the organization, the CISO needs to be responsible for cyber risk for the business.”
+
+
+
+Industry reports suggest that shift is under way, with executive-level CISO titles (either VP- or director-level) now dominating across company sizes, and they’re significantly more likely to report outside of IT, according to the IANS State of the CISO report.
+
+
+
+But the executive title brings added responsibilities — and risks.
+
+
+
+Executive-level CISOs need to ask whether they are covered by directors and officers (D&amp;O) insurance, Brown says. “They need to have conversations with executive teams and boards around liability and if they’re really an officer are they covered under the directors and officers insurance?”
+
+
+
+Brown’s charges following the SolarWinds breach focused more CISOs’ attention on their personal liability and what protections were in place — or not. “The trigger point in many ways was me being charged by the SEC and it meant a lot of CISOs having that conversation,” he says.
+
+
+
+As the role matures, Fitzgerald says, CISOs that are still largely technical will need to look to training and experience to operate as business leaders. “It’s important that we’re able to have these conversations and that we’re seen as a true partner with other executives as opposed to just a technical partner,” he tells CSO.
+
+
+
+In the early days, only large enterprises were thought to need a CISO. That’s given way as more organizations have adopted a security function, even as the role has grown and changed.
+
+
+
+Fitzgerald plots the CISO role on a similar maturity trajectory to the CIO — becoming a true executive.
+
+
+
+“It’s a younger role — 31 years since the first CISO — but if we look back at where the CIO role was at this point, we’ll see a different flavor of CISO in 10 to 15 years,” he says.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230243-0-28080600-1791188889-kajetan-powolny-XnM_Ovt6ysY-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230243/should-the-ciso-role-be-split-in-two.html,https://www.csoonline.com/feed/,2026-10-05T08:25:00Z,12,Cybersecurity
+Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE,"A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.
+
+The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTCvFj7lVSH1eLS0oYdxqBa4wQkNQvuemuCAL5XqwKueywAUl8Fg6zY-5UT9cdx3fZZ81DHX_emE9JXthW_OfH-axyWn3bE5CpCp4CDs4HREWjv_1uBtt5iJE947S-Bkn-4Mn1Shwt1kV9FF4RO9Wa7_4jmUtvbWrx2zs4-cdSg-FkUtxW-erVx2CXKhU3/s1600/hfs-rce-main.jpg,https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T08:09:23Z,10,Cybersecurity
 Alleged ShinyHunters Leader Arrested in Jordan,"Known as Rey, the suspect is reportedly helping the FBI identify and locate other members of the extortion group.
 The post Alleged ShinyHunters Leader Arrested in Jordan appeared first on SecurityWeek.
 ",,https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/,https://www.securityweek.com/feed/,2026-10-05T07:16:53Z,1,Cybersecurity
+New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline,"Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks.
+
+The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0.
+
+&#34;CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV4of0Q-gWaIOffgWXdEfAxmI1ENcyrpDSSDjBurAHSpUuAI8lASQI5wrUvL3Evb0iqA31rRywo51olFOzoWe_lQ9cwN7Sp5QQw_2h-y44n0Va4vwlRQZipZ5fkm98BRmTOoVDPTs8pUMW_ClnH2GlPobgQQ33rNzL8EBnBW84aacH3dLXdyyLW9bBEqG5/s1600/citrix-offline.jpg,https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html,https://feeds.feedburner.com/TheHackersNews,2026-10-05T06:40:19Z,15,Cybersecurity
 Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier,"Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched.
 The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first on SecurityWeek.
 ",,https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/,https://www.securityweek.com/feed/,2026-10-05T05:14:48Z,13,Cybersecurity
@@ -121,6 +748,7 @@ Pope Leo XIV is not a fan of AI-generated art,"&#34;There is an ontological diff
 "Laytr’s new app lets you save anything you find online, not just articles to read","Laytr lets you save articles, recipes, screenshots, videos, PDFs and more for later, while keeping your archive private and synced across your Apple devices.",,https://techcrunch.com/2026/10/02/laytrs-new-app-lets-you-save-anything-you-find-online-not-just-articles-to-read/,https://techcrunch.com/feed/,2026-10-02T15:31:20Z,1,Tech
 US sanctions Tren de Aragua gang members in ATM hacks crackdown,The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dollars in ATM jackpotting attacks across the United States. [...],,https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/,https://www.bleepingcomputer.com/feed/,2026-10-02T15:20:53Z,3,Cybersecurity
 TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants,Blackstone&#39;s Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.,,https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/,https://techcrunch.com/feed/,2026-10-02T15:00:00Z,5,Tech
+"US Allied Shipbuilding Gains Momentum, But Ambitions May Collide","Japan, South Korea, and the U.S. appear to have given little thought to which country should build what, or who controls the key technologies that every shipyard depends on.",https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-03-000148.jpg,https://thediplomat.com/2026/10/us-allied-shipbuilding-gains-momentum-but-ambitions-may-collide/,https://thediplomat.com/category/asia-defense/feed/,2026-10-02T14:56:00Z,0,Defense
 The 7-year-old Nvidia Shield TV is now $100 more expensive thanks to AI,"Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99.",https://cdn.arstechnica.net/wp-content/uploads/2026/01/Shield-10-yrs-1-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/,https://arstechnica.com/feed/,2026-10-02T14:52:16Z,5,Tech
 Slovenia’s .si domain sees a surge in registrations after Trump’s ‘super intelligence’ order,The .si domain name is seeing unprecedented demand after President Trump&#39;s super intelligence executive order.,,https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/,https://techcrunch.com/feed/,2026-10-02T14:47:46Z,5,Tech
 Tesla will now let you drive off mid-charge if there’s an emergency,"Tesla introduced a new feature to enable drivers to escape quickly while charging their vehicles in response to a mass shooting at a Supercharger location in Idaho in August that left seven people wounded and four dead. When a Tesla vehicle is charging, the plug is locked to the charging port and driving is disabled. […]",,https://www.theverge.com/transportation/1003967/tesla-charging-breakaway-emergency-shooting,https://www.theverge.com/rss/index.xml,2026-10-02T14:34:14Z,0,Tech
