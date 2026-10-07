@@ -1,4 +1,852 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Spotify expands audiobooks to over 180 markets,"Spotify will make 350,000 titles available in over 120 languages for this expansion ",,https://techcrunch.com/2026/10/07/spotify-expands-audiobooks-to-over-180-markets/,https://techcrunch.com/feed/,2026-10-07T07:00:00Z,5,Tech
+Android’s October 2026 Updates Patch 25 Vulnerabilities,"The patches resolve a critical vulnerability in Android’s System component that could lead to privilege escalation.
+The post Android’s October 2026 Updates Patch 25 Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/,https://www.securityweek.com/feed/,2026-10-07T06:55:52Z,10,Cybersecurity
+Atlassian Patches Critical Vulnerability Affecting 8 Products,"Unauthenticated attackers could exploit the flaw to access specific files in the web application root directory.
+The post Atlassian Patches Critical Vulnerability Affecting 8 Products appeared first on SecurityWeek.
+",,https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/,https://www.securityweek.com/feed/,2026-10-07T06:37:16Z,16,Cybersecurity
+Atlassian’s critical flaw turns eight enterprise products into one big security problem,"
+		
+					  
+						
+
+
+
+
+A newly-disclosed critical flaw in Atlassian’s data center software has a remarkably wide reach, affecting eight core products across the company’s enterprise portfolio.
+
+
+
+CVE-2026-21589, rated 9.3 (critical) in severity, is an arbitrary file access vulnerability that could allow an attacker with no login access to read files in web app root directories that they should not otherwise see, and potentially use them for nefarious purposes.
+
+
+
+The impacted products require “immediate attention,” Atlassian said in a security advisory. Customers should patch to the latest fixed versions. The company said it has not yet found evidence of exploitation in its cloud offerings, which are already patched.
+
+
+
+What is particularly concerning about this vulnerability is that it doesn’t require authentication or user interaction, and it impacts a broad set of Atlassian products that many organizations rely on for development, collaboration, and IT operations.
+
+
+
+“On the surface, arbitrary file access might not sound as serious as remote code execution, but the real issue is what an attacker could potentially get access to,” said Erik Avakian, technical counselor at Info-Tech Research Group. “The business risk isn’t simply someone reading a file; it’s what that information could potentially allow them to do next.”
+
+
+
+Patch now or isolate exposed instances.
+
+
+
+The arbitrary file access vulnerability is present in all versions of Bamboo Data Center, Bitbucket Data Center, Confluence Data Center, Crowd Data Center, Crucible, Fisheye, Jira Service Management Data Center, and Jira Software Data Center.
+
+
+
+It allows unauthenticated attackers to access the web application root directory, the base folder on a web server that contains its core structure and required files. In some configurations, there may be sensitive files present that increase risk.
+
+
+
+“If sensitive files are present in that location, the information exposed could potentially help enable a much broader attack,” Info-Tech’s Avakian explained.
+
+
+
+Using path traversal techniques, attackers could potentially access restricted files and directories outside the web root folder, Atlassian said. One mitigating circumstance: The attacker must already know a file’s exact name and path, and cannot do a directory listing.
+
+
+
+For those who can’t patch right away, the company advised removing affected instances from the internet and restricting internet-accessible instances from external network access. This includes instances that require authentication. This is because “a login page does nothing against an unauthenticated flaw,” Dickson noted.
+
+
+
+Atlassian outlined three temporary mitigations to block attackers:
+
+
+
+Customers using any of the eight listed products could apply a rule on a Web Application Firewall (WAF) or proxy layer.
+
+
+
+Another option is blocking requests using a Tomcat RewriteValve rule on each node in their data center cluster for Bamboo, Confluence, Crowd, Jira Software, and Jira Service Management. Each node should then be shut down and restarted. And Bitbucket users could back up their instances, write a rule in urlrewrite.xml, apply it to every node, mirror, and mirror farm node, and then restart.
+
+
+
+But Atlassian called the mitigations “limited and not a replacement for patching your instance,” adding that it cannot confirm whether a particular enterprise’s instances have been affected by this vulnerability. “Engage your local security team to check all affected instances for evidence of compromise,” the company advised.
+
+
+
+“The vendor cannot tell you whether you were visited. Only your logs can,” Dickson observed.
+
+
+
+Files that could unlock sensitive secrets
+
+
+
+The list of impacted products is particularly notable, Dickson pointed out: Bamboo builds and ships software. Bitbucket holds source code. Crowd manages identity and single sign-on. Jira and Confluence hold the company’s plans, service desk tickets, and documentation.
+
+
+
+“These are the keys to the kingdom,” he said. “Attackers know it.” And to access them, they need no login, no user click, and no special conditions.
+
+
+
+The patch path explains why some customer updating lags; Atlassian no longer ships binary patches, so fixing this means moving to a new maintenance release, he pointed out. That is an upgrade project rather than a quick fix, and every “we cannot update yet” is a risk acceptance.
+
+
+
+But the most telling detail may be the flaw’s scoring vector, Dickson noted. It is rated as having no impact on the vulnerable server’s own integrity and availability, but assesses high impact on subsequent systems across confidentiality, integrity, and availability. In other words, the Jira or Confluence server survives untouched, but the systems its files unlock may not.
+
+
+
+Essentially, “it is a burglar who takes nothing but the key ring by the front door,” Dickson said.
+
+
+
+Exploitation requires a target file’s exact name and path, is limited to the web application root, and cannot do directory listings. “That sounds like a high bar,” he said. But “it is lower than it looks.”
+
+
+
+Anyone can download these products and learn exactly where files live, he pointed out, and attackers also have the installation guide. 
+
+
+
+Additionally, configurations containing sensitive files increase an enterprise’s risk. “After years in production, a web root may collect configuration files, backups, and credentials nobody remembers putting there,” Dickson noted. “One readable secret becomes the first step in a much larger attack.”
+
+
+
+Bottom line: The flaw “only” reads files, but the files it reads may open everything else, he said. “Patch, and if you cannot patch today, unplug it from the internet today.” Then, he advised, filter, search access logs for the published traversal pattern, and decode each line. If you find hits, assume the file was read. From there, rotate every credential, token, and key that could have lived in the web root.
+
+
+
+Going forward, enterprises should focus on reducing their external exposure as much as possible and restrict access using VPNs, trusted networks, segmentation, or other controls, Info-Tech’s Avakian advised. Rotate sensitive credentials or secrets if exposure is suspected.
+
+
+
+However, he noted: “These are compensating controls and they can certainly buy you time, but they shouldn’t be viewed as a replacement for getting to a tested and validated fixed version.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4231527-0-74365700-1791337913-dreamstime_m_169236571.jpg?quality=50&strip=all,https://www.csoonline.com/article/4231527/atlassians-critical-flaw-turns-eight-enterprise-products-into-one-big-security-problem.html,https://www.csoonline.com/feed/,2026-10-07T01:51:40Z,21,Cybersecurity
+From Patriot to Maven: Lessons for the Pentagon’s new autonomy command,"AUTOWARCOM will have a big task. Luckily, it’s not starting from scratch.",,https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-patriot-maven/416444/,https://www.defenseone.com/rss/all/,2026-10-07T01:48:42Z,0,Defense
+Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System,"The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.
+The post Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System appeared first on SecurityWeek.
+",,https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/,https://www.securityweek.com/feed/,2026-10-07T01:32:58Z,4,Cybersecurity
+OpenAI drops another batch of mathematical breakthroughs,"OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and […]",,https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github,https://www.theverge.com/rss/index.xml,2026-10-06T23:26:38Z,10,Tech
+How to find out if Amazon thinks you have ‘flat buttocks’,"&#34;I stumbled upon a page of assumptions that Amazon has made about me based on my purchases and I’m literally speechless,&#34; one shopper wrote on Threads.",,https://techcrunch.com/2026/10/06/how-to-find-out-if-amazon-thinks-you-have-flat-buttocks/,https://techcrunch.com/feed/,2026-10-06T22:55:39Z,0,Tech
+"Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",Apple appears poised to push into the smart home market with a slate of new devices and a key partner.,,https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/,https://techcrunch.com/feed/,2026-10-06T22:53:09Z,1,Tech
+Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product,The startup crossed over $1 million in anualized revenue within two months of its post-pivot launch.,,https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/,https://techcrunch.com/feed/,2026-10-06T22:34:03Z,9,Tech
+Xbox has secured exclusive GTA 6 streaming rights,"Xbox CEO Asha Sharma told employees that Microsoft is getting ready to do something around Grand Theft Auto VI that &#34;no other platform holder is doing&#34; during an employee all-hands this morning. According to sources familiar with Microsoft&#39;s plans, Xbox has managed to land a deal for the exclusive game streaming rights for Grand Theft […]",,https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights,https://www.theverge.com/rss/index.xml,2026-10-06T22:12:27Z,0,Tech
+The best robot vacuum and mop deals during October Prime Day,"Spending too much time constantly sweeping and mopping? If you have the money to delegate those chores to a robot cleaner, you could save a lot of personal time. Thankfully, it’s cheaper than usual to buy a robot vacuum / mop hybrid during Amazon’s Prime Big Deal Days, and some of our favorite models are […]",,https://www.theverge.com/gadgets/1006059/robot-vacuum-mop-roborock-qrevo-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T22:00:00Z,0,Tech
+"Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat","Apple is collaborating with LG on a new lineup of smart home devices, including a video doorbell, thermostat, indoor camera, and more, according to a report from Bloomberg. The products will reportedly feature LG branding but integrate with the company&#39;s rumored smart home hub that&#39;s expected to launch during an event on October 13th. Sources […]",,https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc,https://www.theverge.com/rss/index.xml,2026-10-06T21:39:53Z,1,Tech
+"Drone strikes, likely Russian, sink ships in NATO countries’ economic zones","Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/Drone-strikes-on-grain-cargo-ships-near-Odesa-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/,https://arstechnica.com/feed/,2026-10-06T21:31:10Z,5,Tech
+"Sebastian Maniscalco’s SiriusXM channel is hurting up-and-coming talent, comics say","Comedian Sebastian Maniscalco is facing backlash from fellow comics who claim his takeover of SiriusXM&#39;s Raw Comedy channel is harming up-and-coming talent, as reported earlier by Deadline. Many established comics, including Patton Oswalt and Margaret Cho, have posted videos online calling on Maniscalco to carry on Raw Comedy&#39;s legacy by highlighting newer comedians on his […]",,https://www.theverge.com/entertainment/1006221/sebastian-maniscalco-siriusxm-channel-controversy,https://www.theverge.com/rss/index.xml,2026-10-06T21:10:13Z,5,Tech
+Ninja Forms plugin flaw exploited to hack WordPress sites,"Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",,https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/,https://www.bleepingcomputer.com/feed/,2026-10-06T21:00:27Z,3,Cybersecurity
+Building Git infrastructure for agent-scale development,"We&#39;re rebuilding GitHub&#39;s Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.
+The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog.
+",,https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/,https://githubengineering.com/atom.xml,2026-10-06T20:57:56Z,0,General
+OpenAI will watermark ChatGPT outputs by default—but only in the EU,"Like other solutions, it is not especially reliable, and easy to circumvent.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/chatgpt-icon-1152x648-1789154124.jpg,https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/,https://arstechnica.com/feed/,2026-10-06T20:50:32Z,5,Tech
+"Silicon Valley’s AI wunderkind launches Underdog, the most private Instinct/Muse competitor yet","Sigil Wen, backed by a Silicon Valley&#39;s who-who, has built an on-device AI assistant that promises to be free, fully private, and capable for everyday tasks.",,https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/,https://techcrunch.com/feed/,2026-10-06T20:47:01Z,5,Tech
+Tesla&#8217;s Model 3 and Model Y can be a backup battery for your house,"Some Tesla Model 3 and Model Y owners can use their EV battery to keep the lights on longer during a power outage, now that Tesla&#39;s expanding the Powershare Home Backup feature. It was previously only available on the Cybertruck, and also requires owning Tesla&#39;s Powerwall 3. However, support for the Powerwall 2 and Powerwall […]",,https://www.theverge.com/transportation/1006193/tesla-model-3-model-y-powershare-home-backup,https://www.theverge.com/rss/index.xml,2026-10-06T20:37:54Z,5,Tech
+How AI decision models could change content moderation,"On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights. ",,https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/,https://techcrunch.com/feed/,2026-10-06T20:35:20Z,5,Tech
+"HBO Max, Paramount+, and Discovery+ ""will unify into a single service”",A combined service could lead to higher prices. ,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298278370-1024x648.jpg,https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/,https://arstechnica.com/feed/,2026-10-06T20:32:12Z,0,Tech
+Google’s power-hungry data centers crave nuclear energy,"Google announced a new agreement to update six nuclear power plant sites across the US as the tech giant seeks to generate more electricity for its power-hungry data centers. Google signed the 20-year deal with Constellation, the leading nuclear power plant operator in the US. The power purchase agreement is meant to guarantee the revenue […]",,https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation,https://www.theverge.com/rss/index.xml,2026-10-06T20:32:10Z,1,Tech
+AI computing startup Lambda to raise $4B ahead of planned IPO,"Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",,https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/,https://techcrunch.com/feed/,2026-10-06T20:00:30Z,8,Tech
+Amazon’s last-gen Kindle Paperwhite is 30 percent off,"Calling something “last-gen” usually means it comes with big compromises compared to the latest version. That’s not as true for the last-gen Kindle Paperwhite as it is with some other tech. The newer version can open books 30 percent faster (not the same as page-turning speed), and its aluminum design is a millimeter thinner — […]",,https://www.theverge.com/gadgets/1006020/amazon-kindle-paperwhite-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T20:00:00Z,0,Tech
+The next hurdle for AI agents: getting websites to let them in,"Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help. ",,https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/,https://techcrunch.com/feed/,2026-10-06T19:56:50Z,5,Tech
+It looks like the Atlantic storm season may finally produce a hurricane,"To date, this Atlantic tropics year has been exceptionally quiet.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-deepmind-1015x648.jpg,https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/,https://arstechnica.com/feed/,2026-10-06T19:55:50Z,0,Tech
+"Save on MacBooks, iPads and Apple Watches during October Prime Day","Amazon’s October Big Deal Days are underway (lasting through tomorrow night), and we spotted a ton of Apple products and accessories in the sale, ranging from laptops and headphones to desktops and more. Some of the deals are only for Prime members, but other retailers are often matching or beating Amazon’s prices, and we’ll continue […]",,https://www.theverge.com/gadgets/1005662/apple-ipad-macbook-airpod-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T19:30:00Z,6,Tech
+Hackers exploit 32 zero-days on first day of Pwn2Own Ireland,"On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",,https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/,https://www.bleepingcomputer.com/feed/,2026-10-06T19:21:53Z,9,Cybersecurity
+Hackers obtain counterfeit TLS certificates for Google and other large services,Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-1152x648.jpg,https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/,https://arstechnica.com/feed/,2026-10-06T19:21:14Z,5,Tech
+Two mystery PlayStation products have leaked — one might be a PlayStation Portal OLED,"Is Sony about to announce a new PlayStation Portal game streaming handheld? The Wi-Fi Alliance recently certified two unannounced PlayStation products of some kind, and the certification documents indicate that they could be updates to the PlayStation Portal, which might mean we&#39;re getting the OLED screen rumored earlier this year. The two devices, which are […]",,https://www.theverge.com/games/1006092/playstation-portal-oled-wi-fi-alliance-certifications,https://www.theverge.com/rss/index.xml,2026-10-06T19:12:26Z,1,Tech
+Alexa can’t control the aux input on Amazon Echo speakers anymore,"If you&#39;ve been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon and says an unnamed spokesperson confirmed the change. When contacted by […]",,https://www.theverge.com/tech/1006103/amazon-alexa-aux-voice-commands,https://www.theverge.com/rss/index.xml,2026-10-06T19:03:56Z,5,Tech
+The Sonos Beam 2 soundbar is $140 off,"The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s […]",,https://www.theverge.com/gadgets/1004180/sonos-beam-2-soundbar-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T19:00:00Z,0,Tech
+"Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes","Cybersecurity researchers have disclosed details of a &#34;human-operated phishing platform&#34; that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.
+
+The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOD8Nta3AzEJA8JDouSAdwr3Obls6VzxBZwHHerzX0eZDKBTqWzVrAmZbX8VrvxKN1QNooX5GVAahBTaqPkWWcqRCO12MDDHWjboFPyw5FU1BaH07_wQhZkUNOROwHLFneZKKBY8oxjPTs0CpBF52UrLjeloGDwolt4udNn-ojCQNvvGvmo1TXdS3wNJlw/s1600/muse.png,https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T18:38:55Z,5,Cybersecurity
+"FBI removes contractor working with its PeopleSoft system after data breach, says report","
+		
+					  
+						
+
+
+
+
+The US Federal Bureau of Investigation has removed an Accenture contractor working on its PeopleSoft installation over their role in a data breach that exposed personal details of FBI employees, Reuters reported Monday.
+
+
+
+This is the first time that anyone other than the hacker group Shinyhunters that claimed responsibility for the breach has linked it to PeopleSoft.
+
+
+
+“To date, our review has determined that the incident occurred as the result of a security failure of a platform managed by a third-party organization — after a contractor failed to implement a security patch explicitly issued to secure the platform,” FBI Cyber Division Assistant Director Brett Leatherman told Reuters. “As such, the FBI has removed the contractor and taken all necessary steps to both mitigate any further risk and protect our workforce.”
+
+
+
+Accenture was the third-party organization Leatherman would not identify, “two sources familiar with the matter” told Reuters. 
+
+
+
+As for the unnamed, unpatched platform, Reuters’ sources said that was Oracle PeopleSoft, the HR system that hacker group ShinyHunters claimed to have exploited in last month’s break-in.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/10/4231356-0-50535100-1791311329-Praxistipps-vom-FBI-zum-Schutz-vor-KI-Cyberangriffen.jpg?quality=50&strip=all,https://www.csoonline.com/article/4231356/fbi-removes-contractor-working-with-its-peoplesoft-system-after-data-breach-says-report.html,https://www.csoonline.com/feed/,2026-10-06T18:26:16Z,10,Cybersecurity
+Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan,"Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.
+
+Threat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42ncE2ZMHIbAm_fj5U9fqCYUvPwhyUiNbARM3CC5IxhnMXjIZ2ENa99UDGeaZqGPlqn53A7y7Nkz1ZxzzyykKxEb4GT0jxWhrar9Q5yPmBN1NL6599HRdbzbLSYf3WPuU7tkkY5eOsvhAT9dw-24DXuusztPyRr2H66840cWZx17MZ0B-rB877W19bgX1/s1600/linux-spam.jpg,https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T18:24:25Z,4,Cybersecurity
+Hark releases an AI personal assistant with a focus on privacy,"The AI lab&#39;s personal assistant is an operating system from the future designed to compete with Muse, Dots and Instinct. ",,https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/,https://techcrunch.com/feed/,2026-10-06T18:22:45Z,5,Tech
+The best deals under $25 during October Prime Day,"You could spend a lot on gadgets in our main October Prime Day roundup and get maybe one or two things. That’s all well and good, but you could spend as much (or less) and have a bunch of items arrive at your home instead. If you’re on a tight budget, or you just have […]",,https://www.theverge.com/gadgets/1005547/the-best-deals-under-25-during-october-prime-day,https://www.theverge.com/rss/index.xml,2026-10-06T18:15:00Z,6,Tech
+Samsung’s Z Fold 8 is hundreds off ahead of iPhone Duo launch,"I don’t suppose there are many iPhone users who might be tempted by the Samsung Galaxy Z Fold 8 now that the iPhone Duo is both real and coming very soon. But if you’ll entertain a great deal, there are big discounts happening for both the passport-style Z Fold 8 and the slimmer, taller Z […]",,https://www.theverge.com/gadgets/1005524/samsung-z-fold-8-ultra-foldable-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T18:00:00Z,6,Tech
+Netflix expands TV game lineup with Conjuring spinoff,"Netflix just announced The Conjuring: Unspoken, a new horror game set in The Conjuring universe that you can play with your phone as a controller, and it will launch exclusively on the service on October 13th. Here&#39;s Netflix&#39;s description of the game: The Conjuring: Unspoken is an interactive paranormal investigation you can play from your […]",,https://www.theverge.com/streaming/1005942/netflix-the-conjuring-unspoken-games,https://www.theverge.com/rss/index.xml,2026-10-06T17:43:59Z,0,Tech
+"Atlassian warns of critical file-access flaw in Jira, Confluence","Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",,https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/,https://www.bleepingcomputer.com/feed/,2026-10-06T17:34:59Z,17,Cybersecurity
+"Paramount completes $111B Warner merger, creating “Skydance” behemoth",Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg,https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/,https://arstechnica.com/feed/,2026-10-06T17:33:44Z,5,Tech
+Our first five impressions of Googlebooks — exciting but underbaked,"Googlebooks are here. The first models went on sale Sunday, October 4th, and we received review units of all five Googlebooks about 24 hours ago. Since then, we&#39;ve been in a mad dash to put the devices through their paces and get a check on what it&#39;s like to use these Android laptops. At first […]",,https://www.theverge.com/tech/1005745/google-googlebook-android-laptops-dell-acer-asus-lenovo-hp-impressions,https://www.theverge.com/rss/index.xml,2026-10-06T17:31:59Z,1,Tech
+Make Ars better with an ArsPro subscription,ArsPro gives you more ways to read while directly supporting our journalism.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/ars-subscriber-reading-modes-1152x648.jpg,https://arstechnica.com/staff/2026/10/make-ars-better-with-an-arspro-subscription/,https://arstechnica.com/feed/,2026-10-06T17:21:15Z,0,Tech
+Apple TV’s great year continues with Small Prophets,"Apple TV has had a really great run in 2026 - and a cozy new addition is helping expand its lineup even more. As the streaming service has attempted to grow in order to better compete with the likes of Disney and Netflix, it has steadily broadened the range of its series. This year has […]",,https://www.theverge.com/entertainment/1005781/small-prophets-review-apple-tv,https://www.theverge.com/rss/index.xml,2026-10-06T17:15:16Z,1,Tech
+India’s JioHotstar takes partnership route for Middle East expansion,JioHotstar will be offered inside Starzplay rather than through a standalone service.,,https://techcrunch.com/2026/10/06/indias-jiohotstar-takes-partnership-route-for-middle-east-expansion/,https://techcrunch.com/feed/,2026-10-06T17:14:07Z,0,Tech
+Amazon bricks Alexa’s ability to control Echo speakers' AUX input,Amazon hasn&#39;t made an Echo with a 3.5mm port in six years. ,https://cdn.arstechnica.net/wp-content/uploads/2018/11/71I6oj6ZFBL._SL1000_-1000x648.jpg,https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/,https://arstechnica.com/feed/,2026-10-06T17:03:16Z,0,Tech
+Anker’s 100W universal charger is a great travel gadget for $64,"For frequent travelers who like to pack light, the Anker Nano 100W universal travel adapter packs multiple USB ports and is equipped with the ability to adapt to outlets in over 200 countries and regions with its US, UK and EU plugs. During October Prime Day, it’s only $63.99 (usually $79.99) at Amazon. The adapter […]",,https://www.theverge.com/gadgets/1004339/anker-nano-100w-universal-travel-charger-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T17:00:00Z,1,Tech
+Neutrino physicist wins 2026 Nobel Physics Prize,Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/icecube1-1152x648.jpg,https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/,https://arstechnica.com/feed/,2026-10-06T16:53:17Z,0,Tech
+Mirror Particle is building a ‘world model’ of human behavior,"Mirror Particle will launch at TechCrunch Disrupt Startup Battlefield with a world model built from scratch to predict human behavior, arguing LLM roleplay falls short for market research and brand strategy.",,https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/,https://techcrunch.com/feed/,2026-10-06T16:35:00Z,3,Tech
+ASOS confirms data breach after “HACKED” in-app notifications,UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company&#39;s Snowflake environment. [...],,https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/,https://www.bleepingcomputer.com/feed/,2026-10-06T16:33:54Z,4,Cybersecurity
+Our favorite headphones and earbuds are cheaper during October Prime Day,"We spotted a variety of discounted headphones and earbuds during October’s Prime Big Deals Days, with some of our favorite options discounted to at (or near) their all-time low prices. While some deals on Amazon require a Prime subscription, there are plenty that are available to anyone, and other retailers have gotten in on the […]",,https://www.theverge.com/gadgets/1004886/october-prime-day-big-deals-days-headphones-earbuds-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T16:30:00Z,5,Tech
+We can’t just change the definition of ‘recording’,"With AI hardware, tech companies are pushing the definition of what does and doesn&#39;t constitute a recording. For most of gadget history, it&#39;d be reasonable to assume that a device with a microphone or camera is either recording you or it isn&#39;t; it&#39;s either on or off, without much gray area. Microphones capture sound. Cameras […]",,https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording,https://www.theverge.com/rss/index.xml,2026-10-06T16:29:44Z,7,Tech
+Furientis lands $25M from Benchmark to mass-produce low-cost missile interceptors,The storied Silicon Valley firm makes its first pure defense investment.,,https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/,https://techcrunch.com/feed/,2026-10-06T16:29:12Z,0,Tech
+"Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4","There isn’t a single manual to read or prompt to give an LLM that can equip you with the skills and knowledge to build a company. But on November 4, TechCrunch Founder Summit gives founders the next-best thing: A packed day at Boston&#39;s SoWa Power Station, where investors and operators share how they&#39;ve navigated crucial decisions.",,https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/,https://techcrunch.com/feed/,2026-10-06T16:18:45Z,5,Tech
+"Googlebook ""Better Together"" phone features don't work with Samsung at launch","Googlebooks require Android 17, but Samsung&#39;s Android 17 phones won&#39;t work yet.",https://cdn.arstechnica.net/wp-content/uploads/2026/09/Continue-On-Image-1-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/,https://arstechnica.com/feed/,2026-10-06T16:15:50Z,0,Tech
+HBO Max and Paramount Plus will merge into a single streamer under Skydance,"HBO Max and Paramount Plus will become one streaming service under Paramount&#39;s $110 billion acquisition of Warner Bros. Discovery. In a press release announcing the completion of the deal, Skydance - the name of the combined companies - says both streamers will &#34;unify into a single service over time.&#34; Skydance CEO David Ellison hinted at […]",,https://www.theverge.com/entertainment/1005696/hbo-max-paramout-plus-merge-skydance,https://www.theverge.com/rss/index.xml,2026-10-06T16:03:06Z,3,Tech
+"Why is NASA bringing 7,500 contractors back to work as civil servants?",&#34;The administrator&#39;s directive is a coherent and necessary vision for the future.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/10/NASA-AMes-1152x648.jpeg,https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/,https://arstechnica.com/feed/,2026-10-06T16:00:02Z,0,Tech
+Arturia adds proper sound design tools to its AstroLab synths,"Arturia&#39;s AstroLab series was already amongst the best stage keyboards out there. They essentially put the company&#39;s AnalogLab suite of vintage synth emulations, sampled pianos, and original instrument plugins into playable hardware. But they were ultimately glorified preset browsers. You could lightly tweak patches using the four macro controls, or dial in some effects, but […]",,https://www.theverge.com/gadgets/1005671/arturia-astrolab-synth-firmware-update,https://www.theverge.com/rss/index.xml,2026-10-06T16:00:00Z,1,Tech
+The stylish Nothing Headphone 1 are cheaper than ever,"There’s no denying that Nothing knows how to make eye-catching headphones. If you’re considering a new pair of over-ear cans, the Nothing Headphone 1 pack style and great sound, and they’re on sale for $189 at Amazon. That’s a big discount considering the usual price drifts between $240 and $299. In addition to the unique […]",,https://www.theverge.com/gadgets/1004290/nothing-headphone-1-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T16:00:00Z,5,Tech
+"Anthropic is giving startups a free year of Claude Team and $1,000 in credits","&#34;We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.&#34;",,https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/,https://techcrunch.com/feed/,2026-10-06T16:00:00Z,8,Tech
+LibreOffice says ‘no AI’ is now a software feature,"The maker of the open source document editor says it has no plans to add AI to its software&#39;s default configuration, citing user privacy.",,https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/,https://techcrunch.com/feed/,2026-10-06T15:25:00Z,6,Tech
+All-electric camping gets a solar upgrade: The 2027 Pebble Flow,"The Pebble Flow has a 45 kWh LFP battery and can even charge an EV.
+",https://cdn.arstechnica.net/wp-content/uploads/2026/10/Pebble-Flow-01-a-l1022800-1152x648.jpg,https://arstechnica.com/cars/2026/10/this-self-parking-electric-travel-trailer-gets-a-solar-upgrade-for-2027/,https://arstechnica.com/feed/,2026-10-06T15:23:28Z,0,Tech
+"Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes","A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",,https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/,https://www.bleepingcomputer.com/feed/,2026-10-06T15:16:44Z,3,Cybersecurity
+Vinod Khosla believes ex-Deepmind engineer’s Wajo will win agent market on trust,Wajo&#39;s Fo agent can hire humans to complete a task.,,https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/,https://techcrunch.com/feed/,2026-10-06T15:15:00Z,0,Tech
+The earbuds with the best call quality are cheaper than ever,"Normally $169.99, the Soundcore Liberty 5 Pro are discounted to $135.99 during Amazon’s October sale, beating their previous low price of $149.99, and coming in $14 lower than the AirPods 5. While these earbuds stand out for a number of reasons, like great ANC and a handy screen on the charging case, our favorite aspect […]",,https://www.theverge.com/gadgets/1004111/soundcore-liberty-5-pro-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T15:00:00Z,5,Tech
+Bluesky wants to give you your own domain on the open web,"Bluesky says the process will still take 18-24 months, so don&#39;t expect your new, shortened &#39;bsky&#39; handle any time soon. ",,https://techcrunch.com/2026/10/06/bluesky-wants-to-give-you-your-own-domain-on-the-open-web/,https://techcrunch.com/feed/,2026-10-06T14:41:52Z,5,Tech
+Emmys will move from broadcast TV to Prime Video in 2027,Non-Amazon Prime subscribers will be able to watch the awards show on the platform.,,https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/,https://techcrunch.com/feed/,2026-10-06T14:37:31Z,0,Tech
+New leaks reveal more details about the Fitbit Edge including its price,"Following more images of the previously leaked Google Fitbit Edge surfacing a few days ago, new details about the upcoming fitness tracker have been revealed, including potential features and pricing. The Fitbit Edge will reportedly sell for €179 in Europe, and £159 in the UK, according to leaked details shared by Dealabs. Given the €99/£85 […]",,https://www.theverge.com/tech/1005519/google-fitbit-edge-leak-fitness-tracker-price-features,https://www.theverge.com/rss/index.xml,2026-10-06T14:37:28Z,5,Tech
+"A Trump Mobile breach may have exposed data of more than 3,600 people","Trump Mobile appears to have suffered a data breach that may have exposed the data of 3,615 people, according to reports from PCMag and Straight Arrow News. The breach reportedly included names, home addresses, emails, phone numbers, and order information. PCMag and Straight Arrow News contacted several individuals in the dataset, who confirmed that the […]",,https://www.theverge.com/tech/1005546/trump-mobile-data-breach-leak,https://www.theverge.com/rss/index.xml,2026-10-06T14:35:24Z,6,Tech
+Mistral’s new 1T model aims to leapfrog closed and open rivals,"French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",,https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/,https://techcrunch.com/feed/,2026-10-06T14:33:16Z,5,Tech
+FBI Blames Contractor’s Missed Patch for ShinyHunters Breach,"The FBI has removed an Accenture contractor over a data breach that exposed personal information of thousands of bureau employees.
+The post FBI Blames Contractor’s Missed Patch for ShinyHunters Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/,https://www.securityweek.com/feed/,2026-10-06T14:15:00Z,6,Cybersecurity
+Pinterest’s AI now turns beauty Pins into action plans,"Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times and maintenance needs.",,https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/,https://techcrunch.com/feed/,2026-10-06T14:00:49Z,7,Tech
+Uber is spending $2.3B to get into catering,It&#39;s the latest in a string of deals meant to grow Uber Eats into a food delivery behemoth.,,https://techcrunch.com/2026/10/06/uber-is-spending-2-3b-to-get-into-catering/,https://techcrunch.com/feed/,2026-10-06T14:00:25Z,0,Tech
+How to secure RMM software: 8 controls MSPs should test,"RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patching and privileged access to recovery and tenant isolation. [...]",,https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/,https://www.bleepingcomputer.com/feed/,2026-10-06T14:00:10Z,3,Cybersecurity
+Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed,"Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here&#39;s the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",,https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/,https://techcrunch.com/feed/,2026-10-06T14:00:00Z,1,Tech
+The Pixel Watch 5 is a better value at $65 off,"The Google Pixel Watch 5 is discounted by $60 during Amazon’s October sale, with the 41mm version on sale for $334.99, and the 45mm version for $364.99. The latest version of Google’s smartwatch rolled out alongside the Pixel 11 phones in August with improved GPS, gesture controls, and offline Gemini, although we had mixed results […]",,https://www.theverge.com/gadgets/1003583/pixel-watch-5-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T14:00:00Z,0,Tech
+Paramount closes historic Warner Bros. merger to form Skydance,"The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, MTV, TBS, Comedy Central, and Food Network.",,https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/,https://techcrunch.com/feed/,2026-10-06T13:57:32Z,0,Tech
+China’s Revised Defense Mobilization Law Touches Nearly Every Sector,"The circumstances under which mobilization can be declared are wider than ever, and a large number of entities – including private firms – are legally obligated to the state during wartime. ",https://images.thediplomat.com/v1/td-list-l-2/2025/12/thediplomat_2025-12-29-222508.jpg,https://thediplomat.com/2026/10/chinas-revised-defense-mobilization-law-touches-nearly-every-sector/,https://thediplomat.com/category/asia-defense/feed/,2026-10-06T13:45:00Z,0,Defense
+Paramount and Warner Bros. Discovery complete $110 billion media megamerger,"Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined company known as Skydance. The merger officially puts Paramount and WBD&#39;s film studios, along with major networks and brands like HBO, CBS News, and CNN, under one roof. The road to the media megamerger has been a rocky one for Paramount, […]",,https://www.theverge.com/entertainment/1005480/paramount-warner-bros-discovey-merger-closed,https://www.theverge.com/rss/index.xml,2026-10-06T13:32:43Z,3,Tech
+Big Oil asks Supreme Court to kill climate lawsuits before trial,Oil companies say federal law should block state climate deception claims.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/oilprotest-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/,https://arstechnica.com/feed/,2026-10-06T13:29:46Z,5,Tech
+Amazon reportedly pays $120 million to stream the Emmys for free,"The Emmys have a new home - and it looks like Amazon paid plenty for the rights. The awards show and Amazon announced a six-year deal that will move the Emmys from its traditional broadcast television home to Prime Video. The shift begins with the 2027 ceremony, which will air next September, though you won&#39;t […]",,https://www.theverge.com/entertainment/1005436/amazon-prime-video-emmys-deal,https://www.theverge.com/rss/index.xml,2026-10-06T13:26:52Z,5,Tech
+Google is about to remove free access to Gemini Flash and Pro,"Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you&#39;ll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a […]",,https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only,https://www.theverge.com/rss/index.xml,2026-10-06T13:19:01Z,5,Tech
+I can’t use Apple’s new Screen Time on my daughter’s iPhone because my son won&#8217;t update his MacBook,"After suffering years of frustration with Apple&#39;s parental control features, I&#39;ve been eagerly anticipating the revamped Screen Time that launched last month with iOS 27. Unfortunately, I can&#39;t use it. Technically, this is because my 18-year-old son hasn&#39;t got round to updating his MacBook. But mostly, it&#39;s because Apple&#39;s rollout of the new feature has […]",,https://www.theverge.com/tech/1005193/apple-screen-time-update-struggles-ios-27-parental-controls,https://www.theverge.com/rss/index.xml,2026-10-06T13:15:28Z,2,Tech
+Glimpse wants to give hardware companies an X-ray view of every critical part,"Called Explore, Glimpse&#39;s new image processing software lets hardware makers speed up quality control checks using CT scanners.",,https://techcrunch.com/2026/10/06/glimpse-wants-to-give-hardware-companies-an-x-ray-view-of-every-critical-part/,https://techcrunch.com/feed/,2026-10-06T13:15:00Z,2,Tech
+"Flai’s AI dealership software is booking 50,000 appointments per month","Flai&#39;s revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round.",,https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/,https://techcrunch.com/feed/,2026-10-06T13:00:00Z,10,Tech
+The wireless headphones that roll up into a Bluetooth speaker are now available,"Following their debut at CES 2026 and a successful Kickstarter crowdfunding campaign last February, Tomorrow Doesn&#39;t Matter&#39;s (TDM) Neo headphones are now available in the US. While Sony recently opted to reintroduce a headphone design from six years ago, TDM&#39;s Neo delivers some genuinely unique headphone functionality through a flexible headband and extra drivers, allowing […]",,https://www.theverge.com/tech/1004860/tomorrow-doesnt-matter-tdm-neo-headphone-roll-up-bluetooth-speaker-us-availability,https://www.theverge.com/rss/index.xml,2026-10-06T13:00:00Z,8,Tech
+FBI Arrests ‘Most Wanted’ Developer of Ploutus ATM Malware,"An alleged leader of Tren de Aragua’s ATM jackpotting activities, Canelon Aguirre was on the FBI’s top 10 most wanted list since March 2026.
+The post FBI Arrests ‘Most Wanted’ Developer of Ploutus ATM Malware appeared first on SecurityWeek.
+",,https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/,https://www.securityweek.com/feed/,2026-10-06T12:47:57Z,4,Cybersecurity
+Facebook tests going Reels-first in India,"Meta is testing a new Facebook UX in India that sends some users directly into full-screen video when they open the app, putting Reels front and center.",,https://techcrunch.com/2026/10/06/facebook-tests-going-reels-first-in-india/,https://techcrunch.com/feed/,2026-10-06T12:38:53Z,1,Tech
+The easiest Apple Watch to recommend is $50 off,"The Apple Watch SE 3 is the smartwatch that we recommend for most people because it’s affordable, yet packed with most of the features found in pricier versions. We spotted Amazon October Prime Day discounts across the lineup, including both the 40mm and 44mm sizes, and GPS only or cellular options. The Wi-Fi and GPS […]",,https://www.theverge.com/gadgets/1002889/apple-watch-se-3-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T12:30:00Z,1,Tech
+OpenAI agents tried to hack Wikipedia tools and flooded it with traffic,The reports of OpenAI agents harming 3rd party sites keep coming.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agentic-hacking-1152x648.jpg,https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/,https://arstechnica.com/feed/,2026-10-06T12:21:53Z,5,Tech
+Operational complexity a top barrier for VMware migrations: Survey,Users want to &#34;reduce risk and avoid unnecessary disruption&#34; while making changes.,https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1934095718-1152x648.jpg,https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/,https://arstechnica.com/feed/,2026-10-06T12:00:31Z,0,Tech
+The planetary wave headed for California isn’t what you think it is ,"A rather strong &#34;planetary wave&#34; recently slammed into South America and is making its way toward California. In case you&#39;re worried about headlines warning of the supposedly &#34;freak&#34; phenomenon &#34;bringing trouble,&#34; it&#39;s worth understanding what this wave really is and isn&#39;t. Called a Kelvin wave, it&#39;s carrying warm water to the Americas that&#39;s typically trapped […]",,https://www.theverge.com/science/1005077/el-nino-planetary-wave-kelvin,https://www.theverge.com/rss/index.xml,2026-10-06T12:00:00Z,1,Tech
+Type One Energy raised $200M to build a fusion power plant by 2034,"Type One Energy is betting that its lean approach to fusion power will get a power plant on the grid faster, and investors have rewarded it with $200 million.
+",,https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/,https://techcrunch.com/feed/,2026-10-06T12:00:00Z,6,Tech
+LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings,"A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker&#39;s code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro.
+
+The attack works only when the program&#39;s Java support is enabled. So far, it has only been shown as a proof of concept, and there are no reports of its use in",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYVdFxWk-OP9_vpIdzp0S9ffqMNnyAMbRWKklSryVockcistDlpX5ZcfLGluaqpHqdsu_DoOaFq2J1z5jTVNatxS8aoQjMNS1PoEYOAZrj1V1Spdk67LUZgSlSPlqeEULSVSbHZfkCimWV56E2HKs_IUNrJaYFrPPq0YaXS2sEMBVZNJM0f2ydfUMFREw/s1600/office-sheet.jpg,https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T11:57:00Z,9,Cybersecurity
+New Linux malware turns vulnerable IoT devices into proxy nodes,"
+		
+					  
+						
+
+
+
+
+A new Linux backdoor is turning vulnerable internet-facing devices into remotely controlled proxy nodes, while using the public Session Traversal Utilities for NAT (STUN) infrastructure to blend into normal VoIP and WebRTC traffic.
+
+
+
+Fortinet’s FortiGuard Labs said it has been tracking the malware, dubbed ClingSTUN, across multiple attacks exploiting known vulnerabilities in routers, IoT devices, DVRs and other network-connected hardware.
+
+
+
+The malware was seen exploiting flaws including command injection, code injection, and buffer overflows to gain an initial foothold, with Fortinet observing attackers switch between different vulnerabilities and download sources as the campaign evolved.
+
+
+
+“A device does not need to hold sensitive data to be useful to an attacker,” said Jason Soroko, senior fellow at Sectigo. “ClingSTUN lets attackers relay traffic through compromised devices and run commands on them.”
+
+
+
+That makes the compromised device useful even when it is not itself a valuable target. Fortinet described it as a “back-connect proxy backdoor” capable of maintaining persistence, executing remote commands and propagating itself to other vulnerable devices.
+
+
+
+Louis Eichenbaum, federal chief technology officer at ColorTokens, said the campaign calls for better mitigation strategies. “When a vulnerable device cannot be remediated immediately, defenders should be able to place compensating controls around it, restricting its Internet exposure, limiting what it can communicate with and closely monitoring its behavior until the vulnerability can be resolved,” he said.
+
+
+
+Hiding where defenders may not look
+
+
+
+ClingSTUN was found targeting a wide range of products, including Hytec routers, EnGenius IoT services, D-Link devices, TP-Link Archer AX21 routers, AVTECH cameras and other equipment. The researchers said the malware currently has multiple known entry points and continues to evolve, with additional vulnerabilities being incorporated into the attack chain.“Updates take time to test and deploy, some operational and IoT devices cannot be taken offline easily, and many legacy products are no longer supported by their manufacturers,” Eichenbaum noted. “Attackers understand this reality and continue targeting known vulnerabilities because those weaknesses remain effective.”
+
+
+
+Once installed, ClingSTUN takes steps to make removal and detection more difficult. It copies itself to hidden locations, adds entries to /etc/inittab, /etc/init.d/rcs, and /etc/rc.d/rc.boot to launch at startup, kills competing processes, and disables the watchdog timer.
+
+
+
+It can also hide its process information by making its “/proc” entry resemble the system’s init process, the researchers said in a blog post.
+
+
+
+The malware also supports multiple Linux architectures, including ARM, Intel 80386, MIPS, PowerPC and x86-64, allowing the same operation to target a broad range of embedded hardware.
+
+
+
+The malware uses legitimate STUN traffic
+
+
+
+STUN is normally used to help applications discover their public-facing IP address and port and establish connectivity through Network Address Translation (NAT). ClingSTUN abuses this infrastructure rather than using exclusive attacker-controlled servers.
+
+
+
+Fortinet observed the malware sending standard STUN binding requests to public endpoints, then periodically sending identifying information and mapped-port data to those services. The network security company said the malware contains exploits for seven vulnerabilities that can be used to spread to additional devices.
+
+
+
+“Its use of legitimate public STUN services shows why checking a destination’s reputation is not enough to judge whether traffic is safe,” Soroko said. “Security teams should investigate why a device is making those connections, rather than assume the service it contacts is malicious or compromised.”
+
+
+
+The device’s behavior matters more than whether the destination appears on a blocklist, he noted.
+
+
+
+For defenders, Fortinet recommends maintaining an accurate inventory of internet-facing devices, tracking firmware and support status, applying available security updates, and isolating or replacing equipment that can no longer be patched.
+
+
+
+Security teams should also look for suspicious processes, unexpected UDP connections, and recurring STUN traffic, alongside the indicators of compromise provided by Fortinet.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4231136-0-24978000-1791287412-shutterstock_2684802859.jpg?quality=50&strip=all,https://www.csoonline.com/article/4231136/new-linux-malware-turns-vulnerable-iot-devices-into-proxy-nodes.html,https://www.csoonline.com/feed/,2026-10-06T11:49:58Z,15,Cybersecurity
+Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks,"Citing growing risks posed by more capable and autonomous AI agents, Apple will introduce additional controls.
+The post Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks appeared first on SecurityWeek.
+",,https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/,https://www.securityweek.com/feed/,2026-10-06T11:48:59Z,2,Cybersecurity
+Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits,The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...],,https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/,https://www.bleepingcomputer.com/feed/,2026-10-06T11:31:48Z,0,Cybersecurity
+The Pixel 11 Pro and Pro XL phones are $250 off,"During Amazon’s October sale, the Pixel 11 Pro and Pixel 11 Pro XL are discounted by $250 or more. The base model Pixel 11 Pro with 256GB of storage is only $849 (originally $1,099), $50 lower than the usual price for the base Pixel 11, while the 256GB 11 Pro XL is $999, a $300 […]",,https://www.theverge.com/gadgets/1003856/pixel-11-pro-xl-amazon-prime-day-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-06T11:30:00Z,0,Tech
+Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies,"The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages.
+
+&#34;The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWN60cSxpzLhK9K0oXjbeGNCoMl79wSkfW1h7dVHHi3dQPeRx2QUvM9dNGF3qKELV9xwkn8N_FBHk0WgftQryFzkKWyEf0jGbPb6ffor00ZQQnVPSrSSWKDfL10Shpkm2Q_LRFb85BarRqvdDE8eIksiGSrRy6hk8CD2cGf4xIIALAbOZEfHWMHWc7LfhA/s1600/wiki.jpg,https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T11:26:25Z,3,Cybersecurity
+"Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers","In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows.
+
+The ecosystem around it fell short. Earlier this year, our team at OX Security,  traced critical vulnerabilities in Anthropic&#39;s MCP",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9ijWk9zlAlr4Ogzkb3OyeREM6GDYe0AZx5DQ-TmdUPN5ogFXFM0Z9Lh-qdG1CAIVdBX7cV7NSfgEk_yBtaTFCPdIjAo23ixCfHqa4j1m8FY2cRfmdcrd4GZNn-5QQScWonyO6GDRx6RA1ZRcuW9tAmCOFG9u7KQbWx3fftJ921w8rUqHx4ya_5CFuJM/s1600/ox.png.jpg,https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T11:02:30Z,2,Cybersecurity
+The Verge&#8217;s guide to the best October Prime Day deals,"Amazon’s Prime Big Deal Days (also known as October Prime Day) is here, serving as a precursor to Black Friday and Cyber Monday. There are a ton of good deals, and bundling them all into this package is the easiest way to keep the blast of upcoming coverage under control. Below, you’ll find every deal […]",,https://www.theverge.com/tech/1004783/october-prime-day-deals-guide,https://www.theverge.com/rss/index.xml,2026-10-06T11:01:52Z,1,Tech
+Cybersecurity M&A Roundup: 39 Deals Announced in September 2026,"Significant cybersecurity M&amp;A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind.
+The post Cybersecurity M&amp;A Roundup: 39 Deals Announced in September 2026 appeared first on SecurityWeek.
+",,https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/,https://www.securityweek.com/feed/,2026-10-06T11:01:35Z,2,Cybersecurity
+Pacing the AI frontier won’t solve agentic cybersecurity’s most urgent problems,"
+		
+					  
+						
+
+
+
+
+
+
+
+
+When Anthropic CEO Dario Amodei urged other leading AI labs to “pace the frontier” last week, his calls for caution were echoed by other prominent voices in tech. Both Sam Altman and Elon Musk agreed with Amodei’s assessment that pausing AI development was essential to prevent the extinction of the human race. Amodei listed several potential disasters that could arise from unchecked AI development, including heightened bioterrorism and cybersecurity threats, the loss of control over critical AI systems, and considerable financial and economic impacts.
+
+
+
+While these scenarios are indeed within the realm of the possible, battle lines were soon drawn on either side of the issue. In addition to the public support from Altman and Musk, Amodei’s position was lent further credibility by the resignation of former Anthropic researcher Jacob Coxon, whose post on social media accusing Anthropic (and OpenAI) of failing to act responsibly promptly went viral. Days later, former DeepMind safety researcher Josh Engels resigned from his position, citing similar safety concerns regarding frontier labs’ supposedly reckless pursuit of superintelligence.
+
+
+
+Despite widespread concern about the negative potential of AI technologies, many cybersecurity leaders disagree on the scope of these threats and how to mitigate them. Amodei didn’t help his argument by using an impossible example of a swarm of AI agents “capable of taking over the entire internet with a persistent botnet” to illustrate his concerns. The problem, however, is that while Amodei’s example may be fantastical, there is legitimate cause for alarm that is being overshadowed by discourse about regulatory capture and questions about frontier labs’ commitment to responsible AI development.
+
+
+
+No other contemporary technology inspires catastrophic sensationalism like AI. Maybe it’s because we’ve spent years watching action heroes fight against malevolent machine intelligence like Skynet in The Terminator franchise — a comparison Coxon made himself in an interview with CBS News — but most fears about AI resist rationality. There are legitimate arguments for measured, coordinated development of AI technologies, but fewer explanations as to why frontier labs such as Anthropic would invite, and even welcome, the kind of greater regulatory scrutiny that would be a gift to competing companies and nation-states developing their own AI tech, such as China.
+
+
+
+The kind of collaborative oversight Amodei called for in his essay is a primarily geopolitical problem, not a technical one. It’s also almost impossibly unlikely. President Trump dismissed Amodei’s calls for greater oversight as part of a “sick conspiracy” that would only benefit China, and claimed the United States already has “tremendous criminal and regulatory power over these companies.” Trump’s announcement came shortly after Chen Yixin, China’s state security minister, made an unusual public warning about the risks to China’s information infrastructure posed by frontier models and called for collaborative risk prevention frameworks and coordinated global governance of AI technologies.
+
+
+
+Although Amodei’s essay was met with skepticism across the security community, it reinvigorated questions about frontier labs’ commitment to cybersecurity as an operational principle. The challenge for AI developers and industry regulators alike is agreeing on how, precisely, to slow the pace of AI development without ceding critical economic and national security advantages. To what extent would the burden of such measures fall on private enterprise versus state or government entities? How would infrastructure and security providers such as AWS, Cloudflare or CrowdStrike be involved? Who would pay for such a costly, global endeavor? Even if every frontier lab agreed to and implemented Amodei’s call for a pause, how would open-source technologies be regulated?
+
+
+
+None of these questions can be answered until we, as an industry, agree upon the most likely, tangible threats posed by rapid AI development rather than impossible imaginary scenarios and treat serious cybersecurity events as engineering failures rather than PR opportunities. This demands that we acknowledge the considerable disparity between the negative potential of AI technologies and the reality of the risks facing organizations today. Among the most pressing risks is untested agentic technologies being deployed to production environments without adequate testing, not legions of nefarious AI agents hell-bent on bringing down the entire internet.
+
+
+
+Too many organizations are frantically deploying AI to their networks in the hope of gaining an advantage in the ever-escalating arms race between attackers and defenders. This urgency is understandable, if misguided; every sensationalized headline about rogue models breaching containment creates additional pressure on security leaders to mitigate against threats that have never been seen before using tools that remain largely unproven. But urgency is no excuse for carelessness, and the stakes couldn’t be higher.
+
+
+
+As recent high-profile incidents such as OAI-HF have demonstrated, security leaders cannot assume that frontier labs will implement adequate safeguards in their models. AI technologies can — and increasingly, should — play a part in responsible defense work, but only if properly tested. Agentic behaviors must be validated before being deployed to production, and it’s vital that security leaders know exactly how their human operators work alongside agentic solutions in high-pressure situations.
+
+
+
+Researchers, developers, and policymakers must acknowledge the considerable potential for harm posed by agentic AI without anthropomorphizing software or indulging in fanciful hypotheticals about extinction events. As agentic AI becomes increasingly commonplace, it seems inevitable that greater oversight of some kind will be necessary, but the pacing of the frontier Amodei called for seems significantly less likely. The real question is whether regulatory oversight will be imposed upon the AI industry, or if frontier labs will be entrusted to oversee their own models. If the OAI-HF incident is any indicator, I suspect it won’t be long before we find out.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230811-0-98395000-1791284555-shutterstock_595755389.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230811/pacing-the-ai-frontier-wont-solve-agentic-cybersecuritys-most-urgent-problems.html,https://www.csoonline.com/feed/,2026-10-06T11:00:00Z,17,Cybersecurity
+The best October Prime Day tech deals we found,"Amazon’s Prime Big Deal Days event has begun, and it lasts through 3AM ET on Thursday, October 8th. We’ve spun through the company’s huge list of deals to find products that Verge readers will like (and that we personally like, too). There are plenty of headphone deals, plus some great products in the home entertainment […]",,https://www.theverge.com/gadgets/996983/best-october-prime-day-deal-sale-tech,https://www.theverge.com/rss/index.xml,2026-10-06T10:55:05Z,5,Tech
+Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end,"An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but &#34;lalala&#34; on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it&#39;s been doing. The […]",,https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end,https://www.theverge.com/rss/index.xml,2026-10-06T10:53:11Z,1,Tech
+"Long-Running NPM Malware Campaign Accumulates 40,000 Downloads","Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign.
+The post Long-Running NPM Malware Campaign Accumulates 40,000 Downloads appeared first on SecurityWeek.
+",,https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/,https://www.securityweek.com/feed/,2026-10-06T10:34:25Z,7,Cybersecurity
+Google’s bug bounty pause highlights growing AI vulnerability triage challenge,"
+		
+					  
+						
+
+
+
+
+AI is accelerating the discovery of software vulnerabilities, but it is also creating a new bottleneck for defenders: deciding which machine-generated findings warrant investigation. Google has decided to temporarily stop accepting certain bug bounty submissions after a surge of largely invalid automated reports highlights a growing challenge for security teams as AI-driven vulnerability discovery begins to outpace human validation capacity.
+
+
+
+The suspension of its bug bounty program followed earlier attempts by Google to reduce the amount of low-quality material reaching its security teams. In March, the company tightened the rules governing its open-source vulnerability program after reporting a sharp rise in AI-generated submissions. Google said some reports contained incorrect claims about how vulnerabilities could be triggered, while others identified coding defects that had little practical security impact.
+
+
+
+Google began asking for stronger evidence for some classes of vulnerability, including reproducible results or accepted patches. It later stopped rewarding certain lower-tier product vulnerability reports.
+
+
+
+But high report volumes do not necessarily mean the findings are low-value. Vercel, for instance, said in September that it had received 1,285 vulnerability reports during a two-week security challenge for its Sandbox environment, with the company automating parts of triage. Dozens of the submissions were ultimately validated.
+
+
+
+AI-assisted vulnerability research is also producing findings that matter in practice. A critical flaw in Rejetto HTTP File Server, discovered with the help of Anthropic’s Mythos vulnerability-hunting model, was later targeted in exploitation attempts.
+
+
+
+The problem goes beyond bug bounty programs. As enterprises adopt AI-assisted tools inside application security workflows, vulnerability discovery could overtake the capacity to validate and remediate what those systems find.
+
+
+
+For CISOs, the question is whether existing vulnerability-management processes can absorb that volume without allowing low-value findings to consume resources needed for confirmed risks.
+
+
+
+Validation pressure
+
+
+
+A key concern is that AI can increase submission volume faster than teams can ramp up their verification capacity.
+
+
+
+“A convincing report can be generated quickly,” said Bhupendra Chopra, chief revenue officer at Kanerika. “Checking it may still require an engineer to trace the code and test the claimed attack conditions.”
+
+
+
+Google’s experience should be viewed as a warning about the economics of vulnerability reporting rather than evidence that the same problem is already widespread across enterprises, according to Sakshi Grover, research director for information and data security at IDC.
+
+
+
+“AI can help researchers discover genuine vulnerabilities, but it can also make convincing, poorly substantiated reports inexpensive to produce,” Grover said. “The receiving team still has to establish whether the affected code exists, whether the claimed attack path is reachable and whether there is a meaningful security impact.”
+
+
+
+That can impose a direct cost on enterprises. A finding that reaches an application owner before it has been properly assessed may consume engineering time even if the affected software version is not deployed or the vulnerable code cannot be reached in the organization’s environment.
+
+
+
+Chopra said security teams should verify that a reported flaw actually affects their environment before treating it as an urgent remediation priority. Grover said CISOs should judge AI-assisted security tools by the actionable findings they produce and the effort required to validate them, rather than by the raw number of vulnerabilities they identify.
+
+
+
+“A larger findings dashboard is not, by itself, evidence of better security,” Grover said.
+
+
+
+Sunil Varkey, a CISO, said enterprises will increasingly need to treat triage as a security capability in its own right, using evidence requirements, reachability scoring and automated filtering before findings reach human reviewers.
+
+
+
+Fixing the backlog
+
+
+
+The next major concern is that even confirmed vulnerabilities compete for limited engineering capacity.
+
+
+
+“More reports do not create more engineering capacity or maintenance windows,” Chopra said.
+
+
+
+Grover said a technically valid flaw may not be reachable in the deployed environment, while a vulnerability with a lower severity score could demand faster action if it affects an exposed, business-critical system. That makes deployment context and evidence of exploitation more useful for prioritization than relying on a scanner-generated severity rating alone.
+
+
+
+A scanner finding should be treated as a hypothesis rather than proof of an exploitable vulnerability, said Keith Prabhu, founder and CEO of Confidis. Teams still need to establish whether the affected code is present and reachable, reproduce the issue and assess its impact in their environment.
+
+
+
+One useful indicator, Chopra added, is whether analysts are spending more time rejecting weak findings while confirmed high-risk vulnerabilities remain unresolved for longer. If that happens, the reporting process itself may be consuming capacity that would otherwise be used to reduce risk.
+
+
+
+Grover said CISOs should track validation effort and the age of confirmed high-risk exposures, rather than focusing on the number of issues a tool reports.
+
+
+
+Triage as target
+
+
+
+Cheap, plausible vulnerability reports could also create opportunities for abuse. Chopra cautioned that while Google’s decision to halt product vulnerability submissions does not show that the company was targeted by a deliberate distraction campaign, such a scenario is plausible.
+
+
+
+“An unfiltered reporting channel could give attackers a way to consume security capacity without first breaching a system,” he said.
+
+
+
+Attackers could, for example, submit variations of the same claim across multiple services, forcing security teams to spend time investigating each submission before determining that they relate to the same issue.
+
+
+
+Prabhu said organizations should treat large volumes of low-quality reports as a resilience and workflow risk without assuming that every poor submission is part of a deliberate attack.
+
+
+
+Chopra said organizations can reduce that risk by requiring reproducible evidence, grouping duplicate reports and limiting submissions when abuse patterns emerge.
+
+
+
+Greater use of AI for triage could also introduce another attack path. Grover said malicious vulnerability reports could contain prompt-injection instructions designed to manipulate an AI agent’s assessment or induce it to take actions through connected tools.
+
+
+
+Submitted text and code should therefore be treated as untrusted input, she said, with vulnerability testing kept away from production systems and important actions independently checked.
+
+
+
+“The next competitive advantage will not come from finding more vulnerabilities faster,” Varkey said. “It will come from determining more quickly which ones pose a real risk and which ones do not.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4231109-0-02305500-1791281434-shutterstock_2324952281.jpg?quality=50&strip=all,https://www.csoonline.com/article/4231109/googles-bug-bounty-pause-highlights-growing-ai-vulnerability-triage-challenge.html,https://www.csoonline.com/feed/,2026-10-06T10:10:21Z,21,Cybersecurity
+The AI app builder your team trusts has a root-level backdoor,"
+		
+					  
+						
+
+
+
+
+
+
+
+
+The fastest-growing category of enterprise software right now is also the least scrutinized from a security standpoint. AI application platforms — tools that let teams build, connect and automate AI-powered workflows without writing much code — are landing in production environments faster than security teams can assess them. They connect to your APIs, your databases, your cloud credentials and your AI service accounts. And attackers have noticed.
+
+
+
+Langflow is one of the most widely deployed of these platforms. It is open-source, low-code and designed to let teams drag and drop AI models, APIs and data sources into functioning applications and agent workflows without heavy engineering overhead. That accessibility is exactly why it has grown so fast. It is also why what happened at the end of August matters for any organization that has deployed it.
+
+
+
+On August 29, 2026, VulnCheck’s threat intelligence team began observing continuous exploitation attempts against internet-facing Langflow instances. The vulnerability being exploited — CVE-2026-0768, carrying a CVSS score of 9.8 — had been sitting in Langflow’s codebase since before its public disclosure as a zero-day in January 2026. The exploitation that started late August has not slowed down.
+
+
+
+What the vulnerability actually does
+
+
+
+Langflow’s custom component editor includes a validate endpoint — a feature that lets developers test a code snippet before adding it to a workflow. The idea is reasonable: give users a way to check their logic before it runs in production. The implementation is the problem.
+
+
+
+That endpoint takes whatever code a user submits and passes it directly into Python’s exec(). There is no validation of the input before execution, and in many default deployments, no authentication is required to reach the endpoint at all. An attacker who can reach an internet-facing Langflow instance over the network can send a crafted request to that endpoint and execute arbitrary Python code immediately — as root, with no credentials, no user interaction required.
+
+
+
+Once inside, the attack chain is fast and consistent. Attackers search for .env files, environment variables, SSH keys and source code. They harvest OpenAI API keys, AWS credentials, cloud storage tokens and database credentials. Those stolen credentials are sent to external infrastructure, and the attacker attempts lateral movement via SSH and other protocols. The entire sequence — from initial exploitation to credential exfiltration — leaves few signs during normal AI workflow activity, which makes detection significantly harder.
+
+
+
+VulnCheck logged over 360 exploitation attempts on its UK honeypots in the days following public disclosure, with the majority of attack traffic originating from Russia. That number reflects observed attempts against instrumented systems. The number of successful attacks against uninstrumented production deployments is unknown.
+
+
+
+Why this is becoming a pattern
+
+
+
+The Langflow vulnerability did not emerge in isolation. Before 2026, only one Langflow vulnerability had ever been exploited in the wild. This year, that number has risen to twelve. VulnCheck has recorded over 15,000 successful exploitation attempts across three related Langflow flaws — CVE-2026-0769, CVE-2025-3248 and CVE-2026-5027 — before CVE-2026-0768 was added to that list.
+
+
+
+The reason is not that Langflow has suddenly become less secure. It is that Langflow has become valuable enough to attack. As VulnCheck’s researchers wrote, the rapid adoption of AI technologies has brought with it tools whose designers prioritized accessibility over security-first principles. The same qualities that make AI application platforms attractive to enterprise teams — open-source availability, easy deployment, broad API integrations, connections to cloud services and AI accounts — make them attractive targets once a code execution primitive exists.
+
+
+
+This is the same dynamic that played out with CI/CD platforms, then with Kubernetes management tools, and now with AI development infrastructure. The tooling category grows fast, security scrutiny lags behind and attackers move in once the installed base is large enough to be worth the effort.
+
+
+
+An internet-exposed Langflow instance with CVE-2026-0768 unpatched is not primarily a Langflow problem. It is a credential exposure problem. The OpenAI API key that gets stolen from a developer’s .env file does not care how it was taken. The AWS credentials harvested from an environment variable do not expire when the patch is eventually applied. The Rails flaw disclosed alongside this research makes that point explicitly: a compromised secret remains useful until it is rotated, regardless of whether the vulnerability that exposed it has been fixed.
+
+
+
+Three controls that matter right now
+
+
+
+
+Patch immediately and identify every exposed instance. All Langflow versions up to and including 1.4.2 are affected. VulnCheck began observing exploitation attempts within hours of public disclosure — the window between a patch becoming available and attackers scanning for unpatched instances is measured in hours, not days. Any Langflow deployment reachable from the internet without authentication in front of the validate endpoint is an active risk right now. The first step is knowing how many instances exist across your environment and which are internet-facing. Many organizations discover during incidents that development and testing deployments were exposed without security team visibility.
+
+
+
+Rotate every credential that touched an exposed Langflow instance. This is not optional even if you believe your instance was not actively exploited. The attack chain targets .env files, environment variables, SSH keys and cloud credentials — items that persist on disk and in memory throughout normal Langflow operation. An OpenAI API key or AWS access credential stored in an environment that ran an affected version of Langflow should be treated as potentially compromised. Rotate it. Review the access logs on the credential provider’s side for requests that the legitimate owner did not initiate. VulnCheck’s guidance specifically calls out OpenAI and AWS credentials as the primary targets of the observed campaign, and credential rotation is the only control that remains effective regardless of whether exploitation occurred.
+
+
+
+Do not expose AI development platforms to the internet without authentication. Langflow’s validate endpoint having no authentication in default configurations is the direct enabler of this attack. But the principle is broader: AI application platforms, workflow automation tools and agent development environments are not consumer services. They connect to production credentials, cloud accounts and internal APIs. Deploying them with internet-facing endpoints and no authentication layer is equivalent to exposing a development database to the public internet. Put these deployments behind a VPN or require authentication at the network perimeter. Apply the same access controls you would apply to any other internal development infrastructure.
+
+
+
+
+An honest assessment
+
+
+
+The CVE-2026-0768 vulnerability in Langflow is severe, but the more significant story is the trajectory it represents. Twelve Langflow vulnerabilities exploited in 2026 compared to one in all previous years is not a coincidence. It is a signal that attackers are methodically working through the AI tooling stack the same way they worked through cloud management tools and developer pipelines in earlier years.
+
+
+
+Security teams that have invested in visibility over their SaaS applications, cloud credentials and development pipelines are better positioned to detect the lateral movement that follows initial exploitation here. The organizations most exposed are those that treat AI development platforms as productivity tools rather than as infrastructure — deploying them quickly, connecting them to production credentials and leaving them outside the security perimeter that governs everything else.
+
+
+
+CVE-2026-0768 is patched and the fix is available. The credentials harvested between August 29 and whenever your organization patches and rotates are a different problem. That one does not have a vendor update.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230802-0-37964600-1791280989-shutterstock_2324952225.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230802/the-ai-app-builder-your-team-trusts-has-a-root-level-backdoor.html,https://www.csoonline.com/feed/,2026-10-06T10:00:00Z,21,Cybersecurity
+8.8 Million Impacted by Data Breach at Denmark’s Central Person Register,"Hackers abused a company’s lawful access to the CPR system to steal the personal information of registered citizens.
+The post 8.8 Million Impacted by Data Breach at Denmark’s Central Person Register appeared first on SecurityWeek.
+",,https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/,https://www.securityweek.com/feed/,2026-10-06T09:38:30Z,5,Cybersecurity
+"Nikkei discloses breaches of employees’ Microsoft, Google email accounts","Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",,https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/,https://www.bleepingcomputer.com/feed/,2026-10-06T09:25:50Z,9,Cybersecurity
+Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports,"Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.
+
+The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCWoelMB7H9bFZJdDV7vP5M3a1ByvpHs8ub2SrBGOM1gz6r0Fg9cV1fplW5Q6mNBFtRlW99wDCSC-_6_sZBw0l4HsFvUDP5cCH2zmgcF4NK5wCOInv05K4hH2WMlKCA_G_psX4zB_hUcXid2MWx5fGDjaJvD1YjWBechwUdrhXK51dJYZ3PGsu0JQcT1U/s1600/google-bug-bounty.jpg,https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html,https://feeds.feedburner.com/TheHackersNews,2026-10-06T09:21:47Z,4,Cybersecurity
+What exactly is ISOC? And what does it mean for you?,"
+		
+					  
+						
+
+
+
+
+Gartner recently released a new category of security tools: the Integrated Security Operations Center (ISOC). This new category acknowledges the need to expand beyond traditional SIEM tools in the creation of a security portfolio, though, as they note in the introductory report, Security Information and Event Management (SIEM) isn’t going anywhere.
+
+
+
+Gartner’s evolution away from SIEM as an all-encompassing category reflects another significant market shift in security operations. SIEMs are no longer sufficient to collect data, support investigations and manage incidents; instead, the SIEM has separated into distinct architectural layers. SIEM platforms, which remain the security system of record for collecting, normalizing, searching and analyzing event data, are now distinct from the Integrated Security Operations Center (ISOC) solutions. ISOC is tasked with unifying detection, investigation, case management and response across security domains and security/observability data pipelines.
+
+
+
+As AI empowers attackers, this stratification becomes essential. Data management, analytics and operational response are now separate problems, demanding separate solutions. To reduce costs, latency and operational friction, the space for ISOC grows more distinct.
+
+
+
+The goal of the new category, of carving out and defining ISOC, then, is instead to adapt and assess the ability of a vendor to integrate classic SIEM logic with an expanded threat detection and investigation and response (TDIR) capability. Reduced complexity is especially key for lean teams who prioritize efficiency and streamlined workflows, and the goal of ISOC is to reduce the friction that comes with conglomerating a wide variety of different security tools to contrive full visibility.
+
+
+
+In short, ISOC puts its finger on the pain point that every security team faces today. A single vendor providing a flexible and adaptable, yet holistic and transparent security solution addresses both the increasing rate of alerts, as well as the adaptability crucial to combating them effectively.
+
+
+
+In their ISOC report, Gartner also identifies the need to drive down costs, reduce deployment time and the unsustainability of currently growing SIEM complexities as the primary drivers for ISOC.
+
+
+
+Common features of the ISOC, as Gartner writes, include native detection and response services, incident case management and extended case management of data ingestion. The goal of ISOC is to highlight the importance of reducing the friction between security tools and the latency between data, context, decision and action. In an age where threats occur and are deployed at machine speed, it’s essential that response doesn’t waste a single half second.
+
+
+
+The necessity of ISOC is a result of latency challenges that businesses can no longer afford, in the following domains:
+
+
+
+
+Native detection and response. Detection and response must operate on the same underlying security data, not through loosely connected point products. Native controls reduce latency between signal, correlation, investigation and action.
+
+
+
+Security data ownership. ISOC starts with control of the data layer: ingesting, normalizing, enriching, retaining and making telemetry available for detection and AI reasoning. If the platform doesn’t control the data model, every downstream analytic or agent works through integration boundaries.
+
+
+
+Incident case management. Alerts, entities, evidence, timelines and analyst actions are assembled into a persistent incident object. The case becomes the operational unit for investigation and response rather than individual alerts.
+
+
+
+Cross-domain correlation. Endpoint, network, identity, cloud, application and third-party telemetry must be correlated against a common schema and context model. This turns weak individual signals into a high-confidence attack story.
+
+
+
+Automation and agentic response. Automation should operate directly against normalized data and incident context, enabling AI agents and playbooks to investigate, enrich, recommend and execute actions without repeatedly rebuilding context.
+
+
+
+Open ingestion and response fabric. ISOC must connect broadly to existing security infrastructure while minimizing translation and API friction. The objective is a common data and control plane where third-party tools contribute signals and become response surfaces.
+
+
+
+
+Looking Ahead
+
+
+
+Even though the SIEM market is predicted to continue to grow, the market share will be divided to include ISOC vendors, who will expand their offerings to include coverage in identity, cloud/Saas management and email security.
+
+
+
+The market is only reflecting the dynamics that security teams have been feeling for years, which has been exacerbated exponentially by the adoption of AI by threat agents. Simply agglomerating more tools is neither strategic nor effective.
+
+
+
+The market is confirming a foundational security thesis: modern operational needs demand integrated, unified capabilities. From setting an open integration standard to incorporating AI-native capabilities, ISOC environments are meant to simplify operations without compromising coverage or visibility.
+
+
+
+Anticipating the limitations of fragmented security stacks leads to natively unified operational platforms. By normalizing raw data from any source through high-context schema technology, modern ISOC solutions deliver the precise, consolidated out-of-the-box outcomes now expected in the market.
+
+
+
+With the creation of this new category, AI SOC is top of mind across the industry, and implementation and transparency remain key differentiators. Full-cycle detection and response rely on a case-centric approach. Rather than contending with an inundation of alerts, context-enriched cases give analysts the relevant information needed to respond quickly.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230792-0-79840500-1791277390-shutterstock_2781778569.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230792/what-exactly-is-isoc-and-what-does-it-mean-for-you.html,https://www.csoonline.com/feed/,2026-10-06T09:00:00Z,13,Cybersecurity
+Social Engineering Detection Moves Into the Live Conversation,"Companies are pouring time and dollars into security awareness training, but little evidence shows it actually works against social engineering.
+The post Social Engineering Detection Moves Into the Live Conversation appeared first on SecurityWeek.
+",,https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/,https://www.securityweek.com/feed/,2026-10-06T08:38:14Z,1,Cybersecurity
+"AI accelerates n-day attacks, as flaw disclosures and exploits double","
+		
+					  
+						
+
+
+
+
+Attackers are increasingly weaponizing already-disclosed flaws rather than new zero-days, and AI tools may be accelerating how quickly they do it.
+
+
+
+According to a report from Google’s Threat Intelligence Group (GTIG), attackers have exploited more vulnerabilities in the wild thus far this year than they did all of last year. With the number of flaws disclosed each month sharply rising, AI tools are helping reduce the time it takes to write working exploits for publicly disclosed bugs.
+
+
+
+GTIG recorded 141 flaws exploited between January and August 2026, compared to 127 in all of 2025, with monthly vulnerability disclosures doubling over the period, from 5,045 in January to 10,740 in August.That rise in the monthly exploitation rate, from 10.5 per month last year to nearly 18 in 2026, greatly eclipsing that of exploited zero-days, which increased marginally from 8 per month in 2025 to 11 thus far this year.
+
+
+
+Foundry’s forthcoming Security Priorities survey finds security leaders significantly more concerned about n-days than zero-days, with respondents expressing high concern about software n-day exploitation (38%) and network n-day exploitation (37%) versus zero-day exploits (25%).
+
+
+
+“It is possible that threat actors are finding it more accessible or efficient to use LLMs and AI tools to automate analysis of differences between product versions, patches, vulnerability disclosure announcements, and Proof-of-Concept (POC) code to rapidly weaponize n-days, rather than to discover new zero-days,” the GTIG researchers wrote in their report.
+
+
+
+The type of exploited vulnerabilities also stands out, with high-risk flaw exploits doubling from 28 in 2025 to 75 in the first eight months of 2026. This aligns as well with a surge in high-risk vulnerability disclosures as the year has progressed, from 131 in January to 350 in August.
+
+
+
+“While this is of course concerning, it’s hardly unexpected,” Steve Povolny, vice president of AI strategy and security research at Exabeam, tells CSO. “We know by now that AI models are able to achieve speed, scale, and efficiency that few, if any, human beings are capable of. Inevitably, discovering known flaws and finding ways to exploit them is par for the course when it comes to AI.”
+
+
+
+A flood of new CVEs
+
+
+
+While the number of new vulnerabilities doubled, and some of that rise is driven by use of AI models and agents, GTIG warns that automated CVE Numbering Authority assignment policies across open-source ecosystems might inflate the baseline.
+
+
+
+For example, vulnerabilities whose descriptions mentioned the Linux kernel alone produced roughly 5,000 CVEs between January and August with no zero-days exploited in the wild. Meanwhile, other single vendors accounted for unusually big spikes in high-risk flaws at various points during the year.
+
+
+
+Totolink patched 75 high-risk flaws in its consumer router firmware in April and May, driving a midyear spike in command execution vulnerabilities, while Oracle’s quarterly Critical Patch Update across middleware such as WebLogic and Coherence, combined with Linux kernel network driver advisories, contributed 128 high-risk vulnerabilities in August alone.
+
+
+
+When it comes to exploitation, the proportion of disclosed flaws that are exploited remains very small at 0.23% or roughly 1 in 431. But GTIG’s researchers noticed a monthly trend where indexed growth in CVE exploitation nearly perfectly mirrors indexed growth in vulnerability disclosure, which suggests exploitation doesn’t necessarily outpace vulnerability disclosure growth.
+
+
+
+In fact, other companies who track vulnerabilities previously noted an increase in disclosure compared to exploitation. For example, vulnerability intelligence firm VulnCheck found in its H1 2026 report that the ratio of exploited to disclosed vulnerabilities dropped to 1.4% after peaking at 2.7% in 2023, suggesting that disclosure volume grew much faster than exploitation. On the other hand, the median time from a CVE’s publication to confirmed exploitation fell from 120 days in 2025 to 80 days in the first half of 2026, potentially highlighting the impact of AI agents in attacks.
+
+
+
+Attackers continue to target the perimeter
+
+
+
+Edge and security appliances accounted for 14% of the vulnerabilities exploited from January to August, and two-thirds of those flaws had high or critical severity, GTIG noted. Meanwhile enterprise directory and collaboration hubs accounted for another 11%. Network-edge appliances have been one of the leading initial access vectors for the past two years, targeted by both state-sponsored APT groups as well as ransomware gangs.
+
+
+
+Attackers target unauthenticated public management interfaces in particular because they reach systems that enterprise endpoint detection and response (EDR) agents can’t see, the GTIG researchers said: “While CVE discovery volume metrics surge, adversary exploitation activity remains concentrated in perimeter appliances and exposed enterprise services.”
+
+
+
+AI-discovered flaws have higher severity ratings
+
+
+
+It’s hard to determine which vulnerabilities were found with the assistance of AI models, as this information is not disclosed in advisories and the practice has not yet been standardized. But of those GTIG determined were discovered by AI agents, over half were medium severity and above, compared to under a third across the total pool of disclosed vulnerabilities. Furthermore, 50% of AI-discovered flaws include remote code execution as an impact compared to 26% across conventional disclosures.
+
+
+
+“This distribution largely likely reflects how research programs scope and deploy these systems,” the researchers said. “Rather than running broad, automated scans for cosmetic flaws or compliance warnings, researchers deliberately prompt and task autonomous agents with auditing critical infrastructure and sensitive privilege boundaries, focusing on high-impact findings.”
+
+
+
+When it comes to exploitation, there is evidence that attackers are employing AI agents to analyze software patches and develop exploits for n-day flaws. For example, in May, GTIG reported that a North Korean state-linked group tracked as APT45 sent thousands of prompts to Gemini to analyze known vulnerabilities and validate proof-of-concept exploits.
+
+
+
+An OS command injection flaw in BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) that was discovered with the help of an AI research agent by Hacktron AI was weaponized for targeted initial-access campaigns within four days of public disclosure. Within seven days GTIG observed six total threat clusters exploiting the flaw.
+
+
+
+Companies need AI-assisted vulnerability management
+
+
+
+As both vulnerability discovery and exploitation are expected to grow in the medium term, companies must transition from patching vulnerabilities en masse to triaging them using threat intelligence and deploying automatic agentic remediation.
+
+
+
+Detectify, a company that maps and measures the external attack surface exposure for its customers, found that the vast majority of critical and high-severity flaws in internet-facing assets stay exposed for more than 90 days. Among organizations monitored by the security firm over 12 months, their verified internet-facing domains grew by 20% in the US and 14% in the UK, meaning that new exposure is being created before the existing exposure can be secured.
+
+
+
+On Sept. 22, the Cybersecurity and Infrastructure Security Agency (CISA) published a framework for moving the CVE Program from what it calls a growth era into a quality era, citing more than 67,000 CVEs published in 2026 through Sept. 18 and a projected 96,000 by year-end. It proposes measures such as improving record quality and completeness as well as API responsiveness and system uptime.However, Farzad Bakhtiar, senior director at Flashpoint, warns that a well-formed record is not necessarily an actionable one.
+
+
+
+“Security teams need to know whether a vulnerability has a working exploit, whether attackers are using it, whether it touches their exposed assets, and whether there’s a fix,” he tells CSO. “With CVE volume on pace to approach 100,000 this year, and many vulnerabilities never receiving a CVE at all, that context is what turns vulnerability data into a prioritization decision.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4230247-0-21261700-1791275243-franck-v-_E1PQXKUkMw-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4230247/ai-accelerates-n-day-attacks-as-flaw-disclosures-and-exploits-double.html,https://www.csoonline.com/feed/,2026-10-06T08:25:00Z,31,Cybersecurity
+"Engineer sentenced for locking over 3,000 devices on employer network",A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer&#39;s network in a ransomware-style attack. [...],,https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/,https://www.bleepingcomputer.com/feed/,2026-10-06T08:19:24Z,6,Cybersecurity
 This remote-controlled wagon is silly but so very useful,"Confession: When BougeRV told me about its remote-controlled wagon with animated lighting, I called it in for a laugh, expecting to eviscerate it in a review. It&#39;s ridiculous, to be sure. But the DuneRover also proved very capable, with enough torque to flatten hills even when carrying over 200 pounds of gear. It can also […]",,https://www.theverge.com/tech/1004820/this-remote-controlled-wagon-is-silly-but-useful,https://www.theverge.com/rss/index.xml,2026-10-06T08:00:00Z,1,Tech
 Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products,"A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product&#39;s web application root directory.
 
