@@ -1,4 +1,975 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Figma announces new features to define how agents work on its platform,Figma is also releasing its code layers feature in open beta.,,https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/,https://techcrunch.com/feed/,2026-10-15T04:30:00Z,0,Tech
+"As phishing-as-a-service goes industrial, Microsoft takes down a marketplace behind 1 billion messages","
+		
+					  
+						
+
+
+
+
+Microsoft says it has dismantled a criminal marketplace responsible for 1 billion malicious messages.
+
+
+
+Working with international authorities and several tech and cybersecurity companies in a nearly year-long investigation, Redmond identified and took down Yam Store, a coordinated underground network dealing in commercial phishing-as-a-service (PhaaS).
+
+
+
+The network allowed cybercriminals to readily purchase, and very quickly deploy, pre-made kits they could use in phishing attacks to steal data and credentials.
+
+
+
+Microsoft said the takedown began as a simple investigation based on a tip from Japanese authorities.
+
+
+
+“Working together, and with the assistance of AI tools, we connected accounts, websites, and infrastructure that initially appeared unrelated, helping expose the broader criminal marketplace behind them,” Steven Masada, associate general counsel and GM for Microsoft’s Digital Crimes Unit, wrote in a blog post. “What appears to be a simple scam message is often the visible end of a much larger transnational cybercriminal operation.”
+
+
+
+The evolving PhaaS marketplace
+
+
+
+Collectively, YAM Store and the kits and tools sold within it enabled the sending of more than 1 billion messages to 75,000-plus organizations worldwide. More than 750 million of those were sent to Microsoft customers alone, and ultimately generated “tens of millions of dollars” for criminal operators. 
+
+
+
+Investigation into the marketplace began in late 2025 after Japan’s National Police Agency (NPA) notified Microsoft of “a wave of fraud and scam activity” targeting people and businesses in Japan. Researchers expected to find multiple individual campaigns; instead, they discovered a “sprawling Chinese-language cybercrime marketplace.” The probe expanded globally and involved the efforts of several other law enforcement agencies, as well as companies like Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs.
+
+
+
+The YAM Store served as an initial access broker (IAB), operating much like an online marketplace; in this case, the merchandise was fraudulent Microsoft and Google accounts and other ready-made tools used to carry out scams like credential and data theft. Customers could browse, compare prices, and make purchases. Available tools were arranged based on age and subscription and environment types (like .edu or .org sites).
+
+
+
+In some cases, criminal operators were able to register internet domains that legitimate organizations had allowed to expire, then rebuilt them to appear active. They targeted specific sectors (like non-profits or education) to fraudulently obtain Microsoft 365 accounts to later sell through the YAM store.
+
+
+
+The researchers discovered that the YAM Store evolved as different kits became available, and identified three popular PhaaS kits: Iron Man System, CoGUI, and Haozi.
+
+
+
+The newer Iron Man system came to the fore in mid-2026. It provided pre-built lure pages capturing any victim-submitted data. The lure sites impersonated healthcare providers, police departments, government agencies, postal and courier services, toll and transportation authorities, tax agencies, banks, telecoms, and retailers. Through test purchases and intelligence work, investigators discovered more than 2,300 templates impersonating organizations across more than 150 countries.
+
+
+
+Iron Man effectively expanded the PhaaS model by giving criminals access to thousands of ready-made templates tailored to specific industries, languages, and regions. Masada noted that many “used the appearance of official authority to pressure victims into making payments or disclosing sensitive personal information. Instead of creating fraudulent websites themselves, criminals could quickly deploy pages designed to steal passwords, payment information, and other personal data.”
+
+
+
+The kits were also equipped with advanced evasion techniques such as geofencing, fake CAPTCHA gates, IP address blocklists and allowlists, and anti-detection configurations.
+
+
+
+Masada emphasized that, while an organization or government entity may have been presented among the template offerings, it does not indicate that its systems were compromised.
+
+
+
+However, members of the Microsoft Threat Intelligence and Microsoft Digital Crimes Unit wrote in a blog post, “the scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses.”
+
+
+
+The importance of cyber hygiene
+
+
+
+In nearly all observed cases, phishing lures presented “prescriptive scam red flags,” Microsoft researchers explained: Urgency and time-sensitive tasks.
+
+
+
+They advised that users have a basic understanding of common phishing techniques and should be educated to always verify with the purported sender before clicking a link supposedly taking them to a login page, even when the task involves signing in to a known, secure account.
+
+
+
+Beyond this, they said, sign-in prompts should clearly identify the application being authenticated to. In Microsoft Azure interactions since 2021, for example, users are prompted to “cancel” or “continue” at login, but this is often missing from phishing sign-ins, the researchers noted.
+
+
+
+Hardening credentials and cloud identities is also necessary to defend against phishing attacks; the researchers suggested an initial step of passwordless tools like passkeys and multifactor authentication (MFA) across organizations.
+
+
+
+“Invoke the principles of least privilege and zero trust to significantly slow down threat actors who might have been able to gain initial access and buy time for defenders to respond,” the researchers noted. These steps can help lock down global administrator roles in particular.
+
+
+
+They also advised additional actions including the use of the Microsoft Authenticator app for passkeys and MFA; configuration of the Microsoft Defender for Office 365 Safe Links policy to apply to internal recipients; complementing MFA with conditional access policies; and only allowing MFA and passkey registrations from trusted locations and devices.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4235517-0-31101900-1792027233-Beruchtigte-Ransomware-Bande-hat-neuen-Malware-Favoriten.jpg?quality=50&strip=all,https://www.csoonline.com/article/4235517/as-phishing-as-a-service-goes-industrial-microsoft-takes-down-a-marketplace-behind-1-billion-messages.html,https://www.csoonline.com/feed/,2026-10-15T01:20:18Z,12,Cybersecurity
+Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis,"The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process. ",,https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/,https://techcrunch.com/feed/,2026-10-15T01:01:32Z,8,Tech
+Flock CEO defends surveillance technology amid national backlash: ‘We shouldn’t pause progress’,"At TechCrunch Disrupt, Flock CEO Garrett Langley defended his company&#39;s surveillance technology despite growing privacy concerns, arguing that its crime-fighting benefits outweigh the risks of abuse.",,https://techcrunch.com/2026/10/14/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-shouldnt-pause-progress/,https://techcrunch.com/feed/,2026-10-15T00:49:31Z,0,Tech
+Meet the five companies competing in the Startup Battlefield finals at Disrupt 2026,It’s time to unveil the five companies that will be competing in the Startup Battlefield finals.,,https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/,https://techcrunch.com/feed/,2026-10-15T00:30:00Z,3,Tech
+Gudea leverages AI to help organizations prevent social media crises before they erupt,"Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” […]",,https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/,https://techcrunch.com/feed/,2026-10-15T00:00:00Z,5,Tech
+"Intero Biosystems wants drugmakers to test on mini human intestines, not animals","Intero Biosystems is selling lab-grown human intestines to drugmakers as regulators push for alternatives to animal testing, while the startup looks to scale production and expand its organoid technology.",,https://techcrunch.com/2026/10/14/intero-biosystems-wants-drugmakers-to-test-on-mini-human-intestines-not-animals/,https://techcrunch.com/feed/,2026-10-14T23:00:00Z,3,Tech
+Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks,"Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",,https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-10-14T22:56:47Z,12,Cybersecurity
+McKinsey is making job applicants spar with a fake AI client,"Consulting firm McKinsey &amp; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation &#34;aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,&#34; the […]",,https://www.theverge.com/news/1011654/mckinsey-ai-client-interview,https://www.theverge.com/rss/index.xml,2026-10-14T22:53:31Z,6,Tech
+The best feature of Apple’s HomeView might be its simplicity,"I&#39;m just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it&#39;s the shared, always-available household interface that my family might finally use. Is Apple&#39;s first smart display my dream smart home dashboard? No. But is it the right product for Apple Home at […]",,https://www.theverge.com/tech/1011431/apple-homeview-smart-display-best-feature,https://www.theverge.com/rss/index.xml,2026-10-14T22:00:02Z,6,Tech
+"CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes","Databases have traditionally been designed either for analytical data or for operational data. But database engine CedarDB supports both, and its approach has gained relevance with the rise of agentic AI.",,https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/,https://techcrunch.com/feed/,2026-10-14T22:00:00Z,6,Tech
+Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO,Jio plans to use most of its IPO proceeds to repay debt as it expands beyond telecom.,,https://techcrunch.com/2026/10/14/ambanis-jio-seeks-to-raise-3-2b-in-what-could-be-indias-biggest-ipo/,https://techcrunch.com/feed/,2026-10-14T21:48:20Z,5,Tech
+Fridge hack costing millions and sparking fires stemmed from poor security,Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-1024x648.jpg,https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/,https://arstechnica.com/feed/,2026-10-14T21:35:09Z,0,Tech
+Flock CEO says its microphones detect ‘just gunshots.’ Its website says different,"Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",,https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/,https://techcrunch.com/feed/,2026-10-14T21:30:33Z,0,Tech
+"""Programming is hard"": Epic Games leans on ""vibe coding"" for its new Launcher app","But the new &#34;Preview&#34; app &#34;will have some bugs,&#34; Epic warns.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/egslauncher-1152x648.png,https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/,https://arstechnica.com/feed/,2026-10-14T21:15:56Z,2,Tech
+"Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids","OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when […]",,https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety,https://www.theverge.com/rss/index.xml,2026-10-14T21:11:28Z,5,Tech
+NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping,Suspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/Black-Sea-sailors-rescued-by-Bulgaria-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/,https://arstechnica.com/feed/,2026-10-14T21:03:11Z,0,Tech
+Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts,Colossal announced a new AI platform to help accelerate its de-extinction efforts and  Peter Diamandis has launched a new fund to back startups who use it.,,https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts/,https://techcrunch.com/feed/,2026-10-14T21:00:00Z,8,Tech
+NASA's embattled Venus missions are back on track after cancellation threat,&#34;This is great news for us. We&#39;re staffing up. We&#39;re accelerating.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/10/davinci-heat-test-3-1152x648-1792007515.jpg,https://arstechnica.com/space/2026/10/nasas-embattled-venus-missions-are-back-on-track-after-cancellation-threat/,https://arstechnica.com/feed/,2026-10-14T20:48:07Z,0,Tech
+Flock CEO: We haven’t ‘fired’ any police departments as customers,"Flock CEO Garrett Langley said that the surveillance company has not cancelled contracts of any police department or law enforcement agency, despite reports of abuse.
+",,https://techcrunch.com/2026/10/14/flock-ceo-we-havent-fired-any-police-departments-as-customers/,https://techcrunch.com/feed/,2026-10-14T20:26:25Z,5,Tech
+"Schools, libraries plead with FCC to scrap idea of killing $2B broadband program","FCC chair threatens E-Rate fund, blames schools for kids&#39; excessive screen time.",https://cdn.arstechnica.net/wp-content/uploads/2026/06/classroom-tablets-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/schools-libraries-plead-with-fcc-to-scrap-idea-of-killing-2b-broadband-program/,https://arstechnica.com/feed/,2026-10-14T20:15:56Z,5,Tech
+Electric vehicle sales in the U.S. are showing signs of life,The electric vehicle market in the U.S. has been growing for the last three consecutive quarters.,,https://techcrunch.com/2026/10/14/electric-vehicle-sales-in-the-u-s-are-showing-signs-of-life/,https://techcrunch.com/feed/,2026-10-14T20:12:07Z,0,Tech
+Microsoft and Japan took down a cybercrime network behind over a billion scam messages,"We&#39;ve all gotten a scam text about a nonexistent parking ticket or a fake package delivery, but hopefully you&#39;ll start seeing fewer of them. Microsoft says it helped dismantle a marketplace for scammers sending phishing messages like those around the world. Through an investigation with Japan&#39;s National Police Agency, it tracked scam activity back to […]",,https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown,https://www.theverge.com/rss/index.xml,2026-10-14T20:03:43Z,0,Tech
+TimeTeller puts our internal clocks at the center of personalized medicine,German startup TimeTeller has developed a saliva test kit to help anyone understand their circadian rhythm; it aims to reduce side effects from cancer treatments.,,https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine/,https://techcrunch.com/feed/,2026-10-14T20:00:00Z,8,Tech
+"Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",Plaintiff claims cameras enabled warrantless tracking and monitoring after he previously sued over excessive force.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2213769379-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/,https://arstechnica.com/feed/,2026-10-14T19:53:01Z,5,Tech
+Ambrosia Energy will build a 10 GWh factory in Texas to make batteries for off-grid data centers,"Startup Ambrosia Energy will build a massive factory to crank out batteries to augment solar panels, creating a round-the-clock clean power plant.",,https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers/,https://techcrunch.com/feed/,2026-10-14T19:51:34Z,3,Tech
+Software development and rules stability: Prototype racing in 2030,"With the end of IMSA’s 2026 season, we have thoughts about the future of the sport.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/img_3-1152x648.jpg,https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/,https://arstechnica.com/feed/,2026-10-14T19:44:26Z,1,Tech
+"FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested","The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group&#39;s operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes. [...]",,https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/,https://www.bleepingcomputer.com/feed/,2026-10-14T19:41:43Z,3,Cybersecurity
+"From 2,500 requests to 24: Rebuilding star history without the stargazers","Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made.
+The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog.
+",,https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/,https://githubengineering.com/atom.xml,2026-10-14T19:11:33Z,0,General
+Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer,&#34;Have you ever seen a world born?&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/10/narniaTOP-1152x648.jpg,https://arstechnica.com/culture/2026/10/greta-gerwig-channels-bowie-in-psychedelic-the-magicians-nephew-trailer/,https://arstechnica.com/feed/,2026-10-14T19:10:58Z,5,Tech
+The AI race is back on,"Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest […]",,https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on,https://www.theverge.com/rss/index.xml,2026-10-14T19:06:03Z,5,Tech
+Hiyd is a health tracker that attaches to the watch you already wear,Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives. ,,https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear/,https://techcrunch.com/feed/,2026-10-14T19:00:00Z,1,Tech
+"Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI&#39;s bankruptcy case &#34;to put all parties on notice of the regulatory issues that […],,https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy,https://www.theverge.com/rss/index.xml,2026-10-14T18:47:54Z,6,Tech
+"As a TV enthusiast, I was hoping for more from the Apple TV 4K","It&#39;s been four long years since the last Apple TV 4K was released, and in that time there have been lots of hopes and dreams for features in whatever comes next. A new chip, 4K/120Hz support, audio passthrough, a remote locator, better home control integration - the 2022 Apple TV 4K is a great box, […]",,https://www.theverge.com/tech/1011324/apple-tv-4k-missed-features,https://www.theverge.com/rss/index.xml,2026-10-14T18:38:59Z,6,Tech
+Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability,"Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance&#39;s operating system, Cisco said in an advisory on Wednesday.
+
+The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization&#39;s email for spam, malware,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh__fSqm3p4u0HNpmeikU6Mo4abprP417Zb3pPW3-6IGrTHwqkbz1CqiuqxL2D0O1PH8J4Ho3_ZpNdJ5VFluIj_KHX6qT0WqZYfHQzyu0cVzGee9EmAZ9pNzsZJZx40UxuKjuz9eNHvuzlMANKOkDr6aRdKWxs8SpJqSi6vDBQTP5ZFgpgqn3Yj2TYNJU/s1600/cisco-0day.jpg,https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T18:38:56Z,20,Cybersecurity
+YouTube Music launches new labels as AI-generated music floods streaming platforms,"The label will appear on the player page and include songs entirely generated by AI or partially, such as  involved in composition and vocals.",,https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/,https://techcrunch.com/feed/,2026-10-14T18:23:46Z,6,Tech
+YouTube sticks new labels on AI-generated songs,"YouTube is adding a &#34;Made with AI&#34; label to tracks that were &#34;altered or fully generated&#34; using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn&#39;t sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it […]",,https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label,https://www.theverge.com/rss/index.xml,2026-10-14T18:22:56Z,6,Tech
+"Save up to 20 percent on gift cards for REI, Barnes &#038; Noble, and more","While we cover a lot of deals on specific products, it’s rare that we find worthwhile savings on gift cards that let you save on essentially anything the store sells. However, until October 19th, you can save up to twenty percent on gift cards when you buy them through the Google Play store. There are […]",,https://www.theverge.com/gadgets/1010749/google-play-gift-card-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-14T18:20:55Z,0,Tech
+"Hegseth, service secretaries discuss ‘generational change’ of Autonomous Warfare Command","Each of the services will also stand up a component command, defense secretary said.",,https://www.defenseone.com/policy/2026/10/hegseth-service-secretaries-discuss-generational-change-autonomous-warfare-command/416586/,https://www.defenseone.com/rss/all/,2026-10-14T18:07:44Z,0,Defense
+"Trump admin's retreat from foreign-influence fight is weakening US defenses, sources say",States and industry report getting less help from the federal government ahead of the midterms—even as AI gives foreign operatives a boost.,,https://www.defenseone.com/threats/2026/10/trump-foreign-influence-retreat/416587/,https://www.defenseone.com/rss/all/,2026-10-14T18:00:00Z,1,Defense
+Apate sends AI agents undercover to get scammed so they can gather fraud intelligence,Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.,,https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/,https://techcrunch.com/feed/,2026-10-14T18:00:00Z,5,Tech
+Ledger asks sellers across Asia to halt sales after supply-chain attack,"Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves while it investigates device tampering. [...]",,https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/,https://www.bleepingcomputer.com/feed/,2026-10-14T17:46:50Z,3,Cybersecurity
+Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App,"Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10.
+
+A web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZLcjmZtzt6NpWa8x4Wz7EdcOQEW6xYv6DA_mBnwy1ctZZeRAyeSYLES-H_mkr1QOBv72WNuGKwKQ-NN179Rw8BRTcYO38sYwxcbDkg1ISW_qWrCRJ9JfUXh3102OmwrF0HQq6dbSc58VXACXoi_EoI8ysPuSlzB_nBcHuFl9r3QakOsGG9GUm6UVOU8/s1600/nextcloud.jpg,https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T17:38:31Z,6,Cybersecurity
+Cisco patches new Secure Email Gateway zero-day exploited in attacks,Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...],,https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/,https://www.bleepingcomputer.com/feed/,2026-10-14T17:29:14Z,12,Cybersecurity
+Apple&#8217;s new HomeView smart display is $10 cheaper at Amazon,"Apple only just announced on Tuesday that its first smart display, the HomeView, will arrive on November 13th, but you can already save a couple bucks on it. Right now, you can buy the display for $289.99 ($10 off) in gray and the creamy white “starlight” colorway at Amazon. Sure, it’s a small discount, but […]",,https://www.theverge.com/gadgets/1011227/apple-homeview-smart-display-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-14T17:24:42Z,1,Tech
+"Sprout Pi adds Bluetooth, streaming, and USB-C to your aging iPod","There&#39;s an entire cottage industry of iPod mods out there, but Sprout Pi and Sprout Pico are two of the few full motherboard replacements that combine many of the most popular mods into a single upgrade. Both versions add Bluetooth, Wi-Fi, USB-C, a microSD card slot, FLAC playback, and more. And while cracking open an […]",,https://www.theverge.com/gadgets/1011266/sprout-pi-adds-bluetooth-streaming-and-usb-c-to-your-aging-ipod,https://www.theverge.com/rss/index.xml,2026-10-14T17:19:11Z,0,Tech
+Anbernic’s next dual-screen handheld could replace your aging Nintendo 3DS,"Anbernic shared a new video of its upcoming dual-screen handheld it announced last week showing the device playing 3DS, Xbox, and PS3 games through emulation. While competitors like Ayaneo have been making dual-screen handhelds for a few years, Anbernic only recently introduced its own dual-screen devices including the RG DS and RG DS Plus. Those […]",,https://www.theverge.com/tech/1011200/anbernic-rg-dds-dual-screen-handheld-emulator-nintendo-3ds,https://www.theverge.com/rss/index.xml,2026-10-14T17:13:27Z,0,Tech
+Researchers use AI to design proteins that cut up other proteins,AI design tools make proteins that break bonds that are stable for hundreds of years.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg,https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/,https://arstechnica.com/feed/,2026-10-14T17:10:15Z,5,Tech
+Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages,"Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System.
+
+&#34;Since January 2026, the threat actors behind these kits have been responsible for",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1600/phish-shop.jpg,https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T17:09:15Z,7,Cybersecurity
+My AI doppelganger tells me what to eat,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. For the past 100 days or so, my mornings have had a new rhythm. When I wake up, the first […]",,https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health,https://www.theverge.com/rss/index.xml,2026-10-14T17:00:00Z,6,Tech
+Mosqitter is turning its mosquito traps into an AI-powered surveillance network,"Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network designed to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.",,https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network/,https://techcrunch.com/feed/,2026-10-14T17:00:00Z,7,Tech
+OpenAI claims an ex-employee took its product plans and presented them to Apple,"OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president of the company&#39;s operations in Asia. The […]",,https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans,https://www.theverge.com/rss/index.xml,2026-10-14T16:43:24Z,6,Tech
+FBI arrests OpenAI engineer suspected of planting bug in conference room,OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/open-ai-bugged-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/,https://arstechnica.com/feed/,2026-10-14T16:41:49Z,5,Tech
+"U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud","The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea&#39;s fraudulent remote IT worker (ITW) scheme.
+
+The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRRY0Y0x4bBS7xZHNvUUjosK6tuvOhbBbE9XvaoyiONRttpSxhIwBaCgDpNKo9kMR37n1_8wKUXzpzL6KhmNC0OJsGZapzAaAteSFlbasNFzCM6XZXsSU99yOk6e2oR7tzG_3p_1-V04tnDyhhtGaBUJSviR-xaJh6mg4E-KT5gwR7_x3JmO-DDfM6-7ic/s1600/laptop-farm.jpg,https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T16:34:31Z,0,Cybersecurity
+Repairing the iPhone Duo&#8217;s folding screen costs as much as a new iPhone,"If you don&#39;t get AppleCare Plus for the iPhone Duo, any repairs are going to be pretty expensive. Apple published the estimated repair costs for the iPhone Duo without AppleCare Plus today, as reported by MacRumors, and they can be high: Battery service, for example, will cost $229, inner display damage will cost $999, and […]",,https://www.theverge.com/tech/1011245/iphone-duo-repair-costs-applecare,https://www.theverge.com/rss/index.xml,2026-10-14T16:21:28Z,6,Tech
+"Honey, Xbox shrunk its controller","Microsoft is officially announcing its Xbox Nano controller today, a smaller and cheaper controller that&#39;s designed to fit into your pocket. The more compact controller is also designed for &#34;younger players, smaller hands, or anyone seeking something portable for play on the go.&#34; The $49.99 Xbox Nano is Microsoft&#39;s smallest controller, and it&#39;s shorter than […]",,https://www.theverge.com/news/1011216/xbox-nano-controller-release-date-pricing,https://www.theverge.com/rss/index.xml,2026-10-14T16:16:46Z,0,Tech
+Microsoft has a new machine learning tool to improve weather forecasts,"Old-school physics-based weather forecasting and even new AI models typically become less reliable beyond two weeks, a problem Microsoft claims to have solved using machine learning. Researchers with the company say they&#39;ve found a new, cost-effective way to make more accurate weather forecasts two to six weeks in advance - allowing farmers and emergency responders […]",,https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft,https://www.theverge.com/rss/index.xml,2026-10-14T16:05:21Z,8,Tech
+"Now you can call anyone with WhatsApp, even if they don&#8217;t have WhatsApp","WhatsApp&#39;s new guest calling feature allows you to invite anyone to a call, without needing them to make an account first. They won&#39;t need the app, either, since Meta also added support for calls on the web version of WhatsApp earlier this year. You can invite guests just by sending them the call link, and […]",,https://www.theverge.com/tech/1011202/meta-whatsapp-guest-calls,https://www.theverge.com/rss/index.xml,2026-10-14T16:03:10Z,1,Tech
+"Legendary FPS level designer Richard ""Levelord"" Gray dies at 68",Tributes pour in for the man behind iconic Duke Nukem 3D levels and much more.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/levelord-1152x648.png,https://arstechnica.com/gaming/2026/10/legendary-fps-level-designer-richard-levelord-gray-passes-away-at-68/,https://arstechnica.com/feed/,2026-10-14T16:02:08Z,0,Tech
+"AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds","In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes.
+The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/,https://www.securityweek.com/feed/,2026-10-14T16:00:00Z,1,Cybersecurity
+Android is using AI to suss out scammers in Google Messages,"Android is introducing new scam defense features that aim to make it easier for users to evade mobile fraud, including bolstered protection in Google Messages and additional safeguarding tools. Building on the Scam Detection feature in Google Messages, a new &#34;enhanced protection&#34; setting will be rolling out in the coming weeks that taps into cloud-based […]",,https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages,https://www.theverge.com/rss/index.xml,2026-10-14T16:00:00Z,8,Tech
+Square’s new kiosk lets you talk to AI for help with your order,"Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI. It&#39;s called the Square Kiosk. Square says the Kiosk, which has a large pill shape, has an &#34;agentic, conversational voice layer&#34; that &#34;fully understands a seller&#39;s menu and listens and responds in real […]",,https://www.theverge.com/tech/1009086/square-kiosk,https://www.theverge.com/rss/index.xml,2026-10-14T16:00:00Z,6,Tech
+Prismm helps banks keep inherited money in-house,"With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",,https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house/,https://techcrunch.com/feed/,2026-10-14T16:00:00Z,0,Tech
+Anthropic’s self-replicating AI warning is alarming deja vu,"Are legions of smart devices - fridges, ovens, vacuum cleaners, lawnmowers, security cameras, and TVs - conspiring to take over the internet? No. But they could soon be unwitting hosts to self-replicating AI models that spread from device to device and prove remarkably difficult to contain. Welcome to the unsettling world of AI worms, where, […]",,https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk,https://www.theverge.com/rss/index.xml,2026-10-14T15:19:02Z,5,Tech
+Deezer will soon let you filter out AI-generated music,Deezer said that the new toggle will be rolled out by the end of the year.,,https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/,https://techcrunch.com/feed/,2026-10-14T15:16:04Z,5,Tech
+"ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw","ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. 
+The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek.
+",,https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/,https://www.securityweek.com/feed/,2026-10-14T15:15:15Z,13,Cybersecurity
+Save 50% on your TechCrunch Disrupt 2026 ticket and join the last two days in San Francisco’s Moscone West,"Get 50% discount on the last two days of TechCrunch Disrupt 2026, Oct. 14-25, in San Francisco&#39;s Moscone West. Register now and join the rest of the startup ecosystem. Today, it&#39;s all about physical and software AI.",,https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/,https://techcrunch.com/feed/,2026-10-14T15:13:24Z,9,Tech
+"Netflix is laying off around 1,000 employees","Following a report last week that Netflix was planning to lay off five percent of the company, today the streamer&#39;s co-CEOs Ted Sarandos and Greg Peters announced in an email that it would actually be laying off six percent of its workforce, or around 1,000 employees, according to Variety, which obtained a copy of the […]",,https://www.theverge.com/tech/1011058/netflix-layoff-six-percent-thousand-employees,https://www.theverge.com/rss/index.xml,2026-10-14T15:12:58Z,5,Tech
+HomeView doesn’t natively support any video apps yet — not even Apple’s,"Apple says HomeView is &#34;the perfect way&#34; to enjoy its audio and video entertainment apps, but some notable examples like Apple TV only work if you AirPlay it through your iPhone. As noted on the HomeView spec page, Apple TV, Apple Books audiobooks, Apple Music Classical, and Apple News Plus aren&#39;t natively supported on the […]",,https://www.theverge.com/tech/1011062/apple-homeview-airplay-apps-streaming,https://www.theverge.com/rss/index.xml,2026-10-14T15:10:12Z,6,Tech
+Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace,Zenzap is used by organizations including Starbucks and Taco Bell,,https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/,https://techcrunch.com/feed/,2026-10-14T15:08:00Z,6,Tech
+Ukraine claims Starlink is suddenly disrupting service for its military,"Ukrainian officials claim the Elon Musk-owned Starlink put new limits on its service in the area without warning, disrupting the country&#39;s drone operations and missions, according to reports from Reuters and the Financial Times. The move comes just days after Musk wrote on X that Ukrainian President Volodymyr Zelenskyy &#34;has gone too far,&#34; in response […]",,https://www.theverge.com/science/1011110/ukraine-starlink-restrictions-drone-mission-disruptions,https://www.theverge.com/rss/index.xml,2026-10-14T15:06:12Z,5,Tech
+Cryptography Rarely Fails Because of the Math,Cryptography rarely fails at the math - it fails at deployment. Why post-quantum migration and AI-scale risk make open-source stewardship a core control.,,https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source/,https://blogs.cisco.com/security/feed,2026-10-14T15:00:40Z,1,Cybersecurity
+Floqer’s AI agents research sales prospects so teams don’t have to,"Floqer is an autonomous customer knowledge platform that provides business-to-business sales and marketing teams with an AI-powered database designed to continuously collect, organize, and update the information used to understand their customers. Floqer is pitching Wednesday on the Startup Battlefield stage at TechCrunch Disrupt 2026. The startup told TechCrunch ahead of the presentation that it […]",,https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/,https://techcrunch.com/feed/,2026-10-14T15:00:00Z,9,Tech
+"Netflix to lay off 1,000 staff amid intensifying competition for user attention","Netflix said most of the cuts would affect its product, tech, legal, and human resources departments.",,https://techcrunch.com/2026/10/14/netflix-to-lay-off-1000-staff-amid-intensifying-competition-for-user-attention/,https://techcrunch.com/feed/,2026-10-14T14:55:47Z,5,Tech
+"$15 gets you Psychonauts 2, the latest Like a Dragon game, and more","There are several deals happening right now on video games and gaming-related tech that are worth sharing. To start, this month’s Humble Choice drop of Steam PC games is really good. The $14.99 per month service is offering subscribers Like A Dragon: Pirate Yakuza in Hawaii, Price of Persia: The Lost Crown, Psychonauts 2, Deep […]",,https://www.theverge.com/gadgets/1011050/humble-choice-valve-index-borderlands-odyssey-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-14T14:45:45Z,6,Tech
+Apple&#8217;s new Find My-compatible remote will also work with your old Apple TV,"You don&#39;t need to buy the new Apple TV 4K just to get the updated Siri Remote with Find My and a built-in speaker, as it works with every model released going back to the Apple TV HD and is available to buy standalone for $59. Previous Siri Remotes had a basic iOS feature to […]",,https://www.theverge.com/gadgets/1011069/apple-tv-remote-find-my,https://www.theverge.com/rss/index.xml,2026-10-14T14:39:32Z,7,Tech
+TechCrunch Disrupt 2026: Day 2,"Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, investor-only session, more roundtables, and more. Register to save 50% on your pass.",,https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/,https://techcrunch.com/feed/,2026-10-14T14:30:00Z,5,Tech
+Microsoft fixes VPN issues caused by September Windows updates,Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/,https://www.bleepingcomputer.com/feed/,2026-10-14T14:27:01Z,1,Cybersecurity
+Harmonic Security Raises $50 Million for Workforce AI Protection,"The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK.
+The post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.
+",,https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/,https://www.securityweek.com/feed/,2026-10-14T14:09:51Z,2,Cybersecurity
+The Blind Spots of Agentic Pentesting and How to Close Them,"AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]",,https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/,https://www.bleepingcomputer.com/feed/,2026-10-14T14:00:10Z,7,Cybersecurity
+Halo&#8217;s co-creator wrote a novel about AI taking over the world,"Back in 2019, author Margaret Stohl was handed a manuscript written by Jason Jones, who&#39;s best known as the co-creator of sci-fi gaming series Halo and Destiny. The two had worked together at Bungie, and Jones wanted Stohl&#39;s opinion on a book he was writing about AI taking over the world. It was an oral […]",,https://www.theverge.com/entertainment/1010433/jason-jones-ai-novel-halo-destiny,https://www.theverge.com/rss/index.xml,2026-10-14T14:00:00Z,5,Tech
+NTangible bets it can predict how athletes will perform under pressure,NTangible is building an analytics platform for collegiate sports organizations and other clubs to measure an athlete&#39;s &#34;clutch&#34; factor.,,https://techcrunch.com/2026/10/14/ntangible-bets-it-can-predict-how-athletes-will-perform-under-pressure/,https://techcrunch.com/feed/,2026-10-14T14:00:00Z,0,Tech
+Virtual Event Today: Zero Trust Strategies Summit,"SecurtyWeek’s 2026 Zero Trust Strategies Summit kicks off today at 11AM ET as a fully immersive virtual conference and expo. This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies for a world where every user, device, and workload must be explicitly verified. We will explore […]
+The post Virtual Event Today: Zero Trust Strategies Summit appeared first on SecurityWeek.
+",,https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/,https://www.securityweek.com/feed/,2026-10-14T13:56:36Z,1,Cybersecurity
+Ukraine blindsided by Starlink throttling restrictions and intelligence gaps,Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1259126916-1024x648.jpg,https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/,https://arstechnica.com/feed/,2026-10-14T13:56:11Z,5,Tech
+Epic&#8217;s new games launcher is ‘vibe coded’,"Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is &#34;way faster&#34; and now supports Linux. But the company, which has been publicly making a big push into AI-assisted development, also notes that the refresh was &#34;vibe coded.&#34; &#34;Programming is hard,&#34; Epic says in […]",,https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux,https://www.theverge.com/rss/index.xml,2026-10-14T13:55:02Z,6,Tech
+Epic is bringing Fortnite to Linux,"Epic is working on bringing Fortnite to Linux through its Epic Games Launcher. The new launcher is releasing in preview today, and for the first time on Linux, and while Fortnite isn&#39;t available there just yet, Epic wants to make that a reality. So far, part of the reason Fortnite hasn&#39;t been available on Linux […]",,https://www.theverge.com/games/1010808/epic-fortnite-linux-anti-cheat,https://www.theverge.com/rss/index.xml,2026-10-14T13:54:58Z,6,Tech
+Fujifilm’s new square format instant camera adds analog color filters,"Continuing the analog approach of the Instax Square SQ6 that launched in 2018 and follow-ups like the Square SQ1 and SQ40, the new Fujifilm Instax Square 2 skips digital functionality while still introducing the ability to customize the look and feel of instant photos. A new mood filter switch slides one of two colored filters […]",,https://www.theverge.com/tech/1010990/fujifilm-instax-square-2-analog-instant-film-camera-filters,https://www.theverge.com/rss/index.xml,2026-10-14T13:43:36Z,1,Tech
+We might not have to wait 13 years for the next GTA,"Rockstar Games might not keep fans waiting as long for the next installment of Grand Theft Auto. As part of Bloomberg&#39;s expansive report on the making of GTA VI, Rockstar technical lead Phil Hooker said that the &#34;engine, the tools and the team we&#39;ve built during this project will allow us to do things more […]",,https://www.theverge.com/games/1011028/next-gta-faster-development,https://www.theverge.com/rss/index.xml,2026-10-14T13:42:29Z,5,Tech
+Global takedown hits network behind 1 billion phishing messages,"A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",,https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/,https://www.bleepingcomputer.com/feed/,2026-10-14T13:12:52Z,3,Cybersecurity
+How Claude Code’s 256KB blind spot put developers’ secrets in the preview pane,"
+		
+					  
+						
+
+
+
+
+Simply asking Anthropic’s Claude Code to review an HTML file could hand attackers access to a developer’s machine, cloud credentials and software development environment, according to a new Noma Security finding.
+
+
+
+Noma’s researchers found a vulnerability affecting Anthropic’s Claude Code Desktop app that could allow malicious JavaScript embedded in an HTML file to execute without further user interaction, potentially exposing sensitive host files. The flaw, called SneakPeek, specifically affected the application’s automated preview pane, which renders HTML files generated or modified by Claude.
+
+
+
+“This is a strong example of how emerging technologies are reshaping the attack surface,” said Ronald Lewis, head of cybersecurity governance at Black Duck. “Attackers are increasingly targeting the AI ecosystem, exploiting implicit trust relationships between models, agents, tools, data sources, and connected services.”
+
+
+
+An attacker could exploit the bug by planting a malicious file in a public repository and waiting for a developer to ask Claude Code to inspect it, Noma said in a blog post shared with CSO ahead of its publication on Wednesday.
+
+
+
+Once the application rendered the file, the script could read local files and exfiltrate sensitive data, including AWS credentials, GitHub secrets and SSH private keys, to a remote server.
+
+
+
+The flaw has been assigned a high-severity CVSS score of 8.7, while a CVE ID is not yet available. Noma says Anthropic collaborated with Noma Labs during the disclosure process and fully resolved the issue.
+
+
+
+“Anthropic confirmed they are preparing a GitHub Security Advisory and have requested a CVE for it,” Eli Ainhorn, senior AI vulnerability researcher at Noma, told CSO. “We expect it to be available soon. The CVSS score is 8.7 High (v4.0), assigned by Anthropic.
+
+
+
+Anthropic did not immediately respond to CSO’s request for comment.
+
+
+
+A 256KB threshold allowed local files to leak
+
+
+
+Noma traced SneakPeek to three architectural gaps in Claude Code Desktop’s preview mechanism, which uses an Electron-based Chromium rendering panel to display HTML content.
+
+
+
+The first involved a file-size threshold that changed how the application handled HTML documents. Files smaller than 256KB were converted into base64-encoded data: URLs with a strict Content Security Policy (CSP) that blocked script execution. Files exceeding that threshold were instead written to disk and loaded directly as “file://” URLs, bypassing the CSP protections applied to smaller files.
+
+
+
+The second problem was the origin assigned to the rendered content. Loading the larger files through file:// gave the preview renderer access to the local filesystem in Chromium rather than confining it to an isolated, opaque origin, the researchers said.
+
+
+
+The third weakness was an inactive request filter. Although the application has a mechanism intended to block file: // access, Noma found that the filter was not active during static file rendering, including when developers reviewed local code test reports.
+
+
+
+“Relying on size-based thresholds or client-side filters for security boundaries is inherently fragile,” Lewis said. “Development machines hold high-value operational secrets—SSH private keys, AWS credentials, Kubernetes configurations, and OAuth session tokens.”
+
+
+
+Compromising a developer’s local workstation is effectively a direct route into corporate cloud infrastructure, he warned.
+
+
+
+Noma found that Anthropic’s initial patch could be bypassed. “The initial patch blocked the preview pane from making direct file read requests from the main page context, but we found that by moving the file-reading code into a Web Worker, a background thread that browsers run separately from the main page, the requests originated from a context the patch didn’t cover,” Ainhorn explained.
+
+
+
+The researchers reported the bypass, prompting a deeper architectural fix before the vulnerability was fully resolved.
+
+
+
+Risk beyond the AI model
+
+
+
+The malicious script ran inside the preview pane’s rendering process, rather than as an action performed by the AI agent itself. That defeats the assumption that security controls meant for the model are protecting all AI workflows.
+
+
+
+“The protections were real, they just didn’t cover every path,” Ainhorn said. “Organizations need to keep AI coding tools updated, stop leaving long-lived credentials on developer machines, and use scoped, short-lived tokens where possible. That alone would have limited what this exploit could grab.”
+
+
+
+According to Sysdig’s senior cybersecurity strategist Crystal Morin, agent-level logs would not necessarily capture the execution. File reads and outbound network connections would instead be visible at the runtime layer, where defenders need appropriate monitoring, Morin said. “The endpoint is where AI agents start, but their blast radius extends to the cloud,“ she added, warning that routine work with AI tools can expose credentials with consequences far beyond the workstation.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4235139-0-74972700-1791982934-shutterstock_1603390849_b43941.jpg?quality=50&strip=all,https://www.csoonline.com/article/4235139/how-claude-codes-256kb-blind-spot-put-developers-secrets-in-the-preview-pane.html,https://www.csoonline.com/feed/,2026-10-14T13:00:00Z,22,Cybersecurity
+Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages,"Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man.
+The post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek.
+",,https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/,https://www.securityweek.com/feed/,2026-10-14T13:00:00Z,4,Cybersecurity
+The Alexa Tablet 12 Pro is almost the Android tablet we needed,"We have to talk about this screen. It&#39;s the first thing you notice, and maybe the only thing that matters, about the Alexa Tablet 12 Pro. It&#39;s a 12-inch, 2800 x 1840 panel with a new technology Amazon calls &#34;Nanomatte&#34; that is meant to decrease glare and increase the feeling that you can reach out […]",,https://www.theverge.com/tech/1010780/alexa-tablet-12-pro-review,https://www.theverge.com/rss/index.xml,2026-10-14T13:00:00Z,0,Tech
+The Ocarina of Time remake feels remarkably modern — and surprisingly terrifying,"With its upcoming remake for the Switch 2, Nintendo might have nailed the best thing about The Legend of Zelda: Ocarina of Time: its timelessness. The 1998 3D action adventure game for the Nintendo 64 that pioneered so much - 3D graphics, movement, exploration, openness - has been reengineered with changes that make it feel […]",,https://www.theverge.com/games/1010101/zelda-ocarina-of-time-remake-switch-2-preview-hands-on,https://www.theverge.com/rss/index.xml,2026-10-14T13:00:00Z,5,Tech
+CISA warns admins to immediately fix Ivanti flaw exploited as zero-day,The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...],,https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/,https://www.bleepingcomputer.com/feed/,2026-10-14T12:58:07Z,14,Cybersecurity
+Anthropic warns small AI models could self-replicate through IoT devices,&#34;Small weight-based replicators&#34; could usher in a new generation of computer worms.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-1152x648.jpg,https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/,https://arstechnica.com/feed/,2026-10-14T12:55:06Z,5,Tech
+CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.
+
+The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1600/i-h.jpg,https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T12:30:42Z,8,Cybersecurity
+curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution,"A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client&#39;s memory, and the researcher who reported it turned that into code execution on the uploading machine.
+
+The curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4S_5rQ2kApGYmSMOh6PFsgD3yRugV3_nzSexwBhEe3BoSTQeBfSu2-3JSO4wDCnU2LmVMWtgA6AcBEcf2wOpsL2v22woZ5fel0XaSonlbgDWSXMuV3iu5ewohp9kqgf4OwmCvtnRyyYjFEP6Z3RRLT5sX8g7-xI1robnLmWtqFp6SvrGvpBeXI_D4ICo/s1600/curl.jpg,https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T12:13:36Z,4,Cybersecurity
+How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team,"Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.
+
+The call comes in at 4:40 on a Friday. It&#39;s the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEYzcrs6sSW45od6MYo5jFl29yPGuwipgy7nfS3STYqknrD9b5OcU00_c0sqjG8Arvqq36ojwHSZMbjboA3bUQ1-ZcLRRjmuEQpzTDYYXnyvySzynW0UOvHOVmYNNzp_n-J5xXmwByMCofw5kxslXe4dqAVYqrWa-1LivXxPNa_ZGOQgIBxhyhvtiLxDs/s1600/icon.jpg,https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T11:50:00Z,1,Cybersecurity
+Hackers abuse the Ivanti Connect Secure bug to gain access without accounts,"
+		
+					  
+						
+
+
+
+
+Attackers without an account of their own were found logging in to Ivanti Connect Secure appliances using an authentication bypass flaw that the vendor has since fixed. Once inside, attackers ran arbitrary commands on the appliances.
+
+
+
+“Ivanti initially discovered a portion of this vulnerability as part of our product security program and patched it in the July release 25.1.3.0,“ the vendor said in a security advisory. ”We had been working to backport the fix to the remaining supported versions when exploitation occurred.”
+
+
+
+According to security firm watchTowr’s vulnerability FAQ, the flaw allowed remote attackers to spoof the signals used to establish a user’s identity, bypassing normal authentication checks. The bypass uses a path separate from normal authentication, so existing login protections do not stop it, watchTowr added.
+
+
+
+Tracked as CVE-2026-104935 and rated at CVSS 8.6 out of 10, the vulnerability affects multiple product branches, including Ivanti Connect Secure 22.8R2.4 and earlier, as well as specified 25.1 releases. Ivanti says versions 22.7 and earlier are not affected.
+
+
+
+Ivanti has released fixes, including for versions 22.8R2.5, 25.1.1.2, 25.1.3.0, and 25.1.3.1, depending on the hardware and software branch. Security teams were advised to identify their deployed versions, apply corresponding fixes, and investigate potential compromise. 
+
+
+
+While Ivanti said reliable indicators of compromise were not yet available, Volexity, the cybersecurity firm credited with discovering the flaw, has published details of its exploitation. The US Cybersecurity and Infrastructure Security Agency added the flaw to its known exploited vulnerabilities (KEV) catalog on October 13.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4235129-0-56376900-1791978417-Hacker-1.jpg?quality=50&strip=all,https://www.csoonline.com/article/4235129/hackers-abuse-the-ivanti-connect-secure-bug-to-gain-access-without-accounts.html,https://www.csoonline.com/feed/,2026-10-14T11:46:45Z,15,Cybersecurity
+Hirudo Android malware replaces banking apps to evade security checks,A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...],,https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/,https://www.bleepingcomputer.com/feed/,2026-10-14T11:41:20Z,4,Cybersecurity
+"Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days","A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.
+
+Its researchers built the attack in six days by directing AI agents running OpenAI&#39;s publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLXn6RSZOSq2StbSf2fHVaHwVEetIYN0wGfuaIcyaEnwSnXLaY1FBfSKPFzzQuKvtpRygCR7AvNixA-SCkIA98QjnT7gE2UWYtoiZLs5VxQC8KTSJwwlcP0helOb3F4hbSo4uqITjJYPiZHSSuKkm1O_BXFYeyEU7koe_77QSmKbU33o5hteBC5-0dxrs/s1600/chrome-exploit.jpg,https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T11:19:02Z,7,Cybersecurity
+The Internet’s undersea backbone is slipping into the danger zone,Elisabeth Braw’s book Undersea War on rising risks for undersea infrastructure.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/Undersea-cable-ship-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/,https://arstechnica.com/feed/,2026-10-14T11:15:24Z,0,Tech
+Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks,"Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud. 
+
+Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj010OXrg2ZBrxwqSnpzd8SrIDY_dYOMtdnzIpG7YnCjv1QB58_HylDTkfFmXtZYci90doRcSrPdFfYLowM_S5t2RpD6UkCoWveJrKajQS-7d3sDtyI22FYN0TKy-pQpzWScUB_ROhXRNzZi9dzhgg02kH3WVtdGPNWYBLKv8qZgsa9kREW1SvZ2LTF2AWV/s1600/android-banking.jpg,https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T11:08:22Z,6,Cybersecurity
+"OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say","Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/white-circle-red-team-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/,https://arstechnica.com/feed/,2026-10-14T11:00:30Z,5,Tech
+An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.,"The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.
+
+TL;DR
+
+
+  During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer&#39;s production website, on its own.
+  One login request let the user choose where the one-time passcode went.
+  The attack was the easy part. Proving it",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_bop9V2vtfHPW4Obd0zupOPpNFCd9N5HtVwWVs9u-njx8RuEgOkAh75uRjWLS_h3zHQ847m7xc01PkVAdKhyphenhyphen5Pkg2Pb_qthWVQe-9lcpKclCOq3ZDpQ2iSfRSFCQQU8gxyBl6lWEjTKWZHn9LiNSq2rQ4_nUIM6Sjcqv5fwgVRnFpiuxpYDfhrkbikLE/s1600/case.jpg,https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T11:00:00Z,3,Cybersecurity
+"Fairphone’s latest repairable earbuds are smaller, lighter, and longer-lasting","Repairable, ethical phone brand Fairphone has released its second pair of earbuds. The Fairbuds 2 are just as repairable as the first generation, but deliver improved audio and almost twice the battery life. The Fairbuds 2 are out now in the UK and Europe from £99 / €119, and a US launch at $119 will […]",,https://www.theverge.com/tech/1010906/fairphone-fairbuds-2-price-release-audio-repairability,https://www.theverge.com/rss/index.xml,2026-10-14T11:00:00Z,5,Tech
+The Tesla Roadster could have stayed vaporware,"For a car that&#39;s supposed to be one of the fastest ever made, the new Tesla Roadster certainly took its sweet-ass time getting here. It&#39;s been nearly a decade since Elon Musk made the surprise announcement about plans to build a next-gen Roadster. Now, the Tesla Roadster is finally expected to make its production-ready debut […]",,https://www.theverge.com/transportation/1010694/tesla-roadster-reveal-vaporware-spacex-elon-musk,https://www.theverge.com/rss/index.xml,2026-10-14T11:00:00Z,5,Tech
+Scimplify raises $25M to challenge China’s grip on critical materials with AI,Scimplify&#39;s annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.,,https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/,https://techcrunch.com/feed/,2026-10-14T11:00:00Z,5,Tech
+US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms,"Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location.
+The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/,https://www.securityweek.com/feed/,2026-10-14T10:55:21Z,1,Cybersecurity
+Microsoft: Recent Windows updates may trigger Remote Desktop failures,Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the &#34;Administrator protection&#34; security feature is enabled. [...],,https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/,https://www.bleepingcomputer.com/feed/,2026-10-14T10:48:09Z,1,Cybersecurity
+"Unplug your smart fridges, French supermarkets warned after cyberattack","
+		
+					  
+						
+
+
+
+
+More internet-connected refrigerators have joined the official list of those affected by a cyberattack that ruined stocks of chilled food at hundreds of French supermarkets over the weekend.
+
+
+
+The French Computer Emergency Response Team (CERT-FR) advised supermarkets to disconnect any refrigeration control systems with a public IP address from the internet, and to reconnect them via a secure VPN only after verifying the configuration and, if necessary, restoring factory defaults.
+
+
+
+In an emergency, it suggested, they could simply filter connections to allow only the IP addresses of their refrigeration suppliers or service providers to connect, but this should not be a long-term solution, CERT-FR said.
+
+
+
+CERT-FR’s initial warning on Monday listed only Danfoss AK-SC and AK-SM series refrigeration controllers as affected, advising supermarkets to update the firmware of their systems, set the security level to “strict,” and ensure that default passwords had been changed.
+
+
+
+One of the supermarket chains hardest hit in the attack was Groupement Mousquetaires, which operates under the Intermarché and Netto brands. It promptly removed products from affected fresh and frozen food display units managed by Danfoss in some of its stores, a spokesman said.
+
+
+
+Following the attack, French control systems vendor Dixell posted presciently on LinkedIn: “Cybersecurity is everyone’s business, all the time. Today, our competitors were targeted; tomorrow, it could be our turn.”
+
+
+
+And so it came to be.
+
+
+
+As the list of victims grew, it became apparent that not all the affected supermarkets were using refrigeration controllers supplied by Danfoss, prompting CERT-FR to add other models to the list sold under the Dixell and Copeland brands.
+
+
+
+Dixell published a security advisory for user of its XWEB internet interface, broadly along the same lines as CERT-FR’s advice. It recommended immediately upgrading systems running version 1.12.1 or older; changing weak or default passwords and activating password security policies on compatible systems; and securing remote access through a VPN, a dedicated 4G mobile data connection, or in an emergency by applying an IP address filter.
+
+
+
+Tom Hegel, research lead at cybersecurity monitoring company SentinelOne, said the attacks are unlikely to stop with Danfoss and Dixell/Copeland: “With thousands of these interfaces still onine, I expect more incidents like this.”
+
+
+
+Those interfaces are online because supermarkets often buy “refrigeration as a service,” with providers guaranteeing performance as long as they have access to a constant stream of data from the refrigerators they maintain. The data also enables them to guarantee traceability of the cold chain.
+
+
+
+As with much legacy operational technology (OT), the security of such systems has largely escaped the notice of CISOs until now.
+
+
+
+“Retail chains run enormous estates of refrigeration controllers, building management systems, door access panels, and point-of-sale gear, much of it installed by facilities contractors who rarely loop in the security team,” said Hegel.
+
+
+
+As they scan and secure their systems, supermarket CISOs will be wondering who attacked them, and why — but with the off switch for their refrigerators effectively posted to the public internet, those will be hard questions to answer.
+
+
+
+“An attacker who logs into an exposed control panel leaves almost nothing behind, with no malware to analyze and few clues beyond an IP address that probably leads to a rented server. A teenager and an intelligence service would look much the same from the defender’s side,” said Hegel. “The gap between a nuisance and a serious incident often comes down to how much control a victim has exposed to the internet.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4235107-0-21316200-1791974255-shutterstock_757358335-100937194-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4235107/unplug-your-smart-fridges-french-supermarkets-warned-after-cyberattack.html,https://www.csoonline.com/feed/,2026-10-14T10:37:21Z,17,Cybersecurity
+Cybersecurity is a leadership problem: Why the management model needs to catch up,"
+		
+					  
+						
+
+
+
+
+
+
+
+
+When I started writing regularly about cybersecurity management in 2015, the environment looked very different.
+
+
+
+Cloud computing was still reshaping enterprise technology. Ransomware had not become the industrialised threat it is today. Artificial intelligence was not driving boardroom discussions. Zero Trust had yet to enter mainstream technical vocabulary and quantum computing barely registered on the corporate risk horizon.
+
+
+
+Cybersecurity itself also occupied a different position. The CISO role was less established, board engagement was inconsistent, regulation was less extensive and security budgets were generally smaller.
+
+
+
+Much has changed since then.
+
+
+
+But looking back at the management challenges we were discussing more than a decade ago raises an uncomfortable question:
+
+
+
+Why are we still discussing so many of them?
+
+
+
+Technology has advanced enormously. Investment has increased. Regulation has expanded. Cybersecurity has achieved unprecedented executive and board visibility.
+
+
+
+Yet organisations still struggle with governance, accountability, organisational silos, short-termism and execution.
+
+
+
+Those were management problems in 2015. They remain management problems today.
+
+
+
+The ‘what’ was never the hardest part
+
+
+
+One of the central observations behind my early work was that the what of cybersecurity was already reasonably well understood.
+
+
+
+Standards, control frameworks and good practices had existed for years. Organisations could identify weaknesses, define controls and produce remediation plans. They knew what good cybersecurity looked like.
+
+
+
+The difficult questions were always the how and the who.
+
+
+
+How do you implement those controls across complex organisations with conflicting priorities? How do you sustain transformation over several years? Who owns the changes? Who has the authority to make them happen? And who remains accountable when progress stalls?
+
+
+
+Those questions cannot be answered by a security framework or product. They are governance, management and leadership questions.
+
+
+
+More than a decade later, that distinction matters even more.
+
+
+
+Cybersecurity has progressed — but management has lagged
+
+
+
+There is no question that cybersecurity capabilities have improved.
+
+
+
+Detection and response have matured. Cloud security has developed rapidly. Identity management has become a central protection discipline. Security operations are increasingly automated, and AI is transforming both attack and defence.
+
+
+
+Large organisations now operate substantial security functions supported by extensive technology portfolios, specialist providers and advisers.
+
+
+
+But increased sophistication has not eliminated fundamental management weaknesses.
+
+
+
+CISOs can remain accountable for issues they lack the authority to resolve. Technology and security strategies can develop on separate tracks. Business executives can still treat cybersecurity as a service delivered by the CISO rather than a dimension of the processes, applications and activities they own themselves.
+
+
+
+Governance can produce extensive reporting without effective decision-making. Transformation programmes can identify the right problems without necessarily resolving them.
+
+
+
+The language has evolved. The underlying management dynamics often have not.
+
+
+
+The CISO reporting-line debate misses the point
+
+
+
+The persistent debate around where the CISO should report illustrates the problem.
+
+
+
+For decades, organisations have debated whether the CISO should report to the CIO, CEO, COO, CRO or another senior executive.
+
+
+
+The CIO reporting line has attracted particular criticism because of a perceived conflict between technology delivery and cybersecurity protection.
+
+
+
+But if decades of discussion have failed to produce a universally satisfactory answer, perhaps the real problem lies elsewhere.
+
+
+
+Maybe the more fundamental question is: What does the organisation expect the CISO to be?
+
+
+
+Some organisations see the CISO primarily as a technology security leader. Others position the role as an independent control function. Some expect the CISO to coordinate resilience, while others increasingly view the position as a strategic business protection role.
+
+
+
+Those are very different jobs.
+
+
+
+Until organisations clarify the purpose, authority and accountability of the CISO, debates about reporting lines will continue because organisational structure is being asked to compensate for ambiguity around the role itself.
+
+
+
+Moving the CISO around the organisation chart cannot resolve that ambiguity.
+
+
+
+CIO-CISO tension is not necessarily conflict
+
+
+
+The supposed conflict between CIO and CISO needs a proper reality check.
+
+
+
+The two executives inevitably face different pressures. CIOs balance cost, delivery, availability, innovation and transformation. CISOs must challenge weaknesses and ensure protection and resilience remain adequate.
+
+
+
+That creates tension.
+
+
+
+But tension can be constructive and does not have to become conflict.
+
+
+
+Nor does moving the CISO outside the CIO organisation eliminate those competing priorities.
+
+
+
+Any modern CIO should acknowledge that cybersecurity is inseparable from architecture, cloud, identity, DevOps, digital transformation, AI and resilience. CIOs and CISOs must collaborate regardless of the formal reporting structure.
+
+
+
+What organisations really need is a governance model capable of resolving disagreements when legitimate priorities compete.
+
+
+
+That is a leadership and management requirement, not something structural separation can solve on its own.
+
+
+
+Cybersecurity may be undermanaged, not just underfunded
+
+
+
+Security spending tells a similar story.
+
+
+
+Cybersecurity investment has risen substantially over the past decade, and some organisations undoubtedly still require more resources.
+
+
+
+But persistent weaknesses after years of increasing expenditure should lead executives to ask whether funding is always the central issue.
+
+
+
+Money can buy technology, people and expertise. It can finance transformation and accelerate remediation.
+
+
+
+What it cannot automatically do is establish strategic priorities, create clear accountability, resolve organisational politics, force collaboration or ensure transformation programmes achieve their objectives.
+
+
+
+Again, those outcomes depend on leadership and management.
+
+
+
+Cybersecurity can be underfunded, but quite often it is also undermanaged.
+
+
+
+The distinction matters because it changes the executive conversation from “How much more do we need to spend?” to “Are we converting the investment we already make into sustainable capability?”
+
+
+
+Compliance is necessary, but it cannot substitute for management
+
+
+
+The expansion of regulation and certification schemes has created genuine benefits. It can establish minimum standards, impose accountability and force cybersecurity onto executive agendas.
+
+
+
+But compliance has inherent limitations.
+
+
+
+An organisation can satisfy formal requirements while carrying substantial structural weaknesses. An audit finding can be closed without addressing the management problem behind it. Certification can demonstrate that processes exist without proving that an organisation will behave effectively during a serious incident.
+
+
+
+When showing activity becomes more important than building sustainable capabilities, compliance runs the risk of providing reassurance without necessarily delivering protection.
+
+
+
+Board awareness was only the first step
+
+
+
+Over the past decade, cybersecurity has also achieved something the industry demanded for years: It has reached the boardroom.
+
+
+
+That matters, but board visibility does not automatically produce effective governance.
+
+
+
+Many organizations are totally technology-dependent and their boards already understand the importance of cyber protection and resilience
+
+
+
+The old argument that CISOs need to convince boards of the importance of cybersecurity and the need to invest in it, is increasingly outdated.
+
+
+
+The more important issue is what boards do next.
+
+
+
+Boards should challenge whether strategic priorities are clear, whether executive accountability is effective, whether transformation is progressing and whether investment is creating sustainable capability.
+
+
+
+They also need to understand whether assumptions about resilience have been tested.
+
+
+
+Board awareness was necessary. Board responsibility is the more important issue now.
+
+
+
+Breaking the cybersecurity spiral of failure
+
+
+
+These management weaknesses help explain why cybersecurity transformation repeatedly loses momentum.
+
+
+
+A serious incident creates urgency. Urgency releases funding. Remediation accelerates and visible progress is made.
+
+
+
+Eventually, the pressure declines. Executive attention moves elsewhere. Longer-term structural problems become harder to prioritise. Transformation slows down. Then another incident restarts the process.
+
+
+
+I have described this as the Cybersecurity Spiral of Failure.
+
+
+
+Organisations can spend substantial amounts during every cycle and make genuine technical improvements while leaving intact the management conditions that created the weaknesses in the first place.
+
+
+
+Poor accountability remains. Governance struggles with difficult decisions. Priorities change. Corporate or geographical silos inhibit execution. Short-term pressures displace long-term transformation.
+
+
+
+Breaking that cycle requires management discipline and strategic continuity — not simply another security programme.
+
+
+
+Cybersecurity cannot remain the CISO’s problem
+
+
+
+Perhaps the most important lesson is that cybersecurity cannot become sustainable while organisations continue treating it primarily as the CISO’s responsibility.
+
+
+
+The CISO has an essential role in providing expertise, strategic direction, coordination and challenge.
+
+
+
+But the organisation must execute.
+
+
+
+The CIO needs to ensure technology architectures and services are secure and resilient. Business executives need to accept accountability for the processes and applications they own. Corporate functions must discharge the security responsibilities attached to their authority. Executive management must resolve competing priorities. The board must provide oversight and strategic continuity.
+
+
+
+The CISO cannot substitute for those responsibilities.
+
+
+
+The principle should be straightforward: Accountability must follow authority.
+
+
+
+The objective is not to turn every executive into a cybersecurity specialist. It is to make cybersecurity part of normal management.
+
+
+
+The technology will change. The management principles won’t
+
+
+
+There will always be another technology wave.
+
+
+
+AI will continue to transform business practices. Quantum computing may force major cryptographic transformation. Cloud architectures will continue evolving. Digital ecosystems will become even more interconnected.
+
+
+
+The security industry will respond with new products, frameworks and methodologies.
+
+
+
+But organisations need management principles capable of surviving those technology cycles: Clear priorities. Accountability aligned with authority. Governance capable of turning disagreement into decisions. Strong CIO-CISO collaboration. Genuine business ownership. Sustained board oversight. And disciplined execution.
+
+
+
+That brings us back to the question we started with: Why do cybersecurity observations from 2015 still sound so contemporary?
+
+
+
+Because many of the hardest cybersecurity problems were never primarily technological.
+
+
+
+They concern leadership, accountability, governance, organisational politics, short-termism and execution. They cannot be patched, outsourced or solved simply by moving the CISO to another reporting line.
+
+
+
+They have to be managed.
+
+
+
+Cybersecurity has become a core business protection capability. It is fundamentally a management challenge supported by technology — not a technology challenge that management somehow needs to accommodate.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4234532-0-31446300-1791968645-shutterstock_2710227815.jpg?quality=50&strip=all,https://www.csoonline.com/article/4234532/cybersecurity-is-a-leadership-problem-why-the-management-model-needs-to-catch-up.html,https://www.csoonline.com/feed/,2026-10-14T09:00:00Z,14,Cybersecurity
+AI agents aren’t ‘going rogue.’ Frontier labs are skipping security basics.,"
+		
+					  
+						
+
+
+
+
+Since July, US frontier AI labs and other AI leaders have revealed a string of incidents in which their models accessed external computer systems without authorization, events popularly described as AI agents “going rogue.”
+
+
+
+The most well-known and studied of these incidents is OpenAI’s hack into Hugging Face, which OpenAI initially characterized as “an unprecedented cyber incident, involving state-of-the-art cyber capabilities,” and later said was due to “misaligned behavior,” or behavior its creators did not intend.
+
+
+
+Following news of the Hugging Face incident, Anthropic revealed that one of its models gained unauthorized access to the production infrastructure of three organizations; Meta said one of its AI models hacked another company ​during cybersecurity testing; and Google confessed that its Gemini model carried out three “undirected computer hacks.”
+
+
+
+Although press reports and the model providers themselves use language such as rogue agents or misalignment, cybersecurity experts who spoke with CSO argue that language obscures a simple truth: These incidents were caused by inexcusable failures by the frontier labs to implement cybersecurity practices that have been well-known for decades.
+
+
+
+Compounding the problem, according to a half dozen cybersecurity experts CSO interviewed at three industry conferences in September and in subsequent conversations, is that the frontier labs, particularly OpenAI and Anthropic, have rejected their advice on how to improve their cybersecurity risk management practices to avoid these kinds of surreptitious hacks, often lumping cybersecurity practices under “AI safety,” in which they believe they have superior expertise.
+
+
+
+“They are not as good as they think they are, honestly,” Gary McGraw, co-founder of the Berryville Institute of Machine Learning, tells CSO. “It would be better if they had more respect for expertise that is hard-earned from people in all sorts of subsets of security, like forensics or security engineering, building sandboxes, setting up or monitoring network security situations.”
+
+
+
+Neither Anthropic nor OpenAI responded to CSO’s requests for comment.
+
+
+
+Inexcusable failures on cybersecurity basics, particularly containment
+
+
+
+According to the cybersecurity professionals CSO spoke with, one of the biggest cybersecurity failures by the frontier AI labs is the lack of implementation of tried-and-true containment practices that stretch back to the 1990s, such as setting up secure sandboxes that would effectively bar agents from escaping their test environments.
+
+
+
+“These are things that we’ve been dealing with for years,” Rob T. Lee, chief AI officer and chief of research at SANS Institute, tells CSO. “There’s no reason why every single time this happens, it’s, ‘Oops, we don’t know how they got out.’”
+
+
+
+“You can tell that their security teams are fairly nascent,” Lee says. “Folks on the cybersecurity containment side do argue that the majority of reasons that we’re seeing containment breached is that it’s not set up correctly.”
+
+
+
+Lee adds, “The Hugging Face incident definitively showed that it wasn’t the fact that the agents were super smart. It’s that there literally was a hole that was exploited because it was not configured correctly on the containment side.”
+
+
+
+Dan Wallach, expert technical resident at RAND’s Center on AI, Security, and Technology, thinks the security failures of the AI labs boil down to the fact that they don’t prioritize cybersecurity.
+
+
+
+“I would say they are not prioritizing cybersecurity,” he tells CSO. “I don’t think I can say that for all of the labs,” Wallach says, pointing to French AI lab Mistral’s launch of its Large 4 AI model, which the company said tried to operate beyond its testing environment before Mistral cut it off.
+
+
+
+And, he adds, “It’s not rocket science to isolate one of these AI things. Security people have been talking about how to do either air-gapping, so there’s literally no electrical way for data to get from here to here, or absent that, to have really strong egress control to make sure that nothing pushes through.”
+
+
+
+On top of that, the frontier labs appear to be conducting insufficient monitoring of their agents’ behavior. The Hugging Face incident “went on for days, and nobody noticed,” Wallach says. “People started these experiments and weren’t watching them. That’s an absence of control. And then they’re surprised by what happened.”
+
+
+
+Divorcing safety from security
+
+
+
+One barrier to persuading frontier labs to up their security game is the intense focus they have on what they call “safety,” which they don’t extend to traditional cybersecurity practices.
+
+
+
+“I can see how security behavior looks like AI safety,” RAND’s Wallach says. “But if the way that you’re evaluating this AI tool is by unleashing it on the internet and seeing what happens, then this is what classical security tooling is for.”
+
+
+
+SANS Institute’s Lee says, “If these frontier labs really wanted to test their stuff, they need to beef up their cybersecurity component. But their gut reaction in the response to their agents getting out is to say, ‘It’s not a cybersecurity problem.’ It has literally become an AI safety problem, which is divorced from the cybersecurity side.”
+
+
+
+Many AI experts suggest that if the AI companies were to embrace advice from cybersecurity specialists, it could help put an end to the kind of unrestrained AI agent behavior causing concerns. “AI safety focuses on the rules of the road,” Lee says. “Everything is about guardrail rules.”
+
+
+
+But “I do believe cybersecurity can contain AI,” he says. “We just need to be in the room where it happens and have a seat at the table. It’s important for our field to be as close to the AI safety folks as possible.”
+
+
+
+Bad cybersecurity could increase liability
+
+
+
+If frontier labs are overlooking cybersecurity fundamentals that could reduce or eliminate the types of incidents that have created widespread concerns, that strengthens the case that they should be held liable for their “rogue” agents. The insurance industry is already lining up on the side of holding AI industry executives liable for these actions.
+
+
+
+Democratic Senators have introduced legislation that would hold AI agent operators liable for hacking incidents. Even the AI-friendly White House has seemingly concluded that the companies should be held liable for their errant agents, while the US Federal Trade Commission is conducting a probe into Anthropic, OpenAI, and other AI labs into the dangers their technologies pose to consumers.
+
+
+
+However, in recent legislative and council hearings, lab representatives have held fast to the notion that they are not responsible for AI agents run amok.
+
+
+
+Experts say this position is untenable, particularly in light of the labs’ cybersecurity failures.
+
+
+
+BIML’s McGraw characterizes the labs’ position as: “Don’t send the lawyers to us, send it to our program. It’s our program’s fault.” His assessment of that argument: “That’s just high BS.”
+
+
+
+He also questions whether the labs’ operational failures undermine confidence in their broader security capabilities. “They live inside their own bubble,” he says. “The fact that they cannot do clear, easy operations properly does not bode well for their capabilities in security engineering, which is much harder to do.”
+
+
+
+SANS Lee says, “That’s where the traceability for both liability and insurance comes into play, because if one of these agents is detected, and they’re able to trace it back to the person that initiated it, liability’s going to kick in and say, ‘Hey, you, you broke the law, ergo, we need to prosecute.’”
+
+
+
+What security leaders should do now
+
+
+
+Even as evidence mounts that frontier labs are not implementing sound cybersecurity practices, and the debate over liability remains unsolved, CISOs and other security leaders can take steps to protect themselves from AI model misfires.
+
+
+
+First, when it comes to assessing tools based on frontier lab models, “I would always get an external entity to help with that,” McGraw says. “AI is extremely powerful and extremely useful, but it comes with very serious grown-up risks that do impact the enterprise. Identify those risks, put in the right controls, make sure that AI adoption is not just arbitrary and willy-nilly and all over the enterprise, but has some centralized authority that is looking at the problem, and then get ready for the next big thing, which is swarms of agents.”
+
+
+
+For Lee, the best protection is to ask the right questions. “It starts with asking the right questions and then finding the tools and capabilities for those [AI labs] that are able to demonstrate a higher level of cybersecurity competency,” he says. “You’re really looking for the people on the teams that are dealing with really hard problems.”
+
+
+
+But fundamentally, the best preparation to deal with AI model cyber weaknesses is to make sure all the long-standing cybersecurity risk management practices are in place across the organization. “This is the least exciting part of the discussion,” Wallach says. “It’s the cyber version of ‘eat your vegetables.’”
+
+
+
+“We need to re-engineer our software so it has better security,” he adds. “We need to have multi-factor authentication on all of our accounts. We need to eat our vegetables from a defensive cyber perspective. And we know how to do it.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4234854-0-10823900-1791966468-shutterstock_2472843149.jpg?quality=50&strip=all,https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html,https://www.csoonline.com/feed/,2026-10-14T08:25:00Z,10,Cybersecurity
+"AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host","A flaw in Linux&#39;s vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host&#39;s memory and hijack the program that runs the virtual machine.
+
+The bug is tracked as CVE-2026-74580 and named Vghost. Tencent Zhuque Lab, which found the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhavZnpNnmOBy6Wnkh7wfYD4-I32k65R7uyhYW32Doh3YVqtfJaagZZ_uo9JN-cixODo6h846eR89Aa55TGuMKfXmpjZEVZQ0ssFoP4-qVX6qrvSoyfRsu_q3MQcLKwolyKeE3Lw3MByz2Su8O0XOdRWNkJmyBdwpxsAtxi5y2goE7RhOSBPOLh4Evb60c/s1600/linux-exploit.jpg,https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html,https://feeds.feedburner.com/TheHackersNews,2026-10-14T07:46:57Z,0,Cybersecurity
+"Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise","Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements.
+The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek.
+",,https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/,https://www.securityweek.com/feed/,2026-10-14T07:38:51Z,3,Cybersecurity
+"Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products","Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks.
+The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.
+",,https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/,https://www.securityweek.com/feed/,2026-10-14T07:26:35Z,2,Cybersecurity
+"Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day","The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild.
+The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/,https://www.securityweek.com/feed/,2026-10-14T07:16:12Z,10,Cybersecurity
 "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities","The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system.
 The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.
 ",,https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/,https://www.securityweek.com/feed/,2026-10-14T06:12:10Z,5,Cybersecurity
@@ -353,6 +1324,7 @@ Topgolf saved over $11.3 million after leaving VMware,Topgolf and VMware &#34;ra
 Ghostscript flaw lets hackers hijack servers via PDF uploads,A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...],,https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/,https://www.bleepingcomputer.com/feed/,2026-10-13T21:33:26Z,3,Cybersecurity
 Anthropic warns self-replicating AI could spread to your smart devices,"Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",,https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/,https://www.bleepingcomputer.com/feed/,2026-10-13T21:16:34Z,6,Cybersecurity
 Helix Carbon says it can make iron cheaper by recycling blast furnace pollution,"The steel industry is a big polluter, but Helix Carbon can upcycle pollution from blast furnaces to drive down emissions and improve margins.",,https://techcrunch.com/2026/10/13/helix-carbon-makes-iron-cheaper-by-upcycling-blast-furnace-pollution-see-how-at-techcrunch-disrupt/,https://techcrunch.com/feed/,2026-10-13T21:15:00Z,0,Tech
+FBI disrupts North Korean 'laptop farms' used to fund weapons programs,Agents seized nearly 190 laptops across Texas in a crackdown on fraudulent remote workers.,,https://www.defenseone.com/threats/2026/10/fbi-north-korea-weapons/416601/,https://www.defenseone.com/rss/all/,2026-10-13T21:00:00Z,0,Defense
 FBI arrests OpenAI employee accused of planting hidden recording device in conference room,The FBI arrested a Saudi national who worked at OpenAI on the product team. The AI maker accused the employee of hiding a recording device in an executive conference room.,,https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/,https://techcrunch.com/feed/,2026-10-13T20:59:11Z,5,Tech
 OpenAI employee arrested for allegedly planting a bug in a conference room,"An OpenAI engineer was arrested after the company said it discovered a &#34;sophisticated recording device&#34; hidden in one of its offices. The employee, 35-year-old Abdulrahman Alfozan, is charged with using or attempting to use a device to intercept oral communications, according to a report from The San Francisco Standard. OpenAI&#39;s post about the incident says […]",,https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device,https://www.theverge.com/rss/index.xml,2026-10-13T20:45:25Z,5,Tech
 Judge orders OpenAI to turn over hiring records in Apple trade secrets case,"A federal judge ruled that Apple can access OpenAI&#39;s interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",,https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/,https://techcrunch.com/feed/,2026-10-13T20:36:44Z,6,Tech
