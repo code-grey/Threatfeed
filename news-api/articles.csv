@@ -1,4 +1,720 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI,"Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader.
+The post Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI appeared first on SecurityWeek.
+",,https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/,https://www.securityweek.com/feed/,2026-10-21T06:02:27Z,1,Cybersecurity
+Add ‘post-AI’ encryption to your to-do list,OpenAI’s trove of 400+ math results suggests traditional encryption may be at risk.,,https://www.defenseone.com/technology/2026/10/add-post-ai-encryption-your-do-list/416722/,https://www.defenseone.com/rss/all/,2026-10-21T05:30:19Z,0,Defense
+PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert,"PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.
+
+Security researchers at watchTowr say the two flaws allow remote code execution. Only the four supported PHP branches, 8.2 through 8.5, can receive the fix, and no exploitation has been reported so far.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcxq1wmaSTaMiFJnrulXjwGrIIkIHBR3Q9Yv6Lky3rAie6XPOnFmXOVckMgVzGn9yvodrbkt6kV623Ofg8Iw-1MTDRoCVzXPiikivnZ5R7OynIF5-QC0DAiwXq8q2MRS3PZaz9NpjhJUqa-QWi1AQJ2XnJ-nvUNEvG3f1E0UpU5slUwzguAI-cESkZ5Xc/s1600/php2shell.jpg,https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html,https://feeds.feedburner.com/TheHackersNews,2026-10-21T04:57:50Z,10,Cybersecurity
+"Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities","The first phase will cover up to 500 utilities, which will get free security tools, equipment, deployment help and training.
+The post Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/,https://www.securityweek.com/feed/,2026-10-21T04:22:11Z,1,Cybersecurity
+PHP maintainers tell Web devs to prepare themselves for critical security patches,Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.,https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg,https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/,https://arstechnica.com/feed/,2026-10-21T02:12:18Z,5,Tech
+"US bans DeepSeek across federal agencies, putting AI supply chains under scrutiny","
+		
+					  
+						
+
+
+
+
+DeepSeek has been dealt a huge blow in the US, even as it continues to innovate and keep pace with, or in some cases outperform, rival models from American labs.
+
+
+
+The US Secretary of Homeland Security has issued an order banning all DeepSeek products and services from federal agencies. Government organizations must purge their IT systems of it within 60 days; those with “compelling justification” can make a case for exemption by written request to the Cybersecurity and Infrastructure Security Agency (CISA).
+
+
+
+The Department of Homeland Security (DHS) cited multiple concerns about the Chinese-hosted model, including data sovereignty, lax Chinese laws, and security vulnerabilities.
+
+
+
+Analyst Erik Avakian, technical counselor at Infotech, understands the concern. “When organizations use any type of hosted AI service, they’re potentially sending intellectual property, confidential business information, or other sensitive data into an environment where they may have very little visibility or control over what happens to it,” he said.
+
+
+
+Government concerns
+
+
+
+According to a document published in the US Federal Register, all technology developed by China-based Hangzhou DeepSeek Artificial Intelligence Co. will be banned from procurement by federal civilian agencies. This includes affiliated products and any third-party tools or software built using DeepSeek implementations.
+
+
+
+Affected civilian executive branch agencies include the Departments of Treasury, State, and Justice; it does not apply, however, to private consumers, the general public, state/local governments, or Department of Defense (DoD) national security systems.
+
+
+
+“DeepSeek’s models present multiple threat vectors,” the Order stated. To begin with, the company’s servers are located in the People’ s Republic of China (PRC), whose legal system grants “extensive authority” to government cyber and intelligence functions to access private infrastructure.
+
+
+
+DeepSeek’s account generation process collects personally identifiable information (PII) and may also track and digitally fingerprint users, the Order asserted. Its prompt response process may result in the transfer of sensitive data to the PRC. This could give it “actionable intelligence” on US programs or individual users.
+
+
+
+Further, the Order stated, DeepSeek models themselves may contain malware or other security vulnerabilities. DHS pointed to open-source security research published in February 2025 that uncovered many iOS mobile apps with multiple critical vulnerabilities.
+
+
+
+Until the ban takes full effect, DHS advised agencies to mitigate risk by monitoring inbound and outbound data traffic, implementing enhanced logging and controls on data exfiltration, and detecting and flagging anomalous activity.
+
+
+
+Agencies can submit requests for exceptions to the ban in writing, and must provide a “compelling justification,” such as its impact on mission-critical functions, or other considerations related to national interest such as national security reviews, investigations, or security agreements, as reasons why such exemption should be granted,.
+
+
+
+Security issues are rampant
+
+
+
+The ban comes just as DeepSeek is open-sourcing DeepInfer, its in-house interference framework. DeepInfer powers DeepSeek-V4.1-Flash with what the company said is high throughput and low latency. It features high-performance kernels, an optimized inference engine, structured outputs, and speculative decoding.
+
+
+
+DeepSeek said its production token encoding and decoding components, which are aligned with processing logic behind the DeepSeek API, will bring the “same API behavior to community deployments.”
+
+
+
+“Open models. Open kernels. Open inference,” DeepSeek posted to social media site X. “From private deployments to public clouds, we’ll keep working with the community to make large-scale inference more efficient.”
+
+
+
+This isn’t its first roadblock from a cybersecurity perspective. Most notably, in January 2025, the company leaked more than one million log entries, including chat histories, API secrets, and other sensitive information, through an unsecured database.
+
+
+
+DeepSeek reportedly addressed the exposure, but it still raised questions about the overall security practices surrounding the platform, particularly for organizations considering entrusting it with their own sensitive business information, Avakian pointed out.
+
+
+
+That’s not to imply that every DeepSeek model is “inherently malicious,” he said, but there are still major questions around data privacy, the potential for information access under Chinese laws, the security of the broader AI ecosystem, and the susceptibility of DeepSeek’s models to jailbreaks and manipulation.
+
+
+
+“Taken together, [these issues] raise legitimate concerns about whether organizations can adequately understand and manage the risks involved,” Avakian said.
+
+
+
+Enterprises should seriously assess associated risk
+
+
+
+Enterprises are increasingly exploring DeepSeek, although most publicly-documented adoption has been in China, Avakian noted. Some DeepSeek models have also been made available through platforms like Microsoft Azure and AWS.
+
+
+
+“There’s genuine enterprise interest in the technology, as organizations look for opportunities to improve productivity, offer new capabilities, or reduce costs,” Avakian said. Useful applications include document summarization, internal research, and coding assistance.
+
+
+
+DeepInfer also has the potential to reduce costs, but possible benefits should be weighed against associated security risks, he pointed out. The framework was just released, so organizations are going to need to validate the claimed efficiencies in their own environments rather than assuming savings will automatically translate into lower operating costs.
+
+
+
+He encouraged organizations to start with relatively low-risk use cases, preferably using “public, synthetic, or appropriately sanitized information,” within a sandboxed environment they control themselves.
+
+
+
+The important question to ask: ‘What is the business problem we’re trying to solve?’ From there, Avakian said, determine whether DeepSeek is the best way to solve it, validate security controls, and expand the use cases based on risk tolerance. Effective governance and risk assessment are key, he noted: understand what you’re bringing into your environment, validate its security, restrict its permissions, and make sure you can monitor what it’s doing.
+
+
+
+“Approach this like any other software supply chain decision,” Avakian advised. “The fact that something is open source, inexpensive, or technically impressive doesn’t automatically make it appropriate for enterprise use.”
+
+
+
+Impact on the broader AI ecosystem
+
+
+
+The fact that the Order also addressed third-party products and services developed using DeepSeek implementations is important, Avakian said, because organizations may be using DeepSeek technologies indirectly, through vendors, software platforms, or other services, without necessarily knowing what’s operating underneath. “These are classic supply chain issues,” he observed.
+
+
+
+It’s no longer enough to know which AI applications employees are using; enterprises must understand which models, frameworks, dependencies, and external services are embedded in products they’re purchasing and deploying, Avakian said. This means revisiting AI inventories, potentially updating procurement requirements, and expanding processes around third-party risk management, he advised.
+
+
+
+“Ultimately, enterprises leveraging these tools need to understand not only the AI technologies they’re intentionally deploying, but also the technologies they’re inheriting through third parties,” he said.
+
+
+
+This article originally appeared on CIO.com.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4238149-0-22883100-1792547758-shutterstock_2570454171.jpg?quality=50&strip=all,https://www.csoonline.com/article/4238149/us-bans-deepseek-across-federal-agencies-putting-ai-supply-chains-under-scrutiny-2.html,https://www.csoonline.com/feed/,2026-10-21T01:55:45Z,11,Cybersecurity
+UK FCA exec wants to require disclosure of ‘significant AI failures and near-misses’,"
+		
+					  
+						
+
+
+
+
+When UK Financial Conduct Authority (FCA) Chief Data Officer Jessica Rusu gave a speech on Monday advocating that UK companies be required to report “significant AI failures and near-misses,” she added to the drumbeat of demands for some kind of regulatory control over enterprise AI deployments. 
+
+
+
+But her speech also highlighted regulator frustration over futile attempts to slow down the seemingly unstoppable agentic and genAI rollouts, as reports of agent misbehavior and the lack of meaningful consequences continue to emerge with alarming frequency.
+
+
+
+Rusu, speaking to a Bloomberg UK Policy Series audience, said that firms need to invest more in cyber and operational resilience.
+
+
+
+“Our rules already require firms to report major incidents, and that must extend to significant AI failures and near-misses. As the AI Minister has recognized, near-miss reporting for agentic AI is becoming a national security priority. It is a regulatory priority too,” Rusu said. “It also means thinking differently about assurance. A system that is safe at deployment may behave differently at scale, under stress, or as the models beneath it change. Agentic systems therefore require continuous, conditional assurance.”
+
+
+
+She added, “the FCA will work with industry, fellow regulators, and frontier labs to develop a trusted framework for agentic finance, including clear approaches to agent identity, delegated authority, accountability and execution.”
+
+
+
+One of the questions that came out of the speech is what precisely was meant by “significant AI failures and near-misses.” Questions to FCA to clarify their terminology were not answered by publication time.
+
+
+
+AI failure vs near miss
+
+
+
+But Pieter Arntz, a malware intelligence researcher at security firm Malwarebytes, offered his own take on what those terms likely mean.
+
+
+
+“A significant AI failure is one with serious consequences, not simply an incorrect answer. In financial services, that could mean an AI system authorizing substantial fraudulent payments, exposing sensitive customer information, denying customers access to essential financial services, or triggering transactions that threaten market integrity,” Arntz said. “The test should be the scale and severity of the impact, rather than whether the failure looks technically dramatic.” 
+
+
+
+On the other hand, he added, “An AI near-miss is an event that could realistically have caused serious harm, but was caught before that harm occurred. For example, an AI agent might attempt an unauthorized transfer that a separate approval control blocks, or a prompt-injection attack might induce it to disclose sensitive information, only for an outbound security control to stop the disclosure.”
+
+
+
+However, Arntz warned of the risk to Rusu’s approach, should the final penalties be underwhelming. “There is a risk of this becoming a paper tiger if compliance amounts to filing a report and absorbing a predictable fine,” he said. 
+
+
+
+Warnings from multiple directions
+
+
+
+UK-based Gartner VP analyst Nader Henein said he is skeptical about the significance of the FCA’s proposal, in part because so many UK enterprises already have to comply with EU regulations, which have started asking companies to make such disclosures.
+
+
+
+“Financial watchdogs including the Bank of England (BoE), the UAE Central Bank, and the Monetary Authority of Singapore have all issued warnings,” he said. “A few months ago, the European central banks, together with the European Systemic Risk Board, escalated the cyber risk assessment level associated with frontier models to ‘severe,’ warning that simultaneous cyber incidents could impact the financial sector. They acknowledged that AI-driven cyber incidents now threaten core financial sector stability.”
+
+
+
+Henein said that he is especially skeptical that meaningful changes will occur in the financial sector.
+
+
+
+“Financial institutions tend to heed the warnings of the regulator that decides whether they can continue to operate, but without clear laws, regulatory oversight, and the obligatory fines, these disjointed statements are not likely to make a difference,” he said. 
+
+
+
+Could ‘incentivize the wrong behavior’
+
+
+
+Noah Kenney, principal consultant at Digital 520, added that one risk of this increased visibility requirement is that it could inadvertently incentivize the wrong behavior. 
+
+
+
+“A bank with good monitoring may catch hundreds of attempts by AI agents to act outside their authority,” he said. “A bank with poor monitoring may report zero, because it never saw them. On paper, the safer bank looks worse. A model failing a red-team test is the test working, not a regulatory incident.”
+
+
+
+However, Frank Dickson, principal analyst at Dickson Research, said that the near-miss approach has the strongest potential to change the conversation.
+
+
+
+“I love the near-miss idea. It is the most important thing in the speech. It is the part financial firms are least ready for,” he said. 
+
+
+
+But, he stressed, “[Rusu] also warns about reliance on a single model. An outage at one AI supplier that takes down a customer service channel counts, too.”
+
+
+
+Another concern about reliance on a specific model is the ever-present risk that an AI vendor could change the model without telling all of its customers. 
+
+
+
+“A model can pass testing in March and misbehave in May without anyone at the firm changing a line of code, because the provider changed the model underneath,” Dickson said. “A model version change should get the same scrutiny as any other production change.”
+
+
+
+This article originally appeared on CIO.com.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4238124-0-63708700-1792544984-shutterstock_2645792801_d3ae29.jpg?quality=50&strip=all,https://www.csoonline.com/article/4238124/uk-fca-exec-wants-to-require-disclosure-of-significant-ai-failures-and-near-misses-2.html,https://www.csoonline.com/feed/,2026-10-21T01:09:32Z,18,Cybersecurity
+Stolen UpdraftCentral keys used to backdoor WordPress sites,"A threat actor breached TeamUpdraft&#39;s website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",,https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/,https://www.bleepingcomputer.com/feed/,2026-10-21T01:01:50Z,7,Cybersecurity
+"Mozilla, Google, Apple block compromised eMudhra CA certificates",Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...],,https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/,https://www.bleepingcomputer.com/feed/,2026-10-21T00:46:42Z,0,Cybersecurity
+YouTube might be testing hiding the dislike button,"YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, […]",,https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu,https://www.theverge.com/rss/index.xml,2026-10-21T00:00:56Z,4,Tech
+"Military power rising as power of diplomacy falling, diplomats, crisis monitors, allies say","America is abandoning the rules, and the allies, it once kept safe.",,https://www.defenseone.com/threats/2026/10/military-power-rising-power-diplomacy-falling-diplomats-crisis-monitors-allies-say/416720/,https://www.defenseone.com/rss/all/,2026-10-20T23:53:00Z,0,Defense
+Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit,"On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear for an independent medical examination or […]",,https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed,https://www.theverge.com/rss/index.xml,2026-10-20T23:04:19Z,6,Tech
+Anthropic pitches AI safety bill that may block a model if 50+ people could be killed,The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model&#39;s release without the permission of a judge. ,,https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/,https://techcrunch.com/feed/,2026-10-20T23:01:23Z,5,Tech
+SpaceX and Tesla boards form special committees to review merger,"Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors. ",,https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/,https://techcrunch.com/feed/,2026-10-20T22:57:57Z,1,Tech
+Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate,"Before you share the Netflix documentary &#34;AI Gone Rogue&#34; take note. Clem Delangue, Hugging Face&#39;s co-founder who is featured in the film, says it went &#34;full doomer mode&#34; and isn&#39;t accurate.",,https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/,https://techcrunch.com/feed/,2026-10-20T22:24:02Z,5,Tech
+"Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program","Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members […]",,https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers,https://www.theverge.com/rss/index.xml,2026-10-20T22:20:11Z,5,Tech
+Google’s more personalized Gemini AI is heading to your car,"Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you&#39;re driving […]",,https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto,https://www.theverge.com/rss/index.xml,2026-10-20T22:11:34Z,7,Tech
+"Making SpaceX and Tesla a single company has ""a lot of merit,"" Musk says",&#34;I do think there&#39;s a lot of merit to combining the companies.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg,https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/,https://arstechnica.com/feed/,2026-10-20T22:04:54Z,0,Tech
+Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies,Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-1152x648.jpg,https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/,https://arstechnica.com/feed/,2026-10-20T21:44:34Z,5,Tech
+KVM escape exposes broader attack surface in Linux networking,"
+		
+					  
+						
+
+
+
+
+Security researchers have found a critical flaw in the Linux kernel’s networking stack that can let attackers escape a KVM virtual machine and execute code on the host system. The weakness could also potentially let attackers compromise systems running other Linux-based virtualization and sandbox platforms.
+
+
+
+Tracked as CVE-2026-99999 and dubbed PwnEscape, the vulnerability was discovered by researchers from AI-powered pentesting startup Pwn.ai during a $1 million challenge to hack Vercel’s sandbox platform, which uses KVM-based Firecracker microVMs. Rather than exploiting a bug in the KVM hypervisor itself, the attack targets the Linux networking code that handles traffic from inside virtual machines. Specially crafted packets can alter an IPv4 header after the host’s kernel has already validated it, causing later processing to trust packet data that attackers have manipulated.
+
+
+
+The Pwn.ai researchers demonstrated host-memory leakage against Vercel’s production sandboxes and separately achieved host crashes and root-level code execution on researcher-controlled systems. Vercel confirmed the findings but said no reports showed access to customer files, secrets, or application data.
+
+
+
+A fix was merged into the mainline Linux kernel with patched kernel versions now available for multiple distributions. Administrators need to deploy those kernel updates on host systems because updating only guest VMs does not fix the vulnerability.
+
+
+
+Checksum processing rewrites validated headers
+
+
+
+The flaw involves checksum offloading, a performance optimization that allows Linux to postpone calculating a packet’s checksum. Alongside the packet, the kernel carries metadata specifying where that calculation should begin and where its result should be written, but in virtual networking those instructions can originate from an untrusted guest.
+
+
+
+The vulnerable implementation failed to ensure that completing the checksum would leave the already-validated IPv4 header untouched, meaning that guest-controlled metadata could directly write into that header, changing the advertised length before the packet was split into smaller fragments for transmission.
+
+
+
+In their demonstration, the researchers managed to change the header length from 20 to 60 bytes, while the packet buffer held only 28 bytes of valid data. The fragmentation process then copied 32 bytes beyond that valid data into outgoing packets, leaking host memory. By repeating the process, the researchers were able to make observations and control memory allocations to achieve host-kernel memory writes to run a helper program as root. The complete exploitation steps that take this attack from a memory leak to code execution have not been publicly revealed yet, but the researchers plan a separate write-up.“The allocator-sensitive write chain, object-lifetime controls, and other hypervisor-specific adaptation are large enough to require a separate article,” they said. “Although we suspect the security industry will use this post to figure out the other affected hypervisors and we expect exploits in weaker configurations to arrive in weeks, and exploits working in default hypervisor configurations to arrive in under a month.”
+
+
+
+The attack surface extends beyond KVM
+
+
+
+PwnEscape differs from other VM escape attacks that target the hypervisor’s handling of virtual CPUs or memory. The Januscape vulnerability disclosed earlier this year, for example, affected KVM’s memory-management code, but with this exploit the vulnerable code is in the Linux host’s IPv4 networking subsystem.
+
+
+
+The researchers warn that similar bugs could exist elsewhere in the networking stack, wherever guest-controlled metadata can modify packet fields after those fields have already passed validation.The accepted patch, authored by Red Hat developer Michael S. Tsirkin, adds validation at five checksum completion points, including IPv4 fragmentation, bridge connection tracking, and packet filtering, but the patch commit message states that “a more complete validation at input is forthcoming, but needs more work.”
+
+
+
+The flaw’s impact for other hypervisors and container technologies remains to be seen. Red Hat lists OpenShift Container Platform components as affected, but other virtualization technologies like Docker or Xen have not issued advisories yet.
+
+
+
+The guest-to-host attack requires an attacker-controlled workload capable of supplying the malformed traffic through the virtual network. As a result, admins of environments that allow the execution of untrusted code inside VMs need to take action as soon as possible.
+
+
+
+“A VM escape is another kernel vulnerability because KVM lives inside the Linux kernel, but it has more serious implications,” Alex Zenla, CTO and co-founder of container security firm Edera, told CSO. “When a guest breaks out, it isn’t escaping into some neatly contained hypervisor; it can land in the lowest levels of the operating system that owns the host’s processes, drivers, and network stack. This is critical and a very different security proposition from a hypervisor designed with a deliberately tiny privileged layer.”KVM and other kernel-based virtualization components have had multiple critical vulnerabilities this year, some of them found with the help of LLMs, including PwnEscape. Meanwhile AI agents have been observed attempting to break out of sandboxes during tests. This challenges the workload isolation assumptions in virtualized environments.
+
+
+
+“Security architecture has to assume that eventually, something will be compromised and make sure that compromise doesn’t become total host ownership,” Zenla said.
+
+
+
+AWS says its managed EC2, Lambda, and Fargate services are unaffected by CVE-2026-99999, but customers running their own KVM virtual machines with virtio-net networking on vulnerable hosts need to apply the relevant kernel updates. Administrators should follow their distribution’s advisories because the fixes can be backported to older kernel versions.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4237999-0-63593900-1792532239-jose-g-ortega-castro-MmGGmj0wzXM-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4237999/kvm-escape-exposes-broader-attack-surface-in-linux-networking.html,https://www.csoonline.com/feed/,2026-10-20T21:37:05Z,12,Cybersecurity
+"Tesla and SpaceX are discussing a possible merger, Musk says","Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter&#39;s third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees have not reached agreement on the terms of any transaction - and that there&#39;s no guarantee that they will. That […]",,https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees,https://www.theverge.com/rss/index.xml,2026-10-20T21:30:24Z,5,Tech
+Anthropic’s cloud partnerships are getting messy,"Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",,https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/,https://techcrunch.com/feed/,2026-10-20T21:25:22Z,3,Tech
+"Report: Microsoft's Project Helix planned for 2028 at $1,200 to $1,800 price",Xbox maker is also apparently planning its own gaming handheld for next year.,https://cdn.arstechnica.net/wp-content/uploads/2024/07/xbox-dominoes-1152x648.jpg,https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/,https://arstechnica.com/feed/,2026-10-20T21:14:33Z,1,Tech
+"SpaceX will try catching Starship and its booster for first time, Musk says","SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an orbital launch vehicle has been fully recovered. &#34;This is a […]",,https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says,https://www.theverge.com/rss/index.xml,2026-10-20T21:02:53Z,5,Tech
+"PHP warns admins of two critical flaws, emergency patches coming tomorrow","The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",,https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/,https://www.bleepingcomputer.com/feed/,2026-10-20T20:56:43Z,7,Cybersecurity
+"Netflix is telling investors not to worry, even though you&#8217;re watching less and less","Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going forward, alongside efforts to boost entertainment value and leverage new technology. The streaming giant doesn&#39;t say exactly how it plans to […]",,https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time,https://www.theverge.com/rss/index.xml,2026-10-20T20:52:07Z,5,Tech
+SpaceX’s AI business is beating expectations,"SpaceX’s data centers and Grok agents have been more profitable than investors expected in second quarter of the year, as the company leaves its roots as a space company behind to focus on artificial intelligence, which now makes up 52% of its income. Elon Musk’s deep conglomerate reported on Tuesday $14.6 billion in third-quarter revenue, […]",,https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/,https://techcrunch.com/feed/,2026-10-20T20:40:41Z,10,Tech
+OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business,"OpenAI says it&#39;s adding Orchestra&#39;s team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results. ",,https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/,https://techcrunch.com/feed/,2026-10-20T20:35:10Z,8,Tech
+Snap is paying Robert Downey Jr. to do the Iron Man thing,"Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs&#39; &#34;Chief Customer Experience Officer&#34; and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, […]",,https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr,https://www.theverge.com/rss/index.xml,2026-10-20T20:32:09Z,0,Tech
+SpaceX says big AI growth fueled revenue jump,"SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year &#34;fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.&#34; While its Space division posted a $7 million loss in income from operations, its Connectivity group posted income from operations $2.4 […]",,https://www.theverge.com/science/1014150/spacex-q3-2026-earnings,https://www.theverge.com/rss/index.xml,2026-10-20T20:26:58Z,5,Tech
+Oura adds two new cardiovascular health tracking features to its smart rings,"Oura is introducing two new cardiovascular-focused health tracking features to its smart rings designed to help users better understand the effect regular workouts and exercise are having on their long-term health, and whether they need to ramp it up or dial things down. Cardio Effort and automatic VO2 Max (previously known as Cardio Capacity) are […]",,https://www.theverge.com/tech/1014712/oura-smart-rings-track-cardio-effort-vo2-max-cardiovascular,https://www.theverge.com/rss/index.xml,2026-10-20T20:26:04Z,0,Tech
+"JustWatch, which tackles streaming fragmentation, launches own streaming service",A lifetime ad-free subscription is available. ,https://cdn.arstechnica.net/wp-content/uploads/2026/10/Global_banner_preview-1152x648.png,https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/,https://arstechnica.com/feed/,2026-10-20T20:20:12Z,5,Tech
+TikTok has started censoring searches for popular peptides,"Trying to pull up information for certain peptides on TikTok is now returning a &#34;no results found&#34; page when searching for terms like semaglutide, BPC-157, retratutide, and others. That hasn&#39;t entirely erased visibility on TikTok for peptides, which are combinations of amino acids that include substances like insulin and GLP-1. The problem is peptides also […]",,https://www.theverge.com/science/1014825/peptide-tiktok-search-ban,https://www.theverge.com/rss/index.xml,2026-10-20T20:16:04Z,5,Tech
+"Meta drops the word ""train"" from its commercial TOS after AI backlash",Meta changes AI scraping policy but won’t add language respecting robots.txt.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/,https://arstechnica.com/feed/,2026-10-20T20:07:58Z,5,Tech
+Gemini's Personal Intelligence is coming to cars,It&#39;s probably time to audit your Gemini settings.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-gemini-android-auto-1152x648.png,https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/,https://arstechnica.com/feed/,2026-10-20T20:00:33Z,0,Tech
+Logitech’s refurbished G Pro X2 Superstrike is 35 percent off,Looking for a way to try the haptics-equipped G Pro X2 Superstrike wireless gaming mouse without spending full price? You probably aren’t alone. Logitech’s now-last-gen right-handed mouse is a great PC gaming companion that mimics the feel of mechanical switches with nothing but haptics. You can grab it refurbished through Logitech’s official eBay store for […],,https://www.theverge.com/gadgets/1014764/logitech-x2-superstrike-haptics-wireless-gaming-mouse-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-20T20:00:00Z,0,Tech
+Google is bringing a more personal version of its Gemini AI assistant to your car,"Google is bringing Gemini&#39;s Personal Intelligence feature to cars, allowing its AI assistant to draw on information from Gmail, Calendar, Maps, YouTube, and other Google services to deliver more personalized responses while driving.",,https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/,https://techcrunch.com/feed/,2026-10-20T20:00:00Z,5,Tech
+OpenBSD 8.0 lands with Intel Arc graphics support,"OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",https://cdn.arstechnica.net/wp-content/uploads/2026/10/OpenBSD80Fish-e1792523267196.png,https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/,https://arstechnica.com/feed/,2026-10-20T19:57:18Z,0,Tech
+The Internet goes on high alert after discovery of 8 compromised TLS certs,Intermediate certs allow anyone to mint web credentials for any Internet server.,https://cdn.arstechnica.net/wp-content/uploads/2026/07/broken-encryption-lock-1152x648.jpg,https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/,https://arstechnica.com/feed/,2026-10-20T19:47:35Z,0,Tech
+Zeabur shutting down after second security breach in two months,"Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",,https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/,https://www.bleepingcomputer.com/feed/,2026-10-20T19:33:02Z,8,Cybersecurity
+"GM to close Detroit battery assembly plant, but not for reasons you might think","GM is shuttering the Brownstown Battery Assembly Plant, though the closure has nothing to do with the automaker&#39;s electrification strategy.",,https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/,https://techcrunch.com/feed/,2026-10-20T19:32:43Z,0,Tech
+TP-Link tries to appease Trump admin with pledge to assemble routers in US,TP-Link can&#39;t sell latest routers in US despite rivals getting FCC approvals.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/tp-link-routers-1152x648.jpg,https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/,https://arstechnica.com/feed/,2026-10-20T19:25:14Z,1,Tech
+Does anyone actually want to win the medium-lift race in the United States?,Ars Technica is here to help with a guide to the medium-lift space race.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/428da033c0ad14482819d3e20c503b86ad29b17f-9504x6336-1.avif,https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states/,https://arstechnica.com/feed/,2026-10-20T19:13:31Z,1,Tech
+DJI’s Osmo Pocket 3 vlogging camera is a good deal at under $400,"If you’re the kind of person who likes to document everything, either for professional and/or personal reasons, and your phone’s camera isn’t cutting it, you might be considering a dedicated vlogging camera. The DJI Osmo Pocket 3 is discounted to $395 (usually $499) at a variety of retailers, including Amazon, Best Buy, and B&amp;H Photo. […]",,https://www.theverge.com/gadgets/1014456/dji-osmo-pocket-3-switch-sports-resort-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-20T19:09:35Z,5,Tech
+Xbox CEO is reportedly planning three more rounds of layoffs,"Xbox CEO Asha Sharma is planning new rounds of layoffs for sometime this month, November, and January, according to Fortune. In July, as part of an organizational &#34;reset,&#34; Sharma announced planned layoffs affecting 3,200 staffers over the course of Microsoft&#39;s 2027 fiscal year, including 1,600 cuts at that time, and in September, Microsoft laid off […]",,https://www.theverge.com/games/1014700/xbox-ceo-asha-sharma-layoffs,https://www.theverge.com/rss/index.xml,2026-10-20T19:06:40Z,5,Tech
+"Amazon is phasing out Fire HD tablets, but not without some big discounts first","Amazon recently announced it’s phasing out its Fire HD tablets in favor of much pricier Alexa Tablets. While the days of getting an affordable, but good tablet from Amazon seem to be coming to an end, you can still get a fantastic deal on the ad-supported Amazon Fire HD 10. It has dropped to a […]",,https://www.theverge.com/gadgets/1014565/amazon-fire-hd-10-tablet-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-20T19:00:00Z,0,Tech
+"JustWatch now streams TV shows and movies, too","After announcing plans to introduce its own streaming service last month, JustWatch, a popular guide and search engine for finding things to watch on existing platforms like Disney Plus and Netflix, launched JustWatch TV today. The new streaming service offers an ad-supported free subscription, an ad-free paid subscription, and movie rentals with content from 30 […]",,https://www.theverge.com/entertainment/1014640/justwatch-tv-plus-free-store-streaming-service-movie-rental,https://www.theverge.com/rss/index.xml,2026-10-20T18:56:50Z,6,Tech
+"Microsoft reportedly plans Xbox handheld in 2027, next-gen console in 2028","Microsoft is reportedly planning to launch an Xbox &#34;next-generation handheld device&#34; for the holiday season of 2027. The Xbox next-gen console, codename Project Helix, would then launch in the holidays of 2028, according to a new report from Fortune. The report doesn&#39;t make it clear whether the handheld would be made by a manufacturer like […]",,https://www.theverge.com/news/1014666/xbox-project-helix-launch-2028-rumor,https://www.theverge.com/rss/index.xml,2026-10-20T18:45:39Z,0,Tech
+Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers,Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs. ,,https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/,https://techcrunch.com/feed/,2026-10-20T18:38:24Z,6,Tech
+ChatGPT now lets you lock your chats,The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat. ,,https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/,https://techcrunch.com/feed/,2026-10-20T18:36:53Z,0,Tech
+Can you see everything?,"This review contains spoilers. I have heard it said that of all the drugs, fame is the most addictive. For Elizabeth Holmes, at least, I am willing to believe that is true. It is the only explanation for You Can See Everything, a movie that is, at its core, about several varieties of manipulation. Holmes, […]",,https://www.theverge.com/policy/1014687/fielder-holmes-you-can-see-everything,https://www.theverge.com/rss/index.xml,2026-10-20T18:30:00Z,6,Tech
+Ukraine’s drone rescue of wounded soldier puts much touted idea into practice,Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-drone-evacuation-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/,https://arstechnica.com/feed/,2026-10-20T18:22:54Z,10,Tech
+Pentagon to start expanding Greenland bases next year: official,"The U.S. is looking at upgrades to support cargo, fighter aircraft, and more troops.",,https://www.defenseone.com/policy/2026/10/pentagon-expand-greenland-bases/416706/,https://www.defenseone.com/rss/all/,2026-10-20T18:13:24Z,0,Defense
+OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code,OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...],,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/,https://www.bleepingcomputer.com/feed/,2026-10-20T18:11:03Z,0,Cybersecurity
+Quantum error correction goes well beyond breakeven,A demo of error-corrected qubits shows big reductions in errors as they grow.,https://cdn.arstechnica.net/wp-content/uploads/2025/11/helios-chip_top-1152x648.jpg,https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/,https://arstechnica.com/feed/,2026-10-20T18:08:57Z,0,Tech
+Meta pauses Muse sharing after researchers find AI chats on the web,"Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]",,https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats,https://www.theverge.com/rss/index.xml,2026-10-20T18:07:34Z,5,Tech
+Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei,"The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",,https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/,https://techcrunch.com/feed/,2026-10-20T17:55:12Z,5,Tech
+"The $20,000 Voxel bot will help you find misplaced things around your home","Tuesday Labs, a New York City-based robotics lab and design studio, has opened reservations for Voxel, its new bi-pedal robot designed to learn and take over routine tasks throughout your home. Similar to other robots like Weave Robotics&#39; Issac 1 that are designed for household chores beyond mopping or vacuuming floors, Voxel features a pair […]",,https://www.theverge.com/tech/1014533/tuesday-labs-voxel-series-1-home-robot-reservation,https://www.theverge.com/rss/index.xml,2026-10-20T17:49:55Z,8,Tech
+State Department orders staff to call AI ‘super intelligence’,"An internal cable from the agency extends Trump’s terminology change to emails, speeches, websites and official titles.",,https://www.defenseone.com/policy/2026/10/state-department-super-intelligence/416705/,https://www.defenseone.com/rss/all/,2026-10-20T17:42:00Z,0,Defense
+Meta ordered to name execs who approved torrenting for AI training,Meta argues nobody “decided” to pirate books to train AI.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-1024x648.jpg,https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/,https://arstechnica.com/feed/,2026-10-20T17:40:20Z,6,Tech
+"Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps","Meta&#39;s AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",,https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/,https://techcrunch.com/feed/,2026-10-20T17:12:48Z,6,Tech
+"Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software","The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google&#39;s Chrome Root Program confirms on October 20.
+
+An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.
+
+A researcher reported the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg,https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T17:09:53Z,0,Cybersecurity
+Chrome will now show a warning before you visit ‘suspicious’ sites,"Google is launching a new browser safety feature for Chrome that aims to keep you better informed about how malicious a website might be before you open it. The suspicious site warnings build on a similar two-stage system introduced for Chrome file downloads in 2024, which provides visually different notifications for blocked files based on […]",,https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning,https://www.theverge.com/rss/index.xml,2026-10-20T17:00:00Z,5,Tech
+AMD is bringing FSR 4.1 to Xbox consoles and handhelds,"AMD has just revealed that it&#39;s bringing its latest upscaling technology, FSR 4.1, to the Xbox Series S and X consoles, as well as laptops, 6000-series GPUs, and handhelds like the Xbox Ally X devices. FSR 4.1 will start appearing for Radeon RX 6000-series GPUs today, as well as Ryzen AI Max 300 and 400 […]",,https://www.theverge.com/news/1014455/amd-fsr-4-1-xbox-consoles-handhelds-laptops,https://www.theverge.com/rss/index.xml,2026-10-20T16:21:18Z,6,Tech
+Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’,"It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity. ",,https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/,https://techcrunch.com/feed/,2026-10-20T16:20:06Z,8,Tech
+Streaming guide JustWatch becomes a streamer itself,"JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.",,https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself/,https://techcrunch.com/feed/,2026-10-20T16:01:24Z,1,Tech
+"Plants can speak using electricity, so this startup built an AI model to decipher their language",Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.,,https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/,https://techcrunch.com/feed/,2026-10-20T16:00:00Z,8,Tech
+Arturia’s MiniFreak 49 makes its Freak synths more professional,"Arturia is adding to its Freak line of proudly weird digital synths with the MiniFreak 49. Under the hood, it&#39;s almost identical to the current MiniFreak, but it adds a number of more professional features and some interface improvements. The most noticeable change is that, rather than the MiniFreak&#39;s 37 minikeys or the MicroFreak&#39;s 25 […]",,https://www.theverge.com/gadgets/1014255/arturias-minifreak-49-synthesizer,https://www.theverge.com/rss/index.xml,2026-10-20T16:00:00Z,0,Tech
+The Gospel according to Peter (Thiel),"It&#39;s a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven by effective altruism, a philosophy that has lurked around the fringes for years but recently burst into the mainstream because its adherents are embedded across the AI industry, from Anthropic to newly appointed AI safety watchdog METR. EA is […]",,https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis,https://www.theverge.com/rss/index.xml,2026-10-20T15:45:00Z,6,Tech
+US Agencies Detail Incident Response Practices for Rogue AI Agents,"NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents.
+The post US Agencies Detail Incident Response Practices for Rogue AI Agents appeared first on SecurityWeek.
+",,https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/,https://www.securityweek.com/feed/,2026-10-20T15:45:00Z,1,Cybersecurity
+Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution,"Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.
+
+The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg,https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T15:38:52Z,12,Cybersecurity
+Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA,"Palo Alto Networks has disclosed that it&#39;s continuing to observe exploitation of a now-patched security flaw impacting  PAN-OS and Prisma Access by ransomware actors.
+
+The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd71tvun8MRT5muo9ZiruSzkyqhGkeh-_5dP4QardwiC54o4wW3PtC7I1jtP_vVX1rPujN_YdrmILFSZw_Ikl6v8Gn2w75v-90aSHpnngi2WE-Ezv6OAO37YY4pJpNwe_DcGWRMgIOUxAEPyVisI3SxXnV30HejoGfGtlXDfAgGkdqrdFJjAI7x6jjFFj-/s1600/palo-ransomware.jpg,https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T15:32:27Z,8,Cybersecurity
+"TikTok staff raised child safety concerns, but executives reportedly failed to act",Court documents show TikTok employees were frustrated with how executives responded to their concerns about risks to children. ,,https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act/,https://techcrunch.com/feed/,2026-10-20T15:03:41Z,5,Tech
+Polestar tries to quantify what it’s like to drive a performance car,Drivers had electrodes strapped to their heads as they tested EVs on track.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/HERO_The-anatomy-of-performance-18-1152x648.jpg,https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/,https://arstechnica.com/feed/,2026-10-20T14:53:07Z,1,Tech
+"Over $963,000 worth of graded Pokémon and sports cards were stolen from Fedex","Last week over 200 packages of graded trading cards being shipped back to their owners were stolen from a Fedex truck parked outside the headquarters of Professional Sports Authenticator (PSA) in Santa Ana, California, according to a report by The Athletic. PSA is one of the largest third-party sports and hobby card grading companies in […]",,https://www.theverge.com/entertainment/1014276/professional-sports-authenticator-psa-stolen-graded-sports-pokemon-cards-fedex,https://www.theverge.com/rss/index.xml,2026-10-20T14:48:55Z,0,Tech
+DHS bans DeepSeek products across US federal civilian agencies,The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...],,https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/,https://www.bleepingcomputer.com/feed/,2026-10-20T14:19:05Z,1,Cybersecurity
+Spotify pulled 50 million AI slop and spam tracks from its recommendations,"Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That&#39;s according to an announcement on Tuesday, which says Spotify has also made changes to its recommendation system to highlight more music made by human artists. &#34;Our editors hold the same standard and […]",,https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed,https://www.theverge.com/rss/index.xml,2026-10-20T14:18:37Z,5,Tech
+Figma co-founder Dylan Field thinks MCP is not a perfect protocol,Figma said it plans to support as many standards as possible without exposing all of its data,,https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/,https://techcrunch.com/feed/,2026-10-20T14:13:32Z,5,Tech
+"Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites","A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.
+
+The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYic0qXjDFjrKdw3Ed58Uv28Xt2G7GTuEZhXrAiV07Xnn_I9DPNeQuntZ-TNMi_4i0JdPOyLj4geWCj8K_Zv2OBO4qaujmlDFzBDljcRvvbDx-3r1hSDDaDN-mI3u61F2gJW6zhShFGLZBKrLM0k0Y9yl5-VOVXFHiJaEg3V65-yfT1yXWc5FSfaYLCKg/s1600/bot-attack.jpg,https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T14:07:17Z,4,Cybersecurity
+AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign,"Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework.
+The post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek.
+",,https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/,https://www.securityweek.com/feed/,2026-10-20T13:51:01Z,1,Cybersecurity
+CJIS v6.1 Compliance: 5 Practical Priorities for Agencies,"CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",,https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/,https://www.bleepingcomputer.com/feed/,2026-10-20T13:51:00Z,2,Cybersecurity
+"The Key to AI Software Security Isn’t Speed, It’s Maturity","Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk.
+The post The Key to AI Software Security Isn’t Speed, It’s Maturity appeared first on SecurityWeek.
+",,https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/,https://www.securityweek.com/feed/,2026-10-20T13:34:23Z,2,Cybersecurity
+Hacker gets 8 years for stealing $3.3 million from taxpayers,A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...],,https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/,https://www.bleepingcomputer.com/feed/,2026-10-20T13:18:36Z,6,Cybersecurity
+"SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt. ,,https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/,https://techcrunch.com/feed/,2026-10-20T13:17:36Z,6,Tech
+The Future of CSS ✨,"Every year, browser vendors collaborate via the Interop project to synchronize their efforts on new HTML/CSS/JS features. This year, there’s a ton of super exciting features being considered! In this blog post, we’ll explore the CSS of the future, to get a glimpse of what we’ll soon be able to do.",,https://www.joshwcomeau.com/css/interop-2027/,https://joshwcomeau.com/rss.xml,2026-10-20T13:15:00Z,0,Tech
+"TikTok employees said they knew about child safety issues, but execs failed to act","TikTok was repeatedly warned by its own staffers about risks its platform posed to child safety, according to court records obtained by NPR. The publication reports that employees were frustrated over TikTok executives failing to appropriately act on concerns they raised, including minors bypassing age-restricted content, and appearing in &#34;transactional sexual content&#34; the company could […]",,https://www.theverge.com/tech/1014250/tiktok-employees-internal-child-safety-warnings,https://www.theverge.com/rss/index.xml,2026-10-20T13:11:23Z,6,Tech
+US orders federal agencies to remove China’s DeepSeek AI from their systems,"The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",,https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/,https://techcrunch.com/feed/,2026-10-20T13:07:24Z,5,Tech
+Adobe Lightroom mobile can now open closed eyes in photos with a simple tap,"Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a […]",,https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair,https://www.theverge.com/rss/index.xml,2026-10-20T13:06:44Z,6,Tech
+Ahold Delhaize Restoring Services Disrupted by Cyberattack,"The company has restored many websites and apps in Europe and expects e-commerce brands in the US to be restored in days.
+The post Ahold Delhaize Restoring Services Disrupted by Cyberattack appeared first on SecurityWeek.
+",,https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/,https://www.securityweek.com/feed/,2026-10-20T13:02:18Z,4,Cybersecurity
+Inspired Capital closes $450M fourth fund as New York pushes back on Silicon Valley’s gravitational pull,The raise comes as venture dollars pile up on the West Coast.,,https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull/,https://techcrunch.com/feed/,2026-10-20T13:00:00Z,5,Tech
+Eka is worth $1.45B thanks to a physical AI model that has experts raving,"Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry. ",,https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/,https://techcrunch.com/feed/,2026-10-20T13:00:00Z,8,Tech
+Antigravity just halved the price of its drone — by swapping its headset for wristwatch control,"Last year&#39;s Antigravity A1 is the best beginner drone I&#39;ve ever tried. I put a friend who&#39;d never flown into its virtual cockpit and didn&#39;t worry one bit. The A1&#39;s also nice for people who&#39;d prefer to think about flying rather than filming, because you can reframe its 360-degree footage after. But until today, that […]",,https://www.theverge.com/tech/1014063/antigravity-a1-drone-follow-me-watch-ring-control,https://www.theverge.com/rss/index.xml,2026-10-20T13:00:00Z,1,Tech
+Final Fantasy dips back into the SNES golden era with Resonance,"Final Fantasy is a lot different than it used to be. While many of the early Final Fantasy titles look and play similarly to each other, the series has since grown to encompass blockbuster games like Final Fantasy XVI and the gargantuan Final Fantasy VII Remake trilogy, which don&#39;t play much like the classics. But […]",,https://www.theverge.com/games/1013958/final-fantasy-resonance-review,https://www.theverge.com/rss/index.xml,2026-10-20T13:00:00Z,0,Tech
+"Wii Sports is back on the Switch 2, and it rules","Wii Sports holds an important place in Nintendo&#39;s history. It&#39;s the best-selling piece of software the company has ever made, one that permeated culture in surprising ways, and its success helped rejuvenate Nintendo after a period of steady decline. It also kicked off one of the company&#39;s most important and unassuming franchises. While subsequent sports […]",,https://www.theverge.com/entertainment/1013753/nintendo-switch-sports-resort-review-switch-2,https://www.theverge.com/rss/index.xml,2026-10-20T13:00:00Z,1,Tech
+Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election,"The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia&#39;s student protest movement, was infected with NSO Group&#39;s Pegasus spyware in 2026, the Citizen Lab said on October 19.
+
+The finding came six days before Serbia&#39;s October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cQrX8zsqCvWd9Pl1mfmh8oQBwRAG_IcrKQB-EpiVEn2GXf5UJBh0UrLXCKzAmJo2Z-Di9G7-16n5hV-gmtfMi-JtB9sOd9neC-b1-6CpErVOYE7CUjBmZhunV45nzsFcDr03rK5RA8q7gFZXIuJZ4c6ND0VSQHYuppDkdTqq04MI7nVCz-10-K-xmc0/s1600/iphone-spyware.jpg,https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T12:59:44Z,3,Cybersecurity
+AI Platform Cairn Abused to Hack Over 100 Organizations,"At least three threat actors have been abusing Cairn for persistent access and financial theft.
+The post AI Platform Cairn Abused to Hack Over 100 Organizations appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/,https://www.securityweek.com/feed/,2026-10-20T12:47:22Z,4,Cybersecurity
+Meta Muse exposes users' personal and business secrets when they share conversations,A single query is all that&#39;s required to find thousands of conversations listed by title.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg,https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/,https://arstechnica.com/feed/,2026-10-20T12:33:13Z,0,Tech
+"Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say","Abdulrahman Alfozan’s wife and young son also left the country the day after the 35-year-old Saudi national’s arrest.
+The post Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say appeared first on SecurityWeek.
+",,https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/,https://www.securityweek.com/feed/,2026-10-20T12:33:12Z,1,Cybersecurity
+Spotify’s new podcast memberships let you pay for extra perks,"Spotify is enabling podcast creators to earn more money through the platform by providing their fans with a way to pay to access exclusive content. First announced in May, the new Memberships subscription feature is starting to roll out in 34 regions today, allowing podcasters to offer perks including additional content, early access, bonus episodes, […]",,https://www.theverge.com/entertainment/1013606/spotify-podcast-memberships-paid-subscription-launch,https://www.theverge.com/rss/index.xml,2026-10-20T12:00:00Z,0,Tech
+Oura adds new fitness metrics to show how workouts impact your body,"While Oura has largely dominated the smart ring market for years, rivals like RingConn and Ultrahuman are emerging to dethrone it, putting pressure on the company to keep innovating. By launching more advanced workout metrics, Oura is looking to differentiate itself from competitors as the smart ring market gets more crowded.",,https://techcrunch.com/2026/10/20/oura-is-launching-two-new-ways-to-track-and-understand-activity/,https://techcrunch.com/feed/,2026-10-20T12:00:00Z,0,Tech
+Spotify launches paid podcast memberships with perks beyond bonus content,"Spotify&#39;s new paid memberships let podcasters offer fans exclusive perks, including ad-free listening, early access, and bonus content, while keeping 90% of the revenue.",,https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/,https://techcrunch.com/feed/,2026-10-20T12:00:00Z,5,Tech
+Japan Has Considered Nuclear-Powered Submarines Since 1958. Why Has It Never Built One?,"From a 1958 design study to reported approaches to the U.S. Navy, Japan has repeatedly examined nuclear-powered submarines without making an acquisition decision.",https://images.thediplomat.com/v1/td-list-l-2/2025/10/thediplomat_2025-10-14-120916.jpg,https://thediplomat.com/2026/10/japan-has-considered-nuclear-powered-submarines-since-1958-why-has-it-never-built-one/,https://thediplomat.com/category/asia-defense/feed/,2026-10-20T11:57:00Z,1,Defense
+WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators,"WhatsApp&#39;s help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp&#39;s own privacy policy for Europe tells users they can complain to one.
+
+The text sat in the pages&#39; code, never shown on screen, until it was removed by October 18. Whether the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTtrA7WSHbxSgTUKrOz8Swz6vdK1sarnVj8fCSEjFPdIMyLbOCOIytF60D82szAQpXLHR0mXI3j4zcIobCRS2g8ZI6GkbuLTHkoM4OmkUAWD0P1D1KyYuYrSxWvbq7Yy6zJ-B03VGWxy49q1BUF4owk5gUAVBBd6g2v7xl28TT_ax7Il5ixELfwcBawpA/s1600/whatsapp-chatbot.jpg,https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T11:41:06Z,2,Cybersecurity
+What Security Teams Can Do To Tame Wild Code,"A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7Q3156iY5WJRnphGSZ5PuIiMopF0sG7ku3FR-WROda9fE4jCSIOQpClG1HOBRCvbuqDyLHgsC0N3UFjowgnXzZN4T1mDpkQbTz2gX7z4NRZsfoEpimVlZ7hevcXmeTfpOt1iFrHqvLXubegNIRz15gjlQNHIBBYzQVAmy8MNAGiZs6OXIEuWNntLwTlI/s1600/tines-main.jpg,https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T11:33:04Z,1,Cybersecurity
+Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns,"Go 1.27.3 and Go 1.26.10, released on October 20, make Go&#39;s certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys.
+
+Programs built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg,https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T11:32:59Z,1,Cybersecurity
+OVHcloud CLI releases backdoored on GitHub to steal developer secrets,French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...],,https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/,https://www.bleepingcomputer.com/feed/,2026-10-20T11:31:22Z,11,Cybersecurity
+"Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring","Microsoft says companies should treat AI agents as insiders, and is adding controls that grant access per task and tighten it as an agent’s risk rises.
+The post Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring appeared first on SecurityWeek.
+",,https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/,https://www.securityweek.com/feed/,2026-10-20T11:30:18Z,2,Cybersecurity
+Windows Server 2025 gets support for quick machine recovery,Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...],,https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/,https://www.bleepingcomputer.com/feed/,2026-10-20T11:21:42Z,1,Cybersecurity
+Ahold Delhaize: Cyberattack affects services across US and Europe,"Ahold Delhaize, one of the world&#39;s largest food retail chains, confirmed that last week&#39;s cyberattack disrupted services at stores across Europe and the United States. [...]",,https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/,https://www.bleepingcomputer.com/feed/,2026-10-20T11:18:35Z,3,Cybersecurity
+"Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader","The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).
+
+The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNLZ-1vEmoCyztDVMziqJlhZPTZfW4mOe-qDn6OxDQ-K2LVZTvqhoOe3MIip5bDJfiJd7e3HLcq4S-0xb2SlfWbEqp4vlvbOnQDSP5edsQIxHFtYSCt1qM7XZksq0NPZ9AGesx0YzqHsTeWUuPUTysC5dbuDOvKIjQW0DJvkg1UG9KLH2Doglq7WtgyiRM/s1600/russia-nato.jpg,https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T11:06:25Z,9,Cybersecurity
+"Visiting Slate’s first showroom as its $25,000 electric truck nears production",Slate&#39;s first showroom sells the promise. Mass production will determine the rest.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/slate-visit-chicago-intro-1152x648.jpg,https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/,https://arstechnica.com/feed/,2026-10-20T11:00:16Z,0,Tech
+Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool,"Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. […]",,https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/,https://techcrunch.com/feed/,2026-10-20T11:00:00Z,13,Tech
+Yelp can now call on your behalf to check wait times at a restaurant,Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.,,https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/,https://techcrunch.com/feed/,2026-10-20T11:00:00Z,6,Tech
+ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident,"ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup.
+
+The company said it has completed the following actions since it began",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgN8mboHojdAmthr-jUWvIgg5BgmRsrAFJRQFz-nEuPEAIGTqwVKwnf9c7E8jGzdpHfWZuDENURbDFFADIJ76Tf7h5lamLTOUoY5ui438ugfOJYw-2vkAuITMBMxt-0CWFxj43bdgDY19exYceRvJEScmPpWoYXBjkIHLOilUSF1wWmSta5o9ocPpLywQn/s1600/connect.jpg,https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T10:56:08Z,1,Cybersecurity
+Hackers Steal 1.8 Million Records From Nikkei,"The compromised information includes names, addresses, email addresses, phone numbers, and dates of birth.
+The post Hackers Steal 1.8 Million Records From Nikkei appeared first on SecurityWeek.
+",,https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/,https://www.securityweek.com/feed/,2026-10-20T10:35:18Z,1,Cybersecurity
+Some Google Home Speakers caught downloading hundreds of gigs of data,"Some Google Home Speaker owners are currently experiencing an issue in which hundreds of gigabytes of data are being continuously downloaded to their device in the background. The bug, reported by 9to5Google and several Reddit users over the last week, may be caused by the speakers failing to correctly download and install a firmware update, […]",,https://www.theverge.com/tech/1014209/google-home-speaker-bug-continuous-download,https://www.theverge.com/rss/index.xml,2026-10-20T10:16:47Z,9,Tech
+Revolut outage disrupts online banking operations worldwide,Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...],,https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/,https://www.bleepingcomputer.com/feed/,2026-10-20T09:46:44Z,0,Cybersecurity
+"970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach","Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals.
+The post 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/,https://www.securityweek.com/feed/,2026-10-20T09:33:49Z,5,Cybersecurity
+When defrost becomes sabotage: 3 OT lessons from France’s supermarket attack,"
+		
+					  
+						
+
+
+
+
+
+
+
+
+On the night of 11 October, someone remotely put the cold cases of several hundred French supermarkets into defrost. At Intermarché and Netto stores, fridges and freezers warmed to around 50°C and stayed there for about six hours, according to Les Mousquetaires, which expects losses in the tens of millions of euros. By morning, staff were filling skips with meat, frozen goods and vegetables.
+
+
+
+Coopérative U counted 80 affected stores out of roughly 2,000. Its chief executive, Dominique Schelcher, told RTL that the cold chain held in most of them. Only a minority reacted too slowly and lost stock, and he credited store staff and refrigeration contractors for the difference. Intermarché said its affected stores had to throw away everything. A second wave followed in the night of 12 to 13 October, this time also reaching stores with Dixell controllers.
+
+
+
+Similar controllers, similar night, very different mornings. That gap is the part of this story an operator can act on. CSO has already reported which systems were hit and what CERT-FR wants done with them. Nobody has claimed responsibility and no ransom demand has surfaced, which Reuters reports has puzzled investigators; whoever did this wanted spoiled food, not money, or has not said what they wanted yet. Neither CERT-FR nor Danfoss has said how the attackers got in: exposed management interfaces, known flaws and stolen contractor credentials are all still on the table. The three lessons that follow do not depend on either answer.
+
+
+
+Your refrigeration contractor is your perimeter
+
+
+
+Schelcher made a remark that deserves more attention than the temperature figures: Coopérative U stores do not buy from Danfoss. They buy from refrigeration contractors, who supply the controller, configure it and keep remote access to it so they can adjust setpoints without driving to the store. E.Leclerc told AFP that the attack reached its stores through one of its refrigeration equipment suppliers. The controller’s embedded web server exists for exactly this purpose, and the contractor’s performance guarantees usually depend on the data feed it provides.
+
+
+
+Danfoss has seen this before. Its own technical newsletter from October 2025 records attacks on the AK-SM 800 in 2022: 16 Russian supermarkets and 40 Israeli stores. All 40 Israeli sites, the newsletter notes, lacked proper firewall or VPN protection. Four years later the same model, end-of-life since May 2021, was still on the internet in France.
+
+
+
+The pattern is familiar from industrial sites. The party who decides whether a controller is exposed is not the party who eats the loss when it is. The contractor wants a browser and a public IP address because it turns a Sunday-night callout into a two-minute job. The store carries the inventory. A standard maintenance contract rarely makes that trade-off visible to the person signing it.
+
+
+
+How deep the dependency runs shows in a sentence I have not seen in a national advisory before. CERT-FR’s alert, updated on 16 October, tells operators to check their insurance terms before cutting the internet link to the refrigeration contractor. The data feed is contractual, and depending on the agreement, cutting it can touch monitoring obligations or policy conditions. And the insurance side is bleak anyway: brokers and underwriters told Reuters that cyber policies typically exclude physical loss, so the spoiled stock is unlikely to be covered. Intermarché told AFP its insurance does not cover the incident.
+
+
+
+So, the first question: who can log into your refrigeration controllers today, and over what path? Store network, contractor VPN, a cellular router the contractor installed years ago, a port forward on the store router? If answering requires calling the contractor, you do not control that perimeter. You rent it.
+
+
+
+The lesson is a contract clause, not a firewall rule. The maintenance agreement should name every remote path into the equipment and forbid any other; require access through your gateway or VPN with accounts tied to named technicians; give you the logs; oblige the contractor to tell you when a controller leaves vendor support or a vulnerability is published; and let you revoke access without losing the cold chain. Cold-case controllers run for decades. The contract that pays for their maintenance rarely says any of this. After France, it should.
+
+
+
+Defrost is a feature. Treat the command as the event
+
+
+
+Whatever got the attackers in, the damage itself came from ordinary refrigeration functions. Defrost is a built-in cycle on every refrigeration controller, and in the second wave the setpoints were reportedly pushed to values no case can reach. Many controllers also offer a setting that suppresses temperature alarms during defrost and for a delay afterwards, so that scheduled cycles do not page anyone at 3 a.m. That is a sensible configuration. It is also exactly what makes a forced defrost quiet. Whether it played a role in France has not been established, and Coopérative U’s experience shows that alarms did reach people in most of its stores.
+
+
+
+The structure is the same as in the Minnesota water attacks in July: intended functionality, used by the wrong person at the wrong time. A temperature alarm is a process control. It tells you the product is getting warm. It cannot tell you that the command which made it warm came from someone who should not have been logged in.
+
+
+
+The signal worth alarming on is an unexpected mode or setpoint change outside a maintenance window, and it gets louder when several circuits move at once or several stores that share a contractor move in the same hour. CERT-FR’s updated alert now tells operators to review their defrost schedules specifically. That is the right instinct: look at the configuration, not just the thermometer.
+
+
+
+Not every controller can export that event, least of all the models that were hit. Where it cannot, an independent temperature logger that does not depend on the controller catches the consequence early. Either way, someone has to receive the alert, understand it and have the authority to act. At 3 a.m. that chain runs from a store employee to an external technician to a central operations desk, and if nobody has written down who calls whom, the minutes go to finding out. In the second wave, a refrigeration technician in the Gironde told Le Monde that his teams reached a store near Bordeaux in time, and nothing had to be thrown away. Schelcher’s minority lost their stock because they could not respond fast enough. One factor clearly separated the two groups: time from first actionable warning to intervention.
+
+
+
+The lesson, concretely: an alert on any remote setpoint or mode change that no technician has announced, weighted by time of day and by how many circuits move together, raised by the controller where it can and by the contractor’s monitoring platform where it cannot, since the contractor is the only party that sees all its stores at once. A temperature logger that does not share the controller’s network, as the second opinion. A written call chain for 3 a.m. with names, not roles. And a drill: have the contractor change a setpoint on a test circuit at night and measure how many minutes pass before someone with authority has it reversed. That number is the one to report to the board.
+
+
+
+An unsupported controller is a budget line, not a patch ticket
+
+
+
+Claroty’s Team82 published three flaws in the current model, the AK-SM 800A, in August, all fixed in firmware 4.3.1 or earlier, and counted 2,765 of its management interfaces reachable from the internet. Nobody has linked those flaws to the attack. Danfoss says most affected units were the older AK-SM 800 and AK-SC 355, with some 800A units on outdated firmware.
+
+
+
+For the older models, there is nothing to patch. Danfoss ended updates for the AK-SM 800 in May 2021 and for the AK-SC 355 in 2016. CERT-FR therefore does not lead with patching. It tells operators to take every AK-SM, AK-SC and XWEB controller off the public internet, restore access only through a VPN or protected network, and for compromised Danfoss units, restart, or failing that, factory-reset, and reconfigure before returning them to service. It adds a warning that reads like a prediction: a reset alone removes persistence but leaves the device just as vulnerable, and the campaign is probably still running.
+
+
+
+The sequence is the one I argued for when CISA asked operators to harden Siemens S7 PLCs: exposure first, firmware second, replacement third. In practice, that means a list of every refrigeration controller by model, firmware and vendor support status by the end of this week; a management interface on a public IP address taken off it the same day; current firmware on everything the vendor still supports; and for everything it does not, a replacement date with a budget line and a name next to it. An aging controller may still do its job perfectly well, and replacing it costs money, engineering time and downtime, so without an owner the decision slides. The security team can document the risk. Someone on the commercial side has to accept it or fund the replacement, and after Reuters’ insurance round-up, that person should know they are also accepting the stock.
+
+
+
+Which brings the story back to the two groups of stores. Nobody has shown that firmware or hardware explains which stores kept their stock. What is documented is that a warning reached someone who could act before the cold chain gave way. That is an operational capability, and it can be tested long before an attacker tests it for you. Sekoia told Reuters that Spain, Portugal, Poland, Germany and Belgium saw cases too, and the same controller families run cold storage in warehouses and pharmaceutical distribution, maintained by the same kind of contractor. So, before the week is out, do two things. Search Shodan or Censys for your own refrigeration management interfaces, because someone else already has. Then call the contractor and ask one question: when you log into our sites, how do you get there? If the answer is a public IP address and a password, with nothing in between, you have found your incident. It just hasn’t happened yet.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4237172-0-72828500-1792487028-mishaal-zahed-w8X2pbw4O2g-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4237172/when-defrost-becomes-sabotage-3-ot-lessons-from-frances-supermarket-attack.html,https://www.csoonline.com/feed/,2026-10-20T09:00:00Z,23,Cybersecurity
+OT systems complicate quantum-resistant data protection,"
+		
+					  
+						
+
+
+
+
+Quantum-resistant cryptography presents security leaders with various challenges, but CISOs in industries dependent on IoT and operational technology (OT) devices may face a particularly difficult journey to quantum readiness, especially if sensitive information that must remain confidential for years passes through those devices.
+
+
+
+A recent report from cybersecurity firm Forescout highlights these challenges in the healthcare industry, where medical histories, diagnostic images, and laboratory results, which retain their sensitivity long after they are created, routinely get transferred between various operational systems.
+
+
+
+Attackers who collect encrypted traffic carrying this information today can store it for decryption when sufficiently powerful quantum computers become available, an approach security experts call “harvest now, decrypt later” (HNDL).
+
+
+
+“PQC [post-quantum cryptography] migration in healthcare is not just about data confidentiality, but also patient safety,” the Forescout researchers say in their report, which examined over 2.5 million devices across more than 50 organizations. “Cryptography protects commands sent to medical devices, telemetry received from those devices for diagnostic purposes, medication orders, and other sensitive interactions. Quantum threats include unauthorized remote access by exploiting public keys for authentication, tampering with device-to-device communication by decrypting traffic, and sophisticated malware exploiting firmware integrity signatures.”
+
+
+
+While upgrading to PQC is relatively straightforward for live servers, where a standardized PQC algorithm can be implemented as a library package upgrade and configuration change, embedded devices such as those used in healthcare need full firmware updates from their manufacturers. Moreover, those upgrades must maintain backwards compatibility with other systems that might not be upgraded at the same time, and in the case of certified devices, they might require re-certification.
+
+
+
+This issue goes beyond healthcare to include industrial installations or anywhere OT or IoT devices handle sensitive or business-critical data.
+
+
+
+Last month, the G7 Cybersecurity Working Group urged governments and organizations to begin migrating to PQC as soon as possible, calling for action across all sectors. The group warned that the transition will be lengthy and that organizations should prepare before quantum computers capable of breaking current cryptography become available.
+
+
+
+Daniel dos Santos, VP of research at Forescout, tells CSO that while government bodies have issued orders and advisories with different expectations for PQC readiness, they all tend to converge on a 2030 timeline, which is when experts expect quantum computers might be capable of breaking existing encryption algorithms.
+
+
+
+For industries such as healthcare, however, the HNDL threat collapses that quantum-readiness timeline completely.
+
+
+
+Patient data travels beyond the medical device
+
+
+
+Protecting patient information requires securing the entire communication chain, from the equipment that generates the data to the IT systems that store it and the applications that make it available to doctors and patients. That includes, for example, a CT scanner that sends images to a picture archiving and communication system (PACS), images that can later be transferred between hospitals, cloud services, and external radiology providers, requiring quantum-resistant protection on each transfer to maintain long-term confidentiality.
+
+
+
+Laboratory results and prescription records follow similar routes. Electronic prescribing services exchange medication information between providers and pharmacies, including records of controlled substances and treatment for chronic diseases. Attackers can potentially intercept and siphon that data at different points in the chain: at the device level, from an internal network, through a compromised edge router or firewall, or even at the telecom operator’s level.
+
+
+
+The platforms that store and exchange patient records are often accessible directly from the internet as well. In a Shodan search, Forescout identified more than 5,500 internet-exposed instances of medical information systems, with electronic medical record platforms accounting for 46% of those instances and PACS accounting for 40%.
+
+
+
+Only 36% of PACS, 33% of electronic medical record systems, and 13% of laboratory information management systems had support for TLS 1.3, the only version of the protocol that supports ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism), a quantum-resistant key encapsulation standard published by NIST. However, the presence of TLS 1.3 does not demonstrate that a connection uses quantum-resistant cryptography, because the connecting client might negotiate a different algorithm.
+
+
+
+Furthermore, in a previous study published in June, Forescout found that only 11.8% of SSH servers on the internet are PQC-capable, a number that falls to 3% when looking only at Dropbear, an SSH server commonly used on embedded devices. Inside enterprise networks, 50% of IT devices use OpenSSH versions that support PQC, but only 28% of IoT, 16% of OT, and 6% of IoMT devices use the same versions.
+
+
+
+“Specialized devices are unlikely to be fully migrated this decade if we keep going at the current pace, delaying broader PQC migration efforts and quantum readiness,” the researchers concluded. “Unfortunately, medical devices are among those with the lowest adoption rates and the hardest challenges for adopting PQC.”
+
+
+
+Challenges extend beyond healthcare
+
+
+
+Changing cryptography on equipment used for patient care or industrial operations is completely dependent on the device vendor. Dos Santos says modifying the device filesystem independently, even when it can be done, jeopardizes certification, maintenance, and support, and any communication protocol changes need to preserve connections to other equipment. The same problem exists for devices in chemical plants, electricity networks, water treatment facilities, and factory floors.
+
+
+
+Some medical and industrial equipment already runs on Linux, which could in theory make adopting PQC easier, dos Santos says. However, he has seen little discussion of PQC adoption or roadmaps among OT vendors.
+
+
+
+The Cybersecurity and Infrastructure Security Agency (CISA) described in its October 2024 OT guidance how changes to equipment controlling heavy machinery or combustible materials can require extensive safety testing. For medical devices, the regulatory implications depend on the changes made to the device. The US Food and Drug Administration’s February 2026 cybersecurity guidance says changes to authentication or encryption algorithms may require a new premarket submission.
+
+
+
+Concerns about legacy equipment and PQC extend across sectors. In a Certes survey of 200 IT and security professionals engaged with quantum-related risks at large US and UK organizations published in May, 78% of respondents rated the potential quantum threat to legacy environments as very high. For edge and IoT equipment, including industrial and medical devices, ATMs, and vehicles, 43% rated the threat as very high and another 31% as significant.
+
+
+
+Some devices will need alternative solutions
+
+
+
+Healthcare information, financial records, and trade secrets, such as code and industrial designs, can remain sensitive years after transmission. But not all data exchanged between devices has the same confidentiality requirements or operational relevance over time.
+
+
+
+“What’s missing from the policy conversation is a differentiated threat and risk assessment framework — one that accounts for data lifetime and sensitivity decay rate, device class, computational constraints, and realistic adversary capability timelines,” Sharon Hagi, CSO at IoT cybersecurity firm Finite State, told CSO in June after France’s national cybersecurity agency, ANSSI, outlined plans to introduce PQC requirements for product qualification starting in 2027.
+
+
+
+“The quantum threat is not uniformly distributed across the cryptographic stack,” Hagi said. “Shor’s algorithm breaks RSA and ECC. It does not break AES-256 or SHA-3 in any operationally practical sense — Grover’s provides at most a quadratic speedup, and the effective security margins of properly sized symmetric primitives still holds for most uses. Architectures that rely on symmetric encryption with out-of-band or pre-provisioned key distribution remain meaningful options for resource-constrained embedded devices where NIST PQC algorithms (e.g. ML-KEM, ML-DSA) impose non-trivial compute, bandwidth, and memory costs.”
+
+
+
+This means vendors will have to weigh carefully on which devices it’s even viable due to hardware limitations to deploy new PQC algorithms. In some cases, end-users might have to come up with alternatives, such as isolating those devices and routing traffic to and from them through other gateway devices that can apply PQC.
+
+
+
+This is the approach that users should start taking before vendors decide to release firmware upgrades, dos Santos says. For example, internet-facing websites and portals should already be configured to use TLS 1.3 as all modern browsers support it. For remote management and file transfers over the internet, deploy gateways that support protocols with quantum-resistant cryptography.
+
+
+
+A hospital could use a gateway to protect an image transfer to an external radiology provider. The hospital would still need to assess the connection from the scanner or image archive to that gateway and maybe isolate them on their own network segment with no direct internet access.
+
+
+
+“But at least for the external part, you’re reducing risk, right?” dos Santos says.
+
+
+
+But PQC support at one endpoint is effective only if the other endpoint can also negotiate the same algorithm, and manufacturers are reporting difficulty meeting interoperability goals. Thales’s September Manufacturing Data Threat Report, based on 417 respondents in 20 countries, revealed that 30% were behind on their post-quantum interoperability objectives.
+
+
+
+“For the end users, the main thing to be doing right now is the inventory of devices and data together,” dos Santos said. “Devices, data, and communication.”
+
+
+
+The resulting map should identify which transfers already have compatible protection, which depend on an upgrade, and where a gateway could protect an external connection.
+
+
+
+For healthcare, Forescout recommends prioritizing patient portals, external APIs, partner exchanges, and other internet-facing connections, then updating cryptographic libraries and firmware where feasible. For equipment that cannot be upgraded, its healthcare report recommends assessing gateways and isolation measures, obtaining vendor roadmaps, and planning replacement when manufacturers have no viable migration path.
+
+
+
+Dos Santos says vendors supplying equipment with multiyear service should have a roadmap for PQC communications even when their current firmware does not support it. Operators need to know when that support will arrive, which connections it will protect, and whether it requires new hardware. For equipment expected to remain in service for years, those answers need to inform purchasing and support agreements, alongside a replacement plan if a vendor cannot deliver an upgrade.
+
+
+
+The G7 call to action urges organizations to integrate quantum-safe replacements into normal equipment renewal schedules and the US Office of Management and Budget’s June guidance directs federal agencies to incorporate PQC upgrades into hardware refreshes and prioritize replacing or decommissioning equipment that cannot support PQC or hybrid cryptography.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4236142-0-06252400-1792484833-shutterstock_2702123681.jpg?quality=50&strip=all,https://www.csoonline.com/article/4236142/ot-systems-complicate-shift-to-quantum-resistant-data-protection.html,https://www.csoonline.com/feed/,2026-10-20T08:25:00Z,17,Cybersecurity
+Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware,"An attacker used a contributor&#39;s GitHub account to replace the download archives on five existing releases of OVHcloud&#39;s command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says.
+
+They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSRX5Jjz6vqh8EcVVYoXU8S9qh0rFzQ3DDnjNIlkRrBq97brmk6hUw0u2pbLqyTAG1_mYfG9bGHCnMkgSMEPFu6fIR67F1jZMmS7G7-DFe6i7PtG_LzdTgHLCTXSwE5hCa2EApQeAIYGIMYATwbLEp-2FcPmV9aAHVqrRRBYk_wY7ZTuES0frFAPGjhnU/s1600/ovhcloud.jpg,https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T08:21:29Z,6,Cybersecurity
+ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan,"Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.
+
+The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUJqb8f_ibR_O_dPoJqAVHZOVmgi23TsxhFzv19_3uzAbEqH6L6QMJUWdelmEKmDe6U9wj6KKyDpPKi_1a93IK1KJa-Ql0kFRtfqVe9sKQpVFj0dA65dCfRKCN7H0LQYgMdzqdJoLgSb6rRFBA4bfmf4oUqItqe6pVCsyxmEzCnHx02h_m1WsK6sJu7jy2/s1600/siemens.jpg,https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html,https://feeds.feedburner.com/TheHackersNews,2026-10-20T07:11:45Z,9,Cybersecurity
+Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet,Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic.,,https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/,https://techcrunch.com/feed/,2026-10-20T07:01:00Z,6,Tech
 Japan launches mission to bring home a piece of the Martian moon Phobos,"The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/52568167027_27ac36afb5_o-1152x648.jpg,https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/,https://arstechnica.com/feed/,2026-10-20T05:59:56Z,0,Tech
 Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge,"A U.S. court on Monday granted the U.S. government&#39;s request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company&#39;s San Francisco office to allegedly steal sensitive secrets.
 
