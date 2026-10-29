@@ -1,4 +1,942 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.
+
+The vulnerability in question is CVE-2026-41709 (CVSS score:",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg,https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T06:22:33Z,19,Cybersecurity
+Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces,"Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.
+
+&#34;Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,&#34; the network security company said in an update to its advisory.
+
+The vulnerabilities, tracked as",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg,https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T05:50:17Z,14,Cybersecurity
+Bluesky Is Blocking Links to a Major Leak of DHS Employee Records,"Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact information, shared without their authorization.",,https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/,https://www.wired.com/feed/category/security/latest/rss,2026-10-29T03:34:46Z,0,Cybersecurity
+Anduril now says its BlueChip laptop will meet Buy American standards at launch,"On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a &#34;long-term goal&#34; of pushing the computer industry to create &#34;a fully domestic supply chain.&#34; Even a single Made-in-USA laptop would be a surprise, because no […]",,https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american,https://www.theverge.com/rss/index.xml,2026-10-29T02:22:46Z,5,Tech
+Upwind raises $400M after walking away from Datadog acquisition offer,"The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",,https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/,https://techcrunch.com/feed/,2026-10-28T23:15:00Z,14,Tech
+FCC chair wants to let prisons jam illegal cellphones,The agency will vote next month on relaxing its long-standing opposition to jammers.,https://www.engadget.com/img/gallery/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/l-intro-1793228522.jpg,https://www.engadget.com/2300569/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/,http://www.engadget.com/rss-full.xml,2026-10-28T23:09:22Z,5,Tech
+Adam Mosseri says negativity around AI is ‘going to get worse’,"Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don&#39;t like AI, and it&#39;s not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]",,https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity,https://www.theverge.com/rss/index.xml,2026-10-28T23:05:39Z,6,Tech
+ULA's Vulcan rocket is set to return to flight on Friday the 13th,This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/55617683176_c8f6425b60_o-1152x648-1793207864.jpg,https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/,https://arstechnica.com/feed/,2026-10-28T22:51:15Z,0,Tech
+Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme,"Prepare to cough up around $14,549 if you want the new touchscreen MacBook Pro to have every upgrade. ",,https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/,https://techcrunch.com/feed/,2026-10-28T22:47:50Z,1,Tech
+"As US ties fray, Europe plans first undersea cable link to Greenland","Europe&#39;s Pan-Arctic Cable al bypass US to link Canada, Japan, and South Korea.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/,https://arstechnica.com/feed/,2026-10-28T22:35:50Z,0,Tech
+"Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",Six unproven peptides popular with MAHA now under &#34;enforcement discretion policy.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2154524764-1024x648.jpg,https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/,https://arstechnica.com/feed/,2026-10-28T22:17:15Z,0,Tech
+Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion,"Microsoft has never disclosed Azure&#39;s quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",,https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/,https://techcrunch.com/feed/,2026-10-28T21:58:32Z,0,Tech
+"A hacker stole more than 40,000 DHS employee records","A hacker stole a trove of personal information from the Department of Homeland Security (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations of more than 41,000 employees, including those in US Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP), according to TechCrunch and Wired. The […]",,https://www.theverge.com/tech/1021528/ice-cbp-data-leak,https://www.theverge.com/rss/index.xml,2026-10-28T21:57:45Z,5,Tech
+Google expands AI Search ads globally as core ad growth slows,"The announcement came alongside parent company Alphabet&#39;s third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",,https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/,https://techcrunch.com/feed/,2026-10-28T21:48:37Z,5,Tech
+Microsoft recorded $10 billion in revenue from OpenAI,"Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",,https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/,https://techcrunch.com/feed/,2026-10-28T21:34:30Z,5,Tech
+Akai is embracing vibe-coded mods with an open-source MPC,"The MPC Sample Key isn&#39;t even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run […]",,https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key,https://www.theverge.com/rss/index.xml,2026-10-28T21:34:04Z,5,Tech
+Microsoft hits 10 quarters of record- breaking revenue in a row,"Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",,https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/,https://techcrunch.com/feed/,2026-10-28T21:25:30Z,5,Tech
+Readwise is taking on Kindle and Kobo for ebook supremacy,"For the last several years, Readwise has been building tools for power readers. There&#39;s the eponymous product, Readwise, which stores and categorizes your Kindle highlights to help you remember what you&#39;ve read. There&#39;s Readwise Reader, an app for reading newsletters, PDFs, and web articles you&#39;ve saved for later. And now there&#39;s Readwise Books, a full-fledged […]",,https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store,https://www.theverge.com/rss/index.xml,2026-10-28T21:16:18Z,1,Tech
+"The US space industry will suffer for Ukraine’s Starlink outage, experts say",US allies aren’t happy: “We naturally insist that it works if we&#39;re paying for it.&#34;,,https://www.defenseone.com/business/2026/10/us-space-industry-ukraine-starlink/416890/,https://www.defenseone.com/rss/all/,2026-10-28T21:09:55Z,0,Defense
+"Police seize Virtualine bulletproof service tied to ransowmare, cybercrime","U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",,https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/,https://www.bleepingcomputer.com/feed/,2026-10-28T20:47:22Z,0,Cybersecurity
+Apple's PROLED XDR Display has a cringy name but incredible specs,"With all the fuss about Apple finally releasing a touchscreen MacBook Pro, you may have forgotten about the OLED part.",https://www.engadget.com/img/gallery/apples-proled-xdr-display-has-a-cringy-name-but-incredible-specs/l-intro-1793218163.jpg,https://www.engadget.com/2300407/apples-proled-xdr-display-has-a-cringy-name-but-incredible-specs/,http://www.engadget.com/rss-full.xml,2026-10-28T20:31:43Z,1,Tech
+Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw,The critical flaw in UEFI firmware—used by most server vendors and data centers—allows attackers to execute code early in the boot process.,,https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/,https://www.wired.com/feed/category/security/latest/rss,2026-10-28T20:30:00Z,4,Cybersecurity
+Google says its investments in AI are driving more searches,"Google parent company Alphabet says that its AI investments are leading to a big growth in searches year-over-year, as noted in its Q3 2026 earnings today. &#34;Our AI investments are driving overall Search query growth, including commercial queries,&#34; CEO Sundar Pichai says in a statement. &#34;In fact, our year-over-year query growth rate is the highest […]",,https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026,https://www.theverge.com/rss/index.xml,2026-10-28T20:22:26Z,5,Tech
+Microsoft reveals strong cloud growth amid financial reporting overhaul,"Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32 percent. It&#39;s a new financial year for Microsoft, so the company is changing up […]",,https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027,https://www.theverge.com/rss/index.xml,2026-10-28T20:20:00Z,4,Tech
+"Apple charges $14,549 for a fully specced touchscreen MacBook Pro","With an OLED display and touchscreen capabilities, it&#39;s no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for the 16-inch, with every premium hardware option that Apple offers pushes those […]",,https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced,https://www.theverge.com/rss/index.xml,2026-10-28T20:12:44Z,2,Tech
+Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity,"Google has released its latest frontier model, Gemini 4 Carbon, offering &#34;significant gains&#34; in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon&#39;s top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over […]",,https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier,https://www.theverge.com/rss/index.xml,2026-10-28T20:03:00Z,5,Tech
+"Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents","A hacker obtained personally identifiable information about more than 40,000 Homeland Security staffers, which has since been published online.",,https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/,https://techcrunch.com/feed/,2026-10-28T20:01:00Z,5,Tech
+"Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents","The leaked records include the locations of ICE and CBP facilities, workers&#39; cellphone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",,https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/,https://www.wired.com/feed/category/security/latest/rss,2026-10-28T20:00:00Z,1,Cybersecurity
+Meta weighs delaying 'alarming' new business terms as backlash grows,The company says it won&#39;t make &#34;policy changes&#34; until it consults with publishers.,https://www.engadget.com/img/gallery/meta-weighs-delaying-alarming-new-business-terms-as-backlash-grows/l-intro-1793216507.jpg,https://www.engadget.com/2300293/meta-weighs-delaying-alarming-new-business-terms-as-backlash-grows/,http://www.engadget.com/rss-full.xml,2026-10-28T19:42:27Z,0,Tech
+The PlayStation 5 just might be Sony's final Blu-Ray player,"Between Sony&#39;s plan to end PlayStation disc production and discontinuing its Blu-ray players, the future looks grim for physical media.",https://www.engadget.com/img/gallery/the-playstation-5-just-might-be-sonys-final-blu-ray-player/l-intro-1793107319.jpg,https://www.engadget.com/2300289/playstation-5-might-be-sony-final-blu-ray-player/,http://www.engadget.com/rss-full.xml,2026-10-28T19:39:47Z,0,Tech
+Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech,"What do drones, routers, and Roombas have in common? The US government wants to keep Chinese ones from entering the country. They’re the first consumer gadgets that are facing de facto import bans because of the US government’s xenophobic stance — and they might not be the last. Originally, the US government was just worried […]",,https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream,https://www.theverge.com/rss/index.xml,2026-10-28T19:37:31Z,1,Tech
+Trump admin sues Utah to save Kalshi from the state's total ban on gambling,US agency has sued 10 states for trying to stop gambling on prediction markets.,https://cdn.arstechnica.net/wp-content/uploads/2026/09/kalshi-1152x648-1788462763.jpg,https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/,https://arstechnica.com/feed/,2026-10-28T19:30:33Z,0,Tech
+"The last, best hope for space tourism just rolled onto a runway in Arizona",It has been nearly a year since any space tourism flights occurred.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653-1152x648.jpg,https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona/,https://arstechnica.com/feed/,2026-10-28T19:20:36Z,0,Tech
+Anthropic just launched tools to show companies what their AI spending is buying,The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.,,https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/,https://techcrunch.com/feed/,2026-10-28T19:19:58Z,5,Tech
+Hands-on with the new iPad Mini,"Apple announced a new iPad Mini with a larger OLED display this week, and we&#39;ve just gotten to try it out at Apple&#39;s &#34;Pro and tell&#34; event. It&#39;s an iPad for sure, but the new OLED on the Mini looks exceptional, and the optional nano-texture matte finish is awesome. The &#34;Pro and tell&#34; event venue […]",,https://www.theverge.com/tech/1017932/hands-on-ipad-mini-8th-generation-pro-and-tell,https://www.theverge.com/rss/index.xml,2026-10-28T19:18:58Z,1,Tech
+OpenAI now lets you text your Dot agent,The feature works with both iMessage and RCS messaging.,https://www.engadget.com/img/gallery/openai-now-lets-you-text-your-dot-agent/l-intro-1793214741.jpg,https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/,http://www.engadget.com/rss-full.xml,2026-10-28T19:15:00Z,5,Tech
+Touchscreen MacBook Pro hands-on: OLED looks great on a Mac,It&#39;s not as different from the previous model as you might have expected.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/16-inch-MacBook-Pro-lid-closed-1152x648-1793212511.jpg,https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/,https://arstechnica.com/feed/,2026-10-28T19:10:29Z,0,Tech
+Engadget is hiring writers!,We&#39;re looking for freelance journalists who know their way around a tech blog.,https://www.engadget.com/img/gallery/engadget-is-hiring-writers/l-intro-1792721307.jpg,https://www.engadget.com/2300216/engadget-is-hiring-writers-october-2026/,http://www.engadget.com/rss-full.xml,2026-10-28T19:05:46Z,1,Tech
+Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’,"The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]",,https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/,https://techcrunch.com/feed/,2026-10-28T19:05:46Z,0,Tech
+Brendan Carr plans to let prisons jam cellphone signals,"FCC Chairman Brendan Carr announced the agency will vote on November 19th on rules that would allow prisons to use signal jamming. Radiofrequency jammers are generally banned under Section 333 and the Communications Act of 1934, with few exceptions, and Carr has noted they&#39;ve been permitted for use at some federal facilities already. Carr claims […]",,https://www.theverge.com/policy/1021165/fcc-brendan-carr-prison-phone-jamming,https://www.theverge.com/rss/index.xml,2026-10-28T18:57:02Z,5,Tech
+"Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",Gemini 4 Carbon is essentially a slightly better version of Argon. ,https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg,https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/,https://arstechnica.com/feed/,2026-10-28T18:47:27Z,5,Tech
+Discord to let search engines index public server messages,Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...],,https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/,https://www.bleepingcomputer.com/feed/,2026-10-28T18:44:16Z,0,Cybersecurity
+Sony's new see-through DualSense controllers let you game like its 1999,The company is also releasing matching PS5 console covers.,https://www.engadget.com/img/gallery/sonys-new-see-through-dualsense-controllers-let-you-game-like-its-1999/l-intro-1793212633.jpg,https://www.engadget.com/2300152/sonys-new-see-through-dualsense-controllers-let-you-game-like-its-1999/,http://www.engadget.com/rss-full.xml,2026-10-28T18:38:17Z,0,Tech
+Microsoft is ending Copilot support on smart TVs,"Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft&#39;s Copilot, the company is ending support for the AI assistant&#39;s functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, […]",,https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending,https://www.theverge.com/rss/index.xml,2026-10-28T18:36:26Z,5,Tech
+"Surprise: The Google Xreal glasses debut at a Meta-beating $1,099","In this economy, how often does a product get less expensive before its debut? That just happened with the Google / Xreal Aura, the lightweight 95-gram glasses with a tethered Android XR compute puck and multiple virtual screens that just went on sale today. Xreal and Google have just announced the headset costs $1,099 through […]",,https://www.theverge.com/tech/1020960/google-xreal-glasses-debut-meta-vr-glasses-price-release-date,https://www.theverge.com/rss/index.xml,2026-10-28T18:14:11Z,1,Tech
+Here’s where to preorder the latest MacBook Pros,"Apple finally showed off its 14- and 16-inch MacBook Pro laptops that have the PROLED XDR display at the October 2026 &#34;Pro and Tell&#34; event. The long-awaited laptops feature a Tandem OLED display with full touch capabilities, while also cutting some weight, and bringing back the glowing Apple logo. While a little less exciting, there&#39;s […]",,https://www.theverge.com/gadgets/1019109/apple-macbook-pro-m6-proled-xdr-how-to-buy-price-release-date,https://www.theverge.com/rss/index.xml,2026-10-28T18:10:23Z,6,Tech
+Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns,"The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.
+
+&#34;First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,&#34; Lumen Technologies Black Lotus Labs said in a report shared",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg,https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T18:08:33Z,8,Cybersecurity
+Amazon adds a camera to its best-sounding smart speaker for $30 extra,The Echo Studio with Home Camera can &#34;see and understand what&#39;s in front of the camera.&#34; ,https://cdn.arstechnica.net/wp-content/uploads/2026/10/download-1152x648.png,https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/,https://arstechnica.com/feed/,2026-10-28T18:05:22Z,0,Tech
+You can see every red flag in Theranos 2.0,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. From afar, it&#39;s easy to look back at the Theranos debacle and scream at Nathan Fielder that, obviously, Elizabeth Holmes […]",,https://www.theverge.com/column/1020859/optimizer-theranos-haemanthus-you-can-see-everything,https://www.theverge.com/rss/index.xml,2026-10-28T18:00:00Z,1,Tech
+Cadillac Escalade IQ review: 4 tons of electric American luxury on wheels,"With more than 200 kWh, this luxury three-row can go 460 miles on a charge.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/2026-Cadillac-Escalade-IQ-1-of-26-1152x648.jpg,https://arstechnica.com/cars/2026/10/cadillac-escalade-iq-review-4-tons-of-electric-american-luxury-on-wheels/,https://arstechnica.com/feed/,2026-10-28T17:55:45Z,1,Tech
+Here&#8217;s how macOS is changing for touchscreens,"Touchscreen laptops are nothing new in the Windows world, but Apple has only just announced its first MacBook with a touchscreen. Apple isn&#39;t rushing to change a bunch of things in macOS to optimize for touch, though; most of the touch action will be in the apps themselves, it seems. As far as major macOS […]",,https://www.theverge.com/tech/1020084/macos-touchscreen-changes,https://www.theverge.com/rss/index.xml,2026-10-28T17:48:28Z,1,Tech
+Google AI gets cagey when asked who won the 2020 elections,But the AI responses get more forthright when asked outside the US.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg,https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/,https://arstechnica.com/feed/,2026-10-28T17:46:32Z,5,Tech
+Apple's first touchscreen MacBook Pro feels both familiar and radically improved,"It&#39;s thinner, lighter and has a better screen - but it&#39;s still a MacBook Pro.",https://www.engadget.com/img/gallery/apples-first-touchscreen-macbook-pro-feels-both-familiar-and-radically-improved/l-intro-1793209358.jpg,https://www.engadget.com/2300023/apples-first-touchscreen-macbook-pro-feels-both-familiar-and-radically-improved/,http://www.engadget.com/rss-full.xml,2026-10-28T17:43:10Z,1,Tech
+Florida county won’t investigate sketchy Flock cameras removed by mystery owners,Florida county claims it lacks resources to find owners of unpermitted Flock cameras.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2290773984-1024x648.jpg,https://arstechnica.com/tech-policy/2026/10/florida-county-wont-investigate-sketchy-flock-cameras-removed-by-mystery-owners/,https://arstechnica.com/feed/,2026-10-28T17:37:49Z,5,Tech
+Here's how the touchscreen on the MacBook Pro with PROLED display works,The touch sensor isn&#39;t a separate layer of the screen.,https://www.engadget.com/img/gallery/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/l-intro-1793208725.jpg,https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/,http://www.engadget.com/rss-full.xml,2026-10-28T17:35:24Z,0,Tech
+Apple ‘Pro and Tell’ event: everything announced this week,"Apple closed out its week of product announcements with a &#34;Pro and Tell&#34; event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciting update for last, it revealed a few other device upgrades and updates in the days leading up to […]",,https://www.theverge.com/tech/1020069/apple-pro-and-tell-event-everything-announced-this-week,https://www.theverge.com/rss/index.xml,2026-10-28T17:27:38Z,2,Tech
+Apple launches its new touchscreen MacBook Pro,"Apple&#39;s new touchscreen MacBook Pro starts at $2,899",,https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/,https://techcrunch.com/feed/,2026-10-28T17:26:10Z,1,Tech
+Apple announces touchscreen MacBook Pro with OLED display,"The OLED display is the main draw, but the price is a lot to reckon with.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/2026-MacBook-Pro-1152x648-1793208150.jpg,https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/,https://arstechnica.com/feed/,2026-10-28T17:25:04Z,6,Tech
+Watch Apple’s reveal video for the touchscreen MacBook Pro,Apple just announced its first touchscreen Macbook at its &#34;Pro and tell&#34; event on Wednesday. It showed off the long-awaited MacBook in a video during the event that you can watch right here to see the new display in action. Apple CEO John Ternus also shared a teaser for the new MacBook in a video […],,https://www.theverge.com/tech/1020676/apple-touchscreen-macbook-pro-reveal-video,https://www.theverge.com/rss/index.xml,2026-10-28T17:19:23Z,6,Tech
+Hands-on with Apple’s touchscreen MacBook Pro,"Steve Jobs famously called touchscreen laptops &#34;ergonomically terrible,&#34; and for over a decade, Apple stridently refused to make one. Today that all changes with the MacBook Pro - the company&#39;s first laptop to embrace a touch interface. While it&#39;s unlikely that Apple can fix all the &#34;terrible&#34; ergonomics of having to lift your arm up […]",,https://www.theverge.com/tech/1020549/macbook-studio-touchscreen-hands-on,https://www.theverge.com/rss/index.xml,2026-10-28T17:16:55Z,1,Tech
+"Apple's redesigned MacBook Pro has an OLED touchscreen, weighs just three pounds","It could use a more distinctive name, though.",https://www.engadget.com/img/gallery/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/l-intro-1793208032.jpg,https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/,http://www.engadget.com/rss-full.xml,2026-10-28T17:13:10Z,1,Tech
+Here’s where you can preorder the new OLED-equipped iPad Mini,"Apple&#39;s smallest tablet is getting a bigger screen. Earlier this week, the company announced the eighth-generation iPad Mini alongside several new MacBook Pro models, bringing OLED technology to Apple&#39;s miniature tablet for the first time. The diminutive slate won&#39;t hit shelves until November 6th; however, you can already preorder it from Apple in multiple colors […]",,https://www.theverge.com/gadgets/1019037/oled-ipad-mini-2026-preorder-price-how-to-buy-release-date,https://www.theverge.com/rss/index.xml,2026-10-28T17:12:47Z,1,Tech
+Instagram doesn&#8217;t have a plan to pay long-form video creators,"Instagram is testing long-form videos (again) to lure in creatives from YouTube, but the platform hasn&#39;t figured out how (or if) it&#39;ll actually pay them. After Instagram head Adam Mosseri announced Features on Monday, creators immediately started voicing their complaints on Threads and Reddit about the lack of monetization opportunities, compared to the ad share […]",,https://www.theverge.com/tech/1020806/instagram-long-form-video-creator-monetization,https://www.theverge.com/rss/index.xml,2026-10-28T17:10:46Z,5,Tech
+Fake PS5 emulators on GitHub are spreading password-stealing malware,This is according to the threat research arm of NordVPN.,https://www.engadget.com/img/gallery/fake-ps5-emulators-on-github-are-spreading-password-stealing-malware/l-intro-1793207317.jpg,https://www.engadget.com/2299912/fake-ps5-emulators-on-github-are-spreading-password-stealing-malware/,http://www.engadget.com/rss-full.xml,2026-10-28T17:10:09Z,0,Tech
+Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.,"Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android&#39;s usual confirmation screens, and to update them in the background.
+
+To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGjoQXY31UWoQz0bfvFTDRKy4lDpdbhqOJFgOspdG5AcGZNlsme3byg1-XnmyLsx7HQrxb0iojoqyoeO0KDhEDWbLxzQLceuQwSlD8TXgkhzoRCyFepV0PcOwNee4lCypBnYFiZ4DhJ_ZojQ0HyRuCGGqFVAwBxMqdzkOHL2I1tLTUctLATvKl7MMONo/s1600/android-app-install.jpg,https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T17:08:09Z,3,Cybersecurity
+Apple announces its first touchscreen MacBook Pro,"Apple announced an all-new MacBook Pro laptop with an OLED touchscreen at its &#34;Pro and tell&#34; event on Wednesday. It starts at $2,899 for the 14-inch model, or $3,399 for the 16-inch version, and it&#39;s available to preorder today ahead of its release on November 6th. The new MacBook Pro has what Apple calls a […]",,https://www.theverge.com/gadgets/1019554/apple-touchscreen-macbook-pro-and-tell,https://www.theverge.com/rss/index.xml,2026-10-28T17:05:56Z,6,Tech
+The Xreal Aura smartglasses are now on sale for a discounted launch price,The new wearable is the first of its kind to run on the Android XR platform.,https://www.engadget.com/img/gallery/the-xreal-aura-smartglasses-are-now-on-sale-for-a-discounted-launch-price/l-intro-1793202369.jpg,https://www.engadget.com/2299633/the-xreal-aura-smartglasses-are-now-on-sale-for-a-discounted-launch-price/,http://www.engadget.com/rss-full.xml,2026-10-28T17:00:00Z,0,Tech
+Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms,"Following improvements made to Chrome&#39;s enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome&#39;s enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving […]",,https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence,https://www.theverge.com/rss/index.xml,2026-10-28T17:00:00Z,5,Tech
+Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms,"The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",,https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/,https://techcrunch.com/feed/,2026-10-28T17:00:00Z,6,Tech
+"As AI agents reshape the web, Google opens Gemini and Search to more apps","A new developer platform will let businesses bring their services to Google&#39;s AI experiences, potentially changing how consumers discover and use apps.",,https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/,https://techcrunch.com/feed/,2026-10-28T17:00:00Z,6,Tech
+Xreal Aura is a new wired headset powered by Android XR,"Xreal Aura will start at $1,279 and will have multiple XR specific launch apps at launch",,https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/,https://techcrunch.com/feed/,2026-10-28T17:00:00Z,1,Tech
+Sony ISP subsidiary data breach exposes 2.5 million customer records,Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers&#39; personal information. [...],,https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/,https://www.bleepingcomputer.com/feed/,2026-10-28T16:45:47Z,4,Cybersecurity
+Touchscreen MacBook live blog: On the ground at Apple’s launch event,"Apple has already had a busy week. On Monday, it announced a new iPad Mini with an upgraded OLED display, and on Tuesday, we got M6 chip upgrades for the MacBook Pro and iMac. The Macs are the definition of iterative updates - they&#39;re quiet refreshes that look just like their direct predecessors. But today […]",,https://www.theverge.com/tech/1019809/apple-touchscreen-macbook-pro-la-keynote-event-live-blog,https://www.theverge.com/rss/index.xml,2026-10-28T16:33:32Z,2,Tech
+New York governor signs AI chatbot child safety law,A separate law aims to shore up security on connected baby monitors.,https://www.engadget.com/img/gallery/new-york-governor-signs-ai-chatbot-child-safety-law/l-intro-1793205110.jpg,https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/,http://www.engadget.com/rss-full.xml,2026-10-28T16:33:01Z,5,Tech
+All the news from Apple’s ‘Pro and tell’ event,"Apple’s “Pro and tell” event kicks off at 1PM ET / 10AM PT on October 28th. The event comes just a couple of weeks after Apple debuted the HomeView, its first smart display, and a little over a month after it announced the iPhone Duo, its first foldable. Its next event could feature yet another […]",,https://www.theverge.com/tech/1018096/apple-pro-and-tell-launch-event-news-announcements,https://www.theverge.com/rss/index.xml,2026-10-28T16:30:00Z,1,Tech
+"Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win","A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge&#39;s sandbox, a security researcher has shown.
+
+Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin contest in May. Microsoft fixed the Edge bugs the day after the contest,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAGi2cGlEYo6PNV9aaEulhQB9MtbWjCBFhi3MugyJf4kGwtSPjq9F9wxhlptAUKuipSCQ0_NhE5eyEbHzMWnT6hVLsXtqrIQImq0QndxbKoKMz_gzxJonZa2jnvwHGEqjN_J7uyi5BPaqlGmtMn1y9xzJQywFZB_FNgKV-GR7qtBQfVmrLxdoUlyhPTiA/s1600/edge.jpg,https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T16:23:34Z,1,Cybersecurity
+Meta says it&#8217;ll probably delay its controversial new business terms again,"Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does &#34;not plan to make policy changes without a full consultation with industry groups and leaders.&#34; […]",,https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely,https://www.theverge.com/rss/index.xml,2026-10-28T16:15:30Z,5,Tech
+"PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network","Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.
+
+The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg,https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T16:02:45Z,14,Cybersecurity
+Volt Typhoon hides zero-day attacks using 'Silent Train' framework,"Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",,https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/,https://www.bleepingcomputer.com/feed/,2026-10-28T16:00:00Z,8,Cybersecurity
+Reddit is adding a 'for you' feed for recommendations,The app will have a &#34;following&#34; tab to surface content from subreddits you&#39;ve joined.,https://www.engadget.com/img/gallery/reddit-is-adding-a-for-you-feed-for-recommendations/l-intro-1793201967.jpg,https://www.engadget.com/2299618/reddit-is-adding-a-for-you-feed-for-recommendations/,http://www.engadget.com/rss-full.xml,2026-10-28T16:00:00Z,1,Tech
+Reddit is the latest platform to embrace the ‘For You’ feed,The For You feed combines posts from communities users have joined with recommendations tailored to their interests.,,https://techcrunch.com/2026/10/28/reddit-is-the-latest-platform-to-embrace-the-for-you-feed/,https://techcrunch.com/feed/,2026-10-28T16:00:00Z,5,Tech
+Reddit is getting a For You feed,Reddit is switching up its homepage feeds. The company announced today that it&#39;s going to start offering a &#34;new feed experience&#34; that includes both a Following feed to show you posts from subreddits you follow and a For You feed that includes posts from your subreddits and &#34;recommendations related to your interests.&#34; You may already […],,https://www.theverge.com/tech/1020751/reddit-for-you-following-feeds,https://www.theverge.com/rss/index.xml,2026-10-28T16:00:00Z,0,Tech
+AI execs may be too out of touch to build for the general public,Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.,,https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/,https://techcrunch.com/feed/,2026-10-28T15:53:52Z,5,Tech
+Trump DOE loans $5B to nuclear plants that will power data centers,"Constellation Energy will get $5 billion in government loans to modernize nuclear reactors. Most of the new capacity is already committed to Google, Amazon, and Meta.",,https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/,https://techcrunch.com/feed/,2026-10-28T15:53:21Z,0,Tech
+Buckle up for more body-swapping hijinks in Jumanji: Open World trailer,"&#34;We have to be ready for whatever&#39;s coming next. If we lose in here, there won&#39;t be a home to go back to.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/10/jumanji1-1152x648.jpg,https://arstechnica.com/culture/2026/10/buckle-up-for-more-body-swapping-hijinks-in-jumanji-open-world-trailer/,https://arstechnica.com/feed/,2026-10-28T15:48:12Z,6,Tech
+South Korea’s financial industry hit by fresh wave of cyberattacks,"South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",,https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/,https://techcrunch.com/feed/,2026-10-28T15:41:18Z,5,Tech
+Govee’s colorful smart string lights are down to their best price of the year,"Halloween isn’t even here yet, but it’s never too early to start thinking about holiday decorations, especially when there are already deals on smart, programmable lights. If you want your house, tree, fireplace, or whatever else to stand out this year, Govee’s Christmas String Lights 2 are on sale starting at $74.99 ($25 off) at […]",,https://www.theverge.com/gadgets/1020139/govee-christmas-string-lights-2-tile-pro-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-28T15:34:43Z,0,Tech
+Audio Technica just released its first set of wireless StreamSet headphones,This expands the lineup beyond XLR and USB-connected models.,https://www.engadget.com/img/gallery/audio-technica-just-released-its-first-set-of-wireless-streamset-headphones/l-intro-1793201478.jpg,https://www.engadget.com/2299600/audio-technica-just-released-its-first-set-of-wireless-streamset-headphones/,http://www.engadget.com/rss-full.xml,2026-10-28T15:34:06Z,0,Tech
+Sony has new transparent PS5 controllers launching next year,"Sony announced a new Prism Collection line of PlayStation 5 accessories today that revisits &#34;the iconic see-through trend of the late &#39;90s in a fresh, modern way&#34; for its DualSense wireless controllers and matching console covers for the PS5 that reveal some of their internal components. The Prism Collection is launching with three color options […]",,https://www.theverge.com/tech/1020671/sony-playstation-5-dualsense-wireless-controller-prism-collection-transparent,https://www.theverge.com/rss/index.xml,2026-10-28T15:31:02Z,0,Tech
+Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison,"Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks.
+The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek.
+",,https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/,https://www.securityweek.com/feed/,2026-10-28T15:05:06Z,7,Cybersecurity
+Defenders need more time to patch with the influx of patching hitting operations,"Discover how Cisco Live Protect, virtual patching, and Secure Workload help defenders reduce vulnerability exposure while buying time for critical patches.",,https://blogs.cisco.com/security/defenders-need-more-time-to-patch-with-the-influx-of-patching-hitting-operations/,https://blogs.cisco.com/security/feed,2026-10-28T15:00:14Z,4,Cybersecurity
+Voice AI in vogue: Nvidia releases new open transcription model,"Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.
+",,https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/,https://techcrunch.com/feed/,2026-10-28T15:00:00Z,5,Tech
+8BitDo’s new Xbox Elite-style controller sets a high bar for customization,"It&#39;s hard to make an Xbox controller that stands out these days, especially one that&#39;s expensive, due to a wealth of great semi-affordable options. Still, 8BitDo&#39;s $150 Ultimate 3E is a bold controller that holds its own against other feature-packed options. It&#39;s made for Xbox and PC gamers who want a deeper level of customization […]",,https://www.theverge.com/gadgets/1017815/8bitdo-ultimate-3e-xbox-pc-controller-hands-on,https://www.theverge.com/rss/index.xml,2026-10-28T15:00:00Z,5,Tech
+Microsoft urges Entra ID admins to migrate users to passkeys,Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/,https://www.bleepingcomputer.com/feed/,2026-10-28T14:48:32Z,3,Cybersecurity
+Apple raises the MacBook Neo&#8217;s student pricing again,"The MacBook Neo now starts at $649 on Apple&#39;s Education Store, up $150 from its initial $499 education starting price. As reported earlier by MacRumors, the student discount for the Neo received a $50 price bump in recent days, following a $100 price bump back in June. Apple&#39;s budget MacBook is now just $50 off […]",,https://www.theverge.com/tech/1020629/apple-macbook-neo-price-hike-education-store,https://www.theverge.com/rss/index.xml,2026-10-28T14:47:28Z,6,Tech
+xAI is buying out homeowners who promise not to sue over data center noise,"A subsidiary of Elon Musk&#39;s xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don&#39;t join a lawsuit targeting the company&#39;s nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reportedly told one resident that xAI plans […]",,https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit,https://www.theverge.com/rss/index.xml,2026-10-28T14:44:00Z,5,Tech
+"Amazon debuts the Alexa Photo Frame and Echo Time smart clock, plus other upgraded devices","Amazon&#39;s other new decides include an upgraded Echo Dot, an Echo Studio with visual intelligence features, and the Echo Show 16.",,https://techcrunch.com/2026/10/28/amazon-debuts-the-alexa-photo-frame-and-echo-time-smart-clock-plus-other-upgraded-devices/,https://techcrunch.com/feed/,2026-10-28T14:34:25Z,0,Tech
+TikTok expands into restaurant guides with ‘Must Eat’ feature,The move puts TikTok in more direct competition with platforms like Yelp and Google. ,,https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/,https://techcrunch.com/feed/,2026-10-28T14:26:36Z,1,Tech
+Here&#8217;s Virgin Galactic&#8217;s new Apeiron spaceship,"Virgin Galactic&#39;s new spaceship is here, dubbed &#34;Apeiron&#34; by popular vote from a public poll. Apeiron is the first of the company&#39;s new Delta-class spacecraft, but it isn&#39;t slated to launch for nearly another year. Earlier this week, Virgin Galactic announced another delay in its launch timeline: The lead Spaceship&#39;s first commercial spaceflight is now […]",,https://www.theverge.com/science/1020607/virgin-galactic-apeiron-2027-commercial-spaceflight,https://www.theverge.com/rss/index.xml,2026-10-28T14:17:43Z,0,Tech
+Will Pakistan Fight in Saudi Arabia’s Wars?,Questions have been raised over the strength of Pakistan’s security commitment to Saudi Arabia ever since the SMDA’s inception in September 2025.,https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-09-173508.jpg,https://thediplomat.com/2026/10/will-pakistan-fight-in-saudi-arabias-wars/,https://thediplomat.com/category/asia-defense/feed/,2026-10-28T14:08:00Z,0,Defense
+InfraTrust report warns of exploited flaws in critical network infrastructure,"Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as &#34;PHP2Shell&#34; put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",,https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/,https://www.bleepingcomputer.com/feed/,2026-10-28T14:00:00Z,7,Cybersecurity
+Upwind Security Raises $400 Million at $3.8 Billion Valuation,"The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog
+The post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek.
+",,https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/,https://www.securityweek.com/feed/,2026-10-28T13:56:50Z,2,Cybersecurity
+Meta has a new AI pet app called Waddle World,"Meta has launched a new app called Waddle World, which essentially looks like a Tamagotchi clone, but with AI. ",,https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/,https://techcrunch.com/feed/,2026-10-28T13:53:31Z,6,Tech
+"Even after PHP2Shell, blast radius matters more than a CVSS score","PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]",,https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/,https://www.bleepingcomputer.com/feed/,2026-10-28T13:50:59Z,11,Cybersecurity
+Chrome and Firefox Updates Patch Over 200 Vulnerabilities,"The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches.
+The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/,https://www.securityweek.com/feed/,2026-10-28T13:39:35Z,2,Cybersecurity
+Free Fire returns to India as Garena launches localized version four years after ban,"Free Fire India was originally set to launch in September 2023, but Garena postponed its release.",,https://techcrunch.com/2026/10/28/free-fire-returns-to-india-as-garena-launches-localized-version-four-years-after-ban/,https://techcrunch.com/feed/,2026-10-28T13:39:18Z,0,Tech
+A hidden ocean change near Antarctica could have global consequences,Antarctic waters are getting saltier as sea-ice loss reshapes ocean circulation.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/antarctic-seaice-1024x648.jpg,https://arstechnica.com/science/2026/10/antarctic-sea-ice-loss-could-reshape-weather-far-beyond-the-pole/,https://arstechnica.com/feed/,2026-10-28T13:38:53Z,0,Tech
+This is how badly X wants you to pay to promote your posts,"After Elon Musk warned that &#34;advertisers who post ads that are ugly, shrill, strident or overstate claims about their product will be barred from advertising&#34; on X earlier this month, the platform now appears to be using a jarring animated arm that reaches across the screen to draw attention to the &#34;promote&#34; button while users […]",,https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts,https://www.theverge.com/rss/index.xml,2026-10-28T13:26:39Z,6,Tech
+FCC clears Amazon Leo to acquire mobile-satellite operator Globalstar,Amazon Leo&#39;s $11.5 billion acquisition of mobile-satellite operator Globalstar has been approved by the FCC.,https://www.engadget.com/img/gallery/fcc-clears-amazon-leo-to-acquire-mobile-satellite-operator-globalstar/l-intro-1793193078.jpg,https://www.engadget.com/2299367/fcc-clears-amazon-leo-to-acquire-mobile-satellite-operator-globalstar/,http://www.engadget.com/rss-full.xml,2026-10-28T13:13:19Z,4,Tech
+TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices,"FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers.
+The post TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices appeared first on SecurityWeek.
+",,https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/,https://www.securityweek.com/feed/,2026-10-28T13:10:34Z,1,Cybersecurity
+7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open,"In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",,https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/,https://techcrunch.com/feed/,2026-10-28T13:00:00Z,3,Tech
+Kindle Paperwhite Signature Edition (2026) review: Updated in all the right places,"Amazon&#39;s updates to the Paperwhite Signature Edition make it feel even more premium, but the regular version remains a great choice for less money.",https://www.engadget.com/img/gallery/kindle-paperwhite-signature-edition-2026-review-updated-in-all-the-right-places/l-intro-1793129474.jpg,https://www.engadget.com/2299180/kindle-paperwhite-signature-edition-2026-review/,http://www.engadget.com/rss-full.xml,2026-10-28T13:00:00Z,7,Tech
+Kodiak lands first commercial deal to supply driverless trucks for public highways,"The deal with DTL Transport puts it on a path to become an an asset-light tech supplier, rather than owner and operator.",,https://techcrunch.com/2026/10/28/kodiak-lands-first-commercial-deal-to-supply-driverless-trucks-for-public-highways/,https://techcrunch.com/feed/,2026-10-28T13:00:00Z,0,Tech
+"Kindle Colorsoft Signature Edition 2026 review: Nice, but doesn't justify the price",$320 is a lot to pay for a well-balanced device in an aluminum case with pogo pins.,https://www.engadget.com/img/gallery/kindle-colorsoft-signature-edition-2026-review-nice-but-doesnt-justify-the-price/l-intro-1793191346.jpg,https://www.engadget.com/2299326/kindle-colorsoft-signature-edition-2026-review/,http://www.engadget.com/rss-full.xml,2026-10-28T13:00:00Z,1,Tech
+TikTok is going after Yelp and Google Maps with an in-app restaurant guide,"TikTok is launching an in-app restaurant guide in a challenge to other platforms like Yelp and even Google Maps. The company on Wednesday announced the launch of Must Eat, a new section of the TikTok app built on 40 million posts, reviews, and comments about dining on the platform. The new feature uses videos and […]",,https://www.theverge.com/news/1020267/tiktok-viral-restaurant-recommendations-must-eat-yelp,https://www.theverge.com/rss/index.xml,2026-10-28T13:00:00Z,3,Tech
+Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch,"Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.
+
+The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update.
+
+Security researchers",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg,https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T12:48:03Z,13,Cybersecurity
+Inside Amazon’s Echo hardware event,"Amazon swapped its usual big fall hardware showcase this year for a series of smaller launches throughout October. So far this month, it has announced new Fire TV devices, new Kindles, the Alexa Tablet Pro 12, Ring&#39;s first smart lock, new hardware from AI-wearable startup Bee, and new Blink 4K cameras. Then this week, it […]",,https://www.theverge.com/tech/1020388/inside-amazons-echo-hardware-event,https://www.theverge.com/rss/index.xml,2026-10-28T12:46:42Z,10,Tech
+"Fake ChatGPT, Claude apps spread malware via signed AI binaries","
+		
+					  
+						
+
+
+
+
+Attackers are distributing malware through fake ChatGPT and Claude desktop applications, using legitimate, digitally signed executables from OpenAI and Anthropic to load malicious code onto victims’ Windows systems, according to Check Point Research.
+
+
+
+The campaign, tracked as Yoba, uses fake GitHub repositories and websites promoting purported AI applications, including “GPT-5.6 Sol,” “GPT-6 Astra” and “Claude Opus.”
+
+
+
+“These projects look convincing and use real GitHub infrastructure, which helps them appear legitimate to potential victims. The website exhibits search-targeted content and suspicious installer-delivery tactics consistent with an SEO-poisoning lure,” Check Point wrote in a blog post.
+
+
+
+The installers bundle genuine signed executables with malicious files that exploit DLL sideloading, a technique in which a legitimate application loads a malicious dynamic-link library, the post added.
+
+
+
+The researchers observed XMRig, a cryptocurrency miner, as the campaign’s final payload. But they warned that the loader can retrieve other Windows executables or PowerShell scripts, making the potential impact broader than cryptomining.
+
+
+
+“Future waves may deliver different malware families,” the researchers added in the post.
+
+
+
+The projects did not inflate stars or forks but still ranked among the top Google results, which the researchers attributed to SEO poisoning. Malicious releases were uploaded on August 30 and 31 and September 4, according to commit data in the post.
+
+
+
+Signed OpenAI and Anthropic files load the dropper
+
+
+
+The fake projects use GitHub repositories and GitHub Pages sites to describe the purported applications and direct users to ZIP downloads hosted through GitHub releases.
+
+
+
+Inside the downloaded packages, a genuine signed Setup.exe from OpenAI or Anthropic is placed alongside a malicious file named winmm.dll. When the executable runs, it loads the malicious library, which Check Point calls YobaDropper.
+
+
+
+The dropper stalls for about 12 days unless it is launched by a process named Setup.exe. It skips systems using Russian, Belarusian, Kazakh, and other CIS-region keyboard layouts and demands administrator rights before continuing, the researchers added.
+
+
+
+With elevated rights, it copies a legitimate Windows Media Player binary into the ProgramData folder and places a second malicious DLL beside it. It then creates a scheduled task that lists Microsoft Corporation as its author and runs as Local System three minutes after boot.
+
+
+
+Yash Kadakia, founder and CTO at Security Brigade, said the campaign demonstrates the limitations of relying on software signatures alone.
+
+
+
+“A valid digital signature establishes the authenticity and integrity of a particular executable. It does not establish that everything the executable loads, or the package it was distributed with, is trustworthy,” Kadakia said.
+
+
+
+“A signed executable is not the same thing as a trusted execution chain,” he added.
+
+
+
+Legitimate online services conceal malware delivery
+
+
+
+After establishing persistence, the second-stage component, YobaLoader, contacts attacker-controlled infrastructure to obtain instructions and download a payload.
+
+
+
+Check Point found that the loader uses a Telegram channel and an image to help generate a domain name, then queries Google’s DNS-over-HTTPS service for encrypted instructions stored in a DNS TXT record. It subsequently retrieves an encrypted payload from the Catbox file-hosting service.
+
+
+
+In the attacks Check Point observed, the payload was an XMRig cryptominer that routes traffic through Tor and pauses while the user is active. The firm said indicators point to Russian origins but did not name a group.
+
+
+
+Kadakia said the use of mainstream online services complicates detection because each connection may appear legitimate when examined separately.
+
+
+
+“Rather than maintaining dedicated command-and-control infrastructure that defenders can easily identify and block, Yoba distributes different parts of its communication chain across legitimate services,” he said.
+
+
+
+“For SOCs that primarily depend on known malicious domains, IP reputation, or traditional DNS monitoring, detection becomes considerably harder.”
+
+
+
+However, the activity is not invisible, Kadakia said. Unexpected DLL loading by signed applications, scheduled tasks that launch copied system binaries, execution from ProgramData, and unusual network connections can provide indicators of compromise. The challenge is correlating those signals across endpoint and network telemetry.
+
+
+
+Check Point also identified an earlier Yoba variant, observed in June, that used a fake Cursor AI coding-agent application.
+
+
+
+CISOs should tighten AI software controls
+
+
+
+Kadakia said enterprises should make approved AI tools easier to obtain rather than relying on blanket bans that could encourage employees to bypass internal processes.
+
+
+
+“If employees can discover and install a useful AI tool in minutes but internal approval takes weeks, shadow IT becomes the predictable outcome,” he said.
+
+
+
+He recommended reviewing permanent local administrator privileges on developer workstations, extending application controls beyond executable signatures to DLL loading and execution behavior, and monitoring software originating from unverified repositories or user-writable directories.
+
+
+
+The campaign is particularly relevant to developer environments, Kadakia said, because workstations can hold source code, API keys, cloud credentials, and access to internal infrastructure.
+
+
+
+“The larger lesson for CISOs is that AI security cannot be limited to preventing employees from sharing sensitive information with AI models,” he said. “They must also secure the software, identities, privileges, and execution environments through which AI enters the organization.” OpenAI and Anthropic did not immediately respond to requests for comment.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241634-0-12654200-1793191021-shutterstock_2548864541.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241634/fake-chatgpt-claude-apps-spread-malware-via-signed-ai-binaries.html,https://www.csoonline.com/feed/,2026-10-28T12:36:48Z,11,Cybersecurity
+Apple's Pro and Tell event: Live updates as we wait to see a MacBook Pro with a touch screen,Reports indicate that a &#34;MacBook Ultra&#34; with a touch-sensitive display is likely on the agenda today.,https://www.engadget.com/img/gallery/apples-pro-and-tell-event-live-updates-as-we-wait-to-see-a-macbook-pro-with-touch-screen/l-intro-1793153611.jpg,https://www.engadget.com/2299176/apple-pro-and-tell-macbook-event-live-blog/,http://www.engadget.com/rss-full.xml,2026-10-28T12:30:00Z,7,Tech
+Almost all of Amazon’s new Echo gear is available now,"Amazon used to blast out dozens of products onstage at annual hardware events. If this October is any indication, the company has wisely changed its strategy to put more focus on each new product with its own launch. The latest round of launches focuses on Echo products, including speakers, smart displays, as well as a […]",,https://www.theverge.com/gadgets/1019686/amazon-echo-dot-studio-camera-frame-show-16-buy,https://www.theverge.com/rss/index.xml,2026-10-28T12:29:52Z,6,Tech
+Everything announced at Amazon&#8217;s October 2026 hardware launch,"Amazon had plenty of new gadgets to share at its Echo hardware event this year, along with updates to the AI-powered Alexa Plus after it became available to everyone in the US in February. But the big news this year is screens: devices with big, beautiful ones, and those that lack them entirely. There’s the […]",,https://www.theverge.com/tech/1020403/everything-announced-at-amazons-october-2026-hardware-launch,https://www.theverge.com/rss/index.xml,2026-10-28T12:20:40Z,8,Tech
+Hackers now scanning systems for recently-patched Oracle flaw,Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...],,https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/,https://www.bleepingcomputer.com/feed/,2026-10-28T12:19:57Z,7,Cybersecurity
+Amazon&#8217;s new Echo line is here: the 6 biggest updates,"Amazon has just taken the wraps off a bunch of new devices as part of a string of fall announcements. Today&#39;s news focuses largely on new Echo speakers, with a few new smart home gadgets sprinkled in. Here&#39;s a roundup of all of the updates Amazon revealed on Wednesday. Echo Show 16 adds a larger […]",,https://www.theverge.com/tech/1020035/amazon-fall-2026-hardware-launch-biggest-announcements,https://www.theverge.com/rss/index.xml,2026-10-28T12:08:15Z,2,Tech
+Gheist turns GitHub Actions into a secret extraction service,"
+		
+					  
+						
+
+
+
+
+A threat actor dubbed Gheist is turning compromised GitHub accounts into credential-harvesting platforms. By planting malicious GitHub Actions workflows in private repositories, the attackers can expose repository and environment secrets, then retrieve them through GitHub APIs before deleting evidence of the activity.
+
+
+
+Tracked since September 15 by Wiz Research, the campaign has left more than 13,500 malicious branches across over 850 compromised accounts, spanning personal projects and private enterprise repositories.
+
+
+
+The campaign’s weapon is GitHub Actions, the platform’s automation service, which attackers are using to turn stolen access into harvested credentials. The automation creates a branch, adds a workflow named “sync-check” that attempts to print secrets into execution logs, retrieves those logs through the GitHub API, and deletes the workflow run seconds later.
+
+
+
+“Because the secrets leave through GitHub’s own API, there is no attacker domain or outbound connection to block,” Wiz researchers said in a blog post.
+
+
+
+GitHub has introduced a control that holds potentially malicious workflow runs in public repositories for collaborator approval. Wiz reported that this measure successfully prevented the public-repository Gheist runs from executing. However, the protection does not extend to private repositories or GitHub Enterprise Server, where the researchers observed successful execution and subsequent activity.
+
+
+
+Base32 encoding used for bypassing secret masking
+
+
+
+Gheist actors were seen taking advantage of a gap between GitHub Actions’ secret-masking mechanism and the way workflows can access sensitive values.
+
+
+
+GitHub masks secret values when they appear verbatim in logs. However, a Gheist-created workflow encodes these secrets in base32 before printing them, so they no longer match the original values. Consequently, they appear in logs without being masked. In repositories that use deployment environments, such as production, Gheist created multiple workflow jobs to target environment-specific secrets.
+
+
+
+This potentially exposed not only secrets stored at the repository level but also sensitive credentials used to run production systems.
+
+
+
+Gheist subsequently evolved to target self-hosted GitHub Actions runners. Its added sync-host job attempts to search runner hosts for API tokens, private keys, environment files, cloud credentials, and other sensitive data. It also attempts to access the Docker socket, cloud instance metadata, and Kubernetes service-account tokens.
+
+
+
+Wiz noted that the evolved variant contains implementation bugs, so successful extraction of every targeted credential should not be assumed.
+
+
+
+A broader cloud security problem
+
+
+
+Wiz observed cloud credentials from the same organization being used hours after the malicious workflows ran to enumerate AWS Secrets Manager. CloudTrail records also showed workflows on attacker-created branches assuming AWS roles, providing evidence of execution even where GitHub logs were unavailable.
+
+
+
+Wiz traced likely credential sources to infostealer logs and tokens exposed in earlier supply-chain compromises, including the March Trivy compromise. The researchers also identified overlaps between affected accounts and other malicious activity, including repositories renamed to distribute cracked-software lures and attempts to abuse GitHub Actions for free computing resources.
+
+
+
+Security teams were advised to search for branches matching “ci-sync-,” followed by six random characters, commits titled ci: sync config, and workflow runs that complete and are deleted shortly afterward. They should also investigate cloud role assumptions associated with these branches, revoke compromised tokens, and rotate every repository, organization, and environment secret accessible to affected workflows. Deleting a branch or run does not reverse a credential exposure, the researchers warned.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241625-0-35879600-1793189156-shutterstock_177668495.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241625/gheist-turns-github-actions-into-a-secret-extraction-service.html,https://www.csoonline.com/feed/,2026-10-28T12:05:42Z,8,Cybersecurity
+China-Linked Hackers Exploit PHP2Shell to Root Firewalls,"The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization.
+The post China-Linked Hackers Exploit PHP2Shell to Root Firewalls appeared first on SecurityWeek.
+",,https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/,https://www.securityweek.com/feed/,2026-10-28T12:00:59Z,7,Cybersecurity
+The Alexa Home Map is a visual way to see and control your smart home,Amazon&#39;s Alexa Home Map will show you a visual representation of your smart home. ,https://www.engadget.com/img/gallery/the-alexa-home-map-is-a-visual-way-to-see-and-control-your-smart-home/l-intro-1793157116.jpg,https://www.engadget.com/2299183/alexa-home-map-visual-way-see-control-smart-home/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+"Samsung's Galaxy Buds On are its first clip-on, open-ear wireless earbuds",Samsung is returning to open-ear design wireless buds and these ones clip on.,https://www.engadget.com/img/gallery/samsungs-galaxy-buds-on-are-its-first-clip-on-open-ear-wireless-earphones/l-intro-1793184044.jpg,https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+Amazon’s Alexa Home Map is getting a smarter 3D redesign,"Amazon&#39;s smart home map interface that shows you where all your connected devices are has been overhauled with new graphics, features, and dynamic effects. The new Alexa Home Map is now an interactive 3D view of not just everything that&#39;s inside your property, but outside of it too - using compatible Ring cameras to provide […]",,https://www.theverge.com/tech/1020392/amazon-alexa-home-view-3d-update-external-view,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,0,Tech
+Amazon's new Echo Dot now works as an eero Wi-Fi extender and smart home hub,Amazon just unveiled a new Echo Dot with some useful new smart home features.,https://www.engadget.com/img/gallery/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/l-intro-1793185938.jpg,https://www.engadget.com/2299279/amazon-new-echo-dot-now-works-as-eero-wi-fi-extender-and-smart-home-hub/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+Spending time with the Echo Time — a smart clock that senses you sleeping,"Amazon just announced its newest smart alarm clock - the Echo Time. The baseball-sized smart speaker with a screen, the Time looks like an Echo Dot with Clock and an Echo Spot had a much bigger baby. It features a 3.2-inch touchscreen that prominently displays your choice of a huge selection of clockfaces and includes […]",,https://www.theverge.com/tech/1020352/amazon-echo-time-smart-alarm-clock-hands-on,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,0,Tech
+Amazon launches its first digital photo frame with built-in Alexa,You can tell Amazon&#39;s Alexa Photo Frame which images you want to see.,https://www.engadget.com/img/gallery/amazon-launches-its-first-photo-frame-with-built-in-alexa/l-intro-1793179679.jpg,https://www.engadget.com/2299247/amazon-alexa-photo-frame/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+Our first look at Amazon’s big new Echo Show 16,"Amazon&#39;s latest Echo Show smart display is big, gorgeous, and eye-wateringly expensive. Announced today, the Echo Show 16 costs $499.99 (wall mount included) and is available to preorder now. There&#39;s a Nanomatte display option for $569.99, plus a $100 preorder discount ahead of its release later this year. After spending time with the device at […]",,https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,5,Tech
+"All the Amazon Echo devices announced today: Echo Time, Alexa Photo Frame and more","Along with speaker and Echo Show upgrades, Amazon unveiled a smart alarm clock and photo frame.",https://www.engadget.com/img/gallery/all-the-amazon-echo-devices-announced-today/l-intro-1793135803.jpg,https://www.engadget.com/2299032/all-amazon-echo-news-october-2026/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+The Amazon Echo Studio's new camera can check on your dog or tell you how to play 'Monopoly',Amazon has added a camera to its Echo Studio speaker as part of its big Echo refresh.,https://www.engadget.com/img/gallery/the-amazon-echo-studio-new-camera-tell-you-how-to-play-monopoly/l-intro-1793182489.jpg,https://www.engadget.com/2299245/the-amazon-echo-studio-new-camera-tell-you-how-to-play-monopoly/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+Amazon’s new Echo Studio speaker has a camera,"Amazon is giving its premium smart speaker a camera. The new Echo Studio with Home Camera, announced today as part of Amazon&#39;s big blast of announcements, has a built-in camera for monitoring a room while you&#39;re away, showing things to Alexa, and, soon, to use with video calls on Fire TV devices. It&#39;s an iteration […]",,https://www.theverge.com/tech/1020241/amazon-echo-studio-home-camera-dot-smart-home-hub,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,0,Tech
+Amazon adds a glare-reducing nanomatte display to its new Echo Show 16,"Amazon says the Echo Show 16 is its &#39;most advanced, versatile smart display&#39; yet.",https://www.engadget.com/img/gallery/amazon-adds-a-glare-reducing-nanomatte-display-to-its-new-echo-show-16/l-intro-1793188028.jpg,https://www.engadget.com/2299288/amazon-glare-reducing-nanomatte-display-to-its-new-echo-show-16/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,0,Tech
+Amazon's new Echo Time smart alarm clock tries to make waking up less painful,Amazon has launched a new smart alarm clock that can determine when you&#39;re in lighter sleep before waking you up.,https://www.engadget.com/img/gallery/amazons-new-echo-time-smart-alarm-clock-comes-with-science-backed-wake-up-features/l-intro-1793183183.jpg,https://www.engadget.com/2299263/amazon-echo-time-smart-alarm-clock/,http://www.engadget.com/rss-full.xml,2026-10-28T12:00:00Z,5,Tech
+How a grocery merger could expand a surveillance network,"Kroger&#39;s $1.65 billion proposed acquisition of Giant Eagle might not only consolidate the grocery market, but also a vast surveillance network that includes Flock cameras, a new report warns. Beyond standard concerns that a merger could decrease competition and increase prices, the American Economic Liberties Project (AELP), which advocates for competition policy reforms, says that […]",,https://www.theverge.com/policy/1020187/kroger-grocery-merger-surveillance,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,3,Tech
+Amazon’s first digital picture frame lets you add voice notes to photos,"Amazon&#39;s screen-equipped smart speakers have long been able to display your family&#39;s photos, but its new Alexa Photo Frame is purpose-built for that task. It&#39;s designed to compete with other digital picture frames from companies like Aura, and Amazon&#39;s incorporates a smart speaker with access to Alexa Plus&#39; capabilities through voice commands. However, unlike the […]",,https://www.theverge.com/tech/1019626/amazon-alexa-plus-photo-digital-picture-frame-smart-speaker,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,0,Tech
+Voters in Texas agree: They hate data centers,Ask Texas NAACP president Gary Bledsoe what it&#39;s been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There&#39;s the fight in Taylor over plans to build a data center at a site that&#39;s supposed to be a park. […],,https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas,https://www.theverge.com/rss/index.xml,2026-10-28T12:00:00Z,0,Tech
+Trusting Unsloth’s trust setting could mean executing malicious code,"
+		
+					  
+						
+
+
+
+
+AI developers may have a security setting enabled and still end up running attacker-controlled code. Pillar Security has disclosed a high-severity vulnerability in Unsloth’s model loader that could allow arbitrary Python code execution when processing a maliciously crafted model configuration.
+
+
+
+Tracked as CVE-2026-93348, the vulnerability carries a CVSS score of 8.6. Setting trust_remote_code=False does not prevent exploitation because the vulnerable code path does not rely on Hugging Face’s remote-code mechanism.
+
+
+
+The problem lies in how Unsloth identifies model architectures. It takes a model-type value from a model’s configuration and uses it to construct a Python import statement. Because the value was not sufficiently validated, an attacker could inject additional Python statements into that import and have them executed through Python’s exec() function.
+
+
+
+The impact goes beyond model loading. Pillar said the injected code executes with the permissions of the loading process, potentially exposing proprietary datasets, model artifacts, Hugging Face tokens, and cloud credentials. Its testing showed that execution could occur before model weights or tokenizers were loaded.
+
+
+
+Unsloth Zoo versions from 2025.9.9 to before 2026.8.14 are affected, as are Unsloth versions from 2025.9.9 to before 2026.8.20. The initial fix reportedly landed within six hours of Pillar’s August 22 private report, but the researchers said the maintainers did not respond to subsequent disclosure attempts.
+
+
+
+A CVE was ultimately assigned with VulnCheck’s assistance. For security teams, the immediate task is to check dependencies in AI notebooks, training workers, and container images. Updating Unsloth Zoo to 2026.8.14 or later, and Unsloth to 2026.8.20 or later, addresses the reported vulnerability.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241619-0-81783500-1793188537-shutterstock_2376207999.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241619/trusting-unsloths-trust-setting-could-mean-executing-malicious-code.html,https://www.csoonline.com/feed/,2026-10-28T11:53:22Z,11,Cybersecurity
+Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers,"A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.
+
+UEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoVVx2e6mg8LPbhDYmtubHewVD_9BI7UcctCMSwwG-h4SuOyZJOvIyTre_g9Ggo6sLw6Bjrse_1FsqKKThyiIvc5CbuYqq4caYCtUciHGg33wReFQgOjJuTX5FrnSS3OZTd_yjXt03l_kxwIX-NshU9A8wpANSdQwOWkDKzy31QdXkCD6UP21dOpfbjhg/s1600/server-bios.jpg,https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T11:50:00Z,3,Cybersecurity
+Wazuh and AI for Enhanced SOC Workflows,"Artificial Intelligence (AI) has become one of this decade&#39;s defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo5_lgjV0zvHt5XW8CcCjQnBc_cvxOxrGxsrliXv3s9c6RD-Aw7eXOlNrp78QHxSnVO5yBgphx7KqCjkjje3YbwCFUtXUdLN4xA-sW_zVoFsK7au37XZxUPyoDRlhCIGsxc2at70I_FexwVKgdyub-XuuvwIZCy1o6hoCU50o7lhHWDSgktrcsrXkN9p8/s1600/wazuh.png,https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T11:30:00Z,6,Cybersecurity
+Meta considered a ‘whisper strategy’ to turn academics against Jonathan Haidt,"As Meta was feeling public pressure over teen mental health, and facing an impending onslaught of kids safety trials, the company considered a campaign to discredit a key critic: social psychologist Jonathan Haidt. Newly filed court documents show that in March 2023, Meta discussed a &#34;Whisper strategy&#34; to &#34;turn academics against Haidt,&#34; a thought leader […]",,https://www.theverge.com/policy/1020012/meta-jonathan-haidt-social-media-mental-health,https://www.theverge.com/rss/index.xml,2026-10-28T11:30:00Z,5,Tech
+Meta quietly launched an &#8216;AI pet journal&#8217; app,"Meta has launched a &#34;tamagotchi-style&#34; pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the &#34;16-bit pet care game&#34; is not really a game, but &#34;a daily journal disguised as a pet.&#34; Users should talk, not type, with […]",,https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world,https://www.theverge.com/rss/index.xml,2026-10-28T11:27:30Z,6,Tech
+Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass,"Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.
+
+The list of eight vulnerabilities is as follows -
+
+
+  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3z7SDPF49VtrfeTS8qZD9-Rv1ne3ZUL2KLJZklOlASYXMnjBQXmmIYZ-wAC9PR248ntUBTyZLq2G6TPVYLZ-aEN7fDFc4pcEhSbt_vj36JTbujGJ2UHTbxFDUOiDvYDyKl7NpCvSMlySdqWjPhyphenhyphenFUNTkC38Ej0biyWHeF1u4kFHCe4tkJjgCW6RCHttx_/s1600/adobe-main.jpg,https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T11:15:51Z,8,Cybersecurity
+Google and Meta subsea cables among most at risk from sabotage in Pacific,US-owned trans-Pacific cables face growing risks from sabotage and China.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/Trans-Pacific-cables-at-risk-1071x648.jpg,https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/,https://arstechnica.com/feed/,2026-10-28T11:00:49Z,0,Tech
+Long-Hidden Flaws Patched in EPICS Research Facility Control Software,"Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs.
+The post Long-Hidden Flaws Patched in EPICS Research Facility Control Software appeared first on SecurityWeek.
+",,https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/,https://www.securityweek.com/feed/,2026-10-28T10:48:00Z,5,Cybersecurity
+CISA warns of hackers now exploiting critical Node2Shell flaw,"On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",,https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/,https://www.bleepingcomputer.com/feed/,2026-10-28T10:46:23Z,8,Cybersecurity
+American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed,"Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.
+
+ANY.RUN&#39;s analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2g4rsWnZ5eQP03cr-4e99MQStvJmuaTTi91WESG3ua1ddAW73T6X22gyaspj2SirqH-1bSAU9VkOg2F1Kh9TLmPc4jYsNAlD72S2XzCeTTRHSiN3B7is7roWwIMcIm__yRu8SkUBbyeWxAEBo5Fe-bbACZWRuoxZqv_pysQ9iMsZRHPCD_clJZsNIDs/s1600/anyrun-main.jpg,https://thehackernews.com/2026/10/american-organizations-under-attack.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T10:30:00Z,6,Cybersecurity
+Nobody Trusts the Security Questionnaire. We Rely on It Anyway.,"The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies.
+The post Nobody Trusts the Security Questionnaire. We Rely on It Anyway. appeared first on SecurityWeek.
+",,https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/,https://www.securityweek.com/feed/,2026-10-28T10:30:00Z,1,Cybersecurity
+When prevention fails: Why cyber resilience is the next big test of trust,"
+		
+					  
+						
+
+
+
+
+Imagine arriving at work on a Monday morning to find employees cannot log in, customer service is unavailable, and critical business applications have stopped working. Security alerts are flashing. The IT team is investigating. Business leaders want to know when operations will resume.
+
+
+
+Then comes the question everyone hopes they never have to ask: Can we recover safely, and how long will it take?
+
+
+
+Most organizations have invested in cybersecurity, from firewalls to identity controls to monitoring tools and backup systems. Yet a serious cyberattack can still disrupt operations, damage customer trust, and leave teams unsure which systems and data they can rely on.
+
+
+
+This is driving a shift in cybersecurity, moving beyond preventing attacks toward building organizations that can withstand disruption, recover safely and learn from incidents. That is the essence of cyber resilience.
+
+
+
+The National Institute of Standards and Technology (NIST), in its publication Developing Cyber-Resilient Systems: A Systems Security Engineering Approach, explains how resilience can be designed into systems rather than treated as an afterthought. The lesson is simple: security is not just about keeping threats out. It is also about ensuring that a successful attack does not bring everything down.
+
+
+
+Cybersecurity is not the same as cyber resilience
+
+
+
+Organizations work to close vulnerabilities, restrict access, monitor suspicious activity and prevent unauthorized users from reaching sensitive systems. These controls remain essential, but no control is perfect.
+
+
+
+Consider a company that protects its customer database with strong access controls and regularly backs up its data. However, its backup environment is accessible through the same administrator account used to manage production systems.
+
+
+
+If an attacker compromises that account, both the live systems and the recovery resources could be disrupted. The organization had security. It had backups. But did it have resilience?
+
+
+
+Cybersecurity helps reduce the likelihood and impact of an attack. Cyber resilience focuses on ensuring that the organization can continue essential operations, limit damage, recover trustworthy systems and adapt to future threats.
+
+
+
+NIST identifies four central goals for cyber resiliency:
+
+
+
+
+Anticipate: Understand threats, weaknesses and potential disruption before they occur.
+
+
+
+Withstand: Maintain essential functions, even when some systems are compromised or unavailable.
+
+
+
+Recover: Restore services in a way that re-establishes trust in the systems and data
+
+
+
+Adapt: Learn from incidents and improve defenses and recovery capabilities.
+
+
+
+
+Together, these goals turn resilience from an abstract concept into practical business questions: What happens if a critical system fails? Can we recover without reintroducing an attacker? And will we address the weaknesses exposed by the incident?
+
+
+
+The backup question: Can we restore, or can we trust what we restore?
+
+
+
+For many organizations, backups are the foundation of recovery. They protect against accidental deletion, hardware failures and other forms of data loss. But a cyberattack introduces a different problem: the organization may no longer know which systems, credentials or copies of data can be trusted.
+
+
+
+Suppose a retailer experiences a ransomware attack just before a major sales period. Its ordering platform is down, warehouses cannot process shipments and customer service teams cannot access order histories.
+
+
+
+The company has backups. That is good news, but it is only the beginning.
+
+
+
+The recovery team must determine when the attacker entered the environment, whether backup systems were affected and which recovery point is safe to use. It must also establish whether the identity systems and administrator credentials needed to restore operations remain compromised.
+
+
+
+Restoring data from an infected or untrusted environment could allow the attacker to regain access. Bringing systems online too quickly could trigger another outage. Waiting too long, however, prolongs disruption for customers and employees.
+
+
+
+The real challenge is not simply restoring files. It is restoring a trustworthy operating environment.
+
+
+
+The CISA #StopRansomware Guide recommends maintaining offline, encrypted backups and regularly testing their integrity and recovery procedures. These practices matter because backups that attackers can access and destroy may offer little protection when an incident occurs.
+
+
+
+Backup success does not automatically equal business recovery. A technically available system is not necessarily a safe system.
+
+
+
+Building resilience into connected systems
+
+
+
+Modern businesses depend on interconnected environments. Applications rely on identity services. Infrastructure depends on networks and cloud platforms. Data protection systems must connect to the systems they protect.
+
+
+
+These connections make digital services useful but they can also give attackers routes through an organization. This is where zero trust becomes important.
+
+
+
+Often summarized as “never trust, always verify,” zero trust requires access to be explicitly verified and limited to what is necessary. Being inside a corporate network should not automatically grant broad access to everything within it. However, zero trust and cyber resilience solve related but different problems.
+
+
+
+NIST explains this approach in its zero trust architecture guidance. Zero trust helps limit opportunities for attackers to gain access and move through an environment, while cyber resilience addresses what happens when an attacker still succeeds.
+
+
+
+Identity controls limit access. Network segmentation helps contain a compromise. Data protection safeguards important information. Independent recovery capabilities provide a way to restore operations in a controlled environment.
+
+
+
+These capabilities must work together.
+
+
+
+A protected backup is less useful if compromised production systems can delete it. A recovery environment may not help if it relies on administrator credentials that an attacker has already stolen. And a highly secure application offers limited business value if the organization cannot safely restore the identity services on which it depends.
+
+
+
+Resilience depends on the relationships between safeguards, not simply on the presence of individual controls.
+
+
+
+The hardest question: What can we still trust?
+
+
+
+During a major cyber incident, organizations may need to isolate networks, disable privileged accounts, suspend services or disconnect systems from normal operations. These decisions can be disruptive, but allowing an attack to spread may be far more damaging.
+
+
+
+Recovery teams must identify the services most important to the business, understand their dependencies, determine which data is safe to restore and establish an environment where systems can be examined and rebuilt.
+
+
+
+They also need answers to difficult questions:
+
+
+
+
+If the primary identity service is compromised, how will recovery teams gain secure access to the systems they need?
+
+
+
+If an attacker has reached the backup environment, what independent recovery options remain?
+
+
+
+If the organization cannot restore every application immediately, which services must return first?
+
+
+
+Who has the authority to approve reconnection to production?
+
+
+
+How will the organization know that the restored environment is sufficiently clean and trustworthy?
+
+
+
+
+These questions connect technical architecture with business consequences. They also reveal gaps that routine availability tests may miss. An organization may successfully recover from a server failure without ever testing whether it can recover after administrator credentials have been compromised.
+
+
+
+NIST’s Guide for Cybersecurity Event Recovery emphasizes prioritizing critical resources, developing recovery plans, testing realistic scenarios and improving recovery capabilities based on lessons learned. These practices help organizations reduce uncertainty and restore essential services when disruption occurs.
+
+
+
+Resilience is not a one-time achievement. Threats evolve, systems change and organizations become dependent on new technologies and service providers. Each incident and exercise should reveal what failed, which assumptions proved incorrect and what needs to improve.
+
+
+
+Recovery is about more than technology
+
+
+
+When a cyber incident occurs, the consequences extend beyond servers and applications. Customers may lose access to services. Employees may be unable to work. Partners may be waiting for transactions to complete. Leaders must make decisions with incomplete information while communicating with customers, regulators and other stakeholders.
+
+
+
+Cyber resilience therefore cannot be the responsibility of the security team alone.
+
+
+
+Security teams reduce the likelihood and impact of compromise. Architects design systems with realistic failure scenarios in mind. Recovery teams prepare to restore systems and data when normal operating assumptions no longer hold. Business leaders determine which services must be prioritized and how much disruption the organization can tolerate.
+
+
+
+All share one objective: restoring trustworthy operations while minimizing harm to the business and its customers.
+
+
+
+This also requires treating resilience as an ongoing organizational capability, not a document reviewed once a year or a technology investment made in isolation.
+
+
+
+Zero trust challenges assumptions about access. Cyber resilience extends that thinking to disruption and recovery: What if a trusted account is compromised? What if a critical service becomes unavailable? What if the systems intended to support recovery are affected too?
+
+
+
+The answer is not to rely on a single security product, backup strategy or incident response plan. It is to build an environment in which prevention, containment, data protection, recovery and continuous learning reinforce one another.
+
+
+
+Ultimately, the most useful measure of cyber resilience is not whether an organization has prepared for an incident on paper. It is whether, when disruption happens, it can protect what matters, make sound decisions, recover safely and emerge better prepared than before.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241129-0-66398200-1793181747-shutterstock_661112953.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241129/when-prevention-fails-why-cyber-resilience-is-the-next-big-test-of-trust.html,https://www.csoonline.com/feed/,2026-10-28T10:00:00Z,22,Cybersecurity
+Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise,"The company will use the Series B funds to expand its platform for securing AI agents’ access to sensitive systems.
+The post Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise appeared first on SecurityWeek.
+",,https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/,https://www.securityweek.com/feed/,2026-10-28T09:48:24Z,1,Cybersecurity
+Nefilim and Hive ransomware affiliate gets 70 months in prison,"A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",,https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/,https://www.bleepingcomputer.com/feed/,2026-10-28T09:43:15Z,11,Cybersecurity
+ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History,ICE’s Homeland Security Investigations is engaged in far-reaching spying against left-wing activists that rivals the FBI and CIA crackdowns on the Civil Rights and anti-war movements.,,https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/,https://www.wired.com/feed/category/security/latest/rss,2026-10-28T09:30:00Z,1,Cybersecurity
+Hackers Start Probing Fresh Oracle EBS Vulnerability,"CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution.
+The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek.
+",,https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/,https://www.securityweek.com/feed/,2026-10-28T09:14:23Z,7,Cybersecurity
+Meta's Waddle World is a Tamagotchi-like AI pet app,Meta describes Waddle World as a &#39;daily journal disguised as a pet.&#39;,https://www.engadget.com/img/gallery/metas-waddle-world-is-a-tamagotchi-like-ai-digital-pet-app/l-intro-1793176733.jpg,https://www.engadget.com/2299227/meta-tamagotchi-like-ai-digital-pet-app-waddle-world/,http://www.engadget.com/rss-full.xml,2026-10-28T08:40:19Z,6,Tech
+CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts,"CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit.
+The post CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/,https://www.securityweek.com/feed/,2026-10-28T08:37:24Z,7,Cybersecurity
+10 ways attackers abuse AI services to hack your business,"
+		
+					  
+						
+
+
+
+
+Attackers are starting to exploit AI systems to mount attacks in the same way they once relied on built-in enterprise tools such as PowerShell.
+
+
+
+Instead of relying on malware, cybercriminals are increasingly abusing AI tools enterprises depend on — a trend some experts describe as “living off the AI land.” The expanded abuse of AI ecosystems features a growing array of tactics, including poisoned models, compromised MCP servers, prompt injection attacks, and AI supply-chain vulnerabilities.
+
+
+
+“We’re seeing it in things like poisoned MCP servers in the supply chain, attackers using legitimate models like Claude to extract sensitive data, and even viral agents like OpenClaw accidentally causing destructive actions,” says Kaushik Shanadi, CTO at Helmet Security, a startup focused on securing agentic AI communications. “The problem is most of these systems were deployed before anyone stopped to think about governance or security.”
+
+
+
+Agentic AI systems introduce new vectors of attack through delegated permissions, autonomous decision-making, and machine identities.
+
+
+
+The shift from simple prompt injection to “agent hijacking” represents a fundamental change in the AI threat landscape, other security experts tell CSO.
+
+
+
+“Attackers are no longer just trying to trick a chatbot; they are living off the AI land, abusing the same legitimate automation and memory features that make AI assistants useful,” says Pascal Geenens, VP of cyber threat intelligence at cybersecurity vendor Radware.
+
+
+
+Below are some examples of how attackers are subverting AI-based services to stage attacks.
+
+
+
+MCP server impersonation
+
+
+
+In September 2025, attackers promoted a counterfeit model context protocol (MCP) server mimicking technology to integrate Postmark, a transactional email service owned by ActiveCampaign, into AI assistants.
+
+
+
+The fake MCP server package looked legitimate and functioned as a legitimate tool across 15 versions before a single-line code change was introduced that meant sensitive communications — password resets, invoices, internal memos — were silently siphoned off for days before the hack was detected.
+
+
+
+The malicious package, which attracted 1,500 downloads per week on the popular node.js package registry, exposed enterprises that relied on the tool to a form of supply chain attack.
+
+
+
+“This is the AI equivalent of name-squatting a package registry, except there’s no central MCP authority verifying server identity and no cryptographic link between an MCP server and the organization it claims to represent,” says Brad Micklea, CEO at Jozu, an AI security and MLOps platform. “This breaks the trust model before the MCP is deployed.”
+
+
+
+MCP servers — which allow AI agents and chatbots to connect to data sources, tools, and other services — have recently become the target of varied (for example against Cursor’s built-in browser) and sustained malicious attacks. Locking down these systems to minimize risks has become a priority for enterprise CISOs.
+
+
+
+“These servers expose tools, memory, and APIs to AI agents so they can perform tasks,” says Zahra Timsah, PhD, CEO of i-GENTIC AI, an agentic AI governance platform. “If an attacker inserts a poisoned tool, modified connector, or malicious retrieval source into that chain, the AI agent can unknowingly execute it.”
+
+
+
+Abusing AI platforms as covert C2 channels
+
+
+
+Cybercriminals are also abusing AI platforms as covert command-and-control (C2) channels by turning AI services into proxies that hide malicious traffic inside the flow of legitimate content.
+
+
+
+Instead of running a dedicated C2 server, malware is programmed to fetch commands and exfiltrate data through AI services, circumventing traditional security controls in the process.
+
+
+
+For example, the SesameOp backdoor hid command traffic inside the OpenAI Assistants API, camouflaging instructions to malware as normal AI development activity.
+
+
+
+This is far from an isolated example and the potential for misuse is rife.
+
+
+
+For example, Check Point Research demonstrated how Microsoft Copilot and Grok might be manipulated through their public web interfaces to fetch attacker-controlled URLs and return responses. This behavior opens the door to abuse of AI systems without requiring an API key or authenticated account.
+
+
+
+Dependency poisoning in AI workflows
+
+
+
+Rather than attacking an AI system directly some assaults have relied on poisoning downstream dependencies that an agent relies on for data processing.
+
+
+
+In one case, a compromised NPM package was injected into an agentic workflow’s dependency chain.
+
+
+
+“This mirrors classical supply chain attacks (e.g. SolarWinds), but a poisoned dependency in an agentic pipeline doesn’t just leak data — it can alter the agent’s decision-making, tool selection, or output without any visible anomaly,” says Jozu’s Micklea.
+
+
+
+Compromised npm packages were used to seed the spread of Shai-Hulud, a self-propagating software supply-chain worm that first surfaced in September 2025.
+
+
+
+Shai-Hulud was designed to compromise developer credentials, steals secrets, and inject malicious install scripts into legitimate packages. These booby-trapped versions of reputable packages were published to target downstream developers and CI/CD systems.
+
+
+
+ChainDrop targeted AI coding tool credentials using a similar methodology in August 2026.
+
+
+
+Double agents
+
+
+
+Some attackers are weaponizing vulnerabilities in agents rather than abusing components of an enterprise’s legacy IT infrastructure.
+
+
+
+For example, the “EchoLeak” command injection vulnerability in Microsoft 365 Copilot (CVE-2025-32711) shows that a single email with concealed prompt-injection instructions is sufficient to force the AI assistant to exfiltrate internal files and emails to an external server without user interaction.
+
+
+
+A series of vulnerabilities (such as CVE-2026-25253) in OpenClaw, the popular open-source personal AI assistant, created a route for a malicious website to take complete control of the developer’s AI agent.
+
+
+
+“More than 21,000 such instances were detected, and the researchers further observed that 12% of the skills marketplace for the OpenClaw platform was distributing malware,” says Dr. Suleyman Ozarslan, VP of Picus Labs at Picus Security, a specialist in breach and attack simulation.
+
+
+
+Security researchers at Varonis discovered an attack against Microsoft Copilot Personal that sidestepped built-in AI safeguards simply by asking for sensitive data twice.
+
+
+
+The Reprompt vulnerability — which effectively turned Microsoft Copilot into a data exfiltration tool — was reported to Microsoft, which has responded by issuing a patch.
+
+
+
+AI-orchestrated espionage campaigns
+
+
+
+Anthropic caught threat actors abusing Claude Code to manage operational tasks in a cyber-espionage campaign in September 2025.
+
+
+
+A suspected Chinese state-sponsored group designated GTG-1002 used Claude Code to execute 80-90% of tactical operations independently, at physically impossible request rates for human operators.
+
+
+
+Attackers abused the AI agentic capabilities of Claude Code to automate the process of scripting, target research, building attack tooling, and other functions.
+
+
+
+“The attackers decomposed their operation into thousands of small, individually innocuous tasks, combined with role-play framing that convinced the model it was operating as part of a legitimate security assessment,” explains Yagub Rahimov, CEO at cybersecurity startup Polygraf AI.
+
+
+
+Agentic ransomware attacks
+
+
+
+Miscreants abused an AI agent dubbed Jadepuffer to run an end-to-end ransomware and extortion campaign in July 2026.
+
+
+
+Initial access was gained by exploiting a vulnerability in Langflow, an AI orchestration tool, before privilege elevation and the deployment of Encforge, ransomware that targets and encrypts roughly 180 AI-related file extensions. The attack ultimately targeted a victim’s production database server.
+
+
+
+This wasn’t the first fully autonomous cyberattack, but it was the first documented ransomware campaign run end-to-end by an agentic threat actor, according to cloud security vendor Sysdig.
+
+
+
+“It destroyed a production database, wrote the ransom note, and went from failed login to working fix in 31 seconds,” says Crystal Morin, senior cybersecurity strategist at Sysdig.
+
+
+
+Turning AI assets into attack targets
+
+
+
+Threat actors are now prioritizing assaults against AI tools and infrastructure due to their high value.
+
+
+
+By compromising an AI infrastructure attackers gain access to LLM provider keys, cloud credentials, data, and myriad connections.
+
+
+
+“To get in, they [attackers] often scan for vulnerabilities and, as soon as one is live, use AI to turn advisories and disclosures into exploits,” says Sysdig’s Morin. “In many instances, we’ve seen the mean time to exploit [MTTE] drop to just hours, like with the Marimo and PraisonAI CVEs.”
+
+
+
+Attacking operational technology environments
+
+
+
+Maintainers of industrial control systems have begun adopting AI technologies to increase the efficiency of their operations.
+
+
+
+Initially industrial AI was an advisor. If a model predicted a failure or suggested a better setpoint then it would still be up to a human operator to decide what to do. This is now changing with operators adopting more autonomous, agentic AI technologies.
+
+
+
+“ML models and AI agents now write setpoints back to control systems to optimize energy, yield and throughput, often every few minutes and without a human approving each change,” says Thomas Plank, CEO of industrial cybersecurity specialists Tributech. “Protocols such as MCP are accelerating this, because they give LLMs and agent frameworks a standard way into live OT [operational technology] and IoT [internet of things] data.”
+
+
+
+These changes are opening up new attack surfaces.
+
+
+
+“Once AI acts on a physical process, attackers no longer need to compromise the controller, they can live off the AI’s own authorized access,” Plank warns.
+
+
+
+One attack scenario would involve poisoning the data the AI acts on so that decisions are made against manipulated sensor data rather than actual readings.
+
+
+
+“If values are tampered with, stale or simply wrong, the model makes a wrong decision with full confidence,” Plank explains. “An attacker does not need to touch the AI at all; changing the data it reads, or the data it was trained on, is enough.”
+
+
+
+Plank concludes: “In a closed loop, that wrong decision becomes a physical action.”
+
+
+
+Using stolen compute to build offensive infrastructure
+
+
+
+Threat actors have been stealing stolen AI computing resources since early 2024, a form of attack known by some as LLMjacking.
+
+
+
+Attackers began LLMjacking to resell access but more recently some have moved onto using stolen resources to build malicious tools.
+
+
+
+For example, in June 2026 the Sysdig Threat Research Team documented an operator using a victim’s exposed, abliterated Ollama model to build an autonomous offensive framework.
+
+
+
+Creating modular black-hat AI platforms
+
+
+
+The threat landscape has shifted from abusing chatbots to building dedicated, weaponized AI stacks like Xanthorox AI.
+
+
+
+Unlike general-purpose LLMs, Xanthorox is a purpose-built offensive platform designed specifically for cybercrime. The platform features modules for functions such as malware generation and vulnerability exploits.
+
+
+
+“Hexstrike AI MCP integration allows Xanthorox to move beyond mere ‘assisted’ hacking into the realm of fully autonomous agent systems, moving it into the realm of ‘vibe hacking,’” says Radware’s Geenens. Hexstrike is an open-source, AI-powered offensive security framework originally designed for ethical penetration testing.
+
+
+
+Check against delivery
+
+
+
+Zbyněk Sopuch, CTO of cybersecurity vendor Safetica, says that many attackers are no longer just exploiting software vulnerabilities, preferring instead to exploit the trust organizations place in AI.
+
+
+
+“This means security teams need to treat AI assistants the same exact way they treat human privileged users: with tight control, specific monitoring, and most importantly, never assume anyone or anything to be safe,” Sopuch concludes.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4154222-0-35421000-1793176049-shutterstock_2415998581.jpg?quality=50&strip=all,https://www.csoonline.com/article/4154222/6-ways-attackers-abuse-ai-services-to-hack-your-business.html,https://www.csoonline.com/feed/,2026-10-28T08:25:00Z,31,Cybersecurity
+"Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits","An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.
+
+The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMl2C6S6mb-smamI35fLYotcPaercI_2PIgtuF78Q7PtQcFvFUKXkModTW4nRCh6FC7Xht2BltSGImRS2QNR4Lnc22S7UBU9V_0UDcZi2iDNXSlCJDqD4ApmJPqA_boFokj_9dTWKdzhjIgNt_Y47zumx_c5vrcJn5Vd-Xaowafv4HGCzCcqgDV4GGpo/s1600/hacker-chain.jpg,https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T08:15:07Z,8,Cybersecurity
+FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering,"The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.
+
+The move was in response to the service being used to commit and facilitate prolific criminal activity, including &#34;the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAdfKblTUCEDUoHzYpHPcEPzHO6qKTr01uG2-x7YyIT5t_-xeFc27zuZ3yOK76rkhz-J8y_Z4MqmydEQUtiCEvry_2H43qaSJXDrWRbM1gs8wDVTBgi_NzxIXsGBMoX8zlzISFlvcJ8NdNSyeMIZh8z-aHkXCyBDPJ2l195Ji1XgnVu_A0Yhh3H2QvEyiA/s1600/servers.jpg,https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T07:37:50Z,0,Cybersecurity
 Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach,"Japan&#39;s GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.
 
 The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service hosts Windows desktops used for FX trading,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s1600/gmo.jpg,https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html,https://feeds.feedburner.com/TheHackersNews,2026-10-28T07:13:21Z,6,Cybersecurity
