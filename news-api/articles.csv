@@ -1,4 +1,1194 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Waymo taps Toyota to supply robotaxis for Japan and the U.K.,Waymo will begin testing self-driving versions of Toyota&#39;s electric bZ4X vehicles in Japan next year as part of a broader partnership with the automaker.,,https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/,https://techcrunch.com/feed/,2026-10-30T07:01:00Z,0,Tech
+"Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen","Cryptocurrency giant Binance said on Thursday that a &#34;security incident&#34; on its platform has impacted about $6.3 billion worth of assets.
+
+The world&#39;s biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. 
+
+Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million related to the incident, respectively. The",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1600/Binance.jpg,https://thehackernews.com/2026/10/binance-suffers-security-breach.html,https://feeds.feedburner.com/TheHackersNews,2026-10-30T04:14:59Z,4,Cybersecurity
+You don’t need to believe in a god to get a religious exemption from using AI at work,"David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",,https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/,https://techcrunch.com/feed/,2026-10-30T01:20:48Z,5,Tech
+PHP2Shell plus Fragnesia: A dangerous new route from web server to root,"
+		
+					  
+						
+
+
+
+
+The PHP2Shell saga continues, with attackers discovering new ways to exploit the critical vulnerability impacting millions of organizations worldwide.
+
+
+
+The US Cybersecurity and Infrastructure Security Agency (CISA) has warned of a high severity Linux kernel privilege escalation flaw that attackers are chaining with PHP2Shell bugs in the wild.
+
+
+
+Identified as CVE-2026-46300, it could allow attackers to run malicious code with root permissions, giving them unrestricted ability to run commands, tamper with system settings, view, edit, or delete files, and perform other malicious actions.
+
+
+
+Once attackers establish root access, they can perform any action on a server including, but not limited to, disabling the server, creating accounts, removing accounts, connecting to other servers, and adding/removing software, explained Scott Miserendino, CTO at security and compliance platform DataBee.
+
+
+
+“PHP2Shell allows for remote access, but that access is typically limited by the account used to run the PHP service,” he said. “By chaining with CVE-2026-46300, that attacker can get unlimited access.”
+
+
+
+Researchers at Dream Security have discovered that this attack has already been used to breach 25 servers, including three affiliated with the US government.
+
+
+
+Federal agencies have been ordered to patch the flaw, which is known as Fragnesia.
+
+
+
+Anatomy of an attack
+
+
+
+PHP is a widely-used, open source server-side scripting language that serves as the backbone for websites like WordPress, which powers 43% of the web, as well as Mailchimp, Drupal, parts of Slack and Zoom, and numerous others.
+
+
+
+Last week, the PHP Foundation disclosed two flaws in the PHP scripting language that could allow attackers to perform unauthenticated remote code execution (RCE). CVE-2026-109618 and CVE-2026-109619 are both rated a critical 9.2 in severity on the common vulnerability and scoring system (CVSS). The two vulnerabilities are collectively tracked as PHP2Shell.  As a result of the disclosure, some government and enterprise websites shut down entirely while awaiting patches.
+
+
+
+CVE-2026-46300, dubbed Fragnesia, is a new development in the saga. It is identified as part of the Dirty Frag vulnerability class, a set of local privilege escalation (LPE) bugs in the Linux kernel.
+
+
+
+The Dream researchers described an attack they tracked in the wild, in which threat actors built a persistent tunnel into an internal network “within hours.” They developed two distinct exploits, stringing them together to target any Palo Alto Network firewall running a vulnerable build of PAN-OS, and achieved root access in a single HTTP request without any credentials.
+
+
+
+After rooting the firewalls, the threat actor launched attacks against Active Directory (AD), giving them the ability to extract credentials and discover hidden files, folders, and other sensitive resources, according to the Dream researchers. The researchers confirmed that the threat actor then possessed a full AD user group listing and “complete organizational blueprint,” private keys and complete network topology, including the IP, hostname, server role, and VPN gateway, and had accessed decrypted service account credentials allowing direct AD queries at any time.
+
+
+
+The adversarial actor also parked nearly two dozen firewalls across the US, Japan, Taiwan, and South Korea, “ready for exploitation at any time.” The Dream researchers noted that the breach did not appear to be a fully autonomous nation-state attack, but did include some AI-assisted tooling like Claude Code and AI-powered offensive security platforms configured with Chinese large language models (LLMs) DeepSeek and Kimi.
+
+
+
+“The operation illustrates how an exposed management interface can become a path into an organization’s identity infrastructure,” the Dream researchers wrote.
+
+
+
+Plenty of material for attackers to work with
+
+
+
+The two PHP bugs gave an attacker code execution privileges using the web service account, and the kernel bug is what turned that into root, explained Aaron Beardslee, manager of threat research at Securonix, who noted, “The kernel bug writes its payload into the page cache rather than to disk.”
+
+
+
+Once an attacker has the ability to execute code, the damage they can do depends on the permissions and credentials available to that process, he explained. Application configuration files, database credentials, and access to internal services can provide “plenty of material for an attacker to work with.” They may also be able to execute commands, retrieve additional tooling or establish persistence.
+
+
+
+“Web servers have an unfortunate habit of knowing more about the rest of the environment than anyone intended,” he pointed out.
+
+
+
+The chain’s post-access sequence, as described by the researchers, was: Root the perimeter host, stand up a reverse Secure Shell (SSH) tunnel to an internal management server, recover a Lightweight Directory Access Protocol (LDAP) service account credential, then “enumerate domain users and groups, spray passwords, and attempt to create backdoor accounts in Active Directory.”
+
+
+
+PHP has “been holding up a substantial chunk” of the internet for decades, and these vulnerabilities live in the runtime itself, Beardslee noted. An enterprise’s WordPress installation can be fully patched, plugins can be current, but the underlying PHP process can still be vulnerable to unauthenticated code execution.
+
+
+
+The reported victim count (25 servers so far, mostly firewall appliances, on a government affiliated network) is the part everyone will quote, but it is not the interesting part, he said. Counts differ, and attribution is “openly contested.” None of them is what matters to defenders.
+
+
+
+“What matters is that the privilege escalation step in this chain is invisible to disk-based integrity checking,” Beardslee said, “and that the standard remediation advice destroys the evidence of it.”
+
+
+
+Remediation
+
+
+
+Unfortunately, CVE-2026-46300 is a low-level Linux kernel bug, so the only remedy is to upgrade to a patched Linux version, said DataBee’s Miserendino. There are some options short of full patching, but those could break the system, or at a minimum require IPSec encapsulating security payload (ESP) to be disabled. But that can introduce additional flaws.
+
+
+
+“Patch the kernel, and capture memory first on anything you suspect,” Beardslee recommended, noting that the Fragnesia fix is not included in the Dirty Frag patches. “The triage order matters more here than it usually does, because the reboot is what erases the evidence.”
+
+
+
+As well, audit the core built-in kernel modules esp4 and esp6, which are responsible for handling the IPsec ESP network protocol, on every internet-facing Linux host, he advised. If nothing terminates IPsec there, “the modules have no business being loaded,” and unloading them removes the vulnerability path without waiting for a maintenance window.
+
+
+
+And check which hosts hold a directory service credential, then alert of LDAP binds from anything that isn’t on that list, he said: “This is the control that catches the chain at the stage where it stops being a web server problem and starts being a domain problem.” Further, he said, re-point identity detections at “the source, not the tool.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4242454-0-41027900-1793321758-shutterstock_680076340.jpg?quality=50&strip=all,https://www.csoonline.com/article/4242454/php2shell-plus-fragnesia-a-dangerous-new-route-from-web-server-to-root.html,https://www.csoonline.com/feed/,2026-10-30T00:55:47Z,30,Cybersecurity
+A deep dive into China’s Volt Typhoon suggests it is preparing for an assault on infrastructure,"
+		
+					  
+						
+
+
+
+
+In a deep dive into the Silent Train attack tactic used by China’s Volt Typhoon cybercrime group, Lumen’s Black Lotus Labs highlighted evidence of efforts to pre-position access within what it described as “strategic communications, critical infrastructure and other ecosystems that become essential during geopolitical tensions or crises.” 
+
+
+
+The report, released on Wednesday, said that Silent Train is built around “rapidly rotating chains of compromised SOHO, IoT and enterprise devices that are exploited on demand, used against carefully selected targets, cleaned up after each operation and continuously refreshed. This approach allowed Volt Typhoon to carry out exploitation and post-exploitation activity securely while reducing the risk of detection, attribution, and disruption.”
+
+
+
+Multiple intrusions via Silent Train have been confirmed in the wild, Lumen said, all on high value targets.
+
+
+
+Its report described at least four confirmed and one likely zero-day vulnerabilities exploited by Volt Typhoon, which targeted network and endpoint management systems, SD-WAN orchestrators and control plane infrastructure that provide visibility, administration and access across enterprise and customer environments. It noted that victims included telecommunications providers, government, defense contractors, satellite and mission-critical communication services, universities, IT firms and critical infrastructure such as water, energy, transportation, maritime, rail, aviation, emergency services and other essential operations.
+
+
+
+Lumen said the nature of these victims “indicates deliberate efforts to maintain access to critical ecosystems that support defense, logistics, communications, military and civilian operations, especially during heightened tensions or crises in the Indo-Pacific region.”
+
+
+
+Although the Silent Train attack has been in the wild for years and was tracked by various cybersecurity teams, the level of operational details that Lumen reported Wednesday went well beyond what had been known. 
+
+
+
+In fact, Frank Dickson, principal analyst at Dickson Research, who tracks this space, said the Lumen report “may be one of the most valuable pieces of research published this year.”
+
+
+
+Key findings
+
+
+
+Some of the report’s key findings described the surprising speed and efficiency of the attacks. 
+
+
+
+“Sessions were often remarkably efficient. Operators could exploit and assemble chains of devices in under two minutes, and on their way out they would leave no evidence for defenders to uncover,” Lumen said. “Their operational tempo suggests the use of a semi-automated, on-demand provisioning process.” But a strict process remained consistent throughout many attacks, it pointed out.
+
+
+
+“Another noteworthy aspect was Volt Typhoon’s consistent assignment of specific device types to positions within Silent Train chains,” the report said. “We noticed that device types were reserved for specific operational roles that never deviated. Intelbras modems only appeared as overseas relay nodes, while Netgear Orbi devices served as US-based hops that interacted with victims. Similar patterns appeared across every other device type in Silent Train.”
+
+
+
+It observed that, despite having enough global infrastructure to swap device types between overseas and US hops, Volt Typhoon maintained these fixed roles throughout three years of monitoring, and its VPS infrastructure also used separate providers and locations rather than a shared environment.
+
+
+
+The report concluded that attack infrastructure “was deliberately compartmentalized across layers, complicating attribution and reducing the risk that access to one device or provider would expose more of the network. The underlying infrastructure changed constantly, but the architecture and role of each layer remained highly structured.”
+
+
+
+Laying the foundation
+
+
+
+Analysts and consultants noted that the attacks didn’t necessarily engage in damage or theft initially, but instead laid a foundation for a later attack.
+
+
+
+“I wouldn’t say this is necessarily a novel approach, but it is a clever one,” said Sav Wheeler, malware research engineer at Malwarebytes. “Holding off on taking advantage of compromised resources until an opportunity presents itself is itself a strategic form of resource management.”
+
+
+
+Mike Wilkes, enterprise CISO at Aikido Security, agreed that the delayed gratification is a dangerous attack group tactic.
+
+
+
+“P0wning th,e control plane of telecommunications and critical infrastructure is both logical and, sadly, often rather easy” he said. “Why attack individual systems when you can compromise the infrastructure that manages, connects and authenticates them? The strategic objective isn’t necessarily immediate disruption. It’s establishing the ability to disrupt, manipulate or deny services at a time of geopolitical advantage.”
+
+
+
+Dickson also agreed, saying that the published details show a pattern that “is not espionage for its own sake. It looks like access being banked for a crisis in the Pacific.”
+
+
+
+Rethink defenses
+
+
+
+“That breaks the usual defender playbook,” Dickson said. “A blocklist does nothing against an address that was a relay for four hours last Tuesday. The indicators expire before anyone can publish them. This is also a direct response to the KV-botnet takedown. Take out the bridge and they build a ferry.” 
+
+
+
+He added, “a network management console is built to see everything, reach everything, and change everything. Those are exactly the powers an attacker wants. We spent a decade building higher castle walls and then hung the master key ring by the gate.”
+
+
+
+But it is the speed of Silent Train that worries Dickson the most. Although an enterprise can’t out-rotate an adversary that rebuilds its network in two minutes, “it can make the destination much harder to reach. Take every management console, SD-WAN orchestrator, and admin portal off the open internet and put it behind a VPN, a jump host, or a dedicated management network. Patch control plane technology first, not last,” he advised.
+
+
+
+Aman Mahapatra, chief strategy officer for New York City-based technology consulting firm Tribeca Softech, said the implications of the Silent Train deep dive will force CISOs to rethink much of their defensive strategies. 
+
+
+
+“IP-based defenses are nearing the end of their usefulness against this class of adversary. When the network origin is disposable, identity, behavior, and timing are what remain visible,” he said. “An adversary willing to burn an exploit on a router to protect an exploit on an SD-WAN orchestrator is telling defenders exactly how much that access is worth.”
+
+
+
+Another concern, said Mahaptra, is revealed by the way Lumen was able to detect much of the attack methodology, something that will likely elude most enterprise SOCs. 
+
+
+
+“Lumen detected Silent Train because a backbone carrier can see the entire chain,” Mahapatra said. “No single enterprise ever sees more than its own segment. Organizations in the sectors on this victim list should formalize threat notification arrangements with their carriers, because the detection that worked here happened outside every victim’s network.”
+
+
+
+He advised enterprises to also watch their own edge devices for outbound behavior. Lumen documented FortiGate and Cisco appliances, PRTG, CyberPanel and even Mirth Connect healthcare integration servers serving as final hops, some for one to three months, he pointed out; outbound SSH to unfamiliar hosts, reverse tunnels built with tools such as Chisel or FRP, and traffic on unusual high ports “can indicate that a company’s appliance is serving as the attacker’s domestic face for an intrusion elsewhere.”
+
+
+
+Mark Child, an associate research director with IDC, also is concerned about the tactical methods of Silent Train.
+
+
+
+“Silent Train abandons persistence,” Child said. “Instead of maintaining a permanent network, Volt Typhoon rapidly assembles and dismantles transient infrastructure. This makes it more effective against network-centric defenses: IP blocklists, threat-intel feeds of IOC addresses, geofencing, and takedowns. Those all assume infrastructure that sticks around.”
+
+
+
+However, he noted, “it is not more effective against good endpoint and behavioral detection on the target.” No matter many hops there are, the exploitation, credential theft and admin-tool abuse still execute on the server. 
+
+
+
+“The real force multiplier is the choice of target,” he said. “Hitting a management platform delivers admin access to thousands of devices and trusted paths to downstream customers, with no lateral movement, which removes the lateral movement signals EDR usually relies on. For endpoint security teams, IP-based detection loses value here. Behavioral monitoring of privileged management servers, and what they do to endpoints, becomes the decisive control.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4242439-0-05130200-1793319027-shutterstock_1209102469.jpg?quality=50&strip=all,https://www.csoonline.com/article/4242439/a-deep-dive-into-chinas-volt-typhoon-suggests-it-is-preparing-for-an-assault-on-infrastructure.html,https://www.csoonline.com/feed/,2026-10-30T00:10:15Z,21,Cybersecurity
+The director of Obsession put a new horror short on YouTube,"Curry Barker, the director behind the hit horror film Obsession, just published a new horror short on YouTube. The short, titled &#34;Mama Bear,&#34; is nearly five minutes long. The video is pretty unnerving, and fair warning that it gets a little graphic, but it&#39;s a fun one to watch if you&#39;re looking for something scary […]",,https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear,https://www.theverge.com/rss/index.xml,2026-10-29T23:57:18Z,5,Tech
+Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’,"The success of blockbuster hits like Project Hail Mary and Verity is only part of the story, Amazon&#39;s CEO says.",,https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/,https://techcrunch.com/feed/,2026-10-29T23:44:56Z,5,Tech
+"AWS will be a $1T business, Jassy says. But first, it will spend big.","Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday. ",,https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/,https://techcrunch.com/feed/,2026-10-29T23:42:22Z,8,Tech
+Intel says it&#8217;s selling every affordable laptop chip it can make,"During Intel&#39;s latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips &#34;is outstripping supply.&#34; According to CFO David Zinsner, the chips are now sold out. Zinsner said Intel has &#34;seen significant growth in Wildcat Lake. It&#39;s coming exactly at the right time because it&#39;s cost-optimized and we&#39;re seeing a […]",,https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage,https://www.theverge.com/rss/index.xml,2026-10-29T23:42:21Z,5,Tech
+OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut,"OpenAI says it won&#39;t reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/,https://www.bleepingcomputer.com/feed/,2026-10-29T23:35:52Z,0,Cybersecurity
+Sony is working on a film adaptation of viral indie horror game Mouthwashing,"The adaptation will be directed by Karyn Kusama, and scripted by the writers of The Invitation.",https://www.engadget.com/img/gallery/sony-is-working-on-a-film-adaptation-of-viral-indie-horror-game-mouthwashing/l-intro-1793314079.jpg,https://www.engadget.com/2301826/sony-is-working-on-a-film-adaptation-of-viral-indie-horror-game-mouthwashing/,http://www.engadget.com/rss-full.xml,2026-10-29T22:52:36Z,0,Tech
+Binance probes potential $5.8 billion crypto-theft hack,"Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",,https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/,https://www.bleepingcomputer.com/feed/,2026-10-29T22:45:23Z,4,Cybersecurity
+Binance pauses withdrawals as hackers suspected of stealing billions in crypto,"Some estimates say hackers stole billions in crypto from Binance, the world&#39;s largest cryptocurrency exchange, during a cyberattack on Thursday.
+",,https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/,https://techcrunch.com/feed/,2026-10-29T22:27:23Z,0,Tech
+Reddit’s CEO says Google’s AI Mode ‘does not drive traffic’,"Reddit CEO Steve Huffman said in an earnings call today that Google&#39;s AI-powered search modes do not help with traffic to the platform, echoing problems facing other websites and publishers. As part of its Q3 2026 earnings, Reddit revealed that search traffic in October has &#34;dropped by more than 1 million referrals on average per […]",,https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic,https://www.theverge.com/rss/index.xml,2026-10-29T22:19:32Z,5,Tech
+Hugging Face malware campaign returns to hijack GPUs for crypto mining,"A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",,https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/,https://www.bleepingcomputer.com/feed/,2026-10-29T22:09:24Z,3,Cybersecurity
+Japan Airlines suffers third-party data breach exposing passenger info,"Japan Airlines (JAL) has announced that a data breach at Amadeus&#39;s Passenger Service System exposed the data of about 92,000 customers. [...]",,https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/,https://www.bleepingcomputer.com/feed/,2026-10-29T22:08:04Z,4,Cybersecurity
+Meta is testing 'Threads Friends' for sharing posts with smaller groups,"Twitter Circle, anyone?",https://www.engadget.com/img/gallery/meta-is-testing-threads-friends-for-sharing-posts-with-smaller-groups/l-intro-1793307612.jpg,https://www.engadget.com/2301804/meta-is-testing-threads-friends-for-sharing-posts-with-smaller-groups/,http://www.engadget.com/rss-full.xml,2026-10-29T22:05:39Z,0,Tech
+"Elon Musk is ‘truly a genius,’ says Vladimir Putin","Putin said that he and Musk are in &#34;close contact&#34; about Rassvet, Russia&#39;s Starlink-like satellite connectivity project.",,https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/,https://techcrunch.com/feed/,2026-10-29T21:51:29Z,5,Tech
+VRChat says it's not adding AI labels despite user survey showing people want that,Trying to make everyone happy could make no one happy.,https://www.engadget.com/img/gallery/vrchat-says-its-not-adding-ai-labels-despite-user-survey-showing-people-want-that/l-intro-1793310428.jpg,https://www.engadget.com/2301786/vrchat-says-its-not-adding-ai-labels-despite-user-survey-showing-people-want-that/,http://www.engadget.com/rss-full.xml,2026-10-29T21:48:05Z,6,Tech
+"Reddit will require you to log in eventually, CEO confirms",Reddit&#39;s search traffic &#34;was down meaningfully&#34; last quarter. ,https://cdn.arstechnica.net/wp-content/uploads/2025/07/reddit-icon-1152x648-1752522571.jpg,https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/,https://arstechnica.com/feed/,2026-10-29T21:47:57Z,0,Tech
+"Polymarket halts trading after crypto-draining script breach, $2.5M traced","Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. [...]",,https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/,https://www.bleepingcomputer.com/feed/,2026-10-29T21:47:25Z,6,Cybersecurity
+Amazon reported booming cloud revenue but otherwise missed expectations,The biggest ouch of the report was its negative free cash flow of $2.4 billion. ,,https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/,https://techcrunch.com/feed/,2026-10-29T21:20:47Z,3,Tech
+"Fan fiction website AO3 is down, and it could take weeks to recover","The site&#39;s data is reportedly intact, but the cause of the outage is still unknown.",https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/l-intro-1793308521.jpg,https://www.engadget.com/2301753/ao3-fanfiction-website-down-for-weeks/,http://www.engadget.com/rss-full.xml,2026-10-29T21:18:22Z,0,Tech
+GM reaches $220M settlement over selling drivers’ private data,"As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",,https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/,https://techcrunch.com/feed/,2026-10-29T21:01:04Z,0,Tech
+Six military freezers went bad in August. Was it a cyber attack?,"After food spoiled at commissaries, Pentagon investigators are looking at similar incidents in France.",,https://www.defenseone.com/threats/2026/10/pentagon-investigates-suspected-cyberattack-behind-military-freezer-failures/416929/,https://www.defenseone.com/rss/all/,2026-10-29T21:00:00Z,0,Defense
+Fan fiction site Archive of Our Own could be offline for up to 4 weeks,"Archive of Our Own, the popular online home of fan fiction readers and writers, has bad news for its community.",,https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/,https://techcrunch.com/feed/,2026-10-29T20:43:56Z,0,Tech
+Reddit will move to logged-in only as AI eats search traffic,The company is starting with tests outside of the US.,https://www.engadget.com/img/gallery/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/l-intro-1793305910.jpg,https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/,http://www.engadget.com/rss-full.xml,2026-10-29T20:32:49Z,5,Tech
+Google fixes an annoying Photos bug that hid edited images from other apps,"Hey, that&#39;s not what Magic Eraser is supposed to do!",https://www.engadget.com/img/gallery/google-fixes-an-annoying-photos-bug-that-hid-edited-images-from-other-apps/l-intro-1793305492.jpg,https://www.engadget.com/2301675/google-fixes-an-annoying-photos-bug-that-hid-edited-images-from-other-apps/,http://www.engadget.com/rss-full.xml,2026-10-29T20:26:24Z,1,Tech
+Windows 11 gets right-click menu improvements as PC revenue slides,The latest update also brings a cloud recovery option for PCs that won&#39;t boot. ,https://cdn.arstechnica.net/wp-content/uploads/2026/10/Hero-Bloom-Logo-1000x563_Windows_11_MS.jpg,https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/,https://arstechnica.com/feed/,2026-10-29T20:18:49Z,4,Tech
+Google brings AI Mode advertisements to more countries,Adding sponsored content in more markets could make the feature profitable.,https://www.engadget.com/img/gallery/google-brings-ai-mode-advertisements-to-more-countries/l-intro-1793305012.jpg,https://www.engadget.com/2301660/google-brings-ai-mode-advertisements-to-more-countries/,http://www.engadget.com/rss-full.xml,2026-10-29T20:18:24Z,5,Tech
+Patrick Stewart has died at age 86,"Patrick Stewart, best known for his roles in Star Trek and X-Men, has died at age 86. A message posted to Stewart&#39;s Instagram account says the actor died in his Los Angeles home on Wednesday &#34;following a brief and poignant journey with Alzheimer&#39;s Disease and Lewy Body Dementia.&#34; Born in 1940 in Mirfield, Yorkshire, England, […]",,https://www.theverge.com/news/1022626/patrick-stewart-star-trek-death,https://www.theverge.com/rss/index.xml,2026-10-29T20:10:02Z,0,Tech
+"As search traffic dries up, Reddit announces it’s shifting to a logged-in experience","As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",,https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/,https://techcrunch.com/feed/,2026-10-29T20:08:31Z,5,Tech
+Pentagon IG refuses to investigate Starlink/Starshield slowdown in Ukraine,Inspector general rejected request from Democratic and Republican senators.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/starlink-ukraine-1152x648-1792605015.jpg,https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/,https://arstechnica.com/feed/,2026-10-29T20:08:10Z,5,Tech
+Reddit will force everyone to log in,"Reddit is announcing a huge shift: It&#39;s going to start requiring users to log in. Right now, you can browse Reddit without having an account, and the site is generally a great resource for crowdsourced information on a whole range of topics. I know I&#39;m not the only person who appends &#34;reddit&#34; to a lot […]",,https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings,https://www.theverge.com/rss/index.xml,2026-10-29T20:07:00Z,1,Tech
+Rivian expands joint venture with VW to include AI assistant,Rivian doesn&#39;t disclose if the value of its $5.8 billion joint venture will expand as a result. ,,https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/,https://techcrunch.com/feed/,2026-10-29T20:05:47Z,5,Tech
+The R2 SUV is already Rivian’s best-selling vehicle,Rivian is seeing strong enough sales of the new EV that it improved its guidance to Wall Street for the second time this year. ,,https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/,https://techcrunch.com/feed/,2026-10-29T20:02:03Z,0,Tech
+Rivian’s R2 is officially its best-selling vehicle,"Rivian reported its third quarter earnings of 2026, providing us a closer look at the company&#39;s financial health as it ramps up production of its all-important R2 electric vehicle - which is now, for the first time, outselling all of Rivian&#39;s other EVs. Rivian said it brought in $2.155 billion in revenue, a 38 percent […]",,https://www.theverge.com/transportation/1022420/rivian-q3-earnings-r2-sales-volkswagen-software,https://www.theverge.com/rss/index.xml,2026-10-29T20:02:00Z,5,Tech
+OpenAI-backed Thrive Holdings acquires ADT,"OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",,https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/,https://techcrunch.com/feed/,2026-10-29T19:56:19Z,5,Tech
+Popcorn bucket innovation is at an all-time low and the Dune: Part Three 'Double Sandworm' is proof,Just what the Sandworm bucket needed: a second hole. ,https://www.engadget.com/img/gallery/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/l-intro-1793302293.jpg,https://www.engadget.com/2301587/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/,http://www.engadget.com/rss-full.xml,2026-10-29T19:40:27Z,5,Tech
+New Cisco firewall zero-day being actively exploited,"
+		
+					  
+						
+
+
+
+
+A high-severity flaw in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) and Cisco Secure Firewall Threat Defense (FTD) is under active exploitation to crash vulnerable devices.
+
+
+
+The vulnerability, tracked as CVE-2026-76418 and rated 8.6 in severity, is due to logic errors when secondary authentication is configured on a tunnel group, Cisco said in its advisory. It could allow a remote, unauthenticated attacker to send a crafted request when connecting to the SSL remote access VPN that results in a device reload and thus denial of service.
+
+
+
+Vulnerable products
+
+
+
+“If the running configuration contains the webvpn keyword and SSL VPN is enabled on at least one interface, the configuration is vulnerable,” the advisory said. “If tunnel-group-list enable is configured, check all tunnel groups, including the default tunnel group, DefaultWEBVPNGroup, for secondary-authentication-server-group. If tunnel-group-list enable is absent or has been removed using the no tunnel-group-list enable command, check the default tunnel group, DefaultWEBVPNGroup, for secondary-authentication-server-group because disabling the group list does not remove exposure when that default group uses secondary authentication.”
+
+
+
+The company says there are no workarounds.
+
+
+
+Cisco has released fixes in Secure Firewall ASA versions 9.16.4.104, 9.18.4.96, 9.20.4.50, 9.22.3.200, 9.23.1.48, 9.24.1.27, and 9.24.10.1.
+
+
+
+Patched releases for Secure FTD are versions 7.0.11, 7.2.13, 7.4.9, 7.6.7, 7.7.14, 10.0.3, and 10.1.1.
+
+
+
+To assist customers in isolating vulnerable products, Cisco provides the Cisco Software Checker, which identifies software impacted by security advisories and returns the earliest release that fixes the flaws.
+
+
+
+Mitigation
+
+
+
+Cisco urges customers to update immediately but offers a temporary mitigation for the flaw: disable secondary authentication on any user-configured tunnel group list or on the default tunnel group, DefaultWEBVPNGroup.
+
+
+
+However, it warned, “While this mitigation has been deployed and was proven successful in a test environment, customers should determine the applicability and effectiveness in their own environment and under their own use conditions. Customers should be aware that any workaround or mitigation that is implemented may negatively impact the functionality, performance, and/or security posture of their network based on intrinsic customer deployment scenarios and limitations.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4242420-0-19757000-1793302310-shutterstock_180216653.jpg?quality=50&strip=all,https://www.csoonline.com/article/4242420/new-cisco-firewall-zero-day-being-actively-exploited.html,https://www.csoonline.com/feed/,2026-10-29T19:31:38Z,22,Cybersecurity
+Fake crypto app on Apple App Store linked to $23K wallet theft,"A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",,https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/,https://www.bleepingcomputer.com/feed/,2026-10-29T19:23:41Z,0,Cybersecurity
+GM to pay $220 million to resolve claims it sold driving habits data,"General Motors has agreed to pay $220 million to settle claims that it illegally sold driver and location information to data brokers, as reported earlier by Reuters. The agreement, which resolves a complaint from a coalition of 36 US attorneys general, requires GM to limit the driving data it collects and obtain &#34;express consent&#34; from […]",,https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit,https://www.theverge.com/rss/index.xml,2026-10-29T19:19:28Z,5,Tech
+"Where was my invite to the — wait, what? Airbnb had a gala?","Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala? ",,https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/,https://techcrunch.com/feed/,2026-10-29T19:17:49Z,5,Tech
+Meta quietly launches an AI fashion app called Style Sketch,"The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",,https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/,https://techcrunch.com/feed/,2026-10-29T19:14:36Z,6,Tech
+"ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories","Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn&#39;t.
+
+There&#39;s a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1600/t-day.jpg,https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T19:11:58Z,9,Cybersecurity
+Trump declares robot imports a national security threat,"President orders trade talks on foreign-made factory robots, threatens tariffs.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/6k_quick_delivery_robots-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/,https://arstechnica.com/feed/,2026-10-29T19:07:53Z,0,Tech
+Hacker may have stolen millions in a malware attack against online poker players,Wired has the story of a superuser cheating scandal.,https://www.engadget.com/img/gallery/hacker-may-have-stolen-millions-in-a-malware-attack-against-online-poker-players/l-intro-1793300458.jpg,https://www.engadget.com/2301500/hacker-may-have-stolen-millions-in-a-malware-attack-against-online-poker-players/,http://www.engadget.com/rss-full.xml,2026-10-29T19:03:18Z,5,Tech
+You can generate and edit Google Docs files directly in Gemini chats now,"Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]",,https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs,https://www.theverge.com/rss/index.xml,2026-10-29T18:45:31Z,6,Tech
+Netflix is making a live-action PUBG show written and directed by Donald Glover,"The streamer also has an Assassin&#39;s Creed series in the works, along with a Gears of War feature film.",https://www.engadget.com/img/gallery/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/l-intro-1793299226.jpg,https://www.engadget.com/2301458/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/,http://www.engadget.com/rss-full.xml,2026-10-29T18:45:00Z,0,Tech
+Don't expect more Assassin's Creed remakes anytime soon,"Ubisoft shared some updates on the franchise, including confirmation of a New Game+ option for Assassin&#39;s Creed Valhalla.",https://www.engadget.com/img/gallery/dont-expect-more-assassins-creed-remakes-anytime-soon/l-intro-1793298942.jpg,https://www.engadget.com/2301452/dont-expect-more-assassins-creed-remakes-anytime-soon/,http://www.engadget.com/rss-full.xml,2026-10-29T18:40:00Z,1,Tech
+Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware,"A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",,https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/,https://www.bleepingcomputer.com/feed/,2026-10-29T18:38:26Z,9,Cybersecurity
+NVIDIA CEO Jensen Huang may have been the target of a Chinese government spy,President Trump reportedly chose to do nothing in response.,https://www.engadget.com/img/gallery/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/l-intro-1793298712.jpg,https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/,http://www.engadget.com/rss-full.xml,2026-10-29T18:34:43Z,0,Tech
+Report: Trump did nothing with intel that China planted spy close to Nvidia CEO,"Spy accused of exploiting Trump ties to Huang, funneling secrets to China.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298607192-1024x648.jpg,https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/,https://arstechnica.com/feed/,2026-10-29T18:29:12Z,0,Tech
+Army pilots are trying virtual reality to stay more alert in flight,The 101st Combat Aviation Brigade is testing the NeuroTrainer as a possible readiness tool for their aviators.,,https://www.defenseone.com/technology/2026/10/army-pilots-are-trying-virtual-reality-stay-more-alert-flight/416915/,https://www.defenseone.com/rss/all/,2026-10-29T18:23:53Z,0,Defense
+Meta will now alert parents if teens 'repeatedly' search for self-harm content on Facebook,The company will also notify parents about conversations with Meta AI.,https://www.engadget.com/img/gallery/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/l-intro-1793297699.jpg,https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/,http://www.engadget.com/rss-full.xml,2026-10-29T18:20:21Z,5,Tech
+Ikea&#8217;s colorful donut-shaped smart lamp is $20 off,"With its playful design, versatility, and relatively affordable price, the Ikea Varmblixt quickly became one of my colleague Jennifer Pattison Tuohy’s new favorite smart light products when she tested it in April. Now, the donut-shaped lamp is on sale for $79.99 ($20 off) through November 11th at Ikea. Don’t let us tell you where you […]",,https://www.theverge.com/gadgets/1022440/ikea-varmblixt-smart-lamp-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-29T18:18:36Z,0,Tech
+Turning a solar power system into its own backup,Plant design allows it to run on either stored solar heat or combustion.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-2-1152x648.jpeg,https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/,https://arstechnica.com/feed/,2026-10-29T18:02:26Z,0,Tech
+Granola crunches up a dictation feature to compete with Wispr,"Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",,https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/,https://techcrunch.com/feed/,2026-10-29T17:54:38Z,6,Tech
+Apple’s new laptop supports one of the coolest features for color pros,"The new MacBook Pro brings with it a bunch of firsts for Apple laptops, the two flashiest being an OLED display and touchscreen functionality. But as an image-accuracy enthusiast, trained calibrator, and resident display expert, what excites me most about the MacBook Pro with PROLED XDR Display is the technology it uses to display an […]",,https://www.theverge.com/1022347/apple-macbook-supports-new-cmf,https://www.theverge.com/rss/index.xml,2026-10-29T17:48:09Z,6,Tech
+Utah charges Kalshi and its CEO with illegally promoting online gambling,"Utah has filed criminal charges against Kalshi and its executives, accusing the prediction market of breaking anti-gambling laws, as reported by The Salt Lake Tribune and the Associated Press. The state has filed 14 charges against Kalshi, as well as CEO Tarek Mansour and COO Luana Lopes Lara, including 12 counts of illegally promoting online […]",,https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges,https://www.theverge.com/rss/index.xml,2026-10-29T17:40:23Z,5,Tech
+Can inertial navigation make ground-robot swarms real?,Two startups are equipping small wheeled robots with a GPS-free nav package.,,https://www.defenseone.com/defense-systems/2026/10/inertial-navigation-ground-robot-swarms/416914/,https://www.defenseone.com/rss/all/,2026-10-29T17:30:14Z,0,Defense
+Data centers could send US climate pollution skyrocketing,"The US power sector could release 42 percent more planet-heating carbon dioxide pollution by 2030 than it did in 2025 as it builds out more fossil fuel infrastructure to meet data center electricity demand, according to a new analysis by the Sierra Club. That would essentially wipe out 15 years of greenhouse gas reductions. CO2 […]",,https://www.theverge.com/science/1022258/data-centers-climate-change-carbon-dioxide-pollution-gas,https://www.theverge.com/rss/index.xml,2026-10-29T17:10:46Z,0,Tech
+U.S. investigated Chinese spy plot aimed at Nvidia CEO,"A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times. ",,https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/,https://techcrunch.com/feed/,2026-10-29T16:42:32Z,8,Tech
+When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis,"Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.
+The post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis appeared first on SecurityWeek.
+",,https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/,https://www.securityweek.com/feed/,2026-10-29T16:30:00Z,2,Cybersecurity
+"Google admits AI search makes less money, but it's fixing that with more ads","Google&#39;s negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg,https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/,https://arstechnica.com/feed/,2026-10-29T16:24:55Z,5,Tech
+Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction,"rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI.",,https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/,https://techcrunch.com/feed/,2026-10-29T16:21:00Z,5,Tech
+SuperMe raises $20M for its network of AI expert profiles,"SuperMe just raised $20 million to let you pester AI clones of Silicon Valley’s savviest people about your career.
+",,https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles/,https://techcrunch.com/feed/,2026-10-29T16:19:43Z,5,Tech
+This open source project lets you sync Withings data to other apps without a subscription,"When it was revealed earlier this month that Withings would require new users to subscribe to a Withings Plus subscription to sync heath data from the company&#39;s devices to third-party apps, Tom Anthony, who was already fed up with the Withings mobile app which they describe as a &#34;bloated mess,&#34; became motivated to &#34;free&#34; their […]",,https://www.theverge.com/tech/1022214/yourownweigh-sync-withings-smart-scale-data-wireless-web-app-free,https://www.theverge.com/rss/index.xml,2026-10-29T16:14:06Z,1,Tech
+Chrome extensions with 13.4 million installs caught hijacking searches,A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users&#39; searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...],,https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/,https://www.bleepingcomputer.com/feed/,2026-10-29T16:10:31Z,0,Cybersecurity
+ThermoWorks debuts shorter version of its RFX Meat wireless probe for small cuts,The RFX Meat Mini offers nearly identical performance to the full-sized grilling probe.,https://www.engadget.com/img/gallery/thermoworks-debuts-shorter-version-of-its-rfx-meat-wireless-probe-for-small-cuts/l-intro-1793289798.jpg,https://www.engadget.com/2301085/thermoworks-debuts-shorter-version-of-its-rfx-meat-wireless-probe-for-small-cuts/,http://www.engadget.com/rss-full.xml,2026-10-29T16:04:13Z,0,Tech
+Joshua Kushner’s Thrive Holdings is acquiring ADT for $7.6 billion,"The Joshua Kushner-led Thrive Holdings is acquiring ADT in an all-cash deal valued at $7.6 billion. The deal is expected to close in the first quarter of 2027 and will take ADT private, as reported earlier by Bloomberg. Joshua Kushner is the brother of President Donald Trump&#39;s son-in-law, Jared Kushner. Thrive Holdings was founded last […]",,https://www.theverge.com/tech/1022295/joshua-kushner-thrive-holdings-adt-acquisition,https://www.theverge.com/rss/index.xml,2026-10-29T16:03:28Z,0,Tech
+Microsoft’s AI future has fewer jobs,"To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft&#39;s workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and […]",,https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad,https://www.theverge.com/rss/index.xml,2026-10-29T16:00:00Z,5,Tech
+"Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions","A flaw in the Linux kernel&#39;s TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel&#39;s own CVE team rates it 9.8 out of 10 on the CVSS scale.
+
+Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcSWXTg8eHlxb0m5-m8xCEly9KQO-0qKV9c7QD7fF51aCb4HUEucmb657vogvKmlA8ra_4kMI6i_w11eYPIVvPSEBnuKnPg9E_HpEw0H1czq883zm_NaUEzarlfXlLd2OKd4b2jbPmMDXvWloR9iNa748-3xhEjD5wNuIznKGTmNwIV3CSeoBkt61zN5o/s1600/linux-dos.png,https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T15:57:05Z,6,Cybersecurity
+Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners,"Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.
+
+The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg,https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T15:20:29Z,6,Cybersecurity
+FromSoftware delays The Duskbloods until 2027,The studio is taking more time to refine the &#34;rules and balance&#34; of the Nintendo Switch 2 exclusive.,https://www.engadget.com/img/gallery/fromsoftware-delays-the-duskbloods-until-2027/l-intro-1793286117.jpg,https://www.engadget.com/2300955/fromsoftware-delays-the-duskbloods-until-2027/,http://www.engadget.com/rss-full.xml,2026-10-29T15:02:41Z,1,Tech
+"Google Says Gemini 4 Carbon Leads in Finding, Exploiting and Fixing Vulnerabilities","Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program.
+The post Google Says Gemini 4 Carbon Leads in Finding, Exploiting and Fixing Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/,https://www.securityweek.com/feed/,2026-10-29T15:01:00Z,4,Cybersecurity
+"Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy","Mintive was founded by two engineers who have been working on AI for decades through Google Brain, Coursera. It&#39;s platform promises to help IT easily control enterprise agents ",,https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/,https://techcrunch.com/feed/,2026-10-29T15:00:00Z,8,Tech
+How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI,"Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure.
+The post How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI appeared first on SecurityWeek.
+",,https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/,https://www.securityweek.com/feed/,2026-10-29T15:00:00Z,6,Cybersecurity
+The NYT Cooking app is testing AI recipe modifications,"The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it&#39;s sparked some drama among users. NYT Cooking senior editor Genevieve Ko announced the feature last Friday, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any number […]",,https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool,https://www.theverge.com/rss/index.xml,2026-10-29T14:39:37Z,6,Tech
+Microsoft fixes Remote Desktop failures caused by recent Windows updates,Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the &#34;Administrator protection&#34; security feature is enabled. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/,https://www.bleepingcomputer.com/feed/,2026-10-29T14:35:40Z,1,Cybersecurity
+"Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round","On Thursday, AI app, Wabi, now describing itself as a &#34;personal agent,&#34; said it has raised $55 million at a $1.25 billion valuation.",,https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/,https://techcrunch.com/feed/,2026-10-29T14:35:26Z,6,Tech
+There’s one week left to preorder the Ocarina of Time remake for $10 off,"The long-awaited remake of The Legend of Zelda: Ocarina of Time for the Nintendo Switch 2 launches next Thursday, November 5th. In other words, you have a week remaining to secure your physical edition with a $10 discount at Amazon and Walmart. Once the game launches, the cartridge-based version will almost certainly go from $59.99 […]",,https://www.theverge.com/gadgets/1022103/ocarina-of-time-remake-apple-mac-mini-ssd-hdmi-dock-deal-sale,https://www.theverge.com/rss/index.xml,2026-10-29T14:24:45Z,5,Tech
+Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps,"Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.
+The post Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/,https://www.securityweek.com/feed/,2026-10-29T14:18:03Z,4,Cybersecurity
+3 Ways AI Agents Already Operate in Your Browser,"AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...]",,https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/,https://www.bleepingcomputer.com/feed/,2026-10-29T14:00:10Z,2,Cybersecurity
+"Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can&#39;t.  ,,https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/,https://techcrunch.com/feed/,2026-10-29T14:00:00Z,5,Tech
+Anthropic is asking Wall Street to believe in AGI,"Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start […]",,https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview,https://www.theverge.com/rss/index.xml,2026-10-29T14:00:00Z,5,Tech
+CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks,The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...],,https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/,https://www.bleepingcomputer.com/feed/,2026-10-29T13:59:48Z,6,Cybersecurity
+Amazon’s AI shopping assistant can now edit your grocery lists and gift registries,"Amazon is adding several new features to its AI shopping assistant, including ways to create, edit, and move items between shopping lists and gift registries. As an example, Amazon says you can now ask Alexa for Shopping to &#34;Create a new shopping list&#34; or &#34;Show me what&#39;s left on my wedding registry.&#34; The ecommerce giant […]",,https://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries,https://www.theverge.com/rss/index.xml,2026-10-29T13:52:48Z,5,Tech
+Bluesky blocks links to leaked DHS employee data as government seeks takedowns,"The social networking site is facing criticism for blocking access to the site, which identifies thousands of ICE agents and other employees working for Homeland Security.",,https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/,https://techcrunch.com/feed/,2026-10-29T13:43:53Z,0,Tech
+"Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities","The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.
+The post Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/,https://www.securityweek.com/feed/,2026-10-29T13:42:52Z,2,Cybersecurity
+"Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities","Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.
+
+&#34;It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMb78BxIXnGaXFzCXPdswdQZsuh8rz63Y22pLX3cOkgRgaPv3KJgw6fRULDT3am1YO4eA1obnh0aOdxZy4KVZMww8sxNOtxzZXYcouotzbB25LVdJrCeDk0MQsgCmsYQBAaGdwyhmiMNa2Y90ujuXFXZPLTIrOo1PB6vtWqWAXygOvM72cEmXvHTN9Ktw/s1600/google-gemini.jpg,https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T13:42:40Z,6,Cybersecurity
+DoorDash to acquire Instacart for $17B,"The acquisition would bring two major players in on-demand delivery under one roof, combining DoorDash’s dominance in restaurant takeout with Instacart’s reach in grocery delivery. ",,https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/,https://techcrunch.com/feed/,2026-10-29T13:40:57Z,3,Tech
+This $149 digital candle uses AI to accurately simulate a flickering flame,"After engineering a flexible version of Tetris that could be wrapped around a magazine, Kevin Bates&#39; latest creation is a digital candle that uses a custom AI model to accurately simulate the appearance of a flickering flame across a grid of LEDs. It&#39;s a far cry from the types of devices Bates is typically known […]",,https://www.theverge.com/tech/1022113/kevin-bates-arduboy-digital-candle-ai-simulate-flame,https://www.theverge.com/rss/index.xml,2026-10-29T13:37:56Z,6,Tech
+Anthropic’s business plan: Build God or die trying,The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it&#39;s in the business of selling IT […],,https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive,https://www.theverge.com/rss/index.xml,2026-10-29T13:30:00Z,0,Tech
+BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts,"BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks.
+The post BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts appeared first on SecurityWeek.
+",,https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/,https://www.securityweek.com/feed/,2026-10-29T13:26:49Z,5,Cybersecurity
+Apple finally combined a toaster and a refrigerator,"For more than 15 years, Apple has had a pretty simple answer to the idea of a touchscreen MacBook: no. Yesterday, Apple finally decided to think different and announce one anyway. &#34;You&#39;ve gotta touch it to believe it,&#34; says Apple CEO John Ternus. He might be right: I haven&#39;t yet touched it, and I still […]",,https://www.theverge.com/report/1022013/apple-touchscreen-macbook-pro-toaster-refrigerator,https://www.theverge.com/rss/index.xml,2026-10-29T13:21:02Z,1,Tech
+Russian Help Would Make North Korea’s Missile-test Flurry Worse News,Many security analysts have attributed North Korean missile progress to the closer relationship between North Korea and Russia.,https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-29-221401.jpg,https://thediplomat.com/2026/10/russian-help-would-make-north-koreas-missile-test-flurry-worse-news/,https://thediplomat.com/category/asia-defense/feed/,2026-10-29T13:09:00Z,1,Defense
+Fake Anthropic AI previews lure in overeager employees,"
+		
+					  
+						
+
+
+
+
+Everyone wants to know what Anthropic is up to, and hackers are gleefully exploiting the fact.
+
+
+
+New research from cybersecurity company Cofense describes a phishing campaign that hooks overeager enterprise users by making them think they are getting an invite to a private invite-only Anthropic preview.
+
+
+
+In reality, adversarial actors are trying to steal Google and Microsoft login credentials, exploiting video teleconferencing software GoTo Webinar branding to do so.
+
+
+
+“It sells exclusivity,” said Frank Dickson of Dickson Research. “Fear of missing out is the oldest lure in the book.”
+
+
+
+Every organization is trying to figure out where AI fits, he noted, and a private preview of Anthropic’s newest technology is exactly the invitation an ambitious employee would want to accept. “The attackers did not pick Anthropic at random,” he said. “They picked whatever is hottest in the news cycle. Next month, it may be another name.”
+
+
+
+How attackers lure users with spoofed Anthropic invites
+
+
+
+GoTo Webinar is a widely used platform, and its meeting invitation emails are typically not blocked by security tools. The Cofense researchers found that attackers are exploiting this fact by sending what seems to be an invitation email from a legitimate sender; when users click on the link to register for the fake webinar, they are instead sent to a compromised URL.
+
+
+
+The email offers what the researchers call a “tantalizing” offer: “This private, invitation-only virtual session brings together a select group of participants to a focused conversation on AI systems, research, and the future of frontier models,” it reads.
+
+
+
+A URL shortener circumvents email security tools, and the attackers use subdomains and dashes (-) to hide the malicious URL. The link itself appears to have been generated by Zapier, a legitimate company whose tools are designed to work with Claude, ChatGPT, and other AI compatible with Model Context Protocol (MCP).
+
+
+
+The email sender address appears to be customercare@gotowebinar[.]com (GoTo Webinar’s website is actually www.goto.com). The text contains no obvious spelling errors, and the email contains GoTo Webinar branding. However, the researchers noted, the email sender’s name is “Austin from nthropic,” with the “A” missing.
+
+
+
+“Although this is a small misspelling, it is still a useful warning sign,” they pointed out.
+
+
+
+If the phishing link is clicked, a Cloudflare CAPTCHA page appears, and must be completed before the login prompt is presented. This serves as the first of two checkpoints to prevent security tools from scanning attackers’ websites.
+
+
+
+“Because CAPTCHAs are common on legitimate websites, phishing recipients may believe all is well and everything is secure,” the researchers explained.
+
+
+
+Once the CAPTCHA is completed, victims are led to a Zoom-spoofing invitation page. If they want to “attend” the fake event, they must register, and they are prompted to enter their work email address. When they click “Continue with Google” or “Continue with Microsoft,” yet another CAPTCHA page appears.
+
+
+
+Both CAPTCHA pages seem to be good at detecting and blocking analysis by VPN services, scanners, Tor browsers, and other security tools, the researchers noted. Also, because there are two distinct CAPTCHA pages, such tools may not be able to follow every step in the attack.
+
+
+
+“A CAPTCHA was built to keep bots out,” Dickson pointed out. “Here, it keeps the security scanners out and lets the victims in.”
+
+
+
+The fake Google and Microsoft login pages differ a bit, however. The spoofed Google page does not capture passwords, only usernames, which the researchers surmise is due to a misconfiguration; the spoofed Microsoft page does collect both usernames and passwords.
+
+
+
+But both are “remarkably similar” to their respective legitimate pages, and their subdomains are “tricky.” The fake Google URL is goo[.]gle-access-eventregister[.]icu, while the Microsoft URL closely mimics real Office and Sharepoint domains, using office[.]com-access-sharepoint[.]com.
+
+
+
+Once credentials are submitted, neither login offers a confirmation message, nor does it redirect to legitimate vendor pages. But by that point, attackers have already succeeded at exfiltrating credentials. That means they could compromise an account, access the sensitive documents in that account, or use it as an initial attack vector to further infiltrate the enterprise, the researchers explained.
+
+
+
+They advised checking if the branding of a message remains consistent from the email to a login page, searching for small inconsistencies such as minor misspellings, and reminding employees that both the URL and domain determine whether a login page is legitimate.
+
+
+
+“Although the logos and design of the page may look correct, threat actors are skilled at mimicry,  especially now with the use of AI,” the researchers noted.
+
+
+
+It’s not the employees’ fault
+
+
+
+The AI industry’s habit of gated previews and waitlists does not help in these situations, Dickson noted; it trains people to expect exactly this kind of invitation.
+
+
+
+“Start with the cracks the attackers left showing,” he advised: The sender supposedly came from “nthropic,” the email carried GoTo Webinar branding, the registration spoofed a Zoom meeting page, and the login pages were from Google or Microsoft. That’s three brands in three clicks, he noted.
+
+
+
+The fake login domains, like office[.]com-access-sharepoint[.]com, are built to be skimmed, not read, he pointed out. And, while the Google page collected only usernames, which may be a configuration error, the threat actors behind this campaign will likely fix that.
+
+
+
+“Training helps, but I would not hang the defense on an employee squinting at a URL at 4:45 on a Friday,” Dickson said; how much a stolen password is worth is a leadership decision, not a test the employee fails.
+
+
+
+Phishing-resistant multi-factor authentication (MFA) such as passkeys makes a stolen password far less valuable, he noted. But enterprises ultimately have a short to-do list to allow them to defend themselves from this sort of scam, Dickson said:
+
+
+
+
+Verify any AI preview invitation through an account team or a known contact.
+
+
+
+Treat branding that changes from email to meeting page to login page as a red flag.
+
+
+
+Roll out phishing-resistant MFA. If someone entered credentials on one of these phishing login pages, reset them and review that account’s activity.
+
+
+
+
+“Bottom line: This campaign uses trusted tools to defeat defenses built on trust,” Dickson said. “The employee should not be the last line of defense.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241895-0-54071000-1793279246-shutterstock_2525206127.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241895/fake-anthropic-ai-previews-lure-in-overeager-employees.html,https://www.csoonline.com/feed/,2026-10-29T13:05:00Z,19,Cybersecurity
+Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions,"The update allows you to use Alexa to create lists, register them, see what&#39;s on them, and add or edit items. You can also manage subscriptions.",,https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/,https://techcrunch.com/feed/,2026-10-29T13:00:00Z,1,Tech
+Who will you learn from in 6 days at TechCrunch Founder Summit? Meet the founders and investors taking the stages,"Six days from now, TechCrunch Founder Summit brings experienced founders, investors, and operators to Boston on Nov. 4 to share the decisions, mistakes, pivots, and lessons that shaped their companies. Register before it starts for ticket savings and deals.",,https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/,https://techcrunch.com/feed/,2026-10-29T13:00:00Z,0,Tech
+"Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions","The update allows you to use Alexa to create lists, register them, see what&#39;s on them, and add or edit items. You can also manage subscriptions with the AI bot.",,https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/,https://techcrunch.com/feed/,2026-10-29T13:00:00Z,6,Tech
+Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure,Deepgram said that it is committed to keep Pipecat open source. ,,https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/,https://techcrunch.com/feed/,2026-10-29T13:00:00Z,5,Tech
+"Massive leak exposes 41,000 DHS workers and undercover ICE agents","The leak reveals undercover agents, surveillance groups, and sensitive DHS access.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/ice-agent-1024x648.jpg,https://arstechnica.com/security/2026/10/massive-leak-exposes-41000-dhs-workers-and-undercover-ice-agents/,https://arstechnica.com/feed/,2026-10-29T12:58:34Z,0,Tech
+"Over 41,000 DHS Employee Records Leaked Online","The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year.
+The post Over 41,000 DHS Employee Records Leaked Online appeared first on SecurityWeek.
+",,https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/,https://www.securityweek.com/feed/,2026-10-29T12:54:14Z,1,Cybersecurity
+DoorDash acquires Instacart in $17 billion delivery service merger,The deal combines the two largest grocery delivery platforms in the US.,https://www.engadget.com/img/gallery/doordash-acquires-instacart-in-17-billion-delivery-service-merger/l-intro-1793276637.jpg,https://www.engadget.com/2300741/doordash-acquires-instacart-in-dollar17-billion-delivery-service-merger/,http://www.engadget.com/rss-full.xml,2026-10-29T12:24:06Z,0,Tech
+Anthropic and OpenAI diverge on who should pull the plug on risky AI,"
+		
+					  
+						
+
+
+
+
+OpenAI and Anthropic agree that frontier AI systems need stronger oversight, but they are proposing sharply different approaches to stopping models that pose serious risks: Anthropic wants courts empowered to suspend dangerous systems, while OpenAI argues developers should be required to maintain and use effective shutdown controls.
+
+
+
+The proposals appear in separate submissions to California Governor Gavin Newsom following his September 18 executive order directing state officials to consider additional safeguards for frontier AI systems. Both companies support independent safety assessments and expanded reporting of incidents involving AI systems that act beyond their intended permissions.
+
+
+
+“If the AG concludes, informed by the independent evaluation, that a frontier AI company’s models pose a near-term risk of catastrophic harm, they should be able to seek a court order to suspend a model’s deployment, internal use, or further development,” Anthropic wrote in its October 15 submission.
+
+
+
+OpenAI, in its October 20 letter, called for an amendment to California’s Senate Bill 53 (SB 53).
+
+
+
+“We support amending SB 53 to require frontier developers to maintain effective shutdown controls and an enforceable duty to use them when unsafe conditions arise, and no lesser intervention would adequately address the risk,” OpenAI wrote.
+
+
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, said the two approaches address complementary needs. “The operator must contain the unsafe activity promptly. Independent review must examine both intervention and inaction,” he said.
+
+
+
+Newsom’s executive order, N-9-26, directs California’s Government Operations Agency, in consultation with the Governor’s Office of Emergency Services and national experts, to submit recommendations by November 16 on potential amendments to existing AI safety laws. The order asks officials to examine independent verification inside AI laboratories, independent checks of safety assessments, verified shutdown mechanisms, and expanded reporting of critical safety incidents. It does not itself impose these proposed requirements.
+
+
+
+Independent verification
+
+
+
+Anthropic wants evaluators to assess developers’ safety claims and publish their own findings.
+
+
+
+“We strongly support requiring independent verification of what frontier AI companies report about the risks of their models and whether those risks are sufficiently mitigated,” the company wrote.
+
+
+
+It proposed requiring developers to publish risk reports at least every six months, covering serious risks from their models, including internally used models substantially riskier than released systems. Evaluators should receive unredacted reports and access to developers’ most capable models and relevant internal information.
+
+
+
+Anthropic also proposed that developers pay into a state-administered pooled fund to finance evaluators, rather than pay them directly. It said a team from the independent evaluation organization METR had received employee-like access on a pilot basis, with further partnerships involving SecureBio and Accenture under development.
+
+
+
+OpenAI, in its letter, said it supports independent technical assessments but distinguishes them from compliance audits. Technical assessments would examine evidence behind developers’ safety claims and the effectiveness of safeguards; compliance audits would check whether companies follow their published safety frameworks and legal obligations, it added.
+
+
+
+OpenAI recommended annual independent compliance audits and focused technical assessments of serious risks arising during model training, evaluation and internal deployment. It also urged California to work with the National Institute of Standards and Technology to develop common assessment standards.
+
+
+
+Gogia said oversight requires more than funding. “Credible assurance must survive an adverse finding,” he said.
+
+
+
+Beyond a single switch
+
+
+
+OpenAI argued that a single kill switch would not address the different ways AI systems operate and are deployed.
+
+
+
+“We recommend using the term ‘shutdown controls’ because it will require the development of multiple controls and coordinated action by different actors to stop AI operations when necessary, rather than a single switch,” the company wrote in the letter.
+
+
+
+Interventions could include stopping a training run, isolating an AI agent, revoking tool or network access, or suspending a service. OpenAI said responsibilities should extend to inference providers and downstream deployers according to the operations they control. It also noted that developers cannot reliably switch off independently operated copies of open-weight models running on external systems.
+
+
+
+Anthropic similarly argued for more targeted safeguards. “We think a more apt metaphor for what frontier AI companies need to build is a circuit breaker,” it wrote, advocating controls that can contain problems at the level of an agent, customer, deployment environment, or model.
+
+
+
+For enterprises, Gogia said, contractual shutdown responsibilities should match the controls each party actually possesses. Agreements should specify intervention authority, incident-reporting cooperation, and who can authorize a restart.
+
+
+
+“Every assigned duty needs an executable control,” he said, adding that CIOs should test recovery processes rather than assume switching to an alternative model will preserve safe operations. Both companies also called for broader reporting of incidents involving models that circumvent safeguards or take unauthorized actions.
+
+
+
+The article originally appeared on ComputerWorld.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4242128-0-99080800-1793276311-shutterstock_2319793905.jpg?quality=50&strip=all,https://www.csoonline.com/article/4242128/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai-2.html,https://www.csoonline.com/feed/,2026-10-29T12:18:19Z,2,Cybersecurity
+Windows 11 KB5127936 update released with 41 changes and fixes,"Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",,https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/,https://www.bleepingcomputer.com/feed/,2026-10-29T12:00:07Z,0,Cybersecurity
+EasySMX S10 Lite review: A Switch 2 fidget toy with a weird removable faceplate,EasySMX is using Elizabeth Holmes levels of pedantry with this faceplate situation.,https://www.engadget.com/img/gallery/easysmx-s10-lite-review-a-switch-2-fidget-toy-with-a-weird-removable-faceplate/l-intro-1792686295.jpg,https://www.engadget.com/2294413/easysmx-s10-lite-review/,http://www.engadget.com/rss-full.xml,2026-10-29T12:00:00Z,1,Tech
+DoorDash is acquiring Instacart for around $17 billion,"DoorDash has announced that it&#39;s buying Instacart in a deal valued at approximately $17 billion. The acquisition will give DoorDash a bigger presence in online grocery delivery via Instacart&#39;s established grocery marketplace and retailer partnerships. DoorDash, which started as a restaurant courier service, already has its own grocery delivery business, but that faces ongoing competition […]",,https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement,https://www.theverge.com/rss/index.xml,2026-10-29T11:56:35Z,9,Tech
+"Imposter abused trust in OpenAI, Anthropic, and 30 others to hunt for secrets","
+		
+					  
+						
+
+
+
+
+Attackers are impersonating AI agents from companies including OpenAI, Anthropic, and Meta in a bid to trick organizations into exposing sensitive credentials, according to researchers who observed a single threat actor cycling through dozens of fake bot identities while probing enterprise web servers for secrets.
+
+
+
+A single threat actor was seen posing as approximately 32 AI bots, while probing organizations across multiple industries. Sought files included those used to store passwords, API keys, and cloud credentials.
+
+
+
+A malicious scanner used by the attacker ran from an unnamed major cloud provider. “It ignores web pages and requests files that commonly store secrets, including .env configuration files, cloud credential files, private SSH keys, and server environment data, working from a list of roughly 90 file paths,” Cequence’s director of threat research, Will Glazier, said in a blog post.
+
+
+
+Collin Hogue-Spears, senior director of solution management at Black Duck, who reviewed Cequence’s findings, points out that the scanner tested whether websites treated an AI bot’s self-declared name as proof of its identity. “The user-agent header is where a visitor names itself, and setting it costs nothing,” he said.
+
+
+
+Glazier said defending against such impersonation requires verifying every claimed identity before trusting it.
+
+
+
+While Cequence confirmed observing extensive scanning activity attributed to a single threat actor, it did not report a breach. “On one day in October, the actor reached 48% of the Cequence-protected organizations that saw any AI bot traffic,” the company said.
+
+
+
+A rotating cast of AI identities hunts for secrets
+
+
+
+According to Glazier, the scanner cycled through roughly 32 AI bot identities and targeted organizations in financial services, retail, telecommunications, energy, and software. The activity was observed from at least late September through late October 2026.
+
+
+
+Instead of crawling publicly accessible pages, the scanner requested sensitive paths associated with configuration and credential files. Working through a list of approximately 90 file paths, it sent bursts of 50 to 190 requests in about eight seconds before moving on, Cequence said.
+
+
+
+The same bot machine was observed claiming to represent OpenAI, Anthropic, Meta, and Perplexity within seconds. It also used more than 300 cloud addresses in a single day, making static IP blocklists less effective as a standalone defense.
+
+
+
+“Fraud is now polymorphic: AI lets attackers vary their approach every time, so legacy, static fraud defenses decay faster than teams can update them,” warned Patrick Harr, chief executive officer at DataVisor. However, institutions that make real-time decisioning the foundation, with detection that adapts as quickly as the threats do, can use AI to defend as effectively as attackers do, he noted.
+
+
+
+Nearly all the scanner’s requests were blocked or failed, Cequence noted.
+
+
+
+Don’t trust the agent’s name, verify it
+
+
+
+Cequence recommends verifying AI crawlers through published address ranges, signed requests, or direct integrations rather than relying on self reported identities. Security teams should also flag bots that request credential files, keep secrets out of web-accessible directories, and assess automated traffic based on its behavior.
+
+
+
+Shane Barney, chief information security officer at Keeper Security, said organizations must extend zero-trust controls and least-privilege policies to AI agents, API keys, and service accounts. He also urged businesses to replace long-lived local credentials with centrally managed secrets.
+
+
+
+“When an identity starts looking for sensitive files it shouldn’t need, real-time threat detection must flag and terminate that machine session instantly,” Barney added.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4242088-0-09346100-1793274787-shutterstock_editorial_2276608417.jpg?quality=50&strip=all,https://www.csoonline.com/article/4242088/imposter-abused-trust-in-openai-anthropic-and-30-others-to-hunt-for-secrets.html,https://www.csoonline.com/feed/,2026-10-29T11:52:51Z,11,Cybersecurity
+Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls,"A flaw in Telegram for Android allowed an attacker to run code on a victim&#39;s phone via a voice call once the victim answered, according to security startup NebuSec.
+
+The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec disclosed it on October 29.
+
+The flaw can be triggered in every version from",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1600/telegram.jpg,https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T11:39:18Z,4,Cybersecurity
+The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers,"AI is beginning to take over much of the work that has traditionally defined the security analyst&#39;s job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s1600/conf.jpg,https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T11:33:41Z,9,Cybersecurity
+"26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories","26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.
+
+Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and reported the results on October 28. Most were keys for cloud and AI services, led by",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg,https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T11:33:15Z,0,Cybersecurity
+New Cisco firewall zero-day exploited to crash SSL VPN devices,Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...],,https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/,https://www.bleepingcomputer.com/feed/,2026-10-29T11:10:13Z,16,Cybersecurity
+"SpaceX no longer needs NASA, and that's a problem for America's space agency","&#34;NASA desperately needs SpaceX, and SpaceX knows it, and Elon knows it.&#34;",https://cdn.arstechnica.net/wp-content/uploads/2026/10/spacex-nasa-slots-1152x648.jpg,https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/,https://arstechnica.com/feed/,2026-10-29T11:00:08Z,0,Tech
+Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net,"The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records.
+The post Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net appeared first on SecurityWeek.
+",,https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/,https://www.securityweek.com/feed/,2026-10-29T11:00:00Z,2,Cybersecurity
+Defense Business Brief: Tech at the edge; PACFLEET talks cyber; and more,,,https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/,https://www.defenseone.com/rss/all/,2026-10-29T10:53:47Z,0,Defense
+Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls,"Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.
+
+The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s1600/cisco-flaws.jpg,https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T10:44:46Z,14,Cybersecurity
+Apple and Google fined in South Korea over app store violations,South Korean regulators found that Apple and Google violated the country&#39;s Telecommunications Business Act.,https://www.engadget.com/img/gallery/apple-and-google-fined-in-south-korea-for-app-store-violations/l-intro-1793270417.jpg,https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/,http://www.engadget.com/rss-full.xml,2026-10-29T10:42:26Z,1,Tech
+A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards,Illicit software on the computers of some of the world’s best online poker players allowed the accused cheater to see what cards were in the victims’ hands—and trounce them at the tables.,,https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/,https://www.wired.com/feed/category/security/latest/rss,2026-10-29T10:30:00Z,3,Cybersecurity
+Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network,"Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed.
+The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network appeared first on SecurityWeek.
+",,https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/,https://www.securityweek.com/feed/,2026-10-29T10:29:25Z,12,Cybersecurity
+GitHub Launches npm Firewall to Block Malicious Packages Before Installation,"GitHub has announced that it&#39;s introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.
+
+&#34;The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,&#34; GitHub said.
+
+The feature, which currently supports only npm packages, is available in public preview",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s1600/github.gif,https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T10:26:33Z,1,Cybersecurity
+AI has come for Arizona’s water,"A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one […]",,https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc,https://www.theverge.com/rss/index.xml,2026-10-29T10:00:04Z,6,Tech
+Vulnerability exploitation rising as the root cause of many breaches,"
+		
+					  
+						
+
+
+
+
+More evidence has emerged that attackers are turning to vulnerabilities rather than phishing as a means for breaking into corporate systems.
+
+
+
+Incident response firm LevelBlue’s Q3 findings show that vulnerability exploitation accounted for 14% of initial access cases, up from 4% in Q2. The finding represents more of a comeback than a fresh surge because in Q1 LevelBlue already recorded vulnerabilities as the root cause in 20% of the intrusions it investigated.
+
+
+
+In both Q1 and the latest figures known security vulnerabilities in edge devices made them the prime target for exploitation.
+
+
+
+Verizon’s 2026 Data Breach Investigations Report — which is based on the combined evidence of multiple incident response vendors and law enforcement agencies — placed exploitation at the center of nearly a third (31%) of breaches, up from 20% the year before and ahead of credential abuse for the first time.
+
+
+
+Phishing/social engineering remain the top initial intrusion vector, accounting for 42% of breaches, down from 65% in Q2, according to LevelBlue’s Q3 report.
+
+
+
+Living on the edge
+
+
+
+Scott Doerr, experienced CISO turned founder of ForeGuard Advisory Group, said the biggest driver of the trend is exploitation of security flaws in internet-facing edge devices such as VPNs, firewalls, and remote access appliances.
+
+
+
+“LevelBlue’s most-exploited CVE lists this year are dominated by those appliances from SonicWall, Fortinet, Palo Alto, Ivanti, and BeyondTrust,” said Doerr. “They’re exposed by design, and a working exploit puts the attacker directly on the network with no user to fool and often no MFA prompt in the way.”
+
+
+
+Mitchell Spicer, co-founder and COO of Revelion AI, an autonomous AI penetration-testing platform, backed this assessment.
+
+
+
+“Phishing is still a major threat, but exploiting a vulnerability can give an attacker a direct route into a system without needing to persuade an employee to click a link,” said Spicer. “The opportunity is particularly attractive when organizations have internet-facing services that are unpatched, misconfigured, or forgotten.”
+
+
+
+AI offers a double-edged sword
+
+
+
+AI is adding another dimension to the cat and mouse game between attackers and enterprise security defenders.
+
+
+
+“It [AI] is making parts of reconnaissance and vulnerability discovery cheaper and more accessible, which can help defenders find weaknesses but can also help attackers identify potential targets,” Spicer said. “The longer those weaknesses remain exposed, the more opportunity attackers have to find and exploit them.”
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241912-0-81663800-1793268126-shutterstock_2354016553.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241912/vulnerability-exploitation-rising-as-the-root-cause-of-many-breaches.html,https://www.csoonline.com/feed/,2026-10-29T10:00:00Z,24,Cybersecurity
+Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August,"Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device […]
+The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek.
+",,https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/,https://www.securityweek.com/feed/,2026-10-29T09:47:10Z,18,Cybersecurity
+Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity,Google&#39;s latest Gemini 4 Carbon AI model boasts top benchmark scores in areas like cybersecurity and coding.,https://www.engadget.com/img/gallery/googles-gemini-4-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/l-intro-1793266804.jpg,https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/,http://www.engadget.com/rss-full.xml,2026-10-29T09:41:58Z,5,Tech
+Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open,"An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project&#39;s own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October.
+
+The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh65eroK1pQacKJwqeGmgp2sDta1mgCrPuNMXiwAgTi-FVZNc1V4D7qooFFc-V-XNOJzYpjYk28Y_kIkoHMNJfnQ5h2gI0-bOWlVOt9VJ9oZUpRsBzYLsSMe3oNRTfZe53dtpezOOq1MHmWhEhAigbyOMLx4jWAbcvvImY39jY1h4FMS4_OUqSDF-kZJvQ/s1600/linux-gitlab.jpg,https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T09:05:39Z,9,Cybersecurity
+Securing MCP servers before the AI rollout outpaces security,"
+		
+					  
+						
+
+
+
+
+Your company’s CTO has a plan to implement your company’s first LLM-based application. The board approved it, and now you’re finding out about it. It’s a typical story I hear all the time, and I’ve lived it myself.
+
+
+
+You’ve heard everything about models and LLMs, but now you see this new term all over the place: Model Context Protocol (MCP) servers —and the realization that you now need to make sure they are implemented securely.
+
+
+
+What is an MCP server?
+
+
+
+MCP servers are like the ODBC of the 1990s. Before ODBC, every application needed custom code to query databases. ODBC defined a single standard on how to talk to databases, and database vendors just developed a driver to talk to their solution.
+
+
+
+MCP servers work in the same way: the AI app just needs to use the standardized methods to communicate with the local MCP host, and each available tool (databases, file shares, CRMs) provides an MCP server that translates the MCP transmissions into the tool’s native format. So, you just need a driver on your MCP host to talk to any available endpoint.
+
+
+
+				
+					
+				
+			Fig.1 – MCP architecture.
+Greg Neville
+
+
+
+The MCP Hosts will be in your environment, and you can control the ingress and egress traffic allowed for each MCP Host. One MCP Host can also access more than one MCP Server, allowing greater scalability, but it also adds risk.
+
+
+
+				
+					
+				
+			Fig. 2 – Example marketing LLM application.
+Greg Neville
+
+
+
+Top priority MCP controls
+
+
+
+At this stage, define requirements before the MCP server implementation gets too far. Establish a list of requirements for the initial phase. Focus on the controls that deliver the most value and reduce the most risk.
+
+
+
+Input validation and sanitization
+
+
+
+Inputs from any indirect external sources outside your control are untrusted and should be treated as high-risk for abuse. Identifying and removing malicious input is vital for preventing misuse of an LLM application. Input validation and sanitization include strong authentication and authorization, detection of malicious code and jailbreak attempts, and filtering sensitive or regulated data.
+
+
+
+Output validation and sanitization
+
+
+
+These controls often involve enforcing a specific structure to facilitate validation, context-aware encoding and removal of unusual or unapproved data. Incorporate human oversight for higher-risk actions or other high-importance outputs, such as financial reporting.
+
+
+
+Network segmentation
+
+
+
+Segmenting MCP hosts can reduce the attack surface and limit potential abuse by restricting ingress and egress traffic to authorized systems and ports.
+
+
+
+Server hardening
+
+
+
+Servers should be configured following comprehensive guidelines such as the CIS Model. Hardening measures include disabling unnecessary or default accounts, closing unused ports and adjusting system settings to minimize vulnerabilities. Ideally, use infrastructure-as-code (IaaC) to make these servers ephemeral and further reduce the risk of a compromise spreading.
+
+
+
+Least access principle
+
+
+
+Permissions will be key in limiting the blast radius of what an attacker can do. Multiple MCP servers can be used to reduce over-permission by grouping tools that have similar access needs. Limit access to only the users, tenants and workloads that the server needs to provide the service. Also, limit token life to as short as possible in case any token is stolen.
+
+
+
+Encryption
+
+
+
+Encryption is hopefully a part of the server hardening process but needs to be called out on its own. Deploy encryption at rest and in transit end-to-end, with strong key management practices.
+
+
+
+Tool management
+
+
+
+Limiting the number of available tools on MCP hosts and restricting their capabilities to the minimum necessary can help reduce risks related to tool misuse and compromise.
+
+
+
+Third-party assessments and contracts
+
+
+
+Ensure third-party providers implement appropriate security controls, preferably verified by independent bodies such as SOC 2, HITRUST or ISO 27001/2. Contracts should specify control requirements, and any identified high-risk gaps should be addressed through remediation agreements. A Business Associate Agreement (BAA) should be in place if protected health information (PHI) is involved.
+
+
+
+Audit and logging
+
+
+
+Maintaining detailed logs of AI actions and prompts is crucial for detecting issues like hacking attempts, AI misuse and prompt abuse.
+
+
+
+Human-in-the-loop
+
+
+
+Human-in-the-loop is critical for any high-risk action that an LLM application may try to take, or any highly critical data that is produced. Verify administrative actions to critical systems before allowing them to execute or be produced.
+
+
+
+Pre-production testing
+
+
+
+An important, often-overlooked step is to monitor implementation and perform pre-production testing to make sure your key controls work correctly. Some potential tests would be:
+
+
+
+
+Enter fake PHI, SSNs, account numbers or whatever data is appropriate to your environment to make sure those data types are being flagged or blocked.
+
+
+
+Test authentication and authorization by logging in and confirming what tools you can see and access.
+
+
+
+Test inbound and outbound network filtering to confirm only approved systems are reachable.
+
+
+
+Confirm the server(s) have been hardened according to the hardening policy.
+
+
+
+Confirm all critical events and actions are being logged.
+
+
+
+
+You’ve tried to work with the CTO and get him to agree to all these controls being implemented, but you don’t see the project plan changing or you’re getting fuzzy dates back. You may need to enlist other executives to help influence the decision.
+
+
+
+The risk management approach
+
+
+
+If you have a Risk Committee in place, it could help prioritize control requirements and timelines, so they’re implemented sooner rather than later. You need to be open to prioritizing certain controls over others to avoid major roadblocks and delays in moving the product forward. A proper AI Risk Assessment will help determine the applicable threats and controls to your environment, as well as the inherent and residual risks.
+
+
+
+For an AI threat list to build your risk assessment, I use the OWASP Top 10 for LLM Applications for my assessments and reporting. Scope the threats and rate their inherent risk in your environment. For a first pass, to speed up the assessment, you can drop threats with very low or low likelihood.
+
+
+
+For the Risk Committee, however, communicate the impacts in their language to help them understand. I would communicate the issues in terms of productivity loss, downtime, loss of customer trust, regulatory fines and other industry-specific impacts, such as patient care, trading errors, bad credit decisions, unfair claims or underwriting, worker safety and service availability.  Don’t make it a quantitative exercise; keep it qualitative but be prepared to explain your ratings to maintain your peers’ trust.
+
+
+
+Good outcomes
+
+
+
+At this point, if all went well, you have provided the governance and input to limit risk to the organization. Incidents can and will cause downtime, fines and reputational damage if key controls are not in place. Helping your organization lower the risk of this occurring is a job well done.
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241763-0-81014300-1793264584-shutterstock_2661455173_16_9.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241763/securing-mcp-servers-before-the-ai-rollout-outpaces-security.html,https://www.csoonline.com/feed/,2026-10-29T09:00:00Z,10,Cybersecurity
+"Hackers leaked details of more than 41,000 Homeland Security personnel",A hacktivist group stole the information of ICE agents and border police from Homeland Security.,https://www.engadget.com/img/gallery/hackers-leaked-details-of-more-than-41000-homeland-security-personnel/l-intro-1793262738.jpg,https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/,http://www.engadget.com/rss-full.xml,2026-10-29T08:33:46Z,5,Tech
+HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million,"Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.
+The post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek.
+",,https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/,https://www.securityweek.com/feed/,2026-10-29T08:27:16Z,5,Cybersecurity
+PHP2Shell will persist in enterprise environments for years,"
+		
+					  
+						
+
+
+
+
+Two critical vulnerabilities were announced last week in PHP, the internet’s most widely used web application runtime, and they came with the familiar warning to patch immediately. But CISOs will have to deal with the long tail of these flaws for years due to widespread PHP integration into third-party products with patching cycles customers don’t control.
+
+
+
+NAS devices, firewalls, VPN gateways, printers, building management panels, industrial IoT devices, and human-machine interfaces (HMIs) inside operational technology (OT) networks have web panels powered by PHP runtimes that cannot be patched directly. And many of these runtimes have unsupported versions for which upstream patches are not available.
+
+
+
+Vulnerabilities in widely used technologies can linger for years, and some deployments never get patched because they sit inside products that are out of support but still in service. One year after Log4Shell was disclosed in December 2021, nearly three quarters of organizations still had assets vulnerable to the critical flaw in the ubiquitous Log4j Java library, which remained a top attack vector in real-world attacks throughout 2023.
+
+
+
+PHP2Shell (CVE-2026-109618 and CVE-2026-109619) could be even worse than Log4Shell for enterprises that cannot identify and patch all their assets — and attacks are already under way. On Monday, CISA added both vulnerabilities to its Known Exploited Vulnerabilities catalog, confirming active exploitation. Researchers had previously reported widespread scanning and attempted exploitation, but no confirmed compromise of production systems.
+
+
+
+“PHP2Shell has the potential to become a Log4Shell-scale event, but for a different reason,” Sai Molige, senior manager of threat hunting at Forescout, told CSO via email. “With Log4j, the main problem was finding a library you didn’t know you had. With PHP, much of the forgotten infrastructure will be found, but won’t have an upstream fix.”
+
+
+
+When patches for third-party appliances and software products can take weeks to arrive from vendors, security teams must reduce exposure by other means, both at the internet edge and inside internal networks. And that’s only after building an inventory of impacted assets, which is not straight forward for these flaws.
+
+
+
+The patching challenges
+
+
+
+The PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 as the official fixed versions, but relying on version numbers alone is not enough due to the way PHP is distributed. Most servers run Linux distributions that deliver application updates through their own package managers, including long-term support (LTS) distributions that bundle older PHP versions. In many cases, patches will have to be manually backported by package maintainers for those specific distros.
+
+
+
+For example, PHP 7.4, 8.0, and 8.1 are officially end-of-life, even though they’re still widely used. The PHP developers published minimal source backports for those versions to help package maintainers, but PHP 7.3 and older were not covered at all. Vulnerability intelligence firm VulnCheck found that 42% of the 2.6 million internet-facing PHP hosts it scanned were running end-of-life branches, including 27% on PHP 3.x through 7.3 and 15% on 7.4, 8.0, or 8.1.
+
+
+
+Obtaining the fix on LTS distributions requires different approaches depending on the bundled PHP version. On Ubuntu 22.04 it arrives as a free PHP 8.1 update; on Ubuntu 20.04 the PHP 7.4 fix requires a Pro subscription; on Debian 11 the fix for the bundled PHP 7.4 sits behind a Freexian extended-support contract; and on AlmaLinux 8 it arrives as a backport for the retired PHP 7.2, 7.3, and 8.0. Red Hat Enterprise Linux, SUSE, Alpine, and Amazon Linux each draw their own support boundaries and those determine whether a fix exists at all for different distro versions.
+
+
+
+The version numbers for backported patches can also be inconsistent with upstream versions, adding to the inventory challenges. For example, AlmaLinux’s patched php-8.3.33-1.el10_2.alma.1 is below the upstream’s fixed version number for that branch: 8.3.36. Therefore, a scanner that reads a PHP version banner could flag a host as vulnerable even when the distribution has applied the fix.
+
+
+
+On top of all that, there are pre-built container, virtual machine, and firmware images for all sorts of third-party enterprise products that have their own bundled runtimes and that are much harder to inspect using automated scanners.
+
+
+
+“The PHP team has done a good job in a horrible situation,” said Eylam Milner, co-founder and CTO at software supply chain security firm Echo. “The problem for most companies is they don’t know where they’re running PHP. It’s in base images and in components that bundle their own runtime, and a lot of it is on versions older than 8.2 that are past end of life.”
+
+
+
+There are no public estimates on how many enterprise appliances or IoT and OT devices might run vulnerable versions of PHP, but they exist and some are reachable from the internet. Security firm Flare used internet scans from multiple sources that covered 2,220,231 service records from PHP hosts across 224 countries. In a regional sample across a single US state they identified NAS devices, VPN gateways, remote access portals, building automation systems, and physical access controllers.
+
+
+
+“Organizations still view PHP as a basic application dependency, but it’s often embedded deep inside appliances, hosting platforms, and upstream container images where day-one patching simply isn’t an option,” said Tom Kellermann, vice president of AI security and threat research at TrendAI. “The real battle isn’t just the vulnerability; it’s visibility.”
+
+
+
+PHP is also found inside industrial devices that can be in use for a decade or more and for which firmware patches take time to develop and deploy. Some of these devices need to be isolated until fixes arrive.
+
+
+
+Vulnerability management firm Cogent Security scanned dozens of Fortune 500 customer environments on the PHP2Shell disclosure day and found 2,266 affected assets per company on average, with 926 that were running the PHP service actively and 122 that were exposed to the internet.
+
+
+
+The company’s assessment focused on servers and virtual machines, not hardware appliances and OT devices. This highlights that the problem for enterprises won’t be the unavailability of scanners, but their lack of visibility inside all types of assets. As such, organizations will need a combination of strategies to discover all PHP installations in their environments: from versions reported by host-based package managers to network scanners and software bills of materials where available.
+
+
+
+Reducing exposure while waiting for patches
+
+
+
+Having an up-to-date inventory is important, but a complete map of PHP installations does not solve the issue of runtimes bundled in third-party products, each with its own patching schedule and mitigation instructions that can range from disabling the web management interface to completely isolating the device on the network.
+
+
+
+Just to give a few examples, Palo Alto Networks scheduled updates for some of its PAN-OS devices for this week and Siemens advised customers of its RUGGEDCOM APE1808 devices for industrial networks that are also powered by PAN-OS to follow Palo Alto’s advisory. Delta Controls patched its enterprise building management platform enteliWEB, but affected HVAC and room controllers are still awaiting firmware patches. Some NetModule IIoT and industrial routers from Belden are confirmed to be vulnerable but patches are still being developed.
+
+
+
+Until patches become available, which could take weeks in some cases, organizations will have to monitor the advisories for the third-party products they use and follow the temporary mitigations instructions for each of them. There will also likely be situations where some products have reached end of life and will never receive a patch, especially those supporting legacy applications organizations still need to keep operational.
+
+
+
+For a system that cannot be updated, the measures fall into three groups:
+
+
+
+
+Take the vulnerable web application off insecure network segments
+
+
+
+Put firewall controls in front of it
+
+
+
+Assess if a compromise may have already happened
+
+
+
+
+In some cases, management over HTTP or HTTPS might not be needed and the same functionality could be achieved over SSH or other protocols. For example, both Belden and Delta advise customers to disable the embedded HTTP server until patches become available. NetScaler advises customers to keep the management GUI and API reachable only from trusted administrative networks.
+
+
+
+As far as firewall detection rules go, there are some limitations. At the application layer, Web application firewalls (WAFs) can help, but they cannot block all PHP2Shell exploits that abuse multipart data uploads because they don’t usually inspect the full body of a web request, unlike the PHP engine.
+
+
+
+A WAF can scan for known attack patterns, but it doesn’t parse the internal structure of these form uploads deeply enough to catch all possible variations, so attackers can tweak the request formatting to potentially slip past the rules. For example, if a WAF looks only at the first few kilobytes of a request, an attacker can simply pad the beginning of their payload with junk data to push the malicious exploit code past the inspection limit.
+
+
+
+Furthermore, if an attacker manages to find the direct IP address of a backend system, they could completely bypass the WAF controls. That doesn’t mean that WAF rules are useless, but they are not a silver bullet against exploits. On the cloud side, AWS, Cloudflare, and Microsoft Azure offer WAF protection rules for PHP2Shell already and there are many local enterprise WAFs that have added detection as well.
+
+
+
+The other type of firewall protection is at the network layer via intrusion prevention systems (IPS). The issue with these firewalls is that they could be bypassed if they’re not configured to decrypt HTTPS traffic. IPS vendors have already created detections: Palo Alto has Threat ID 543004; Check Point has IPS protection CPAI-2026-15172; Cisco Talos has Snort rules 67359 and 67360 and Suricata rules 3000650 to 3000652 are also available.
+
+
+
+But deploying patches and alternative mitigations does not help systems that have already been compromised. And the longer it takes to implement these measures the more likely it is that attackers might have compromised a server.
+
+
+
+“The PHP2Shell flaws went from scanning noise to confirmed remote code execution on a honeypot within days of the October 21 patches, and that gap is where most real damage happens,” said Steve Povolny, vice president of AI strategy and security research at Exabeam. “Plenty of sites weren’t patched on day one. Some of those servers were probably exploited before anyone noticed, and installing the fix now does nothing about an intruder who got in last week. Patching closes the door. It doesn’t tell you who is already inside.”
+
+
+
+Any detection and prevention effort should be accompanied by an investigation of existing logs including web server access and error logs, PHP-FPM logs, WAF and reverse-proxy logs, CDN logs, EDR and process telemetry, DNS and egress logs, authentication logs, file-integrity monitoring, and cloud audit logs.
+
+
+
+How to know if you’ve already been hacked
+
+
+
+Things to look for in those logs are PHP_SESSION_UPLOAD_PROGRESS and a PHPSESSID cookie, multipart/form-data sent to endpoints that do not accept uploads, unusually large or malformed multipart bodies, deeply nested field names, repeated POSTs from one source, and spikes in HTTP 500 errors.
+
+
+
+Admins should also look for PHP-FPM, Apache, or httpd worker processes spawning sh, bash, curl, wget, base64, or various code interpreters, unexpected child processes under the web service account, reverse shells, outbound connections from web workers, as well as new or modified .php files in web root directories, upload directories and plugin directories. Abnormal PHPSESSID cookie length or corruption, unusually large session files, and unexplained worker restarts or segmentation faults could also be signs of exploitation, according to researchers from security firm Xint.io.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/10/4241941-0-16442400-1793262430-james-hammond-FNVYos3W0AY-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4241941/php2shell-will-persist-in-enterprise-environments-for-years.html,https://www.csoonline.com/feed/,2026-10-29T08:25:00Z,23,Cybersecurity
+Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys,"Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization&#39;s SD-WAN network.
+
+The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg,https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T08:24:22Z,10,Cybersecurity
+Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day,"CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged.
+The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek.
+",,https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/,https://www.securityweek.com/feed/,2026-10-29T08:01:05Z,9,Cybersecurity
 China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.
 
 The vulnerability in question is CVE-2026-41709 (CVSS score:",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg,https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html,https://feeds.feedburner.com/TheHackersNews,2026-10-29T06:22:33Z,19,Cybersecurity
