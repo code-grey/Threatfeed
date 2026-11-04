@@ -1,4 +1,777 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+
+The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9IgE0BWDAvYzjY8wFSMADIRn69AMLYxUa-oPoOISNBOpPbxwBNoWrbXWzI6P0deiU6WDqitiIZx1gFXSAlR8xX9rj56BuU48veMEPJAGSsmQTbVPirFOCuyMc_KQxtbPfc841GZGZ-3HSYYHCGbHnzrihtwQUaMlXrT3leLzI2USh00hc9OBw4k1SCJt4/s1600/wp-exploit.jpg,https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T05:43:11Z,8,Cybersecurity
+India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market,StoryTV has more than 33 million monthly active users according to Sensor Tower figures,,https://techcrunch.com/2026/11/03/indias-eloelo-nabs-80m-from-nbc-universal-to-bet-on-the-countrys-rising-microdrama-market/,https://techcrunch.com/feed/,2026-11-04T04:45:00Z,0,Tech
+Barracuda’s security appliances have a security problem of their own,"
+		
+					  
+						
+
+
+
+
+Barracuda, which offers a wide variety of cybersecurity devices, has been bitten by a bug itself.
+
+
+
+The company has disclosed two critical and high-severity vulnerabilities that, if chained together, could allow threat actors to bypass authorization controls and gain root access to devices.
+
+
+
+They consist of a pre-authentication authorization bypass vulnerability, tracked as CVE-2026-116606 (rated a critical 9.3 severity on the common vulnerability scoring system), and a command injection vulnerability tracked as CVE-2026-111560 (rated an 8.6 high-severity on CVSS). Attackers need to have access to the admin interface of a susceptible device to successfully exploit these vulnerabilities.
+
+
+
+Barracuda has released security patches, which it advises customers to apply immediately.
+
+
+
+The vulnerabilities impact numerous popular Barracuda products
+
+
+
+Root access on an email gateway puts the attacker in the place that every inbound and outbound message passes, said Frank Dickson of Dickson Research. It may also expose the credentials and connections the gateway uses to reach the mail server and directory. “Those are the keys to the kingdom, if you will,” he said.
+
+
+
+CVE-2026-116606 and CVE-2026-111560 both impact Barracuda’s Email Security Gateway (ESG), but CVE-2026-111560 also impacts its Web Security Gateway (WSG), Web Application Firewall (WAF), WAF Control Center (WCC), Load Balancer Application Delivery Controller (ADC), and Message Archiver (BMA), the company said.
+
+
+
+Customers using these products should verify that their systems are running the latest firmware versions and have received all security patches, it advised. The device will show the latest firmware version available; if a device’s firmware is multiple versions out of date, users may need to perform several updates.
+
+
+
+Enterprises whose appliances’ admin interfaces are not publicly accessible from the web are less exposed, Barracuda said; the company advised restricting access to these interfaces to trusted internal networks and applying appropriate network access controls to limit exposure.
+
+
+
+“The biggest concern is how these two vulnerabilities could chain together,” said Jon Nelson, principal advisory director at Infotech, noting that an attacker who can bypass authentication and then exploit command injection could move from accessing an exposed appliance to executing commands on it. “Assessing each vulnerability in isolation can understate the risk,” he said.
+
+
+
+Dickson added that security leaders should read the advisory closely, as it calls one flaw “pre-authentication,” then lists “Authentication Required: Yes, administrative access.”
+
+
+
+“Both cannot be true in the usual sense,” he pointed out. Likely access here means being able to reach the admin interface over the network, without a password.
+
+
+
+“If your admin interface faces the internet, that condition is already met,” Dickson said.
+
+
+
+The advisory also labels a 9.3 severity rating as “high,” when 9.0 and above is actually “critical” on the standard scale, he pointed out. “These are small things, but labels drive patching queues,” he noted. Also, the advisory does not say whether these flaws are currently being exploited, but it does not say they are not, either.
+
+
+
+How enterprises should respond
+
+
+
+“Get the admin interface off the internet,” Dickson emphasized, noting that, as a cybersecurity consultant, he gives that advice at least a handful of times a week. “Management interfaces on edge devices are continually a source of vulnerability.”
+
+
+
+Once teams limit admin access to a trusted internal network or a dedicated management network, Dickson advised, they should then “verify the patch rather than assume it was properly installed.” From there, he said, analyze for unauthorized visitors by reviewing admin logs, check for unfamiliar accounts, and look for unexpected outbound connections from the device.
+
+
+
+History matters here, he added. In 2023, after a zero-day on this same email security gateway (ESG), Barracuda told customers with compromised appliances to replace them outright rather than rely on the patch. As he put it: “A patch fixes the lock. It does not tell you who already has a key.”
+
+
+
+Nelson agreed that enterprises should look closely at who can reach their administrative interfaces. They should, in addition, put access behind additional controls such as a properly configured zero trust access layer.
+
+
+
+“Exposing those interfaces directly to the internet was always a bad idea,” he said. “As AI makes it easier to find weaknesses and chain attacks together, that exposure becomes increasingly difficult to justify.” AI is also expanding the search for software flaws to include issues such as business logic weaknesses where an application can be made to bypass its intended controls. Authentication and authorization bypasses deserve particular attention in that context, Nelson said.
+
+
+
+As more vendors use advanced AI to examine their code, CISOs should prepare for more flaw disclosures and potentially shorter windows to respond to them, he noted. “That means identifying exposed appliances, restricting access, and having a response plan ready before the next zero day arrives,” he said.
+
+
+
+Understanding what each appliance exposes
+
+
+
+Security appliances are increasingly creating vulnerabilities in corporate networks, which is changing the cybersecurity discussion. Enterprises rely on them to protect the network, yet ultimately they are software systems with vulnerabilities of their own.
+
+
+
+“They sit exactly where attackers want to be,” Dickson noted.
+
+
+
+Firewalls, VPNs, and email gateways face the internet by design; that is their job, he said. They see sensitive traffic and hold credentials. Most cannot run the endpoint detection tools that protect laptops and servers, so a compromise can remain undetected for a long time, and every customer runs the same firmware, so one working exploit can scale to thousands of organizations.
+
+
+
+“The discussion is shifting from which box to buy to what the box itself exposes,” Dickson said. “Every appliance purchase is a decision to trust a vendor’s code at the most exposed point in the network.” It deserves the same scrutiny as any other in an enterprise, he noted.
+
+
+
+Buyers should ask their vendors four questions, he advised: Is the admin interface exposed to the internet by default; how quickly do patches ship; are they applied automatically; and what logging can users see?
+
+
+
+“The security appliance does not just protect the perimeter,” Dickson pointed out. “It is the perimeter, and it should be treated as the most attacked system an organization owns, because it is.”
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244334-0-32774300-1793766205-shutterstock_2466601291.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244334/barracudas-security-appliances-have-a-security-problem-of-their-own.html,https://www.csoonline.com/feed/,2026-11-04T04:23:10Z,24,Cybersecurity
+Node-RED authentication hole being exploited in the wild,"
+		
+					  
+						
+
+
+
+
+Months after Siemens released fixes for an authentication hole in flow-based programming tool Node-RED, it remains unpatched by many users and attackers are taking advantage of it in the wild. 
+
+
+
+The problem involves open source IoT/IIoT systems, including those embedded in critical infrastructure, deployed outside the control of CISOs and CIOs. Security firm VulnCheck discovered the exploits and disclosed details in a blog post on Monday. 
+
+
+
+“On October 30, 2026, one of our canaries caught an attacker exploiting CVE-2026-58115, an unauthenticated Node-RED admin API flaw, to deploy a flow that downloads and runs a Linux bot. The request came from an IP in Microsoft’s ASN (AS8075),” the post said. “We have since seen 16 events from the same IP against this CVE, covering several different payloads.”
+
+
+
+The core problem is that Node-RED ships with the authentication option disabled; users are supposed to change the setting before it goes live. 
+
+
+
+Patrick Garrity, the VulnCheck security researcher who wrote the post, said the fact that Node-RED deployments are popular among those outside IT makes them susceptible to unsophisticated errors like this. 
+
+
+
+“They are put in place by relatively nontechnical people,” Garrity said in an interview.
+
+
+
+Aman Mahapatra, chief strategy officer for New York City-based technology consulting firm Tribeca Softech, said the Node-RED hole is not new, but it is still being leveraged in the wild.
+
+
+
+“The condition being exploited is one Node-RED has carried for years as a default: unless an administrator configures authentication, anyone who can reach the editor can deploy flows, and the project’s own documentation says as much,” he said. “Node-RED is popular precisely because engineers can wire it up without involving IT, which also means it rarely appears in an asset inventory. It is the same pattern behind this week’s supermarket refrigeration attacks: equipment installed outside the security team’s view, reachable from the internet, with authentication switched off.”
+
+
+
+Mahapatra pointed out that the biggest danger is the nature of the way users tend to deploy Node-RED. 
+
+
+
+“It is integration middleware. A typical deployment speaks Modbus, OPC UA, MQTT or S7 to controllers on one side and to databases, brokers and cloud services on the other, and it stores credentials for all of them,” he said. “A compromised instance is a credential vault for every system it touches and a bridge across an IT/OT boundary that the network diagram says does not exist.”
+
+
+
+Another problem is that industrial system patches tend to happen on pre-planned schedules, rather than responding to emergent issues or suggested setting changes.
+
+
+
+“Siemens published its advisory on August 11, and VulnCheck caught exploitation on October 30, three days after shipping its own detections,” Mahapatra said. “Eleven weeks is a short runway in OT, where firmware updates wait for planned maintenance windows, so a meaningful share of affected gateways will remain unpatched well into next year.”
+
+
+
+Frank Dickson, principal analyst at Dickson Research, added that the details of the exploits are a good news/bad news situation for CISOs. The good news is that the attacks did not appear to have targeted industrial systems. The bad news is the attackers found and accessed those systems anyway.
+
+
+
+Noah Kenney, principal consultant at Digital 520, agreed. 
+
+
+
+“They don’t necessarily need to understand the equipment or operations connected to these gateways. They’re simply looking for systems capable of executing their commands,” he said. “That creates a concerning possibility where industrial operations could be disrupted by attackers who never intended to target critical infrastructure in the first place. Even generic malware consuming system resources or interfering with network communications could have operational consequences.”
+
+
+
+Dickson added that closing this hole may not resolve the exposure. “The report also found that some attackers skipped the bot and left web shells, hidden back doors for running commands later,” Dickson said. “Patching closes the door. It does not evict anyone already inside.”
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244307-0-42295300-1793763250-spot_cloud_3x2_06_nw_iot_internet_of_things_network_by_greenbutterfly_shutterstock_1927041545_royalty-free_digital-only_b-100891928-orig.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244307/node-red-authentication-hole-being-exploited-in-the-wild.html,https://www.csoonline.com/feed/,2026-11-04T03:33:57Z,15,Cybersecurity
+AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history,"AMD CEO Lisa Su said in the company&#39;s quarterly earnings call on Tuesday that Q3 2026 was &#34;was the largest and most profitable in our history.&#34; AMD reported a record $13.4 billion in quarterly revenue, and it&#39;s predicting it will hit another record high next quarter of $17 billion. The company&#39;s data center business is […]",,https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc,https://www.theverge.com/rss/index.xml,2026-11-04T01:15:34Z,5,Tech
+All the news about The Legend of Zelda: Ocarina of Time remake,"Ahead of the release of Rockstar Games’ Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and […]",,https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news,https://www.theverge.com/rss/index.xml,2026-11-04T01:02:53Z,0,Tech
+iPad mini OLED vs. iPad mini: What's new?,"Apple&#39;s newest iPad mini is a significant upgrade over its predecessor, with hardware updates that extend far beyond the fancy new OLED display.",https://www.engadget.com/img/gallery/ipad-mini-oled-vs-ipad-mini-whats-new/l-intro-1793601129.jpg,https://www.engadget.com/2303546/ipad-mini-oled-vs-ipad-mini-comparison/,http://www.engadget.com/rss-full.xml,2026-11-04T01:00:00Z,3,Tech
+The biggest modding site in PC gaming is taking a stance on AI,"The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare &#34;whether AI has been used in their work,&#34; the site announced today as part of a big post about AI-generated content on the platform. &#34;One of the most consistent […]",,https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures,https://www.theverge.com/rss/index.xml,2026-11-04T00:42:10Z,5,Tech
+Your phone's apps could have more permissions than they need – here's how to check,"Most smartphone apps need permissions to function properly, but some may have more access than they should. Thankfully, it&#39;s pretty easy to check.",https://www.engadget.com/img/gallery/your-phones-apps-could-have-more-permissions-than-they-need-heres-how-to-check/l-intro-1793264879.jpg,https://www.engadget.com/2300670/phone-apps-more-permissions-than-needed-how-to-check/,http://www.engadget.com/rss-full.xml,2026-11-04T00:30:00Z,1,Tech
+Your desktop's front USB ports may be slowing down every device you plug into them,"The front USB ports of your computer are useful, but they often can&#39;t compete with the rear ports.",https://www.engadget.com/img/gallery/your-desktops-front-usb-ports-may-be-slowing-down-every-device-you-plug-into-them/l-intro-1793642328.jpg,https://www.engadget.com/2304285/desktop-front-usb-port-slowing-down-every-device/,http://www.engadget.com/rss-full.xml,2026-11-04T00:00:00Z,0,Tech
+Please stop asking me when the AI bubble will pop,"People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I&#39;ll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, […]",,https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds,https://www.theverge.com/rss/index.xml,2026-11-03T23:37:45Z,5,Tech
+Arkane and its Blade game may end up at Ubisoft as Xbox considers offers,&#34;At least two&#34; other companies have also pitched themselves as the studio&#39;s possible new owners.,https://www.engadget.com/img/gallery/arkane-and-its-blade-game-may-end-up-at-ubisoft-as-xbox-considers-offers/l-intro-1793748584.jpg,https://www.engadget.com/2306118/arkane-and-its-blade-game-may-end-up-at-ubisoft-as-xbox-considers-offers/,http://www.engadget.com/rss-full.xml,2026-11-03T23:32:37Z,0,Tech
+What made Nothing's CMF Phone 2 Pro so much cheaper than others?,Nothing sister brand CMF made a lot of clever choices to keep the Phone 2 Pro cheap.,https://www.engadget.com/img/gallery/what-made-nothings-cmf-phone-2-pro-so-much-cheaper-than-others/l-intro-1792141686.jpg,https://www.engadget.com/2300613/nothing-cmf-phone-2-pro-why-so-much-cheaper/,http://www.engadget.com/rss-full.xml,2026-11-03T23:30:00Z,0,Tech
+Critical Langflow flaws enable authentication bypass and RCE,"
+		
+					  
+						
+
+
+
+
+IBM patched critical vulnerabilities in Langflow, an open-source framework for building AI agents, LLM-powered workflows, and retrieval-augmented generation (RAG) systems. The flaws could allow attackers to bypass authentication, leak API credentials, and execute arbitrary code.
+
+
+
+Langflow, now owned by IBM, is popular in enterprise environments because it offers a visual experience that doesn’t require coding knowledge to create AI workflows and agents. Vulnerabilities in the framework have been exploited in the wild to steal AI and developer credentials before, most recently in August.
+
+
+
+This latest round of security patches fix four vulnerabilities, two of which are rated critical with 9.8 CVSS score. One flaw, tracked as CVE-2026-93680, stems from an incomplete remediation of a previous auto-login security issue. Exploiting it could allow attackers to bypass security restrictions and gain access to features that would normally require authentication.
+
+
+
+Another flaw, CVE-2026-110186, allows unauthenticated remote attackers to execute arbitrary code through Model Context Protocol (MCP) tool enumeration. A third vulnerability, CVE-2026-110193, which is rated as high severity, also allows for code and command execution on the server due to an issue in a third-party library used by the Agentic Assistant. However, exploiting this flaw requires authentication with at least a low-privileged account.
+
+
+
+The fourth vulnerability, CVE-2026-110192, is an information disclosure issue due to insufficiently protected API credentials. It is rated as 6.5 on the CVSS scale.
+
+
+
+The flaws affect Langflow OSS versions 1.0.0 to 1.12.8 and were fixed in the newly released 1.13.0 version, which is available both from the PyPI repository and as a Docker image.
+
+
+
+“Before upgrading, back up the database, secret key, and uploaded files,” IBM said in its advisory. “If the deployment uses automatic login, prepare the existing account for password sign-in as described in the installation and Docker upgrade instruction.”
+
+
+
+The company also released patches for three medium-severity flaws in Hono, an API and web application development framework used inside Langflow for request routing and backend web server tasks. The company advises users to upgrade Hono to version 4.13.5.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244226-0-58076300-1793747472-shutterstock_2279147515.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244226/critical-langflow-flaws-enable-authentication-bypass-and-rce.html,https://www.csoonline.com/feed/,2026-11-03T23:09:01Z,15,Cybersecurity
+NVIDIA's controversial DLSS 5 is coming to RTX Remix to 'enhance' older games,"The NVIDIA modding platform lets you remaster classic games with modern graphics, and now DLSS 5 is included.",https://www.engadget.com/img/gallery/nvidias-controversial-dlss-5-is-coming-to-rtx-remix-to-enhance-older-games/l-intro-1793746309.jpg,https://www.engadget.com/2306095/nvidia-dlss-5-update-rtx-remix-enhance-older-games/,http://www.engadget.com/rss-full.xml,2026-11-03T23:00:21Z,0,Tech
+Here's how to adjust Apple AirPods for small ears,"Those with small ears may require some extra finessing when adjusting their Apple AirPods to get the perfect fit, and there are a few ways you can ensure that. ",https://www.engadget.com/img/gallery/heres-how-to-adjust-apple-airpods-for-small-ears/l-intro-1793121569.jpg,https://www.engadget.com/2300409/how-adjust-apple-airpods-for-small-ears/,http://www.engadget.com/rss-full.xml,2026-11-03T23:00:00Z,6,Tech
+Canva is announcing changes and layoffs affecting 22 percent of its staff,"Canva is making significant changes affecting 1,271 people, which is 22 percent of its staff, co-founder and CEO Melanie Perkins announced today. &#34;For some people, this will mean changes to their roles or being asked to relocate to centralised hubs,&#34; says Perkins. &#34;Sadly, it will also mean saying goodbye to teammates and friends who have […]",,https://www.theverge.com/tech/1025971/canva-changes-layoffs,https://www.theverge.com/rss/index.xml,2026-11-03T22:59:36Z,0,Tech
+Meta's Quest 2 and Quest Pro reach 'end of feature development',The app stores will stay open for both devices after support ends next year.,https://www.engadget.com/img/gallery/metas-quest-2-and-quest-pro-reach-end-of-feature-development/l-intro-1793745475.jpg,https://www.engadget.com/2306079/meta-quest-2-and-quest-pro-reach-end-of-feature-development/,http://www.engadget.com/rss-full.xml,2026-11-03T22:43:06Z,1,Tech
+Anthropic is working on a system to prove AI models’ identity,"Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.
+",,https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/,https://techcrunch.com/feed/,2026-11-03T22:41:03Z,5,Tech
+"California fights ""preposterous"" Trump admin demand to scrap state broadband laws",State tries to obtain broadband funds despite rejecting Trump admin condition.,https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-fiber-1152x648.jpg,https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/,https://arstechnica.com/feed/,2026-11-03T22:39:37Z,5,Tech
+Sonos adds new Presets and prepares for the 27voice AI beta,"Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start playback. If you&#39;re in the US, you […]",,https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access,https://www.theverge.com/rss/index.xml,2026-11-03T22:20:50Z,7,Tech
+Data centers are turning to old jet engines as the wait for power grows,"The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less efficient and less environmentally friendly solution: once-discarded jet engines.",,https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/,https://techcrunch.com/feed/,2026-11-03T22:19:53Z,5,Tech
+"Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...],,https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/,https://www.bleepingcomputer.com/feed/,2026-11-03T22:18:50Z,5,Cybersecurity
+Valve is making changes to deal with a ‘significant increase’ in Steam game submissions,"In a new post today, Valve acknowledged that it&#39;s seen &#34;a significant increase in submissions for store and page review in recent months&#34; and says it&#39;s &#34;running a little behind&#34; by taking &#34;up to 12 business days&#34; for reviews instead of the typical 3-5 days. Indie developers have recently expressed frustrations over lengthy approval times […]",,https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions,https://www.theverge.com/rss/index.xml,2026-11-03T22:15:33Z,2,Tech
+Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist,"The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process that started with one developer downloading a tampered installer in June apparently spread by a malicious Google ad, exposing details about the […]",,https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained,https://www.theverge.com/rss/index.xml,2026-11-03T22:04:02Z,6,Tech
+Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom,Cybersecurity focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.,,https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/,https://techcrunch.com/feed/,2026-11-03T21:43:08Z,5,Tech
+WorkOS says attacker used ARTEX AI to breach internal sales app,Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...],,https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/,https://www.bleepingcomputer.com/feed/,2026-11-03T21:28:44Z,10,Cybersecurity
+Reddit is testing in-app search ads as traffic from Google declines,The company wants to help advertisers reach users who show a &#34;high purchase&#34; intent.,https://www.engadget.com/img/gallery/reddit-is-testing-search-ads-as-traffic-from-google-declines/l-intro-1793741097.jpg,https://www.engadget.com/2305984/reddit-is-testing-search-ads-as-traffic-from-google-declines/,http://www.engadget.com/rss-full.xml,2026-11-03T21:27:50Z,1,Tech
+Pentagon is beginning to follow Ukraine into wider use of ground robots,But many U.S. UGVs are more complicated than the attritable ones that Kyiv is buying.,,https://www.defenseone.com/defense-systems/2026/11/pentagon-ukraine-ground-robots/417011/,https://www.defenseone.com/rss/all/,2026-11-03T21:21:23Z,0,Defense
+Here’s what it’s like to use Audio Intelligence on the Apple Watch,"It&#39;s impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer beta just dropped earlier this afternoon, and these features are meant to be lived with in day-to-day life. We&#39;re definitely going to do that over the next […]",,https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch,https://www.theverge.com/rss/index.xml,2026-11-03T21:21:04Z,6,Tech
+Hiding inside Palantir’s skyrocketing quarter is a foreboding signal,"Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.” Yet, retail investors were lukewarm on the company on Tuesday, with the stock trading slightly down. That’s because Palantir’s enterprise sales, its big growth area, showed signs of slowing. First, the good […]",,https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/,https://techcrunch.com/feed/,2026-11-03T21:05:55Z,5,Tech
+Don’t be fooled by the fake hair on these famous baldies,"Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They&#39;re both famously bald, and that definitely hasn&#39;t changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved […]",,https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk,https://www.theverge.com/rss/index.xml,2026-11-03T21:01:07Z,5,Tech
+What type of battery does the Slate Truck use?,"Slate had made arrangements in 2025 to buy its batteries from a Georgia company, then switched this year to an Illnois firm with a different kind of technology.",https://www.engadget.com/img/gallery/what-type-of-battery-does-the-slate-truck-use/l-intro-1793394367.jpg,https://www.engadget.com/2303044/slate-battery-type-different-plans-before-debut/,http://www.engadget.com/rss-full.xml,2026-11-03T21:00:00Z,0,Tech
+Orbital Matter 3D printed the first rigid beam in the vacuum of space,An in-space construction first could be an enabler for the space data centers of the future. ,,https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/,https://techcrunch.com/feed/,2026-11-03T20:57:17Z,0,Tech
+Sonos' new voice assistant is launching in early access on November 6,The company is hoping to collect feedback on Sonos 27voice to avoid a repeat of its previous app redesign debacle.,https://www.engadget.com/img/gallery/sonos-new-voice-assistant-is-launching-in-early-access-on-november-6/l-intro-1793738872.jpg,https://www.engadget.com/2305897/sonos-new-voice-assistant-is-launching-in-early-access-on-november-6/,http://www.engadget.com/rss-full.xml,2026-11-03T20:48:49Z,1,Tech
+Ukraine’s drone strikes spur hasty Russian plans for underground data centers,Russia tries to fix exposed digital infrastructure as data center war backfires.,https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg,https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/,https://arstechnica.com/feed/,2026-11-03T20:39:55Z,5,Tech
+The Pixel Buds Pro 2 have returned to their lowest price to date,"Android owners looking for an earbud upgrade are in luck. The Google Pixel Buds Pro 2 are back down to $169 at Amazon, Best Buy, and the Google Store, matching the lowest price we’ve seen. Google’s site claims the deal will last until 11:59PM PT on November 8th, and other retailers will likely follow suit. […]",,https://www.theverge.com/gadgets/1025466/google-pixel-buds-pro-2-borderlands-goty-nintendo-switch-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-03T20:29:26Z,5,Tech
+"iPhone 18 rumors suggest a bigger battery, higher price next year","After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple upgrades with the price hike, including a larger battery and […]",,https://www.theverge.com/tech/1025748/apple-iphone-18-rumors-price-hike-battery,https://www.theverge.com/rss/index.xml,2026-11-03T20:16:54Z,6,Tech
+Apple starts giving Siri AI access to third-party apps,"Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI&#39;s new features in &#34;all apps,&#34; allowing the voice assistant to draw on a user&#39;s personal context, process natural language prompts, and use on-screen awareness to […]",,https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps,https://www.theverge.com/rss/index.xml,2026-11-03T20:16:17Z,7,Tech
+Binance says fake job interview led to $6.3 billion crypto heist,Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company&#39;s wallet infrastructure and steal about $6.34 billion in digital assets. [...],,https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/,https://www.bleepingcomputer.com/feed/,2026-11-03T20:05:50Z,3,Cybersecurity
+Netflix thinks AI might save you from scrolling aimlessly for something to watch,The tab will initially offer suggestions based on a range of AI-generated themes.,https://www.engadget.com/img/gallery/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/l-intro-1793735788.jpg,https://www.engadget.com/2305778/netflix-thinks-ai-might-save-you-from-scrolling-aimlessly-for-something-to-watch/,http://www.engadget.com/rss-full.xml,2026-11-03T19:57:41Z,5,Tech
+You can’t hit a wrong note when playing along with songs on Casio’s new keyboard,Casio announced a new addition to its Casiotone line of portable electronic keyboards with a feature that could help aspiring musicians master skills like rhythm and timing without the frustrations or discouragement of hitting the wrong note. The Casiotone CT-FS1 is available now for $399.99 in a monochromatic black or white version where even the […],,https://www.theverge.com/tech/1025673/casio-digital-piano-keyboard-ct-fs1-feel-sync-technology,https://www.theverge.com/rss/index.xml,2026-11-03T19:48:41Z,5,Tech
+Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist,Cybersecurity experts have long warned of the persistent and patient threat from North Korea&#39;s long-running hacks. The world&#39;s largest crypto exchange was still caught off-guard.,,https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/,https://techcrunch.com/feed/,2026-11-03T19:45:48Z,0,Tech
+"This Election Day, remember which party ran against EVs and tethered us all to the gas pump","It&#39;s the midterms! Here&#39;s a fun fact for you as you head to the polls: Gas prices today are the highest ever recorded for a US Election Day. The national average for a gallon of gasoline is $4.12 and $6.28 for a gallon of diesel, according to GasBuddy. Meanwhile, the Strategic Petroleum Reserve, which is […]",,https://www.theverge.com/transportation/1025318/trump-gop-ev-war-record-gas-prices-midterms,https://www.theverge.com/rss/index.xml,2026-11-03T19:44:46Z,5,Tech
+AI inference startup Fal doubles its valuation to $16B as demand surges,The five-year-old startup raised a $1.3  billion round led by Bessemer.,,https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/,https://techcrunch.com/feed/,2026-11-03T19:34:43Z,8,Tech
+Don't throw away your laptop's old SSDs — do this instead,Get some extra life out of your unused SSDs by converting them into external storage devices.,https://www.engadget.com/img/gallery/dont-throw-away-your-laptops-old-ssds-do-this-instead/l-intro-1792960873.jpg,https://www.engadget.com/2300270/dont-throw-away-your-laptop-old-ssd-do-this-instead/,http://www.engadget.com/rss-full.xml,2026-11-03T19:30:00Z,0,Tech
+Itch.io adds a filter for games with gen AI disclosures,"Your turn, Steam.",https://www.engadget.com/img/gallery/itch-io-adds-a-filter-for-games-with-gen-ai-disclosures/l-intro-1793733979.jpg,https://www.engadget.com/2305699/itchio-adds-a-filter-for-games-with-gen-ai-disclosures/,http://www.engadget.com/rss-full.xml,2026-11-03T19:27:28Z,5,Tech
+Reddit tests ads in search results as traffic declines and growth concerns mount,The new ad placements could help Reddit squeeze more revenue from existing users as Google&#39;s AI search changes how people discover its content.,,https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/,https://techcrunch.com/feed/,2026-11-03T19:24:37Z,5,Tech
+Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist,"Suspected North Korean attackers duped an engineer with a fake job interview and a malicious download to gain a foothold in the crypto firm’s system and steal billions, according to Binance.",,https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/,https://www.wired.com/feed/category/security/latest/rss,2026-11-03T19:04:58Z,3,Cybersecurity
+"Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",Hillary Clinton&#39;s 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change.,,https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/,https://techcrunch.com/feed/,2026-11-03T19:04:52Z,0,Tech
+How to use your phone to find hidden cameras,"When you feel wary, a quick check might provide some peace of mind.",https://www.engadget.com/img/gallery/how-you-can-use-your-phone-to-find-hidden-cameras/l-intro-1792784027.jpg,https://www.engadget.com/2300439/how-to-use-phone-find-hidden-cameras/,http://www.engadget.com/rss-full.xml,2026-11-03T19:00:00Z,0,Tech
+UK organisations warned to brace for AI-powered ransomware attacks,"
+		
+					  
+						
+
+
+
+
+AI-powered malware is “highly likely” to be used in ransomware attacks on Britain’s critical national infrastructure within the next two years.
+
+
+
+The head of GCHQ’s National Cyber Security Centre, Dr. Richard Horne, warned that abuse of AI technologies is making it much easier for attackers to rapidly expose and exploit long-neglected security weaknesses.
+
+
+
+Dr. Horne argued that underinvestment in technology and security have left organisations carrying a technical debt that leave them wide open to attack.
+
+
+
+AI adoption by hostile actors is “highly likely” to increase the scale and efficiency of their operations, including ransomware attacks, social engineering, and vulnerability exploitation, the latest edition of the NCSC’s State of the Cyber Nation annual report warns. The issue is more that AI will allow attackers to exploit overlooked vulnerabilities rather than forge exotic new attacks.
+
+
+
+The report identifies state-linked threat groups, particularly China and Russia, as the UK’s primary cyber antagonists. For example, in July 2026 the NCSC warned that Russian groups were systematically exploiting vulnerable routers and globally targeting networks maintained by critical national infrastructure providers, including energy grids and telecommunications networks.
+
+
+
+In August 2026 the NCSC warned about increased targeting of operational technology systems across multiple sectors globally, including in the UK.
+
+
+
+“AI will continue to be integrated into threat actors’ cyber operations, increasing the speed, scale and efficiency of existing attack methodologies rather than autonomously conducting end-to-end attacks,” the NCSC report predicts.
+
+
+
+The NCSC reports that up to 88% of all attacks originate from just four vectors: phishing, exploiting public-facing applications, misuse of valid accounts, and exploiting external remote services.
+
+
+
+Variations on a theme
+
+
+
+“None of these vectors are radical or new,” said Oliver Spence, CEO of security operations tools vendor CybaVerse. “In fact, they represent the same failures cybercriminals have successfully exploited for decades.”
+
+
+
+Spence added: “Threat actors rarely depend on the most complex, technical means for launching attacks; more often than not, they search for the most easily exploitable holes in organisations’ systems, like misconfigured VPNs and vulnerabilities in third-party vendor software platforms, and on tried-and-true social engineering techniques.”
+
+
+
+AI doesn’t represent a sea-change in attackers’ strategies but rather a force multiplier.
+
+
+
+“Threat actors may be able to leverage AI to launch more sophisticated attacks, but the real danger is in the automated exploitation of existing weaknesses and organisational failures,” Spence concluded.
+
+
+
+Countermeasures
+
+
+
+AI offers a means to improve the UK’s collective cyber resilience, but it will only be effective if organisations deal with years of underinvestment and foundational weaknesses before building from a more solid foundation, according to Dr. Horne.
+
+
+
+The UK government’s Cyber Essentials scheme should become the starting point or baseline for enterprise cyber security, not the end goal, for building improved cyber resilience.
+
+
+
+Last week the UK government pledged £70 million for a new National Exposure and Real-Time Vulnerability (NERV) Centre, which will be task to identify vulnerabilities across critical infrastructure and the economy, and a new AI Cyber Security Centre of Excellence, run by the NCSC.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244138-0-07793100-1793732003-guerrillabuzz-SYofhg_IX3A-unsplash-1.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244138/uk-organisations-warned-to-brace-for-ai-powered-ransomware-attacks.html,https://www.csoonline.com/feed/,2026-11-03T18:53:08Z,27,Cybersecurity
+Ferrari’s controversial Luce EV is sold out for 2027,"The Luce, Ferrari&#39;s first electric car and one of its most polarizing models, is &#34;fully allocated&#34; through 2027, according to CEO Benedetto Vigna.",,https://techcrunch.com/2026/11/03/ferraris-controversial-luce-ev-is-sold-out-for-2027/,https://techcrunch.com/feed/,2026-11-03T18:51:33Z,0,Tech
+Google: LLMjacking attacks rack up $1 million in cloud AI charges,"Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",,https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/,https://www.bleepingcomputer.com/feed/,2026-11-03T18:51:04Z,3,Cybersecurity
+"mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity","Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.
+
+The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg,https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T18:46:38Z,5,Cybersecurity
+Netflix’s new AI Discover tab helps you find something to watch based on your mood,The first experimental feature under the tab will allow users to get recommendations based on what they&#39;re currently in the mood for. ,,https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/,https://techcrunch.com/feed/,2026-11-03T18:42:16Z,5,Tech
+Apple’s latest watchOS beta includes its new always-on Audio Intelligence features,"Starting today, Siri can tune into the Apple Watch&#39;s mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses &#34;ambient listening&#34; to generate summaries of your conversation, and Live Rewind, which generates text transcripts of the last 15 […]",,https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta,https://www.theverge.com/rss/index.xml,2026-11-03T18:31:00Z,6,Tech
+OpenAI says ChatGPT is catching up to Google in search,"In many circles, &#34;Ask Chat&#34; has replaced &#34;Google it,&#34; and that&#39;s reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI&#39;s consumer product lead for ChatGPT, made the announcement at a press event on Monday. He said […]",,https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search,https://www.theverge.com/rss/index.xml,2026-11-03T18:30:42Z,5,Tech
+NYT demands Brave shut down its paywall blocker and end deals with AI firms,"Lawsuit calls Brave &#34;supplier, dealer, and distributor&#34; of stolen news content.",https://cdn.arstechnica.net/wp-content/uploads/2026/11/brave-1152x648.jpg,https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/,https://arstechnica.com/feed/,2026-11-03T18:30:27Z,5,Tech
+Razer unveils the Raiju V3 Pro Signature Edition PS5 controller,It sure is pretty and will likely be expensive.,https://www.engadget.com/img/gallery/razer-unveils-the-raiju-v3-pro-signature-edition-ps5-controller/l-intro-1793730404.jpg,https://www.engadget.com/2305576/razer-unveils-the-raiju-v3-pro-signature-edition-ps5-controller/,http://www.engadget.com/rss-full.xml,2026-11-03T18:28:03Z,5,Tech
+Reddit is adding more ads,"Reddit is testing ads on another area of its platform: search. With this update, ads will appear within your search results &#34;based on a range of factors, including contextual relevance to a search query,&#34; according to Reddit. That means searching for &#34;espresso station&#34; could present you with ads for espresso, machines, beans, or mugs, while […]",,https://www.theverge.com/tech/1025602/reddit-search-ads-test,https://www.theverge.com/rss/index.xml,2026-11-03T18:26:36Z,2,Tech
+"Yes to storage, no to Piano Black: How car interior design is changing",We talk with Nissan designer Hiren Patel about how vehicle interior designs are changing. ,https://cdn.arstechnica.net/wp-content/uploads/2026/11/2027-Nissan-Rogue-Hybrid-05-1152x648.jpg,https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/,https://arstechnica.com/feed/,2026-11-03T18:19:31Z,0,Tech
+Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes,"Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.
+
+The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week.
+
+&#34;An external attacker gained unauthorized access to part of",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMgLc61q6cTompbBY4lS-pqinmS1_3vYBYH7OVnnFTmOZfMk8R7houuqUmnMhUs-gTI-55HwieAaPuCI_zhc0XNw74PhfZVbCjWexPUUugMc1crPvP6uQsic7o3GDy5KXbYJE8LtXqdban8cTcfnn9AxRgOkR0w5_bQx-pHTR1A5-ttEHcpqGkgYajjSiA/s1600/chainstack.png,https://thehackernews.com/2026/11/chainstack-reports-production-systems.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T18:16:19Z,7,Cybersecurity
+Indie games are missing launch dates because Steam is backed up,"Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their planned launch dates. For example, Studio Daimon, the team behind an upcoming title called Food Devils, had planned to launch the game in […]",,https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates,https://www.theverge.com/rss/index.xml,2026-11-03T18:14:50Z,6,Tech
+Google’s Gemini-powered Home Speaker is already on sale for 20 percent off,"If you’re looking for a good smart speaker, the Google Home Speaker is down to around $79 ($20 off) in all four colors at Best Buy, Walmart, and Target. That’s the best price we’ve seen for the Gemini-powered speaker, which launched in June and represents Google’s first smart speaker in several years. In her review, […]",,https://www.theverge.com/gadgets/1025498/google-home-smart-speaker-holiday-2026-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-03T18:11:49Z,1,Tech
+How to make your older Android phones last longer,Your Android phone can last much longer if you take steps to protect and optimize it. Try these tactics to extend your phone&#39;s life.,https://www.engadget.com/img/gallery/how-to-make-your-older-android-phones-last-longer/l-intro-1793385407.jpg,https://www.engadget.com/2302743/how-to-make-older-android-phones-last-longer/,http://www.engadget.com/rss-full.xml,2026-11-03T18:00:00Z,0,Tech
+Netflix will show you themed recommendations through a new ‘AI Discover’ tab,"Netflix&#39;s TV app is getting a new &#34;AI Discover&#34; tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like &#34;Something Light,&#34; &#34;Family Movie Night,&#34; or &#34;Quick Watches.&#34; When you pick a theme, Netflix will show […]",,https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations,https://www.theverge.com/rss/index.xml,2026-11-03T18:00:00Z,6,Tech
+CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off,"CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing.",,https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/,https://techcrunch.com/feed/,2026-11-03T17:56:52Z,9,Tech
+"Google will let schools skip AI tools, but they have to give up search, too",Google will offer schools AI tools that purportedly don&#39;t give away the answers. ,https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg,https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/,https://arstechnica.com/feed/,2026-11-03T17:54:43Z,5,Tech
+Don't throw away your old AirPods — do this instead,AirPods aren&#39;t useless even after you&#39;ve had them for years and get a new pair. Repurpose them with a few tricks.,https://www.engadget.com/img/gallery/dont-throw-away-your-old-airpods-do-this-instead/l-intro-1793046798.jpg,https://www.engadget.com/2300435/dont-throw-away-old-airpods-do-this-instead/,http://www.engadget.com/rss-full.xml,2026-11-03T17:45:00Z,5,Tech
+Moft’s new origami case adds a kickstand and grip to the iPhone Duo,"Originally released in early 2025 as an accessory for the iPad, Moft has redesigned its Dynamic Folio as a case for the iPhone Duo that does more than just protect Apple&#39;s folding phone. You can use it to prop the Duo up at several different angles for hands-free use, or reconfigure the Dynamic Folio&#39;s origami-like […]",,https://www.theverge.com/tech/1025364/moft-dynamic-folio-case-stand-grip-apple-iphone-duo,https://www.theverge.com/rss/index.xml,2026-11-03T17:27:52Z,1,Tech
+Another child dies of measles as CDC reportedly holds up health alert,NY gov. pointed to Kennedy&#39;s long-standing anti-vaccine work as spurring outbreaks.,https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-1152x648.jpg,https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/,https://arstechnica.com/feed/,2026-11-03T17:21:29Z,0,Tech
+The Xbox Nano has a hidden cloud secret,"Microsoft is about to launch its new Xbox Nano controller tomorrow, and the tiny device has a little secret. The Xbox Nano can connect directly to Xbox Cloud Gaming over Wi-Fi to improve latency. It&#39;s a feature Microsoft hasn&#39;t officially announced yet, but one I&#39;ve been anticipating since the Xbox Nano leaked earlier this year. […]",,https://www.theverge.com/games/1025430/xbox-nano-controller-direct-cloud-wifi-connectivity,https://www.theverge.com/rss/index.xml,2026-11-03T17:16:04Z,3,Tech
+How to choose the right gaming monitor for you,"If you&#39;re looking for a gaming monitor upgrade (or even your first), here&#39;s what you should consider.",https://www.engadget.com/img/gallery/how-to-choose-the-right-gaming-monitor-for-you/l-intro-1792664437.jpg,https://www.engadget.com/2300429/how-to-choose-the-right-gaming-monitor-for-you/,http://www.engadget.com/rss-full.xml,2026-11-03T17:15:00Z,0,Tech
+Google says students in schools that ban AI won't have access to Search,This is another example of how closely Google Search is tied to the company&#39;s AI products.,https://www.engadget.com/img/gallery/google-says-students-in-schools-that-ban-ai-wont-have-access-to-search/l-intro-1793725671.jpg,https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/,http://www.engadget.com/rss-full.xml,2026-11-03T17:10:43Z,5,Tech
+Google dismantles botnet secretly running on 1.3 million Android TV boxes,Google has cut ties with the company behind the botnet campaign. ,https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware.jpg,https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/,https://arstechnica.com/feed/,2026-11-03T17:08:21Z,5,Tech
+Anthropic is still grappling with the economics of compute,"At a moment when Anthropic&#39;s compute margins should be getting better, they’re getting worse.",,https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/,https://techcrunch.com/feed/,2026-11-03T17:07:01Z,1,Tech
+The next Elder Scrolls game is officially called Sentinel,There&#39;s still no word on when The Elder Scrolls VI will arrive.,https://www.engadget.com/img/gallery/the-next-elder-scrolls-game-is-officially-called-sentinel/l-intro-1793725099.jpg,https://www.engadget.com/2305424/the-next-elder-scrolls-game-is-officially-called-sentinel/,http://www.engadget.com/rss-full.xml,2026-11-03T17:05:21Z,0,Tech
+Microsoft has listed some concrete ways that Windows 11 is getting better with 8GB of RAM,Windows 11 users with 8GB of RAM should start noticing improved performance in a wide range of apps.,https://www.engadget.com/img/gallery/microsoft-has-listed-some-concrete-ways-that-windows-11-is-getting-better-with-8gb-of-ram/l-intro-1793725227.jpg,https://www.engadget.com/2305420/microsoft-has-listed-some-concrete-ways-that-windows-11-is-getting-better-with-8gb-of-ram/,http://www.engadget.com/rss-full.xml,2026-11-03T17:02:49Z,1,Tech
+Google is entirely disabling Search in schools that don&#8217;t want AI,"Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search &#34;will be entirely off&#34; for K-12 student accounts […]",,https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features,https://www.theverge.com/rss/index.xml,2026-11-03T17:00:04Z,6,Tech
+"With World of Warcraft: Forever, Blizzard had to reconnect with what made WoW great in the first place",Making World of Warcraft: Forever was a unique challenge for Blizzard&#39;s developers.,https://www.engadget.com/img/gallery/before-it-could-make-world-of-warcraft-forever-blizzard-had-to-relearn-what-made-wow-great-in-the-first-place/l-intro-1793723179.jpg,https://www.engadget.com/2305373/world-of-warcraft-forever-blizzard-had-to-reconnect-with-what-made-wow-great-in-the-first-place/,http://www.engadget.com/rss-full.xml,2026-11-03T17:00:00Z,0,Tech
+Windows 11 is now ‘up to 40 percent faster’ on PCs with 8GB of RAM,"Microsoft has been doing a lot of work to improve memory usage and increase performance on Windows 11 PCs over the past year. Last month the company revealed Windows 11 is now &#34;more responsive&#34; and runs better on PCs with 8GB of RAM, and now the company is releasing a new update today that includes […]",,https://www.theverge.com/news/1025142/windows-11-8gb-ram-memory-improvements-speed-performance,https://www.theverge.com/rss/index.xml,2026-11-03T17:00:00Z,1,Tech
+Xbox’s smallest-ever controller is surprisingly comfortable,"Even though I knew Microsoft&#39;s new Xbox Nano controller was tiny, I still gasped when I unboxed it a few days ago. The compact controller is small enough to slip into a pocket unnoticed, and it has been designed specifically for younger people, or for anyone with smaller hands. I&#39;m not young, but I do […]",,https://www.theverge.com/tech/1025097/xbox-nano-controller-hands-on,https://www.theverge.com/rss/index.xml,2026-11-03T17:00:00Z,0,Tech
+Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft,"Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world&#39;s largest cryptocurrency exchange was the culmination of a &#34;sophisticated, multi-stage campaign&#34; that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers.
+
+&#34;It was not a single isolated breach or a simple phishing incident,&#34;",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCMCR8h3YCPcfY8Fbe54ckYKh_YUt_Yd7v82dAHobZtMNlQl_JVKWUX4OUPwR0dEmYsLNfeKsW6rUthk8pYRVhIddbPXx86sHCcNBRL9E-9LJTPrYSYwJ_V66EwGJNFeoWgDPbjcGfeJ4w2qn_gfTjXBoNAnfWq4GZ8rq7VOhnqt4QlItYEBr3Zar7XL1/s1600/bin.jpg,https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T16:55:58Z,9,Cybersecurity
+This space company is betting its future on a propellant available everywhere,"Is that water in your spacecraft, or are you just happy to see the delta-V. ",https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1-1152x648.jpg,https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/,https://arstechnica.com/feed/,2026-11-03T16:50:32Z,6,Tech
+Rivian spinout Also was working on an e-moto project in Kenya — until it walked away,Also co-founder and president Chris Yu told TechCrunch that he wanted to prioritize autonomous vehicles.,,https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/,https://techcrunch.com/feed/,2026-11-03T16:49:09Z,0,Tech
+Go foldable or go home: All the gadgets you can own that fold,Here&#39;s an overview of some of the most notable folding gadget categories available today.,https://www.engadget.com/img/gallery/go-foldable-or-go-home-all-the-gadgets-you-can-own-that-fold/l-intro-1793028690.jpg,https://www.engadget.com/2300425/go-foldable-or-go-home-all-the-gadgets-you-can-own-that-fold/,http://www.engadget.com/rss-full.xml,2026-11-03T16:45:00Z,6,Tech
+"Google will let schools disable its AI tools, but not without sacrificing Search","Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",,https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/,https://techcrunch.com/feed/,2026-11-03T16:30:34Z,5,Tech
+The easiest way to turn your regular TV into a smart TV,"If you have an older TV that doesn&#39;t have smart features, you might not need to upgrade. Here&#39;s how to turn your &#34;dumb&#34; TV into a smart one.
+",https://www.engadget.com/img/gallery/the-easiest-way-to-turn-your-regular-tv-into-a-smart-tv/l-intro-1793632819.jpg,https://www.engadget.com/2303890/easy-way-turn-regular-tv-smart/,http://www.engadget.com/rss-full.xml,2026-11-03T16:15:00Z,0,Tech
+New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech,"The mayor&#39;s comments come after the entertainment giant&#39;s data breach last year, which exposed James Dolan&#39;s surveillance.",,https://techcrunch.com/2026/11/03/new-york-citys-mamdani-criticizes-madison-square-garden-owner-over-surveillance-tech/,https://techcrunch.com/feed/,2026-11-03T16:04:55Z,5,Tech
+UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?,UEFI bootkit BlackX exploits Microsoft&#39;s lack of clarity around Secure Boot protections.,https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-1000x648.jpg,https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/,https://arstechnica.com/feed/,2026-11-03T16:03:13Z,0,Tech
+Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access,"Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.
+
+The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png,https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T15:59:19Z,6,Cybersecurity
+Midterm elections 2026: all the news,"The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability issues, there’s several topics impacting the tech industry that appear […]",,https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news,https://www.theverge.com/rss/index.xml,2026-11-03T15:58:39Z,1,Tech
+What does the H+ symbol mean on your Samsung phone?,"The status bar of your smartphone is littered with arcane symbols that are mostly undecipherable. We all know what 4G and 5G are, so what is H+?",https://www.engadget.com/img/gallery/what-does-the-h-symbol-mean-on-your-samsung-phone/l-intro-1792776714.jpg,https://www.engadget.com/2300406/what-does-h-plus-symbol-mean-samsung-phone/,http://www.engadget.com/rss-full.xml,2026-11-03T15:45:00Z,3,Tech
+Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges,"Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.
+
+The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s1600/llmjacking.png,https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T15:41:53Z,9,Cybersecurity
+"Trump wanted to give No Kings no air. Then, Meta suspended its Instagram.",Meta faces pressure to protect No Kings Instagram on election day.,https://cdn.arstechnica.net/wp-content/uploads/2026/10/zuck-trump-no-kings-1152x648.jpg,https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/,https://arstechnica.com/feed/,2026-11-03T15:39:30Z,5,Tech
+Apple restricts dating apps and AI companions to users 18 and up,Apple&#39;s new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content. ,,https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/,https://techcrunch.com/feed/,2026-11-03T15:38:27Z,6,Tech
+Apple is all in on AI — its own and everyone else&#8217;s,"Apple&#39;s latest earnings show how it&#39;s continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued to grow strongly in the fourth quarter. iPhone revenue rose 17.5% from a […]",,https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai,https://www.theverge.com/rss/index.xml,2026-11-03T15:24:51Z,6,Tech
+cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes,"An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers&#39; Linux servers.
+
+The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data.
+
+cPGuard 5.88.25 and later versions",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png,https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T15:16:32Z,8,Cybersecurity
+GTA VI&#8217;s download will need up to 212GB of hard drive space,You&#39;re going to need a lot of extra storage space on your console if you&#39;re planning to play Grand Theft Auto VI later this month. Rockstar Games confirmed on Tuesday that the pre-load file will require up to 212GB &#34;depending on your device.&#34; Rockstar says you can start pre-loading the game on the PlayStation 5 […],,https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games,https://www.theverge.com/rss/index.xml,2026-11-03T15:15:00Z,0,Tech
+The Elder Scrolls VI officially has a name: Sentinel,Bethesda is officially confirming today that the next Elder Scrolls game will be called The Elder Scrolls VI Sentinel. The confirmation came in a less than 10-minute video celebrating 40 years of Bethesda game studios. It&#39;s been more than eight years since Bethesda officially announced the existence of the sixth game in its Elder Scrolls […],,https://www.theverge.com/news/1025273/the-elder-scrolls-vi-sentinel-name-announcement,https://www.theverge.com/rss/index.xml,2026-11-03T15:07:39Z,0,Tech
+Barracuda warns of critical flaws allowing root access to devices,Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...],,https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/,https://www.bleepingcomputer.com/feed/,2026-11-03T15:06:16Z,6,Cybersecurity
+OpenAI is quietly renaming data centers ‘compute campuses’,"People hate data centers. They&#39;re loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today&#39;s polarized political landscape: genuine bipartisan opposition. But what about &#34;compute campuses&#34;? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing […]",,https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses,https://www.theverge.com/rss/index.xml,2026-11-03T15:00:44Z,5,Tech
+Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028,"Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management. [...]",,https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/,https://www.bleepingcomputer.com/feed/,2026-11-03T15:00:10Z,9,Cybersecurity
+EPA throws in the towel on policing air pollution from factory farms,Critics say EPA is effectively abandoning Clean Air Act enforcement at factory farms.,https://cdn.arstechnica.net/wp-content/uploads/2026/11/factory-farm-1152x648.jpg,https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms/,https://arstechnica.com/feed/,2026-11-03T14:49:00Z,5,Tech
+"What's the meaning of the ""C"" on your USB-C ports?","USB Type-C cables are everywhere, especially now that Apple has gotten onboard with the port. But does the &#34;C&#34; in USB-C mean something in particular?
+",https://www.engadget.com/img/gallery/whats-the-meaning-of-the-c-on-your-usb-c-ports/l-intro-1793628506.jpg,https://www.engadget.com/2303753/usb-c-port-letter-c-meaning/,http://www.engadget.com/rss-full.xml,2026-11-03T14:45:00Z,1,Tech
+Frontline Education Data Breach Impacts Over 1.3 Million,"Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students.
+The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.
+",,https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/,https://www.securityweek.com/feed/,2026-11-03T14:32:38Z,8,Cybersecurity
+The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4,"On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston&#39;s SoWa Power Station for practical insights and connections. Register before prices increase at the door.",,https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/,https://techcrunch.com/feed/,2026-11-03T14:30:00Z,0,Tech
+Samsung's Galaxy Ring gets FDA approval for advanced sleep apnea detection,Samsung&#39;s Galaxy Ring now offers more advanced sleep apnea detection following FDA approval of the new feature in July.3 replies,https://www.engadget.com/img/gallery/samsungs-galaxy-ring-gets-fda-approval-for-advanced-sleep-apnea-detection/l-intro-1793715607.jpg,https://www.engadget.com/2305182/samsung-galaxy-ring-gets-fda-approval-for-advanced-sleep-apnea-detection/,http://www.engadget.com/rss-full.xml,2026-11-03T14:21:14Z,1,Tech
+A truck-sized NASA space telescope is about to crash to Earth,"Almost 22 years after it was launched, NASA&#39;s Swift Observatory is now about to fall back to Earth on Wednesday after attempts to push it back into a higher orbit failed. NASA announced that the aging space telescope is anticipated to re-enter Earth&#39;s atmosphere at approximately 3:30AM ET (give or take 11 hours), and that […]",,https://www.theverge.com/science/1025227/nasa-swift-observatory-falling-to-earth,https://www.theverge.com/rss/index.xml,2026-11-03T14:17:55Z,6,Tech
+5 iPhone features you should be using after updating to iOS 27,"iOS 27 brings several improvements to the iPhone, from useful quality-of-life changes to a range of new Apple Intelligence-powered features.",https://www.engadget.com/img/gallery/5-iphone-features-you-should-be-using-after-updating-to-ios-27/l-intro-1793592703.jpg,https://www.engadget.com/2303526/iphones-ios-27-features-you-should-use/,http://www.engadget.com/rss-full.xml,2026-11-03T14:15:00Z,1,Tech
+"CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode","The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform.
+The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek.
+",,https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/,https://www.securityweek.com/feed/,2026-11-03T14:12:44Z,1,Cybersecurity
+Beyond screens: Mercedes-Benz's new holographic heads-up display,"After pioneering the passenger screen, Mercedes has designs on the windshield. ",https://cdn.arstechnica.net/wp-content/uploads/2026/11/26C0308_008-1152x648.jpg,https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display/,https://arstechnica.com/feed/,2026-11-03T14:00:07Z,0,Tech
+Peak Design launches premium charging accessories to complement its bags and tripods,"Peak Design fans, rejoice. The company is now ready to show off its debut collection of smartphone chargers, cables and batteries.",https://www.engadget.com/img/gallery/peak-design-launches-premium-charging-accessories-to-go-with-its-premium-tripods-and-bags/l-intro-1793700205.jpg,https://www.engadget.com/2305009/peak-design-premium-chargers-batteries-cables-accessories/,http://www.engadget.com/rss-full.xml,2026-11-03T14:00:00Z,0,Tech
+iPad mini (A20 Pro) review: Apple's tiny tablet gets a big update,"Apple made significant improvements to the iPad mini this year, but they don&#39;t come cheap.",https://www.engadget.com/img/gallery/ipad-mini-a20-pro-review-apples-tiny-tablet-gets-a-big-update/l-intro-1793652645.jpg,https://www.engadget.com/2304616/apple-ipad-mini-a20-pro-review/,http://www.engadget.com/rss-full.xml,2026-11-03T14:00:00Z,3,Tech
+Adobe’s Premiere mobile app is adding licensed music from ‘leading artists’,"Adobe is teaming up with Universal Music Group and Warner Music Group to add a library of licensed music clips to the Premiere mobile video editing app. No specific musicians have been announced with this partnership, but Adobe said it will include &#34;popular songs&#34; from &#34;leading artists,&#34; and enable Premiere mobile users to quickly jump […]",,https://www.theverge.com/tech/1025160/adobe-umg-wmg-premiere-mobile-licensed-music,https://www.theverge.com/rss/index.xml,2026-11-03T14:00:00Z,6,Tech
+The 2026 iPad Mini is a terrific tiny tablet — for a big price,"The iPad Mini sometimes feels like a trap. It is, in some ways and for some people, the perfect iPad: meaningfully larger than my phone&#39;s screen but still small and light enough to use for reading in bed or gaming on the subway. As most of the rest of the iPad line has tilted ever […]",,https://www.theverge.com/tech/1025015/2026-ipad-mini-oled-review,https://www.theverge.com/rss/index.xml,2026-11-03T14:00:00Z,0,Tech
+Bambu&#8217;s nine-nozzle H3C foretells the future of 3D printing,"Three years ago, I told you how home 3D printers had evolved for speed, producing parts in minutes that used to take hours or days. Now, the next evolution is here: printers that can swap between materials on the fly, mix different colors to produce nearly the full rainbow, mix soft and hard materials, and […]",,https://www.theverge.com/tech/1024978/bambu-h3c-color-mixing-toolchanger-3d-printer-trend,https://www.theverge.com/rss/index.xml,2026-11-03T14:00:00Z,5,Tech
+Peak Design expands its collection of wireless charging accessories,"Peak Design, best known for its backpacks and travel bags packed full of useful features, announced it&#39;s expanding its collection of chargers and charging accessories with new devices that focus on pairing premium materials with innovative functionality. &#34;Somewhere along the way, we accepted that the electronics we use every day should be cheap, disposable and […]",,https://www.theverge.com/tech/1024484/peak-design-wireless-travel-battery-charging-charger-station-qi,https://www.theverge.com/rss/index.xml,2026-11-03T14:00:00Z,5,Tech
+Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase,"Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.",,https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/,https://techcrunch.com/feed/,2026-11-03T14:00:00Z,0,Tech
+UK school estate hit by 3AM ransomware in suspected AI-assisted attack,A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...],,https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/,https://www.bleepingcomputer.com/feed/,2026-11-03T14:00:00Z,6,Cybersecurity
+The reason why some USB ports are black,"USB ports come in multiple colors, from eye-catching ones like orange and purple to plain old black ports. Here&#39;s what the latter signifies.",https://www.engadget.com/img/gallery/the-reason-why-some-usb-ports-are-black/l-intro-1793589556.jpg,https://www.engadget.com/2303524/reason-why-usb-ports-black/,http://www.engadget.com/rss-full.xml,2026-11-03T13:45:00Z,5,Tech
+Police seizes over 100 servers in investment scam crackdown,European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...],,https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/,https://www.bleepingcomputer.com/feed/,2026-11-03T13:33:49Z,0,Cybersecurity
+Apple is restricting dating apps and romanceable chatbots to over 18s,"Apple will soon start asking developers to provide more details about their apps to enforce new App Store age rating requirements for dating and location-sharing features. The upcoming content descriptors announced on Monday will require developers to declare if their apps allow users to share their real-world location with others, or include features that enable […]",,https://www.theverge.com/tech/1025185/apple-app-store-age-rating-dating-apps-ai-companion,https://www.theverge.com/rss/index.xml,2026-11-03T13:22:38Z,6,Tech
+You can easily update your AirPods firmware in just a few simple steps,"AirPods get updates silently, unlike your iPhone, but you can prep them for a smoother update experience.",https://www.engadget.com/img/gallery/you-can-easily-update-your-airpods-firmware-in-just-a-few-simple-steps/l-intro-1792516154.jpg,https://www.engadget.com/2291958/how-to-easily-update-airpods-firmware/,http://www.engadget.com/rss-full.xml,2026-11-03T13:15:00Z,6,Tech
+NASA's Swift observatory is expected to re-enter Earth on November 4,The US Armed Forces says NASA&#39;s Swift observatory will re-enter Earth&#39;s atmosphere in the early hours of November 4.,https://www.engadget.com/img/gallery/nasas-swift-observatory-is-expected-to-re-enter-earth-on-november-4/l-intro-1793709578.jpg,https://www.engadget.com/2305059/nasas-swift-observatory-is-expected-to-re-enter-earth-on-november-4/,http://www.engadget.com/rss-full.xml,2026-11-03T12:41:51Z,0,Tech
+Network appliances go more than a year without patches as exploits speed up,"
+		
+					  
+						
+
+
+
+
+The median vulnerability on enterprise network appliances stays unpatched for more than a year, Microsoft’s own telemetry shows, even as the most damaging software flaws are being weaponized within days of disclosure.
+
+
+
+Microsoft Security Research reported the findings Monday in an analysis of roughly 383,000 CVEs disclosed from 1999 through September 2026. It shows that the median time to patch a vulnerability exceeds a year for network appliances. The period is more than a month for Windows servers, over 10 weeks for Linux servers and applications running on macOS, and about two weeks for Windows workstations.
+
+
+
+“That gap is the threat actor’s window, widest on the critical systems that stay exposed the longest,” Microsoft Security researchers Yair Tsarfaty and Or Begam wrote in a blog post detailing the findings. They were referring to the distance between how fast flaws are exploited and how slowly critical systems are patched.
+
+
+
+Patching measured in weeks and months
+
+
+
+Microsoft drew its patching figures from 2026 data in its Security Exposure Management product. The median vulnerability is fixed in about two weeks on Windows workstations but takes more than a month on Windows Server, according to the post. The delay stretches beyond 10 weeks on Linux servers and for applications running on macOS, and past a year on network appliances.
+
+
+
+Vibhum Dubey, a cybersecurity researcher and red teamer, said the findings reflect what he sees across enterprise environments. In those environments, change approvals, application dependencies, maintenance windows, and legacy infrastructure routinely hold up fixes.
+
+
+
+“Network appliances are particularly difficult because firmware upgrades can affect critical business operations,” Dubey said. “In many cases, the challenge is not identifying vulnerabilities, but getting the right teams to remediate them without disrupting business services.”
+
+
+
+Exploitation measured in days
+
+
+
+Exploitation runs on a far shorter clock, Microsoft wrote in the post. Citing CISA figures, the researchers said the mean time from CVE publication to listing in CISA’s Known Exploited Vulnerabilities catalog fell from 89 days in 2024 to 57 days in 2025. For 2026 through September, the mean has dropped to 20 days and the median to three.
+
+
+
+“Exploitation runs on the opposite clock: the most impactful vulnerabilities are weaponized in days, increasingly on or before disclosure,” the post said.
+
+
+
+The researchers also cited VulnCheck’s State of Exploitation 2026 report, which found that 29% of exploits in 2025 were launched within a day of CVE publication. Industry research points to advances in AI as a significant factor in cutting the time needed to develop exploits, Microsoft wrote in the blog post.
+
+
+
+In some cases, defenders have hours rather than weeks, Dubey said. Vulnerabilities can be exploited before public disclosure or before organizations have completed their initial assessment.
+
+
+
+He said enterprises need to move away from relying entirely on monthly scans and scheduled patch cycles. In their place, he said, they need continuous monitoring, emergency patching procedures, virtual patching through WAF and IPS controls, and clear remediation ownership.
+
+
+
+“The priority should be to reduce the window of exposure, because by the time a vulnerability reaches the regular patching queue, attackers may already be exploiting it,” Dubey said.
+
+
+
+Where the exploits land
+
+
+
+The vulnerabilities attackers actually use look very different from the CVE population as a whole, the analysis found. Server-side remote code execution (RCE) flaws make up 20% of all published CVEs but 37% of those exploited in the wild. Local privilege escalation climbs from 11% to 18%, and client-side RCE from 4% to 13%.
+
+
+
+Cross-site scripting drops from 15% of published CVEs to 4% of exploited ones, and denial-of-service flaws drop from 16% to 7%, according to the researchers. Operating system vulnerabilities make up 23% of the overall population but account for 41% of exploited CVEs.
+
+
+
+“These patterns are consistent with threat actors favoring vulnerabilities that can provide meaningful access and control,” the researchers wrote.
+
+
+
+Together, RCE, authentication bypass, and local privilege escalation account for 78% of real-world exploited vulnerabilities, the post said. Windows ranks as the most affected platform among exploited CVEs in Microsoft’s data.
+
+
+
+Prioritizing by exposure
+
+
+
+A vulnerability’s value to an attacker depends on its impact and its exposure, according to Microsoft. Impact is what successful exploitation delivers. Exposure is the identities, privileges, and network connections reachable from the compromised asset.
+
+
+
+Servers frequently run service accounts, application identities, or cloud-managed identities with more permissions than they need, the post noted. Taking over one of them can open paths to sensitive data, administrative rights, and trusted networks.
+
+
+
+“CVSS scores alone are no longer sufficient,” Dubey said. Organizations should prioritize vulnerabilities based on active exploitation, internet exposure, asset criticality, and potential attack paths, he said. “A medium-severity vulnerability on an internet-facing system with a known exploit can present a greater risk than a critical vulnerability on an isolated asset,” he said.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4243874-0-72192900-1793709141-shutterstock_2351071965.jpg?quality=50&strip=all,https://www.csoonline.com/article/4243874/network-appliances-go-more-than-a-year-without-patches-as-exploits-speed-up.html,https://www.csoonline.com/feed/,2026-11-03T12:32:10Z,22,Cybersecurity
+The Arduview might be the ultimate tribute to retro translucent gadgets,Almost every component of the tiny Arduview gaming handheld is see-through.,https://www.engadget.com/img/gallery/the-arduview-might-be-the-ultimate-tribute-to-retro-translucent-gadgets/l-intro-1793654433.jpg,https://www.engadget.com/2304756/the-arduview-might-be-the-ultimate-tribute-to-retro-translucent-gadgets/,http://www.engadget.com/rss-full.xml,2026-11-03T12:30:00Z,1,Tech
+Android’s November 2026 Updates Patch Over 200 Vulnerabilities,"The most severe is a critical flaw in Framework leading to remote code execution without user interaction.
+The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.
+",,https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/,https://www.securityweek.com/feed/,2026-11-03T12:21:49Z,2,Cybersecurity
+Critical Node-RED Flaw Exploited in Attacks,"Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells.
+The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/,https://www.securityweek.com/feed/,2026-11-03T12:10:19Z,7,Cybersecurity
+"Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...],,https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/,https://www.bleepingcomputer.com/feed/,2026-11-03T12:05:52Z,4,Cybersecurity
+"Rivian spinoff Also wants to reinvent the wheel — but first, it has to ship","When Rivian quietly spun off its micromobility brand, Also, a lot of observers wondered if the luxury EV maker had bitten off more than it can chew. Chris Yu insists that&#39;s not the case. Yu, a Stanford aeronautics PhD and former CTO at Specialized, runs the startup as an independent business that counts Rivian as […]",,https://www.theverge.com/transportation/1024747/rivian-spinoff-also-chris-yu-interview-ebike-production-ramp,https://www.theverge.com/rss/index.xml,2026-11-03T12:00:00Z,3,Tech
+Redmagic upgrades its liquid-cooled gaming phone with extra RGBs,"After introducing true liquid cooling to its gaming phones last year, Redmagic is upping the ante in its 12 Pro by building RGB lights into the transparent cooling loop, too. And they work! Sort of. The lights do turn on, and they can be set to glow in set patterns, activate for specific apps, or […]",,https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera,https://www.theverge.com/rss/index.xml,2026-11-03T12:00:00Z,1,Tech
+"Enterprises pay $100,000 a day for AI they never ordered","
+		
+					  
+						
+
+
+
+
+Enterprises deploying large language models (LLMs) in production may be unknowingly footing the bill for someone else’s AI business. Google Threat Intelligence Group (GTIG) is warning of financially motivated LLMjacking campaigns in which cybercriminals hijack enterprise cloud and model access before reselling it through underground subscription services.
+
+
+
+The activity can generate fake cloud charges exceeding $100,000 in a single day, GTIG said in a blog post. In some incidents, cumulative charges reached $1 million before organizations revoked the compromised access.
+
+
+
+“LLM Mixers turn stolen enterprise model access into a service for paying customers, while the victim’s systems continue accepting requests through credentials they recognize,” said Piyush Sharma, co-founder and CEO at Tuskira. “That puts a lot of weight on the authority attached to each credential. A key issued for one application shouldn’t become a reusable pass to other models and workloads.”
+
+
+
+GTIG’s analysis is based on multiple incidents in 2026, spanning a variety of cloud and LLM providers across North America, South America, and Asia Pacific.
+
+
+
+Stolen model access becomes an underground business
+
+
+
+GTIG said the monetization infrastructure centers on LLM Mixers, criminal routing gateways that aggregate compromised API credentials and resell model access to underground subscribers. These services proxy requests across stolen accounts, distribute consumption and hide the original source of access.
+
+
+
+Multiple operations were identified using open-source gateways and custom relay infrastructure to pool stolen credentials. One threat actor, UNC6993, used tools including new-api and gcli2api to aggregate stolen keys and distribute requests across accounts.
+
+
+
+Another operation used stolen third-party API keys to power Jet Night, a legitimate token-routing service that executed more than 500,000 LLM API calls in under eight hours, GTIG said. The activity passed nearly $1 million in token costs to the victim organization. Jet Night advertises unlimited access to frontier models for approximately $60 a month, substantially lower than the typical cost of comparable legitimate access.
+
+
+
+Jet Night also experienced occasional outages that GTIG suspects were caused by victims discovering compromises and revoking keys.
+
+
+
+“Selling stolen model access gives criminals a reason to keep that access working for as long as possible, which makes the quiet activity before the spending spike especially important,” said Nick Tausek, lead security automation architect at Swimlane. “By the time someone asks why the cloud bill has exploded, the attacker may already have paying customers.”
+
+
+
+The attack begins long before the bill arrives
+
+
+
+Initial access involves exposed or stolen cloud identity tokens, including IAM credentials, service account keys, GitHub personal access tokens, and active session tokens, GTIG pointed out. Attackers also harvest LLM API keys from public repositories and scan for exposed model endpoints.
+
+
+
+Attackers were seen validating stolen keys with minimal single-token requests, sometimes using max-tokens=1. Such micro-transactions can confirm whether credentials work while remaining below conventional consumption-based detection thresholds.
+
+
+
+“Testing a stolen key with a single-token request barely registers as consumption,” Tausek said. “But pair that request with a newly created credential or an unexpected permission change, and there’s something worth investigating.” Analysts shouldn’t have to pull those connections together manually while the attacker gets a head start, he added.
+
+
+
+After establishing access, attackers enumerate cloud services, repositories, and data stores for additional credentials. They may escalate privileges, create unauthorized service accounts, inject SSH keys, or establish persistence through compromised workloads.
+
+
+
+GTIG observed a follow-on threat actor exploiting a user ID rebinding vulnerability in the LiteLLM gateway to elevate ordinary virtual keys into administrative credentials.
+
+
+
+Sharma said organizations must restrict credentials to their intended models, workloads, and endpoints. “The gateway compromise described in these incidents deserves particular attention,” he said, warning that control of the routing layer could open access beyond the original compromised credential.
+
+
+
+GTIG recommends tighter credential management, least-privilege permissions, granular API key scopes, monitoring for suspicious low-volume requests, and spending limits on model consumption. It also urges organizations to monitor unauthorized AI service enablement and gateway vulnerabilities.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4243863-0-97594300-1793706772-shutterstock_1336007219.jpg?quality=50&strip=all,https://www.csoonline.com/article/4243863/enterprises-pay-100000-a-day-for-ai-they-never-ordered.html,https://www.csoonline.com/feed/,2026-11-03T11:52:38Z,19,Cybersecurity
+Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing,"Fixed kernels for a use-after-free vulnerability in the Linux kernel&#39;s IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu&#39;s fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.
+
+The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdf8UfDHsjH9VaJGtYT5WgjtJ1G5YRMkjPWNeKn-hw05sM9ny0kW9L2eIc3UCiIQ7qmc_TmfrenS1WH8KiRBjln2hQS0X7DUlykxdHrzDgg4uoiHpiOf3fVTOnUuOt4618z3PN7hw1AfUch_y0Tot3ubTga5LEfyWnATkzegfQBSWxMbzNzJaGY18QqC8/s1600/linux-rce.jpg,https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T11:23:53Z,7,Cybersecurity
+The 4 Elements of Exposure Prioritization and How to Operationalize Them,"Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK5J_qkmStJVdWJYvNtd4lb2cRfPMaSvu1dEKp8tXOjw71kt_fRGGfdPr60HL5agJ8NMBYO5sH7jVvzMWXlLW1fq0xilaF0GyLQHCznSjHeos7sdP_Xwmd6OWyzKv8Yq8m-Z0Hn3x15GBU8AySu2A27OlIWiuAW9ch0iZuXxTpELRSQ6uRdW9nLK4uXQg/s1600/picus-main.png,https://thehackernews.com/2026/11/the-4-elements-of-exposure.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T11:18:20Z,10,Cybersecurity
+Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware,"A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.
+
+&#34;Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,&#34; ESET researcher",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqyPfrBB7GYTnYsvVj2TxCv0pPwFh_PkVpdQcxuspKgQfbsX1p2kDSdokIyPqLsxSfBCkFPiTATfZxZRbouqkoqfEESL7CgA-MyXD61eQFluiQtdFZDyXQc_3EUAg71JWIHxq9MPVLrwwegvUVuiViE8AxsKH6iBVypWazO0wmCoaC3-D1Ih9Yw3vwN1FJ/s1600/russia-hackers.jpg,https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T11:00:45Z,13,Cybersecurity
+"Harvard University data breach exposed info of 851,000 accounts","Hackers who breached Harvard University&#39;s Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",,https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/,https://www.bleepingcomputer.com/feed/,2026-11-03T10:53:25Z,4,Cybersecurity
+"Armed with AI, hackers target endpoint security blind spots, raising stakes for CISOs","
+		
+					  
+						
+
+
+
+
+A China-linked hacking group’s use of AI agents to identify security weaknesses during a global espionage campaign is raising concerns about whether enterprises can detect gaps in their defenses before automated attacks exploit them.
+
+
+
+CrowdStrike reported that the group, tracked as VAPOR PANDA, used an AI-powered penetration testing framework called ARTEX to target more than 200 organizations worldwide over an 11-day period beginning October 17. The organizations included government agencies and businesses across at least 14 countries, with researchers confirming post-exploitation activity at nine.
+
+
+
+At a global pharmaceutical company, the attackers instructed AI agents to examine running processes and folder listings on Windows machines to determine whether CrowdStrike’s Falcon sensor was installed, according to transcripts recovered by the cybersecurity firm.
+
+
+
+ARTEX uses multiple AI agents to carry out intrusion tasks under human direction. CrowdStrike found that VAPOR PANDA used the framework to pursue attacks against several organizations simultaneously, with operators intervening at key decision points.
+
+
+
+The findings follow an October 21 report from Microsoft detailing a separate campaign involving ARTEX. Microsoft said another China-linked group, Storm-0940, used the framework to automate attacks targeting hundreds of organizations, gaining privileged cloud access in less than three hours in some cases. The campaign included the abuse of compromised ConnectWise application credentials to access customer environments.
+
+
+
+Changing economics of cyberattacks
+
+
+
+The use of AI in cyberattacks is changing the economics of state-sponsored espionage by allowing smaller teams to pursue targets without a corresponding increase in personnel, according to Akshat Tyagi, associate practice leader at HFS Research.
+
+
+
+“The techniques are familiar, but the ability to run them in parallel is not,” Tyagi said.
+
+
+
+Jonathan Ong, senior analyst for managed security services at Omdia, said AI can substantially reduce the time attackers spend on reconnaissance, even as more sophisticated exploitation continues to require technical expertise.
+
+
+
+The attacks documented by CrowdStrike exploited weaknesses that security teams have encountered for years. At a Greek government organization, attackers used authentication keys from a 2022 directory export that had likely not been rotated. At a US pharmaceutical company, an AI agent combined an unsigned SAML assertion with an XML external entity (XXE) vulnerability to obtain a cloud role with extensive administrative permissions.
+
+
+
+Security gaps become a bigger target
+
+
+
+Growing concerns about the security risks of AI adoption should not distract organizations from established defensive measures, Ong said. Tyagi added that CISOs should ensure that security monitoring extends across their environments rather than assuming existing deployments provide complete coverage.
+
+
+
+Amit Kumar Jena, development manager for AI at Kanerika, said organizations should continuously measure endpoint protection coverage, including on internal servers, and generate alerts when machines stop reporting to security monitoring systems.
+
+
+
+He also recommended enforcing SAML signature validation and restricting cloud access privileges. Security teams should watch for closely sequenced authentication attempts and commands that could indicate automated malicious activity, he said.
+
+
+
+Tyagi also recommended regularly rotating credentials and monitoring unusual account activity, warning that automated attacks leave defenders less time to investigate suspicious behavior.Keith Prabhu, CEO of Confidis, said gaps between security systems could give attackers opportunities to move through enterprise environments. He recommended improving asset visibility and detecting suspicious activity across systems rather than relying on individual security controls.
+
+
+
+Prospect of Cobalt Strike-style adoption
+
+
+
+The use of ARTEX by different threat groups also points to the wider availability of tools capable of automating cyberattacks.
+
+
+
+CrowdStrike said VAPOR PANDA used ARTEX with DeepSeek and a second commercial AI model. Although the framework’s developer withdrew the original open-source project in October following reports of its misuse, copies and modified versions remain available.
+
+
+
+Tyagi expects such tools to become more widely adopted by financially motivated cybercriminals over the next 12 months.
+
+
+
+There is already evidence of broader adoption. In research published in October, Google Threat Intelligence Group and Mandiant said they had observed financially motivated attackers using ARTEX during data-theft extortion operations, alongside its use by suspected state-linked groups.
+
+
+
+“AI pentesting frameworks such as ARTEX have the potential to become the Cobalt Strike of the AI era,” said Ong.
+
+
+
+Cobalt Strike, a commercial penetration-testing tool, has been widely abused by cybercriminals and state-sponsored groups.
+
+
+
+As attackers automate more of their operations, security teams may need to rely more heavily on automated detection. Tyagi said this would allow analysts to spend less time manually reviewing alerts and concentrate on decisions requiring human judgment.
+
+
+
+Prabhu said CISOs should prioritize faster, rehearsed incident response rather than simply investing in additional AI tools or expanding security teams. Such preparations could help security teams respond to intrusions in which automated agents explore multiple attack paths before defenders have completed their initial investigation.
+
+
+
+Although ARTEX can automate much of an intrusion, the observed campaigns still involved human operators directing key decisions.
+
+
+
+“We are not at fully autonomous attacks yet,” Tyagi said.
+
+
+
+The continuing role of human operators does not diminish the speed of the attacks. For security teams, the challenge is detecting suspicious activity early enough to prevent automated intrusion attempts from developing into broader compromises.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4243816-0-19481200-1793703201-shutterstock_680075014.jpg?quality=50&strip=all,https://www.csoonline.com/article/4243816/armed-with-ai-hackers-target-endpoint-security-blind-spots-raising-stakes-for-cisos.html,https://www.csoonline.com/feed/,2026-11-03T10:53:10Z,26,Cybersecurity
+Apple will start mandating age requirements for dating apps,"Apple developers will have to declare whether their app enables dating between real people and/or AI companions, so the company can apply the proper age rating.",https://www.engadget.com/img/gallery/apple-will-start-mandating-age-requirements-for-dating-apps/l-intro-1793701818.jpg,https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/,http://www.engadget.com/rss-full.xml,2026-11-03T10:32:28Z,6,Tech
+UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028,"The U.K. will likely face AI cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity.
+The post UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028 appeared first on SecurityWeek.
+",,https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/,https://www.securityweek.com/feed/,2026-11-03T09:49:12Z,4,Cybersecurity
+Google Dismantles XCPE Botnet of 1.3 Million Android Devices,"The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology.
+The post Google Dismantles XCPE Botnet of 1.3 Million Android Devices appeared first on SecurityWeek.
+",,https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/,https://www.securityweek.com/feed/,2026-11-03T09:22:09Z,1,Cybersecurity
+Apple's latest watchOS 27 beta enables Siri Recap and Live Rewind audio features,"First revealed at the company&#39;s event in September, Apple&#39;s AI-powered Apple Watch features are finally landing in beta.",https://www.engadget.com/img/gallery/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio-features/l-intro-1793697908.jpg,https://www.engadget.com/2304993/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio-features/,http://www.engadget.com/rss-full.xml,2026-11-03T09:21:36Z,6,Tech
+NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training,"The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training.
+The post NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training appeared first on SecurityWeek.
+",,https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/,https://www.securityweek.com/feed/,2026-11-03T08:49:03Z,1,Cybersecurity
+Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets,"BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions.
+
+&#34;Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,&#34; BTCPay Server",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrr1rJlr2nztz8jEunAWtVXHyOHkJY2_KdeweNWBqwF18rmhPiFItEQ-yCex1vVsps856ArIDl7unaWJNiribZ9DgkmQ3o4pLa1BKQrjKEeFR63z4csXnBHah5wIp7H5xuUB7b1UIp06nk6BzLuxFW5aWh2g-PoLoZ74RjMOEUX7XdrDsHM1yFbjGHBzK8/s1600/btcpay.jpg,https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T08:31:48Z,6,Cybersecurity
 67% of security leaders say their teams struggle to meet business needs,"
 		
 					  
@@ -86,6 +859,7 @@ The Taiwanese vendor said it observed threat actors exploiting a vulnerability p
 
 No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls, ",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjScxShEa3bsAhGLHlqkBcsyuRe6UeQwrOVXBFP3TwxzmXtd03vDeDRZHxxBLIKHDYgY5p5CsrFvBwuozg3UsRLtVMO758NhVwSju6D6WgO1J42wJd2NWR9aVzz-B_CWfiMFH2QANUrAnUXbgkKec2KtJjULvN3NTqrCPbLRNnxlnvBFIAkndClXJMIeXY/s1600/fridge-hack.jpg,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html,https://feeds.feedburner.com/TheHackersNews,2026-11-03T07:27:07Z,3,Cybersecurity
 Apple Watch’s AI features for rewinding and recapping conversations begin beta testing,Now in beta: Apple&#39;s new Audio Intelligence features can help you remember what someone said or take notes on conversations. ,,https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/,https://techcrunch.com/feed/,2026-11-03T07:20:00Z,6,Tech
+Indonesia’s Navy Is Growing. Is Its Combat Power Keeping Up?,"While fleet size is an important measure of operational capacity, a lot depends on how effectively new platforms are equipped, operated, and integrated.",https://images.thediplomat.com/v1/td-list-l-2/2026/07/thediplomat_2026-07-02-232029.jpg,https://thediplomat.com/2026/11/indonesias-navy-is-growing-is-its-combat-power-keeping-up/,https://thediplomat.com/category/asia-defense/feed/,2026-11-03T07:06:00Z,0,Defense
 Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors,"A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.
 
 The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code.
