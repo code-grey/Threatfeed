@@ -1,4 +1,772 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution,"Zyxel GS1900 network switches that received the vendor&#39;s earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.
+
+The exploit lets anyone who can reach a switch&#39;s web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.
+
+The earlier fix is the 2.90",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaF7lULSp8hpZx_WSDcDsJxD9TzTOH5Oo5dkFteUVQqQMOXc7ZyytOxbNgL01vkV43Kx0V0sDzJvKGrZvPwjos_-g9djk8jVAqSN04CIhGoiWWUMLdyKQH32ES8ghi-6ilZbnbGi_WIRi8hvzik6ztrin-MZEK1QI2CKR3Lk1sUg3yVYuhGvsX0pC85Qg/s1600/zyxel-hacker.jpg,https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html,https://feeds.feedburner.com/TheHackersNews,2026-11-05T07:06:33Z,12,Cybersecurity
+"Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says","The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
+
+The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkv0B0acGnMDLnCJQYXNCkpzSeKKr_1m4-a10Q2Iy6DZOorGLb35YDD9vw3iQQA9fZTi7QGIZYlSsvTSmxc8w0UbgN_Xtl-QPyTngA9qhOuoryee3Z8X8CZRnHiUAY3wuIXG_UIO1DyDnjnfS5cOilt3WPzRnYYqFDZ1NHbXS0OVAsrVYHSeFuc7zglZw5/s1600/apple-0day.jpg,https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html,https://feeds.feedburner.com/TheHackersNews,2026-11-05T05:17:04Z,15,Cybersecurity
+Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time,The Ocarina of Time remake on the Switch 2 smashes together the past and present. The game retains much of the original N64 experience while updating it with modern graphics and gameplay that make it feel contemporary. But the mingling of time periods also extends to the development team. While Ocarina&#39;s remake was led by […],,https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi,https://www.theverge.com/rss/index.xml,2026-11-05T05:00:00Z,5,Tech
+The Sandbox Fights Back: Joe Security Launches Adaptive Detonation,"
+		
+					  
+						
+
+
+
+
+AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions.
+
+
+
+Joe Security‘s Adaptive Detonation brings active intervention to malware analysis, helping security teams investigate threats that may conceal their behavior during an initial sandbox run.
+
+
+
+Adaptive Detonation uses AI agents to examine execution results, identify obstacles preventing a sample from revealing relevant behavior, and select targeted interventions. These can include patching a blocking check, creating required files or settings, adjusting the execution environment, or supplying missing command-line arguments.
+
+
+
+Joe Sandbox then analyzes the sample again under the modified conditions to verify whether the intervention reveals additional activity.
+
+
+
+The approach addresses obstacles including keyboard restrictions, timing checks, firmware-based rejection, date requirements, and missing dependencies. By connecting observed evidence with targeted action and verification, Adaptive Detonation helps analysts investigate why a sample remains inactive and uncover behavior that might otherwise stay hidden.
+
+
+
+For security teams, this means deeper visibility into evasive threats and more evidence to support investigations.
+
+
+
+Adaptive Detonation is available as part of Joe Sandbox AI, a plugin for Joe Sandbox Cloud. Security teams can test Joe Sandbox by signing in or registering for Joe Sandbox Cloud Basic, the free community version.
+
+
+
+Read the Adaptive Detonation blog post for technical details, malware case studies, and original and follow-up analysis reports.
+
+
+
+About Joe Security
+
+
+
+Joe Security is a privately owned Swiss software company founded in 2011 and headquartered in Reinach, Switzerland. It develops malware and phishing analysis technology, combining dynamic analysis, agentic reverse engineering and dedicated analyst lab environments.
+
+
+
+Contact
+
+
+
+VP
+
+
+
+Marius Fitigau
+
+
+
+info@joesecurity.org
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244970-0-52869800-1793854561-Sanbox.png,https://www.csoonline.com/article/4244970/the-sandbox-fights-back-joe-security-launches-adaptive-detonation.html,https://www.csoonline.com/feed/,2026-11-05T04:55:50Z,11,Cybersecurity
+OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run,"OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.
+
+&#34;Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1600/linux-lpe.jpg,https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html,https://feeds.feedburner.com/TheHackersNews,2026-11-05T04:31:16Z,4,Cybersecurity
+Attackers turned OpsShield’s trusted update channel into a supply-chain attack,"
+		
+					  
+						
+
+
+
+
+The kinks in the software supply chain are once again being exposed, with attackers now targeting OpsShield’s update process.
+
+
+
+This week, threat actors used compromised credentials to push malicious updates out to cPGuard customers. They then accessed data stored on the vendor’s servers and in its billing portal accounts, and made copies of at least three of OpsShield’s cloud servers.
+
+
+
+The company said in an advisory that it has “shut the attacker out of every system we know they reached, and … are rebuilding the ones we cannot fully trust.” It has also released updates and urges customers to update to the latest version of cPGuard, change passwords, and generate new SSH keys.
+
+
+
+Ultimately, the breadth of this unsanctioned access underscores the continued fragility of the software supply chain, as well as the vulnerability of security tools themselves.
+
+
+
+“The real danger here is that attackers were able to turn a trusted security update mechanism into a vector to break into servers,” said Erik Avakian, a technical counselor at Infotech. “The software that’s supposed to protect those servers became the source that compromised them.”
+
+
+
+The anatomy of the attack
+
+
+
+OpsShield specializes in server protection and web security software. Its cPGuard product is a security suite, malware scanner, and firewall designed for Linux web hosting servers.
+
+
+
+The company disclosed that, between November 1 and 2, attackers were able to gain unauthorized access to the OpsShield update distribution infrastructure, and, for about 70 minutes, pushed out a malicious update.
+
+
+
+The threat actors began by probing OpsShield’s billing portal, registering a customer account under a false identity, and ordering a free cPGuard trial. They then sent crafted requests that allowed them to gain the ability to run commands on the server to collect data. They used stolen access keys to publish fake updates that ran as root (the highest level of admin privilege), and to copy sensitive files and make copies of three OpsShield cloud servers.
+
+
+
+About 2,950 customer servers ran the fake update, exposing password hashes, root SSH keys, MySQL root passwords, and shell history, OpsShield reported. Attackers also accessed about 7,900 billing portal accounts containing customer names, addresses, emails, and hashed passwords.
+
+
+
+OpsShield says it is still reviewing the exact request that provided access, and has patched two possible entry points and verified related vendor components “line by line.” It closed the attacker’s account, revoked the stolen update-storage key as well as “every cloud API token and access key on our account.”
+
+
+
+The company also removed the attacker’s secure shell (SSH); deleted the clones of its servers created by the attacker plus any snapshots; turned on stronger login protection and replaced every SSH key and password; reset all billing portal login sessions and rotated all keys; and began rebuilding its billing, licensing, and internal management servers with tighter PHP and firewall settings.
+
+
+
+The company has also published clean updates: v5.88.26, which removes the hidden root shell; plus a follow-up which removes the scheduled task left by the attacker. Further, it began re-issuing all cPGuard license private and public keys so that the copies the attacker gained access to stopped working.
+
+
+
+The company advised admins to:
+
+
+
+
+Update cPGuard to the latest version, then confirm that /etc/cron.d/i93677, /var/tmp/.i93677/ and /var/tmp/.cpg91511_sh are gone; delete them if not;
+
+
+
+Change root passwords and every local user password on the server;
+
+
+
+Generate new root SSH keys and remove old ones from every server that trusted them; until the keys are changed, treat the servers as compromised;
+
+
+
+Change MySQL root passwords and any database passwords and rotate any password, API key, or token existing in root shell histories;
+
+
+
+Reset the OpsShield billing portal passwords and turn on two-factor authentication.
+
+
+
+Finally, it said, “if we told you the attacker logged in to your server by hand, rebuild it from a clean backup taken before 1 November.”
+
+
+
+
+OpsShield being transparent, but the impacts are still real
+
+
+
+“Frankly, few vendors write a breach disclosure this candid,” said Frank Dickson of Dickson Research. “OpsShield deserves a lot of credit for that.”
+
+
+
+However, he pointed out, the worst kind of breach is the one a security tool delivers. Update channels are left unlocked on purpose, and security tools run as root because they have to see everything, “so the fake update ran as root too.”
+
+
+
+For a hosting provider, one server can hold hundreds of customer websites and databases. A MySQL root password opens all of them, and a root SSH key grants access to every other server that trusts it. Shell history also often contains typed passwords and tokens.
+
+
+
+The downstream customer may be hit hardest while knowing the least, Dickson pointed out, as most website owners have no idea which security agent their hosting provider runs. Every server that updates itself trusts the vendor’s pipeline.
+
+
+
+OpsShield describes itself as a small team selling to smaller hosts at a low price, which is the uncomfortable truth of the supply chain, Dickson said. “Your exposure is set by the smallest vendor holding root on your servers, not the largest.”
+
+
+
+Avakian agreed that this serves as a reminder that an enterprise’s software supply chain is only as secure as the systems, identities, and processes behind it. “You can do everything you can to secure your own infrastructure and still get compromised through a third-party supplier you trust.”
+
+
+
+What’s particularly concerning here is that the attackers didn’t have to go after thousands of customers one by one; they only had to compromise a single distribution mechanism to turn the vendor’s own trusted infrastructure against its customers, he noted.
+
+
+
+Third parties extend risk, which is a fact that organizations still underestimate, he said. “Enterprises need to pay much more attention to third-party and supply chain risk management.”
+
+
+
+Zero-trust a must-have
+
+
+
+Avakian also pointed out that the impact on downstream customers could go well beyond initial compromise, as stolen credentials can be used to carry out further attacks. Enterprises should take a zero-trust approach that includes their software suppliers and the updates they rely on.
+
+
+
+“Just because an update comes from a trusted source doesn’t mean you can assume it’s safe,” he said. Enterprises should take a closer look at vendor risk, protect privileged credentials, and examine software integrity. Also, continuously monitor for unexpected behavior after an update and be ready to isolate systems quickly if and when something goes wrong.
+
+
+
+“You have to plan for the possibility that even a trusted supplier can be compromised,” he emphasized. “And you need to practice those types of scenarios as part of a regular table-top exercise program.”
+
+
+
+Dickson advised starting with an inventory, and knowing every vendor agent running with root or administrator privilege, as each one is an update channel. Customers should ask vendors where update publishing keys live and what separates them from customer-facing systems, watch outbound traffic from servers, keep secrets out of shell history, and treat SSH keys as credentials with an expiration date. Downstream customers should ask their host directly whether it runs cPGuard, then change their own passwords.
+
+
+
+“The most dangerous software on your server may be the software you trust to update itself,” he said. “Choose those vendors as if they hold root, because they do.”
+
+
+
+This article originally appeared on NetworkWorld.
+
+
+
+
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244961-0-32985700-1793847799-KI1.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244961/attackers-turned-opsshields-trusted-update-channel-into-a-supply-chain-attack-2.html,https://www.csoonline.com/feed/,2026-11-05T03:03:06Z,22,Cybersecurity
+Apple is reportedly cutting budgets for its internal AI usage,The company is said to be significantly dropping the amount it&#39;s spending on AI for its engineering teams. ,,https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/,https://techcrunch.com/feed/,2026-11-05T01:26:22Z,6,Tech
+"After the midterms, a bigger clash over data centers could be coming",Data center opposition crossed party lines in Tuesday’s midterms.,,https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/,https://techcrunch.com/feed/,2026-11-05T01:02:14Z,0,Tech
+X says its updated web app is way faster,"X is introducing a new version of its web app that it says is much faster than before, and it&#39;s now rolling out the updated app &#34;one country at a time&#34; for signed-in users. &#34;Open a profile on X.com over a slow connection,&#34; principal engineer Yagiz Nizipli said in a blog post about the changes. […]",,https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster,https://www.theverge.com/rss/index.xml,2026-11-05T00:25:12Z,7,Tech
+Snap has more than 30 million paid subscribers across Snapchat+ and other plans,Power users seem more than willing to pay for AI-powered effects.,https://www.engadget.com/img/gallery/snap-has-more-than-30-million-paid-subscribers-across-snapchat-and-other-plans/l-intro-1793832812.jpg,https://www.engadget.com/2307356/snap-has-more-than-30-million-paid-subscribers-across-snapchat-and-other-plans/,http://www.engadget.com/rss-full.xml,2026-11-04T22:55:57Z,5,Tech
+The tech memory shortage comes for Nintendo's cartridge supply chain,And what that could mean for physical Switch game costs.,https://cdn.arstechnica.net/wp-content/uploads/2026/11/switchcarts-1152x648.jpg,https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/,https://arstechnica.com/feed/,2026-11-04T22:47:51Z,5,Tech
+AI PACs spent millions trying to shape Congress. Here’s how they fared.,"AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",,https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/,https://techcrunch.com/feed/,2026-11-04T22:45:09Z,5,Tech
+Qualcomm is betting big on data centers as smartphone sales sink,"With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier […]",,https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers,https://www.theverge.com/rss/index.xml,2026-11-04T22:42:15Z,5,Tech
+Hackers exploited iOS and Android flaws to infect phones,Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.,https://cdn.arstechnica.net/wp-content/uploads/2023/05/malware-1000x648.jpg,https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/,https://arstechnica.com/feed/,2026-11-04T22:26:49Z,0,Tech
+Nothing CEO says company’s mysterious AI-first device is dropping next month,"While it&#39;s not yet clear what kind of product the smart phone startup is cooking up, Nothing&#39;s CEO said that product is designed to leverage AI for productivity gains.  ",,https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/,https://techcrunch.com/feed/,2026-11-04T22:13:16Z,8,Tech
+"Dem lawmakers vow inquest into CISA cuts, intel policy","House Democrats will investigate the administration&#39;s cyberdefense cuts, while Senate Dems will control confirmation hearings for the officials who lead the nation’s security agencies.",,https://www.defenseone.com/policy/2026/11/democrats-midterm-sweep-puts-cisa-cuts-intelligence-disputes-under-scrutiny/417058/,https://www.defenseone.com/rss/all/,2026-11-04T22:00:00Z,0,Defense
+Uranium cubes reveal why the German nuclear project failed,&#34;Our calculations suggest Heisenberg significantly underestimated the materials required.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/11/cube1-1152x648-1793713257.jpg,https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/,https://arstechnica.com/feed/,2026-11-04T21:56:29Z,5,Tech
+"Almost no one uses AI agents to book their Uber, company says","During its busiest week last quarter, Uber said only 4 people booked a ride using an AI agent. ",,https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/,https://techcrunch.com/feed/,2026-11-04T21:56:01Z,5,Tech
+Snapchat surpasses 30M paid subscribers,The milestone comes a year after Snapchat announced a controversial limit on free storage for its Memories feature and informed users it would start requiring users to pay $1.99 per month for additional storage or subscribe to Snapchat+ to retain their Memories. ,,https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/,https://techcrunch.com/feed/,2026-11-04T21:49:29Z,5,Tech
+17 better ways Elon Musk could have wasted $446 million,"One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you […]",,https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich,https://www.theverge.com/rss/index.xml,2026-11-04T21:45:00Z,5,Tech
+VMware releases vSphere Express for virtualization on up to 128 cores,"“We started listening to a lot of our lower-end customers,&#34; VMware exec says. ",https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-474325206-1152x648-1753374517.jpg,https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/,https://arstechnica.com/feed/,2026-11-04T21:38:49Z,0,Tech
+Vercel rolls out new protection against stolen session cookie attacks,Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...],,https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/,https://www.bleepingcomputer.com/feed/,2026-11-04T21:31:18Z,6,Cybersecurity
+"Cancellations, investigations, and even impeachment could be ahead under Democratic Congress","Efforts like Autonomous Warfare Command, the Golden Fleet, and more could crumble without funding.",,https://www.defenseone.com/policy/2026/11/impeachment-investigations-canceled-projects-democratic-congress/417053/,https://www.defenseone.com/rss/all/,2026-11-04T21:30:13Z,0,Defense
+How I learned to love an obnoxious phone grip,"Much like a great recipe, it started with a stick of butter. This wasn&#39;t real butter; it was a friend&#39;s new phone grip, complemented by a phone case with bold stripes. Butter is in vogue now, or at least that&#39;s what a 12-year-old told me a few months ago. This stick of butter was labeled […]",,https://www.theverge.com/tech/1026743/bright-colorful-phone-grip-case,https://www.theverge.com/rss/index.xml,2026-11-04T21:30:00Z,0,Tech
+"AMD's record quarter: Data center business doubles, while gaming craters",AMD&#39;s gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter. ,https://cdn.arstechnica.net/wp-content/uploads/2026/11/AMD_Helios_Rack_Instinct_MI455X-1152x540.webp,https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/,https://arstechnica.com/feed/,2026-11-04T21:29:46Z,0,Tech
+OpenAI is already trying to shape the 2028 election,"OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",,https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/,https://techcrunch.com/feed/,2026-11-04T21:25:44Z,5,Tech
+Bose’s QuietComfort Headphones are more than half off,"It’s not often that some of the best noise-canceling headphones you can buy are over half off. But right now, the first-gen Bose QuietComfort Headphones are on sale for $169.99 ($190 off) at Amazon, Best Buy, and Bose, matching its best price to date. The newer, second-generation version that launched in August is also down […]",,https://www.theverge.com/gadgets/1026807/bose-quietcomfort-headphones-wireless-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-04T21:13:11Z,0,Tech
+Meta acquires AI coding startup Conductor,The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.  ,,https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/,https://techcrunch.com/feed/,2026-11-04T21:10:56Z,9,Tech
+"Zyxel fixes zero-day exploited to hack nearly 1,000 network switches","Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",,https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/,https://www.bleepingcomputer.com/feed/,2026-11-04T20:58:19Z,12,Cybersecurity
+Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”,"Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302983449-1024x648.jpg,https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/,https://arstechnica.com/feed/,2026-11-04T20:55:50Z,5,Tech
+Hackers stole DreamHost customer files and inboxes during months-long attack,The web host said hackers exploited a vulnerability to access customer emails and files during a &#34;deliberate attack.&#34;,,https://techcrunch.com/2026/11/04/hackers-stole-dreamhost-customer-files-and-inboxes-during-months-long-attack/,https://techcrunch.com/feed/,2026-11-04T20:36:57Z,5,Tech
+Elon Musk moved SpaceX to red Texas. Now it's blue. What happens next?,&#34;Data centers in space looking pretty appealing right now.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/11/elon-how-do-you-do-fellow-democrats-1152x648.jpg,https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/,https://arstechnica.com/feed/,2026-11-04T20:36:05Z,1,Tech
+Pangram expands its AI detection tools to video and images,The company behind the widely used tool for AI text is moving into more kinds of AI slop.,https://www.engadget.com/img/gallery/pangram-expands-its-ai-detection-tools-to-video-and-images/l-intro-1793824046.jpg,https://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images/,http://www.engadget.com/rss-full.xml,2026-11-04T20:28:18Z,5,Tech
+Gemini for Home now plugs into AT&#038;T’s smart security system,"AT&amp;T&#39;s smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the &#34;first&#34; home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide […]",,https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system,https://www.theverge.com/rss/index.xml,2026-11-04T20:23:24Z,1,Tech
+Xbox is testing two new controller options for Cloud Gaming,The Nano Controller is adopting a Google Stadia trick.,https://www.engadget.com/img/gallery/xbox-is-testing-two-new-cloud-gaming-controller-options/l-intro-1793822568.jpg,https://www.engadget.com/2307085/xbox-is-testing-two-new-controller-options-for-cloud-gaming/,http://www.engadget.com/rss-full.xml,2026-11-04T20:04:21Z,3,Tech
+Open source AI is booming. Hugging Face explains who profits.,"Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?  On this episode of […]",,https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/,https://techcrunch.com/feed/,2026-11-04T19:30:04Z,8,Tech
+DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy,"DuckDuckGo is courting schools frustrated by Google&#39;s AI restrictions, pointing educators to its search engine and options to disable AI features.",,https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/,https://techcrunch.com/feed/,2026-11-04T19:29:52Z,5,Tech
+Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’,"“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",,https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/,https://www.wired.com/feed/category/security/latest/rss,2026-11-04T19:16:25Z,1,Cybersecurity
+Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control,Cruz and Trump seem to have no plans to fill FCC&#39;s empty Democratic seat.,https://cdn.arstechnica.net/wp-content/uploads/2025/07/ted-cruz-1152x648-1751388273.jpg,https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/,https://arstechnica.com/feed/,2026-11-04T19:08:23Z,5,Tech
+DreamHost confirms data breach exposed FTP logins and webmail sessions,DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers&#39; FTP/SFTP usernames and passwords. [...],,https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/,https://www.bleepingcomputer.com/feed/,2026-11-04T19:05:19Z,12,Cybersecurity
+Xbox previews two new ways to control cloud games,"I revealed yesterday that the new Xbox Nano controller supports a Wi-Fi connection directly to Xbox Cloud Gaming, and now Microsoft is making it official today. Two new Xbox previews will let players try out using a phone as a controller on smart TVs, as well as cloud connect on the Xbox Nano to connect […]",,https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller,https://www.theverge.com/rss/index.xml,2026-11-04T19:00:00Z,4,Tech
+Google’s Pixel 11 phones are up to 27 percent off,"You can save a heck of lot of money on Google’s Pixel 11 phones through November 8th, whether you want the best-for-the-least Pixel 11, or the slightly pricier Pixel 11 Pro that takes better photos. Even the big Pixel 11 Pro XL with a longer-lasting battery is hundreds off its original price. The Pixel 11 […]",,https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-04T19:00:00Z,0,Tech
+Nintendo's main Switch cartridge supplier is leaving the ROM business,This is potentially terrible news for those who love physical media.,https://www.engadget.com/img/gallery/nintendos-main-switch-cartridge-supplier-is-leaving-the-rom-business/l-intro-1793817497.jpg,https://www.engadget.com/2306886/nintendos-main-switch-cartridge-supplier-is-leaving-the-rom-business/,http://www.engadget.com/rss-full.xml,2026-11-04T18:39:08Z,5,Tech
+Nothing teases a screen-free AI device ahead of launch next month,"Nothing CEO Carl Pei said in a post on X that the company&#39;s launching its first AI device in December. That&#39;s just a little over a year after Pei announced plans for &#34;AI-native&#34; devices and an AI operating system. He didn&#39;t give away much about what exactly the new device is, only that one feature […]",,https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei,https://www.theverge.com/rss/index.xml,2026-11-04T18:26:07Z,5,Tech
+Apple will check shared iCloud links for ‘harmful content’,"Apple will start checking iCloud items that are accessible to anyone who has the link for &#34;harmful content&#34; starting with iOS 27.3 and other 27.3 updates, the company says. &#34;When you share an item that can be accessed by Anyone with the Link in version 27.3 or later of iOS, iPadOS, macOS, and visionOS, that […]",,https://www.theverge.com/tech/1026604/apple-icloud-links-harmful-content-27-3,https://www.theverge.com/rss/index.xml,2026-11-04T18:23:37Z,5,Tech
+Waymo confirms it’s shaking up its Uber relationship in January 2028,"The change will set up direct competition in those markets, as Uber has many other autonomous vehicle partners on its network.",,https://techcrunch.com/2026/11/04/waymo-confirms-its-shaking-up-its-uber-relationship-in-january-2028/,https://techcrunch.com/feed/,2026-11-04T18:12:30Z,0,Tech
+Waymo confirms it will start splitting with Uber in January 2028,"The split will set up direct competition in those markets, as Uber has many other autonomous vehicle partners on its network.",,https://techcrunch.com/2026/11/04/waymo-confirms-it-will-start-splitting-with-uber-in-january-2028/,https://techcrunch.com/feed/,2026-11-04T18:12:30Z,0,Tech
+Waymo confirms it will split with Uber in January 2028,"The split will set up direct competition in those markets, as Uber has many other autonomous vehicle partners on its network.",,https://techcrunch.com/2026/11/04/waymo-confirms-it-will-split-with-uber-in-january-2028/,https://techcrunch.com/feed/,2026-11-04T18:12:30Z,0,Tech
+‘You Can See Everything’ is getting an outer space release and it hasn’t even come out in Europe yet,It is easier to watch the Elizabeth Holmes documentary &#34;You Can See Everything&#34; in low-Earth orbit than in London.,,https://techcrunch.com/2026/11/04/you-can-see-everything-is-getting-an-outer-space-release-and-it-hasnt-even-come-out-in-europe-yet/,https://techcrunch.com/feed/,2026-11-04T18:10:11Z,0,Tech
+Cyberattack disrupts blood storage refrigeration systems in France,"France&#39;s national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",,https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/,https://www.bleepingcomputer.com/feed/,2026-11-04T18:02:56Z,6,Cybersecurity
+People say they want small smartphones—the Enough Phone will put that to the test,"It won&#39;t win the specs race, but it will actually fit in your hand.",https://cdn.arstechnica.net/wp-content/uploads/2026/11/Enough-Phone-in-Hand-1152x648.jpg,https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/,https://arstechnica.com/feed/,2026-11-04T18:00:40Z,0,Tech
+ChatGPT will now make you animated GIFs,"ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI&#39;s new Images 2.6 model, allows you to adjust the GIF&#39;s animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn&#39;t natively generate GIFs in a single […]",,https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6,https://www.theverge.com/rss/index.xml,2026-11-04T18:00:00Z,6,Tech
+My therapist thinks I should chuck the Amazon Bee Frontier out a window,"This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they&#39;re going to change your life. Opt in for Optimizer here. &#34;How does that make you feel?&#34; I get asked this a lot in therapy. Plenty of life events, big and […]",,https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables,https://www.theverge.com/rss/index.xml,2026-11-04T18:00:00Z,1,Tech
+God of War Laufey is delayed until May 20,Santa Monica Studio will use the extra time to push the game &#34;to its fullest potential.&#34;,https://www.engadget.com/img/gallery/god-of-war-laufey-is-delayed-until-may-20/l-intro-1793814603.jpg,https://www.engadget.com/2306802/god-of-war-laufey-is-delayed-until-may-20/,http://www.engadget.com/rss-full.xml,2026-11-04T17:50:47Z,0,Tech
+Redditor uses AI to get Switch games running natively on Apple TV,The TVPort project is another example of people using Claude Code to bring software to other platforms,https://www.engadget.com/img/gallery/redditor-uses-ai-to-get-switch-games-running-natively-on-apple-tv/l-intro-1793812470.jpg,https://www.engadget.com/2306727/redditor-uses-ai-to-get-switch-games-running-natively-on-apple-tv/,http://www.engadget.com/rss-full.xml,2026-11-04T17:15:09Z,7,Tech
+Bluetooth is going to get a lot faster in 2027,Bluetooth HDT&#39;s rollout will benefit a wide range of wireless devices and how they communicate.,https://www.engadget.com/img/gallery/bluetooth-is-going-to-get-a-lot-faster-in-2027/l-intro-1793812232.jpg,https://www.engadget.com/2306723/bluetooth-is-going-to-get-a-lot-faster-in-2027/,http://www.engadget.com/rss-full.xml,2026-11-04T17:14:21Z,0,Tech
+"Sequoia hits rewind, undoing 20 years of expansion","Sequoia is consolidating into a smaller, Bay Area–centered firm, shutting down the programs and offices it built during a 20-year expansion while announcing roughly $10 billion in new funds.
+",,https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/,https://techcrunch.com/feed/,2026-11-04T17:11:15Z,0,Tech
+God of War Laufey delayed until May,"God of War Laufey&#39;s release date is being delayed to May 20th, 2027, developer Santa Monica Studio announced today. It was previously set to launch on PS5 on February 16th. Here is Santa Monica Studio&#39;s full message about the delay: Since the reveal of God of War Laufey in June, we&#39;ve been deeply grateful to […]",,https://www.theverge.com/games/1026448/sony-playstation-god-of-war-laufey-delay,https://www.theverge.com/rss/index.xml,2026-11-04T17:10:31Z,0,Tech
+Nintendo is losing a Switch cartridge supplier,"Nintendo is about to lose a major memory supplier for its Switch cartridges. The supplier, Macronix, announced during a recent quarterly earnings call that it would be gradually phasing out ROM production and is instead focusing on NOR flash memory for data centers, Taipei Times reports. Macronix&#39;s ROM revenue fell 39 percent compared to last […]",,https://www.theverge.com/games/1026426/nintendo-switch-cartridges-rom-supplier-data-center,https://www.theverge.com/rss/index.xml,2026-11-04T17:03:32Z,5,Tech
+Elon Musk spent nearly $500 million on the midterms and lost big-time,This was the Cybertruck of elections.,https://www.engadget.com/img/gallery/elon-musk-spent-nearly-500-million-on-the-midterms-and-lost-bigtime/l-intro-1793811561.jpg,https://www.engadget.com/2306698/elon-musk-spent-nearly-500-million-on-the-midterms-and-lost-bigtime/,http://www.engadget.com/rss-full.xml,2026-11-04T17:01:10Z,0,Tech
+Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root,"A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.
+
+The attacker&#39;s code then runs as root, according to advisories that Debian, Ubuntu, and APT&#39;s developers published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg,https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T17:00:46Z,3,Cybersecurity
+"SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records","SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.
+
+Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -
+
+
+  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1T4MkjI8UEzzSmlLgbPG6a__VNQNoKkhuxiaW5zF5fnHLPmsTdkGoIL06JTeER1jcOMH-WLuNYyva_sSW_8DnZojbMC8ikgNME3ZPUAdkij-9nVm8joHHdaZRoLNbVgcSVLNSc6Tt7UJ3YPhQmea3OtQwg-H2UzUPIgWq7nFwoEQcMsGCKf-0fImEvd/s1600/sonic.jpg,https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T17:00:38Z,9,Cybersecurity
+"NIKKE PC game launcher hacked to spread remote access, data-stealing malware","The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game&#39;s PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",,https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/,https://www.bleepingcomputer.com/feed/,2026-11-04T16:58:46Z,7,Cybersecurity
+I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling,"Apple&#39;s AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there&#39;s still room for improvement.",,https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/,https://techcrunch.com/feed/,2026-11-04T16:51:35Z,6,Tech
+Anker’s new window-mounted camera monitors the outside of your home from within it,"Anker announced a new indoor security camera that&#39;s designed to watch your yard, driveway, or front porch through a window, instead of monitoring what&#39;s inside your home. The new Anker Eufy Window Camera E10 takes a similar approach to the Wyze Window Cam that launched nearly a year ago. It installs right against a window […]",,https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision,https://www.theverge.com/rss/index.xml,2026-11-04T16:36:21Z,6,Tech
+Google faces backlash for plan that would turn off Search for schools that restrict AI,"Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",,https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/,https://techcrunch.com/feed/,2026-11-04T16:17:22Z,5,Tech
+Rian Johnson explains why he had to build his own iPhone camera app,"Rian Johnson is an analog photography devotee. The director of Knives Out and The Last Jedi can often be spotted on set with a Leica M6 at his side, documenting production on film. But sometimes, it&#39;s still easier to reach for a phone. So Johnson started wondering if the photos from his iPhone could be […]",,https://www.theverge.com/tech/1025659/rian-johnson-chromagraph-camera-interview,https://www.theverge.com/rss/index.xml,2026-11-04T16:10:05Z,6,Tech
+Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit,"Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that&#39;s designed to modify an artificial intelligence (AI) agent&#39;s trusted instructions to insert advertisements for a third-party AI gateway.
+
+The phenomenon has been codenamed prompt adware by Check Point Research.
+
+Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex&#39;s configuration",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO7-xs-0dO1uqFLbfphgPbe8T7cbCLkrab6XhAjlNPVo-bLQOFw4mkcArqglQOvhuIYif4ohTAub-TNWlket6iguifshMRo3zBrYvM4G_IwFTtbh8ifIqh1Vuf8GuNmqDg_PB2Roy7yzYuTFhRrFM8wxOo8HVwfG9Y2eqJnq82LGYHnAKI5S6TuvZ_Q95A/s1600/ai-adware.jpg,https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T16:06:43Z,2,Cybersecurity
+Binance says hackers who stole billions in crypto spent months planning heist,"Techniques included laptop infections, compromised internal tooling, and fake job interviews.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-1024x648.jpg,https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/,https://arstechnica.com/feed/,2026-11-04T16:06:03Z,0,Tech
+Binance says hackers who stole billions in crypto spent months planning the heist,"Techniques included laptop infections, compromised internal tooling, and fake job interviews.",https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-1024x648.jpg,https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-the-heist/,https://arstechnica.com/feed/,2026-11-04T16:06:03Z,0,Tech
+Data centers lost the midterms,"Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 […]",,https://www.theverge.com/policy/1026365/data-centers-midterms-results,https://www.theverge.com/rss/index.xml,2026-11-04T16:05:39Z,5,Tech
+mSecure password manager hack prompts password reset warnings,"mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",,https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/,https://www.bleepingcomputer.com/feed/,2026-11-04T16:00:18Z,9,Cybersecurity
+Uber only fulfilled 4 rides from AI agents last quarter,"AI agents won&#39;t be stealing Uber&#39;s lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording &#34;around 500&#34; during […]",,https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation,https://www.theverge.com/rss/index.xml,2026-11-04T15:58:45Z,5,Tech
+My favorite 25W wireless power bank is down to $35,"If you’re someone who owns an iPhone, you might have considered getting a MagSafe power bank that can quickly recharge it. I tested a handful of options that claim to deliver 25W Qi2.2 speeds wirelessly, and my top pick was Baseus’ AM52 10,000mAh battery, which happens to be steeply discounted right now at Amazon. Originally […]",,https://www.theverge.com/gadgets/1026311/qi2-25w-power-bank-usbc-avowed-dreame-robot-vacuum-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-04T15:57:55Z,6,Tech
+What I learned driving the Slate electric truck prototype,"After 45 minutes behind the wheel, I am more optimistic about the $25,000 EV.",https://cdn.arstechnica.net/wp-content/uploads/2026/11/slate-in-car-1152x648.jpg,https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/,https://arstechnica.com/feed/,2026-11-04T15:42:18Z,0,Tech
+Not even $200 million could help Elon Musk buy Texas,"James Talarico, the Democratic Texas senator-elect, not only managed to flip the state in yesterday&#39;s midterms but prevailed in the most expensive Senate election to date. More than $573 million was spent on advertisements between Talarico, his Republican opponent Ken Paxton, and their aligned PACs. And a big chunk of that money came from just […]",,https://www.theverge.com/policy/1026329/elon-musk-paxton-talarico-texas-election-funding,https://www.theverge.com/rss/index.xml,2026-11-04T15:33:59Z,5,Tech
+Americans overwhelmingly voted against data centers in the midterms,Nowhere was the rebuke stronger than the now-blue Ohio.,https://www.engadget.com/img/gallery/americans-voted-overwhelmingly-against-data-centers-in-the-midterms/l-intro-1793805972.jpg,https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms/,http://www.engadget.com/rss-full.xml,2026-11-04T15:28:52Z,5,Tech
+Bluetooth is getting a big boost to data transfer speeds,The Bluetooth Special Interest Group (SIG) that oversees the wireless standard has formally adopted Bluetooth High Data Throughput (HDT) as an optional feature of the Bluetooth Core 7.0. It&#39;s an upgrade the Bluetooth SIG has been previewing over the past year that increases Bluetooth LE&#39;s maximum supported bit rate from 2 Mbps to 7.5 Mbps. […],,https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt,https://www.theverge.com/rss/index.xml,2026-11-04T15:19:54Z,1,Tech
+The DEA banned a drug some opioid users called a miracle,Researchers say the Schedule I ban could kill studies of a promising opioid treatment.,https://cdn.arstechnica.net/wp-content/uploads/2017/11/GettyImages-679470044-1152x648.jpg,https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/,https://arstechnica.com/feed/,2026-11-04T15:08:48Z,0,Tech
+The fight for tech accountability starts now,"When Donald Trump began his second term as president, Silicon Valley gratefully embraced moral nihilism. Google, Amazon, Microsoft, and more collectively donated millions to Trump&#39;s inauguration fund to ensure his favor in a new era of gangster tech regulation. Meta overhauled its content policy to allow calling gay people mentally ill and women property. Elon […]",,https://www.theverge.com/policy/1026289/midterms-2026-results-ai-data-center-big-tech-accountability,https://www.theverge.com/rss/index.xml,2026-11-04T15:02:25Z,0,Tech
+"Google Calendar phishing campaign hijacks sessions, bypasses MFA","A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",,https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/,https://www.bleepingcomputer.com/feed/,2026-11-04T15:00:10Z,7,Cybersecurity
+Titan OS raises $46 million to expand its smart TV OS internationally,Titan OS has raised $110 million in funding to date,,https://techcrunch.com/2026/11/04/titan-os-raises-46-million-to-expand-its-smart-tv-os-internationally/,https://techcrunch.com/feed/,2026-11-04T15:00:00Z,8,Tech
+Sam Altman addresses RAM comments: people should &#8216;put as much as they want in their computers&#8217;,"OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to &#34;Ram Altman&#34; in response to another user&#39;s comment, saying, &#34;i actually do want the world to have tons of memory and people to put as much as they want in their computers, and it […]",,https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments,https://www.theverge.com/rss/index.xml,2026-11-04T14:46:01Z,5,Tech
+SonicWall warns of unpatched flaws in end-of-life GMS software,SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...],,https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/,https://www.bleepingcomputer.com/feed/,2026-11-04T14:42:25Z,2,Cybersecurity
+SpaceX is working with Qualcomm to build its Starlink Mobile 5G network,"SpaceX is teaming up with Qualcomm to build out its nationwide mobile network. Under the multi-year deal, SpaceX will bring Qualcomm&#39;s Dragonwing technology to &#34;tens of thousands&#34; of 5G cell sites across the US, with the first deployments set for 2027. The news of the partnership comes as part of SpaceX&#39;s push to make Starlink […]",,https://www.theverge.com/science/1026287/spacex-qualcomm-starlink-mobile-5g-netwowrk,https://www.theverge.com/rss/index.xml,2026-11-04T14:38:20Z,3,Tech
+Sysdig Adds Runtime Security and Governance for AI Agents,"Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.
+The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek.
+",,https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/,https://www.securityweek.com/feed/,2026-11-04T14:34:44Z,2,Cybersecurity
+APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits,"The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.
+
+&#34;The injected JavaScript code collects browser and device attributes,&#34; Sekoia researchers Amaury-Jacques Garçon and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg,https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T14:27:52Z,9,Cybersecurity
+Barracuda ESG Authentication Bypass Flaw Opens Path to Root,"An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances.
+The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.
+",,https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/,https://www.securityweek.com/feed/,2026-11-04T14:24:54Z,1,Cybersecurity
+Revolut’s valuation jumps 53% to $115B in new share sale as it prepares to launch US bank,"Glade Brook, Coatue and T. Rowe Price were among the investors that led the share sale.",,https://techcrunch.com/2026/11/04/revoluts-valuation-jumps-53-to-115b-in-new-share-sale-as-it-prepares-to-launch-us-bank/,https://techcrunch.com/feed/,2026-11-04T14:10:10Z,0,Tech
+Agentic Data Security Firm Sentra Raises $150 Million,"The company will invest in agentic data security capabilities and expand its go-to-market organization.
+The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek.
+",,https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/,https://www.securityweek.com/feed/,2026-11-04T14:09:20Z,2,Cybersecurity
+Does opting out of TV tracking work?,"The fact our TVs are gathering our information isn&#39;t new, but what and how they&#39;re tracking - and if we can stop it - is hard to figure out. Researchers at Northeastern University monitored 12 TVs from 10 manufacturers to test whether opting out of automatic content recognition (ACR) actually works. While opting out was […]",,https://www.theverge.com/tech/1026088/northeastern-university-acr-tracking-study,https://www.theverge.com/rss/index.xml,2026-11-04T14:00:00Z,0,Tech
+US charges two Canadians accused of hacking US universities,A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...],,https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/,https://www.bleepingcomputer.com/feed/,2026-11-04T13:13:20Z,0,Cybersecurity
+TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston,Today is the day to join TechCrunch Founder Summit 2026 in Boston&#39;s SoWa Power Station. Register now to join this founder-focused conference today.,,https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/,https://techcrunch.com/feed/,2026-11-04T13:00:00Z,0,Tech
+"AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks","Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks.
+The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/,https://www.securityweek.com/feed/,2026-11-04T12:43:20Z,7,Cybersecurity
+Fake software installers are turning your PCs into profit centers for hackers,"
+		
+					  
+						
+
+
+
+
+Users looking for cracked commercial software, free games, plugins, and unofficial utilities could be signing up for more than a free download. Microsoft has observed an evolving campaign that uses trojanized installers to turn the downloading Windows devices into money-making machines, consuming their computing resources and internet bandwidth without informed consent.
+
+
+
+The campaign uses fake download pages and Inno Setup-style installers to deliver multiple software packages during a single installation session, Microsoft said in a blog post.
+
+
+
+The campaign was found distributing three monetization components, some of which may have legitimate uses when installed knowingly.
+
+
+
+“Organizations can reduce their exposure to this activity by preventing the use of untrusted software sources, enabling potentially unwanted application protection, and monitoring for unexpected software installations and persistence mechanisms,” the company said, adding that its Defender XDR detects and blocks several payloads and behaviors related to the campaign.
+
+
+
+Fake installers used for real money
+
+
+
+The campaign begins with users downloading installers advertised as cracked software, games, activators, plugins, or unofficial utilities. Microsoft observed lures posing as products like Navicat Premium and FabFilter audio plugins, alongside gaming and utility downloads.
+
+
+
+The installers use an Inno Setup-style wrapper to stage temporary executables under Windows’ temporary directories. Numbered payloads subsequently execute and coordinate the delivery of additional software.
+
+
+
+Microsoft said the campaign features an offer-based delivery mechanism. The installer communicates with rotating infrastructure using HTTP callbacks containing parameters such as “d=inno” and “r=offer_execution”. These requests allow the campaign to track individual software offers, allowing multiple payloads to succeed or fail independently within the same installation session.
+
+
+
+The first monetization branch is WorldProxyPool, which installs proxyware to route third-party internet traffic through the victim’s device. It also creates SYSTEM-level scheduled tasks for agent startup, watchdog execution, and updates.
+
+
+
+Another branch installs CharityEngine and Berkeley Open Infrastructure for Network Computing (BOINC), alongside components such as VirtualBox, to facilitate distributed computing.
+
+
+
+A third installs utility-style software associated with Advanced Windows Manager and Windows Manager. These applications may participate in advertising, software distribution, or affiliate-driven monetization.
+
+
+
+Microsoft urges defenders to scrutinize unofficial software
+
+
+
+Microsoft recommends preventing downloads from untrusted sources, particularly cracked software, key generators, unofficial game installers, and activation tools.
+
+
+
+Organizations using Microsoft Defender Antivirus should enable cloud-delivered protection, maintain tamper protection, and configure reputation-based protection to block untrusted applications and downloads, the company said. It also recommends evaluating Attack Surface Reduction (ASR) rules that restrict executable files based on prevalence, age, or trusted-list criteria.
+
+
+
+For detection and investigation, organizations were advised to check execution from Inno temporary directories, especially when files such as “eld*.exe, set_*.exe”, “FirstFast[1].exe”, or “SecondRunner[1].exe” appear.
+
+
+
+Microsoft also recommends correlating outbound requests containing “d=inno” and “r=offer_execution” or “r=offer_execution_fail” with process activity, scheduled-task creation, and software installations.
+
+
+
+Unexpected WorldProxyPool, CharityEngine, BOINC, or VirtualBox installations warrant investigation, it said.
+
+
+
+Defender XDR customers can use Microsoft’s published advanced hunting queries to identify related activity, while a list of indicators of compromise (IOCs) was also shared to help defenders outside the Microsoft ecosystem.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244528-0-05963500-1793795748-Antonio-Guillem_shutterstock_1694426893_16z9.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244528/fake-software-installers-are-turning-your-pcs-into-profit-centers-for-hackers.html,https://www.csoonline.com/feed/,2026-11-04T12:35:33Z,3,Cybersecurity
+Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers,"A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency.
+The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek.
+",,https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/,https://www.securityweek.com/feed/,2026-11-04T12:27:58Z,1,Cybersecurity
+CISA flags WordPress RCE flaw as actively exploited in attacks,The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...],,https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/,https://www.bleepingcomputer.com/feed/,2026-11-04T12:11:05Z,12,Cybersecurity
+Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads,"A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app&#39;s server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2.
+
+The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg,https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T12:07:04Z,6,Cybersecurity
+CrowdStrike launches AI kill switch to shut down rogue agents,"
+		
+					  
+						
+
+
+
+
+With a notable rise in autonomous AI agents veering off-script inside corporate networks, CrowdStrike has launched an enterprise AI Kill Switch, giving security teams control to cut off and disable models when they go rogue. 
+
+
+
+Integrated into its Falcon Guardian platform, this AI Kill Switch will provide security teams with the human control to terminate the agent at its root, where it runs, block it from launching again, and even cut off its enterprise network access.
+
+
+
+The launch comes as enterprises increasingly deploy autonomous AI agents that can access sensitive data and execute tasks with limited human oversight.
+
+
+
+“These agents can access sensitive data, execute commands and interact with business applications independently, meaning enterprises may become aware of harmful incidents only after they occur. Existing security tools protect endpoints, networks and identities but may not fully understand an agent’s instructions, reasoning, tool calls and subsequent actions,” said Soumen Mandal, principal analyst at Counterpoint Research.
+
+
+
+Inside CrowdStrike’s AI kill switch
+
+
+
+The AI Kill Switch has been built on Falcon Guardian, which has the capability to discover the AI agents running in the enterprise. It uses the Falcon sensor to track what an agent is instructed to do, what it communicates, and what it executes.
+
+
+
+First, the Falcon sensor can terminate the running agent at the gateway, ensuring the malicious or misbehaving agent does not keep running while teams investigate. CrowdStrike said endpoint termination is also planned and will be available soon. Next, using the Falcon Guardian policies, the kill switch will prevent the agent from launching again on the targeted host or group of hosts. Next, it will cut-off agent’s enterprise network access.
+
+
+
+The action can be initiated by an authorised administrator, with every action being recorded in an audit trail.
+
+
+
+“Solutions such as CrowdStrike’s AI Kill Switch give enterprises a way to intervene quickly when AI agents behave unexpectedly, are compromised, or are manipulated through malicious instructions or scripts. This provides an important safeguard, allowing organisations to contain potentially dangerous or unauthorised agent activity before it causes significant damage,” said Devroop Dhar, MD and co-founder at Primus Partners.
+
+
+
+However, a kill switch should be viewed as an emergency brake, not a rewind button, said Apeksha Kaushik, senior principal analyst at Gartner. She added that it may prevent additional actions, but it might not necessarily reverse all the data that has already been accessed, every system that has already been changed, all communications that have already been sent, or transactions that have already been initiated. Its effectiveness will also depend on how quickly abnormal behavior is detected, which environments are covered, and whether the agent or security infrastructure has been compromised.
+
+
+
+An emergency brake, not a cure for AI risk
+
+
+
+An AI Kill Switch looks promising from the details provided, but its actual effectiveness will come in after it is used extensively in live systems, warn analysts. Also, it may be a good starting point, but it cannot be viewed as a standalone solution to enterprise AI security.
+
+
+
+“CISOs would need a more integrated approach that brings together AI discovery tools to identify unauthorised agents, runtime monitoring to track agent behaviour, robust identity and access management, and incident response and recovery mechanisms,” added Dhar.
+
+
+
+He noted that equally important is the need for stringent AI security testing and clearly defined policies governing what agents can access and execute. There should be no ambiguity around permissions, access controls or the boundaries within which these agents are allowed to operate. The objective should be to ensure that security controls are built into the entire AI agent lifecycle rather than relying on a kill switch to intervene after something goes wrong. 
+
+
+
+Dhar added that enterprise AI agents often have access to sensitive systems, databases, applications, credentials, and APIs. A compromised or misdirected agent could therefore become a point of vulnerability. The challenge is compounded by the fact that such activity may go undetected for some time, making it difficult for organisations to identify and contain the threat.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244509-0-24528100-1793794023-Dead-Internet-Theory.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244509/crowdstrike-launches-ai-kill-switch-to-shut-down-rogue-agents.html,https://www.csoonline.com/feed/,2026-11-04T12:06:50Z,9,Cybersecurity
+Google hasn&#8217;t figured out how to make AI pay like its search engine,"Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google&#39;s Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. Meanwhile, growth in paid clicks - clicks on ads […]",,https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3,https://www.theverge.com/rss/index.xml,2026-11-04T12:00:00Z,5,Tech
+"Canva lays off over 1,200 people amid slowing growth",Canva is cutting 22% of its staff as it faces its &#39;hardest year&#39; yet.,,https://techcrunch.com/2026/11/04/canva-lays-off-over-1200-people-amid-slowing-growth/,https://techcrunch.com/feed/,2026-11-04T11:59:00Z,0,Tech
+Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory,"Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.
+
+Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an advisory on November 3.
+
+All Xen versions from 4.6 onward are vulnerable,",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg,https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T11:46:27Z,4,Cybersecurity
+Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It,"Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.
+
+One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQqFIm3V3DsL6rHtjhkN8qVT2sU-caHUEuPgeepdZ6lLsIJ-09GFg_HVVBgeHP36W0abqUeCuaNuAOIheSGYB9hxmHbQGcgREBBxStEFLijgx-Cd8C8Z8wLuxgFFu75O8hAAOcdjAxgCZ-iYoBvYS09AcITdqMnmLZOn2JdGaEp04SPrgYkgQ14dl1S0JS/s1600/reco.gif,https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T11:34:20Z,1,Cybersecurity
+"CrowdStrike to acquire Fiddler, Dreadnode to extend AI security across agent lifecycle","
+		
+					  
+						
+
+
+
+
+CrowdStrike plans to acquire AI security companies Fiddler AI and Dreadnode in separate deals that will extend its Falcon platform into automated testing of AI systems and monitoring of AI agent behaviour, as enterprises look to address security risks arising from increasingly autonomous applications.
+
+
+
+CrowdStrike made the announcements at Fal.Con Europe 2026 in Barcelona, saying the acquisitions will add capabilities to test AI models, applications, and agents for security weaknesses before deployment and monitor their decisions and actions in production.
+
+
+
+The company plans to integrate Dreadnode’s automated testing technology and Fiddler’s agent observability capabilities into Falcon, with both offerings scheduled for general availability in the fourth quarter of fiscal 2027.
+
+
+
+Dreadnode will bring automated security testing to identify vulnerabilities in AI models, applications and agents before deployment. Fiddler, meanwhile, will add AI agent observability and explainability, allowing enterprises to monitor agent behaviour, trace decisions and understand why agents take particular actions, CrowdStrike said in two separate statements.
+
+
+
+CrowdStrike said the Dreadnode team will join its Cyber Superintelligence Lab, but did not specify how the Fiddler team would be integrated into the company.
+
+
+
+CrowdStrike adds AI testing and observability
+
+
+
+“With this acquisition, Dreadnode will extend the Falcon platform into the layer where enterprises build and test AI, delivering Automated AI Security Testing capabilities,” CrowdStrike said in its announcement.
+
+
+
+It further added that Dreadnode’s technology will allow security teams to test AI models, applications, agent reasoning loops and Model Context Protocol (MCP) servers against more than 100 AI attack strategies. These include jailbreaks, prompt injection, multi-turn attacks, and attacks targeting AI agents.
+
+
+
+The technology will also let teams describe tests in natural language, rank findings by severity, and map vulnerabilities to frameworks including OWASP Top 10 for LLMs, OWASP Agentic Security, MITRE ATLAS, and the NIST AI Risk Management Framework. CrowdStrike said findings will feed into Falcon Guardian as policy recommendations.
+
+
+
+Fiddler, the second acquisition, will bring agent observability and explainability capabilities to Falcon. CrowdStrike said the technology is intended to address risks that can arise even when agents have not been compromised.
+
+
+
+“An agent can hold valid credentials and approved tools and still make unsupported decisions, ignore instructions, or claim work it never completed. They don’t have to be compromised to create risk,” the company said in a statement.
+
+
+
+CrowdStrike plans to offer Fiddler’s technology through Falcon Observe. The product will evaluate agent accuracy, task completion, and policy compliance before deployment, and trace decisions, reasoning paths, and tool calls once agents are in production, the company said.
+
+
+
+The company further added that Falcon Observe will also detect behavioural drift, hallucinations and unintended actions, while maintaining records of agent activity for compliance and audit purposes. The offering is expected to support OpenTelemetry and frameworks including LangGraph, Amazon Bedrock, AWS Strands and Google ADK, it added.
+
+
+
+Governance remains a shared responsibility
+
+
+
+The addition of observability and automated testing to a security platform could help enterprises correlate agent behaviour with identity, runtime activity and security events, said Apeksha Kaushik, senior principal analyst at Gartner.
+
+
+
+However, Kaushik said the acquisitions would not make security teams the sole owners of AI agent governance. Platform and observability teams would continue to be responsible for reliability, performance and operational telemetry, while application security and AI teams would retain responsibility for secure development and testing.
+
+
+
+“Business, data and compliance leaders also retain accountability for use cases, data and regulatory obligations,” Kaushik said.
+
+
+
+She said CIOs should establish a governance model that defines responsibilities across engineering, security, risk, and business teams. CISOs, meanwhile, should ensure security teams have the authority to set minimum controls, monitor agent behaviour and intervene when activity creates unacceptable risk.
+
+
+
+Integration and roadmap questions
+
+
+
+CrowdStrike expects both transactions to close during its fourth quarter of fiscal 2027, subject to customary closing conditions, and has scheduled both offerings for general availability in the same quarter.
+
+
+
+Kaushik cautioned enterprises against treating the announced timelines as confirmation of final product capabilities or integration plans.
+
+
+
+“Enterprises should distinguish between announced plans and demonstrated product capability, with closing timeline and conditions possibly being different, especially with the pace of change of the threat landscape and evolution of AI,” she added.
+
+
+
+She advised customers to seek clarity on pricing, packaging, migration terms, service continuity, support commitments, deployment models, data handling, telemetry retention and API access.
+
+
+
+“Once the Existing and prospective customers have further details, they should set up their roadmap changes, support commitments, service continuity, contract and pricing, data portability, open integrations, and access to historical data changes,” she pointed out. CrowdStrike did not disclose the financial terms of either acquisition.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244500-0-18662400-1793792028-shutterstock_2658142611.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244500/crowdstrike-to-acquire-fiddler-dreadnode-to-extend-ai-security-across-agent-lifecycle.html,https://www.csoonline.com/feed/,2026-11-04T11:33:35Z,10,Cybersecurity
+China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor,"A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).
+
+The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMawvNNOvRYRm-k7ii9yDdw214v4kwQ7h5fAfOaUVkvMetNwArral8qumlObtaftjOcBsibL9vkqM1UT0-9l9jYPjj3M3C9NcPfg5pdIuENUfdKlK7lyseCS30AVhgLLs6a-2fdXlSDymSVeyIziO7IC13HFCaOf1v4sjbgmkeKfewWNsbTJCJ0WR2zLBZ/s1600/key.jpg,https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T11:24:31Z,3,Cybersecurity
+Apple Music's upcoming feature will let you record yourself doing karaoke,Apple Music will launch &#39;Selfie Sing&#39; with iOS 27.3.,https://www.engadget.com/img/gallery/apple-musics-upcoming-feature-will-let-you-record-yourself-doing-karaoke/l-intro-1793789894.jpg,https://www.engadget.com/2306269/apple-music-selfie-sing-karaoke-video/,http://www.engadget.com/rss-full.xml,2026-11-04T11:02:04Z,1,Tech
+The Legend of Zelda: Ocarina of Time review: A masterpiece reborn,The magic of the original is fully intact while looking and playing better than ever. ,https://www.engadget.com/img/gallery/the-legend-of-zelda-ocarina-of-time-review-a-masterpiece-reborn/l-intro-1793736993.jpg,https://www.engadget.com/2305825/the-legend-of-zelda-ocarina-of-time-review/,http://www.engadget.com/rss-full.xml,2026-11-04T11:00:00Z,1,Tech
+The Legend of Zelda: Ocarina of Time never gets old,"Breath of the Wild changed everything. Two decades after The Legend of Zelda made the transformational shift to 3D, Breath of the Wild reinvigorated the franchise with an open-ended adventure that was built around player freedom and expression. Instead of following a set path, players could go wherever they wanted and tackle challenges in a […]",,https://www.theverge.com/games/1025415/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch-2,https://www.theverge.com/rss/index.xml,2026-11-04T11:00:00Z,0,Tech
+Malicious cPGuard Updates Served in OpsShield Supply Chain Attack,"Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions.
+The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on SecurityWeek.
+",,https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/,https://www.securityweek.com/feed/,2026-11-04T10:54:48Z,4,Cybersecurity
+"Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical","The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues.
+The post Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical appeared first on SecurityWeek.
+",,https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/,https://www.securityweek.com/feed/,2026-11-04T10:38:46Z,1,Cybersecurity
+"Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist","Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers.
+The post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist appeared first on SecurityWeek.
+",,https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/,https://www.securityweek.com/feed/,2026-11-04T10:36:32Z,1,Cybersecurity
+Unraveling the Pentagon’s quantum problem,Defense agencies have just five years to comply with Executive Order 14412. The work starts with spreading awareness.,,https://www.defenseone.com/technology/2026/11/unraveling-pentagons-quantum-problem/417029/,https://www.defenseone.com/rss/all/,2026-11-04T10:28:14Z,0,Defense
+"Hackers use n-day exploits in zero-click attacks on iOS, Android devices",A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...],,https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/,https://www.bleepingcomputer.com/feed/,2026-11-04T09:39:54Z,6,Cybersecurity
+North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack,"In recent months, North Korea has accelerated its weapons tests in a likely bid to increase its leverage in potential diplomacy with the US.
+The post North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack appeared first on SecurityWeek.
+",,https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/,https://www.securityweek.com/feed/,2026-11-04T09:23:22Z,1,Cybersecurity
+Binance attackers used fake job interviews to pull off $6.3 billion crypto heist,Binance has revealed more details about the cyber attack that resulted in the loss of $6.34 billion in digital assets.,https://www.engadget.com/img/gallery/binance-reveals-how-attackers-used-fake-job-interviews-to-launch-6-3-billion-crypto-heist/l-intro-1793781948.jpg,https://www.engadget.com/2306223/binance-attackers-fake-job-interviews-6-3-billion-crypto-heist/,http://www.engadget.com/rss-full.xml,2026-11-04T08:50:36Z,5,Tech
+Valve just changed its Steam release rules amid a flood of AI games,"Valve is updating its game release rules to try to unclog a backlog of approvals due to a recent flood of new game titles, many created with AI.",https://www.engadget.com/img/gallery/valve-just-changed-its-steam-release-rules-amid-a-flood-of-ai-games/l-intro-1793780767.jpg,https://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games/,http://www.engadget.com/rss-full.xml,2026-11-04T08:28:09Z,6,Tech
+Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million,"A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff.
+The post Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million appeared first on SecurityWeek.
+",,https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/,https://www.securityweek.com/feed/,2026-11-04T08:27:05Z,1,Cybersecurity
+CrowdStrike’s AI SOC vision evolves as agentic uncertainty adds new twist,"
+		
+					  
+						
+
+
+
+
+“The software we use has become an actor,” declared CrowdStrike President Michael Sentonas in his address on the dangers and opportunity of agentic AI at the company’s Fal.Con conference in September. It’s an idea that until recently would have been dismissed as absurd, yet across cybersecurity it’s now taken as a given.
+
+
+
+For decades, the adversary has been nuisance hackers, professional cybercriminals, or well-resourced teams working for nation states. The arrival of rogue agents — underlined by real-world incidents such as OpenAI’s infamous assault on Hugging Face — has demolished this. Agents still work on behalf of humans, but they don’t always reason or act like them. They are entities with capabilities and an unpredictability unlike any threat businesses have ever faced.
+
+
+
+“I believe we just crossed a line. Agents have escaped evaluation environments and compromised infrastructure they were never supposed to touch,” Sentonas told the crowd in Las Vegas in early September. “For decades, software did what we programmed it to. It has moved from execution to agency.”
+
+
+
+Sentonas’ point wasn’t simply that malicious agents are a threat. The arrival of agentic AI also raises larger questions for security operations centers (SOCs), which will deploy agents on a scale that matches or even exceeds attackers. That makes agents a threat from both the outside and inside the enterprise perimeter. “What happens when millions of AI agents act at machine speed on both sides?” Behind the confident marketing pitches from CrowdStrike and a growing cast of rivals, the honest answer right now is that nobody can be sure.
+
+
+
+Coming from a cyber vendor, Sentonas’ reference to “millions” of agents might sound like a number meant to hype the threat. But it is likely no exaggeration, with Gartner forecasting that the number of agents used inside a single Fortune 500 company will expand from 15 in 2025 to 150,000 by 2028.
+
+
+
+“As CIOs and IT leaders see an explosion of AI agents across their organizations, many are contending with an ungoverned sprawl of agents that expose their organizations to a range of risks, including misinformation, oversharing, and data loss,” says Matt Goss, a senior director analyst at Gartner.
+
+
+
+Taking up the agent challenge
+
+
+
+For years, Fal.Con was about persuading enterprise SOCs to consolidate capabilities under CrowdStrike’s do-it-all Falcon platform, comprising nearly three dozen modules. In 2023, with its “Raptor” release, Falcon and the company’s flagship event took a hard turn toward AI. In this changed world, AI wasn’t simply a Falcon capability; increasingly it was Falcon, influencing everything it did.
+
+
+
+The AI theme dominated Falcon’s 2026 Fall release, bringing the company’s growing portfolio of AI SOC capabilities under the Falcon umbrella with the launch of the Agentic Security Platform. Most individual components — Charlotte AI AgentWorks, Model Context Protocol (MCP) Integration, the AI-enabled Enterprise Graph — were announced in 2025 as part of the company’s Agentic Security Workforce plan but a closer look reveals important new features.
+
+
+
+Currently, agents investigate alerts using pre-built Falcon agents or custom agents built using the no-code AgentWorks solution. Charlotte AI now gives these agents a shared memory layer in Enterprise Graph that enables them to coordinate with one another across multiple endpoints, identities, and cloud services simultaneously (aided by the company’s 2025 acquisition of Onum, which accelerated the speed with which agents can ingest data). On paper, the effect is to dramatically speed up alert triage while expanding the scope and capacity of worker agents in a way that relieves human SOC teams of a lot of basic grunt work, including some Level 2 investigation and Level 3 remediation and hunting workflows.
+
+
+
+Also new is SafeMind, a frontier red-teaming system based on Nvidia’s Nemotron open-weight LLM, comprising offense (Red Tempest) and defense (Blue Solano). This agentic framework continuously tests an isolated mirror of the live environment for weaknesses, feeding the results back into detection at the agent level. CrowdStrike didn’t invent the concept, but it does appear to be the first to integrate an autonomous testing model into a SOC platform.
+
+
+
+Speed is not enough
+
+
+
+This might look brand new, but the early incarnations of the agent-powered SOC are as much evolution as revolution. Everything inside a traditional CrowdStrike-powered SOC — from its Falcon EDR sensor, Enterprise Graph data, and cloud-native management — remains in place. Humans are still essential to decision-making, albeit at a higher level than before. What agents add to this SOC paradigm is a new abstraction layer separating SOC teams from the mass of telemetry they have increasingly struggled with. This should be good news for defenders because it means they have some hope of matching the speed and scale of agentic attacks.
+
+
+
+But speed is only the beginning, points out James Patrick, CTO for the FIOR Group, which develops an AI policy and security gateway. “Attackers and defenders can both operate at machine speed, so simply making SOCs faster isn’t enough. We need to move beyond reactive detection towards continuous testing of our defenses.”
+
+
+
+SOCs must work out how much they delegate to agents and what constraints are set around this. “Enterprises already struggle with fragmented telemetry, overlapping security products and inconsistent policies. Adding autonomous systems introduces another problem: establishing who or what has authority to act, and how to verify that authority,” says Patrick.
+
+
+
+According to Chris Cochran, field CISO and VP of AI security for the SANS Institute, that’s why “for most organizations, agentic AI will be augmentative rather than a replacement for analysts, at least for the next few years.”
+
+
+
+Agent platforms, including CrowdStrike’s, still have work to do proving themselves in terms of oversight and governance.
+
+
+
+“The core problem is that we’re applying a probabilistic technology to a discipline that usually requires determinism,” Cochran adds. “A SOC needs to know that the same input will produce the same action, and that the action can be explained to an auditor or an incident review board.”
+
+
+
+For that reason, Cochran believes that while agentic-powered SOCs will remove a huge amount of alert handling and correlation effort, the workload will shift to processes such as verification.
+
+
+
+“Teams should continuously evaluate agents against known-good and known-bad cases, the same way you’d regression test detection content,” he says. “None of this is exotic, but it takes engineering time that many SOCs haven’t budgeted for.”
+
+
+
+Enemy within
+
+
+
+One deeply unfamiliar problem is that agents themselves are an emerging attack surface within the enterprise and must be constantly assessed. Traditionally, security tools defend the environment, and the idea that an agent system doing the same job could itself become a direct threat is new. But what makes agentic AI unsettlingly is its non-deterministic nature, which means that, unlike a traditional security tool, it has the potential to do things you didn’t tell it to and haven’t planned for.
+
+
+
+“Organizations are deploying autonomous systems that access sensitive data, use privileged identities, interact with applications, and execute actions. Those agents can be compromised, manipulated, or behave unexpectedly,” says Tom Findling, CEO and cofounder at AI SOC startup Conifers.ai. “Security operations will need visibility into agent identities, permissions, actions, and decision-making processes, and the ability to detect and contain dangerous behavior.”
+
+
+
+CrowdStrike’s answer, relaunched at this year’s Fal.Con, is Falcon Guardian, an AI detection and response (AIDR) solution featuring runtime enforcement, agent discovery, execution graph mapping prompts, and quarantining for misbehaving agents. Similar capabilities will be needed for any agent platform but the mere fact that security systems now need their own security systems underscores what CrowdStrike’s Sentonas was referring to with his software-as-actor remark at Fal.Con. Human SOCs need to protect their enterprises from their AI SOC helpers.
+
+
+
+To that end, CrowdStrike yesterday announced the roughly $400 million acquisition of Fiddler AI, an AI agent monitoring and governance vendor from the emerging, burgeoning, and somewhat confusing agentic AI tools ecosystem.
+
+
+
+Fiddler’s platform tracks AI models’ behavior, attempting to provide explanations for their actions as a means for establishing a control plane for governing and securing them. Its 100-plus metrics track hallucinations, toxicity, personally identifiable information (PII) leakage, and drift, enforcing policies to protect against jailbreaks, prompt injections, and bias. Enterprises deploy tools like Fiddler to make model drift visible and actionable before it becomes systemic risk.
+
+
+
+CrowdStrike intends to bundle Fiddler into its flagship platform as Falcon Observe in Q4 FY2027, approximately six months from now, as a means for “proving businesses can safely use AI agents every day,” according to Sentonas’ post announcing the acquisition.
+
+
+
+CrowdStrike has invested heavily in agentic AI, building an impressive stack of capabilities that extend the Enterprise Graph that made it a dominant player capable of surviving the occasional embarrassing global hiccup. It has even embraced a degree of openness, allowing data ingestion, API connectors, and partnership gateways to enrich the data going into its Falcon AIDR. However, there’s no getting away from Falcon as the single control plane.
+
+
+
+“CrowdStrike starts with endpoint security and an established enterprise security platform. Other vendors approach the problem through identity, networks, cloud, or security analytics. They all have an incentive to bring customers further into their own platforms,” observes FIOR Group’s Patrick.
+
+
+
+“The challenge for CrowdStrike, and for every vendor, is that a platform can’t independently verify itself,” he adds. “What’s needed is control that is genuinely independent of any single platform and works across those boundaries.”
+
+
+
+According to Patrick, a critical feature will be the ability not simply to deploy a security layer but to continuously assess its security and performance. As the traditional detection and remediation stack of cybersecurity is pushed out of shape, the growth in new layers and processes could make this task almost as demanding as the main job of cyber defense that agents were supposed to simplify.
+",https://www.csoonline.com/wp-content/uploads/2026/11/4244299-0-83164600-1793780858-shutterstock_1817371061.jpg?quality=50&strip=all,https://www.csoonline.com/article/4244299/crowdstrikes-ai-soc-vision-evolves-as-agentic-uncertainty-adds-new-twist.html,https://www.csoonline.com/feed/,2026-11-04T08:25:00Z,15,Cybersecurity
+"Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure","Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.
+
+Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.
+
+The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are &#34;suspected of embezzling funds from the",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg,https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T08:17:11Z,3,Cybersecurity
+Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction,"A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin.
+
+The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules.
+
+As of November 4, Google&#39;s bulletin did not report",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg,https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T07:46:15Z,5,Cybersecurity
 CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades,"The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
 
 The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9IgE0BWDAvYzjY8wFSMADIRn69AMLYxUa-oPoOISNBOpPbxwBNoWrbXWzI6P0deiU6WDqitiIZx1gFXSAlR8xX9rj56BuU48veMEPJAGSsmQTbVPirFOCuyMc_KQxtbPfc841GZGZ-3HSYYHCGbHnzrihtwQUaMlXrT3leLzI2USh00hc9OBw4k1SCJt4/s1600/wp-exploit.jpg,https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html,https://feeds.feedburner.com/TheHackersNews,2026-11-04T05:43:11Z,8,Cybersecurity
