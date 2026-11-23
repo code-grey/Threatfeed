@@ -1,4 +1,233 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+Amazon resorts to package stickers in its fight against NYC's proposed delivery law,"In its latest salvo against New York City&#39;s Delivery Protection Act, Amazon is trying to win over residents with a new tactic.",https://www.engadget.com/img/gallery/amazon-resorts-to-package-stickers-in-its-fight-against-nycs-proposed-delivery-law/l-intro-1795426294.jpg,https://www.engadget.com/2324629/amazon-resorts-to-package-stickers-in-its-fight-against-nyc-proposed-delivery-law/,http://www.engadget.com/rss-full.xml,2026-11-23T09:35:53Z,5,Tech
+Microsoft confirms Windows printing issues affecting Forcepoint users,Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...],,https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/,https://www.bleepingcomputer.com/feed/,2026-11-23T09:11:15Z,1,Cybersecurity
+Clever AI prompt ideas every security leader should steal,"
+		
+					  
+						
+
+
+
+
+For all the talk of AI use by attackers and defenders, little attention is paid to ways CISOs and their security pros can leverage AI uniquely to expediate tasks, cut through the noise, facilitate decision-making, and potentially save big on auditing.
+
+
+
+Several specific AI prompts can help security leaders and staff handle multiple critical tasks not typically associated with AI for cyber defense, such as risk management, compliance, policy development, and critical thinking.
+
+
+
+Developing truly useful prompts isn’t particularly easy, however, because it often requires a significant amount of research and effort, not to mention lots of fine-tuning, which can take security teams away from other critical tasks. Fortunately, the security community is here to help, with advice on unique prompt ideas that have greatly aided them in strengthening security, facilitating decision-making, and saving time for hands-on defense.
+
+
+
+Create an adversarial assistant to control damage — and cut down AI slop
+
+
+
+Dzmitry Romanovadvocates establishing an AI prompt that acts as a second security reviewer to help catch latent problems before any damage occurs. The key, though, is to give it an adversarial twist so that it looks at a situation from the attacker’s perspective while critiquing the human security reviewer’s ideas.
+
+
+
+“What am I missing? What attack vectors or edge cases should I inspect?” is the kind of questions Romanov, cybersecurity team lead and senior security engineer at the Belarusian State University of Informatics and Radioelectronics and cybersecurity team lead with Vention, an AI-enabled software development company, such a prompt can help with.
+
+
+
+“This approach works most effectively when analyzing architecture or code, while reviewing penetration test results, and auditing cloud configurations, as well as when modeling threats and assessing risks,” Romanov says.
+
+
+
+Philippe Dourassov, AI pentest lead at Aikido Security, offers another version of the adversarial agent prompt — in this case against agent helpers.
+
+
+
+When agents are used to generate security reports, engineers often find themselves buried under irrelevant findings — noise, says Dourassov. However, when a second agent is deployed to analyze the quality of another agent’s work, and correct its output, the result can be surprisingly efficient.
+
+
+
+“The first agent has been given a task and will do everything it can to convince the humans that its results are relevant and critical, as this is what the agent would consider a good job,” Dourassov says, noting that his adversarial agent is basically a reviewer. “Its task is to eliminate noise, rectify claims, and highlight the true importance of the first agent’s result.”
+
+
+
+The agent’s definition of a good job, Dourassov says, is being able to eliminate noise and supply only signal to the human user. “Therefore, it’s essential to use an adversarial prompt to review agents’ output, so we ensure we don’t face security fatigue from AI slop.”
+
+
+
+Take care of business
+
+
+
+Brandyn Fisher, senior penetration testing technical lead at business and technology consulting firm Centric Consulting, offers three prompt ideas that CISOs can deploy on a regular basis to aid with their work.
+
+
+
+The first Fisher uses is a vendor due diligence prompt. “I feed it our organization’s risk thresholds and the vendor in question, and it benchmarks that vendor, sweeps the Internet for security pages, breach history, customer reviews, complaints, and recent news, then returns a structured report I can review and validate quickly,” he explains.
+
+
+
+Fisher also recommends crafting a professional writing prompt that takes technical analysis and reframes it into language a CIO or board will actually engage with.
+
+
+
+Gen AI pioneer Kevin Surace offered a similar prompt idea to attendees of this year’s CSO Conference and Awards in May. “Translate the SOC for the boardroom. This is important. They don’t really understand what’s going on,” Surace said. “The prompt here: ‘You are writing the cyber risk section of the board deck. You have four minutes of board time. Below is ninety days of security operations data. Produce three slides for a board that does not know what lateral movement means.’ This is so useful.”
+
+
+
+Fisher’s third prompt for CISOs is a tech debt reduction prompt “where I list our technology stack and have AI flag underutilized tools, overlapping capabilities, and consolidation opportunities,” he says.
+
+
+
+Fisher advises building each of his recommendations as a standing agent, project, or skill, or whatever your AI platform supports, so you have a static, repeatable spot to run it instead of rewriting the prompt from scratch every time.
+
+
+
+Don’t wait for a perfect first version, Fisher adds. “Get an initial prompt working, even if it’s rough, and have AI help draft the instructions themselves.” Expect to revise it several times before it’s reliable.
+
+
+
+Challenge your policies and content
+
+
+
+At the CSO Conference, Surace also highlighted how CISOs can use AI prompts to audit their policy libraries.
+
+
+
+“You are a compliance auditor. I am giving you our policy library and the current text of NIST CSF 2.0, ISO 27001:2022 Annex A, SEC Form 8-K Item 1.05, and the EU AI Act. Produce three lists,” his example prompt began, directing the LLM to find contradictions, gaps, and stale language — the kind of analysis big firms do for six figures in 12 weeks, he noted.
+
+
+
+Olivia Brännlund, CISO at Outpost24, a cybersecurity and risk management firm, regularly uses a similar prompt that turns AI into an internal auditor and security advisor. The tool reviews policy, processes, risk assessment, incident reports, contract clauses, and specific customer requirements.
+
+
+
+Brännlund believes that organizations that treat AI as an expert reviewer typically obtain more value than organizations that treat it as a content generator. The key, she states, “isn’t using AI to write content, but using it to challenge content.”
+
+
+
+Tying together policy review and the adversarial assistant concept, Surace advised CSO conference attendees to also “red team your own runbook.”
+
+
+
+“You are the operations lead for Scattered Spider. I am giving you our incident response playbook, our detection coverage matrix, and our on-call tree. Identify the five places this runbook fails,” his prompt started, probing for wrong assumptions, bottlenecks, escalation path weaknesses, and so on.
+
+
+
+“It’s totally worth doing this,” he said. “You will have more information in an hour than you, than you’ve ever had.
+
+
+
+Vet your agent’s capabilities and weaknesses
+
+
+
+Chris Hughes advises asking your model what your AI agents can actually do.
+
+
+
+“Give it an agent’s configuration, tool manifest, or MCP server definitions and ask it to summarize the agent’s effective permissions, the blast radius if it’s compromised, and whether a human approval step exists anywhere in the workflow,” says Hughes, who teaches in the CISO and Leading Enterprise Agentic AI Development Certificate Program at Carnegie Mellon University’s Heinz College. “Most organizations are deploying agents faster than they’re documenting what those agents can reach, and this closes the gap in minutes.”
+
+
+
+The model turns work that normally requires a senior architect into something an analyst can run at design review, before deployment, and after every change. It also surfaces assumptions the team stopped questioning, Hughes says. The model doesn’t share your blind spots, so it tends to flag the over-permissioned tool or the missing approval gate that everyone walked past, he notes. Once tuned, the prompt becomes a control in its own right rather than a one-off exercise.
+
+
+
+Embrace deep inspection
+
+
+
+Steve Tait, CTO at cloud security firm Skyhigh Security, suggests tailoring an AI prompt to take aim at AI prompts themselves, noting that perhaps the most important capability is a prompt response inspection that understands both data and intent.
+
+
+
+“CISOs should be able to determine not only whether sensitive information is entering or leaving an AI service, but whether a user or agent is attempting something risky—such as prompt injection, jailbreaks, policy evasion, credential exposure or unauthorized data access,” he says, adding that as AI agents become more common, that same inspection and policy model needs to extend beyond human prompts to agent-driven interactions.
+
+
+
+Tait believes that CISOs should think of prompt security as a platform control that needs to work across every major access path to AI, including Secure Web Gateway (SWG), zero trust network access, browser-based access, and APIs.
+
+
+
+“The goal should not be to plug a single gap for one AI application, but to establish a consistent policy and inspection layer wherever users or agents interact with AI services,” he explains. “This also means choosing an approach that can support hybrid environments, including organizations that still rely heavily on on-premises SWG infrastructure.”
+",https://www.csoonline.com/wp-content/uploads/2026/11/4248701-0-19732200-1795422448-zulfugar-karimov-lZmnpignB8-unsplash.jpg?quality=50&strip=all,https://www.csoonline.com/article/4248701/clever-ai-prompt-ideas-every-security-leader-should-steal.html,https://www.csoonline.com/feed/,2026-11-23T08:25:00Z,14,Cybersecurity
+AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms,"The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.
+
+This unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijDifo0ih-I06DQJbgdnt34Xg1qWdMibKByoJO-4vqa50M4yN0Lwu4fDe88GBtoiKHMJnRDYM0WXvYDEMyCWFHEbedl0wzwKI7juH9Q9xs3osQjZK0xPygeuGm0bm6jgpWPa7bca1EuZfTQiLxn-X3aNaAhbchhvemZrCqslieabzsGmz4ezqhrKuYhDyk/s1600/ai-india.jpg,https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html,https://feeds.feedburner.com/TheHackersNews,2026-11-23T08:24:15Z,6,Cybersecurity
+CISA flags critical Cisco RCE flaw as actively exploited in attacks,The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...],,https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/,https://www.bleepingcomputer.com/feed/,2026-11-23T07:44:19Z,12,Cybersecurity
+Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker,"After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto&#39;s follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera&#39;s usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step […]",,https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink,https://www.theverge.com/rss/index.xml,2026-11-23T03:00:00Z,6,Tech
+Here's how much Starlink cost in 2020 vs. 2026,"Throw in discounts and fluctuating rates, and two customers could end up paying vastly different bills for the same Starlink satellite service. 
+",https://www.engadget.com/img/gallery/heres-how-much-starlink-cost-in-2020-vs-2026/l-intro-1794842346.jpg,https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/,http://www.engadget.com/rss-full.xml,2026-11-23T01:30:00Z,0,Tech
+"How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",Three significant backers share what gave them conviction to bet billions on Anthropic.,,https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/,https://techcrunch.com/feed/,2026-11-23T01:25:53Z,5,Tech
+How to clear your cache on Google TV,"Clearing your Google TV&#39;s cache isn&#39;t a one-size-fits-all solution, but it&#39;s a useful first step if you&#39;re having performance issues or glitches.",https://www.engadget.com/img/gallery/how-to-clear-your-cache-on-google-tv/l-intro-1794808574.jpg,https://www.engadget.com/2319567/how-to-clear-cache-google-tv/,http://www.engadget.com/rss-full.xml,2026-11-23T01:00:00Z,0,Tech
+This free 'Swiss Army Knife' for macOS can replace your utility apps,"Vorssaint is a powerful, modular utility suite, provided permissions are carefully managed.",https://www.engadget.com/img/gallery/this-free-swiss-army-knife-for-macos-can-replace-your-utility-apps/l-intro-1794595062.jpg,https://www.engadget.com/2319565/vorssaint-free-swiss-army-knife-macos-replace-utility-apps/,http://www.engadget.com/rss-full.xml,2026-11-23T00:45:00Z,6,Tech
+Should you go with a headphone DAC/amp combo or a stack?,"If your computer&#39;s headphone jack isn&#39;t cutting it anymore, it&#39;s time to get a DAC and headphone amp. But do you go for a combo DAC/amp or a stack?",https://www.engadget.com/img/gallery/should-you-go-with-a-headphone-dacamp-combo-or-a-stack/l-intro-1794285377.jpg,https://www.engadget.com/2311788/headphone-dac-amp-combo-vs-stack/,http://www.engadget.com/rss-full.xml,2026-11-23T00:30:00Z,0,Tech
+8 Windows apps you should probably remove from your PC,"From pre-installed junk to popular apps that have better alternatives, these are the apps you should clean off your PC if they&#39;re present.",https://www.engadget.com/img/gallery/8-windows-apps-you-should-probably-remove-from-your-pc/l-intro-1794237490.jpg,https://www.engadget.com/2317781/windows-apps-remove-from-pc/,http://www.engadget.com/rss-full.xml,2026-11-23T00:15:00Z,1,Tech
+Public vs. private IP addresses: what's the difference?,"One identifies your network, the other identifies the devices using your network.",https://www.engadget.com/img/gallery/public-vs-private-ip-addresses-whats-the-difference/l-intro-1794236251.jpg,https://www.engadget.com/2310692/public-vs-private-ip-addresses-differences/,http://www.engadget.com/rss-full.xml,2026-11-23T00:00:00Z,0,Tech
+What is the best way to secure your PlayStation 5 for a flight?,"You don&#39;t have to leave your precious PS5 behind when flying, but you will need to take some precautions or opt for a long-distance streaming relationship. ",https://www.engadget.com/img/gallery/what-is-the-best-way-to-secure-your-playstation-5-for-a-flight/l-intro-1794602643.jpg,https://www.engadget.com/2319558/best-way-secure-playstation-5-for-flight-travel/,http://www.engadget.com/rss-full.xml,2026-11-22T23:45:00Z,0,Tech
+How to use AI glasses as a teleprompter,"If you have the right type of smart glasses, this is an easy feature to enable.",https://www.engadget.com/img/gallery/how-to-use-ai-glasses-as-a-teleprompter/l-intro-1794839468.jpg,https://www.engadget.com/2319553/how-to-use-ai-glasses-as-teleprompter/,http://www.engadget.com/rss-full.xml,2026-11-22T23:30:00Z,5,Tech
+The pros and cons of sharing your location,Location sharing has perks from tracking lost gear to staying safe on a night out. Learn what you gain and what you give up before you share.,https://www.engadget.com/img/gallery/the-pros-and-cons-of-sharing-your-location/l-intro-1794603681.jpg,https://www.engadget.com/2319550/pros-and-cons-sharing-your-location/,http://www.engadget.com/rss-full.xml,2026-11-22T23:00:00Z,5,Tech
+We haven’t seen the last of the major tech outages,"Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: &#34;The American people should be […]",,https://www.theverge.com/tech/1039851/major-tech-outages,https://www.theverge.com/rss/index.xml,2026-11-22T22:48:02Z,0,Tech
+Can you safely use a 140w charger on an iPhone?,"A 140-watt charger is far more juice than your iPhone needs, but does that really matter? Yes and no -- we can explain.",https://www.engadget.com/img/gallery/can-you-safely-use-a-140w-charger-on-an-iphone/l-intro-1794496692.jpg,https://www.engadget.com/2319546/can-iphone-safely-use-140w-charger/,http://www.engadget.com/rss-full.xml,2026-11-22T22:30:00Z,5,Tech
+This free app connects your Android phone to your Windows PC wirelessly,"Connecting your Android phone to your Windows PC wirelessly doesn&#39;t have to cost money or require a multi-step setup, as this free app proves.",https://www.engadget.com/img/gallery/this-free-app-connects-your-android-phone-to-your-windows-pc-wirelessly/l-intro-1794633420.jpg,https://www.engadget.com/2319544/free-app-connects-android-phone-windows-pc-wirelessly-plainapp/,http://www.engadget.com/rss-full.xml,2026-11-22T22:15:00Z,1,Tech
+How to safely clean your PC's GPU to avoid damaging it in the process,"Removing and cleaning a GPU can be intimidating, but it&#39;s actually pretty simple.",https://www.engadget.com/img/gallery/how-to-safely-clean-your-pcs-gpu-to-avoid-damaging-it-in-the-process/l-intro-1794604743.jpg,https://www.engadget.com/2319541/safely-clean-pc-gpu-avoid-damage/,http://www.engadget.com/rss-full.xml,2026-11-22T22:00:00Z,0,Tech
+Why your monitor flickers when you turn it on and can it be fixed?,"A flickering computer monitor can be a symptom of several different issues. Let&#39;s explore some common ones.
+",https://www.engadget.com/img/gallery/why-your-monitor-flickers-when-you-turn-it-on-and-can-it-be-fixed/l-intro-1794601400.jpg,https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/,http://www.engadget.com/rss-full.xml,2026-11-22T21:45:00Z,0,Tech
+‘You Can See Everything’ has made more than $100M worldwide,The new Elizabeth Holmes documentary is just beginning to roll out internationally.,,https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/,https://techcrunch.com/feed/,2026-11-22T21:42:48Z,0,Tech
+The cool phone camera trick that can test your remote control's battery,Trying to figure out whether a remote control needs new batteries? Your phone camera can tell you if it&#39;s time to replace them. Here&#39;s how.,https://www.engadget.com/img/gallery/the-cool-phone-camera-trick-that-can-test-your-remote-controls-battery/l-intro-1794630742.jpg,https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/,http://www.engadget.com/rss-full.xml,2026-11-22T21:30:00Z,0,Tech
+Which solar panel type is best for your home?,"Find out how monocrystalline, polycrystalline and thin-film solar panels compare on efficiency, cost and roof space, and which type suits your home and budget.",https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg,https://www.engadget.com/2319531/solar-panel-types-best-home-use/,http://www.engadget.com/rss-full.xml,2026-11-22T21:15:00Z,0,Tech
+OpenAI’s chief scientist has thoughts on how to limit AI development,"To establish a speed limit on AI development, you need to agree on how to measure speed.",,https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/,https://techcrunch.com/feed/,2026-11-22T21:14:07Z,5,Tech
+How Secure Is Your Password? Here's How To Test It,"Find out which common password habits leave your accounts exposed, from keyboard patterns to reused logins, and what a truly secure password needs to include.",https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg,https://www.engadget.com/2319522/how-secure-is-password/,http://www.engadget.com/rss-full.xml,2026-11-22T21:00:00Z,0,Tech
+The best apps to make new friends right now,"We&#39;ve compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft.",,https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/,https://techcrunch.com/feed/,2026-11-22T21:00:00Z,1,Tech
+These iOS settings will help you control your mobile data use,"Keeping your mobile data usage under control is generally a good idea, doubly so if you&#39;re on a restrictive plan, and iOS offers a few ways to do so.",https://www.engadget.com/img/gallery/these-ios-settings-will-help-you-control-your-mobile-data-use/l-intro-1794801627.jpg,https://www.engadget.com/2319519/ios-settings-help-control-mobile-data-use/,http://www.engadget.com/rss-full.xml,2026-11-22T20:45:00Z,0,Tech
+What the tiny key icon means on your Android device,"Some Android status bar icons are quite self-explanatory, but others aren&#39;t quite as clear-cut. That tiny key icon is a perfect example of the latter.",https://www.engadget.com/img/gallery/what-the-tiny-key-icon-means-on-your-android-device/l-intro-1794812963.jpg,https://www.engadget.com/2319509/what-tiny-key-icon-means-android-device/,http://www.engadget.com/rss-full.xml,2026-11-22T20:30:00Z,0,Tech
+You don't need a foldable phone to use split screen on Android,There are a few ways you can multitask on a traditional smartphone.,https://www.engadget.com/img/gallery/you-dont-need-a-foldable-phone-to-use-split-screen-on-android/l-intro-1794678668.jpg,https://www.engadget.com/2319499/you-dont-need-foldable-phone-use-split-screen-android/,http://www.engadget.com/rss-full.xml,2026-11-22T20:15:00Z,0,Tech
+The advantages of using a USB-C docking station,"If you want to use many different accessories at the same time, consider adding more ports to your laptop with a USB-C docking station.",https://www.engadget.com/img/gallery/the-advantages-of-using-a-usb-c-docking-station/l-intro-1794847590.jpg,https://www.engadget.com/2319496/advantages-using-usb-c-docking-station/,http://www.engadget.com/rss-full.xml,2026-11-22T20:00:00Z,0,Tech
+Want more control over your YouTube homepage? Try using custom feeds,YouTube&#39;s custom feeds feature allows you to search for exactly what you want to see on your homepage. Discover how to use this tool.,https://www.engadget.com/img/gallery/want-more-control-over-your-youtube-homepage-try-using-custom-feeds/l-intro-1794432277.jpg,https://www.engadget.com/2319492/try-using-youtube-custom-feeds-control-homepage/,http://www.engadget.com/rss-full.xml,2026-11-22T19:45:00Z,0,Tech
+How long is a new Fitbit actually supposed to last?,"Fitbit longevity is threefold. You&#39;ll need to consider the fitness tracker&#39;s durability, battery life, and how long it will receive software support.",https://www.engadget.com/img/gallery/how-long-is-a-new-fitbit-actually-supposed-to-last/l-intro-1794499519.jpg,https://www.engadget.com/2319487/how-long-new-fitbit-last-lifespan-software-support/,http://www.engadget.com/rss-full.xml,2026-11-22T19:30:00Z,1,Tech
+Here's when a Raspberry Pi 5 could be considered overkill,"From home servers to DIY gadgets, Raspberry Pi boards can handle countless tasks, though the power of the newest Pi 5 isn&#39;t always the only option.",https://www.engadget.com/img/gallery/heres-when-a-raspberry-pi-5-could-be-considered-overkill/l-intro-1794642152.jpg,https://www.engadget.com/2319480/when-raspberry-pi-5-considered-overkill/,http://www.engadget.com/rss-full.xml,2026-11-22T19:15:00Z,1,Tech
+5 Apple Watch settings that can help you save its battery life,"By giving up some of the Apple Watch&#39;s slick features, you can use its core functions for much longer before needing a charge.",https://www.engadget.com/img/gallery/5-apple-watch-settings-that-can-help-you-save-its-battery-life/l-intro-1794592644.jpg,https://www.engadget.com/2319475/apple-watch-settings-help-save-battery-life/,http://www.engadget.com/rss-full.xml,2026-11-22T19:00:00Z,1,Tech
+"Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices","GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers&#39; routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",,https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/,https://www.bleepingcomputer.com/feed/,2026-11-22T18:45:37Z,9,Cybersecurity
+What the little clock icon at the top of your Samsung phone means,A mystery clock in your Galaxy status bar can be confusing. Find out what the symbol could mean and the simple steps to make it disappear for good.,https://www.engadget.com/img/gallery/what-the-little-clock-icon-at-the-top-of-your-samsung-phone-means/l-intro-1794937166.jpg,https://www.engadget.com/2319450/what-little-clock-icon-top-samsung-phone-means/,http://www.engadget.com/rss-full.xml,2026-11-22T18:45:00Z,1,Tech
+The drawbacks of adding solar panels to your home,"Installing solar panels at your home could be a bright idea, but there are some serious financial factors to consider before making the investment.",https://www.engadget.com/img/gallery/the-drawbacks-of-adding-solar-panels-to-your-home/l-intro-1794592127.jpg,https://www.engadget.com/2319431/adding-solar-panels-home-disadvantages/,http://www.engadget.com/rss-full.xml,2026-11-22T18:30:00Z,0,Tech
+11 types of smart gadgets to consider pairing with your Ring doorbell,"If you&#39;ve expanded your smart home to have multiple smart devices, you may want to see how many will work with Ring.",https://www.engadget.com/img/gallery/11-types-of-smart-gadgets-to-consider-pairing-with-your-ring-doorbell/l-intro-1794591638.jpg,https://www.engadget.com/2319422/ring-doorbell-smart-gadget-pairings/,http://www.engadget.com/rss-full.xml,2026-11-22T18:15:00Z,6,Tech
+Why data centers are at the center of the Big Tech backlash,Journalist Paris Marx unpacks his new book &#34;Hyperscale.&#34;,,https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/,https://techcrunch.com/feed/,2026-11-22T18:08:43Z,0,Tech
+Don't throw away your old Xbox — Do this instead,"Your old Xbox doesn&#39;t deserve to be dumped in a dustbin. From making a buck to making a kid&#39;s day, there are ways to give your console a new lease on life.",https://www.engadget.com/img/gallery/dont-throw-away-your-old-xbox-do-this-instead/l-intro-1794512318.jpg,https://www.engadget.com/2319409/dont-throw-away-old-xbox-do-this-instead-sell-donate/,http://www.engadget.com/rss-full.xml,2026-11-22T18:00:00Z,0,Tech
+Delta flights in and out of Atlanta delayed due to system outage,"All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane&#39;s weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta&#39;s largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disruptions at […]",,https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage,https://www.theverge.com/rss/index.xml,2026-11-22T17:46:44Z,5,Tech
+You can mass-delete all of your emails on Gmail in only a few clicks,"If you have thousands of emails piling up in Gmail, you can delete them in bulk without losing the important ones.",https://www.engadget.com/img/gallery/you-can-mass-delete-all-of-your-emails-on-gmail-in-only-a-few-clicks/l-intro-1794781970.jpg,https://www.engadget.com/2319403/how-to-mass-delete-all-emails-gmail/,http://www.engadget.com/rss-full.xml,2026-11-22T17:45:00Z,5,Tech
+How to cancel your Nintendo Switch Online subscription,You&#39;ll have to switch off Nintendo Switch Online&#39;s auto-renewal to cancel it. Here&#39;s how.,https://www.engadget.com/img/gallery/how-to-cancel-your-nintendo-switch-online-subscription/l-intro-1794668965.jpg,https://www.engadget.com/2319401/cancel-nintendo-switch-online-subscription/,http://www.engadget.com/rss-full.xml,2026-11-22T17:30:00Z,0,Tech
+Binding of Isaac developer removes AI music from Repentance Plus,The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […],,https://www.theverge.com/games/1039770/binding-of-isaac-ai-music,https://www.theverge.com/rss/index.xml,2026-11-22T17:25:20Z,6,Tech
+5 iOS 27.3 changes coming to your Apple devices by 2027,"iOS 27.3&#39;s first developer beta is out ahead of a possible December 2026 launch, and it brings with it a handful of notable changes and new features.",https://www.engadget.com/img/gallery/5-ios-27-3-changes-coming-to-your-apple-devices-by-2027/l-intro-1794567265.jpg,https://www.engadget.com/2319400/apple-ios-27-3-changes-by-2027/,http://www.engadget.com/rss-full.xml,2026-11-22T17:15:00Z,1,Tech
+TechCrunch Mobility: A/B testing robots vs. humans,"Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it. ",,https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/,https://techcrunch.com/feed/,2026-11-22T17:06:00Z,5,Tech
+You can reuse your old GoPro in a couple different ways,"An old GoPro may not be of much use as an action camera, but that doesn&#39;t mean it&#39;s destined for e-waste. Here are two ways to repurpose it.",https://www.engadget.com/img/gallery/you-can-reuse-your-old-gopro-in-a-couple-different-ways/l-intro-1794706592.jpg,https://www.engadget.com/2319397/reuse-old-gopro-different-ways/,http://www.engadget.com/rss-full.xml,2026-11-22T17:00:00Z,0,Tech
+Some of our favorite Switch 2 games are cheaper through Black Friday,"Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of […]",,https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-22T17:00:00Z,1,Tech
+Here's how to properly test your USB speed,"Your USB ports and devices are all rated for certain speeds, but how do you know everything&#39;s performing as it should? It&#39;s actually not that hard.",https://www.engadget.com/img/gallery/heres-how-to-properly-test-your-usb-speed/l-intro-1794562926.jpg,https://www.engadget.com/2319388/how-to-test-usb-speed/,http://www.engadget.com/rss-full.xml,2026-11-22T16:45:00Z,5,Tech
+"Sheherazaad’s Khudgarzi is gorgeous, genre-defying gothic South Asian folk","Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she&#39;s back with Khudgarzi, her reverb-drenched folk-noir debut LP that&#39;s primarily sung in Urdu. The instrumentation on Khudgarzi draws on traditional South Asian music, including Carnatic and Hindustani styles, […]",,https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review,https://www.theverge.com/rss/index.xml,2026-11-22T16:33:29Z,0,Tech
+"Fixing this annoying One UI feature is easy, but there's a catch",The Now bar on your Samsung phone&#39;s lock screen can sometimes float above the bottom of the screen. Find out how to fix this One UI feature.,https://www.engadget.com/img/gallery/fixing-this-annoying-one-ui-feature-is-easy-but-theres-a-catch/l-intro-1794838458.jpg,https://www.engadget.com/2319385/fixing-annoying-one-ui-feature-easy-but-theres-catch/,http://www.engadget.com/rss-full.xml,2026-11-22T16:30:00Z,0,Tech
+4 random apps you might not realize work with Android Auto,"From deciding where to fuel up to joining meetings from your car, there are many convenient apps that work with Android Auto.",https://www.engadget.com/img/gallery/4-random-apps-you-might-not-realize-work-with-android-auto/l-intro-1794585620.jpg,https://www.engadget.com/2319383/random-apps-that-work-with-android-auto/,http://www.engadget.com/rss-full.xml,2026-11-22T16:15:00Z,1,Tech
+6 handy ways you can use your old mini PC,"From retro gaming consoles to home media servers, discover six handy ways to repurpose your old mini PC and give the hardware a new lease on life. ",https://www.engadget.com/img/gallery/6-handy-ways-you-can-use-your-old-mini-pc/l-intro-1794236237.jpg,https://www.engadget.com/2310723/handy-ways-use-old-mini-pc/,http://www.engadget.com/rss-full.xml,2026-11-22T16:00:00Z,1,Tech
+How much storage does Apple Intelligence use on your iPhone?,"Apple Intelligence has a lot of neat tricks, but you might prefer to disable them if you need every bit of free space possible.",https://www.engadget.com/img/gallery/how-much-storage-does-apple-intelligence-use-on-your-iphone/l-intro-1794596549.jpg,https://www.engadget.com/2319374/apple-intelligence-iphone-storage-usage/,http://www.engadget.com/rss-full.xml,2026-11-22T15:45:00Z,1,Tech
+"Cleverbridge warns hackers stole credit card numbers, CVVs in data breach","E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers&#39; payment card information, including credit card numbers and CVV security codes. [...]",,https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/,https://www.bleepingcomputer.com/feed/,2026-11-22T15:43:04Z,10,Cybersecurity
+The most recognizable spam email type is way older than the internet,"It&#39;s a tale as old as time, literally. Con artists have been promising fortunes (following a small advance, of course) through all sorts of correspondence.",https://www.engadget.com/img/gallery/the-most-recognizable-spam-email-type-is-way-older-than-the-internet/l-intro-1794425133.jpg,https://www.engadget.com/2319371/most-recognizable-spam-email-type-way-older-than-internet/,http://www.engadget.com/rss-full.xml,2026-11-22T15:30:00Z,5,Tech
+"Signal to block Siri, Gemini AI from capturing chats on iOS, Android",Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...],,https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/,https://www.bleepingcomputer.com/feed/,2026-11-22T15:15:25Z,0,Cybersecurity
+Protesters storm Meta offices in India,Members of the opposition Congress party protested outside Meta&#39;s offices in Delhi on Friday and appear to have entered the building in a video shared by CNN. Members of the party&#39;s youth wing are demanding the company restore accounts of party leaders and warned of more protests to come. The Congress party has criticized Meta […],,https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india,https://www.theverge.com/rss/index.xml,2026-11-22T15:15:07Z,1,Tech
+4 iPad Pro alternatives for those looking to ditch Apple,"There&#39;s really nothing quite like the iPad Pro out there, but these alternatives show that you can still get great tablets from companies other than Apple.",https://www.engadget.com/img/gallery/4-ipad-pro-alternatives-for-those-looking-to-ditch-apple/l-intro-1794555342.jpg,https://www.engadget.com/2319367/ipad-alternatives-to-ditch-apple/,http://www.engadget.com/rss-full.xml,2026-11-22T15:15:00Z,1,Tech
+Why you should never vacuum the inside of your computer,"Ensuring that your PC is dust free is key, but taking a vacuum to your motherboard and other components can be very damaging. Here&#39;s what you should do instead.",https://www.engadget.com/img/gallery/why-you-should-never-vacuum-the-inside-of-your-computer/l-intro-1794571286.jpg,https://www.engadget.com/2319361/why-you-should-never-vacuum-inside-computer/,http://www.engadget.com/rss-full.xml,2026-11-22T15:00:00Z,0,Tech
+Can a TV be too large? An investigation,Can a TV be too large? This writer&#39;s recent upgrade to a 65-inch OLED came with some unexpected challenges. ,,https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/,https://techcrunch.com/feed/,2026-11-22T15:00:00Z,0,Tech
+Sleep vs. shutdown – Which should Xbox Series X owners actually use?,"As long as it&#39;s plugged in, the Xbox Series X never fully turns off, but you can manage how much power it draws.",https://www.engadget.com/img/gallery/sleep-vs-shutdown-which-should-xbox-series-x-owners-actually-use/l-intro-1794526494.jpg,https://www.engadget.com/2319358/xbox-series-x-owners-sleep-mode-vs-shutdown/,http://www.engadget.com/rss-full.xml,2026-11-22T14:45:00Z,0,Tech
+Can you completely remove One UI from a Samsung phone?,"Samsung&#39;s custom software, One UI, gives every phone a similar appearance. Discover how to limit One UI and change the look of your homepage.",https://www.engadget.com/img/gallery/can-you-completely-remove-one-ui-from-a-samsung-phone/l-intro-1794581123.jpg,https://www.engadget.com/2319357/limit-one-ui-9-on-samsung-phone/,http://www.engadget.com/rss-full.xml,2026-11-22T14:30:00Z,2,Tech
+The purpose of the SC port on your old laptop,"If you have a weird, credit-card-sized slot on your laptop, read on to find out what it&#39;s for and how it&#39;s used.",https://www.engadget.com/img/gallery/the-purpose-of-the-sc-port-on-your-old-laptop/l-intro-1794587889.jpg,https://www.engadget.com/2319353/old-laptop-sc-port-purpose/,http://www.engadget.com/rss-full.xml,2026-11-22T14:15:00Z,0,Tech
+Common reasons why some USB ports are red,"There&#39;s no universal standard for the meaning of USB colors, but red ports often indicate a few similar things.",https://www.engadget.com/img/gallery/common-reasons-why-some-usb-ports-are-red/l-intro-1794842297.jpg,https://www.engadget.com/2319349/common-reasons-why-usb-ports-red/,http://www.engadget.com/rss-full.xml,2026-11-22T14:00:00Z,0,Tech
+‘The show is starting soon. Please turn on your headphones.’,"Up a few concrete steps and through the front door of a 200-year-old row house in New York City, I follow a crowd of people into the 178-seat SoHo Playhouse. As we filter to our seats, ushers hand each person a black drawstring bag with a pair of wired headphones connected to a small Auracast […]",,https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast,https://www.theverge.com/rss/index.xml,2026-11-22T14:00:00Z,5,Tech
+Nintendo’s Switch 2 console is $50 off for Black Friday,"Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has passed. For a limited time, Nintendo has knocked $50 off one of its two current console bundles, temporarily rolling back […]",,https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale,https://www.theverge.com/rss/index.xml,2026-11-22T14:00:00Z,0,Tech
+Does old computer hardware ever become truly useless?,"Find out how long old computer hardware usually lasts, what eventually makes it obsolete and when it&#39;s worth reusing or selling your PC parts.",https://www.engadget.com/img/gallery/does-old-computer-hardware-ever-become-truly-useless/l-intro-1794496052.jpg,https://www.engadget.com/2319347/old-computer-hardware-truly-useless/,http://www.engadget.com/rss-full.xml,2026-11-22T13:45:00Z,1,Tech
+Apple AirPods 5 vs. AirPods Pro 3: What are the key differences?,"Apple Airpods Pro 3 have more features than the cheaper Airpods 5. Discover the differences in appearance, charging, battery life and capabilities.",https://www.engadget.com/img/gallery/apple-airpods-5-vs-airpods-pro-3-what-are-the-key-differences/l-intro-1794426870.jpg,https://www.engadget.com/2319344/apple-airpods-5-vs-airpods-pro-3-differences/,http://www.engadget.com/rss-full.xml,2026-11-22T13:30:00Z,6,Tech
+How Tamagotchis got us hooked on digital pets,"If you were are a kid in the late 1990s, there&#39;s a near-100 percent chance you either had a Tamagotchi or knew someone who did. The tiny digital pets came out of nowhere and became an overnight sensation, as millions of kids signed up to parent a crying, hungry, constantly dirty creature. Until they went […]",,https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary,https://www.theverge.com/rss/index.xml,2026-11-22T13:15:27Z,0,Tech
+What does the blue snowflake icon mean for your Tesla battery?,"No, that snowflake isn&#39;t a weather report nor is it an Easter egg. But it is something you should pay attention to if you care at all about range.",https://www.engadget.com/img/gallery/what-does-the-blue-snowflake-icon-mean-for-your-tesla-battery/l-intro-1794934752.jpg,https://www.engadget.com/2319342/tesla-battery-blue-snowflake-icon-meaning/,http://www.engadget.com/rss-full.xml,2026-11-22T13:15:00Z,0,Tech
+10 rare game consoles that almost no one owns,Even common consoles have rare editions that are highly sought after by collectors.,https://www.engadget.com/img/gallery/10-rare-game-consoles-that-almost-no-one-owns/l-intro-1794247499.jpg,https://www.engadget.com/2321882/rare-game-console-no-one-owns/,http://www.engadget.com/rss-full.xml,2026-11-22T13:15:00Z,0,Tech
+The vibe-coding revolution is coming to all the gadgets,"This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers&#39; inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it&#39;s not […]",,https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera,https://www.theverge.com/rss/index.xml,2026-11-22T13:00:00Z,6,Tech
+"Your questions about Apple HomeView’s audio, answered","After I published my review of the HomeView, Apple&#39;s first smart display, y&#39;all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here […]",,https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay,https://www.theverge.com/rss/index.xml,2026-11-22T13:00:00Z,2,Tech
+GLP-1 drugs could have a surprisingly large environmental payoff,GLP-1 drugs could cut food demand enough to free farmland larger than Italy.,https://cdn.arstechnica.net/wp-content/uploads/2025/04/agriculture-1152x648.jpg,https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/,https://arstechnica.com/feed/,2026-11-22T12:07:41Z,0,Tech
 OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms,"Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.
 
 Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.
