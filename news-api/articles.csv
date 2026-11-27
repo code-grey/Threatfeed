@@ -1,4 +1,255 @@
 Title,Description,ImageURL,URL,SourceURL,PublishedAt,Rank,Category
+SAP confirms security incident after suspicious GitHub activity,SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...],,https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/,https://www.bleepingcomputer.com/feed/,2026-11-27T09:56:36Z,1,Cybersecurity
+Google will soon share Android developers' addresses publicly,Google is getting flak for its decision to publish Android developers&#39; identifying information around the world to comply with European laws.,https://www.engadget.com/img/gallery/google-will-soon-share-android-developers-addresses-publicly/l-intro-1795772169.jpg,https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/,http://www.engadget.com/rss-full.xml,2026-11-27T09:38:33Z,0,Tech
+The absolute best Black Friday deals we’ve found (so far),"This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’t guarantee a deal you’ve had […]",,https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas,https://www.theverge.com/rss/index.xml,2026-11-27T09:35:30Z,0,Tech
+"100,000 Potentially Impacted by Colorado Data Breach","Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.
+The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/,https://www.securityweek.com/feed/,2026-11-27T09:30:54Z,5,Cybersecurity
+Microsoft pushes emergency hotpatch to fix Windows Server crashes,Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month&#39;s security hotpatch update (KB5131077). [...],,https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/,https://www.bleepingcomputer.com/feed/,2026-11-27T09:08:16Z,2,Cybersecurity
+New NFS2ROOT Linux flaw can let attackers gain root privileges,"​A 12-year-old critical vulnerability in the Linux kernel&#39;s Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",,https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/,https://www.bleepingcomputer.com/feed/,2026-11-27T08:06:58Z,11,Cybersecurity
+Volvo's big batteries: We drive its updated 2028 plug-in hybrids,There’s just one thing we still don’t know: How much will they cost?,https://cdn.arstechnica.net/wp-content/uploads/2026/11/volvo-xc60-xc90-combo-1152x648.jpg,https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/,https://arstechnica.com/feed/,2026-11-27T08:00:53Z,1,Tech
+Hex Package Manager Warns of Potential Data Breach,"A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.
+The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek.
+",,https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/,https://www.securityweek.com/feed/,2026-11-27T07:44:49Z,8,Cybersecurity
+"SAP Confirms Cyberattack, Source Code Reportedly Compromised","SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.
+The post SAP Confirms Cyberattack, Source Code Reportedly Compromised   appeared first on SecurityWeek.
+",,https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/,https://www.securityweek.com/feed/,2026-11-27T07:36:14Z,4,Cybersecurity
+Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators,"Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country&#39;s cybersecurity agency said yesterday.
+
+Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviiPK0v6Kpjxjo_jDNE9vaZ8-JKiq6Oct4uU6qPDfTXq66QnxuV2iExRo2Rx2FyHhyphenhyphenDquMIoxmlfo5GwxfKoEXRG8Pj38FDOzEKitDdhXBNOGN7b6sddsMozMuhI44c-3mimoE4OxU-Xg7h8IzhDiyrXmP6qBO-wW6xmitkIEv_EkU-FJUJBTNtQ8uY/s1600/swiss.jpg,https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html,https://feeds.feedburner.com/TheHackersNews,2026-11-27T06:04:20Z,8,Cybersecurity
+Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access,"Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.
+
+The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.
+
+&#34;I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy4kFFGLYGbyvO7M_M1gKBjBUm5TF_eT6dIHtCmXKz_cGyC6orRw9XupBLbcQlJTQEEqjZ3q73Cv_Sn9ncPKxOJYU8Poi8Q54-bWKIro4Sp4JYi9hjUjYy71OR1LOV6B5nX8dHK0jYSRJ1p4O1pdMWomZGhCiTKE7MkvrC-gfeINrM-GOab64Bw_MzxA6Z/s1600/cacti.png,https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html,https://feeds.feedburner.com/TheHackersNews,2026-11-27T05:48:20Z,12,Cybersecurity
+Backloggd urges users to change their passwords after a breach,"If you use Backloggd, you might need to log in again and reset your password.",https://www.engadget.com/img/gallery/backloggd-urges-users-to-change-their-passwords-after-a-breach/l-intro-1795728014.jpg,https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/,http://www.engadget.com/rss-full.xml,2026-11-26T21:26:47Z,5,Tech
+OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug,"OpenAI confirmed that it fixed a &#39;bug&#39; that incorrectly discounted GPT-6.2 usage, which means you&#39;ll now hit GPT usage limits 40% faster than before. [...]",,https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/,https://www.bleepingcomputer.com/feed/,2026-11-26T21:06:22Z,0,Cybersecurity
+Netflix’s coziest show has made a very quiet return,"The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it&#39;s especially true of Netflix of late, as the streaming service&#39;s lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best […]",,https://www.theverge.com/entertainment/1043489/midnight-diner-season3,https://www.theverge.com/rss/index.xml,2026-11-26T21:00:00Z,0,Tech
+Nvidia hits pause on chip shipments to Southeast Asia,"Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",,https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/,https://techcrunch.com/feed/,2026-11-26T20:03:54Z,5,Tech
+1Password says it was hacked but users' vaults are safe,1Password assures customers that their logins and other sensitive information were not compromised in a recent data breach.,https://www.engadget.com/img/gallery/1password-says-it-was-hacked-but-users-vaults-are-safe/l-intro-1795678680.jpg,https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/,http://www.engadget.com/rss-full.xml,2026-11-26T20:00:00Z,0,Tech
+Is Alice Huang a spy or not?,"The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.",,https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/,https://techcrunch.com/feed/,2026-11-26T20:00:00Z,5,Tech
+Amazon workers around the world plan strikes and protests on Black Friday and Cyber Monday,A campaign demanding that Amazon recognize and bargain with unions will see workers in more than 20 countries mobilize.,https://www.engadget.com/img/gallery/amazon-workers-around-the-world-plan-strikes-and-protests-on-black-friday-and-cyber-monday/l-intro-1795722145.jpg,https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/,http://www.engadget.com/rss-full.xml,2026-11-26T19:44:49Z,5,Tech
+"ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories","A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much.
+
+Then there’s the question of who gets to use what. Stolen logins are opening",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlwb4cL2xbF38yynT-hp8rHaGntsYzuQwL4-68g3SxEW4Taw6_Kl4WFfL4CuNRNXGxO_KS9prZaqk0A6SA6fib3k8j9miTymP8PzABv9OA21eSDsRv1j9NEgbIEVMR7u1C7VmFyFxdBf0Zcj2sckIyHDkRSjm76oFMDd10drUHa1ctv6190vdYHhuVuRPk/s1600/thday.jpg,https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html,https://feeds.feedburner.com/TheHackersNews,2026-11-26T19:39:57Z,4,Cybersecurity
+X finally gets parental controls after 20 years,"Elon Musk&#39;s social network X has finally added parental controls for teenagers, giving parents and guardians a way to manage what their kids see on the platform. ",,https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/,https://techcrunch.com/feed/,2026-11-26T19:31:50Z,0,Tech
+"The Garmin Forerunner 265S is down to $300, its best price of the year","The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks […]",,https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday,https://www.theverge.com/rss/index.xml,2026-11-26T19:00:00Z,1,Tech
+NVIDIA reportedly halts AI chip shipments to Southeast Asia,"In the same week that NVIDIA reinstated Jensen Huang as its CEO, the company has reportedly also blocked shipments to Southeast Asia.",https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/l-intro-1795716287.jpg,https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/,http://www.engadget.com/rss-full.xml,2026-11-26T18:09:18Z,5,Tech
+Ford unveils the GT41 as it hopes to win Le Mans again,"Ford enters the World Endurance Championship in 2027 with the new prototype.
+",https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ford-GT41-and-GT40_06-1152x648.jpg,https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/,https://arstechnica.com/feed/,2026-11-26T18:00:29Z,5,Tech
+NordVPN Black Friday Deal: Get 78% off VPN plans in 2026,"NordVPN&#39;s 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",,https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/,https://www.bleepingcomputer.com/feed/,2026-11-26T17:58:42Z,0,Cybersecurity
+Fake paid expert interviews impersonate brands to steal Google logins,"An ongoing phishing campaign dubbed &#34;GoodGuys&#34; impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",,https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/,https://www.bleepingcomputer.com/feed/,2026-11-26T17:15:27Z,3,Cybersecurity
+The MacBook Neo is receiving a rare $100 discount for Black Friday,"If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",,https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-26T17:07:00Z,5,Tech
+FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’,"FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information.
+The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on SecurityWeek.
+",,https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/,https://www.securityweek.com/feed/,2026-11-26T17:06:55Z,4,Cybersecurity
+Android app developers will soon have to share their address publicly,"Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. […]",,https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu,https://www.theverge.com/rss/index.xml,2026-11-26T17:06:24Z,6,Tech
+A month with the iPhone Duo has changed how I use my phone,"From reading more books to breaking mindless scrolling habits, Apple&#39;s foldable has changed my daily routines in ways I didn&#39;t anticipate.",,https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/,https://techcrunch.com/feed/,2026-11-26T17:00:00Z,6,Tech
+The best Black Friday deals we’ve already found,"The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]",,https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026,https://www.theverge.com/rss/index.xml,2026-11-26T16:55:00Z,5,Tech
+Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition,The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.,https://www.engadget.com/img/gallery/workers-at-gta-6-studio-rockstar-games-vote-overwhelmingly-against-union-recognition/l-intro-1795711860.jpg,https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/,http://www.engadget.com/rss-full.xml,2026-11-26T16:53:58Z,5,Tech
+Federal judge blocks the FCC from reviewing ABC’s licenses early,"US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC&#39;s broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC&#39;s First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency &#34;waged a retaliatory campaign&#34; against the […]",,https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block,https://www.theverge.com/rss/index.xml,2026-11-26T16:38:00Z,6,Tech
+"Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday","Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]",,https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026,https://www.theverge.com/rss/index.xml,2026-11-26T16:00:00Z,1,Tech
+"As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue","On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",,https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/,https://techcrunch.com/feed/,2026-11-26T16:00:00Z,5,Tech
+GTA VI developers vote against unionization,"Workers at Grand Theft Auto VI developer Rockstar Games won&#39;t unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organizing even without formal recognition. Voting ran from […]",,https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb,https://www.theverge.com/rss/index.xml,2026-11-26T15:55:24Z,5,Tech
+Man sentenced to 47 months in prison after using AI to impersonate streamer N3on,"David Anthony Sanchez, the man who impersonated N3on, scammed victims out of $260,000 worth of cryptocurrency.",https://www.engadget.com/img/gallery/man-sentenced-to-47-months-in-prison-after-using-ai-to-impersonate-streamer-n3on/l-intro-1795707863.jpg,https://www.engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer/,http://www.engadget.com/rss-full.xml,2026-11-26T15:50:37Z,5,Tech
+New GeoServer RCE exploit chain seen in the wild two days after disclosure,"
+		
+					  
+						
+
+
+
+
+Attackers have begun probing a chain of five GeoServer vulnerabilities that enables unauthenticated remote code execution, just two days after the open source geospatial server project disclosed the flaws.
+
+
+
+Security firm watchTowr, which operates a global network of honeypot servers, reported that it observed the probing activity in the early morning hours of Wednesday. Attackers from multiple IP addresses created stored queries on GeoServer instances, checked whether they were created, and deleted them immediately, a technique that confirms a server is vulnerable without delivering a malicious payload.
+
+
+
+GeoServer is widely used by government agencies, utilities, and large organizations to publish maps and geospatial data, and it has become a recurring target for attackers. The full RCE chain was reported to the project in August by Jonah Burgess, a senior security researcher at Rapid7 who uses the online handle CryptoCat. The GeoServer project shipped fixes in October and early November but only disclosed the vulnerabilities and published advisories for them on Monday.
+
+
+
+Chained together, the flaws allow an external unauthenticated attacker to bypass security restrictions, read stored secrets, forge an administrator authentication cookie, and ultimately execute code on the underlying host. They affect GeoServer versions 3.0.0 to 3.0.1, 2.28.0 to 2.28.5, and 2.27.6 and earlier. Users are advised to upgrade to the fixed versions 3.0.2, 2.28.6, and 2.27.7 depending on which major release they use.
+
+
+
+A five-flaw chain
+
+
+
+According to Burgess’ technical write-up this week, one flaw (CVE-2026-129244) uses an overly long stored-query request to trigger a filesystem error that exposes the server’s data-directory path. A second flaw (CVE-2026-129243) allows attackers to call services with a slash in their names, such as x/WFS, bypassing access rules and letting unprivileged users create and delete stored queries, an action normally reserved for administrators.
+
+
+
+A saved query can then read files from the server, returning the administrator’s password digest along with a cookie-signing key that ships with the default value “geoserver,” a bug tracked as CVE-2026-120705. That key can then be used to forge an administrator cookie (CVE-2026-129245), and a deserialization bug in the database-backed user service finally allows running code with the privileges of the GeoServer process (CVE-2026-129242).
+
+
+
+Only the final step results in code execution, and only one of the five flaws, the predictable signing key, is rated as critical. Burgess also published a proof-of-concept exploit for the chain.
+
+
+
+However, researchers from Eye Security independently found a shorter, three-flaw RCE chain that shares the file-read step but reaches code execution through a different bug tracked as CVE-2026-120704 that was also patched.
+
+
+
+Eye Security used AI models to find the bugs, and the fact that different researchers found some of the same vulnerabilities (two researchers named McCaulay and Quikko are also credited on some of the flaws) highlights the fact that attackers could use AI to find the flaws as well, especially since patches can serve as blueprints for AI agents. In fact, Eye Security had to consider whether delaying disclosure after patches were released was worth the risk of malicious actors finding them independently in the meantime.
+
+
+
+“We used AI to find these bugs, and a determined attacker with good models could do the same, especially with the official patch to diff against,” Niels Teusink, a security researcher at Eye Security, wrote this week. “That makes the gap between releasing a fix and publishing details riskier than it used to be.”
+
+
+
+After the advisories were published, it took less than two days for attackers to start probing the flaws to identify vulnerable servers, likely in preparation for attacks. Over 3,000 GeoServer instances are currently exposed to the internet.
+
+
+
+GeoServer keeps getting targeted
+
+
+
+This is not the first time GeoServer has been targeted by attackers. In August, a zero-day SQL injection flaw was exploited before a patch was available, and in December 2025 the US Cybersecurity and Infrastructure Security Agency (CISA) ordered US agencies to patch another GeoServer flaw under active exploitation.
+
+
+
+Upgrading to a patched release resolves the entire chain, but the patches generate a new cookie-signing key that invalidates existing remember-me sessions. Clustered deployments must set a shared GEOSERVER_REMEMBERME_KEY so nodes sign cookies with the same key, and since the data directory might have been exposed, administrators should also change their passwords.
+
+
+
+Where patching cannot happen immediately, GeoServer advises blocking requests whose service value contains a slash, removing the remember-me filter from the web filter chain, and checking the data directory’s wfs/query folders for stored queries not created by a legitimate user.
+",https://www.csoonline.com/wp-content/uploads/2025/07/4032009-0-81697400-1753960152-shutterstock_2477533867.jpg?quality=50&strip=all,https://www.csoonline.com/article/4253667/new-geoserver-rce-exploit-chain-seen-in-the-wild-two-days-after-disclosure.html,https://www.csoonline.com/feed/,2026-11-26T15:39:58Z,16,Cybersecurity
+Remus malware steals Gmail messages via fake Google Sheets extension,"The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google&#39;s email service. [...]",,https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/,https://www.bleepingcomputer.com/feed/,2026-11-26T15:23:28Z,11,Cybersecurity
+"North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware","The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.
+
+&#34;The loader hides in a small utils package or in conftest.py,&#34; SafeDep said in a report published this week. &#34;When Python imports the file, the loader reads the newest transaction that an",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgquhPuqGJrSE3xNpn5ZUELVAv-Y7qXqkHgpw7nbVqCay4gyraYO5NNE12rAGzuqk_zhreNwcyzjZf3vZZB5C4teohyuppUP-JlP41PQiLu-hGEFCsqMZO0T6MoaVk-uY818yaTaiJaX-d2O0h0RER22knXbUQc7qnwIcVbleLQrEspMQ8btNa4Q9mFrmue/s1600/gitcat.jpg,https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html,https://feeds.feedburner.com/TheHackersNews,2026-11-26T15:13:41Z,6,Cybersecurity
+Why GTA VI’s version of Florida feels so real,"There are plenty of reasons why Grand Theft Auto VI is so popular: the 13 years of anticipation, the relatable lead characters and romantic storyline, the sheer level of depth. But another major factor is the sense of place. The GTA series is unmatched when it comes to re-creating the feeling of a bustling, real-world […]",,https://www.theverge.com/entertainment/1042629/gta-6-city-design,https://www.theverge.com/rss/index.xml,2026-11-26T15:00:00Z,0,Tech
+Samsung’s R95H TV shows what RGB LED is capable of,"RGB LED TVs finally became affordable in 2026, and there&#39;s always a lot of promise when new TV technologies come out. More color, higher brightness, improved performance - RGB LED TVs have a lot to prove. The Samsung R95H does a lot to deliver some of those promises. It can display more colors than other […]",,https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review,https://www.theverge.com/rss/index.xml,2026-11-26T14:00:00Z,0,Tech
+Here’s where you can save (a little) on the Ocarina of Time remake,"A lot of people have The Legend of Zelda: Ocarina of Time for the Nintendo Switch 2 on their holiday wishlist. In case you haven’t bought it yet, I wanted to share some small but welcome deals happening on the physical and digital versions of the game. Costco members can currently grab the cartridge edition […]",,https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale,https://www.theverge.com/rss/index.xml,2026-11-26T14:00:00Z,1,Tech
+The Screens app will let you turn your iPhone Duo into an itty bitty MacBook,Edovia has updated its Screens remote desktop app with a new Laptop Mode for the iPhone Duo.,https://www.engadget.com/img/gallery/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook/l-intro-1795701363.jpg,https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook/,http://www.engadget.com/rss-full.xml,2026-11-26T13:59:06Z,2,Tech
+Casetify's Pokémon 30th anniversary collection includes a Poké Ball case for your AirPods,"Casetify is releasing a Pokémon collection on December 1, and it includes an AirPods case that looks like a pixel Poké Ball.",https://www.engadget.com/img/gallery/casetifys-pokmon-30th-anniversary-collection-includes-a-pok-ball-case-for-your-airpods/l-intro-1795698753.jpg,https://www.engadget.com/2329106/casetifys-pokmon-30th-anniversary-collection-includes-a-pok-ball-case-for-your-airpods/,http://www.engadget.com/rss-full.xml,2026-11-26T13:14:18Z,5,Tech
+Palo Alto confirms Fragnesia exploitation against firewalls in PHP2Shell attacks,"
+		
+					  
+						
+
+
+
+
+Palo Alto Networks has confirmed that attackers exploited Fragnesia, a Linux kernel flaw, to gain root on PAN-OS firewalls through the PHP2Shell vulnerabilities, and has shipped fixes six months after the bug was patched in Linux.
+
+
+
+The vulnerability allows a locally authenticated, low-privileged attacker to escalate privileges to root.
+
+
+
+“Exploitation of CVE-2026-46300 has been observed targeting the Palo Alto Networks management interface exposed to the internet,” the company said in its November 25 security advisory. It added that all observed attacks targeted devices whose management interface “is exposed to the internet, a configuration our best practices advise against.”
+
+
+
+Even so, the company labeled the bulletin “Informational” and gave it no CVSS score. Fixed builds span every supported PAN-OS branch from 10.2 to 12.2.
+
+
+
+A second patch cycle in a month
+
+
+
+For PAN-OS customers, these are the second set of hotfixes in a month. Between October 25 and October 29, Palo Alto released fixes for PHP2Shell, according to the timeline in its PHP2Shell advisory. PHP2Shell is the collective name for CVE-2026-109618 and CVE-2026-109619, two critical flaws in the PHP runtime behind the PAN-OS management web interface.
+
+
+
+The company rated both flaws 9.2 on CVSS 4.0, and the advisory, which covers PA-Series and VM-Series firewalls and Panorama, said, “active exploitation has been observed.”
+
+
+
+The October builds do not include the kernel fix, which arrives in later releases listed in the new bulletin. Even for customers who have patched PHP2Shell, Palo Alto said in the bulletin that it “still recommend[s] upgrading to a fixed release at your next maintenance interval.”
+
+
+
+Palo Alto is relaxed about the timing. “If you are running a fixed PAN-OS listed in the CVE-2026-109618 advisory, you are protected,” the bulletin said. “The only known way to exploit this vulnerability requires an attacker to first exploit the PHP2Shell vulnerability,” it added. For devices with management access restricted to trusted internal IP addresses, it advises upgrading “at your next maintenance interval.”
+
+
+
+Duncan Brown, group vice president and global domain lead for worldwide security and trust at IDC, said that the approach is defensible when vulnerabilities are chained.
+
+
+
+“It’s acceptable to apply one patch that effectively breaks the chain. Ideally, all vulnerabilities would be patched as early as possible, but in many cases this is not practical,” Brown said.
+
+
+
+Rahul Karne, a senior digital forensics and incident response analyst, called patching PHP2Shell a reasonable short-term step, but said it blocks the known way in without fixing the bug.
+
+
+
+“The key word is ‘known,’” Karne said. He pointed out that public exploit code for Fragnesia, including a Metasploit module, is available, and that any other code execution flaw on the device would make the kernel bug usable again.
+
+
+
+From web shell to root
+
+
+
+The chain has been public for almost a month. In late October, Dream Security researchers reported that attackers combined PHP2Shell with Fragnesia to compromise firewalls running vulnerable PAN-OS builds.
+
+
+
+According to Dream, the attackers used PHP2Shell to run code as the web service account and then used the kernel flaw to become root. From there, they tunneled into internal networks and stole credentials, private keys, and network topology data.
+
+
+
+The kernel bug itself is not new. William Bowling, a researcher at Zellic, disclosed Fragnesia on May 13 along with a proof-of-concept exploit and an upstream kernel patch, after finding it with the help of the company’s V12 AI auditing agent. Fedora shipped a fixed kernel the next day.
+
+
+
+Karne said some delay is normal for appliance vendors that maintain custom kernels across many hardware models, but 195 days is too long when exploit code is public. Customers should hear whether they are affected within a week of such a disclosure and get a fix within about 30 days, he said.
+
+
+
+“A firewall should not get security fixes more slowly than the servers it protects,” Karne said.
+
+
+
+The firewall as a foothold
+
+
+
+Palo Alto is not the only security vendor whose appliances were rooted this way. In November, Check Point said “a couple of dozen” customers were hit after attackers chained PHP2Shell with a Gaia OS privilege escalation flaw to take over gateways and deploy a wiper.
+
+
+
+Niyati Daftary, principal analyst at Gartner, said CISOs should treat the incident as a weakness in their trust model for security appliances, not merely a patching issue.
+
+
+
+“A firewall running Linux, PHP and other third-party components must be assessed with the same rigor as any privileged, internet-facing server,” Daftary said. “Vendor labels such as ‘Informational’ should never override enterprise risk analysis when flaws can be chained to achieve root access.”
+
+
+
+“If a device is exposed during the attack window, merely applying the hotfix does not establish trust,” she added. Teams should review administrative access, rotate credentials and certificates, hunt for persistence, and reimage the appliance from a known-good build when root compromise cannot be ruled out, she said. Asked why the kernel fix took six months to reach PAN-OS, and whether Panorama is affected, Palo Alto said it had “no further information to share beyond what is outlined in the advisory at this time.”
+",https://www.csoonline.com/wp-content/uploads/2026/11/4243816-0-19481200-1793703201-shutterstock_680075014.jpg?quality=50&strip=all,https://www.csoonline.com/article/4253600/palo-alto-confirms-fragnesia-exploitation-against-firewalls-in-php2shell-attacks.html,https://www.csoonline.com/feed/,2026-11-26T13:05:35Z,16,Cybersecurity
+Critical Juniper Session Smart Conductor Flaw Exploited in Attacks,"Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root.
+The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/,https://www.securityweek.com/feed/,2026-11-26T13:04:06Z,10,Cybersecurity
+Draining peatlands is responsible for a few percent of our global warming,Detailed estimate going back to 1800 shows how much carbon is being liberated.,https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1296653735-1152x648.jpg,https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/,https://arstechnica.com/feed/,2026-11-26T12:15:42Z,5,Tech
+From minimalist to maximalist: Ars staffers show off their home offices,Our home offices range from tasteful to &#34;please explain yourself.&#34;,https://cdn.arstechnica.net/wp-content/uploads/2026/11/ars-office-collage-2026-1152x648.jpg,https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/,https://arstechnica.com/feed/,2026-11-26T12:00:14Z,5,Tech
+Waymo conquered city streets — why does it keep stumbling on freeways?,"Most people know not to try to pass highway patrol cars while performing a traffic break on a freeway. But on November 6th, a driverless Waymo on Interstate 280 failed that test. Video shows the robotaxi attempting to overtake two California Highway Patrol cruisers during a traffic break, a moving violation that could get a […]",,https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls,https://www.theverge.com/rss/index.xml,2026-11-26T12:00:00Z,5,Tech
+"SYS010 malware abuses browser management to spy on Gmail, Outlook","A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",,https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/,https://www.bleepingcomputer.com/feed/,2026-11-26T11:50:17Z,4,Cybersecurity
+Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks,"Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign.
+The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek.
+",,https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/,https://www.securityweek.com/feed/,2026-11-26T11:35:25Z,15,Cybersecurity
+SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center,The FCC has granted SpaceX&#39;s request to deploy 1 million satellites to build an AI data center in orbit.,https://www.engadget.com/img/gallery/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/l-intro-1795690830.jpg,https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/,http://www.engadget.com/rss-full.xml,2026-11-26T11:01:32Z,6,Tech
+Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls,"Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.
+
+At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.
+
+How an",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOYXUiExbrrmBGGBgTjOFcDJSrLYJuITQwZY-l1mOzzkes21-mR0My9ikeCM7cI6VDXuBIE9BZPnKazemiuZf7A4w_xeeMy_IUUlNVTKX3PmW-Xt7FA9UI8JoICZDPW4ZWSspztPv_Mo4Zf7G_fXEw_phMe4uc89O38ugIlQJJKmc6VD7QN3NzU0n0SQU/s1600/push-most.jpg,https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html,https://feeds.feedburner.com/TheHackersNews,2026-11-26T10:57:55Z,7,Cybersecurity
+X is finally getting its first parental controls,"X is finally rolling out parental controls that allow parents and guardians to manage teens&#39; accounts on the platform. While teens will retain ownership of their own account, parents and guardians will be able to see how much time their child has spent on X, set daily limits, require approval for new followers, and limit […]",,https://www.theverge.com/news/1043078/x-parental-controls-features,https://www.theverge.com/rss/index.xml,2026-11-26T10:45:50Z,6,Tech
 42 state AGs are trying to stop Character.AI from selling users’ chats,"A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off &#34;the private chat histories of more than 21 million U.S. accounts - […]",,https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats,https://www.theverge.com/rss/index.xml,2026-11-26T09:54:40Z,5,Tech
 X is adding its first-ever parental controls,X (and Twitter before it) have never really had real parental controls. Until now.,https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/l-intro-1795684809.jpg,https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/,http://www.engadget.com/rss-full.xml,2026-11-26T09:26:24Z,0,Tech
 Drupal Installer Patch Left a Gap Attackers Are Already Exploiting,"Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap.
